@@ -1,0 +1,1402 @@
+[
+  {
+    "claim_id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+    "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+    "paper_id": "paper:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:35d7d703-bed4-4b95-adf0-690b4d1fcb07",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.exp.alpha",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.equilibrium-fractionation",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.equilibrium-fractionation",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:35d7d703-bed4-4b95-adf0-690b4d1fcb07",
+          "toId": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+          "toId": "anchor.exp.alpha",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.exp.alpha",
+          "toId": "obs.equilibrium-fractionation",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.equilibrium-fractionation",
+          "toId": "reason.equilibrium-fractionation",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.equilibrium-fractionation",
+          "toId": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:a08bd941478db80619f546cba83a5705b2a98ebfda11a4a76fe96048d389eaba",
+    "snapshot_id": "snapshot:sha256:f021edfe89c76206fb524ba24d83ff9132c77ed29684e9bb26b34af5029a137c",
+    "paper_id": "paper:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:ff2e879f-af87-4bd6-b4f1-d6729f38d45a",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.so4.no35so4",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.so4",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.so4.noexchange",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:a08bd941478db80619f546cba83a5705b2a98ebfda11a4a76fe96048d389eaba",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:ff2e879f-af87-4bd6-b4f1-d6729f38d45a",
+          "toId": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+          "toId": "anchor.so4.no35so4",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.so4.no35so4",
+          "toId": "obs.so4",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.so4",
+          "toId": "reason.so4.noexchange",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.so4.noexchange",
+          "toId": "claim:sha256:a08bd941478db80619f546cba83a5705b2a98ebfda11a4a76fe96048d389eaba",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:c6eac5192756219b5830524be052180a81f08af54f45e2312efad36bdc00487c",
+    "snapshot_id": "snapshot:sha256:f021edfe89c76206fb524ba24d83ff9132c77ed29684e9bb26b34af5029a137c",
+    "paper_id": "paper:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:ff2e879f-af87-4bd6-b4f1-d6729f38d45a",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.expII.equilibration",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.expII",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.exchange.synthesis",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:c6eac5192756219b5830524be052180a81f08af54f45e2312efad36bdc00487c",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:ff2e879f-af87-4bd6-b4f1-d6729f38d45a",
+          "toId": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+          "toId": "anchor.expII.equilibration",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.expII.equilibration",
+          "toId": "obs.expII",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.expII",
+          "toId": "reason.exchange.synthesis",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.exchange.synthesis",
+          "toId": "claim:sha256:c6eac5192756219b5830524be052180a81f08af54f45e2312efad36bdc00487c",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:c01ca38b93b1a01a20017ae2e76e72763844715d033826ec13e5a2d6a8426d0f",
+    "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+    "paper_id": "paper:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:35d7d703-bed4-4b95-adf0-690b4d1fcb07",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.carbonate-abstract",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.carbonate-speciation",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.carbonate-model",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:c01ca38b93b1a01a20017ae2e76e72763844715d033826ec13e5a2d6a8426d0f",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:35d7d703-bed4-4b95-adf0-690b4d1fcb07",
+          "toId": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+          "toId": "anchor.carbonate-abstract",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.carbonate-abstract",
+          "toId": "obs.carbonate-speciation",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.carbonate-speciation",
+          "toId": "reason.carbonate-model",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.carbonate-model",
+          "toId": "claim:sha256:c01ca38b93b1a01a20017ae2e76e72763844715d033826ec13e5a2d6a8426d0f",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:4637d7139f7e2ee72a8eb28b42a43749875104d81b531bad556fbc892d880193",
+    "snapshot_id": "snapshot:sha256:689b6136afcf9f437b485813a51265f00eeb3a79cebb74fdc6472f1068429e11",
+    "paper_id": "paper:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:ca90f31b-3b3e-4ae7-a8ea-376a38fc65da",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.assumption.denitrification",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "assumption.denitrification",
+          "kind": "assumption"
+        },
+        {
+          "id": "reason.fixed_n_loss",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:4637d7139f7e2ee72a8eb28b42a43749875104d81b531bad556fbc892d880193",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:ca90f31b-3b3e-4ae7-a8ea-376a38fc65da",
+          "toId": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+          "toId": "anchor.assumption.denitrification",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.assumption.denitrification",
+          "toId": "assumption.denitrification",
+          "relation": "anchors",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "assumption.denitrification",
+          "toId": "reason.fixed_n_loss",
+          "relation": "assumption_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.fixed_n_loss",
+          "toId": "claim:sha256:4637d7139f7e2ee72a8eb28b42a43749875104d81b531bad556fbc892d880193",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:3eda6e041b0d7932324936ba1dda4d301e903af65d2b2c1f9c6beb3b72527669",
+    "snapshot_id": "snapshot:sha256:6a058f28a927aefa8ac2a73849911e7b7fc141c5f593da179f4daf88072e6c30",
+    "paper_id": "paper:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:9e8f6a8b-a5a2-400f-aa3e-b4539c4c13c1",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.alt-acid",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.other-acidification",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.microbial-synthesis",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:3eda6e041b0d7932324936ba1dda4d301e903af65d2b2c1f9c6beb3b72527669",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:9e8f6a8b-a5a2-400f-aa3e-b4539c4c13c1",
+          "toId": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+          "toId": "anchor.alt-acid",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.alt-acid",
+          "toId": "obs.other-acidification",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.other-acidification",
+          "toId": "reason.microbial-synthesis",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.microbial-synthesis",
+          "toId": "claim:sha256:3eda6e041b0d7932324936ba1dda4d301e903af65d2b2c1f9c6beb3b72527669",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:4bdebfd501e5a472ea0de88c76246da06282fb14832761d6acabef0e40bbf5be",
+    "snapshot_id": "snapshot:sha256:80da8b28ba87f7880474f47e5b08103e629f35ffbac25058e8e859dbe39b7927",
+    "paper_id": "paper:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:9ddd1943-f718-4ab8-b1c0-daf38a76ecd2",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "a.text.salinity.abstract",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.salinity.abstract",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.salinity.synthesis",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:4bdebfd501e5a472ea0de88c76246da06282fb14832761d6acabef0e40bbf5be",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:9ddd1943-f718-4ab8-b1c0-daf38a76ecd2",
+          "toId": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+          "toId": "a.text.salinity.abstract",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "a.text.salinity.abstract",
+          "toId": "obs.salinity.abstract",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.salinity.abstract",
+          "toId": "reason.salinity.synthesis",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.salinity.synthesis",
+          "toId": "claim:sha256:4bdebfd501e5a472ea0de88c76246da06282fb14832761d6acabef0e40bbf5be",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:8e13edc887550adbff434013ca9e68123a54fee17fc5bc39c9b831d0a711296b",
+    "snapshot_id": "snapshot:sha256:a2aaaa9a3b70987a56085e142e1cf1990443c4e70d0948fe0902015231718a8a",
+    "paper_id": "paper:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:c484a5a4-9ec8-40c7-add8-0b17c5c28ad5",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "a.figure1",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.model.mechanism.schematic",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.mechanism.synthesis",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:8e13edc887550adbff434013ca9e68123a54fee17fc5bc39c9b831d0a711296b",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:c484a5a4-9ec8-40c7-add8-0b17c5c28ad5",
+          "toId": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+          "toId": "a.figure1",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "a.figure1",
+          "toId": "obs.model.mechanism.schematic",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.model.mechanism.schematic",
+          "toId": "reason.mechanism.synthesis",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.mechanism.synthesis",
+          "toId": "claim:sha256:8e13edc887550adbff434013ca9e68123a54fee17fc5bc39c9b831d0a711296b",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:a211c8abde5ddadff14f5931989cb9d4831a8d54cebee1533e8eeb664657c70f",
+    "snapshot_id": "snapshot:sha256:6eed8960f5989547888f77d4bd67a1e6462e2fc6c8041c36870e8fa1dabf99ca",
+    "paper_id": "paper:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:cd98d702-3b84-4621-b904-b4826ebd59b5",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "a.fig.3",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.sulfite.loss",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.sulfite.disproportionation",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:a211c8abde5ddadff14f5931989cb9d4831a8d54cebee1533e8eeb664657c70f",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:cd98d702-3b84-4621-b904-b4826ebd59b5",
+          "toId": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+          "toId": "a.fig.3",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "a.fig.3",
+          "toId": "obs.sulfite.loss",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.sulfite.loss",
+          "toId": "reason.sulfite.disproportionation",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.sulfite.disproportionation",
+          "toId": "claim:sha256:a211c8abde5ddadff14f5931989cb9d4831a8d54cebee1533e8eeb664657c70f",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:578c0e04885404605d6fe5d30202a211cccb76b8243804228206dcea1d3c1e47",
+    "snapshot_id": "snapshot:sha256:045b813be329773731f8fec8293b26b5abf2b2e295dd6d1cb8c7282cdb46479e",
+    "paper_id": "paper:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:e950ced5-91ed-4f5b-bb3a-e23835c6ab16",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.sink.load",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.sink.load",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.sink.interpretation",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:578c0e04885404605d6fe5d30202a211cccb76b8243804228206dcea1d3c1e47",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:e950ced5-91ed-4f5b-bb3a-e23835c6ab16",
+          "toId": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+          "toId": "anchor.sink.load",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.sink.load",
+          "toId": "obs.sink.load",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.sink.load",
+          "toId": "reason.sink.interpretation",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.sink.interpretation",
+          "toId": "claim:sha256:578c0e04885404605d6fe5d30202a211cccb76b8243804228206dcea1d3c1e47",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+    "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+    "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.text.cohesion",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "assumption.cohesion",
+          "kind": "assumption"
+        },
+        {
+          "id": "reason.f2.evidence",
+          "kind": "reasoning"
+        },
+        {
+          "id": "reason.f2.safety",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "toId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "toId": "anchor.text.cohesion",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.text.cohesion",
+          "toId": "assumption.cohesion",
+          "relation": "anchors",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "assumption.cohesion",
+          "toId": "reason.f2.evidence",
+          "relation": "assumption_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.f2.evidence",
+          "toId": "reason.f2.safety",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.f2.safety",
+          "toId": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:939083b72847a601b30d3a605c5b8c3778f1b3fb8deee724d8e2c557132014f9",
+    "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+    "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.figure.fig7",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.fig7",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.f3.mechanism",
+          "kind": "reasoning"
+        },
+        {
+          "id": "reason.f3.risk",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:939083b72847a601b30d3a605c5b8c3778f1b3fb8deee724d8e2c557132014f9",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "toId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "toId": "anchor.figure.fig7",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.figure.fig7",
+          "toId": "obs.fig7",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.fig7",
+          "toId": "reason.f3.mechanism",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.f3.mechanism",
+          "toId": "reason.f3.risk",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.f3.risk",
+          "toId": "claim:sha256:939083b72847a601b30d3a605c5b8c3778f1b3fb8deee724d8e2c557132014f9",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:6d6449f97fa8cb2d1e996cd10ac1f20f5af9af4fa88b113bb215ecde045b3951",
+    "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+    "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.text.cohesion",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "assumption.cohesion",
+          "kind": "assumption"
+        },
+        {
+          "id": "reason.f2.evidence",
+          "kind": "reasoning"
+        },
+        {
+          "id": "reason.method.concordance",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:6d6449f97fa8cb2d1e996cd10ac1f20f5af9af4fa88b113bb215ecde045b3951",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "toId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "toId": "anchor.text.cohesion",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.text.cohesion",
+          "toId": "assumption.cohesion",
+          "relation": "anchors",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "assumption.cohesion",
+          "toId": "reason.f2.evidence",
+          "relation": "assumption_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.f2.evidence",
+          "toId": "reason.method.concordance",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.method.concordance",
+          "toId": "claim:sha256:6d6449f97fa8cb2d1e996cd10ac1f20f5af9af4fa88b113bb215ecde045b3951",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:dbf43775e7729f9dbcbdbe576e4bd9c6f4c44be53dc39888973bb32d3fe76ad1",
+    "snapshot_id": "snapshot:sha256:9e4cabc7fc47f31b39e747dda60145faf71094bc8fb7a3744cc5631f6580680f",
+    "paper_id": "paper:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:001c4e7b-dc03-4007-8721-8bf3c33ebaa9",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.figure.5b",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.postdiff.dominance",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.postdiff",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:dbf43775e7729f9dbcbdbe576e4bd9c6f4c44be53dc39888973bb32d3fe76ad1",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:001c4e7b-dc03-4007-8721-8bf3c33ebaa9",
+          "toId": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+          "toId": "anchor.figure.5b",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.figure.5b",
+          "toId": "obs.postdiff.dominance",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.postdiff.dominance",
+          "toId": "reason.postdiff",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.postdiff",
+          "toId": "claim:sha256:dbf43775e7729f9dbcbdbe576e4bd9c6f4c44be53dc39888973bb32d3fe76ad1",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+    "snapshot_id": "snapshot:sha256:1116bfdeeb1a66370dc3107b965e5cd3b6b09158ce3e49eef26b89730c0c8921",
+    "paper_id": "paper:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:9f26a5b8-2609-40c2-b6d5-fc6100099457",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.figure.25",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.not_critical",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.critical_stress",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:9f26a5b8-2609-40c2-b6d5-fc6100099457",
+          "toId": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+          "toId": "anchor.figure.25",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.figure.25",
+          "toId": "obs.not_critical",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.not_critical",
+          "toId": "reason.critical_stress",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.critical_stress",
+          "toId": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:5384a03db5e97e2743a891f1b4cd991a5545cd18694c00e560244569864fc26f",
+    "snapshot_id": "snapshot:sha256:1116bfdeeb1a66370dc3107b965e5cd3b6b09158ce3e49eef26b89730c0c8921",
+    "paper_id": "paper:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:9f26a5b8-2609-40c2-b6d5-fc6100099457",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.figure.23",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.postproduction_profiles",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.seal_integrity",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:5384a03db5e97e2743a891f1b4cd991a5545cd18694c00e560244569864fc26f",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:9f26a5b8-2609-40c2-b6d5-fc6100099457",
+          "toId": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+          "toId": "anchor.figure.23",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.figure.23",
+          "toId": "obs.postproduction_profiles",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.postproduction_profiles",
+          "toId": "reason.seal_integrity",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.seal_integrity",
+          "toId": "claim:sha256:5384a03db5e97e2743a891f1b4cd991a5545cd18694c00e560244569864fc26f",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:d46402cfeb7fc0e48a039ddfa39ddb2ef398fd255a8aac44d5f32887ff926bb7",
+    "snapshot_id": "snapshot:sha256:63f5a382668e2a4b0c63b58366d698bc91391db0e15d577a8b3378c5541ed988",
+    "paper_id": "paper:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:cc65cce7-5080-43a3-8842-a0daf1b7a9ea",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.collapse.conclusion",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.collapse.conclusion",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.collapse.synthesis",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:d46402cfeb7fc0e48a039ddfa39ddb2ef398fd255a8aac44d5f32887ff926bb7",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:cc65cce7-5080-43a3-8842-a0daf1b7a9ea",
+          "toId": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+          "toId": "anchor.collapse.conclusion",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.collapse.conclusion",
+          "toId": "obs.collapse.conclusion",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.collapse.conclusion",
+          "toId": "reason.collapse.synthesis",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.collapse.synthesis",
+          "toId": "claim:sha256:d46402cfeb7fc0e48a039ddfa39ddb2ef398fd255a8aac44d5f32887ff926bb7",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:59ff8db056e1697e771e7b5884ed7ba53890ed95d95ed58517e068fb035f3755",
+    "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+    "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.text.mohr.result",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.mohr.current",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.mohr.interpretation",
+          "kind": "reasoning"
+        },
+        {
+          "id": "reason.current.synthesis",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:59ff8db056e1697e771e7b5884ed7ba53890ed95d95ed58517e068fb035f3755",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "toId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "toId": "anchor.text.mohr.result",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.text.mohr.result",
+          "toId": "obs.mohr.current",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.mohr.current",
+          "toId": "reason.mohr.interpretation",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.mohr.interpretation",
+          "toId": "reason.current.synthesis",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.current.synthesis",
+          "toId": "claim:sha256:59ff8db056e1697e771e7b5884ed7ba53890ed95d95ed58517e068fb035f3755",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:d71be473e7815b433097ea3b579b67317881a3b9a516a07d11917cde99b1e991",
+    "snapshot_id": "snapshot:sha256:79acd1fdeae121f33e7362dcac51176945a1b8d7522d9c658f110780bfa08c84",
+    "paper_id": "paper:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:9c0c0492-cfc7-4de3-a6e7-e4a4c5485eab",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "a.assumption1",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "assumption.depthprojection",
+          "kind": "assumption"
+        },
+        {
+          "id": "reason.reactivationlimits",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:d71be473e7815b433097ea3b579b67317881a3b9a516a07d11917cde99b1e991",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:9c0c0492-cfc7-4de3-a6e7-e4a4c5485eab",
+          "toId": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+          "toId": "a.assumption1",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "a.assumption1",
+          "toId": "assumption.depthprojection",
+          "relation": "anchors",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "assumption.depthprojection",
+          "toId": "reason.reactivationlimits",
+          "relation": "assumption_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.reactivationlimits",
+          "toId": "claim:sha256:d71be473e7815b433097ea3b579b67317881a3b9a516a07d11917cde99b1e991",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": "claim:sha256:e4666180b331d55287579b920bfb2a88a49aacd71aca63f7340b1de5aff0bbbb",
+    "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+    "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+    "source": {
+      "artifactVersionId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99"
+    },
+    "shortest_evidence_path": {
+      "nodes": [
+        {
+          "id": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "kind": "artifact"
+        },
+        {
+          "id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "kind": "artifact_version"
+        },
+        {
+          "id": "anchor.text.recommendation",
+          "kind": "source_anchor"
+        },
+        {
+          "id": "obs.injection.location",
+          "kind": "observation"
+        },
+        {
+          "id": "reason.location",
+          "kind": "reasoning"
+        },
+        {
+          "id": "claim:sha256:e4666180b331d55287579b920bfb2a88a49aacd71aca63f7340b1de5aff0bbbb",
+          "kind": "atomic_claim"
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "toId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "relation": "versions",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "toId": "anchor.text.recommendation",
+          "relation": "locates",
+          "linkType": "provenance"
+        },
+        {
+          "fromId": "anchor.text.recommendation",
+          "toId": "obs.injection.location",
+          "relation": "grounds",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "obs.injection.location",
+          "toId": "reason.location",
+          "relation": "premise_for",
+          "linkType": "edge"
+        },
+        {
+          "fromId": "reason.location",
+          "toId": "claim:sha256:e4666180b331d55287579b920bfb2a88a49aacd71aca63f7340b1de5aff0bbbb",
+          "relation": "infers",
+          "linkType": "edge"
+        }
+      ]
+    }
+  }
+]

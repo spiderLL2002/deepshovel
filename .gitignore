@@ -1,0 +1,123 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.venv/
+/compiler/.venv/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+/.pytest_cache/
+/.ruff_cache/
+/compiler/.pytest_cache/
+/compiler/.ruff_cache/
+__pycache__/
+*.py[cod]
+
+# next.js
+/.next/
+/.vinext/
+/out/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+/logs/
+
+# env files (can opt-in for committing if needed)
+.env*
+!/compiler/.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
+# vercel
+.vercel
+
+# typescript
+next-env.d.ts
+*.tsbuildinfo
+/dist/
+/.wrangler/
+**/.project-runtime/
+/outputs/
+/work/
+/tmp/
+/.compiler-data/
+/compiler/.compiler-data/
+/compiler/benchmarks/output/
+/public/pdfjs/
+/deploy/generated/
+/deploy/cloudflared/*.json
+/control_app/build/
+
+# local Codex state; the checked-in architecture contract is intentional
+/.codex/*
+!/.codex/architecture.md
+
+# local research inputs and durable runtime data
+/data/**
+!/data/originals/
+!/data/originals/.gitkeep
+/papers/
+/uploads/
+/artifacts/
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.zip
+*.rar
+*.7z
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.arrow
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Keep the Atlas application source, but never upload reference datasets/reports.
+/public/geochemical-atlas/*
+!/public/geochemical-atlas/README.md
+!/public/geochemical-atlas/world-atlas.web.html
+!/public/geochemical-atlas/workbench.css
+
+# Generated evaluation runs are not runtime source.
+/compiler/benchmarks/
+
+# Public reproduction and local-only environments
+/.repro-venv/
+/runs/
+/release-build/
+/artifact/replays/*/runs/
+!artifact/second-case/source.pdf
+!artifact/nd-case/source/article.pdf
+!artifact/recipient-check/target-row.csv
+!artifact/recipient-check/value-citation-projection.csv

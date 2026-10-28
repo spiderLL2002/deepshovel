@@ -1,0 +1,46 @@
+{
+  "$comment": "Single source of cross-language contract values for the Web (TypeScript) and the Compiler (Python). Edit this file (contracts/shared-contract.json), then run `node scripts/generate-shared-contract.mjs`; both test suites fail while a generated module is stale or a hand-written Literal disagrees.",
+  "contract_version": "deepshovel-shared-contract/1",
+  "compiler": {
+    "extraction_prompt_version": "compiler-extractor/1.0.0",
+    "verification_prompt_version": "compiler-verifier/1.0.0"
+  },
+  "evidence_graph": {
+    "schema_version": "scientific-evidence-graph/1.0",
+    "claim_types": [
+      "descriptive",
+      "comparative",
+      "correlational",
+      "causal",
+      "mechanistic",
+      "methodological",
+      "predictive"
+    ],
+    "claim_polarities": ["affirmed", "negated", "uncertain"],
+    "claim_modalities": ["asserted", "hypothesis", "conditional"],
+    "reasoning_conclusion_relations": ["infers", "contradicts", "qualifies"],
+    "normalized_region_extent_max": 1.000001
+  },
+  "retrieval": {
+    "index_version": "evidence-retrieval/2.0",
+    "search_protocol_version": "evidence-retrieval/2.1",
+    "context_protocol_version": "evidence-retrieval/2.3",
+    "retired_protocol_versions": ["evidence-retrieval/2.2"],
+    "query_plan_handoff_schema_version": "deepshovel-query-plan-handoff/1.0",
+    "query_plan_handoff_max_characters": 700000,
+    "continuation_key_id": "derived-auth-v1",
+    "continuation_ttl_seconds": 1800,
+    "context_max_turns": 16,
+    "context_max_supplements": 8,
+    "context_max_text_characters": 8000,
+    "context_max_total_bytes": 32768,
+    "max_check_manifests": 4096,
+    "max_index_documents": 2048,
+    "max_search_limit": 50
+  },
+  "retrieval_sessions": {
+    "id_pattern": "^rs1\\.[A-Za-z0-9_-]{43}$",
+    "ttl_seconds": 1800,
+    "kinds": ["query_plan_handoff", "context", "clarification"]
+  }
+}

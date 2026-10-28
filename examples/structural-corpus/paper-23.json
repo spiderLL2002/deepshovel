@@ -1,0 +1,898 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+  "snapshot_id": "snapshot:sha256:0078ced5e616c72644fd547909f2af28dd752ad1cd8f20a6b2cd6d8b046b1591",
+  "original_graph_json_sha256": "0078ced5e616c72644fd547909f2af28dd752ad1cd8f20a6b2cd6d8b046b1591",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:7cb89a15-6850-49a9-804b-a147c216a770",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:7cb89a15-6850-49a9-804b-a147c216a770",
+        "sha256": "a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.abstract.transition",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.age.assignments",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.early.deep",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.early.facies",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.freshwater.remains",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.hiatus.oscillation",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.middle.regression",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.nonmarine.interpretation",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.nummulite.no_erosion",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.nummulite.orientation",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.nummulite.preservation",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.nummulite.unidirectional",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.nummulite.uniform",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.ostracod.abundance",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.ostracod.brackish",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.ostracod.salinity",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.ostracod.species",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.paleogene.deep",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.regional.uplift",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.swells.subbasins",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.syrian.arc",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.tectonic.conclusion",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "anchor.tectonic.setting_change",
+        "artifact_version_id": "artifact-version:sha256:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.abstract.transition",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.abstract.transition"
+        ]
+      },
+      {
+        "id": "obs.age.assignments",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.age.assignments"
+        ]
+      },
+      {
+        "id": "obs.early.deep",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.early.deep"
+        ]
+      },
+      {
+        "id": "obs.early.facies",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.early.facies"
+        ]
+      },
+      {
+        "id": "obs.freshwater.remains",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.freshwater.remains"
+        ]
+      },
+      {
+        "id": "obs.hiatus.oscillation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.hiatus.oscillation"
+        ]
+      },
+      {
+        "id": "obs.middle.regression",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.middle.regression"
+        ]
+      },
+      {
+        "id": "obs.nonmarine.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.nonmarine.interpretation"
+        ]
+      },
+      {
+        "id": "obs.nummulite.no_erosion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.nummulite.no_erosion"
+        ]
+      },
+      {
+        "id": "obs.nummulite.orientation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.nummulite.orientation"
+        ]
+      },
+      {
+        "id": "obs.nummulite.preservation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.nummulite.preservation"
+        ]
+      },
+      {
+        "id": "obs.nummulite.unidirectional",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.nummulite.unidirectional"
+        ]
+      },
+      {
+        "id": "obs.nummulite.uniform",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.nummulite.uniform"
+        ]
+      },
+      {
+        "id": "obs.ostracod.abundance",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.ostracod.abundance",
+          "anchor.ostracod.species"
+        ]
+      },
+      {
+        "id": "obs.ostracod.brackish",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.ostracod.brackish"
+        ]
+      },
+      {
+        "id": "obs.ostracod.salinity",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.ostracod.salinity"
+        ]
+      },
+      {
+        "id": "obs.paleogene.deep",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.paleogene.deep"
+        ]
+      },
+      {
+        "id": "obs.regional.uplift",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.regional.uplift"
+        ]
+      },
+      {
+        "id": "obs.syrian.arc.structures",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.swells.subbasins",
+          "anchor.syrian.arc"
+        ]
+      },
+      {
+        "id": "obs.tectonic.conclusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.tectonic.conclusion"
+        ]
+      },
+      {
+        "id": "obs.tectonic.setting_change",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.tectonic.setting_change"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.nummulite.energy_evidence",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.nummulite.no_erosion",
+          "anchor.nummulite.orientation",
+          "anchor.nummulite.preservation",
+          "anchor.nummulite.unidirectional",
+          "anchor.nummulite.uniform"
+        ]
+      },
+      {
+        "id": "reason.nummulite.energy_interpretation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.nummulite.no_erosion",
+          "anchor.nummulite.orientation",
+          "anchor.nummulite.preservation",
+          "anchor.nummulite.unidirectional",
+          "anchor.nummulite.uniform"
+        ]
+      },
+      {
+        "id": "reason.ostracod.environment",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.freshwater.remains",
+          "anchor.ostracod.abundance",
+          "anchor.ostracod.brackish",
+          "anchor.ostracod.salinity",
+          "anchor.ostracod.species"
+        ]
+      },
+      {
+        "id": "reason.tectonics.local",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.hiatus.oscillation",
+          "anchor.regional.uplift",
+          "anchor.tectonic.setting_change"
+        ]
+      },
+      {
+        "id": "reason.tectonics.regional",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.hiatus.oscillation",
+          "anchor.regional.uplift",
+          "anchor.swells.subbasins",
+          "anchor.syrian.arc",
+          "anchor.tectonic.conclusion",
+          "anchor.tectonic.setting_change"
+        ]
+      },
+      {
+        "id": "reason.uppermost_marl.environment",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.freshwater.remains",
+          "anchor.nonmarine.interpretation",
+          "anchor.ostracod.abundance",
+          "anchor.ostracod.brackish",
+          "anchor.ostracod.salinity",
+          "anchor.ostracod.species"
+        ]
+      },
+      {
+        "id": "reason.zahle.chronology",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.age.assignments"
+        ]
+      },
+      {
+        "id": "reason.zahle.deep_setting",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.age.assignments",
+          "anchor.early.deep",
+          "anchor.early.facies",
+          "anchor.paleogene.deep"
+        ]
+      },
+      {
+        "id": "reason.zahle.middle_setting",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.abstract.transition",
+          "anchor.middle.regression"
+        ]
+      },
+      {
+        "id": "reason.zahle.transition",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.abstract.transition",
+          "anchor.age.assignments",
+          "anchor.early.facies",
+          "anchor.middle.regression"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:38dd5967cedd618fa3bb9062b795dfa57d4a278b101827e13daffffb10d06515",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.abstract.transition",
+          "anchor.age.assignments",
+          "anchor.early.deep",
+          "anchor.early.facies",
+          "anchor.middle.regression",
+          "anchor.paleogene.deep"
+        ],
+        "source_id": "claim.paleogeographic_transition"
+      },
+      {
+        "id": "claim:sha256:3cfc25175ac70377c725b2ff9ed1d345d46f6d9b2e740e8bf29237b35ad8bb77",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.hiatus.oscillation",
+          "anchor.regional.uplift",
+          "anchor.swells.subbasins",
+          "anchor.syrian.arc",
+          "anchor.tectonic.conclusion",
+          "anchor.tectonic.setting_change"
+        ],
+        "source_id": "claim.tectonic_sealevel_controls"
+      },
+      {
+        "id": "claim:sha256:9710788a8d4e770a997594863eb67b1bcb8cacb630e67f36f486d3f986e0b790",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.freshwater.remains",
+          "anchor.nonmarine.interpretation",
+          "anchor.ostracod.abundance",
+          "anchor.ostracod.brackish",
+          "anchor.ostracod.salinity",
+          "anchor.ostracod.species"
+        ],
+        "source_id": "claim.uppermost_marl_nonmarine"
+      },
+      {
+        "id": "claim:sha256:eb9e1deb76ac0a406a133423f7cd183d69c3394c16845a8adad42abc7f635272",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.nummulite.no_erosion",
+          "anchor.nummulite.orientation",
+          "anchor.nummulite.preservation",
+          "anchor.nummulite.unidirectional",
+          "anchor.nummulite.uniform"
+        ],
+        "source_id": "claim.nummulite.low_energy"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.grounds.abstract",
+        "kind": "edge",
+        "source_id": "anchor.abstract.transition",
+        "target_id": "obs.abstract.transition",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.age",
+        "kind": "edge",
+        "source_id": "anchor.age.assignments",
+        "target_id": "obs.age.assignments",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.arc",
+        "kind": "edge",
+        "source_id": "anchor.syrian.arc",
+        "target_id": "obs.syrian.arc.structures",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.earlydeep",
+        "kind": "edge",
+        "source_id": "anchor.early.deep",
+        "target_id": "obs.early.deep",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.earlyfacies",
+        "kind": "edge",
+        "source_id": "anchor.early.facies",
+        "target_id": "obs.early.facies",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.freshwater",
+        "kind": "edge",
+        "source_id": "anchor.freshwater.remains",
+        "target_id": "obs.freshwater.remains",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hiatus",
+        "kind": "edge",
+        "source_id": "anchor.hiatus.oscillation",
+        "target_id": "obs.hiatus.oscillation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nonmarine",
+        "kind": "edge",
+        "source_id": "anchor.nonmarine.interpretation",
+        "target_id": "obs.nonmarine.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nummerosion",
+        "kind": "edge",
+        "source_id": "anchor.nummulite.no_erosion",
+        "target_id": "obs.nummulite.no_erosion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nummorientation",
+        "kind": "edge",
+        "source_id": "anchor.nummulite.orientation",
+        "target_id": "obs.nummulite.orientation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nummpreservation",
+        "kind": "edge",
+        "source_id": "anchor.nummulite.preservation",
+        "target_id": "obs.nummulite.preservation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nummuni",
+        "kind": "edge",
+        "source_id": "anchor.nummulite.unidirectional",
+        "target_id": "obs.nummulite.unidirectional",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nummuniform",
+        "kind": "edge",
+        "source_id": "anchor.nummulite.uniform",
+        "target_id": "obs.nummulite.uniform",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ostabundance",
+        "kind": "edge",
+        "source_id": "anchor.ostracod.abundance",
+        "target_id": "obs.ostracod.abundance",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ostbrackish",
+        "kind": "edge",
+        "source_id": "anchor.ostracod.brackish",
+        "target_id": "obs.ostracod.brackish",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ostsalinity",
+        "kind": "edge",
+        "source_id": "anchor.ostracod.salinity",
+        "target_id": "obs.ostracod.salinity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ostspecies",
+        "kind": "edge",
+        "source_id": "anchor.ostracod.species",
+        "target_id": "obs.ostracod.abundance",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.paleodeep",
+        "kind": "edge",
+        "source_id": "anchor.paleogene.deep",
+        "target_id": "obs.paleogene.deep",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.regression",
+        "kind": "edge",
+        "source_id": "anchor.middle.regression",
+        "target_id": "obs.middle.regression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.swells",
+        "kind": "edge",
+        "source_id": "anchor.swells.subbasins",
+        "target_id": "obs.syrian.arc.structures",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tectconclusion",
+        "kind": "edge",
+        "source_id": "anchor.tectonic.conclusion",
+        "target_id": "obs.tectonic.conclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tectshift",
+        "kind": "edge",
+        "source_id": "anchor.tectonic.setting_change",
+        "target_id": "obs.tectonic.setting_change",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.uplift",
+        "kind": "edge",
+        "source_id": "anchor.regional.uplift",
+        "target_id": "obs.regional.uplift",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.abstract",
+        "kind": "edge",
+        "source_id": "obs.abstract.transition",
+        "target_id": "reason.zahle.middle_setting",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.age",
+        "kind": "edge",
+        "source_id": "obs.age.assignments",
+        "target_id": "reason.zahle.chronology",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.chronology.deep",
+        "kind": "edge",
+        "source_id": "reason.zahle.chronology",
+        "target_id": "reason.zahle.deep_setting",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.deep.synthesis",
+        "kind": "edge",
+        "source_id": "reason.zahle.deep_setting",
+        "target_id": "reason.zahle.transition",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.earlydeep",
+        "kind": "edge",
+        "source_id": "obs.early.deep",
+        "target_id": "reason.zahle.deep_setting",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.earlyfacies",
+        "kind": "edge",
+        "source_id": "obs.early.facies",
+        "target_id": "reason.zahle.deep_setting",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.energy.synthesis",
+        "kind": "edge",
+        "source_id": "reason.nummulite.energy_evidence",
+        "target_id": "reason.nummulite.energy_interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.freshwater",
+        "kind": "edge",
+        "source_id": "obs.freshwater.remains",
+        "target_id": "reason.ostracod.environment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hiatus",
+        "kind": "edge",
+        "source_id": "obs.hiatus.oscillation",
+        "target_id": "reason.tectonics.local",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.middle.synthesis",
+        "kind": "edge",
+        "source_id": "reason.zahle.middle_setting",
+        "target_id": "reason.zahle.transition",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nonmarine",
+        "kind": "edge",
+        "source_id": "obs.nonmarine.interpretation",
+        "target_id": "reason.uppermost_marl.environment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nummerosion",
+        "kind": "edge",
+        "source_id": "obs.nummulite.no_erosion",
+        "target_id": "reason.nummulite.energy_evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nummorientation",
+        "kind": "edge",
+        "source_id": "obs.nummulite.orientation",
+        "target_id": "reason.nummulite.energy_evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nummpreservation",
+        "kind": "edge",
+        "source_id": "obs.nummulite.preservation",
+        "target_id": "reason.nummulite.energy_evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nummuni",
+        "kind": "edge",
+        "source_id": "obs.nummulite.unidirectional",
+        "target_id": "reason.nummulite.energy_evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nummuniform",
+        "kind": "edge",
+        "source_id": "obs.nummulite.uniform",
+        "target_id": "reason.nummulite.energy_evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ostrabrackish",
+        "kind": "edge",
+        "source_id": "obs.ostracod.brackish",
+        "target_id": "reason.ostracod.environment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ostrabundance",
+        "kind": "edge",
+        "source_id": "obs.ostracod.abundance",
+        "target_id": "reason.ostracod.environment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ostracomposite",
+        "kind": "edge",
+        "source_id": "reason.ostracod.environment",
+        "target_id": "reason.uppermost_marl.environment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ostrasalinity",
+        "kind": "edge",
+        "source_id": "obs.ostracod.salinity",
+        "target_id": "reason.ostracod.environment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.paleodeep",
+        "kind": "edge",
+        "source_id": "obs.paleogene.deep",
+        "target_id": "reason.zahle.deep_setting",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.regression",
+        "kind": "edge",
+        "source_id": "obs.middle.regression",
+        "target_id": "reason.zahle.middle_setting",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tectonics.conclusion",
+        "kind": "edge",
+        "source_id": "obs.tectonic.conclusion",
+        "target_id": "reason.tectonics.regional",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tectonics.local",
+        "kind": "edge",
+        "source_id": "reason.tectonics.local",
+        "target_id": "reason.tectonics.regional",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tectonics.structures",
+        "kind": "edge",
+        "source_id": "obs.syrian.arc.structures",
+        "target_id": "reason.tectonics.regional",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tectshift",
+        "kind": "edge",
+        "source_id": "obs.tectonic.setting_change",
+        "target_id": "reason.tectonics.local",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.uplift",
+        "kind": "edge",
+        "source_id": "obs.regional.uplift",
+        "target_id": "reason.tectonics.local",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.nummulite",
+        "kind": "edge",
+        "source_id": "reason.nummulite.energy_interpretation",
+        "target_id": "claim:sha256:eb9e1deb76ac0a406a133423f7cd183d69c3394c16845a8adad42abc7f635272",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.tectonics",
+        "kind": "edge",
+        "source_id": "reason.tectonics.regional",
+        "target_id": "claim:sha256:3cfc25175ac70377c725b2ff9ed1d345d46f6d9b2e740e8bf29237b35ad8bb77",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.transition",
+        "kind": "edge",
+        "source_id": "reason.zahle.transition",
+        "target_id": "claim:sha256:38dd5967cedd618fa3bb9062b795dfa57d4a278b101827e13daffffb10d06515",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.uppermostmarl",
+        "kind": "edge",
+        "source_id": "reason.uppermost_marl.environment",
+        "target_id": "claim:sha256:9710788a8d4e770a997594863eb67b1bcb8cacb630e67f36f486d3f986e0b790",
+        "relation": "infers"
+      }
+    ]
+  }
+}

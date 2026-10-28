@@ -1,0 +1,1448 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "29d53b11ebac384ce7402ca624b8bf93c347fc5291660a5d67cabd8a8ca31a3e",
+  "http_body_sha256": "dc1b87cfd29e8e4f9f54d716831010b9a0b866d4cd356d7cb6c61eea69a6b1be",
+  "snapshot": {
+    "id": "snapshot:sha256:1116bfdeeb1a66370dc3107b965e5cd3b6b09158ce3e49eef26b89730c0c8921",
+    "rootArtifactVersionId": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "1116bfdeeb1a66370dc3107b965e5cd3b6b09158ce3e49eef26b89730c0c8921"
+  },
+  "graph": {
+    "paper_id": "paper:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+    "anchors": [
+      {
+        "id": "anchor.figure.15",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.figure.19",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.figure.22",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.figure.23",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.figure.24",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.figure.25",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.figure.5",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.figure.6",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.figure.9",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.table.2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.text.breakout_trend",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.channel_apertures",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.channel_fraction",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.enhancement_conclusion",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.text.excess_flow",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.excess_index",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.fracture_density_gradient",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.induced_trend",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.losses_confined",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.losses_no_seal_crossing",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.minimum_stress_orientation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.minimum_stress_relation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.no_borehole_shear",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.not_critical",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.not_critical_figure",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.offshore_density",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.paleo_core_interpretation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.text.paleo_explanatory_consequence",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.text.paleo_figure_token",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.text.paleo_rupture",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.text.postproduction_figure",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.postproduction_profiles",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.preproduction_similarity",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.production_rates",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.stress_depth",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.stress_depth_extent",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.stress_depth_figure",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.stress_error",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.stress_magnitude",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.stress_orientation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.stress_orientation_relation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.stress_transition",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.system2_origin",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.system2_pattern",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:c3316b982457b029433fc73a06856beb8d0466ac48f7dadf7e387619f86766a6",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:e92d9c62efa12786b86a16fde043e6288cca290d221936263ab61392c99ea64a",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "selector": {
+          "page": 15
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.breakout_trend",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5",
+          "anchor.text.breakout_trend"
+        ]
+      },
+      {
+        "id": "obs.channel_apertures",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.9",
+          "anchor.text.channel_apertures"
+        ]
+      },
+      {
+        "id": "obs.channel_fraction",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.9",
+          "anchor.text.channel_fraction"
+        ]
+      },
+      {
+        "id": "obs.enhancement_conclusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.enhancement_conclusion"
+        ]
+      },
+      {
+        "id": "obs.excess_flow",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.22",
+          "anchor.text.excess_flow",
+          "anchor.text.excess_index"
+        ]
+      },
+      {
+        "id": "obs.fracture_density_gradient",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.19",
+          "anchor.text.fracture_density_gradient",
+          "anchor.text.offshore_density"
+        ]
+      },
+      {
+        "id": "obs.induced_fracture_trend",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5",
+          "anchor.text.induced_trend",
+          "anchor:compiler:visual:c3316b982457b029433fc73a06856beb8d0466ac48f7dadf7e387619f86766a6"
+        ]
+      },
+      {
+        "id": "obs.losses_confined",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.losses_confined",
+          "anchor:compiler:visual:e92d9c62efa12786b86a16fde043e6288cca290d221936263ab61392c99ea64a"
+        ]
+      },
+      {
+        "id": "obs.losses_no_seal_crossing",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.losses_no_seal_crossing"
+        ]
+      },
+      {
+        "id": "obs.no_borehole_shear",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.no_borehole_shear"
+        ]
+      },
+      {
+        "id": "obs.not_critical",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.25",
+          "anchor.text.not_critical",
+          "anchor.text.not_critical_figure"
+        ]
+      },
+      {
+        "id": "obs.paleo_core_interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.paleo_core_interpretation"
+        ]
+      },
+      {
+        "id": "obs.paleo_explanatory_consequence",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.24",
+          "anchor.text.paleo_explanatory_consequence"
+        ]
+      },
+      {
+        "id": "obs.paleo_rupture",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.24",
+          "anchor.text.paleo_figure_token",
+          "anchor.text.paleo_rupture"
+        ]
+      },
+      {
+        "id": "obs.postproduction_profiles",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.23",
+          "anchor.text.postproduction_figure",
+          "anchor.text.postproduction_profiles"
+        ]
+      },
+      {
+        "id": "obs.preproduction_similarity",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.23",
+          "anchor.text.preproduction_similarity"
+        ]
+      },
+      {
+        "id": "obs.production_rates",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.23",
+          "anchor.text.production_rates"
+        ]
+      },
+      {
+        "id": "obs.stress_depth",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.15",
+          "anchor.text.stress_depth",
+          "anchor.text.stress_depth_extent",
+          "anchor.text.stress_depth_figure"
+        ]
+      },
+      {
+        "id": "obs.stress_magnitude",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.table.2",
+          "anchor.text.stress_magnitude"
+        ]
+      },
+      {
+        "id": "obs.stress_orientation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.15",
+          "anchor.text.minimum_stress_orientation",
+          "anchor.text.minimum_stress_relation",
+          "anchor.text.stress_orientation",
+          "anchor.text.stress_orientation_relation"
+        ]
+      },
+      {
+        "id": "obs.stress_transition",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.table.2",
+          "anchor.text.stress_error",
+          "anchor.text.stress_transition"
+        ]
+      },
+      {
+        "id": "obs.system2_origin",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.system2_origin"
+        ]
+      },
+      {
+        "id": "obs.system2_pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5",
+          "anchor.figure.6",
+          "anchor.text.system2_pattern"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.channel_permeability",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.22",
+          "anchor.figure.9",
+          "anchor.text.channel_apertures",
+          "anchor.text.channel_fraction",
+          "anchor.text.enhancement_conclusion",
+          "anchor.text.excess_flow"
+        ]
+      },
+      {
+        "id": "reason.critical_stress",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.25",
+          "anchor.text.no_borehole_shear",
+          "anchor.text.not_critical"
+        ]
+      },
+      {
+        "id": "reason.paleoseismic_migration",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.24",
+          "anchor.text.paleo_core_interpretation",
+          "anchor.text.paleo_explanatory_consequence",
+          "anchor.text.paleo_rupture"
+        ]
+      },
+      {
+        "id": "reason.regional_fractures",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.19",
+          "anchor.figure.5",
+          "anchor.figure.6",
+          "anchor.text.fracture_density_gradient",
+          "anchor.text.system2_pattern"
+        ]
+      },
+      {
+        "id": "reason.seal_integrity",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.23",
+          "anchor.text.losses_confined",
+          "anchor.text.losses_no_seal_crossing",
+          "anchor.text.postproduction_profiles",
+          "anchor.text.preproduction_similarity",
+          "anchor.text.production_rates",
+          "anchor:compiler:visual:e92d9c62efa12786b86a16fde043e6288cca290d221936263ab61392c99ea64a"
+        ]
+      },
+      {
+        "id": "reason.stress_orientation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.15",
+          "anchor.figure.5",
+          "anchor.text.breakout_trend",
+          "anchor.text.induced_trend",
+          "anchor.text.stress_depth",
+          "anchor.text.stress_orientation",
+          "anchor:compiler:visual:c3316b982457b029433fc73a06856beb8d0466ac48f7dadf7e387619f86766a6"
+        ]
+      },
+      {
+        "id": "reason.stress_regime",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.table.2",
+          "anchor.text.stress_magnitude"
+        ]
+      },
+      {
+        "id": "reason.system2_origin",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.system2_origin"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:1867a45ed8340c07ea01b24513e345bcb70a9d175a92ccb1a2475f4e7d781326",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.24",
+          "anchor.text.paleo_core_interpretation",
+          "anchor.text.paleo_explanatory_consequence",
+          "anchor.text.paleo_figure_token",
+          "anchor.text.paleo_rupture"
+        ]
+      },
+      {
+        "id": "claim:sha256:1bfd6a4ccc4ae31622e77f98b323403b25e375a251d91b193dcaf646a984d81f",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.19",
+          "anchor.figure.5",
+          "anchor.figure.6",
+          "anchor.text.fracture_density_gradient",
+          "anchor.text.system2_origin",
+          "anchor.text.system2_pattern"
+        ]
+      },
+      {
+        "id": "claim:sha256:5384a03db5e97e2743a891f1b4cd991a5545cd18694c00e560244569864fc26f",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.23",
+          "anchor.text.losses_confined",
+          "anchor.text.losses_no_seal_crossing",
+          "anchor.text.postproduction_profiles",
+          "anchor.text.preproduction_similarity",
+          "anchor.text.production_rates",
+          "anchor:compiler:visual:e92d9c62efa12786b86a16fde043e6288cca290d221936263ab61392c99ea64a"
+        ]
+      },
+      {
+        "id": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.25",
+          "anchor.text.no_borehole_shear",
+          "anchor.text.not_critical"
+        ]
+      },
+      {
+        "id": "claim:sha256:a1a32480c3257185a928a0cef366de86462f8c1758f900bcce064fb291e5d27f",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.15",
+          "anchor.figure.5",
+          "anchor.table.2",
+          "anchor.text.breakout_trend",
+          "anchor.text.induced_trend",
+          "anchor.text.stress_depth",
+          "anchor.text.stress_error",
+          "anchor.text.stress_magnitude",
+          "anchor.text.stress_orientation",
+          "anchor.text.stress_transition",
+          "anchor:compiler:visual:c3316b982457b029433fc73a06856beb8d0466ac48f7dadf7e387619f86766a6"
+        ]
+      },
+      {
+        "id": "claim:sha256:ac65840111a80833cf98d17f4ae55550b5a6f96ab0a6ee2b6baa55984765f79a",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.22",
+          "anchor.figure.9",
+          "anchor.text.channel_apertures",
+          "anchor.text.channel_fraction",
+          "anchor.text.enhancement_conclusion",
+          "anchor.text.excess_flow",
+          "anchor.text.excess_index"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:9f26a5b8-2609-40c2-b6d5-fc6100099457",
+        "sha256": "59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.grounds.breakout",
+        "source_id": "anchor.text.breakout_trend",
+        "target_id": "obs.breakout_trend",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.breakout_fig5",
+        "source_id": "anchor.figure.5",
+        "target_id": "obs.breakout_trend",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.channel_apertures",
+        "source_id": "anchor.text.channel_apertures",
+        "target_id": "obs.channel_apertures",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.channel_fig9",
+        "source_id": "anchor.figure.9",
+        "target_id": "obs.channel_apertures",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.channel_fraction",
+        "source_id": "anchor.text.channel_fraction",
+        "target_id": "obs.channel_fraction",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.channel_fraction_fig9",
+        "source_id": "anchor.figure.9",
+        "target_id": "obs.channel_fraction",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.critical_fig25",
+        "source_id": "anchor.figure.25",
+        "target_id": "obs.not_critical",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.density",
+        "source_id": "anchor.text.fracture_density_gradient",
+        "target_id": "obs.fracture_density_gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.enhancement_conclusion",
+        "source_id": "anchor.text.enhancement_conclusion",
+        "target_id": "obs.enhancement_conclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.excess_fig22",
+        "source_id": "anchor.figure.22",
+        "target_id": "obs.excess_flow",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.excess_flow",
+        "source_id": "anchor.text.excess_flow",
+        "target_id": "obs.excess_flow",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.excess_index",
+        "source_id": "anchor.text.excess_index",
+        "target_id": "obs.excess_flow",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fig19",
+        "source_id": "anchor.figure.19",
+        "target_id": "obs.fracture_density_gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fig23",
+        "source_id": "anchor.figure.23",
+        "target_id": "obs.postproduction_profiles",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.induced",
+        "source_id": "anchor.text.induced_trend",
+        "target_id": "obs.induced_fracture_trend",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.induced_fig5",
+        "source_id": "anchor.figure.5",
+        "target_id": "obs.induced_fracture_trend",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.losses_confined",
+        "source_id": "anchor.text.losses_confined",
+        "target_id": "obs.losses_confined",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.losses_no_seal",
+        "source_id": "anchor.text.losses_no_seal_crossing",
+        "target_id": "obs.losses_no_seal_crossing",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.minimum_orientation",
+        "source_id": "anchor.text.minimum_stress_orientation",
+        "target_id": "obs.stress_orientation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.minimum_relation",
+        "source_id": "anchor.text.minimum_stress_relation",
+        "target_id": "obs.stress_orientation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.no_shear",
+        "source_id": "anchor.text.no_borehole_shear",
+        "target_id": "obs.no_borehole_shear",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.not_critical",
+        "source_id": "anchor.text.not_critical",
+        "target_id": "obs.not_critical",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.not_critical_figure",
+        "source_id": "anchor.text.not_critical_figure",
+        "target_id": "obs.not_critical",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.offshore_density",
+        "source_id": "anchor.text.offshore_density",
+        "target_id": "obs.fracture_density_gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.paleo_consequence",
+        "source_id": "anchor.text.paleo_explanatory_consequence",
+        "target_id": "obs.paleo_explanatory_consequence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.paleo_consequence_fig24",
+        "source_id": "anchor.figure.24",
+        "target_id": "obs.paleo_explanatory_consequence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.paleo_core",
+        "source_id": "anchor.text.paleo_core_interpretation",
+        "target_id": "obs.paleo_core_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.paleo_fig24",
+        "source_id": "anchor.figure.24",
+        "target_id": "obs.paleo_rupture",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.paleo_rupture",
+        "source_id": "anchor.text.paleo_rupture",
+        "target_id": "obs.paleo_rupture",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.paleo_token",
+        "source_id": "anchor.text.paleo_figure_token",
+        "target_id": "obs.paleo_rupture",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.postproduction",
+        "source_id": "anchor.text.postproduction_profiles",
+        "target_id": "obs.postproduction_profiles",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.postproduction_figure",
+        "source_id": "anchor.text.postproduction_figure",
+        "target_id": "obs.postproduction_profiles",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.preproduction",
+        "source_id": "anchor.text.preproduction_similarity",
+        "target_id": "obs.preproduction_similarity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.preproduction_fig23",
+        "source_id": "anchor.figure.23",
+        "target_id": "obs.preproduction_similarity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.production_rates",
+        "source_id": "anchor.text.production_rates",
+        "target_id": "obs.production_rates",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stress_depth",
+        "source_id": "anchor.text.stress_depth",
+        "target_id": "obs.stress_depth",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stress_depth_extent",
+        "source_id": "anchor.text.stress_depth_extent",
+        "target_id": "obs.stress_depth",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stress_depth_fig15",
+        "source_id": "anchor.figure.15",
+        "target_id": "obs.stress_depth",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stress_depth_figure",
+        "source_id": "anchor.text.stress_depth_figure",
+        "target_id": "obs.stress_depth",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stress_error",
+        "source_id": "anchor.text.stress_error",
+        "target_id": "obs.stress_transition",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stress_fig15",
+        "source_id": "anchor.figure.15",
+        "target_id": "obs.stress_orientation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stress_magnitude",
+        "source_id": "anchor.text.stress_magnitude",
+        "target_id": "obs.stress_magnitude",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stress_orientation",
+        "source_id": "anchor.text.stress_orientation",
+        "target_id": "obs.stress_orientation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stress_relation",
+        "source_id": "anchor.text.stress_orientation_relation",
+        "target_id": "obs.stress_orientation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stress_table",
+        "source_id": "anchor.table.2",
+        "target_id": "obs.stress_magnitude",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stress_transition",
+        "source_id": "anchor.text.stress_transition",
+        "target_id": "obs.stress_transition",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.system2_fig5",
+        "source_id": "anchor.figure.5",
+        "target_id": "obs.system2_pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.system2_fig6",
+        "source_id": "anchor.figure.6",
+        "target_id": "obs.system2_pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.system2_origin",
+        "source_id": "anchor.text.system2_origin",
+        "target_id": "obs.system2_origin",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.system2_pattern",
+        "source_id": "anchor.text.system2_pattern",
+        "target_id": "obs.system2_pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.apertures",
+        "source_id": "obs.channel_apertures",
+        "target_id": "reason.channel_permeability",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.breakout",
+        "source_id": "obs.breakout_trend",
+        "target_id": "reason.stress_orientation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.channel_fraction",
+        "source_id": "obs.channel_fraction",
+        "target_id": "reason.channel_permeability",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.density_gradient",
+        "source_id": "obs.fracture_density_gradient",
+        "target_id": "reason.regional_fractures",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.enhancement_interpretation",
+        "source_id": "obs.enhancement_conclusion",
+        "target_id": "reason.channel_permeability",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.flow_capacity",
+        "source_id": "obs.excess_flow",
+        "target_id": "reason.channel_permeability",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.fracture_pattern",
+        "source_id": "obs.system2_pattern",
+        "target_id": "reason.regional_fractures",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.induced",
+        "source_id": "obs.induced_fracture_trend",
+        "target_id": "reason.stress_orientation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.losses_confined",
+        "source_id": "obs.losses_confined",
+        "target_id": "reason.seal_integrity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.no_seal_crossing",
+        "source_id": "obs.losses_no_seal_crossing",
+        "target_id": "reason.seal_integrity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.no_shear",
+        "source_id": "obs.no_borehole_shear",
+        "target_id": "reason.critical_stress",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.not_critical",
+        "source_id": "obs.not_critical",
+        "target_id": "reason.critical_stress",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.paleo_consequence",
+        "source_id": "obs.paleo_explanatory_consequence",
+        "target_id": "reason.paleoseismic_migration",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.paleo_core_evidence",
+        "source_id": "obs.paleo_core_interpretation",
+        "target_id": "reason.paleoseismic_migration",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.paleoseismic_model",
+        "source_id": "obs.paleo_rupture",
+        "target_id": "reason.paleoseismic_migration",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.postproduction",
+        "source_id": "obs.postproduction_profiles",
+        "target_id": "reason.seal_integrity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.preproduction",
+        "source_id": "obs.preproduction_similarity",
+        "target_id": "reason.seal_integrity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.production_rates",
+        "source_id": "obs.production_rates",
+        "target_id": "reason.seal_integrity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.regional_origin",
+        "source_id": "reason.regional_fractures",
+        "target_id": "reason.system2_origin",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.seal_context",
+        "source_id": "reason.seal_integrity",
+        "target_id": "reason.paleoseismic_migration",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.stress_depth",
+        "source_id": "obs.stress_depth",
+        "target_id": "reason.stress_orientation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.stress_magnitude",
+        "source_id": "obs.stress_magnitude",
+        "target_id": "reason.stress_regime",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.stress_orientation",
+        "source_id": "obs.stress_orientation",
+        "target_id": "reason.stress_orientation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.stress_pattern",
+        "source_id": "reason.stress_orientation",
+        "target_id": "reason.stress_regime",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.stress_transition",
+        "source_id": "obs.stress_transition",
+        "target_id": "reason.stress_regime",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tectonic_timing",
+        "source_id": "obs.system2_origin",
+        "target_id": "reason.system2_origin",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.critical_stress",
+        "source_id": "reason.critical_stress",
+        "target_id": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.fracture_origin",
+        "source_id": "reason.system2_origin",
+        "target_id": "claim:sha256:1bfd6a4ccc4ae31622e77f98b323403b25e375a251d91b193dcaf646a984d81f",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.paleoseismic_migration",
+        "source_id": "reason.paleoseismic_migration",
+        "target_id": "claim:sha256:1867a45ed8340c07ea01b24513e345bcb70a9d175a92ccb1a2475f4e7d781326",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.permeability_enhancement",
+        "source_id": "reason.channel_permeability",
+        "target_id": "claim:sha256:ac65840111a80833cf98d17f4ae55550b5a6f96ab0a6ee2b6baa55984765f79a",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.seal_integrity",
+        "source_id": "reason.seal_integrity",
+        "target_id": "claim:sha256:5384a03db5e97e2743a891f1b4cd991a5545cd18694c00e560244569864fc26f",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.stress_field",
+        "source_id": "reason.stress_regime",
+        "target_id": "claim:sha256:a1a32480c3257185a928a0cef366de86462f8c1758f900bcce064fb291e5d27f",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:3208abc1ba5c8850bf6fcba052658fa3f4110db37b22a94e19194ba566c7124e",
+        "source_id": "anchor.figure.23",
+        "target_id": "obs.production_rates",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:3c307cde300c502193571830eba267b2bd560de03f9b2048e1ed4d256b283242",
+        "source_id": "anchor:compiler:visual:c3316b982457b029433fc73a06856beb8d0466ac48f7dadf7e387619f86766a6",
+        "target_id": "obs.induced_fracture_trend",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:8659d7b09d1cd4bace2fc30ec3216b6af7c3562bf7b7423d2a32ce3dac5edf3b",
+        "source_id": "anchor.table.2",
+        "target_id": "obs.stress_transition",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:f62517cef2de180ea77dc7918a860612b5ac423b1a94b510d7f43bc025c2e135",
+        "source_id": "anchor:compiler:visual:e92d9c62efa12786b86a16fde043e6288cca290d221936263ab61392c99ea64a",
+        "target_id": "obs.losses_confined",
+        "relation": "grounds"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:f6ca04fc54464fbb2f9689ff460c82527eb44faf0fc79c48ad613e2506676633",
+        "entity_ids": [
+          "anchor.figure.15",
+          "anchor.figure.19",
+          "anchor.figure.22",
+          "anchor.figure.23",
+          "anchor.figure.24",
+          "anchor.figure.25",
+          "anchor.figure.5",
+          "anchor.figure.6",
+          "anchor.figure.9",
+          "anchor.table.2",
+          "anchor.text.breakout_trend",
+          "anchor.text.channel_apertures",
+          "anchor.text.channel_fraction",
+          "anchor.text.enhancement_conclusion",
+          "anchor.text.excess_flow",
+          "anchor.text.excess_index",
+          "anchor.text.fracture_density_gradient",
+          "anchor.text.induced_trend",
+          "anchor.text.losses_confined",
+          "anchor.text.losses_no_seal_crossing",
+          "anchor.text.minimum_stress_orientation",
+          "anchor.text.minimum_stress_relation",
+          "anchor.text.no_borehole_shear",
+          "anchor.text.not_critical",
+          "anchor.text.not_critical_figure",
+          "anchor.text.offshore_density",
+          "anchor.text.paleo_core_interpretation",
+          "anchor.text.paleo_explanatory_consequence",
+          "anchor.text.paleo_figure_token",
+          "anchor.text.paleo_rupture",
+          "anchor.text.postproduction_figure",
+          "anchor.text.postproduction_profiles",
+          "anchor.text.preproduction_similarity",
+          "anchor.text.production_rates",
+          "anchor.text.stress_depth",
+          "anchor.text.stress_depth_extent",
+          "anchor.text.stress_depth_figure",
+          "anchor.text.stress_error",
+          "anchor.text.stress_magnitude",
+          "anchor.text.stress_orientation",
+          "anchor.text.stress_orientation_relation",
+          "anchor.text.stress_transition",
+          "anchor.text.system2_origin",
+          "anchor.text.system2_pattern",
+          "anchor:compiler:visual:c3316b982457b029433fc73a06856beb8d0466ac48f7dadf7e387619f86766a6",
+          "anchor:compiler:visual:e92d9c62efa12786b86a16fde043e6288cca290d221936263ab61392c99ea64a",
+          "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+          "artifact:9f26a5b8-2609-40c2-b6d5-fc6100099457",
+          "claim:sha256:1867a45ed8340c07ea01b24513e345bcb70a9d175a92ccb1a2475f4e7d781326",
+          "claim:sha256:1bfd6a4ccc4ae31622e77f98b323403b25e375a251d91b193dcaf646a984d81f",
+          "claim:sha256:5384a03db5e97e2743a891f1b4cd991a5545cd18694c00e560244569864fc26f",
+          "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+          "claim:sha256:a1a32480c3257185a928a0cef366de86462f8c1758f900bcce064fb291e5d27f",
+          "claim:sha256:ac65840111a80833cf98d17f4ae55550b5a6f96ab0a6ee2b6baa55984765f79a",
+          "obs.breakout_trend",
+          "obs.channel_apertures",
+          "obs.channel_fraction",
+          "obs.enhancement_conclusion",
+          "obs.excess_flow",
+          "obs.fracture_density_gradient",
+          "obs.induced_fracture_trend",
+          "obs.losses_confined",
+          "obs.losses_no_seal_crossing",
+          "obs.no_borehole_shear",
+          "obs.not_critical",
+          "obs.paleo_core_interpretation",
+          "obs.paleo_explanatory_consequence",
+          "obs.paleo_rupture",
+          "obs.postproduction_profiles",
+          "obs.preproduction_similarity",
+          "obs.production_rates",
+          "obs.stress_depth",
+          "obs.stress_magnitude",
+          "obs.stress_orientation",
+          "obs.stress_transition",
+          "obs.system2_origin",
+          "obs.system2_pattern",
+          "reason.channel_permeability",
+          "reason.critical_stress",
+          "reason.paleoseismic_migration",
+          "reason.regional_fractures",
+          "reason.seal_integrity",
+          "reason.stress_orientation",
+          "reason.stress_regime",
+          "reason.system2_origin"
+        ],
+        "edge_ids": [
+          "edge.grounds.breakout",
+          "edge.grounds.breakout_fig5",
+          "edge.grounds.channel_apertures",
+          "edge.grounds.channel_fig9",
+          "edge.grounds.channel_fraction",
+          "edge.grounds.channel_fraction_fig9",
+          "edge.grounds.critical_fig25",
+          "edge.grounds.density",
+          "edge.grounds.enhancement_conclusion",
+          "edge.grounds.excess_fig22",
+          "edge.grounds.excess_flow",
+          "edge.grounds.excess_index",
+          "edge.grounds.fig19",
+          "edge.grounds.fig23",
+          "edge.grounds.induced",
+          "edge.grounds.induced_fig5",
+          "edge.grounds.losses_confined",
+          "edge.grounds.losses_no_seal",
+          "edge.grounds.minimum_orientation",
+          "edge.grounds.minimum_relation",
+          "edge.grounds.no_shear",
+          "edge.grounds.not_critical",
+          "edge.grounds.not_critical_figure",
+          "edge.grounds.offshore_density",
+          "edge.grounds.paleo_consequence",
+          "edge.grounds.paleo_consequence_fig24",
+          "edge.grounds.paleo_core",
+          "edge.grounds.paleo_fig24",
+          "edge.grounds.paleo_rupture",
+          "edge.grounds.paleo_token",
+          "edge.grounds.postproduction",
+          "edge.grounds.postproduction_figure",
+          "edge.grounds.preproduction",
+          "edge.grounds.preproduction_fig23",
+          "edge.grounds.production_rates",
+          "edge.grounds.stress_depth",
+          "edge.grounds.stress_depth_extent",
+          "edge.grounds.stress_depth_fig15",
+          "edge.grounds.stress_depth_figure",
+          "edge.grounds.stress_error",
+          "edge.grounds.stress_fig15",
+          "edge.grounds.stress_magnitude",
+          "edge.grounds.stress_orientation",
+          "edge.grounds.stress_relation",
+          "edge.grounds.stress_table",
+          "edge.grounds.stress_transition",
+          "edge.grounds.system2_fig5",
+          "edge.grounds.system2_fig6",
+          "edge.grounds.system2_origin",
+          "edge.grounds.system2_pattern",
+          "edge.premise.apertures",
+          "edge.premise.breakout",
+          "edge.premise.channel_fraction",
+          "edge.premise.density_gradient",
+          "edge.premise.enhancement_interpretation",
+          "edge.premise.flow_capacity",
+          "edge.premise.fracture_pattern",
+          "edge.premise.induced",
+          "edge.premise.losses_confined",
+          "edge.premise.no_seal_crossing",
+          "edge.premise.no_shear",
+          "edge.premise.not_critical",
+          "edge.premise.paleo_consequence",
+          "edge.premise.paleo_core_evidence",
+          "edge.premise.paleoseismic_model",
+          "edge.premise.postproduction",
+          "edge.premise.preproduction",
+          "edge.premise.production_rates",
+          "edge.premise.regional_origin",
+          "edge.premise.seal_context",
+          "edge.premise.stress_depth",
+          "edge.premise.stress_magnitude",
+          "edge.premise.stress_orientation",
+          "edge.premise.stress_pattern",
+          "edge.premise.stress_transition",
+          "edge.premise.tectonic_timing",
+          "edge.support.critical_stress",
+          "edge.support.fracture_origin",
+          "edge.support.paleoseismic_migration",
+          "edge.support.permeability_enhancement",
+          "edge.support.seal_integrity",
+          "edge.support.stress_field",
+          "edge:compiler:3208abc1ba5c8850bf6fcba052658fa3f4110db37b22a94e19194ba566c7124e",
+          "edge:compiler:3c307cde300c502193571830eba267b2bd560de03f9b2048e1ed4d256b283242",
+          "edge:compiler:8659d7b09d1cd4bace2fc30ec3216b6af7c3562bf7b7423d2a32ce3dac5edf3b",
+          "edge:compiler:f62517cef2de180ea77dc7918a860612b5ac423b1a94b510d7f43bc025c2e135"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source": "historical local pipeline geometry; adapter-format regression only",
+  "mineru_version": "3.4.5",
+  "backend": "pipeline",
+  "page_size": [612, 792],
+  "content_list_bbox": [171, 61, 831, 82],
+  "middle_bbox": [105, 49, 509, 65]
+}

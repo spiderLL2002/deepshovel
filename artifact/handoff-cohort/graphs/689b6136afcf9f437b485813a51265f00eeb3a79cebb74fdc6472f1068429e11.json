@@ -1,0 +1,755 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "ccc89c6a9b326ae6935a3cd94ff5c1ef23b4ded7b7bdaa4f51e6dfca4b29bb43",
+  "http_body_sha256": "f37619f40aea77fa3eebb669146371f51ad684482f91e89945f474917f81010f",
+  "snapshot": {
+    "id": "snapshot:sha256:689b6136afcf9f437b485813a51265f00eeb3a79cebb74fdc6472f1068429e11",
+    "rootArtifactVersionId": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "689b6136afcf9f437b485813a51265f00eeb3a79cebb74fdc6472f1068429e11"
+  },
+  "graph": {
+    "paper_id": "paper:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+    "anchors": [
+      {
+        "id": "anchor.aggregate.budget",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.aggregate.interpretation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.aggregate.products",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.assumption.denitrification",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.assumption.mixing",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.axenic.clean",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.axenic.initial",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.axenic.result",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.axenic.result.start",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.axenic.table",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.figure.1",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.figure.4",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.figure.5",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.mixing.underestimate",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.model.bacterial",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.model.living",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.model.reference",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.storage.condition",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.storage.range",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.storage.range.start",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.storage.ratio",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:aeefdf9a3f16cdec8464d402277e1021f27b4ba8857ea7db5b5e0b53593bcd6f",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "selector": {
+          "page": 5
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.aggregate.budget",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.aggregate.budget"
+        ]
+      },
+      {
+        "id": "obs.aggregate.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.aggregate.interpretation"
+        ]
+      },
+      {
+        "id": "obs.aggregate.products",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.aggregate.products",
+          "anchor.figure.4"
+        ]
+      },
+      {
+        "id": "obs.axenic.initial",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.axenic.initial"
+        ]
+      },
+      {
+        "id": "obs.axenic.products",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.axenic.result",
+          "anchor.axenic.result.start",
+          "anchor.axenic.table",
+          "anchor.figure.1"
+        ]
+      },
+      {
+        "id": "obs.model.bacterial_transfer",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5",
+          "anchor.model.bacterial",
+          "anchor.model.reference"
+        ]
+      },
+      {
+        "id": "obs.model.living_dnra",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5",
+          "anchor.model.living",
+          "anchor.model.reference"
+        ]
+      },
+      {
+        "id": "obs.storage.range",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.storage.range",
+          "anchor.storage.range.start",
+          "anchor:compiler:visual:aeefdf9a3f16cdec8464d402277e1021f27b4ba8857ea7db5b5e0b53593bcd6f"
+        ]
+      },
+      {
+        "id": "obs.storage.ratio",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.storage.condition",
+          "anchor.storage.ratio"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.aggregate.access",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.aggregate.budget",
+          "anchor.aggregate.interpretation",
+          "anchor.aggregate.products",
+          "anchor.axenic.result",
+          "anchor.figure.1",
+          "anchor.figure.4",
+          "anchor.figure.5",
+          "anchor.model.bacterial",
+          "anchor.model.reference"
+        ]
+      },
+      {
+        "id": "reason.aggregate.profile",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.aggregate.budget",
+          "anchor.aggregate.products",
+          "anchor.figure.4"
+        ]
+      },
+      {
+        "id": "reason.axenic.dnra",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.axenic.initial",
+          "anchor.axenic.result",
+          "anchor.axenic.result.start",
+          "anchor.axenic.table",
+          "anchor.figure.1",
+          "anchor.figure.5",
+          "anchor.model.living",
+          "anchor.model.reference"
+        ]
+      },
+      {
+        "id": "reason.fixed_n_loss",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.aggregate.budget",
+          "anchor.assumption.denitrification",
+          "anchor.assumption.mixing",
+          "anchor.figure.5",
+          "anchor.mixing.underestimate",
+          "anchor.model.bacterial",
+          "anchor.model.reference"
+        ]
+      },
+      {
+        "id": "reason.storage.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.storage.range",
+          "anchor.storage.range.start",
+          "anchor.storage.ratio",
+          "anchor:compiler:visual:aeefdf9a3f16cdec8464d402277e1021f27b4ba8857ea7db5b5e0b53593bcd6f"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:4637d7139f7e2ee72a8eb28b42a43749875104d81b531bad556fbc892d880193",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.aggregate.budget",
+          "anchor.aggregate.products",
+          "anchor.assumption.denitrification",
+          "anchor.assumption.mixing",
+          "anchor.figure.4",
+          "anchor.figure.5",
+          "anchor.mixing.underestimate",
+          "anchor.model.bacterial",
+          "anchor.model.reference"
+        ]
+      },
+      {
+        "id": "claim:sha256:69339c27f47faf353790fb544c585c0f95536ccd7fd192d81aa9460f3fbca5dd",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.storage.condition",
+          "anchor.storage.range",
+          "anchor.storage.ratio"
+        ]
+      },
+      {
+        "id": "claim:sha256:c35abb02f6ee809607f8240d1a0b52c2d9ec80c8720948d6665257e4679410ea",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.aggregate.budget",
+          "anchor.aggregate.interpretation",
+          "anchor.aggregate.products",
+          "anchor.axenic.result",
+          "anchor.figure.1",
+          "anchor.figure.4",
+          "anchor.figure.5",
+          "anchor.model.bacterial",
+          "anchor.model.reference"
+        ]
+      },
+      {
+        "id": "claim:sha256:d51866e32c01b53c6b85fbde00ad2d50bdcec1a5c6559c294952cfbd4d1ffbe4",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.axenic.initial",
+          "anchor.axenic.result",
+          "anchor.axenic.result.start",
+          "anchor.axenic.table",
+          "anchor.figure.1",
+          "anchor.figure.5",
+          "anchor.model.living",
+          "anchor.model.reference"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.axenic.attribution",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.axenic.clean"
+        ]
+      },
+      {
+        "id": "assumption.denitrification",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.assumption.denitrification"
+        ]
+      },
+      {
+        "id": "assumption.isotope.mixing",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.assumption.mixing",
+          "anchor.mixing.underestimate"
+        ]
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:ca90f31b-3b3e-4ae7-a8ea-376a38fc65da",
+        "sha256": "9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.assumption.axenic.attribution",
+        "source_id": "assumption.axenic.attribution",
+        "target_id": "reason.axenic.dnra",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.denitrification",
+        "source_id": "assumption.denitrification",
+        "target_id": "reason.fixed_n_loss",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.mixing",
+        "source_id": "assumption.isotope.mixing",
+        "target_id": "reason.fixed_n_loss",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.aggregate.budget",
+        "source_id": "anchor.aggregate.budget",
+        "target_id": "obs.aggregate.budget",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.aggregate.interpretation",
+        "source_id": "anchor.aggregate.interpretation",
+        "target_id": "obs.aggregate.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.aggregate.products",
+        "source_id": "anchor.aggregate.products",
+        "target_id": "obs.aggregate.products",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.axenic.initial",
+        "source_id": "anchor.axenic.initial",
+        "target_id": "obs.axenic.initial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.axenic.result",
+        "source_id": "anchor.axenic.result",
+        "target_id": "obs.axenic.products",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.axenic.result.start",
+        "source_id": "anchor.axenic.result.start",
+        "target_id": "obs.axenic.products",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.axenic.table",
+        "source_id": "anchor.axenic.table",
+        "target_id": "obs.axenic.products",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.figure.1.axenic",
+        "source_id": "anchor.figure.1",
+        "target_id": "obs.axenic.products",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.figure.4.aggregate",
+        "source_id": "anchor.figure.4",
+        "target_id": "obs.aggregate.products",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.bacterial.figure",
+        "source_id": "anchor.figure.5",
+        "target_id": "obs.model.bacterial_transfer",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.bacterial.ref",
+        "source_id": "anchor.model.reference",
+        "target_id": "obs.model.bacterial_transfer",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.bacterial.text",
+        "source_id": "anchor.model.bacterial",
+        "target_id": "obs.model.bacterial_transfer",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.living",
+        "source_id": "anchor.model.reference",
+        "target_id": "obs.model.living_dnra",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.living.figure",
+        "source_id": "anchor.figure.5",
+        "target_id": "obs.model.living_dnra",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.living.text",
+        "source_id": "anchor.model.living",
+        "target_id": "obs.model.living_dnra",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.storage.condition",
+        "source_id": "anchor.storage.condition",
+        "target_id": "obs.storage.ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.storage.range",
+        "source_id": "anchor.storage.range",
+        "target_id": "obs.storage.range",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.storage.range.start",
+        "source_id": "anchor.storage.range.start",
+        "target_id": "obs.storage.range",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.storage.ratio",
+        "source_id": "anchor.storage.ratio",
+        "target_id": "obs.storage.ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.access.loss",
+        "source_id": "reason.aggregate.access",
+        "target_id": "reason.fixed_n_loss",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.aggregate.budget",
+        "source_id": "obs.aggregate.budget",
+        "target_id": "reason.aggregate.profile",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.aggregate.interpretation",
+        "source_id": "obs.aggregate.interpretation",
+        "target_id": "reason.aggregate.access",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.aggregate.products",
+        "source_id": "obs.aggregate.products",
+        "target_id": "reason.aggregate.profile",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.aggregate.profile.access",
+        "source_id": "reason.aggregate.profile",
+        "target_id": "reason.aggregate.access",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.axenic.access",
+        "source_id": "reason.axenic.dnra",
+        "target_id": "reason.aggregate.access",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.axenic.initial",
+        "source_id": "obs.axenic.initial",
+        "target_id": "reason.axenic.dnra",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.axenic.products",
+        "source_id": "obs.axenic.products",
+        "target_id": "reason.axenic.dnra",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.model.bacterial.access",
+        "source_id": "obs.model.bacterial_transfer",
+        "target_id": "reason.aggregate.access",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.model.living",
+        "source_id": "obs.model.living_dnra",
+        "target_id": "reason.axenic.dnra",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.profile.loss",
+        "source_id": "reason.aggregate.profile",
+        "target_id": "reason.fixed_n_loss",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.storage.range",
+        "source_id": "obs.storage.range",
+        "target_id": "reason.storage.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.storage.ratio",
+        "source_id": "obs.storage.ratio",
+        "target_id": "reason.storage.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.aggregate.access",
+        "source_id": "reason.aggregate.access",
+        "target_id": "claim:sha256:c35abb02f6ee809607f8240d1a0b52c2d9ec80c8720948d6665257e4679410ea",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.axenic",
+        "source_id": "reason.axenic.dnra",
+        "target_id": "claim:sha256:d51866e32c01b53c6b85fbde00ad2d50bdcec1a5c6559c294952cfbd4d1ffbe4",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.fixed.loss",
+        "source_id": "reason.fixed_n_loss",
+        "target_id": "claim:sha256:4637d7139f7e2ee72a8eb28b42a43749875104d81b531bad556fbc892d880193",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.storage",
+        "source_id": "reason.storage.synthesis",
+        "target_id": "claim:sha256:69339c27f47faf353790fb544c585c0f95536ccd7fd192d81aa9460f3fbca5dd",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:aace90309b7df2967d51a881951f56f1fbe2c09f1c2a691391f5befb315e87a8",
+        "source_id": "anchor:compiler:visual:aeefdf9a3f16cdec8464d402277e1021f27b4ba8857ea7db5b5e0b53593bcd6f",
+        "target_id": "obs.storage.range",
+        "relation": "grounds"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:377b15ef10c2bc1e96b116c1854e64b2ccde25b0ad2f56e28155f9e6f44ea39e",
+        "entity_ids": [
+          "anchor.aggregate.budget",
+          "anchor.aggregate.interpretation",
+          "anchor.aggregate.products",
+          "anchor.assumption.denitrification",
+          "anchor.assumption.mixing",
+          "anchor.axenic.clean",
+          "anchor.axenic.initial",
+          "anchor.axenic.result",
+          "anchor.axenic.result.start",
+          "anchor.axenic.table",
+          "anchor.figure.1",
+          "anchor.figure.4",
+          "anchor.figure.5",
+          "anchor.mixing.underestimate",
+          "anchor.model.bacterial",
+          "anchor.model.living",
+          "anchor.model.reference",
+          "anchor.storage.condition",
+          "anchor.storage.range",
+          "anchor.storage.range.start",
+          "anchor.storage.ratio",
+          "anchor:compiler:visual:aeefdf9a3f16cdec8464d402277e1021f27b4ba8857ea7db5b5e0b53593bcd6f",
+          "artifact-version:sha256:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+          "artifact:ca90f31b-3b3e-4ae7-a8ea-376a38fc65da",
+          "assumption.axenic.attribution",
+          "assumption.denitrification",
+          "assumption.isotope.mixing",
+          "claim:sha256:4637d7139f7e2ee72a8eb28b42a43749875104d81b531bad556fbc892d880193",
+          "claim:sha256:69339c27f47faf353790fb544c585c0f95536ccd7fd192d81aa9460f3fbca5dd",
+          "claim:sha256:c35abb02f6ee809607f8240d1a0b52c2d9ec80c8720948d6665257e4679410ea",
+          "claim:sha256:d51866e32c01b53c6b85fbde00ad2d50bdcec1a5c6559c294952cfbd4d1ffbe4",
+          "obs.aggregate.budget",
+          "obs.aggregate.interpretation",
+          "obs.aggregate.products",
+          "obs.axenic.initial",
+          "obs.axenic.products",
+          "obs.model.bacterial_transfer",
+          "obs.model.living_dnra",
+          "obs.storage.range",
+          "obs.storage.ratio",
+          "reason.aggregate.access",
+          "reason.aggregate.profile",
+          "reason.axenic.dnra",
+          "reason.fixed_n_loss",
+          "reason.storage.synthesis"
+        ],
+        "edge_ids": [
+          "edge.assumption.axenic.attribution",
+          "edge.assumption.denitrification",
+          "edge.assumption.mixing",
+          "edge.grounds.aggregate.budget",
+          "edge.grounds.aggregate.interpretation",
+          "edge.grounds.aggregate.products",
+          "edge.grounds.axenic.initial",
+          "edge.grounds.axenic.result",
+          "edge.grounds.axenic.result.start",
+          "edge.grounds.axenic.table",
+          "edge.grounds.figure.1.axenic",
+          "edge.grounds.figure.4.aggregate",
+          "edge.grounds.model.bacterial.figure",
+          "edge.grounds.model.bacterial.ref",
+          "edge.grounds.model.bacterial.text",
+          "edge.grounds.model.living",
+          "edge.grounds.model.living.figure",
+          "edge.grounds.model.living.text",
+          "edge.grounds.storage.condition",
+          "edge.grounds.storage.range",
+          "edge.grounds.storage.range.start",
+          "edge.grounds.storage.ratio",
+          "edge.premise.access.loss",
+          "edge.premise.aggregate.budget",
+          "edge.premise.aggregate.interpretation",
+          "edge.premise.aggregate.products",
+          "edge.premise.aggregate.profile.access",
+          "edge.premise.axenic.access",
+          "edge.premise.axenic.initial",
+          "edge.premise.axenic.products",
+          "edge.premise.model.bacterial.access",
+          "edge.premise.model.living",
+          "edge.premise.profile.loss",
+          "edge.premise.storage.range",
+          "edge.premise.storage.ratio",
+          "edge.support.aggregate.access",
+          "edge.support.axenic",
+          "edge.support.fixed.loss",
+          "edge.support.storage",
+          "edge:compiler:aace90309b7df2967d51a881951f56f1fbe2c09f1c2a691391f5befb315e87a8"
+        ]
+      }
+    ]
+  }
+}

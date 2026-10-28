@@ -1,0 +1,140 @@
+{
+  "pairs": 48,
+  "queries": 6,
+  "grade_exact_agreement_count": 43,
+  "grade_exact_agreement_fraction": 0.8958333333333334,
+  "linear_weighted_kappa": 0.8400000000000001,
+  "confusion_original_rows_fresh_columns": [
+    [
+      18,
+      1,
+      0,
+      0
+    ],
+    [
+      4,
+      23,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "scope_assessable_pairs": 48,
+  "scope_unassessable_pairs": 0,
+  "scope_agreement_on_assessable_count": 38,
+  "scope_agreement_on_assessable_fraction": 0.7916666666666666,
+  "disagreements": [
+    {
+      "query_id": "q16",
+      "document_id": "claim:sha256:a032658bd24e6cceb4df87a363357b8bb904500499d33a198d68d0130d8f0261",
+      "old": {
+        "query_id": "q16",
+        "document_id": "claim:sha256:a032658bd24e6cceb4df87a363357b8bb904500499d33a198d68d0130d8f0261",
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "索马里兰—也门共轭边缘Moho结构，空间范围不同。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "fresh": {
+        "query_id": "q16",
+        "document_id": "claim:sha256:a032658bd24e6cceb4df87a363357b8bb904500499d33a198d68d0130d8f0261",
+        "relevance": 0,
+        "scope_error": false,
+        "scope_assessable": true,
+        "reason": "p.8图7是Somaliland–Yemen共轭陆缘的重力/挠曲结构；5和25 km指弹性厚度假设，没有可用Afar剖面厚度。其定性不对称结构属于另一区域背景，不构成所问厚度的替代值。"
+      }
+    },
+    {
+      "query_id": "q16",
+      "document_id": "claim:sha256:4e224bc32e54812d99c1b35fc9118122d3f7ade270ee9c7bad738fb5bf8a36c2",
+      "old": {
+        "query_id": "q16",
+        "document_id": "claim:sha256:4e224bc32e54812d99c1b35fc9118122d3f7ade270ee9c7bad738fb5bf8a36c2",
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "埃及及北红海25–40 km是不同区域测厚。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "fresh": {
+        "query_id": "q16",
+        "document_id": "claim:sha256:4e224bc32e54812d99c1b35fc9118122d3f7ade270ee9c7bad738fb5bf8a36c2",
+        "relevance": 0,
+        "scope_error": true,
+        "scope_assessable": true,
+        "reason": "p.7给25–30 km地壳厚度，p.9图8将其限定于埃及、北红海及Suez/Aqaba陆缘；同为地壳厚度但地理支撑明确不符，用此回答会替代Afar阵列厚度。"
+      }
+    },
+    {
+      "query_id": "q16",
+      "document_id": "claim:sha256:a35bd0060db25607d51f8d5dbfdd1fe091bbf3964995652ebaa793e865c483f4",
+      "old": {
+        "query_id": "q16",
+        "document_id": "claim:sha256:a35bd0060db25607d51f8d5dbfdd1fe091bbf3964995652ebaa793e865c483f4",
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "沙特阿拉伯地壳测厚，不能替代Afar剖面。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "fresh": {
+        "query_id": "q16",
+        "document_id": "claim:sha256:a35bd0060db25607d51f8d5dbfdd1fe091bbf3964995652ebaa793e865c483f4",
+        "relevance": 0,
+        "scope_error": true,
+        "scope_assessable": true,
+        "reason": "p.17厚度32.5–45 km对应Aqaba、Midyan、Jeddah、Asir等Saudi Arabia地体，p.15是红海岸至Arabian shield剖面；同一厚度量的空间支撑不符，不能替代Afar轴部与重叠区值。"
+      }
+    },
+    {
+      "query_id": "q30",
+      "document_id": "claim:sha256:af6129997391e1c136c2e5a853443366e1fba07b8aee6a8731e73478c1de7ce3",
+      "old": {
+        "query_id": "q30",
+        "document_id": "claim:sha256:af6129997391e1c136c2e5a853443366e1fba07b8aee6a8731e73478c1de7ce3",
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "DSDP278古ACC流速记录，不是Emperor表层粒度深度关系。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "fresh": {
+        "query_id": "q30",
+        "document_id": "claim:sha256:af6129997391e1c136c2e5a853443366e1fba07b8aee6a8731e73478c1de7ce3",
+        "relevance": 0,
+        "scope_error": false,
+        "scope_assessable": true,
+        "reason": "p.3–4为DSDP 278的ACC流速重建，约10 cm/s与约10 Ma相关；虽采用sortable silt，却未给粒径对水深相关关系。流速时间序列是不同结果，不能据此称存在目标相关系数的范围错配。"
+      }
+    },
+    {
+      "query_id": "q50",
+      "document_id": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+      "old": {
+        "query_id": "q50",
+        "document_id": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Khuff裂缝渗流非F2阈值",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "fresh": {
+        "query_id": "q50",
+        "document_id": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+        "relevance": 1,
+        "scope_error": false,
+        "scope_assessable": true,
+        "reason": "p.17图25及original claim说明Khuff天然裂缝的Mohr-Coulomb临界性、零内聚力假设；可作稳定性方法背景，但无Asmari F2阈值或三法结论。"
+      }
+    }
+  ],
+  "interpretation": "A new blind AI check of existing development labels on a deterministic nonrepresentative subset. Neither assessor supplies expert/scientific ground truth. Historic labels and table values unchanged."
+}

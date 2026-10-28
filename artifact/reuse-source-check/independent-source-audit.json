@@ -1,0 +1,521 @@
+{
+  "audit_id": "new-ai-source-audit-2026-10-27-reuse",
+  "created_utc": "2026-10-27T12:23:58.622897+00:00",
+  "reviewer": "AI source auditor; not expert review or human labels",
+  "scope": "F2 prepared scientific observation and its retained source anchor fields; both Nd prepared tuples with same field categories, plus scientific uptake/interpretation references",
+  "method": "Independently read local source PDFs before inspecting target JSON; no prior source-task-check or paper-evaluation reports read. Text extraction plus full-page visual inspection. No input files edited.",
+  "status_definitions": {
+    "supported": "Source supports exported claim with its existing scope.",
+    "unsupported": "Located source contradicts field or locator fails.",
+    "requires_qualification": "Field is incomplete/ambiguous if interpreted without a stated limitation.",
+    "unassessable": "Cannot establish from specified PDFs; not evidence of falsity."
+  },
+  "pdf_page_convention": "1-based physical PDF pages",
+  "source_hashes": {
+    "second-case/adapter-reuse-ui-export-v14.json": "fe7f6ff55691c4e29bc06893063a06dcd067b4ba7107d190c545ecbc2aa5ebd5",
+    "second-case/source.pdf": "f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+    "nd-case/case.json": "e97584bd96e19075ddc7cc9736592279083be332c8eaa98d2adfd9cdb3bfd767",
+    "nd-case/source/article.pdf": "0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c"
+  },
+  "text_pages_reviewed": {
+    "second-case/source.pdf": [
+      1,
+      3,
+      4,
+      9,
+      10,
+      11,
+      13
+    ],
+    "nd-case/source/article.pdf": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "visually_reviewed_complete_pages": {
+    "second-case/source.pdf": [
+      11,
+      13
+    ],
+    "nd-case/source/article.pdf": [
+      4,
+      7,
+      8
+    ]
+  },
+  "items": [
+    {
+      "case": "F2 prepared observation",
+      "field": "value and unit",
+      "status": "supported",
+      "exported_value": "55–57 MPa",
+      "pdf_pages": [
+        11,
+        13
+      ],
+      "source_evidence": "Section 6, right column below Fig. 12: F2 can undergo an average maximum pore pressure of 55–57 MPa. Section 8 repeats maximum pore pressure of 55–57 MPa.",
+      "assessment": "Exact author-reported summary, not a newly calculated interval."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "quantity definition",
+      "status": "supported",
+      "exported_value": "Maximum sustainable pore pressure, author-reported modeled summary",
+      "pdf_pages": [
+        9,
+        10,
+        11
+      ],
+      "source_evidence": "Section 5 defines maximum sustainable pore pressure Ppmax separately from the pore pressure increase required to cause failure. Table 3 F2: Ppi 22.04; Ppmax 57.4/57.3; ΔPp 35.4/35.3 MPa.",
+      "assessment": "Correctly names absolute pore pressure; not increment and not an observed safe operating pressure."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "experiment/model context",
+      "status": "supported",
+      "exported_value": "Modeled F2 fault reactivation during gas injection, Asmari reservoir",
+      "pdf_pages": [
+        3,
+        9,
+        13
+      ],
+      "source_evidence": "Methodology uses well logs to estimate stress; Section 5 plots Mohr diagrams; Section 8 estimates critical pore pressure due to gas injection for faults in Asmari reservoir.",
+      "assessment": "Analytical/model estimate is faithful; no experimental validation claimed."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "conditions",
+      "status": "supported",
+      "exported_value": "F2; Asmari; Gachsaran SW Iran; zero cohesion; friction 0.6; three analytical methods",
+      "pdf_pages": [
+        1,
+        3,
+        4,
+        11,
+        13
+      ],
+      "source_evidence": "p.3: faults were considered cohesionless (C=0), friction can be set to 0.6 absent data; Table 1 p.4 F2 C=0, μ=0.6. p.11: principal stresses taken within a specified range (e.g. 10 m) of middle part of fault planes.",
+      "assessment": "Listed conditions supported. C=0 and μ=0.6 are assumptions, not measured fault properties; modeled context preserves that meaning. Mid-fault sampling detail remains an important reuse limit."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "time",
+      "status": "unassessable",
+      "exported_value": "Recorded scope time=null; prepared field absent",
+      "pdf_pages": [
+        11,
+        13
+      ],
+      "source_evidence": "Source describes current stress field and pore pressure, without a dated time-series observation attached to the 55–57 summary.",
+      "assessment": "No numerical calendar time or injection duration can be established for this value; absence is not a contradiction."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "uncertainty explanation",
+      "status": "supported",
+      "exported_value": "Author-reported modeled range; Table 4 separately lists formulation-specific Pc and PCr",
+      "pdf_pages": [
+        11
+      ],
+      "source_evidence": "Table 4 F2, equation 3/5: Pc=55.03/55.31 MPa; PCr=57.58/57.81 MPa. Narrative summary=55–57 MPa.",
+      "assessment": "Faithful descriptive label. It must not become a confidence interval, measurement error, or exact min/max envelope: 57.81 exceeds 57."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "page/section/table locator",
+      "status": "supported",
+      "exported_value": "PDF p.11 Section 6 and Table 4; conclusions p.13",
+      "pdf_pages": [
+        11,
+        13
+      ],
+      "source_evidence": "Verified complete page renders show Section 6, Table 4 on p.11 and Section 8 on p.13.",
+      "assessment": "Prepared textual locator is correct."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "qualified reading scientific content",
+      "status": "supported",
+      "exported_value": "Preserve 55–57 author summary; distinguish Pc from PCr; not pressure increment",
+      "pdf_pages": [
+        10,
+        11,
+        13
+      ],
+      "source_evidence": "Table 3 distinguishes Ppmax from ΔPp; Table 4 has the exact quoted Pc/PCr values.",
+      "assessment": "No scientific overreach in prepared notes when confined to modeled F2 in this study. The source does not prove safety of actual injection operations."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "qualified reading procedural claims",
+      "status": "unassessable",
+      "exported_value": "Automated UI verification; source-checked entries; generic full-graph adapter union",
+      "pdf_pages": [
+        11,
+        13
+      ],
+      "source_evidence": "These are process claims outside the article.",
+      "assessment": "This source audit cannot certify UI execution or adapter behavior and does not adopt that wording as evidence."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "recorded numeric scalar",
+      "status": "requires_qualification",
+      "exported_value": "recorded_observations[obs.f2.assessed].value.numeric=55; raw=55–57 MPa",
+      "pdf_pages": [
+        11,
+        13
+      ],
+      "source_evidence": "Source gives the interval-like author summary 55–57, not a single point estimate 55.",
+      "assessment": "Raw text is faithful; numeric=55 is only the lower bound. Consumers must not use it as the whole result or mean. Consider explicit low/high representation."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "recorded text anchor quote",
+      "status": "supported",
+      "exported_value": "anchor.text.f2.stability quote and anchor.text.methods.all quote",
+      "pdf_pages": [
+        11,
+        13
+      ],
+      "source_evidence": "p.11 right lower paragraph contains the most stable/lowest Ts and Tsm/55–57 sentence. p.13 left conclusion contains all three methods/F2/55–57.",
+      "assessment": "Quotes match content, disregarding OCR typography."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "recorded p.11 anchor region",
+      "status": "unsupported",
+      "exported_value": "x=.0789916 y=.7987342 width=.410084 height=.111392; normalized",
+      "pdf_pages": [
+        11
+      ],
+      "source_evidence": "Full-page render: target sentence is in right column, approximately x=.51–.92, y=.65–.69. Exported box occupies left column x=.079–.489, y=.799–.910.",
+      "assessment": "Box does not enclose F2 target quote under usual top-left normalized coordinates. This is a region-locator error, not a wrong-page or wrong-value error. Approximate replacement is not a precision-tested box."
+    },
+    {
+      "case": "F2 prepared observation",
+      "field": "recorded p.13 anchor region",
+      "status": "supported",
+      "exported_value": "x=.0789916 y=.2113925 width=.410084 height=.539241; normalized",
+      "pdf_pages": [
+        13
+      ],
+      "source_evidence": "Full-page render shows the target conclusion in the left column around y=.53–.59, enclosed by the supplied region.",
+      "assessment": "Region is broad but contains quote; not a tight sentence box."
+    },
+    {
+      "case": "Nd time-series plateau",
+      "field": "material",
+      "status": "supported",
+      "exported_value": "2-line ferrihydrite",
+      "pdf_pages": [
+        2,
+        7
+      ],
+      "source_evidence": "p.2 describes synthesis of 2-line ferrihydrite; p.7 Section 3.1 confirms characteristic XRD humps of 2-line ferrihydrite.",
+      "assessment": "Applies to laboratory adsorption experiments, not seawater or a field isotope measurement."
+    },
+    {
+      "case": "Nd time-series plateau",
+      "field": "conditions",
+      "status": "supported",
+      "exported_value": "pH 5.5; NaCl 0.01 mol/L; volume 50 mL",
+      "pdf_pages": [
+        3
+      ],
+      "source_evidence": "Section 2.1: final NaCl concentration 0.01 mol/L and volume 50 mL; pH adjusted to 5.5. For runs longer than 24 h pH adjusted daily back to 5.5.",
+      "assessment": "Numbers supported; pH 5.5 is an adjusted target, not evidence of uninterrupted constant pH. Do not infer temperature from the separate molecular dynamics simulation."
+    },
+    {
+      "case": "Nd time-series plateau",
+      "field": "methods locator",
+      "status": "supported",
+      "exported_value": "p.3 Section 2.1; definition p.3 where supplied",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "source_evidence": "Adsorption methods begin on p.2 and continue on p.3, where concentration/volume/pH and isotope definitions occur.",
+      "assessment": "p.3 is correct for listed aqueous conditions; material synthesis itself is on p.2."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "material",
+      "status": "supported",
+      "exported_value": "2-line ferrihydrite",
+      "pdf_pages": [
+        2,
+        7
+      ],
+      "source_evidence": "p.2 describes synthesis of 2-line ferrihydrite; p.7 Section 3.1 confirms characteristic XRD humps of 2-line ferrihydrite.",
+      "assessment": "Applies to laboratory adsorption experiments, not seawater or a field isotope measurement."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "conditions",
+      "status": "supported",
+      "exported_value": "pH 5.5; NaCl 0.01 mol/L; volume 50 mL",
+      "pdf_pages": [
+        3
+      ],
+      "source_evidence": "Section 2.1: final NaCl concentration 0.01 mol/L and volume 50 mL; pH adjusted to 5.5. For runs longer than 24 h pH adjusted daily back to 5.5.",
+      "assessment": "Numbers supported; pH 5.5 is an adjusted target, not evidence of uninterrupted constant pH. Do not infer temperature from the separate molecular dynamics simulation."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "methods locator",
+      "status": "supported",
+      "exported_value": "p.3 Section 2.1; definition p.3 where supplied",
+      "pdf_pages": [
+        2,
+        3
+      ],
+      "source_evidence": "Adsorption methods begin on p.2 and continue on p.3, where concentration/volume/pH and isotope definitions occur.",
+      "assessment": "p.3 is correct for listed aqueous conditions; material synthesis itself is on p.2."
+    },
+    {
+      "case": "Nd time-series plateau",
+      "field": "value/unit",
+      "status": "supported",
+      "exported_value": "−0.098 ±0.012 ‰",
+      "pdf_pages": [
+        7
+      ],
+      "source_evidence": "Section 3.2: experiments with duration ≥24 h give −0.098 ±0.012 ‰; Fig. 2b labels same value.",
+      "assessment": "Exact aggregate as reported, not an individual table row."
+    },
+    {
+      "case": "Nd time-series plateau",
+      "field": "quantity definition",
+      "status": "supported",
+      "exported_value": "Δ146NdSol−Liq = δ146NdSol − δ146NdLiq",
+      "pdf_pages": [
+        3,
+        7
+      ],
+      "source_evidence": "Equation 2 defines solid-minus-liquid difference; Equation 1 defines δ relative to JNdi-1 in per mille.",
+      "assessment": "Sign means solid lower in δ than liquid; no inversion."
+    },
+    {
+      "case": "Nd time-series plateau",
+      "field": "experiment context",
+      "status": "supported",
+      "exported_value": "Time series: isotopic plateau subset",
+      "pdf_pages": [
+        3,
+        4,
+        7
+      ],
+      "source_evidence": "Methods p.3: identical input experiments at variable duration 0.5–168 h; Table 1 separates Time series from Variable adsorption in equilibrium. p.7 takes ≥24 h subset.",
+      "assessment": "Correct subset, not pooled with variable-loading experiments."
+    },
+    {
+      "case": "Nd time-series plateau",
+      "field": "time and loading",
+      "status": "supported",
+      "exported_value": "24–168 h; observed 24,48,168 h; stock 1 mL",
+      "pdf_pages": [
+        4,
+        7
+      ],
+      "source_evidence": "Table 1 time-series experiments 6,7,9: durations 24,48,168 h, each Fhy stock 1.00 mL.",
+      "assessment": "Duration endpoints describe observed subset span, not continuous measurements at all intervening times."
+    },
+    {
+      "case": "Nd time-series plateau",
+      "field": "uncertainty explanation",
+      "status": "supported",
+      "exported_value": "95% confidence interval for mean, explicitly stated by authors",
+      "pdf_pages": [
+        7
+      ],
+      "source_evidence": "Section 3.2 calls it a 95% confidence interval (i.e. how well constrained the mean value); figure/caption also use 95% se interval.",
+      "assessment": "Source explicitly supports CI-for-mean reading. Not 2×SD of replicate analyses or propagated per-row errors in Table 1."
+    },
+    {
+      "case": "Nd time-series plateau",
+      "field": "article locator",
+      "status": "supported",
+      "exported_value": "p.7 Section 3.2/Fig.2; Table 1 p.4; definition p.3",
+      "pdf_pages": [
+        3,
+        4,
+        7
+      ],
+      "source_evidence": "Verified page renders and text locate value and rows at these pages.",
+      "assessment": "Correct PDF page locators."
+    },
+    {
+      "case": "Nd time-series plateau",
+      "field": "workbook/table cell locator",
+      "status": "unassessable",
+      "exported_value": "Table1!B9:D11, K9:L11; table cells B9:C11",
+      "pdf_pages": [
+        4
+      ],
+      "source_evidence": "PDF Table 1 uses experiment numbers/column headings, not spreadsheet A1 cells.",
+      "assessment": "PDF confirms corresponding experiment rows 6,7,9 but cannot establish workbook sheet coordinates. Workbook not supplied/read in this scoped audit."
+    },
+    {
+      "case": "Nd time-series plateau",
+      "field": "qualified reading",
+      "status": "supported",
+      "exported_value": "Stable isotopic offset coexists with increasing sorbed fraction",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "source_evidence": "p.8: constant offset after 24 h despite ongoing Nd uptake demonstrates elemental equilibration occurred more slowly. Table 1 uptake rises 17.69→28.10→47.59%.",
+      "assessment": "Supported coexistence for this experiment; does not establish universal decoupling or complete elemental equilibrium."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "value/unit",
+      "status": "supported",
+      "exported_value": "−0.113 ±0.030; dimensionless scaled logarithmic factor",
+      "pdf_pages": [
+        8
+      ],
+      "source_evidence": "Section 3.2 after Eq.5: average α=0.999886±0.000030, corresponding average 10³ ln α=−0.113±0.030.",
+      "assessment": "Correct logarithmic representation, kept distinct from per-mille δ notation."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "quantity definition",
+      "status": "supported",
+      "exported_value": "10³ ln αSolid−Liquid; α=(1000+δSolid)/(1000+δLiquid)",
+      "pdf_pages": [
+        8
+      ],
+      "source_evidence": "Equation 5 gives exact ratio of 1000+δ terms.",
+      "assessment": "Correct orientation and scaling."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "authors equivalence",
+      "status": "supported",
+      "exported_value": "Authors state equal to Δ146NdSol−Liq; retain original representation",
+      "pdf_pages": [
+        8
+      ],
+      "source_evidence": "Text after Eq.5 says this value is equal to Δ146NdSol−Liq.",
+      "assessment": "Faithful attributed statement. Algebraically log factor and δ difference are not generally identical; do not promote this sentence to a universal exact identity."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "experiment context",
+      "status": "supported",
+      "exported_value": "Variable ferrihydrite loading in equilibrium",
+      "pdf_pages": [
+        3,
+        4,
+        8
+      ],
+      "source_evidence": "p.8 second experiment set varies stock amount to obtain variable sorbed Nd; experiments ran ≥48 h and formed parallel trends interpreted as isotopic equilibrium.",
+      "assessment": "Correct series; the source itself notes incomplete adsorption means open exchange model cannot be confirmed."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "time and loading",
+      "status": "supported",
+      "exported_value": "48–144 h; observed 48,96,144 h; stock 0.5–2.5 mL",
+      "pdf_pages": [
+        4,
+        8
+      ],
+      "source_evidence": "Table 1 experiments 10–18 list 48,96,144 h and 0.50–2.50 mL; p.8 text repeats ranges.",
+      "assessment": "Supported jointly; stock volume is not a universal concentration or fraction adsorbed."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "uncertainty explanation",
+      "status": "supported",
+      "exported_value": "±0.030 as reported; aggregate construction not established here",
+      "pdf_pages": [
+        4,
+        8
+      ],
+      "source_evidence": "p.8 supplies ±0.030 without a named CI/SD construction there. p.4 footnotes describe replicate 2×SD and row-level propagated uncertainty.",
+      "assessment": "Conservative explanation correct. PDF does not justify assigning the aggregate ±0.030 a 95% CI or row propagated-error meaning."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "article locator",
+      "status": "supported",
+      "exported_value": "p.8 Section 3.2 Eq.5; Table1 p.4",
+      "pdf_pages": [
+        4,
+        8
+      ],
+      "source_evidence": "Full p.8 render shows value beneath Eq.5, under Section 3.2 continued from p.7.",
+      "assessment": "Correct even though Section 3.2 heading appears on preceding page."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "workbook/table cell locator",
+      "status": "unassessable",
+      "exported_value": "Table1!B13:D21, E13:L21; table cells B13:C21",
+      "pdf_pages": [
+        4
+      ],
+      "source_evidence": "PDF Table1 experiments 10–18 corresponds in scientific content but has no A1 labels.",
+      "assessment": "Workbook coordinates and underlying precision cannot be independently certified from PDF."
+    },
+    {
+      "case": "Nd variable-loading factor",
+      "field": "qualified reading",
+      "status": "supported",
+      "exported_value": "Loading aggregate kept distinct from time-series plateau; no independent human labels",
+      "pdf_pages": [
+        4,
+        7,
+        8
+      ],
+      "source_evidence": "Separate table groups and distinct aggregate statements on pp.7–8. p.8 says open exchange model cannot be confirmed.",
+      "assessment": "Scientific separation faithful. Human-label status is a provenance statement outside PDF; this audit adds only AI review."
+    },
+    {
+      "case": "Nd ancillary uptake",
+      "field": "rounded values and experiment identities",
+      "status": "supported",
+      "exported_value": "24 h expt6 ~17.69%; 48 h expt7 ~28.10%; 168 h expt9 ~47.59%",
+      "pdf_pages": [
+        4,
+        7,
+        8
+      ],
+      "source_evidence": "Table1 exact displayed percentages 17.69,28.10,47.59, with times 24,48,168 h. Figure2c shows same increasing uptake.",
+      "assessment": "Exported full-precision values round correctly to article values."
+    },
+    {
+      "case": "Nd ancillary uptake",
+      "field": "full precision/workbook/digitized identity",
+      "status": "unassessable",
+      "exported_value": "17.689740240893922,28.096093519586024,47.59157120633573; cells/pixels/candidates",
+      "pdf_pages": [
+        4,
+        7
+      ],
+      "source_evidence": "Article contains rounded table values and Fig.2c; no workbook cached values, digitization pixel coordinates or association algorithm.",
+      "assessment": "PDF cannot certify all decimals, spreadsheet cell identity, or digitization provenance. These remain candidates, as export already states."
+    }
+  ],
+  "minimal_correction_list": [
+    {
+      "field": "payload.original_result.recorded_anchors[id=anchor.text.f2.stability].selector.region",
+      "action": "Do not overwrite the retained original. Add a new operator/source reading that p.11 target is right lower column and original normalized box points left. If creating a corrected region, measure against PDF and preserve original/version provenance.",
+      "reason": "unsupported region locator; prepared p.11 textual locator remains supported"
+    },
+    {
+      "field": "recorded_observations[id=obs.f2.assessed].value.numeric",
+      "action": "Retain original, but prevent numeric=55 from being read as point estimate. New derivative representation should state lower=55, upper=57 or explicitly identify scalar as lower bound; preserve raw author summary.",
+      "reason": "requires_qualification; scientific prepared value itself is already correct"
+    }
+  ]
+}

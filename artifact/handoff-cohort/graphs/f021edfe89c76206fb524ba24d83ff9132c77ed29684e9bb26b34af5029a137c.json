@@ -1,0 +1,895 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "d80d3bd49b6ef62e87308261ea32b91393b16ce5a5e1f4b4b6454debd2338982",
+  "http_body_sha256": "0dbadeac91673634b65a4425ac06f215c36f0bbdaf0423bd9e8d03aa87397a51",
+  "snapshot": {
+    "id": "snapshot:sha256:f021edfe89c76206fb524ba24d83ff9132c77ed29684e9bb26b34af5029a137c",
+    "rootArtifactVersionId": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "f021edfe89c76206fb524ba24d83ff9132c77ed29684e9bb26b34af5029a137c"
+  },
+  "graph": {
+    "paper_id": "paper:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+    "anchors": [
+      {
+        "id": "anchor.VA.transfer",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.VB.no.transfer",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.age.no.correlation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.expII.equilibration",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.expIII.fraction",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.fes.fraction",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.fes.incomplete",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.fes2.no.transfer",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.figure.fig3",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.halftime",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.mediation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.pseudo.equilibrium",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.radiotracer.limits",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.rates",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.s0fes.exchange",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.so4.no35so4",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.so4.remains",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.stable.isotope.effect",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "anchor.sulfate.reduction",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:3778ed001757fe2c419d62edbe953e71e1e80d1845dff3aba8addddb176e25ce",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "selector": {
+          "page": 15
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.age",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.age.no.correlation"
+        ]
+      },
+      {
+        "id": "obs.expII",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.expII.equilibration"
+        ]
+      },
+      {
+        "id": "obs.expIII",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.expIII.fraction"
+        ]
+      },
+      {
+        "id": "obs.fes.exchange",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fes.fraction",
+          "anchor:compiler:visual:3778ed001757fe2c419d62edbe953e71e1e80d1845dff3aba8addddb176e25ce"
+        ]
+      },
+      {
+        "id": "obs.fes.incomplete",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fes.incomplete"
+        ]
+      },
+      {
+        "id": "obs.fes2",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fes2.no.transfer"
+        ]
+      },
+      {
+        "id": "obs.halftime",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.halftime"
+        ]
+      },
+      {
+        "id": "obs.mediation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.fig3",
+          "anchor.mediation"
+        ]
+      },
+      {
+        "id": "obs.pseudo",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.pseudo.equilibrium"
+        ]
+      },
+      {
+        "id": "obs.radiotracer",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.radiotracer.limits",
+          "anchor.sulfate.reduction"
+        ]
+      },
+      {
+        "id": "obs.rate.comparison",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.mediation"
+        ]
+      },
+      {
+        "id": "obs.s0fes.carriers",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.VA.transfer",
+          "anchor.VB.no.transfer"
+        ]
+      },
+      {
+        "id": "obs.s0fes.exchange",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.s0fes.exchange"
+        ]
+      },
+      {
+        "id": "obs.so4",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.so4.no35so4",
+          "anchor.so4.remains"
+        ]
+      },
+      {
+        "id": "obs.stable",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.stable.isotope.effect"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.exchange.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.expII.equilibration",
+          "anchor.expIII.fraction",
+          "anchor.fes.fraction",
+          "anchor.s0fes.exchange",
+          "anchor:compiler:visual:3778ed001757fe2c419d62edbe953e71e1e80d1845dff3aba8addddb176e25ce"
+        ]
+      },
+      {
+        "id": "reason.fes.incomplete",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fes.fraction",
+          "anchor.fes.incomplete",
+          "anchor:compiler:visual:3778ed001757fe2c419d62edbe953e71e1e80d1845dff3aba8addddb176e25ce"
+        ]
+      },
+      {
+        "id": "reason.fes2.noexchange",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fes2.no.transfer"
+        ]
+      },
+      {
+        "id": "reason.mediation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.fig3",
+          "anchor.mediation"
+        ]
+      },
+      {
+        "id": "reason.pseudo.equilibrium",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.age.no.correlation",
+          "anchor.pseudo.equilibrium"
+        ]
+      },
+      {
+        "id": "reason.radiotracer.limits",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.radiotracer.limits",
+          "anchor.sulfate.reduction"
+        ]
+      },
+      {
+        "id": "reason.rates",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.halftime",
+          "anchor.mediation",
+          "anchor.rates"
+        ]
+      },
+      {
+        "id": "reason.s0fes.carriers",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.VA.transfer",
+          "anchor.VB.no.transfer"
+        ]
+      },
+      {
+        "id": "reason.so4.noexchange",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.so4.no35so4",
+          "anchor.so4.remains"
+        ]
+      },
+      {
+        "id": "reason.stable.isotope",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.stable.isotope.effect"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:0d44282e1f58b647f0077d422cb2df33d032fd15bd3ca493ad2c8b27248f6abc",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.radiotracer.limits",
+          "anchor.sulfate.reduction"
+        ]
+      },
+      {
+        "id": "claim:sha256:4e3f423456cdd1850146e935819c5afbb14a79cef9366b15a19c99e6133e9ca7",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.age.no.correlation",
+          "anchor.pseudo.equilibrium"
+        ]
+      },
+      {
+        "id": "claim:sha256:6731c425794ebe388d0324182cf4caeef149c52fcec9120dbe5685a87f969109",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.stable.isotope.effect"
+        ]
+      },
+      {
+        "id": "claim:sha256:794357d432f8d96d10fc38cb9ca6c633419182e7f72b2f28e1e9de60fee1029e",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.VA.transfer",
+          "anchor.VB.no.transfer"
+        ]
+      },
+      {
+        "id": "claim:sha256:9f063bce4fe2fa76a6974204beee19db90070afd91c303adbe4ed01289c4b7f4",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.fig3",
+          "anchor.mediation"
+        ]
+      },
+      {
+        "id": "claim:sha256:a08bd941478db80619f546cba83a5705b2a98ebfda11a4a76fe96048d389eaba",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.so4.no35so4",
+          "anchor.so4.remains"
+        ]
+      },
+      {
+        "id": "claim:sha256:c6eac5192756219b5830524be052180a81f08af54f45e2312efad36bdc00487c",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.expII.equilibration",
+          "anchor.expIII.fraction",
+          "anchor.fes.fraction",
+          "anchor.s0fes.exchange",
+          "anchor:compiler:visual:3778ed001757fe2c419d62edbe953e71e1e80d1845dff3aba8addddb176e25ce"
+        ]
+      },
+      {
+        "id": "claim:sha256:d55479288a36e13673f5456ea3c49f079953c503fb0a8404022ac88e702f6ef5",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fes2.no.transfer"
+        ]
+      },
+      {
+        "id": "claim:sha256:f88dda02a4107d41898da4acd08b55358b8e4a97e3093e285a5eba1824698c2b",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.halftime",
+          "anchor.mediation",
+          "anchor.rates"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.causal",
+        "kind": "assumption",
+        "anchor_ids": []
+      },
+      {
+        "id": "assumption.measurement",
+        "kind": "assumption",
+        "anchor_ids": []
+      },
+      {
+        "id": "assumption.model",
+        "kind": "assumption",
+        "anchor_ids": []
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:ff2e879f-af87-4bd6-b4f1-d6729f38d45a",
+        "sha256": "c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.assumption.causal",
+        "source_id": "assumption.causal",
+        "target_id": "reason.pseudo.equilibrium",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.measurement",
+        "source_id": "assumption.measurement",
+        "target_id": "reason.exchange.synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.model",
+        "source_id": "assumption.model",
+        "target_id": "reason.mediation",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.ground.VA",
+        "source_id": "anchor.VA.transfer",
+        "target_id": "obs.s0fes.carriers",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.VB",
+        "source_id": "anchor.VB.no.transfer",
+        "target_id": "obs.s0fes.carriers",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.age",
+        "source_id": "anchor.age.no.correlation",
+        "target_id": "obs.age",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.expII",
+        "source_id": "anchor.expII.equilibration",
+        "target_id": "obs.expII",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.expIII",
+        "source_id": "anchor.expIII.fraction",
+        "target_id": "obs.expIII",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fes.fraction",
+        "source_id": "anchor.fes.fraction",
+        "target_id": "obs.fes.exchange",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fes.incomplete",
+        "source_id": "anchor.fes.incomplete",
+        "target_id": "obs.fes.incomplete",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fes2",
+        "source_id": "anchor.fes2.no.transfer",
+        "target_id": "obs.fes2",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fig3",
+        "source_id": "anchor.figure.fig3",
+        "target_id": "obs.mediation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.halftime",
+        "source_id": "anchor.halftime",
+        "target_id": "obs.halftime",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.mediation",
+        "source_id": "anchor.mediation",
+        "target_id": "obs.mediation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.pseudo",
+        "source_id": "anchor.pseudo.equilibrium",
+        "target_id": "obs.pseudo",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.radiotracer",
+        "source_id": "anchor.radiotracer.limits",
+        "target_id": "obs.radiotracer",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.rate.comparison",
+        "source_id": "anchor.mediation",
+        "target_id": "obs.rate.comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.s0fes.exchange",
+        "source_id": "anchor.s0fes.exchange",
+        "target_id": "obs.s0fes.exchange",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.so4.no35so4",
+        "source_id": "anchor.so4.no35so4",
+        "target_id": "obs.so4",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.so4.remains",
+        "source_id": "anchor.so4.remains",
+        "target_id": "obs.so4",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.stable",
+        "source_id": "anchor.stable.isotope.effect",
+        "target_id": "obs.stable",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.sulfate.reduction",
+        "source_id": "anchor.sulfate.reduction",
+        "target_id": "obs.radiotracer",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.age",
+        "source_id": "obs.age",
+        "target_id": "reason.pseudo.equilibrium",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.expII",
+        "source_id": "obs.expII",
+        "target_id": "reason.exchange.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.expIII",
+        "source_id": "obs.expIII",
+        "target_id": "reason.exchange.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.fes.exchange",
+        "source_id": "obs.fes.exchange",
+        "target_id": "reason.exchange.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.fes.incomplete",
+        "source_id": "obs.fes.incomplete",
+        "target_id": "reason.fes.incomplete",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.fes.incomplete.to.pseudo",
+        "source_id": "reason.fes.incomplete",
+        "target_id": "reason.pseudo.equilibrium",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.fes2",
+        "source_id": "obs.fes2",
+        "target_id": "reason.fes2.noexchange",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.halftime",
+        "source_id": "obs.halftime",
+        "target_id": "reason.rates",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mediation",
+        "source_id": "obs.mediation",
+        "target_id": "reason.mediation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.pseudo",
+        "source_id": "obs.pseudo",
+        "target_id": "reason.pseudo.equilibrium",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.radiotracer.obs",
+        "source_id": "obs.radiotracer",
+        "target_id": "reason.radiotracer.limits",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.radiotracer.synthesis",
+        "source_id": "reason.exchange.synthesis",
+        "target_id": "reason.radiotracer.limits",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.rate.comparison",
+        "source_id": "obs.rate.comparison",
+        "target_id": "reason.rates",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.s0fes.carriers",
+        "source_id": "obs.s0fes.carriers",
+        "target_id": "reason.s0fes.carriers",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.s0fes.exchange",
+        "source_id": "obs.s0fes.exchange",
+        "target_id": "reason.exchange.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.so4",
+        "source_id": "obs.so4",
+        "target_id": "reason.so4.noexchange",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.stable.obs",
+        "source_id": "obs.stable",
+        "target_id": "reason.stable.isotope",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.stable.synthesis",
+        "source_id": "reason.exchange.synthesis",
+        "target_id": "reason.stable.isotope",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.exchange",
+        "source_id": "reason.exchange.synthesis",
+        "target_id": "claim:sha256:c6eac5192756219b5830524be052180a81f08af54f45e2312efad36bdc00487c",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.fes2",
+        "source_id": "reason.fes2.noexchange",
+        "target_id": "claim:sha256:d55479288a36e13673f5456ea3c49f079953c503fb0a8404022ac88e702f6ef5",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.mediation",
+        "source_id": "reason.mediation",
+        "target_id": "claim:sha256:9f063bce4fe2fa76a6974204beee19db90070afd91c303adbe4ed01289c4b7f4",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.pseudo",
+        "source_id": "reason.pseudo.equilibrium",
+        "target_id": "claim:sha256:4e3f423456cdd1850146e935819c5afbb14a79cef9366b15a19c99e6133e9ca7",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.radiotracer",
+        "source_id": "reason.radiotracer.limits",
+        "target_id": "claim:sha256:0d44282e1f58b647f0077d422cb2df33d032fd15bd3ca493ad2c8b27248f6abc",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.rates",
+        "source_id": "reason.rates",
+        "target_id": "claim:sha256:f88dda02a4107d41898da4acd08b55358b8e4a97e3093e285a5eba1824698c2b",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.s0fes.carriers",
+        "source_id": "reason.s0fes.carriers",
+        "target_id": "claim:sha256:794357d432f8d96d10fc38cb9ca6c633419182e7f72b2f28e1e9de60fee1029e",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.so4",
+        "source_id": "reason.so4.noexchange",
+        "target_id": "claim:sha256:a08bd941478db80619f546cba83a5705b2a98ebfda11a4a76fe96048d389eaba",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.stable",
+        "source_id": "reason.stable.isotope",
+        "target_id": "claim:sha256:6731c425794ebe388d0324182cf4caeef149c52fcec9120dbe5685a87f969109",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:37f4396ce1d5bc9b2a562306b7b20285f3d4fe712bf1a8cd25cce35578c40805",
+        "source_id": "anchor:compiler:visual:3778ed001757fe2c419d62edbe953e71e1e80d1845dff3aba8addddb176e25ce",
+        "target_id": "obs.fes.exchange",
+        "relation": "grounds"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:6bfc753c09ae38c6552f0cb3bc1f130ec8b309b3c57d3ae2e3f0402fb480b529",
+        "entity_ids": [
+          "anchor.VA.transfer",
+          "anchor.VB.no.transfer",
+          "anchor.age.no.correlation",
+          "anchor.expII.equilibration",
+          "anchor.expIII.fraction",
+          "anchor.fes.fraction",
+          "anchor.fes.incomplete",
+          "anchor.fes2.no.transfer",
+          "anchor.figure.fig3",
+          "anchor.halftime",
+          "anchor.mediation",
+          "anchor.pseudo.equilibrium",
+          "anchor.radiotracer.limits",
+          "anchor.rates",
+          "anchor.s0fes.exchange",
+          "anchor.so4.no35so4",
+          "anchor.so4.remains",
+          "anchor.stable.isotope.effect",
+          "anchor.sulfate.reduction",
+          "anchor:compiler:visual:3778ed001757fe2c419d62edbe953e71e1e80d1845dff3aba8addddb176e25ce",
+          "artifact-version:sha256:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+          "artifact:ff2e879f-af87-4bd6-b4f1-d6729f38d45a",
+          "assumption.causal",
+          "assumption.measurement",
+          "assumption.model",
+          "claim:sha256:0d44282e1f58b647f0077d422cb2df33d032fd15bd3ca493ad2c8b27248f6abc",
+          "claim:sha256:4e3f423456cdd1850146e935819c5afbb14a79cef9366b15a19c99e6133e9ca7",
+          "claim:sha256:6731c425794ebe388d0324182cf4caeef149c52fcec9120dbe5685a87f969109",
+          "claim:sha256:794357d432f8d96d10fc38cb9ca6c633419182e7f72b2f28e1e9de60fee1029e",
+          "claim:sha256:9f063bce4fe2fa76a6974204beee19db90070afd91c303adbe4ed01289c4b7f4",
+          "claim:sha256:a08bd941478db80619f546cba83a5705b2a98ebfda11a4a76fe96048d389eaba",
+          "claim:sha256:c6eac5192756219b5830524be052180a81f08af54f45e2312efad36bdc00487c",
+          "claim:sha256:d55479288a36e13673f5456ea3c49f079953c503fb0a8404022ac88e702f6ef5",
+          "claim:sha256:f88dda02a4107d41898da4acd08b55358b8e4a97e3093e285a5eba1824698c2b",
+          "obs.age",
+          "obs.expII",
+          "obs.expIII",
+          "obs.fes.exchange",
+          "obs.fes.incomplete",
+          "obs.fes2",
+          "obs.halftime",
+          "obs.mediation",
+          "obs.pseudo",
+          "obs.radiotracer",
+          "obs.rate.comparison",
+          "obs.s0fes.carriers",
+          "obs.s0fes.exchange",
+          "obs.so4",
+          "obs.stable",
+          "reason.exchange.synthesis",
+          "reason.fes.incomplete",
+          "reason.fes2.noexchange",
+          "reason.mediation",
+          "reason.pseudo.equilibrium",
+          "reason.radiotracer.limits",
+          "reason.rates",
+          "reason.s0fes.carriers",
+          "reason.so4.noexchange",
+          "reason.stable.isotope"
+        ],
+        "edge_ids": [
+          "edge.assumption.causal",
+          "edge.assumption.measurement",
+          "edge.assumption.model",
+          "edge.ground.VA",
+          "edge.ground.VB",
+          "edge.ground.age",
+          "edge.ground.expII",
+          "edge.ground.expIII",
+          "edge.ground.fes.fraction",
+          "edge.ground.fes.incomplete",
+          "edge.ground.fes2",
+          "edge.ground.fig3",
+          "edge.ground.halftime",
+          "edge.ground.mediation",
+          "edge.ground.pseudo",
+          "edge.ground.radiotracer",
+          "edge.ground.rate.comparison",
+          "edge.ground.s0fes.exchange",
+          "edge.ground.so4.no35so4",
+          "edge.ground.so4.remains",
+          "edge.ground.stable",
+          "edge.ground.sulfate.reduction",
+          "edge.premise.age",
+          "edge.premise.expII",
+          "edge.premise.expIII",
+          "edge.premise.fes.exchange",
+          "edge.premise.fes.incomplete",
+          "edge.premise.fes.incomplete.to.pseudo",
+          "edge.premise.fes2",
+          "edge.premise.halftime",
+          "edge.premise.mediation",
+          "edge.premise.pseudo",
+          "edge.premise.radiotracer.obs",
+          "edge.premise.radiotracer.synthesis",
+          "edge.premise.rate.comparison",
+          "edge.premise.s0fes.carriers",
+          "edge.premise.s0fes.exchange",
+          "edge.premise.so4",
+          "edge.premise.stable.obs",
+          "edge.premise.stable.synthesis",
+          "edge.support.exchange",
+          "edge.support.fes2",
+          "edge.support.mediation",
+          "edge.support.pseudo",
+          "edge.support.radiotracer",
+          "edge.support.rates",
+          "edge.support.s0fes.carriers",
+          "edge.support.so4",
+          "edge.support.stable",
+          "edge:compiler:37f4396ce1d5bc9b2a562306b7b20285f3d4fe712bf1a8cd25cce35578c40805"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "kind": "source-derived contract fixture with synthetic variants; not human annotations",
+  "source": "WWW2027_Demo_v2/paper/main.tex Nd example; estimates -0.098 and -0.113 per mille",
+  "limitations": "No source-path validation. Numeric endpoints deliberately absent in production Scope.canonical. Fixed artificial vectors and assigned relations. Not a quality benchmark.",
+  "documents": [
+    {
+      "index_version": "evidence-retrieval/2.0",
+      "snapshot_id": "snapshot-1",
+      "paper_id": "paper-1",
+      "paper_family_id": "family-1",
+      "root_artifact_version_id": "artifact-snapshot-1",
+      "claim_id": "loading",
+      "source_claim_id": null,
+      "original_claim": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "canonical_claim": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "proposition_key": "proposition:sha256:1029965abf35005dd3a338de50cb1604453cf9a2817b40ba0d0a7e3e30afee19",
+      "scoped_claim_id": "claim:sha256:ddeba23f7bd012f06d266fa9bc09cdbecd905149b59eb36d836ca398fe5a92d4",
+      "paper_title": "Title paper-1",
+      "evidence_context": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "entities": [],
+      "key_terms": [
+        "Neodymium",
+        "isotope",
+        "offset",
+        "between",
+        "ferrihydrite",
+        "and",
+        "solution",
+        "is",
+        "stable."
+      ],
+      "abbreviations": [],
+      "qualifiers": [],
+      "claim_type": "descriptive",
+      "polarity": "affirmed",
+      "modality": "asserted",
+      "attribution": "authors_conclusion",
+      "rhetorical_role": "terminal_conclusion",
+      "scope": {
+        "location": [],
+        "time": {
+          "label": ">=48 h",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "ferrihydrite"
+        ],
+        "method": [],
+        "condition": [
+          "variable ferrihydrite loading"
+        ],
+        "measurement": [
+          "Nd isotope offset"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Nd"
+        ]
+      },
+      "evidence_anchors": [],
+      "shortest_evidence_path": {
+        "root_claim_id": "loading",
+        "nodes": [],
+        "links": [],
+        "depth": 0,
+        "mean_edge_confidence": null
+      },
+      "path_quality": 1.0,
+      "extractor_prompt_version": "extractor-v1",
+      "explicit_relations": []
+    },
+    {
+      "index_version": "evidence-retrieval/2.0",
+      "snapshot_id": "snapshot-1",
+      "paper_id": "paper-1",
+      "paper_family_id": "family-1",
+      "root_artifact_version_id": "artifact-snapshot-1",
+      "claim_id": "unknown",
+      "source_claim_id": null,
+      "original_claim": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "canonical_claim": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "proposition_key": "proposition:sha256:1029965abf35005dd3a338de50cb1604453cf9a2817b40ba0d0a7e3e30afee19",
+      "scoped_claim_id": "claim:sha256:0833e89401b592009f44efa285e16e269267ce8b02eed7f3af6c7404e1937db9",
+      "paper_title": "Title paper-1",
+      "evidence_context": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "entities": [],
+      "key_terms": [
+        "Neodymium",
+        "isotope",
+        "offset",
+        "between",
+        "ferrihydrite",
+        "and",
+        "solution",
+        "is",
+        "stable."
+      ],
+      "abbreviations": [],
+      "qualifiers": [],
+      "claim_type": "descriptive",
+      "polarity": "affirmed",
+      "modality": "asserted",
+      "attribution": "authors_conclusion",
+      "rhetorical_role": "terminal_conclusion",
+      "scope": {
+        "location": [],
+        "time": null,
+        "formation": [],
+        "sample_type": [
+          "ferrihydrite"
+        ],
+        "method": [],
+        "condition": [],
+        "measurement": [
+          "Nd isotope offset"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Nd"
+        ]
+      },
+      "evidence_anchors": [],
+      "shortest_evidence_path": {
+        "root_claim_id": "unknown",
+        "nodes": [],
+        "links": [],
+        "depth": 0,
+        "mean_edge_confidence": null
+      },
+      "path_quality": 1.0,
+      "extractor_prompt_version": "extractor-v1",
+      "explicit_relations": []
+    },
+    {
+      "index_version": "evidence-retrieval/2.0",
+      "snapshot_id": "snapshot-1",
+      "paper_id": "paper-1",
+      "paper_family_id": "family-1",
+      "root_artifact_version_id": "artifact-snapshot-1",
+      "claim_id": "series",
+      "source_claim_id": null,
+      "original_claim": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "canonical_claim": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "proposition_key": "proposition:sha256:1029965abf35005dd3a338de50cb1604453cf9a2817b40ba0d0a7e3e30afee19",
+      "scoped_claim_id": "claim:sha256:bce1f9524d60564c657882d5e04ccbc011675c2a063288d3b6411b7d4fe0d850",
+      "paper_title": "Title paper-1",
+      "evidence_context": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "entities": [],
+      "key_terms": [
+        "Neodymium",
+        "isotope",
+        "offset",
+        "between",
+        "ferrihydrite",
+        "and",
+        "solution",
+        "is",
+        "stable."
+      ],
+      "abbreviations": [],
+      "qualifiers": [],
+      "claim_type": "descriptive",
+      "polarity": "affirmed",
+      "modality": "asserted",
+      "attribution": "authors_conclusion",
+      "rhetorical_role": "terminal_conclusion",
+      "scope": {
+        "location": [],
+        "time": {
+          "label": "24--168 h",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "ferrihydrite"
+        ],
+        "method": [],
+        "condition": [
+          "time series"
+        ],
+        "measurement": [
+          "Nd isotope offset"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Nd"
+        ]
+      },
+      "evidence_anchors": [],
+      "shortest_evidence_path": {
+        "root_claim_id": "series",
+        "nodes": [],
+        "links": [],
+        "depth": 0,
+        "mean_edge_confidence": null
+      },
+      "path_quality": 1.0,
+      "extractor_prompt_version": "extractor-v1",
+      "explicit_relations": []
+    },
+    {
+      "index_version": "evidence-retrieval/2.0",
+      "snapshot_id": "snapshot-1",
+      "paper_id": "paper-1",
+      "paper_family_id": "family-1",
+      "root_artifact_version_id": "artifact-snapshot-1",
+      "claim_id": "series-repeat",
+      "source_claim_id": null,
+      "original_claim": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "canonical_claim": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "proposition_key": "proposition:sha256:1029965abf35005dd3a338de50cb1604453cf9a2817b40ba0d0a7e3e30afee19",
+      "scoped_claim_id": "claim:sha256:bce1f9524d60564c657882d5e04ccbc011675c2a063288d3b6411b7d4fe0d850",
+      "paper_title": "Title paper-1",
+      "evidence_context": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "entities": [],
+      "key_terms": [
+        "Neodymium",
+        "isotope",
+        "offset",
+        "between",
+        "ferrihydrite",
+        "and",
+        "solution",
+        "is",
+        "stable."
+      ],
+      "abbreviations": [],
+      "qualifiers": [],
+      "claim_type": "descriptive",
+      "polarity": "affirmed",
+      "modality": "asserted",
+      "attribution": "authors_conclusion",
+      "rhetorical_role": "terminal_conclusion",
+      "scope": {
+        "location": [],
+        "time": {
+          "label": "24--168 h",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "ferrihydrite"
+        ],
+        "method": [],
+        "condition": [
+          "time series"
+        ],
+        "measurement": [
+          "Nd isotope offset"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Nd"
+        ]
+      },
+      "evidence_anchors": [],
+      "shortest_evidence_path": {
+        "root_claim_id": "series-repeat",
+        "nodes": [],
+        "links": [],
+        "depth": 0,
+        "mean_edge_confidence": null
+      },
+      "path_quality": 1.0,
+      "extractor_prompt_version": "extractor-v1",
+      "explicit_relations": []
+    },
+    {
+      "index_version": "evidence-retrieval/2.0",
+      "snapshot_id": "snapshot-1",
+      "paper_id": "paper-1",
+      "paper_family_id": "family-1",
+      "root_artifact_version_id": "artifact-snapshot-1",
+      "claim_id": "series-other-relation",
+      "source_claim_id": null,
+      "original_claim": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "canonical_claim": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "proposition_key": "proposition:sha256:1029965abf35005dd3a338de50cb1604453cf9a2817b40ba0d0a7e3e30afee19",
+      "scoped_claim_id": "claim:sha256:bce1f9524d60564c657882d5e04ccbc011675c2a063288d3b6411b7d4fe0d850",
+      "paper_title": "Title paper-1",
+      "evidence_context": "Neodymium isotope offset between ferrihydrite and solution is stable.",
+      "entities": [],
+      "key_terms": [
+        "Neodymium",
+        "isotope",
+        "offset",
+        "between",
+        "ferrihydrite",
+        "and",
+        "solution",
+        "is",
+        "stable."
+      ],
+      "abbreviations": [],
+      "qualifiers": [],
+      "claim_type": "descriptive",
+      "polarity": "affirmed",
+      "modality": "asserted",
+      "attribution": "authors_conclusion",
+      "rhetorical_role": "terminal_conclusion",
+      "scope": {
+        "location": [],
+        "time": {
+          "label": "24--168 h",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "ferrihydrite"
+        ],
+        "method": [],
+        "condition": [
+          "time series"
+        ],
+        "measurement": [
+          "Nd isotope offset"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Nd"
+        ]
+      },
+      "evidence_anchors": [],
+      "shortest_evidence_path": {
+        "root_claim_id": "series-other-relation",
+        "nodes": [],
+        "links": [],
+        "depth": 0,
+        "mean_edge_confidence": null
+      },
+      "path_quality": 1.0,
+      "extractor_prompt_version": "extractor-v1",
+      "explicit_relations": []
+    }
+  ],
+  "identity_records": [
+    {
+      "claim_id": "loading",
+      "scope": {
+        "id": "scope-loading",
+        "location": null,
+        "time": ">=48 h",
+        "formation": null,
+        "sample_type": "ferrihydrite",
+        "method": null,
+        "condition": "variable ferrihydrite loading",
+        "measurement": "Nd isotope offset",
+        "uncertainty": null,
+        "entities": [
+          "Nd"
+        ]
+      },
+      "proposition_key": "proposition:sha256:1029965abf35005dd3a338de50cb1604453cf9a2817b40ba0d0a7e3e30afee19",
+      "scoped_claim_id": "claim:sha256:ddeba23f7bd012f06d266fa9bc09cdbecd905149b59eb36d836ca398fe5a92d4",
+      "estimate_per_mille": -0.113,
+      "assigned_relation": "supports"
+    },
+    {
+      "claim_id": "unknown",
+      "scope": {
+        "id": "scope-unknown",
+        "location": null,
+        "time": null,
+        "formation": null,
+        "sample_type": "ferrihydrite",
+        "method": null,
+        "condition": null,
+        "measurement": "Nd isotope offset",
+        "uncertainty": null,
+        "entities": [
+          "Nd"
+        ]
+      },
+      "proposition_key": "proposition:sha256:1029965abf35005dd3a338de50cb1604453cf9a2817b40ba0d0a7e3e30afee19",
+      "scoped_claim_id": "claim:sha256:0833e89401b592009f44efa285e16e269267ce8b02eed7f3af6c7404e1937db9",
+      "estimate_per_mille": null,
+      "assigned_relation": "supports"
+    },
+    {
+      "claim_id": "series",
+      "scope": {
+        "id": "scope-series",
+        "location": null,
+        "time": "24--168 h",
+        "formation": null,
+        "sample_type": "ferrihydrite",
+        "method": null,
+        "condition": "time series",
+        "measurement": "Nd isotope offset",
+        "uncertainty": null,
+        "entities": [
+          "Nd"
+        ]
+      },
+      "proposition_key": "proposition:sha256:1029965abf35005dd3a338de50cb1604453cf9a2817b40ba0d0a7e3e30afee19",
+      "scoped_claim_id": "claim:sha256:bce1f9524d60564c657882d5e04ccbc011675c2a063288d3b6411b7d4fe0d850",
+      "estimate_per_mille": -0.098,
+      "assigned_relation": "supports"
+    },
+    {
+      "claim_id": "series-repeat",
+      "scope": {
+        "id": "scope-series-repeat",
+        "location": null,
+        "time": "24--168 h",
+        "formation": null,
+        "sample_type": "ferrihydrite",
+        "method": null,
+        "condition": "time series",
+        "measurement": "Nd isotope offset",
+        "uncertainty": null,
+        "entities": [
+          "Nd"
+        ]
+      },
+      "proposition_key": "proposition:sha256:1029965abf35005dd3a338de50cb1604453cf9a2817b40ba0d0a7e3e30afee19",
+      "scoped_claim_id": "claim:sha256:bce1f9524d60564c657882d5e04ccbc011675c2a063288d3b6411b7d4fe0d850",
+      "estimate_per_mille": -0.098,
+      "assigned_relation": "supports"
+    },
+    {
+      "claim_id": "series-other-relation",
+      "scope": {
+        "id": "scope-series-other-relation",
+        "location": null,
+        "time": "24--168 h",
+        "formation": null,
+        "sample_type": "ferrihydrite",
+        "method": null,
+        "condition": "time series",
+        "measurement": "Nd isotope offset",
+        "uncertainty": null,
+        "entities": [
+          "Nd"
+        ]
+      },
+      "proposition_key": "proposition:sha256:1029965abf35005dd3a338de50cb1604453cf9a2817b40ba0d0a7e3e30afee19",
+      "scoped_claim_id": "claim:sha256:bce1f9524d60564c657882d5e04ccbc011675c2a063288d3b6411b7d4fe0d850",
+      "estimate_per_mille": -0.098,
+      "assigned_relation": "equivalent"
+    }
+  ]
+}

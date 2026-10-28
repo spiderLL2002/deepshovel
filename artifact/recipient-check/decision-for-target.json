@@ -1,0 +1,63 @@
+{
+  "action": "do_not_reuse",
+  "target_field": "universal_threshold_MPa",
+  "target_definition": "A universal threshold without reservoir, model, or conditions restrictions.",
+  "target_value": null,
+  "policy": "For this simulated target only, do not populate an unrestricted universal threshold from this record when operator conclusion is qualified_reuse or retained quantity/conditions restrict its scope.",
+  "reason": "The retained operator conclusion is qualified_reuse and the prepared quantity and conditions describe a modeled F2/Asmari reservoir result. These retained restrictions do not satisfy the explicitly unrestricted target definition.",
+  "retained_original": {
+    "value": "55–57",
+    "unit": "MPa",
+    "quantity": "Maximum sustainable pore pressure, author-reported modeled summary",
+    "conditions": "F2; Asmari reservoir; Gachsaran oilfield, SW Iran; zero cohesion and friction coefficient 0.6; 3D Mohr diagrams, slip tendency and modified slip tendency.",
+    "uncertainty": "Author-reported modeled range; Table 4 separately lists formulation-specific Pc and PCr values.",
+    "notes": "Automated UI verification after independent AI source reading. Author summary is 55–57 MPa. Table 4 Pc: 55.03/55.31 MPa; PCr: 57.58/57.81 MPa. The stored numeric 55 is only the range lower bound. The source sentence is in the right lower column on PDF p.11; the imported left-column rectangle remains preserved for comparison. This run builds the observation branch in the local browser from separately supplied recorded graph data."
+  },
+  "operator_conclusion": "qualified_reuse",
+  "operator_authorship": "local operator entry",
+  "evidence": [
+    {
+      "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+      "predicate_iri": "urn:deepshovel:reuse:v1:preparedValue",
+      "input_jsonpath": "$['@graph'][0]['ds:preparedValue']['@value']"
+    },
+    {
+      "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+      "predicate_iri": "urn:deepshovel:reuse:v1:preparedUnit",
+      "input_jsonpath": "$['@graph'][0]['ds:preparedUnit']['@value']"
+    },
+    {
+      "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+      "predicate_iri": "urn:deepshovel:reuse:v1:preparedQuantity",
+      "input_jsonpath": "$['@graph'][0]['ds:preparedQuantity']['@value']"
+    },
+    {
+      "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+      "predicate_iri": "urn:deepshovel:reuse:v1:preparedConditions",
+      "input_jsonpath": "$['@graph'][0]['ds:preparedConditions']['@value']"
+    },
+    {
+      "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+      "predicate_iri": "urn:deepshovel:reuse:v1:preparedUncertainty",
+      "input_jsonpath": "$['@graph'][0]['ds:preparedUncertainty']['@value']"
+    },
+    {
+      "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+      "predicate_iri": "urn:deepshovel:reuse:v1:preparedNotes",
+      "input_jsonpath": "$['@graph'][0]['ds:preparedNotes']['@value']"
+    },
+    {
+      "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+      "predicate_iri": "urn:deepshovel:reuse:v1:sourceReading",
+      "input_jsonpath": "$['@graph'][0]['ds:sourceReading']['@value']",
+      "after_json_decode_jsonpath": "$.conclusion"
+    },
+    {
+      "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+      "predicate_iri": "urn:deepshovel:reuse:v1:sourceReading",
+      "input_jsonpath": "$['@graph'][0]['ds:sourceReading']['@value']",
+      "after_json_decode_jsonpath": "$.authorship"
+    }
+  ],
+  "scope": "Functional action on one fixed record and a simulated target schema, continuing the same recipient context. Not a second independent trial, human-benefit result, external application adoption, scientific safety certification, or cross-corpus scientific rule. No source truth was independently checked."
+}

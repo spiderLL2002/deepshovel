@@ -1,0 +1,87 @@
+{
+  "selection": "Six predeclared query IDs, complete pools; deterministic next eligible query only if needed; not random sampling",
+  "requested_query_ids": [
+    "q16",
+    "q30",
+    "q50",
+    "q70",
+    "q90",
+    "q110"
+  ],
+  "selection_log": [
+    {
+      "requested": "q16",
+      "selected": "q16",
+      "substitution": false
+    },
+    {
+      "requested": "q30",
+      "selected": "q30",
+      "substitution": false
+    },
+    {
+      "requested": "q50",
+      "selected": "q50",
+      "substitution": false
+    },
+    {
+      "requested": "q70",
+      "selected": "q70",
+      "substitution": false
+    },
+    {
+      "requested": "q90",
+      "selected": "q90",
+      "substitution": false
+    },
+    {
+      "requested": "q110",
+      "selected": "q110",
+      "substitution": false
+    }
+  ],
+  "excerpt_character_budget_per_candidate": 800,
+  "annotation_model_id": "not recorded in the frozen label files",
+  "full_annotation_prompt": "not recorded in the frozen label files",
+  "score_changes": 0,
+  "files": [
+    {
+      "file": "q16.json",
+      "candidate_count": 27,
+      "sha256": "30ef9bdc841837eb7390e0687dc37782624756b22ab9aac9ca93557bdb7881b1",
+      "source_pool_file": "pool_packets/q16.json"
+    },
+    {
+      "file": "q30.json",
+      "candidate_count": 29,
+      "sha256": "a7751e6858a3c104742ee54db50d551d050da4491620fd282f7572f7115fbc14",
+      "source_pool_file": "pool_packets/q30.json"
+    },
+    {
+      "file": "q50.json",
+      "candidate_count": 22,
+      "sha256": "e4d7be9b16dee382f28131dff11b2bb96693507c6882ada09a89f3c87d59db2f",
+      "source_pool_file": "pool_packets/q50.json"
+    },
+    {
+      "file": "q70.json",
+      "candidate_count": 32,
+      "sha256": "e06e5d9ba74d89c7712c19dfb72955d0e287b975ded0d9b7dff7bd8699baf110",
+      "source_pool_file": "pool_packets/q70.json"
+    },
+    {
+      "file": "q90.json",
+      "candidate_count": 25,
+      "sha256": "27681e6b99b5dd22b78601bfed2d3357a951c1089f4ad2c8a83c441d519676c9",
+      "source_pool_file": "pool_packets/q90.json"
+    },
+    {
+      "file": "q110.json",
+      "candidate_count": 37,
+      "sha256": "cc4e815360240923935346dbf36c6e2c12cf555b92789f3cb662f1a5958db594",
+      "source_pool_file": "pool_packets/q110.json"
+    }
+  ],
+  "verified_judgment_pairs": 172,
+  "verification": "Every relevance and scope_error equals compact qrels.json and the frozen judgment selected by original evaluator merge order; complete candidate-ID set equals corresponding compact pool."
+}

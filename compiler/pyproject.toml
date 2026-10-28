@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "deepshovel-compiler"
+version = "0.3.1"
+description = "Standalone MinerU to DeepShovel scientific-evidence compiler service"
+license = "AGPL-3.0-only"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "httpx>=0.28,<1",
+  "openai>=2,<3",
+  "pydantic>=2.10,<3",
+  "python-multipart>=0.0.20,<1",
+  "qdrant-client[fastembed]==1.19.0",
+  "torch>=2.2,<3",
+  "transformers>=4.35,<5",
+  "uvicorn>=0.34,<1",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8.3,<9",
+  "ruff>=0.11,<1",
+]
+
+[project.scripts]
+deepshovel-compiler = "compiler_service.__main__:main"
+deepshovel-citation-reception-eval = "compiler_service.citation_reception_eval:main"
+deepshovel-retrieval-eval = "compiler_service.retrieval_eval:main"
+deepshovel-retrieval-warmup = "compiler_service.retrieval_warmup:main"
+deepshovel-retrieval-feature-maintenance = "compiler_service.retrieval_feature_maintenance:main"
+deepshovel-openalex-warmup = "compiler_service.openalex_warmup:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["compiler_service"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

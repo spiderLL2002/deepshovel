@@ -1,0 +1,10 @@
+{
+  "Experiment / context": "F2 normal fault, Asmari reservoir, Gachsaran oilfield, SW Iran; analytical fault-reactivation assessment during gas injection",
+  "Quantity": "Estimated maximum sustainable pore pressure (total pore pressure; not pressure increase)",
+  "Value as read": "55–57",
+  "Unit": "MPa",
+  "Uncertainty and interpretation": "Author-reported approximate cross-method summary; no statistical uncertainty or confidence level stated. Not a confidence interval. Tabulated method values extend above 57 MPa.",
+  "Conditions": "Normal faulting stress regime; cohesion C = 0 MPa and static friction coefficient mu = 0.6 assumed. F2 dip 80 degrees, dip direction 8 degrees, strike 278 degrees (Table 1). Principal stresses sampled within a specified interval (e.g. 10 m) in the middle of fault planes. 3D Mohr diagrams, slip tendency and modified slip tendency; elastic-modulus alternatives Eq. 3 (NISOC) and Eq. 5 (Seyed Sajadi and Aghighi). Analytical model result for F2; no general injection operating limit inferred.",
+  "Page / figure / cell locator": "PDF page 11 of 14, section 6, right-column continuation paragraph immediately above section 7: final sentence on F2 (55–57 MPa). Cross-check Table 3, PDF p10, F2 rows Eq.3/5, Ppmax column; Table 4, PDF p11, F2 rows. Recorded anchor rectangle is in the left lower column and does not cover the F2 sentence.",
+  "Your source-reading notes": "Read source before importing graph. Preserve prose 55–57 MPa as an approximate model summary. Table 3 F2 Ppmax is 57.4/57.3 MPa (Eq.3/5), Ppi 22.04 MPa, delta Pp 35.4/35.3 MPa. Table 4 F2 Pc 55.03/55.31 and PCr 57.58/57.81 MPa. Therefore neither replace the summary by a single exact threshold nor treat 55–57 as statistical uncertainty. The graph anchor page and quote match, but its stored normalized rectangle points to the left lower column; actual F2 sentence is in the right column on PDF p11. Reuse requires this locator correction and model qualification. No independent validation of physical safety or model accuracy."
+}

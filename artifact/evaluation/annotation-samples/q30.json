@@ -1,0 +1,3458 @@
+{
+  "query_id": "q30",
+  "query_text": "In Holocene surface sediments around the Emperor Seamount Chain, what relationship between sortable-silt grain size and water depth can be reused to compare bottom-current strength, and at what depths is the contrast with the abyssal plain especially strong?",
+  "expected_answer": "The sortable-silt grain-size versus water-depth correlation is negative (R = −0.73); the seamount setting has stronger inferred hydrodynamics than the abyssal plain, especially at 1,000–2,500 m. Keep this distinct from the bulk grain-size correlation R = −0.74. Anchors give the relation and its interpretation, not a current velocity calibration. Active indexed source: 050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf; claim_id=claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48.",
+  "original_query_rubric": {
+    "3": "Gives sortable-silt versus depth R = −0.73 and the stronger inferred-current contrast at 1,000–2,500 m for Holocene Emperor Seamount surface sediment.",
+    "2": "Gives the compatible sortable-silt depth relation but omits the Holocene qualifier or depth interval of strongest contrast.",
+    "1": "Passes the bulk-sediment grain-size versus depth R = −0.74 off as the sortable-silt relation R = −0.73.",
+    "0": "A property unrelated to sediment grain size, depth or bottom-current interpretation."
+  },
+  "original_pool_sha256": "67e9d0ae3dc075726dc5d674c28fdfb6abf86337c95469ff1b69ce56e4f0653b",
+  "sample_type": "fixed-ID method inspection; not random, expert-reviewed, or reliability-estimation sample",
+  "candidate_count": 29,
+  "candidates": [
+    {
+      "candidate": 1,
+      "document_id": "claim:sha256:17e1356f7849c54614fdccdeee29f59e8c5256f600461d8fc33ba068d3ae5ddd",
+      "paper_id": "paper:f6493d06e5c071276023c3766a7afffa2af4756787ddc81b2bb798b479c72d53",
+      "snapshot_id": "snapshot:sha256:d874d20105039358b67f39ec13557b69b5d8eef6965542806a180500f2394682",
+      "artifact_version_id": "artifact-version:sha256:f6493d06e5c071276023c3766a7afffa2af4756787ddc81b2bb798b479c72d53",
+      "source_name": "W2772225377.pdf",
+      "canonical_claim": "Over the studied ~200 kyr, glacial–interglacial sea-level changes controlled downslope sediment transport and modulated bottom-current strength in the Maldives, producing different grain-size and substrate regimes; current changes were larger in the Kardiva Channel drift core M74/4-1143 than in the more sheltered SO236-052-4 setting.",
+      "original_claim": "Glacial–interglacial changes in sea level controlled the downslope transport of sediment from the Maldives archipelago to the deep-sea environments and influenced the current strength at the benthic boundary layer of the Inner Sea, resulting in different grain sizes and substrates.",
+      "scope": {
+        "condition": [
+          "Glacial–interglacial sea-level changes"
+        ],
+        "entities": [
+          "M74/4-1143",
+          "Maldives archipelago",
+          "SO236-052-4",
+          "bottom currents"
+        ],
+        "formation": [],
+        "location": [
+          "Maldives Inner Sea and Kardiva Channel"
+        ],
+        "measurement": [
+          "Grain size, carbonate content, Sr/Ca and sortable silt"
+        ],
+        "method": [
+          "Sediment composition and sortable-silt comparison"
+        ],
+        "sample_type": [
+          "Marine sediment cores SO236-052-4 and M74/4-1143"
+        ],
+        "time": {
+          "end": null,
+          "label": "Past ~200 kyr",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.sea.conclusion",
+          "page": 17,
+          "section": "5 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Glacial–interglacial changes in sea level controlled the downslope transport of sediment from the Maldives archipelago to the deep-sea environments and influenced the current strength at the benthic boundary layer of the Inner Sea, resulting in different grain sizes and substrates.",
+          "excerpt_original_characters": 282,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.sea.general",
+          "page": 17,
+          "section": "5 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Bottom currents in general were stronger during interglacials than during glacials, although core SO236-052- 4 shows lower current velocities and a lower amplitude of change.",
+          "excerpt_original_characters": 174,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.sea.sortable",
+          "page": 15,
+          "section": "4.2 Sea-level changes, sedimentation processes and benthic ecosystem dynamics",
+          "figure": null,
+          "table": null,
+          "excerpt": "This is shown by the higher sortable silt data at site SO236-052, implying higher bottom current velocities, which is also supported by the higher amplitude of change and the sortable silt values of the drift deposits recovered by core M74/4-1143.",
+          "excerpt_original_characters": 247,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.sea.sr",
+          "page": 14,
+          "section": "4.2 Sea-level changes, sedimentation processes and benthic ecosystem dynamics",
+          "figure": null,
+          "table": null,
+          "excerpt": "This is also corroborated by the Sr / Ca variations in the core.",
+          "excerpt_original_characters": 64,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.sea.stack1",
+          "page": 14,
+          "section": "4.2 Sea-level changes, sedimentation processes and benthic ecosystem dynamics",
+          "figure": null,
+          "table": null,
+          "excerpt": "The close association of changes ",
+          "excerpt_original_characters": 62,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.sea.stack2",
+          "page": 14,
+          "section": "4.2 Sea-level changes, sedimentation processes and benthic ecosystem dynamics",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 234,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:eb3535818e2ba88b11156aaf2d52ad807a9bce336177ba2bfbdc6683f7cf9d19",
+          "page": 10,
+          "section": null,
+          "figure": "Figure 6",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 575,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1638,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Maldives粒度与底流变化，地区及时间记录不同。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 2,
+      "document_id": "claim:sha256:af6129997391e1c136c2e5a853443366e1fba07b8aee6a8731e73478c1de7ce3",
+      "paper_id": "paper:6ebdaa3cce93204310f784ba482f3b17479b1df6b254cd6c25ca45609347896e",
+      "snapshot_id": "snapshot:sha256:84b0774687b6657a1c7ea22a4c9e72b9e87ec0b2c7e3034e850ab89e24fcca76",
+      "artifact_version_id": "artifact-version:sha256:6ebdaa3cce93204310f784ba482f3b17479b1df6b254cd6c25ca45609347896e",
+      "source_name": "BULK_ca5dc8a44c492e120407.pdf",
+      "canonical_claim": "At DSDP Site 278 in the Southwest Pacific, deep ACC flow remained below modern-like vigorous velocities through the late Miocene, with the record supporting no modern-like vigorous deep flow before about 10 Ma.",
+      "original_claim": "d, Calculated ACC flow speeds from DSDP Site 278 (V) and PS97/093-2 (pink stars) (error estimates $\\pm 1 2 . 5 \\% ) ^ { 2 2 }$ .",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "Antarctic Circumpolar Current",
+          "DSDP Site 278",
+          "Drake Passage"
+        ],
+        "formation": [],
+        "location": [
+          "Southwest Pacific at DSDP Site 278"
+        ],
+        "measurement": [
+          "Deep ACC flow speed"
+        ],
+        "method": [
+          "Sortable-silt grain-size reconstruction calibrated to current speed"
+        ],
+        "sample_type": [
+          "DSDP Site 278 sediments"
+        ],
+        "time": {
+          "end": null,
+          "label": "Oligocene through Pleistocene; low-speed interval to about 10 Ma and later Pleistocene increase",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Sortable-silt precision ±3%; calculated speed estimates ±12.5%; a hiatus limits onset dating"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.fig2",
+          "page": 3,
+          "section": null,
+          "figure": "Fig. 2",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig2speedcaption",
+          "page": 3,
+          "section": "Onset of a homogeneous circumpolar Nd isotope fingerprint",
+          "figure": null,
+          "table": null,
+          "excerpt": "d, Calculated ACC flow speeds from DSDP Site 278 (V) and PS97/093-2 (pink stars) (error estimates $\\pm 1 2 . 5 \\% ) ^ { 2 2 }$ .",
+          "excerpt_original_characters": 128,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.hiatus",
+          "page": 4,
+          "section": "Causes of modern-like deep ACC development",
+          "figure": null,
+          "table": null,
+          "excerpt": "Although the presence of the late Miocene–Late Pliocene hiatus did not allow us to decipher the exact timing of inception of strong modern-like ACC deep flow velocities in the Southwest Pacific, circum-Antarctic sedimentological data provide additional evidence for the onset of a vigorous deep ocean current system in the Southern Ocean since the late Miocene as reflected by the onset and intensification of sediment drift formation46,47.",
+          "excerpt_original_characters": 440,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.speedmain",
+          "page": 4,
+          "section": "Causes of modern-like deep ACC development",
+          "figure": null,
+          "table": null,
+          "excerpt": "mathrm { ( { \\sim } 1 0 M a ) }$ (Fig. 2c). On the basis of the calibration of SS for the Scotia– Weddell Sea region22, our data show a mean ACC flow speed of ${ \\sim } 1 0 \\ c m s ^ { - 1 }$ in the Southwest Pacific (Site 278) from",
+          "excerpt_original_characters": 1199,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.speedpleist",
+          "page": 4,
+          "section": "Causes of modern-like deep ACC development",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 306,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.speedpleist2",
+          "page": 4,
+          "section": "Causes of modern-like deep ACC development",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 6,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 2079,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "DSDP278古ACC流速记录，不是Emperor表层粒度深度关系。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 3,
+      "document_id": "claim:sha256:380351a9067580a9f38e879dd9e36422e08f9e3a7adffbdbf94ab4be990bd62b",
+      "paper_id": "paper:dd3148f3d0915780c026f30f7da55ebc2a048a341878f340086df461c431a3cb",
+      "snapshot_id": "snapshot:sha256:956e2d626808ffbbc10cb189b3b0d2e7409f56c98f259249121bf50b8c82ff8b",
+      "artifact_version_id": "artifact-version:sha256:dd3148f3d0915780c026f30f7da55ebc2a048a341878f340086df461c431a3cb",
+      "source_name": "BULK_43d9282040dd1f6073f7.pdf",
+      "canonical_claim": "The contrast between shallow-shelf phosphogenesis and deep-sea accumulation implies at least one episode of erosion, winnowing, and redeposition between sedimentary settings.",
+      "original_claim": "Moreover, there are multiple evidences that this environment was interested during middle Toarcian by common de-oxygenated bottom-water conditions, linked to the Toarcian Anoxic Event (e.g.",
+      "scope": {
+        "location": [
+          "Pre-Rif shelf to deep-sea setting, Morocco"
+        ],
+        "time": {
+          "label": "middle to late Toarcian",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "shallow-water phosphogenesis followed by deep-water accumulation"
+        ],
+        "sample_type": [
+          "Toarcian phosphorite deposits"
+        ],
+        "method": [
+          "microboring, petrographic, and sedimentological evidence"
+        ],
+        "condition": [],
+        "measurement": [
+          "integrated sedimentary history"
+        ],
+        "uncertainty": "At least one reworking episode is inferred.",
+        "entities": [
+          "phosphatic grains",
+          "phosphorite deposits"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.anoxia.1",
+          "page": 15,
+          "section": "5 Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "Moreover, there are multiple evidences that this environment was interested during middle Toarcian by common de-oxygenated bottom-water conditions, linked to the Toarcian Anoxic Event (e.g.",
+          "excerpt_original_characters": 189,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.anoxia.2",
+          "page": 15,
+          "section": "5 Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "2023), which created conditions prone for phosphorite precipitation.",
+          "excerpt_original_characters": 68,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.deep.accumulation",
+          "page": 16,
+          "section": "6 Conclusion",
+          "figure": null,
+          "table": null,
+          "excerpt": "However, the sedimentological features of the studied phosphorites, such as Zoophycos traces and the petrographic features suggest that their accumulation occurred in deep-sea environments through diluted currents rather than in shallow-water shelf areas.",
+          "excerpt_original_characters": 255,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig.1",
+          "page": 4,
+          "section": null,
+          "figure": "Fig. 1",
+          "table": null,
+          "excerpt": "Fig. 1 A Geological map of the Rif Chain with the location of the study zone. From Kairouani et al. (2023), after Abbassi et al. (2020). B Stratigraphic log of the Prerif Succession in the Dhar Nsour area. ",
+          "excerpt_original_characters": 206,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.reworking.conclusion",
+          "page": 16,
+          "section": "6 Conclusion",
+          "figure": null,
+          "table": null,
+          "excerpt": "These inferences indicate at least an event of erosion, winnowing and redeposition",
+          "excerpt_original_characters": 167,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.shallow.1",
+          "page": 14,
+          "section": "5 Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 185,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.shallow.2",
+          "page": 14,
+          "section": "5 Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 5,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.shallow.3",
+          "page": 14,
+          "section": "5 Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 119,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.texture",
+          "page": 15,
+          "section": "5 Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 238,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.upwelling",
+          "page": 15,
+          "section": "5 Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 299,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.zoophycos.1",
+          "page": 15,
+          "section": "5 Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 124,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.zoophycos.2",
+          "page": 15,
+          "section": "5 Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 231,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 2086,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "摩洛哥磷矿再搬运，不是目标关系。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 4,
+      "document_id": "claim:sha256:f8e9cfcb675b3f52ea3f4d9a8c5257f3227bdf34ebdd6e604d298df4a9d5354d",
+      "paper_id": "paper:e0ec05b130b4eb9866e2d14c8e9c0391b1d7ca593fdbf248eb2248304ef3c89b",
+      "snapshot_id": "snapshot:sha256:c440b81352ad5af45d7fb172e816697fa714a94080409ac613f64763592913f3",
+      "artifact_version_id": "artifact-version:sha256:e0ec05b130b4eb9866e2d14c8e9c0391b1d7ca593fdbf248eb2248304ef3c89b",
+      "source_name": "ELS_26b33053ceffd1903f8c.pdf",
+      "canonical_claim": "At upper- and middle-slope sites along the MOW path, older foraminiferal radiocarbon ages and bottom-current evidence support an interpretation of reduced recent sedimentation caused by winnowing, erosion and non-deposition.",
+      "original_claim": "In general, our results indicate that core-top foraminifera samples located currently at MOW depths, or at the interface between MOW and NEADW, display significantly older $^ { 1 4 } \\mathrm { C }$ ages $( 1 0 5 6 \\cdot 1 1 , 0 4 2 \\mathrm { ~ y r . } )$ ) In contrast, younger radiocarbon ages $( 3 8 3 ~ \\mathrm { y r } \\cdot 3 6 9 0 ~ \\mathrm { y r } )$ are always found below MOW depths, in samples bathed by NEADW (Fig.",
+      "scope": {
+        "location": [
+          "Atlantic Iberian margin slope"
+        ],
+        "time": {
+          "label": "Present-day core-top samples",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "Planktonic foraminifera and terrigenous sediment"
+        ],
+        "method": [
+          "Foraminiferal radiocarbon dating and Sr–Nd provenance"
+        ],
+        "condition": [
+          "MOW depths or MOW–NEADW interface"
+        ],
+        "measurement": [
+          "Uncalibrated radiocarbon age and sedimentation interpretation"
+        ],
+        "uncertainty": "Older ages could indicate a lack of recent sedimentation",
+        "entities": [
+          "Mediterranean Outflow Water",
+          "bottom currents",
+          "sediment"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.fig6",
+          "page": 10,
+          "section": "5.2. Transport dynamics along the Atlantic Iberian margin slope",
+          "figure": "Fig. 6",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.mowages",
+          "page": 9,
+          "section": "5.2. Transport dynamics along the Atlantic Iberian margin slope",
+          "figure": null,
+          "table": null,
+          "excerpt": "In general, our results indicate that core-top foraminifera samples located currently at MOW depths, or at the interface between MOW and NEADW, display significantly older $^ { 1 4 } \\mathrm { C }$ ages $( 1 0 5 6 \\cdot 1 1 , 0 4 2 \\mathrm { ~ y r . } )$ ) In contrast, younger radiocarbon ages $( 3 8 3 ~ \\mathrm { y r } \\cdot 3 6 9 0 ~ \\mathrm { y r } )$ are always found below MOW depths, in samples bathed by NEADW (Fig.",
+          "excerpt_original_characters": 424,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.mowcurrents",
+          "page": 9,
+          "section": "5.2. Transport dynamics along the Atlantic Iberian margin slope",
+          "figure": null,
+          "table": null,
+          "excerpt": "Locally, where bottom currents interact with seabed morphology, velocities can reach up to $8 0 ~ \\mathrm { { \\ c m / s } }$ (Hernandez-Molina ´ et al., 2011) generating bottom currents capable of eroding and transporting sediment (Hernandez-Molina ´ et al., 2016).",
+          "excerpt_original_characters": 265,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.mownondeposition1",
+          "page": 9,
+          "section": "5.2. Transport dynamics along the Atlantic Iberian margin slope",
+          "figure": null,
+          "table": null,
+          "excerpt": "The older ages along the MOW pathway could indicate a lack of recent sedimentation, likely caused by persistent",
+          "excerpt_original_characters": 153,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.mownondeposition2",
+          "page": 10,
+          "section": "5.2. Transport dynamics along the Atlantic Iberian margin slope",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 16,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 858,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Iberian MOW淘洗及年代偏老，非Emperor深度关系。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 5,
+      "document_id": "claim:sha256:78b5c28c17b2ca6ef6072c5b8e4d34495d3b2b7c99d49ef3009fd8c80855bf8c",
+      "paper_id": "paper:6710e519c0aa1efcea18703bbbe197816602052ea0a4473a940065670ffe2b2f",
+      "snapshot_id": "snapshot:sha256:9274fe16e1a9163041ae7d55786989ba466d306a01eb3e3addfd627aec0650a4",
+      "artifact_version_id": "artifact-version:sha256:6710e519c0aa1efcea18703bbbe197816602052ea0a4473a940065670ffe2b2f",
+      "source_name": "2023_Grain Size Analyses and Mineral Compositions of Core Sediments in the Western North Pacific Ocean_ Implications for the Rare Earth_e87e052b.pdf",
+      "canonical_claim": "In the apatite-rich unit 4 of core S027GC27, strong bottom-current activity likely concentrated coarse fish-bone debris by removing fine particles, contributing to high ΣREY enrichment.",
+      "original_claim": "However, the extent of the influence of bottom currents on REY-rich sediments and their relative contribution remain unclear.",
+      "scope": {
+        "condition": [
+          "Lower core, approximately 380–449 cm"
+        ],
+        "entities": [
+          "biogenic apatite",
+          "bottom currents",
+          "fish-bone debris",
+          "unit 4",
+          "ΣREY"
+        ],
+        "formation": [],
+        "location": [
+          "Markus-Wake Seamounts, Pigiffeta Basin, Western North Pacific Ocean"
+        ],
+        "measurement": [
+          "Grain-size fractions, fish-bone debris, ΣREY, and depositional environment"
+        ],
+        "method": [
+          "Grain-size and mineralogical analyses; interpretation of ΣREY profiles"
+        ],
+        "sample_type": [
+          "Biogenic-apatite-rich pelagic sediment from unit 4 of S027GC27"
+        ],
+        "time": null,
+        "uncertainty": "The extent and relative contribution of bottom currents remain unclear"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.current.limit",
+          "page": 13,
+          "section": "4.3. Implications for the Deposition Environment of REY-Rich Sediments",
+          "figure": null,
+          "table": null,
+          "excerpt": "However, the extent of the influence of bottom currents on REY-rich sediments and their relative contribution remain unclear.",
+          "excerpt_original_characters": 125,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "page": 5,
+          "section": null,
+          "figure": "Figure 2",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig9",
+          "page": 12,
+          "section": null,
+          "figure": "Figure 9",
+          "table": null,
+          "excerpt": "Figure 9. The schematic diagram reflects that the grain size is influenced by bottom currents in bio-Figure 9. The schematic diagram reflects that the grain size is influenced by bottom currents in genic apatite-rich and normal deposition areas. biogenic apatite-rich and normal deposition areas. ",
+          "excerpt_original_characters": 297,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig9.text",
+          "page": 13,
+          "section": "4.3. Implications for the Deposition Environment of REY-Rich Sediments",
+          "figure": null,
+          "table": null,
+          "excerpt": "The schematic diagram, reflecting the grain size is influenced by bottom currents in biogenic apatite-rich and normal deposition areas, is illustrated in Figure 9.",
+          "excerpt_original_characters": 163,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fish.host",
+          "page": 12,
+          "section": "4.3. Implications for the Deposition Environment of REY-Rich Sediments",
+          "figure": null,
+          "table": null,
+          "excerpt": "The accumulation of fish bone debris can contribute to the enrichment of REY, as fish bone debris serves as a host phase for these elements [6,8,13,16,19,23].",
+          "excerpt_original_characters": 158,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.rey.coarse",
+          "page": 13,
+          "section": "4.3. Implications for the Deposition Environment of REY-Rich Sediments",
+          "figure": null,
+          "table": null,
+          "excerpt": "The depth profile of REY corresponds well with that of th",
+          "excerpt_original_characters": 179,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.unit4.currents",
+          "page": 12,
+          "section": "4.3. Implications for the Deposition Environment of REY-Rich Sediments",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 152,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.unit4.fish",
+          "page": 5,
+          "section": "3.1.1. Smear Slides",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 337,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.unit4.fractions",
+          "page": 12,
+          "section": "4.3. Implications for the Deposition Environment of REY-Rich Sediments",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 124,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.unit4.rey",
+          "page": 13,
+          "section": "5. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 159,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1694,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Markus-Wake鱼骨底流富集，不是Emperor表层相关。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 6,
+      "document_id": "claim:sha256:15be9f2b5604fac54eeaa0213b8c18da0a38e1e8d70df203a6d42f4f5ab21f44",
+      "paper_id": "paper:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "source_name": "050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf",
+      "canonical_claim": "Within the sampled Emperor Seamount Chain, eolian-dust contribution is higher in Zone I (33°N–44°N).",
+      "original_claim": "Our data further reveals that the eolian dust contribution is higher between 33◦N and 44◦N, while the volcanic materials contribution is relatively higher between 44◦N and 49.8◦N, as shown in Figure 12B.",
+      "scope": {
+        "condition": [
+          "33°N–49.8°N"
+        ],
+        "entities": [
+          "eolian dust",
+          "surface sediments",
+          "volcanic materials"
+        ],
+        "formation": [],
+        "location": [
+          "Emperor Seamount Chain, North Pacific"
+        ],
+        "measurement": [
+          "rare-earth-element provenance indices"
+        ],
+        "method": [
+          "REE-ratio comparison"
+        ],
+        "sample_type": [
+          "50 Holocene surface sediments"
+        ],
+        "time": {
+          "end": null,
+          "label": "Holocene interval",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.source.latitude",
+          "page": 13,
+          "section": "Provenance of Sediments",
+          "figure": null,
+          "table": null,
+          "excerpt": "Our data further reveals that the eolian dust contribution is higher between 33◦N and 44◦N, while the volcanic materials contribution is relatively higher between 44◦N and 49.8◦N, as shown in Figure 12B.",
+          "excerpt_original_characters": 203,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.source.mixture",
+          "page": 13,
+          "section": "Provenance of Sediments",
+          "figure": null,
+          "table": null,
+          "excerpt": "The scatter plot of (LREE/REE)N and (HREE/REE)N (Figure 12B) shows that the composition of the surface sediments of the Emperor Seamount Chain falls into the range of two EM: volcanic and terrigenous dust, which can be regarded as a mixture of two EM.",
+          "excerpt_original_characters": 251,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 454,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Emperor风尘来源纬度分区，不给粒度深度或底流关系。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 7,
+      "document_id": "claim:sha256:89188d8d2d63d8a0d7bd427e85c68c150bc898a32e611f33984fac5dfd3915a0",
+      "paper_id": "paper:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "source_name": "050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf",
+      "canonical_claim": "Surface-sediment grain-size composition along the Emperor Seamount Chain varies with latitude: Zone I (33°N–44°N) and Zone III (49.8°N–53°N) are dominated by clayey silt, whereas Zone II (44°N–49.8°N) is mainly sand and silty sand.",
+      "original_claim": "Sediments in Zone I and in Zone III are dominated by clayey silt with higher value of sorting coefficient (>1.66).",
+      "scope": {
+        "condition": [
+          "33°N–53°N"
+        ],
+        "entities": [
+          "Zone I",
+          "Zone II",
+          "Zone III",
+          "surface sediments"
+        ],
+        "formation": [],
+        "location": [
+          "Emperor Seamount Chain, North Pacific"
+        ],
+        "measurement": [
+          "grain size and sediment type"
+        ],
+        "method": [
+          "grain-size analysis"
+        ],
+        "sample_type": [
+          "50 Holocene surface sediments"
+        ],
+        "time": {
+          "end": null,
+          "label": "Holocene interval",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.zones.clayey",
+          "page": 6,
+          "section": "The Grain-Size Distribution",
+          "figure": null,
+          "table": null,
+          "excerpt": "Sediments in Zone I and in Zone III are dominated by clayey silt with higher value of sorting coefficient (>1.66).",
+          "excerpt_original_characters": 114,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.zones.partition",
+          "page": 6,
+          "section": "The Grain-Size Distribution",
+          "figure": null,
+          "table": null,
+          "excerpt": "According to distinct features of grain size-related parameters, including the sediment types and grain size characteristics, the study area was divided into three areas: Zone I (33◦N– 44◦N), Zone II (44◦N–49.8◦N), and Zone III (49.8◦N–53◦N) (Figure 2A).",
+          "excerpt_original_characters": 254,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.zones.sand",
+          "page": 6,
+          "section": "The Grain-Size Distribution",
+          "figure": null,
+          "table": null,
+          "excerpt": "8 ^ { \\circ } \\mathrm { N } )$ , the sediments are mainly composed of sand and silty sand, with lower sorting coefficient.",
+          "excerpt_original_characters": 122,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 490,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同Emperor纬度粒度分区，只是背景，没有水深相关或特定对比。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 8,
+      "document_id": "claim:sha256:df3442c1dc027fa12acf419f5eec8195c3fbcd84c09649d05b5aacd0eeb2ebf4",
+      "paper_id": "paper:7e9477fe6e7489a0bc0ae36e57e257242413e16b678c91c8636778a1bac0c149",
+      "snapshot_id": "snapshot:sha256:ce64c2e58ea5de73a278e437a71ad8b0f97d0791a89b7eb6d1a0f5b4624ea58c",
+      "artifact_version_id": "artifact-version:sha256:7e9477fe6e7489a0bc0ae36e57e257242413e16b678c91c8636778a1bac0c149",
+      "source_name": "BULK_815e609cb2aa77097e90.pdf",
+      "canonical_claim": "In the two Bellingshausen Sea continental-rise cores, sortable-silt mean grain size can be used as a proxy for bottom-current intensity despite ice-rafted debris influence.",
+      "original_claim": "Since SS MGS and percentage of sortable silt in mud generally covaries in the core (r $> 0 . 5 )$ (Figure 3D), we follow the approach of previous authors in this region and apply SS MGS as a proxy for bottom current speed at BS17-GC02 (McCave and Andrews, 2019;",
+      "scope": {
+        "condition": [
+          "glacial-interglacial variation and IRD influence"
+        ],
+        "entities": [
+          "bottom currents",
+          "laminated mud",
+          "sortable silt"
+        ],
+        "formation": [],
+        "location": [
+          "Bellingshausen Sea continental rise"
+        ],
+        "measurement": [
+          "bottom-current intensity and laminated-mud deposition"
+        ],
+        "method": [
+          "sortable-silt mean grain size and ln(Zr/Rb) comparison"
+        ],
+        "sample_type": [
+          "sediment cores BS17-GC01 and BS17-GC02"
+        ],
+        "time": {
+          "end": null,
+          "label": "late Quaternary glacial-deglacial cycles",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "lamination-current relationship is described as likely"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.ss.correlation",
+          "page": 7,
+          "section": "6.1.1 Deep-water site BS17-GC02 ice covered and likely anoxic during glacials",
+          "figure": null,
+          "table": null,
+          "excerpt": "Since SS MGS and percentage of sortable silt in mud generally covaries in the core (r $> 0 . 5 )$ (Figure 3D), we follow the approach of previous authors in this region and apply SS MGS as a proxy for bottom current speed at BS17-GC02 (McCave and Andrews, 2019;",
+          "excerpt_original_characters": 261,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.ss.proxy.conclusion",
+          "page": 12,
+          "section": "7 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "A strong correlation between SS MGS and $\\% S S$ imply that SS at two cores can be used as a proxy for bottom current intensity, despite IRD influence.",
+          "excerpt_original_characters": 151,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.zrrb.consistency",
+          "page": 7,
+          "section": "6.1.1 Deep-water site BS17-GC02 ice covered and likely anoxic during glacials",
+          "figure": null,
+          "table": null,
+          "excerpt": "Since $\\ln ( \\mathrm { Z r / R b ) }$ ratio of BS17- GC01 showed a good consistence with SS MGS (Figure 5), we did not recalculate SS MGS free of IRD influence in this study.",
+          "excerpt_original_characters": 174,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 586,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Bellingshausen可分选粉砂代理校验，非Emperor水深数据。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 9,
+      "document_id": "claim:sha256:afef6f92a63d3f7fa09fcb7dbdc4293e5a188f5c5ea1156605191ed7bffb694a",
+      "paper_id": "paper:ca626ca904789c341572c93455232c5280db1686e248bbd719248b5344b0a9f9",
+      "snapshot_id": "snapshot:sha256:6e04bea6bdb2ed2a67923907399fe9955cd2e3d2b25f0a3b0dc85d2d47e5dd99",
+      "artifact_version_id": "artifact-version:sha256:ca626ca904789c341572c93455232c5280db1686e248bbd719248b5344b0a9f9",
+      "source_name": "2017_Glacial reduction of AMOC strength and long-term transition in weathering inputs into the Southern Ocean since the mid-Miocene_ Ev_733b8761.pdf",
+      "canonical_claim": "At intermediate depths in the Atlantic-sector Southern Ocean near the Agulhas Ridge, North Component Water remained a substantial contributor from the mid-Miocene to the Holocene; its reconstructed time-series mean was 69%, close to Holocene mixing proportions.",
+      "original_claim": "These records hence corroborate earlier suggestions [e.g., Scher and Martin, 2008] that water masses from the North Atlantic have been advected to the SO in significant amounts since at least the mid-Miocene.",
+      "scope": {
+        "location": [
+          "Agulhas Ridge, Atlantic sector of the Southern Ocean (ODP Site 1088)"
+        ],
+        "time": {
+          "label": "mid-Miocene to Holocene, about 14 Myr",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "Seawater-derived isotope signatures from sediment leachates and foraminifera"
+        ],
+        "method": [
+          "Nd isotope reconstruction and binary mixing model"
+        ],
+        "condition": [
+          "Conservative NCW–SCW mixing assumed"
+        ],
+        "measurement": [
+          "εNd-derived NCW/SCW proportions"
+        ],
+        "uncertainty": "Past end-member Nd concentration changes are unconstrained",
+        "entities": [
+          "AMOC",
+          "NCW",
+          "SCW"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.3",
+          "page": 7,
+          "section": "3. Results",
+          "figure": "Figure 3",
+          "table": null,
+          "excerpt": "Figure 3. Comparison between the seawater Nd isotope evolution of the intermediate depth Southern Ocean at ODP Site 1088 [Pena and Goldstein, 2014; Hu et al., 2016; this study] and compositions of the North Atlantic [O’Nions et al., 1998; Burton et al., 1999] and Pacific Ocean [Abouchami et al., 1997; Ling et al., 1997] end-members, as well as near-by late Quaternary records of cores RC11-83 and TNO57-21 from the deep Cape Basin [Piotrowski et al., 2008]. The grey lines represent calculated mixing proportions of North Atlantic sourced water (NCW) with Pacific sourced water (SCW) according to the variable end-member Nd compositions and constant Nd concentrations of $[ \\mathsf { N d } ] _ { \\mathsf { N C W } } = 2 2$ pmol/kg and $[ \\mathsf { N d } ] _ { \\mathsf { S C W } } = 4 2$ pmol/kg [Go",
+          "excerpt_original_characters": 1010,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.advected",
+          "page": 9,
+          "section": "4.2. Variations in AMOC Strength During the Last 14 Ma Inferred From Nd Isotope Evolution",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 208,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.mean",
+          "page": 9,
+          "section": "4.2. Variations in AMOC Strength During the Last 14 Ma Inferred From Nd Isotope Evolution",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 231,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.range",
+          "page": 9,
+          "section": "4.2. Variations in AMOC Strength During the Last 14 Ma Inferred From Nd Isotope Evolution",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 145,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1594,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Agulhas水团比例，不是粒度底流关系。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 10,
+      "document_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+      "paper_id": "paper:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "source_name": "050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf",
+      "canonical_claim": "Hydrodynamic conditions around the Emperor Seamount Chain are stronger than in the open subarctic abyssal plain, especially at water depths of 1,000–2,500 m, as indicated by sortable-silt grain size.",
+      "original_claim": "Furthermore, using the same simulation method of EM analysis, we compared our data with the results of the SO202 Expedition from the open subarctic Pacific Ocean (Serno et al., 2014), and found that mean grain size was about 5.33 µm.",
+      "scope": {
+        "condition": [
+          "water depths 1,313–5,709 m"
+        ],
+        "entities": [
+          "bottom currents",
+          "sortable silt",
+          "surface sediments"
+        ],
+        "formation": [],
+        "location": [
+          "Emperor Seamount Chain, North Pacific"
+        ],
+        "measurement": [
+          "grain size and mean grain size of sortable silt"
+        ],
+        "method": [
+          "grain-size correlations, sortable-silt proxy, and end-member comparison"
+        ],
+        "sample_type": [
+          "50 Holocene surface sediments"
+        ],
+        "time": {
+          "end": null,
+          "label": "Holocene interval",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.hydro.abyssal",
+          "page": 9,
+          "section": "Sediment Dynamics in the Emperor Seamount Chain",
+          "figure": null,
+          "table": null,
+          "excerpt": "Furthermore, using the same simulation method of EM analysis, we compared our data with the results of the SO202 Expedition from the open subarctic Pacific Ocean (Serno et al., 2014), and found that mean grain size was about 5.33 µm.",
+          "excerpt_original_characters": 233,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.hydro.depth",
+          "page": 9,
+          "section": "Sediment Dynamics in the Emperor Seamount Chain",
+          "figure": null,
+          "table": null,
+          "excerpt": "Negative correlation between water depth and grain size (R = −0.74, Figure 5A) in the study area suggests that the deeper the water depth is, the finer the grain size of sediments is.",
+          "excerpt_original_characters": 183,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.hydro.em",
+          "page": 9,
+          "section": "Sediment Dynamics in the Emperor Seamount Chain",
+          "figure": null,
+          "table": null,
+          "excerpt": "According to the grain size analysis of simulated EM, there are three EM with mean grain size of 9.12 µm (EM1), 64.95 µm (EM2), and 157.67 µm (EM3), representing fine silt, fine sand and medium sand, respectively.",
+          "excerpt_original_characters": 213,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.hydro.proxy",
+          "page": 9,
+          "section": "Sediment Dynamics in the Emperor Seamount Chain",
+          "figure": null,
+          "table": null,
+          "excerpt": "Mean grain size of sortable silt shows strong positive correlation with the contents of sortable silt in the study area, suggesting that it can be used to indicate the rel",
+          "excerpt_original_characters": 233,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.hydro.sortable",
+          "page": 9,
+          "section": "Sediment Dynamics in the Emperor Seamount Chain",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 218,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.hydro.summary",
+          "page": 13,
+          "section": "CONCLUSION",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 215,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:9f9ef2b238f1e72d2cc0388c9d909b7fe208dc9ba259273e4283e2079b1bbed7",
+          "page": 10,
+          "section": null,
+          "figure": "Figure 9",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 84,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1379,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 3,
+        "scope_error": false,
+        "rationale": "附原文明确sortable-silt R=-0.73及1000–2500m较平原强，区别bulk=-0.74。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 11,
+      "document_id": "claim:sha256:bff083c16054d896bd3015d4546592bb51bc516d137f7681ef5c1a1b956a9742",
+      "paper_id": "paper:827e6ce263d8dc9e005c6e2040735681b460d3b4ed11ade10f8bb607fa1f7fdc",
+      "snapshot_id": "snapshot:sha256:e7216370fc4d45fc1c34f27bbedb39b79e36ddcf072114acc7bc5d3690bd7911",
+      "artifact_version_id": "artifact-version:sha256:827e6ce263d8dc9e005c6e2040735681b460d3b4ed11ade10f8bb607fa1f7fdc",
+      "source_name": "ELS_f5e56eabef00acf601b6.pdf",
+      "canonical_claim": "Paired authigenic δ²³⁸U and δ⁹⁸Mo compositions may help distinguish reducing sediments deposited beneath oxic bottom water from euxinic settings in ancient sedimentary successions.",
+      "original_claim": "Fig.4. Crossplots of authigenic components of sediments in the Bering Sea. Cross-plots of $\\delta ^ { 9 8 } \\mathrm { M o } _ { \\mathrm { a u t h } } . \\delta ^ { 2 3 8 } \\mathrm { U } _ { \\mathrm { a u t h } }$ (a) and $\\mathrm { U _ { a u t h } \\mathrm { - M o _ { a u t h } } }$ (b). See Fig. 3 for profile data The vertical error bar in (a) represents the analytical error of $\\mathrm { 8 ^ { 2 3 8 } U }$ (2SD). ",
+      "scope": {
+        "location": [
+          "Bering Sea and comparison with euxinic settings"
+        ],
+        "time": {
+          "label": "modern comparison; inference for ancient sedimentary successions",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "reducing sediments beneath oxic seawater and sulfidic euxinic sediments"
+        ],
+        "method": [
+          "paired authigenic U–Mo isotope comparison"
+        ],
+        "condition": [
+          "contrasting depositional redox settings"
+        ],
+        "measurement": [
+          "paired δ²³⁸Uauth and δ⁹⁸Moauth compositions"
+        ],
+        "uncertainty": "Ancient application requires independent redox evaluation and remains under-constrained for some settings.",
+        "entities": [
+          "Bering Sea reducing sediments",
+          "authigenic molybdenum",
+          "authigenic uranium",
+          "euxinic sediments"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.7",
+          "page": 10,
+          "section": "5.3.Implication for application of the U and Mo isotope systems as paleoredox proxies",
+          "figure": "Fig. 7",
+          "table": null,
+          "excerpt": "Fig. 7. Cross-plots of $\\delta ^ { 9 8 } \\mathrm { M o } _ { \\mathrm { a u t h } }$ and $\\delta ^ { 2 3 8 } \\mathrm { U _ { a u t h } }$ data for modern reducing sediments (deposited under an oxic water column, with oxygen penetration depths $< 2 \\mathrm { c m }$ aind) et al.,2020); theCariaco Basin (Bruske etal.,2020). Theplotted $\\delta ^ { 2 3 8 } \\mathrm { U _ { a u t h } }$ value of the Peru margin is an average value from Weyer etal. (2o08); the plotted $\\delta ^ { 9 8 } \\mathrm { M o } _ { \\mathrm { a u t h } }$ valueofthePemaeaeeocedepeepso seawatero ",
+          "excerpt_original_characters": 565,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.figure.4",
+          "page": 7,
+          "section": "5.1. Mo and U removal and isotopic fractionations",
+          "figure": "Fig. 4",
+          "table": null,
+          "excerpt": "Fig.4. Crossplots of authigenic components of sediments in the Bering Sea. Cross-plots of $\\delta ^ { 9 8 } \\mathrm { M o } _ { \\mathrm { a u t h } } . \\delta ^ { 2 3 8 } \\mathrm { U } _ { \\mathrm { a u t h } }$ (a) and $\\mathrm { U _ ",
+          "excerpt_original_characters": 417,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.iso",
+          "page": 7,
+          "section": "4.Results",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 628,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.redox.caveat",
+          "page": 11,
+          "section": "Upwelling",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 753,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.setting.comparison",
+          "page": 10,
+          "section": "5.3.Implication for application of the U and Mo isotope systems as paleoredox proxies",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 912,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 3275,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "U/Mo氧化还原代理，不是目标。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 12,
+      "document_id": "claim:sha256:798e57a1258d4c9fa33da736331722d23432cc26f375a05c457fd5d22996cabd",
+      "paper_id": "paper:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "source_name": "050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf",
+      "canonical_claim": "Surface sediments along the Emperor Seamount Chain have a mixed provenance comprising terrigenous detritus, biogenic material, and volcanic material.",
+      "original_claim": "Correlation analysis shows that there are significant positive correlations among Al-Fe, Al-K, Al-Mg and Al-Ti, with correlation coefficients of 0.93, 0.93, 0.98, and 0.97, respectively (Figure 6).",
+      "scope": {
+        "condition": [
+          "sampled Emperor Seamount Chain"
+        ],
+        "entities": [
+          "biogenic material",
+          "surface sediments",
+          "terrigenous detritus",
+          "volcanic material"
+        ],
+        "formation": [],
+        "location": [
+          "Emperor Seamount Chain, North Pacific"
+        ],
+        "measurement": [
+          "major elements, CaCO3, rare earth elements, and Eu anomaly"
+        ],
+        "method": [
+          "major-element and rare-earth-element geochemistry"
+        ],
+        "sample_type": [
+          "50 Holocene surface sediments"
+        ],
+        "time": {
+          "end": null,
+          "label": "Holocene interval",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.prov.al",
+          "page": 7,
+          "section": "Major Elements",
+          "figure": null,
+          "table": null,
+          "excerpt": "Correlation analysis shows that there are significant positive correlations among Al-Fe, Al-K, Al-Mg and Al-Ti, with correlation coefficients of 0.93, 0.93, 0.98, and 0.97, respectively (Figure 6).",
+          "excerpt_original_characters": 197,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.prov.caocaco",
+          "page": 7,
+          "section": "Major Elements",
+          "figure": null,
+          "table": null,
+          "excerpt": "There is a strong positive correlation between CaO and $\\mathrm { C a C O } _ { 3 }$ on the whole (R = 0.99) (Figure 3B), thus mainly reflects the contribution of biogenic materials.",
+          "excerpt_original_characters": 182,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.prov.eu",
+          "page": 12,
+          "section": "Provenance of Sediments",
+          "figure": null,
+          "table": null,
+          "excerpt": "In the study area, Eu generally has significant positive anomaly with range of 1.5–4, confirming that there are significant volcanic input.",
+          "excerpt_original_characters": 139,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.prov.ree",
+          "page": 7,
+          "section": "Rare Earth Elements",
+          "figure": null,
+          "table": null,
+          "excerpt": "Also significant positive correlation is observed between $\\mathrm { { A l } } _ { 2 } \\mathrm { { O } } _ { 3 }$ and 6REE (R = 0.65).",
+          "excerpt_original_characters": 134,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:9101fd43a3cb91a72389bebadc55b02b1730a483b61b3a4390370725ed2ce6b2",
+          "page": 8,
+          "section": null,
+          "figure": "Figure 6",
+          "table": null,
+          "excerpt": "FIGURE 6 | The scatter plots between $\\mathsf { A l } _ { 2 } \\mathsf { O } _ { 3 }$ and other elements. The correlation between $\\mathrm { C a C O ",
+          "excerpt_original_characters": 1125,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1777,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Emperor混合物源，不给请求关系。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 13,
+      "document_id": "claim:sha256:c7d278752490a02a1eae79756f08adc5fe49288c22ab1e07f33f67bed593d7af",
+      "paper_id": "paper:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "source_name": "050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf",
+      "canonical_claim": "Within the sampled Emperor Seamount Chain, volcanic-material contribution is relatively higher in Zone II (44°N–49.8°N).",
+      "original_claim": "Our data further reveals that the eolian dust contribution is higher between 33◦N and 44◦N, while the volcanic materials contribution is relatively higher between 44◦N and 49.8◦N, as shown in Figure 12B.",
+      "scope": {
+        "location": [
+          "Emperor Seamount Chain, North Pacific"
+        ],
+        "time": {
+          "label": "Holocene interval",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "50 Holocene surface sediments"
+        ],
+        "method": [
+          "REE-ratio comparison"
+        ],
+        "condition": [
+          "33°N–49.8°N"
+        ],
+        "measurement": [
+          "rare-earth-element provenance indices"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "eolian dust",
+          "surface sediments",
+          "volcanic materials"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.source.latitude",
+          "page": 13,
+          "section": "Provenance of Sediments",
+          "figure": null,
+          "table": null,
+          "excerpt": "Our data further reveals that the eolian dust contribution is higher between 33◦N and 44◦N, while the volcanic materials contribution is relatively higher between 44◦N and 49.8◦N, as shown in Figure 12B.",
+          "excerpt_original_characters": 203,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.source.mixture",
+          "page": 13,
+          "section": "Provenance of Sediments",
+          "figure": null,
+          "table": null,
+          "excerpt": "The scatter plot of (LREE/REE)N and (HREE/REE)N (Figure 12B) shows that the composition of the surface sediments of the Emperor Seamount Chain falls into the range of two EM: volcanic and terrigenous dust, which can be regarded as a mixture of two EM.",
+          "excerpt_original_characters": 251,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 454,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Emperor火山物源纬度分区，不是水深相关。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 14,
+      "document_id": "claim:sha256:f4d871f1684e3711d409a3d455560ab3ffa9dbc11c47511c509403728b4615d1",
+      "paper_id": "paper:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "source_name": "050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf",
+      "canonical_claim": "Within the sampled surface sediments, redox changes have only a weak influence on the negative Ce anomaly.",
+      "original_claim": "The correlation analysis of $\\mathrm { M n O } / \\mathrm { F e } _ { 2 } \\mathrm { O } _ { 3 }$ and δCe reveals that there is no obvious positive correlation $( R = - 0 .",
+      "scope": {
+        "location": [
+          "Emperor Seamount Chain, North Pacific"
+        ],
+        "time": {
+          "label": "Holocene interval",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "50 Holocene surface sediments"
+        ],
+        "method": [
+          "Mn/Fe–δCe correlation"
+        ],
+        "condition": [
+          "sampled surface sediments"
+        ],
+        "measurement": [
+          "δCe and MnO/Fe2O3"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "MnO/Fe2O3",
+          "redox conditions",
+          "surface sediments",
+          "δCe"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.redox.corr.a",
+          "page": 10,
+          "section": "Negative Ce Anomaly",
+          "figure": null,
+          "table": null,
+          "excerpt": "The correlation analysis of $\\mathrm { M n O } / \\mathrm { F e } _ { 2 } \\mathrm { O } _ { 3 }$ and δCe reveals that there is no obvious positive correlation $( R = - 0 .",
+          "excerpt_original_characters": 170,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.redox.corr.b",
+          "page": 10,
+          "section": "Negative Ce Anomaly",
+          "figure": null,
+          "table": null,
+          "excerpt": "1 0 )$ (Figure 11B).",
+          "excerpt_original_characters": 20,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.redox.effect",
+          "page": 11,
+          "section": "Negative Ce Anomaly",
+          "figure": null,
+          "table": null,
+          "excerpt": "oxidation-reduction changes in surface sediments in the study area have no distinct effects on δCe.",
+          "excerpt_original_characters": 99,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.redox.proxy",
+          "page": 10,
+          "section": "Negative Ce Anomaly",
+          "figure": null,
+          "table": null,
+          "excerpt": "The Mn/Fe ratio could be used to indicate the sedimentary redox condition changes.",
+          "excerpt_original_characters": 82,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 371,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Emperor Ce异常氧化影响，非目标。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 15,
+      "document_id": "claim:sha256:01658dc2b0193c34baba96ce236289316638478a1217c6440856595edf090c0c",
+      "paper_id": "paper:3a2b030c57ba78b1b780af18a3011dfc539758d42dd17e4e5eab720db2491da3",
+      "snapshot_id": "snapshot:sha256:45ac5b0f9dbad9278079f59c939f845321fc9cd3576f8ddbeb007d3b589564b8",
+      "artifact_version_id": "artifact-version:sha256:3a2b030c57ba78b1b780af18a3011dfc539758d42dd17e4e5eab720db2491da3",
+      "source_name": "BULK_a9a6419783fd3034fa16.pdf",
+      "canonical_claim": "Across the Indian-margin shelf and within the upper-slope OMZ, hydrodynamic processes reflected in sediment grain-size distributions are the overriding control on surface-sediment Corg distribution and variability.",
+      "original_claim": "– Major variability in sediment OM content across the shelf and within the OMZ is strongly linked to grain size distributions.",
+      "scope": {
+        "location": [
+          "Indian margin of the Arabian Sea"
+        ],
+        "time": null,
+        "formation": [],
+        "sample_type": [
+          "Surface shelf and slope sediments"
+        ],
+        "method": [
+          "Grain-size analysis, Pearson correlation and sequential multiple regression"
+        ],
+        "condition": [
+          "Across the shelf and within the upper-slope OMZ"
+        ],
+        "measurement": [
+          "Corg content, silt percentage, grain size and bottom-water dissolved oxygen"
+        ],
+        "uncertainty": "Shelf dissolved-oxygen values are uncertain.",
+        "entities": [
+          "Indian-margin shelf sediments",
+          "bottom-water oxygen",
+          "sedimentary Corg",
+          "silt",
+          "upper-slope OMZ sediments"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.hydro.proxy",
+          "page": 9,
+          "section": "3.3 Controls on OM distribution",
+          "figure": null,
+          "table": null,
+          "excerpt": "Therefore, hydrodynamic processes, expressed as $\\% S _ { \\mathrm { i l t } }$ , appear to explain more of the variance in $\\% \\mathrm { C _ { o r g } }$ across this margin than DO or any other measured parameter, and this is most pronounced on the slope, for sites within and below the OMZ.",
+          "excerpt_original_characters": 291,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.concl.grain",
+          "page": 12,
+          "section": "4 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "– Major variability in sediment OM content across the shelf and within the OMZ is strongly linked to grain size distributions.",
+          "excerpt_original_characters": 126,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.concl.hydro",
+          "page": 12,
+          "section": "4 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Thus, while low $\\mathrm { O } _ { 2 }$ exposure leads to OM enrichments within the OMZ, hydrodynamic processes are the overriding control on OM distribution, both across the shelf and within the OMZ.",
+          "excerpt_original_characters": 200,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig8",
+          "page": 10,
+          "section": null,
+          "figure": "Figure 8",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.grain",
+          "page": 9,
+          "section": "3.3 Controls on OM distribution",
+          "figure": null,
+          "table": null,
+          "excerpt": "Specifically, $\\% \\mathrm { C _ { o r g } }$ values for sediments within the permanent OMZ $( > 2 0 0 \\mathrm { m }$ to $\\sim 1 0 0 0 \\mathrm { m } )$ show a strong positive correlati",
+          "excerpt_original_characters": 391,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.grain.cont",
+          "page": 9,
+          "section": "3.3 Controls on OM distribution",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 4,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.pearson",
+          "page": 9,
+          "section": "3.3 Controls on OM distribution",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 621,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.reg.all",
+          "page": 9,
+          "section": "3.3 Controls on OM distribution",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 264,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.reg.omz",
+          "page": 9,
+          "section": "3.3 Controls on OM distribution",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 260,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.reg.omz.cont",
+          "page": 9,
+          "section": "3.3 Controls on OM distribution",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 9,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.reg.slope",
+          "page": 9,
+          "section": "3.3 Controls on OM distribution",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 272,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.shelf.diff",
+          "page": 11,
+          "section": "3.4 Organic matter preservation",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 331,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.shelf.physical",
+          "page": 11,
+          "section": "3.4 Organic matter preservation",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 117,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 2886,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "印度陆缘粒度对有机碳控制，非Emperor水深关系。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 16,
+      "document_id": "claim:sha256:d28d18af77d8276bde3939bedfcc413a8c2d023d25fdf2de882ca9550a6c168e",
+      "paper_id": "paper:fb5a63f0b153acde65fa623bb6192ff288d7aaa774f91ead5ae615e820ee0339",
+      "snapshot_id": "snapshot:sha256:092bd8544a5faddc8abbfd9885558c9578d2cbf611767ec9b8a9380cc7fbf514",
+      "artifact_version_id": "artifact-version:sha256:fb5a63f0b153acde65fa623bb6192ff288d7aaa774f91ead5ae615e820ee0339",
+      "source_name": "10.1007_s00126-008-0216-0.pdf",
+      "canonical_claim": "The authors' model attributes the adakite-like middle–late Miocene Kuh Panj ore-hosting magmas to recycling and melting of hydrous, garnet-bearing lower arc crust after collisional thickening, interacting with mantle-derived mafic melts.",
+      "original_claim": "Trace element modeling indicates peridotite melting for the barren Eocene–Oligocene intrusions and a hydrous garnet-bearing amphibolite source for middle-late Miocene ore-hosting intrusions.",
+      "scope": {
+        "location": [
+          "Kerman arc segment, central Iran"
+        ],
+        "time": {
+          "label": "Late Paleogene–middle/late Miocene",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Collisional Kerman Cenozoic arc"
+        ],
+        "sample_type": [
+          "Ore-hosting Kuh Panj porphyries and barren Jebal Barez intrusions"
+        ],
+        "method": [
+          "Trace-element modeling and petrological/isotopic interpretation"
+        ],
+        "condition": [
+          "Arc crustal thickening during collision"
+        ],
+        "measurement": [
+          "Melt source and residual mineralogy"
+        ],
+        "uncertainty": "Petrogenetic interpretation based on geochemical, isotopic, and structural constraints.",
+        "entities": [
+          "Jebal Barez intrusions",
+          "Kuh Panj porphyries",
+          "lower arc crust",
+          "mantle-derived mafic melts"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.conclusion.parameters",
+          "page": 16,
+          "section": "Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "The presence of subduction fluids, oxidizing melt conditions, and hybridization of fertile peridotite-derived melt within a hydrous, amphibolite-facies–non-eclogitic– arc crustal keel are key parameters for generating adakitelike Cu ore-hosting porphyry intrusions.",
+          "excerpt_original_characters": 265,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.abstract.source_model",
+          "page": 1,
+          "section": "Recycling of orogenic arc crust triggers porphyry Cu mineralization in Kerman Cenozoic arc rocks, southeastern Iran",
+          "figure": null,
+          "table": null,
+          "excerpt": "Trace element modeling indicates peridotite melting for the barren Eocene–Oligocene intrusions and a hydrous garnet-bearing amphibolite source for middle-late Miocene ore-hosting intrusions.",
+          "excerpt_original_characters": 190,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.conclusion.thickening",
+          "page": 16,
+          "section": "Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Shortening and basaltic underplating of an arc crustal keel during Neotethyan ocean closure and the Alpine– Himalayan collision in central Iran caused arc crustal thickening from $3 0 { - } 3 5 ~ \\mathrm { k m }$ to $4 0 { - } 5 0 ~ \\mathrm { k m }$ .",
+          "excerpt_original_characters": 251,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig11.interaction.a",
+          "page": 15,
+          "section": "Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "Note interaction between collisional mantle-derived mafic, hydrous melts and thickened mafic l",
+          "excerpt_original_characters": 98,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.fig11.interaction.b",
+          "page": 15,
+          "section": "Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 96,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.fig11.prefix",
+          "page": 15,
+          "section": "Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 4,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.fig11.title",
+          "page": 15,
+          "section": "Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 79,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.figure.11",
+          "page": 15,
+          "section": null,
+          "figure": "Figure 11",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.sr.interpretation",
+          "page": 9,
+          "section": "Sr–Nd–Pb isotopes",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 427,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.trace.garnet",
+          "page": 12,
+          "section": "Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 425,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1835,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "伊朗岩浆来源，与目标无关。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 17,
+      "document_id": "claim:sha256:6aced80883f1e0c957723560ed242622795458c0dca4dbdd70fd7087d9e4a6f8",
+      "paper_id": "paper:1450570a50652d4600ae34ecef6f5b50c038493d27ccf202f19d7f997a211b22",
+      "snapshot_id": "snapshot:sha256:278cd790dedefee96057005a77c026edee63d02e60e5893543daa830ce44015b",
+      "artifact_version_id": "artifact-version:sha256:1450570a50652d4600ae34ecef6f5b50c038493d27ccf202f19d7f997a211b22",
+      "source_name": "NEWCN_ESF_5114.pdf",
+      "canonical_claim": "阿尔金山前中、下侏罗统湖相泥页岩厚而连续、以Ⅰ型干酪根为主，且TOC与Ro表明其有机质丰度和成熟度适宜，整体构成页岩气成藏的有效物质基础与良好烃源岩。",
+      "original_claim": "阿尔金山前富有机质泥页岩空间展布受沉积相控制，呈北东向带状连续稳定分布，由阿尔金山前七个泉一红沟子—小梁山构造带向盆地内部厚度逐渐减薄(图3)。",
+      "scope": {
+        "location": [
+          "柴西阿尔金山前"
+        ],
+        "time": {
+          "label": "中、下侏罗统",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "陆相湖相泥页岩"
+        ],
+        "method": [],
+        "condition": [
+          "论文所研究的阿尔金山前中、下侏罗统泥页岩地质条件"
+        ],
+        "measurement": [],
+        "uncertainty": null,
+        "entities": [
+          "泥页岩",
+          "页岩气"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.dist",
+          "page": 3,
+          "section": "2.2泥页岩展布规律",
+          "figure": null,
+          "table": null,
+          "excerpt": "阿尔金山前富有机质泥页岩空间展布受沉积相控制，呈北东向带状连续稳定分布，由阿尔金山前七个泉一红沟子—小梁山构造带向盆地内部厚度逐渐减薄(图3)。",
+          "excerpt_original_characters": 72,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fac",
+          "page": 3,
+          "section": "2.1泥页岩沉积环境",
+          "figure": null,
+          "table": null,
+          "excerpt": "沉积中心位于小梁山凹陷、七个泉断鼻带和铁木里克凸起，发育湖泊相沉积体(图2)。",
+          "excerpt_original_characters": 39,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.kerogen",
+          "page": 4,
+          "section": "3.1有机质类型",
+          "figure": null,
+          "table": null,
+          "excerpt": "壳质组不发育，阿尔金山前中、下侏罗统泥页岩有机质类型以 $\\mathbb { I }$ 型为主。",
+          "excerpt_original_characters": 48,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.ro",
+          "page": 6,
+          "section": "3.3有机质成熟度",
+          "figure": null,
+          "table": null,
+          "excerpt": "有机质成熟 $( R _ { \\mathrm { o } }$ )在 $0 . 8 \\% \\sim 2 . 5 \\%$ ，平均值为 $1 . 3 5 \\%$ 。",
+          "excerpt_original_characters": 80,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.sourcequality",
+          "page": 2,
+          "section": "阿尔金山前中、下侏罗统页岩气成藏地质条件",
+          "figure": null,
+          "table": null,
+          "excerpt": "对 25 个野外样品进行岩石热解测试，TOC含量稳定分布在 $1 \\% \\sim 4 \\% , R _ { \\mathrm { o } }$ 在 $0 . 8 \\% \\sim 2 . 5 \\%$ ，泥页岩有机质含量高，处于成熟-过成熟阶段,生气条件优越。",
+          "excerpt_original_characters": 127,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.thick",
+          "page": 3,
+          "section": "2.2泥页岩展布规律",
+          "figure": null,
+          "table": null,
+          "excerpt": "其中，小梁山凹陷、七个泉断鼻带泥页岩累计总厚度超过 $3 0 0 \\mathrm { ~ m ~ }$ ，有效厚度为 $5 0 \\sim 7 0 \\mathrm { ~ m ~ }$ ，与Barnett页岩和Lewis页岩可比，其有效页岩厚度分别在 $1 5 \\small { \\sim } 6 0 \\ \\mathrm { m } , 6 1 \\small { \\sim } 9 1 \\ \\mathrm { m } ^ { [ 1 9 ] }$ 。",
+          "excerpt_original_characters": 224,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.toc",
+          "page": 5,
+          "section": "3.2有机碳含量",
+          "figure": null,
+          "table": null,
+          "excerpt": "阿尔金山前中、下侏罗统有机碳(TOC)含量在$1 . 0 \\% { \\sim } 4 . \\ 0 \\%$ ,平均含量为 $2 . 0 6 \\%$ 。",
+          "excerpt_original_characters": 74,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "f.fig2",
+          "page": 4,
+          "section": null,
+          "figure": "图2",
+          "table": null,
+          "excerpt": "图2阿尔金山前中—下侏罗统沉积相图",
+          "excerpt_original_characters": 17,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "f.fig3",
+          "page": 4,
+          "section": null,
+          "figure": "图3",
+          "table": null,
+          "excerpt": "图3阿尔金山前中一下侏罗统泥页岩厚度图",
+          "excerpt_original_characters": 19,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 700,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "阿尔金页岩气基础，与目标无关。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 18,
+      "document_id": "claim:sha256:057c091445d9e7d0fd694d7ecce457ba896dc69b4d75f64ed4d101c7c2ae54ac",
+      "paper_id": "paper:72cc7e92fa724bc3020982532039eedffdb3554608dbc27d2f63c9b079063425",
+      "snapshot_id": "snapshot:sha256:518eb097e08b6e04b59bc39d1fbebc7e2e60da1829828ae571c044ab2c9e8176",
+      "artifact_version_id": "artifact-version:sha256:72cc7e92fa724bc3020982532039eedffdb3554608dbc27d2f63c9b079063425",
+      "source_name": "W2995513630.pdf",
+      "canonical_claim": "In the carbonate-rich Malo Jezero sediments, depth-dependent authigenic Mo and U accumulation records changing redox conditions: high uptake in the deep euxinic part contrasts with lower uptake from reducing pore waters in shallower sediments.",
+      "original_claim": "A 50 cm long sediment core from the deepest part of the lake, show a transition from moderate to high authigenic Mo and U accumulation with depth, consistent with the changing lake redox environment in the past.",
+      "scope": {
+        "location": [
+          "Malo Jezero, Mljet Island, Adriatic Sea"
+        ],
+        "time": null,
+        "formation": [],
+        "sample_type": [
+          "carbonate-rich marine sediments"
+        ],
+        "method": [
+          "sediment-core geochemical and isotope analyses"
+        ],
+        "condition": [
+          "changing redox conditions"
+        ],
+        "measurement": [
+          "authigenic Mo and U accumulation"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Malo Jezero",
+          "Mo",
+          "U"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.core-trend",
+          "page": 2,
+          "section": "Abstract",
+          "figure": null,
+          "table": null,
+          "excerpt": "A 50 cm long sediment core from the deepest part of the lake, show a transition from moderate to high authigenic Mo and U accumulation with depth, consistent with the changing lake redox environment in the past.",
+          "excerpt_original_characters": 211,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.deep-euxinia",
+          "page": 18,
+          "section": "7. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "In the deepest part of core C1 $_ { \\cdot > 2 0 }$ cm depth), high authigenic Mo and U accumulation are consistent with euxinic",
+          "excerpt_original_characters": 127,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.redox-history",
+          "page": 2,
+          "section": "Abstract",
+          "figure": null,
+          "table": null,
+          "excerpt": "Measurements of water column redox behavior in the lake since the 1950s, have shown a transition from anoxic-sulfidic conditions in the deeper water column to more oxic conditions and anoxia refined to the sediment and pore-waters.",
+          "excerpt_original_characters": 231,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.shallow-porewater",
+          "page": 19,
+          "section": "7. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "In the shallower part of the same core, both Mo and U uptake likely occurred from a reducing pore-water environment leading to lower authigenic Mo and U accumulation.",
+          "excerpt_original_characters": 166,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 735,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "湖泊Mo/U氧化还原累积，不是目标粒度。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 19,
+      "document_id": "claim:sha256:17d73698a28098bd7c80c0c8fb5073c16558807c6e7dffc406209ae3eb0dac4c",
+      "paper_id": "paper:6f9db94d385b24f37ca1f344dd13c38f5c9e96233d16ae70db07161c83a831c6",
+      "snapshot_id": "snapshot:sha256:70ee57f19d7f630b03b40a585f16bc1ed424c611912ad7197aaf6ba9fd54a00a",
+      "artifact_version_id": "artifact-version:sha256:6f9db94d385b24f37ca1f344dd13c38f5c9e96233d16ae70db07161c83a831c6",
+      "source_name": "W4205430338.pdf",
+      "canonical_claim": "托尔期色哇剖面记录的多幕式高岭石富集反映了沉积物来源的阶段性变化。",
+      "original_claim": "色哇剖面黏土组分分析表明, 伊利石与高岭石的含量呈相反的变化趋势(图8).",
+      "scope": {
+        "location": [
+          "色哇地区，羌塘盆地南部，东特提斯"
+        ],
+        "time": {
+          "label": "早侏罗世托尔期",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "曲色组"
+        ],
+        "sample_type": [
+          "泥岩、钙质泥岩和粉砂质泥岩"
+        ],
+        "method": [
+          "碳同位素、全岩地球化学和矿物学分析"
+        ],
+        "condition": [
+          "开阔海浅水环境"
+        ],
+        "measurement": [
+          "碳同位素、TOC、矿物及元素指标"
+        ],
+        "uncertainty": "碳同位素偏移大小和详细形态可能受局域古环境影响",
+        "entities": [
+          "T-OAE",
+          "色哇剖面"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.clay.drop",
+          "page": 9,
+          "section": "4.3 全球气候变化对区域环境的扰动以及它们对有机质富集的控制作用",
+          "figure": null,
+          "table": null,
+          "excerpt": "随后, 高岭石含量急剧下降, 对应于碳同位素负偏异常的开始.",
+          "excerpt_original_characters": 30,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.clay.pattern",
+          "page": 9,
+          "section": "4.3 全球气候变化对区域环境的扰动以及它们对有机质富集的控制作用",
+          "figure": null,
+          "table": null,
+          "excerpt": "色哇剖面黏土组分分析表明, 伊利石与高岭石的含量呈相反的变化趋势(图8).",
+          "excerpt_original_characters": 37,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.clay.source",
+          "page": 9,
+          "section": "4.3 全球气候变化对区域环境的扰动以及它们对有机质富集的控制作用",
+          "figure": null,
+          "table": null,
+          "excerpt": "John等(2012)认为, 多幕式的高岭石富集事件可以解释为沉积物源区的变化, 这归因于富高岭石沉积物的剥露、侵蚀和搬运的增加.",
+          "excerpt_original_characters": 65,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:323d9b522233fc95823b3e38b969de42b4a25e036dc95d614b828d9f9487771f",
+          "page": 10,
+          "section": null,
+          "figure": "图8",
+          "table": null,
+          "excerpt": "图 8 色哇剖面气候或沉积物源指标的垂直变化(CIA、伊利石和高岭石)",
+          "excerpt_original_characters": 35,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 167,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "羌塘高岭石物源变化，与目标无关。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 20,
+      "document_id": "claim:sha256:0a2048491cc7ce9dc6f651a4e4b652f787491519a1c4717aaf46235f63a4702c",
+      "paper_id": "paper:bfcf1ebecd1cd9e500856519cb245e6900f15e56ab17c8995a211ba4ef85079c",
+      "snapshot_id": "snapshot:sha256:d0f96c5339fcfc67a5bafc13424734be9cb2ef007ce65ae31029abff52a10ad0",
+      "artifact_version_id": "artifact-version:sha256:bfcf1ebecd1cd9e500856519cb245e6900f15e56ab17c8995a211ba4ef85079c",
+      "source_name": "ELS_e6c167a2be440ca7ca39.pdf",
+      "canonical_claim": "During the early-to-mid Holocene, episodes of dense shelf-water formation likely drove bottom-current winnowing and the formation of a sandy condensed layer at the Ligurian Sea study site during S1 deposition.",
+      "original_claim": "In agreement with previous interpretations of CLs, we propose that episodes of dense shelf-water formation were likely the main drivers of both sediment winnowing and the well-oxygenated water mass recorded by our proxies (Frigola et al., 2012;",
+      "scope": {
+        "location": [
+          "northeastern Ligurian Sea and Gulf of Genoa"
+        ],
+        "time": {
+          "label": "early-to-mid Holocene during S1 deposition",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "sediment-core proxy records"
+        ],
+        "method": [
+          "multiproxy reconstruction"
+        ],
+        "condition": [
+          "Sapropel 1 formation in the eastern Mediterranean"
+        ],
+        "measurement": [
+          "sediment winnowing, condensed layer, and intermediate-water oxygenation/circulation"
+        ],
+        "uncertainty": "Dense shelf-water and WMSIW interpretations are tentative",
+        "entities": [
+          "EMSW",
+          "WMSIW",
+          "dense shelf-water formation",
+          "sandy condensed layer"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.dense_shelfwater",
+          "page": 12,
+          "section": "5.2.3. Reorganization of intermediate water circulation $( { \\sim } 1 1 . 7 – 6 \\ k y r )$",
+          "figure": null,
+          "table": null,
+          "excerpt": "In agreement with previous interpretations of CLs, we propose that episodes of dense shelf-water formation were likely the main drivers of both sediment winnowing and the well-oxygenated water mass recorded by our proxies (Frigola et al., 2012;",
+          "excerpt_original_characters": 244,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig7",
+          "page": 11,
+          "section": null,
+          "figure": "Figure 7",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.sand_fraction",
+          "page": 12,
+          "section": "5.2.3. Reorganization of intermediate water circulation $( { \\sim } 1 1 . 7 – 6 \\ k y r )$",
+          "figure": null,
+          "table": null,
+          "excerpt": "This interval is also marked by a significant increase in the washing residue ${ > } 6 3 ~ \\mu \\mathrm { m }$ sediment fraction (Fig.",
+          "excerpt_original_characters": 133,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.sandy_layer_inference",
+          "page": 12,
+          "section": "5.2.3. Reorganization of intermediate water circulation $( { \\sim } 1 1 . 7 – 6 \\ k y r )$",
+          "figure": null,
+          "table": null,
+          "excerpt": "Based on these observations, it could be argued that enhanced hydrodynamic conditions promoted the removal of fine sediment, resulting in sediment starvation and ultimately the development of CLs at the study site.",
+          "excerpt_original_characters": 214,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.terrigenous_minimum",
+          "page": 12,
+          "section": "5.2.3. Reorganization of intermediate water circulation $( { \\sim } 1 1 . 7 – 6 \\ k y r )$",
+          "figure": null,
+          "table": null,
+          "excerpt": "while terrigenous sediment input declined to its minimum, reflected by the low Ti/Ca ratio and consistent with an abrupt drop in sedimentation rates (Fig.",
+          "excerpt_original_characters": 154,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.zr_rb_hydrodynamic",
+          "page": 11,
+          "section": "5.2.3. Reorganization of intermediate water circulation $( { \\sim } 1 1 . 7 – 6 \\ k y r )$",
+          "figure": null,
+          "table": null,
+          "excerpt": "During this period, hydrodynamic activity remained elev",
+          "excerpt_original_characters": 100,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 845,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Ligurian底流淘洗成层，非Emperor相关系数。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 21,
+      "document_id": "claim:sha256:f2d8d127a0ff1be0cbe4d6c98d2bf6d70b03a1246458fd901275ec1610d8ed9a",
+      "paper_id": "paper:f3a4d9b81e082eb9033f32894040fc3c1c0092b0e24cd263d415338fe98a038b",
+      "snapshot_id": "snapshot:sha256:09402b0e02f733133bdb6ca24b0f67ff0509570d5f3d4acd7427a505171992e2",
+      "artifact_version_id": "artifact-version:sha256:f3a4d9b81e082eb9033f32894040fc3c1c0092b0e24cd263d415338fe98a038b",
+      "source_name": "W3131954231.pdf",
+      "canonical_claim": "Bottom-current sorting can selectively accumulate coarse, REY-enriched biogenic calcium-phosphate grains into REY-enriched layers, but sufficiently strong currents may inhibit grain accumulation or erode sediment.",
+      "original_claim": "The grain size distributions of bulk sediments from the REY-enriched layers were bimodal, with peaks at fine $( { \\sim } 4 ~ \\mu \\mathrm { m } )$ and coarse $( \\sim 4 0 \\mathrm { - } 8 0 ~ \\mu \\mathrm { m } )$ sizes.",
+      "scope": {
+        "condition": [
+          "Variable sedimentation rate, redox conditions, bottom-water chemistry, depositional setting, and bottom currents"
+        ],
+        "entities": [
+          "P",
+          "REY",
+          "bottom currents",
+          "bottom seawater",
+          "oxygen fugacity",
+          "phosphate component",
+          "sedimentation rate"
+        ],
+        "formation": [],
+        "location": [
+          "Global deep-sea settings"
+        ],
+        "measurement": [
+          "ΣREY enrichment and environmental parameters"
+        ],
+        "method": [
+          "Compiled observational data and literature synthesis"
+        ],
+        "sample_type": [
+          "Deep-sea sediments and phosphate components"
+        ],
+        "time": {
+          "end": null,
+          "label": "Deposition and early diagenesis",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Environmental effects are inferred from observational synthesis"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.bimodal_grains",
+          "page": 13,
+          "section": "4.2. Influencing Factors of REY Enrichment",
+          "figure": null,
+          "table": null,
+          "excerpt": "The grain size distributions of bulk sediments from the REY-enriched layers were bimodal, with peaks at fine $( { \\sim } 4 ~ \\mu \\mathrm { m } )$ and coarse $( \\sim 4 0 \\mathrm { - } 8 0 ~ \\mu \\mathrm { m } )$ sizes.",
+          "excerpt_original_characters": 216,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.coarse_components",
+          "page": 13,
+          "section": "4.2. Influencing Factors of REY Enrichment",
+          "figure": null,
+          "table": null,
+          "excerpt": "Calcium phosphate and phillipsite were the major components of the coarse-grained portions of these REY-enriched layers [43].",
+          "excerpt_original_characters": 125,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.current_sorting",
+          "page": 13,
+          "section": "4.2. Influencing Factors of REY Enrichment",
+          "figure": null,
+          "table": null,
+          "excerpt": "Enhancement of bottom currents can produce selective accumulation of coarse biogenic Ca phosphate (BCP) grains enriched in REY, resulting in the formation of REY-enriched layers [6,43].",
+          "excerpt_original_characters": 185,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.erosion_layers",
+          "page": 13,
+          "section": "4.2. Influencing Factors of REY Enrichment",
+          "figure": null,
+          "table": null,
+          "excerpt": "The chemostratigraphy reveals that highly REY-enriched layers formed at least three times, and that almost all of these layers were accompanied by erosion during deposition [6].",
+          "excerpt_original_characters": 177,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.strong_current",
+          "page": 13,
+          "section": "4.2. Influencing Factors of REY Enrichment",
+          "figure": null,
+          "table": null,
+          "excerpt": "However, it should be noted that if the bottom current was sufficiently strong during deposition,",
+          "excerpt_original_characters": 196,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 899,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "底流筛选富REE颗粒的一般机制，不给目标关系。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 22,
+      "document_id": "claim:sha256:ca305a547da3d8aef82946f743ed3e9e31ce9aecb97e0b68658d5e91104121f2",
+      "paper_id": "paper:7e9477fe6e7489a0bc0ae36e57e257242413e16b678c91c8636778a1bac0c149",
+      "snapshot_id": "snapshot:sha256:ce64c2e58ea5de73a278e437a71ad8b0f97d0791a89b7eb6d1a0f5b4624ea58c",
+      "artifact_version_id": "artifact-version:sha256:7e9477fe6e7489a0bc0ae36e57e257242413e16b678c91c8636778a1bac0c149",
+      "source_name": "BULK_815e609cb2aa77097e90.pdf",
+      "canonical_claim": "The authors infer that varying bottom-current intensity likely contributed to laminated-mud deposition during glacial-to-deglacial periods in the Bellingshausen Sea continental-rise cores.",
+      "original_claim": "Laminated mud during glacial to deglacial periods is likely a result of varying bottom current intensity.",
+      "scope": {
+        "condition": [
+          "glacial-interglacial variation and IRD influence"
+        ],
+        "entities": [
+          "bottom currents",
+          "laminated mud",
+          "sortable silt"
+        ],
+        "formation": [],
+        "location": [
+          "Bellingshausen Sea continental rise"
+        ],
+        "measurement": [
+          "bottom-current intensity and laminated-mud deposition"
+        ],
+        "method": [
+          "sortable-silt mean grain size and ln(Zr/Rb) comparison"
+        ],
+        "sample_type": [
+          "sediment cores BS17-GC01 and BS17-GC02"
+        ],
+        "time": {
+          "end": null,
+          "label": "late Quaternary glacial-deglacial cycles",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "lamination-current relationship is described as likely"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.lamination.current.conclusion",
+          "page": 12,
+          "section": "7 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Laminated mud during glacial to deglacial periods is likely a result of varying bottom current intensity.",
+          "excerpt_original_characters": 105,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.ss.gc01.glacial",
+          "page": 8,
+          "section": "6.1.2 Glacial deposition at BS17-GC01",
+          "figure": null,
+          "table": null,
+          "excerpt": "SS MGS showed increased values up to $4 0 \\mu \\mathrm { m }$ during MIS 2 and 4 (Figure 5B).",
+          "excerpt_original_characters": 92,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 197,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Bellingshausen冰期底流层理，非目标区域。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 23,
+      "document_id": "claim:sha256:e9de8c665098eb5aeb08d7e268815ee12f228472980f0e90bc62394e2c170764",
+      "paper_id": "paper:a26f518bf9466e008ac1add064118ef5e59b1b5f688d8dd98a29b5f729d405db",
+      "snapshot_id": "snapshot:sha256:fb1860e6b919fc4b989e6cdb1eeea04ca4236c4659c84291be25964d45d6f4fa",
+      "artifact_version_id": "artifact-version:sha256:a26f518bf9466e008ac1add064118ef5e59b1b5f688d8dd98a29b5f729d405db",
+      "source_name": "2017_Organically bound iodine as a bottom-water redox proxy_ Preliminary validation and application_e69616dd.pdf",
+      "canonical_claim": "Across modern marine sediments and Holocene sediments from Landsort Deep, I/TOC varies with bottom-water oxygenation and records qualitative redox differences, particularly across the hypoxic–anoxic transition.",
+      "original_claim": "A cross-plot of I/TOC versus trace-metal proxies (Fig.",
+      "scope": {
+        "location": [
+          "Modern marine sediments and Landsort Deep, Baltic Sea"
+        ],
+        "time": {
+          "label": "Modern and Holocene",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "Surface and subsurface sediments; Holocene sediments"
+        ],
+        "method": [
+          "Qualitative comparison of sedimentary I/TOC with independent redox proxies"
+        ],
+        "condition": [
+          "Hypoxic–anoxic through euxinic bottom-water conditions"
+        ],
+        "measurement": [
+          "I/TOC, Fe speciation, and Mo"
+        ],
+        "uncertainty": "No specific deep-time oxygen calibration; I/TOC did not increase in independently inferred euxinic intervals",
+        "entities": [
+          "I/TOC",
+          "bottom-water oxygenation",
+          "marine sediments"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.cross1",
+          "page": 6,
+          "section": "4.3. Proxy validation in Holocene sediments from the Baltic Sea",
+          "figure": null,
+          "table": null,
+          "excerpt": "A cross-plot of I/TOC versus trace-metal proxies (Fig.",
+          "excerpt_original_characters": 54,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.cross2",
+          "page": 6,
+          "section": "4.3. Proxy validation in Holocene sediments from the Baltic Sea",
+          "figure": null,
+          "table": null,
+          "excerpt": "5) demonstrates that high I/TOC values are instead sensitive to the transition from hypoxic to anoxic condition while Fe speciation and Mo enrichment patterns distinguish between the presence of and lack of euxinia.",
+          "excerpt_original_characters": 215,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.eux1",
+          "page": 6,
+          "section": "4.3. Proxy validation in Holocene sediments from the Baltic Sea",
+          "figure": null,
+          "table": null,
+          "excerpt": "The elevated Fe and Mo data from these same periods (Fig.",
+          "excerpt_original_characters": 57,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.eux2",
+          "page": 6,
+          "section": "4.3. Proxy validation in Holocene sediments from the Baltic Sea",
+          "figure": null,
+          "table": null,
+          "excerpt": "4) uniquely indicate euxinia at Landsort Deep, analogous to water column conditions today (Hardisty et al., 2016;",
+          "excerpt_original_characters": 113,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.modern",
+          "page": 1,
+          "section": "a b s t r a c t",
+          "figure": null,
+          "table": null,
+          "excerpt": "The ratio of $\\mathrm { I _ { o r g } }$ to total organic carbon (I/TOC) in modern surface and subsurface sediments decreases with decreasing bottom-water oxygen, which may be used to reconstruct paleo-redox changes.",
+          "excerpt_original_characters": 216,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.no_eux_rise",
+          "page": 6,
+          "section": "4.3. Proxy validation in Holocene sediments from the Baltic Sea",
+          "figure": null,
+          "table": null,
+          "excerpt": "The Landsort Deep comparison of I/TOC, Fe speciation, and Mo paleo-redox proxies highlighted the critical fact that I/TOC values did not increase",
+          "excerpt_original_characters": 302,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "fig.4",
+          "page": 6,
+          "section": null,
+          "figure": "Fig. 4",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 745,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "fig.5",
+          "page": 7,
+          "section": null,
+          "figure": "Fig. 5",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 1702,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "I/TOC氧化代理，与目标无关。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 24,
+      "document_id": "claim:sha256:b5b87802e931e97415c6a2d1a87d7efcf9ac1b475cb6789cc63263f422b6bd31",
+      "paper_id": "paper:feddaf0c63a139dc1f19a29379484b3d3272e971b44fff9031cbe05114c8c69a",
+      "snapshot_id": "snapshot:sha256:3998dc2c360c06e4c22641767a8fda9b45ca4b6ec275f8e660f63fea21d2f62b",
+      "artifact_version_id": "artifact-version:sha256:feddaf0c63a139dc1f19a29379484b3d3272e971b44fff9031cbe05114c8c69a",
+      "source_name": "NVA_01a09ebc7e9f-6408d201-ad35-4850-9851-d1ba64fed4a3.pdf",
+      "canonical_claim": "In core KH17-GPC01 from Kongsfjordrenna, grain-size end-member variability principally records the changing balance between meltwater-delivered suspended sediment and bottom-current winnowing.",
+      "original_claim": "EM1a exhibits grain-size characteristics nearly identical to HH22-1162-SPM, including its range, principal mode, and distribution pattern (Fig.",
+      "scope": {
+        "location": [
+          "Kongsfjordrenna, northwestern Svalbard"
+        ],
+        "time": {
+          "label": "Last 14 cal ka BP",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "Marine sediment core KH17-GPC01"
+        ],
+        "method": [
+          "Grain-size end-member modeling and comparison with suspended particles"
+        ],
+        "condition": [],
+        "measurement": [
+          "Grain-size end-member proportions and sediment transport processes"
+        ],
+        "uncertainty": "Minor temporal variations in sediment provenance cannot be entirely ruled out.",
+        "entities": [
+          "EM1a",
+          "EM1b",
+          "EM2",
+          "KH17-GPC01",
+          "bottom currents",
+          "meltwater-derived suspended sediment"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.t11",
+          "page": 18,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "The consistency of these relationships across two independent fjord systems supports the interpretation that temporal variations in sediment dynamics, particularly the balance between meltwater supply and bottom-current winnowing, are the primary controls on comparable grain-size end-member distributions in glacimarine fjord-trough settings.",
+          "excerpt_original_characters": 343,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig8",
+          "page": 46,
+          "section": null,
+          "figure": "Fig. 8",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.t01",
+          "page": 16,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "EM1a exhibits grain-size characteristics nearly identical to HH22-1162-SPM, including its range, principal mode, and distribution pattern (Fig.",
+          "excerpt_original_characters": 143,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.t02",
+          "page": 16,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "8b).",
+          "excerpt_original_characters": 4,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.t03",
+          "page": 17,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "The coarsest end-member, EM2, contains a significantly higher proportion of medium to very coarse silt $( 8 { - } 6 3 \\ \\mu \\mathrm { m } )$ than HH22-1162-SPM (Fig.",
+          "excerpt_original_characters": 165,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.t04",
+          "page": 17,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "8d), suggesting deposition under conditions of reduced fine-grained input and/or enhanced winnowing by bottom currents (Ahn et al., 2024;",
+          "excerpt_original_characters": 137,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.t05",
+          "page": 17,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "McCave e",
+          "excerpt_original_characters": 21,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.t06",
+          "page": 17,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 111,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.t07",
+          "page": 17,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 4,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.t08",
+          "page": 17,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 166,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.t09",
+          "page": 17,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 155,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.t10",
+          "page": 17,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 232,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1481,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Kongsfjordrenna粒度端元底流解释，不是Emperor数据。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 25,
+      "document_id": "claim:sha256:1477d6e19169eec57e63fb60a4c7389acf81670d4a17b1192883964f73c21541",
+      "paper_id": "paper:201202064ee50e31b40ae9e669a1b54b09aac1fd40a919e30b29390ffa36f75e",
+      "snapshot_id": "snapshot:sha256:dacd7914bfe8c94cd7752c6d384d1b99802b19102df2f213ff8ddedabd7619f5",
+      "artifact_version_id": "artifact-version:sha256:201202064ee50e31b40ae9e669a1b54b09aac1fd40a919e30b29390ffa36f75e",
+      "source_name": "W4390668660.pdf",
+      "canonical_claim": "In the Marcus-Wake Seamounts, strong bottom currents may selectively accumulate REY-rich bioapatite fossils and micronodules southeast of some large seamounts, promoting the formation of REY-rich sediments.",
+      "original_claim": "In addition, the highest REY content occurs at station P11, which is located on the southeastern side of a large seamount, Niulang Guyot (see Figure 6a,b).",
+      "scope": {
+        "location": [
+          "Marcus-Wake Seamounts, western Pacific Ocean"
+        ],
+        "time": null,
+        "formation": [],
+        "sample_type": [
+          "Surface sediments"
+        ],
+        "method": [
+          "Grain-size, geochemical, and mineralogical analyses"
+        ],
+        "condition": [],
+        "measurement": [
+          "REY content, REY partitioning patterns, mineral composition, and geochemical correlations"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Asian dust",
+          "REY",
+          "bioapatite fossils",
+          "micronodules",
+          "pore water",
+          "seamounts",
+          "seawater"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.seamount.mooring",
+          "page": 12,
+          "section": "4.3. Effect of Seamounts on REY Enrichment",
+          "figure": null,
+          "table": null,
+          "excerpt": "The main direction and average velocity of the bottom current observed by the current meter deployed in the $4 9 2 0 \\mathrm { m }$ layer were southwest and $1 0 . 1 \\mathrm { c m } / \\mathrm { s } ,$ respectively [69].",
+          "excerpt_original_characters": 219,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.seamount.max",
+          "page": 10,
+          "section": "4.3. Effect of Seamounts on REY Enrichment",
+          "figure": null,
+          "table": null,
+          "excerpt": "In addition, the highest REY content occurs at station P11, which is located on the southeastern side of a large seamount, Niulang Guyot (see Figure 6a,b).",
+          "excerpt_original_characters": 155,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.seamount.sand",
+          "page": 12,
+          "section": "4.3. Effect of Seamounts on REY Enrichment",
+          "figure": null,
+          "table": null,
+          "excerpt": "Higher ΣREY corresponds to higher sand content (biosilicon free) (Figure 5h), suggesting that higher ΣREY may also indicate stronger bottom currents to some extent.",
+          "excerpt_original_characters": 164,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.seamount.spatial",
+          "page": 10,
+          "section": "4.3. Effect of Seamounts on REY Enrichment",
+          "figure": null,
+          "table": null,
+          "excerpt": "The $2 3 ^ { \\circ } \\mathrm { N }$ latitude section in the study area is also characterized by a REY distribution that may be influenced by seamounts, as evidenced by the fact that ΣREY is higher in samples closer to seamounts (e.g., P13) than in samples far fr",
+          "excerpt_original_characters": 289,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.seamount.summary",
+          "page": 12,
+          "section": "4.3. Effect of Seamounts on REY Enrichment",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 228,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.seamount.zral",
+          "page": 12,
+          "section": "4.3. Effect of Seamounts on REY Enrichment",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 284,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1339,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Marcus-Wake海山底流富集，与目标海山链不同。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 26,
+      "document_id": "claim:sha256:d7cbcddc02bee598211585793f95cd89c7e459da3511ac8c6d321faee3fe3f59",
+      "paper_id": "paper:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "source_name": "050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf",
+      "canonical_claim": "In the sampled Emperor Seamount Chain surface sediments, the negative Ce anomaly mainly inherits the seawater REE signal.",
+      "original_claim": "There are visible negative Ce anomalies in surface sediments of the study area, which mainly occur in areas where calcareous ooze develops.",
+      "scope": {
+        "location": [
+          "Emperor Seamount Chain, North Pacific"
+        ],
+        "time": {
+          "label": "Holocene interval",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "50 Holocene surface sediments"
+        ],
+        "method": [
+          "REE-pattern and carbonate association"
+        ],
+        "condition": [
+          "sampled surface sediments"
+        ],
+        "measurement": [
+          "δCe, CaCO3, and REE patterns"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "calcareous ooze",
+          "seawater REE signal",
+          "surface sediments",
+          "δCe"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.ce.calcareous",
+          "page": 13,
+          "section": "CONCLUSION",
+          "figure": null,
+          "table": null,
+          "excerpt": "There are visible negative Ce anomalies in surface sediments of the study area, which mainly occur in areas where calcareous ooze develops.",
+          "excerpt_original_characters": 139,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.ce.corr.a",
+          "page": 10,
+          "section": "Negative Ce Anomaly",
+          "figure": null,
+          "table": null,
+          "excerpt": "Our REE data shows that there is strong positive correlation between $\\mathrm { C a C O } _ { 3 }$ and δCe $( R ~ = ~ - 0 .",
+          "excerpt_original_characters": 123,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.ce.corr.b",
+          "page": 10,
+          "section": "Negative Ce Anomaly",
+          "figure": null,
+          "table": null,
+          "excerpt": "9 0 )$ , which suggests that higher the content of $\\mathrm { C a C O } _ { 3 } ,$ the greater the depletion of Ce (Figure11A).",
+          "excerpt_original_characters": 127,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.ce.range",
+          "page": 10,
+          "section": "Negative Ce Anomaly",
+          "figure": null,
+          "table": null,
+          "excerpt": "The δCe of surface sediments in the study area ranges from 0.5 to 1.1, with a significant negative Ce anomaly.",
+          "excerpt_original_characters": 110,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.ce.seawater",
+          "page": 10,
+          "section": "Negative Ce Anomaly",
+          "figure": null,
+          "table": null,
+          "excerpt": "The pattern of negative Ce anomaly is consistent with distribution pattern of REE in seawater (Figure 8), suggesting that the negative Ce anomaly in sediments in the study area mainly inherits the signal from seawater.",
+          "excerpt_original_characters": 218,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:de23d9844b0e8dfb23b0160d54dc839531c10a95ef07cbc36c70ea010764d355",
+          "page": 9,
+          "section": null,
+          "figure": "Figure 8",
+          "table": null,
+          "excerpt": "FIGURE 8 | Comparisons of PAAS-normalized rare earth elements patterns of surface s",
+          "excerpt_original_characters": 270,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 987,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Emperor Ce异常海水信号，无请求粒度关系。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 27,
+      "document_id": "claim:sha256:d499a53d40b281186266938bf47a0450d27de438d89b0c6316437252256bf958",
+      "paper_id": "paper:ffa519372f3d7759db0c8392b962b2e28575e5f2eda6664fd2cb89efd72e6459",
+      "snapshot_id": "snapshot:sha256:95d4dd92798333d0ef8536ad98518d4584ab74c4adb62eb4e95ec010ba939171",
+      "artifact_version_id": "artifact-version:sha256:ffa519372f3d7759db0c8392b962b2e28575e5f2eda6664fd2cb89efd72e6459",
+      "source_name": "ELS_5c7d541df5406bb45666.pdf",
+      "canonical_claim": "At core GL-1248 in the western equatorial Atlantic during Heinrich Stadials of the last glacial period, enhanced surface productivity was not the primary driver of negative δ13C excursions in Cibicides wuellerstorfi.",
+      "original_claim": "Over the last glacial period, $\\delta ^ { 1 3 } \\mathrm { C }$ values of C.",
+      "scope": {
+        "condition": [
+          "Heinrich Stadials"
+        ],
+        "entities": [
+          "Atlantic Meridional Overturning Circulation",
+          "Cibicides wuellerstorfi",
+          "North Atlantic Deep Water",
+          "core GL-1248"
+        ],
+        "formation": [],
+        "location": [
+          "core GL-1248, western equatorial Atlantic"
+        ],
+        "measurement": [
+          "C. wuellerstorfi δ13C, sortable-silt mean grain size, productivity index"
+        ],
+        "method": [
+          "Multiproxy benthic-foraminiferal isotope and sortable-silt reconstruction"
+        ],
+        "sample_type": [
+          "marine sediment core"
+        ],
+        "time": {
+          "end": null,
+          "label": "last glacial period",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "AMOC strength and vertical position cannot be disentangled; preformed NADW δ13C may also contribute"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.cw.context",
+          "page": 5,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "Over the last glacial period, $\\delta ^ { 1 3 } \\mathrm { C }$ values of C.",
+          "excerpt_original_characters": 75,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.cw.fig2",
+          "page": 5,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "2a,",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.cw.fig3",
+          "page": 5,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "3a).",
+          "excerpt_original_characters": 4,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.cw.result",
+          "page": 5,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "wuellerstorfi from core GL-1248 show discrete negative excursions during several HS (Figs.",
+          "excerpt_original_characters": 90,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.productivity.conclusion.1",
+          "page": 6,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "Therefore, although regional productivity changes may have occurred, the available evidence from the GL-1248 site does not support enhanced surface productivity as the primary driver of the negative C.",
+          "excerpt_original_characters": 201,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.productivity.conclusion.2",
+          "page": 6,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "wuellerstorfi $\\delta ^ { 1 3 } \\mathrm { C }$ excursions.",
+          "excerpt_original_characters": 58,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.productivity.summary",
+          "page": 9,
+          "section": "6. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Our $\\Delta \\delta ^ { 1 3 } \\mathrm { C _ { U . p e - C . w u } }$ records and productivity $\\mathrm { R _ { H P / p l a n k t o n i c } }$ index suggest that enhanced primary productivity and associated organic carbon respiration likely played a limited role in the observed $\\delta ^ { 1 \\bar { 3 } } \\mathrm { C }$ variability during HS periods.",
+          "excerpt_original_characters": 349,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.rhp.fig",
+          "page": 5,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "2d),",
+          "excerpt_original_characters": 4,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.rhp.interpretation",
+          "page": 5,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "The ${ \\mathrm {",
+          "excerpt_original_characters": 120,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.rhp.result",
+          "page": 4,
+          "section": "4. Results",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 210,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1114,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Atlantic同位素与生产力，不是目标。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 28,
+      "document_id": "claim:sha256:d5f5cae36c9e35aa1851c8077f7a2c26ec5bbdde4d081e16c3300a06f5d32772",
+      "paper_id": "paper:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "source_name": "050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf",
+      "canonical_claim": "For surface sediments along the sampled Emperor Seamount Chain, a water depth of about 4,000 m marks the local carbonate compensation depth.",
+      "original_claim": "Generally, the content of $\\mathrm { C a C O } _ { 3 }$ is less than 2% at stations with water depth of more than 4,000 m (Figure 3A).",
+      "scope": {
+        "condition": [
+          "water depths 1,313–5,709 m"
+        ],
+        "entities": [
+          "CaCO3",
+          "surface sediments"
+        ],
+        "formation": [],
+        "location": [
+          "Emperor Seamount Chain, North Pacific"
+        ],
+        "measurement": [
+          "CaCO3 content"
+        ],
+        "method": [
+          "CaCO3–water-depth comparison"
+        ],
+        "sample_type": [
+          "50 Holocene surface sediments"
+        ],
+        "time": {
+          "end": null,
+          "label": "Holocene interval",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.caco.deep",
+          "page": 6,
+          "section": "Contents of $\\mathtt { C a c o } _ { 3 }$ and TOC",
+          "figure": null,
+          "table": null,
+          "excerpt": "Generally, the content of $\\mathrm { C a C O } _ { 3 }$ is less than 2% at stations with water depth of more than 4,000 m (Figure 3A).",
+          "excerpt_original_characters": 134,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.caco.range",
+          "page": 6,
+          "section": "Contents of $\\mathtt { C a c o } _ { 3 }$ and TOC",
+          "figure": null,
+          "table": null,
+          "excerpt": "The content of calcium carbonate in surface sediments in the study area ranges between 0.04 and 83.78%, with a mean value of about ∼47.19% (Table 3).",
+          "excerpt_original_characters": 149,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.caco.shallow",
+          "page": 6,
+          "section": "Contents of $\\mathtt { C a c o } _ { 3 }$ and TOC",
+          "figure": null,
+          "table": null,
+          "excerpt": "In the range of 33◦N–49.8◦N, the content of $\\mathrm { C a C O } _ { 3 }$ in most stations is more than 30%.",
+          "excerpt_original_characters": 108,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.caco.threshold",
+          "page": 6,
+          "section": "Contents of $\\mathtt { C a c o } _ { 3 }$ and TOC",
+          "figure": null,
+          "table": null,
+          "excerpt": "According to Farrell and Warren (1989), 10% calcium carbonate in the Pacific Ocean is defined as the carbonate compensation depth (Farrell and Warren, 1989).",
+          "excerpt_original_characters": 157,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:d65ca1f5ab0bc06adc77211da2cffce904d02b42d973f0d15554eb3d7e062835",
+          "page": 5,
+          "section": null,
+          "figure": null,
+          "table": "Table 3",
+          "excerpt": "TABLE 3 | Statistical results of elemental concentrations of surface sediments in the study area.",
+          "excerpt_original_characters": 97,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 645,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "Emperor约4000m碳酸盐补偿深度背景，不给可分选粉砂相关。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 29,
+      "document_id": "claim:sha256:9f31c95e72059edc65872e0e638fc4dc2ffae5f3475f199f302da7c20d048210",
+      "paper_id": "paper:ffa519372f3d7759db0c8392b962b2e28575e5f2eda6664fd2cb89efd72e6459",
+      "snapshot_id": "snapshot:sha256:95d4dd92798333d0ef8536ad98518d4584ab74c4adb62eb4e95ec010ba939171",
+      "artifact_version_id": "artifact-version:sha256:ffa519372f3d7759db0c8392b962b2e28575e5f2eda6664fd2cb89efd72e6459",
+      "source_name": "ELS_5c7d541df5406bb45666.pdf",
+      "canonical_claim": "During Heinrich Stadials of the last glacial period at core GL-1248 in the western equatorial Atlantic, negative δ13C excursions in epifaunal Cibicides wuellerstorfi primarily reflect reduced North Atlantic Deep Water ventilation and accumulation of respired carbon as mid-depth water residence times increase, consistent with AMOC weakening or shoaling.",
+      "original_claim": "Similarly, mid-depth ages reveal more poorly ventilated waters during HS, reaching values of ${ \\sim } 2 7 0 0$ years at ${ \\sim } 2 . 4 ~ \\mathrm { k m }$ water depth in the WEA (Skinner et al., 2021).",
+      "scope": {
+        "condition": [
+          "Heinrich Stadials"
+        ],
+        "entities": [
+          "Atlantic Meridional Overturning Circulation",
+          "Cibicides wuellerstorfi",
+          "North Atlantic Deep Water",
+          "core GL-1248"
+        ],
+        "formation": [],
+        "location": [
+          "core GL-1248, western equatorial Atlantic"
+        ],
+        "measurement": [
+          "C. wuellerstorfi δ13C, sortable-silt mean grain size, productivity index"
+        ],
+        "method": [
+          "Multiproxy benthic-foraminiferal isotope and sortable-silt reconstruction"
+        ],
+        "sample_type": [
+          "marine sediment core"
+        ],
+        "time": {
+          "end": null,
+          "label": "last glacial period",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "AMOC strength and vertical position cannot be disentangled; preformed NADW δ13C may also contribute"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.age.hs",
+          "page": 6,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "Similarly, mid-depth ages reveal more poorly ventilated waters during HS, reaching values of ${ \\sim } 2 7 0 0$ years at ${ \\sim } 2 . 4 ~ \\mathrm { k m }$ water depth in the WEA (Skinner et al., 2021).",
+          "excerpt_original_characters": 202,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.age.hs1",
+          "page": 6,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "This interpretation is supported by radiocarbon-based reconstructions from the WEA, which indicate that intermediate-water ventilation ages increased by up to ${ \\sim } 9 6 0$ years during HS1, consistent with enhanced water-mass aging and carbon accumulation under weakened overturning conditions (Jena et al., 2026).",
+          "excerpt_original_characters": 318,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.amoc.uncertainty.1",
+          "page": 8,
+          "section": "5.2. AMOC weakening/shoaling in the western equatorial Atlantic",
+          "figure": null,
+          "table": null,
+          "excerpt": "However, changes in AMOC strength and/or its vertical position relative to our site could both lead to changes in bottom-water ventilation, and these processes are difficult to disentangle even in modeling experiments (Wilmes et al., 2021).",
+          "excerpt_original_characters": 240,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.amoc.uncertainty.2",
+          "page": 8,
+          "section": "5.2. AMOC weakening/shoaling in the western equatorial Atlantic",
+          "figure": null,
+          "table": null,
+          "excerpt": "Therefore, we use AMOC strength/depth to",
+          "excerpt_original_characters": 132,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.cw.conclusion.1",
+          "page": 9,
+          "section": "6. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 71,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.cw.conclusion.2",
+          "page": 9,
+          "section": "6. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 111,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.cw.context",
+          "page": 5,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 75,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.cw.fig2",
+          "page": 5,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.cw.fig3",
+          "page": 5,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 4,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.cw.interpret.1",
+          "page": 6,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 117,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.cw.interpret.2",
+          "page": 6,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 180,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.cw.result",
+          "page": 5,
+          "section": "5.1. Western equatorial Atlantic stable isotope composition of different benthic foraminiferal species during the last glacial",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 90,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.pa.interpret",
+          "page": 8,
+          "section": "5.2. AMOC weakening/shoaling in the western equatorial Atlantic",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 79,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.pa.result",
+          "page": 8,
+          "section": "5.2. AMOC weakening/shoaling in the western equatorial Atlantic",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 157,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.ss.interpret",
+          "page": 8,
+          "section": "5.2. AMOC weakening/shoaling in the western equatorial Atlantic",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 49,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.ss.result",
+          "page": 8,
+          "section": "5.2. AMOC weakening/shoaling in the western equatorial Atlantic",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 119,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1947,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Atlantic水团通风同位素，不是目标。",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    }
+  ]
+}

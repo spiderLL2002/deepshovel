@@ -1,0 +1,218 @@
+[
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q17",
+    "document_id": "claim:sha256:9a7ce0aefa350eb2d8bf43066c6953b101e65f67ef2e9e27b750fa0c4782895b",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q08",
+    "document_id": "claim:sha256:9589e2707fd633a9fc55a13a0eb653a912522005b3a4083ea617a28a76fed4ba",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q10",
+    "document_id": "claim:sha256:e0418382682065eaa6814677bf087a64be850f2e93a70b77c9d62710e95ed033",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q89",
+    "document_id": "claim:sha256:297a63c9a7829b70b5235a31ce90248a937f24855a35247713d88d1e11a8c34e",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q06",
+    "document_id": "claim:sha256:7f9ec7fd466262560b026153da23e770e5e7c51b8726ca2ae5aeb02a3960dbcc",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q66",
+    "document_id": "claim:sha256:4877da310be257268823d5e93a3f421a5364e2d40e04fb08355af5368b177fb5",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q56",
+    "document_id": "claim:sha256:f1258da9734838fd5e51c693ce3d7c415b78ed63a7a2f85db51fd90ae2f59d25",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q59",
+    "document_id": "claim:sha256:fc2009a8c5980613864df2fa0ac58047d0bb9415c3a3bc4d866cb1d9f5ba0f43",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q25",
+    "document_id": "claim:sha256:c22f30c56bc5b60fce70f1dae26c80911533339b79f21fc49a2cfc8e2ca7d9d7",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q62",
+    "document_id": "claim:sha256:3dea5b52be9e5e51f045026e1b0d25cf03ad80b66358f4c2205702e1840c3474",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q72",
+    "document_id": "claim:sha256:bcda220245e10442e54b3fdada68239e952d95127b8918c806fa0e67c6e439b1",
+    "grade": 3,
+    "scope_error": false
+  },
+  {
+    "query_id": "q07",
+    "document_id": "claim:sha256:15e2e77109eeec6b6e4e10491f566b4dacbb910fb121e733a6b4fb3c93d90ea8",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q10",
+    "document_id": "claim:sha256:ad4f7a5cc0a0bf2609b29d26da9bba00965720660aaceb4638e7208555ca5f7b",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q114",
+    "document_id": "claim:sha256:87c5fad49266fbc9075586331922a66209a652fb44d7351a30d3b85cbab9f03d",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q61",
+    "document_id": "claim:sha256:387e07dc0c34a6cf996ef4bd93328d5af4faf9fa3073a0d783e3ab1636b907a0",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q03",
+    "document_id": "claim:sha256:6d07985db63d914a200944a11ced749b9482fe0d9df47749139f3741d8412d26",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q103",
+    "document_id": "claim:sha256:0a5c5d83491e55dd11aff842a18eef7f6ce9ec4211aef4cca65464ebdc9f64f1",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q38",
+    "document_id": "claim:sha256:fd43f147d5630e18cfa808734a18ac9a836b2eedc32beeac7f86a0712c19bf9c",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q74",
+    "document_id": "claim:sha256:218b897a12009f186181e5a4c25d0b4664236de3b6abedbb5d9de5d4f02f0c3d",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q51",
+    "document_id": "claim:sha256:5a2a5f61696421373406ebebd556c53131bcbd3353c2b8c290c01b87d1ed9118",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q28",
+    "document_id": "claim:sha256:a7b26669ac07d0dc2884f63e0caba8b8dc4698ab88e272ae04a647020997725a",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q79",
+    "document_id": "claim:sha256:9a3a382a7178a9a2865491bf560b25fe0e1164af0ca75357b6e1cb89dac9c1dd",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q60",
+    "document_id": "claim:sha256:83daf8ea03816f79d90f8227916d4f579c93fa737bf60394ebe2798c2f344ee8",
+    "grade": 2,
+    "scope_error": false
+  },
+  {
+    "query_id": "q04",
+    "document_id": "claim:sha256:55735a9042f202e1adb42f577c911c1c83afbdc19d3acb10b480db0b9808c4ee",
+    "grade": 1,
+    "scope_error": true
+  },
+  {
+    "query_id": "q69",
+    "document_id": "claim:sha256:cf257a1bf0c79376e8ff6ef2f02499c683c96562fbcc496c47d321bd27ad420b",
+    "grade": 1,
+    "scope_error": false
+  },
+  {
+    "query_id": "q119",
+    "document_id": "claim:sha256:363a81afca419b3a5683442c98b4ef7085feceb68d642be49f4f98171f11ca08",
+    "grade": 1,
+    "scope_error": false
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:dbf43775e7729f9dbcbdbe576e4bd9c6f4c44be53dc39888973bb32d3fe76ad1",
+    "grade": 1,
+    "scope_error": false
+  },
+  {
+    "query_id": "q108",
+    "document_id": "claim:sha256:c43a35d73a48b698e1bf2621c3190e3ad3f844f62432581bc0e774c16084e835",
+    "grade": 1,
+    "scope_error": false
+  },
+  {
+    "query_id": "q58",
+    "document_id": "claim:sha256:2fde655dad43a19764c130e948cf99e4baea0a742aee747fa1652c8eeeec5b46",
+    "grade": 1,
+    "scope_error": true
+  },
+  {
+    "query_id": "q113",
+    "document_id": "claim:sha256:06c13d69637558c1f2bb0c5b893a96d1bcd8321e39f3f9d46cee85777c17ebf9",
+    "grade": 0,
+    "scope_error": false
+  },
+  {
+    "query_id": "q14",
+    "document_id": "claim:sha256:d69bc9914d3a5d564ffd14a3c2e00304d0833912426edafe79c208a06c513254",
+    "grade": 0,
+    "scope_error": false
+  },
+  {
+    "query_id": "q05",
+    "document_id": "claim:sha256:db116b7c04842e2c76ed43cec8994eb5e3381c9f3f46f5833654361d3066d2d6",
+    "grade": 0,
+    "scope_error": false
+  },
+  {
+    "query_id": "q82",
+    "document_id": "claim:sha256:59cc23b51f757b6263ff8a1e64d923e51ce9364fb7dd4f2349431f106824f8bf",
+    "grade": 0,
+    "scope_error": false
+  },
+  {
+    "query_id": "q79",
+    "document_id": "claim:sha256:358e39f8fd6483805a23ec80e19d8f7c4f580f268c653144071c41e5d2cfd9e7",
+    "grade": 0,
+    "scope_error": false
+  },
+  {
+    "query_id": "q67",
+    "document_id": "claim:sha256:87b85bfd1582f907ad801e8c591c002fd6c91d4230299dfee511ab8b1ef509f2",
+    "grade": 0,
+    "scope_error": false
+  }
+]

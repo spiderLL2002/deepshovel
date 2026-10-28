@@ -1,0 +1,24 @@
+{
+  "scope": "Two independently maintained processors, one fixed record; RDF term equality and literal recovery only",
+  "rdflib_version": "7.6.0",
+  "python_rdf_triples": 57,
+  "javascript_default_graph_quads": 57,
+  "all_rdf_terms_equal": true,
+  "input_sha256": "2ec791cc957e08d9f2d4b586abb6024612852d067166f65c0c500ba5352a3694",
+  "record_id": "derived-observation:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463",
+  "sparql_rows": [
+    {
+      "value": "55–57",
+      "unit": "MPa",
+      "conclusion": "qualified_reuse",
+      "sourcehash": "f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99"
+    }
+  ],
+  "recovered_utf8_bytes": 214323,
+  "recovered_sha256": "ea03972266cc720c7b52706f76bd1fed542fc17de88b31f438a034f36c54d26d",
+  "both_recovered_exports_equal_actual_source_bytes": true,
+  "recorded_file_check": "verified",
+  "current_file_check": "not_rechecked",
+  "packet_javascript_dataset_matches_root_run_bytes": true,
+  "javascript_dataset_sha256": "4f9e67abb9b5fe953471704f5ecac800dfad58c4c40a0d9bdc92a99787bbee06"
+}

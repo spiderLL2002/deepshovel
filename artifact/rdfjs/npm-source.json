@@ -1,0 +1,20 @@
+{
+  "version": "9.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalbazaar/jsonld.js.git"
+  },
+  "dist": {
+    "integrity": "sha512-pjMIdkXfC1T2wrX9B9i2uXhGdyCmgec3qgMht+TDj+S0qX3bjWMQUfL7NeqEhuRTi8G5ESzmL9uGlST7nzSEWg==",
+    "shasum": "2b7266a377e1e5e6f49d69a60cef957c2945c3b4",
+    "tarball": "https://registry.npmjs.org/jsonld/-/jsonld-9.0.0.tgz",
+    "fileCount": 35,
+    "unpackedSize": 2075535,
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEYCIQDTDCeXLFo9VmIzq4QpFq08t4YaqWVsQVZIf3/NmGup2AIhAInH08V0eQDKJzVuBM4UwU+RNTraiZGlYJwjniPBCSLK"
+      }
+    ]
+  }
+}

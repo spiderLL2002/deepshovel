@@ -1,0 +1,1027 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+  "snapshot_id": "snapshot:sha256:004db47a301f74bd6feb10670bfca0362ca4eda5eed7ecc26c38c335f8d7341f",
+  "original_graph_json_sha256": "004db47a301f74bd6feb10670bfca0362ca4eda5eed7ecc26c38c335f8d7341f",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:c840ebf4-a83c-4127-b128-7cecf30c0c50",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:c840ebf4-a83c-4127-b128-7cecf30c0c50",
+        "sha256": "928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "a.conclusion.fabric",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.conclusion.interpretation",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.fabric.crossed.1",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.fabric.crossed.2",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.fabric.south",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.fabric.summary",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.fabric.trend",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.figure.2",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.figure.3",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.figure.4",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.figure.5",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.figure.6",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.plane.analysis",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.plane.strain",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.recryst.1",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.recryst.2",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.shear.indicators.1",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.shear.indicators.2",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.shear.pattern.1",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.shear.pattern.2",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.shear.pattern.3",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.strain.gradient.1",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.strain.gradient.2",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.strain.gradient.3",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.strain.gradient.4",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.temperature.assumption",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.temperature.facies",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.temperature.opening",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.temperature.result.1",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.temperature.result.2",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.wk.measurement.1",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.wk.measurement.2",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.wk.pure.zone",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.wk.simple.zone",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.wk.threshold",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.wk.trend",
+        "artifact_version_id": "artifact-version:sha256:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.fabric.crossed",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fabric.crossed.1",
+          "a.fabric.crossed.2",
+          "a.figure.3"
+        ]
+      },
+      {
+        "id": "obs.fabric.south",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fabric.south"
+        ]
+      },
+      {
+        "id": "obs.fabric.summary",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fabric.summary"
+        ]
+      },
+      {
+        "id": "obs.fabric.trend",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fabric.trend"
+        ]
+      },
+      {
+        "id": "obs.mech.fabric",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fabric.summary",
+          "a.fabric.trend"
+        ]
+      },
+      {
+        "id": "obs.mech.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.conclusion.fabric",
+          "a.conclusion.interpretation"
+        ]
+      },
+      {
+        "id": "obs.mech.strain",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.strain.gradient.1",
+          "a.strain.gradient.2",
+          "a.strain.gradient.3",
+          "a.strain.gradient.4"
+        ]
+      },
+      {
+        "id": "obs.mech.vorticity",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.wk.trend"
+        ]
+      },
+      {
+        "id": "obs.recrystallization",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure.2",
+          "a.recryst.1",
+          "a.recryst.2"
+        ]
+      },
+      {
+        "id": "obs.shear.indicators",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure.4",
+          "a.shear.indicators.1",
+          "a.shear.indicators.2"
+        ]
+      },
+      {
+        "id": "obs.shear.pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.shear.pattern.1",
+          "a.shear.pattern.2",
+          "a.shear.pattern.3"
+        ]
+      },
+      {
+        "id": "obs.temperature.facies",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure.6",
+          "a.temperature.facies"
+        ]
+      },
+      {
+        "id": "obs.temperature.means",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure.6",
+          "a.temperature.result.1",
+          "a.temperature.result.2"
+        ]
+      },
+      {
+        "id": "obs.temperature.opening",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.temperature.opening"
+        ]
+      },
+      {
+        "id": "obs.wk.pure.zone",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.wk.pure.zone"
+        ]
+      },
+      {
+        "id": "obs.wk.range",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure.5",
+          "a.wk.measurement.1",
+          "a.wk.measurement.2"
+        ]
+      },
+      {
+        "id": "obs.wk.simple.zone",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.wk.simple.zone"
+        ]
+      },
+      {
+        "id": "obs.wk.threshold",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.wk.threshold"
+        ]
+      },
+      {
+        "id": "obs.wk.trend",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.wk.trend"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.fabric.mechanism",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.fabric.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.shear.sense",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.simple.shear.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.temperature.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": []
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.plane.strain",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.plane.analysis",
+          "a.plane.strain"
+        ]
+      },
+      {
+        "id": "assumption.thermometer",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.temperature.assumption"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:196dba35ffd69ced52117e05b6074c7c537d30345ff940414351dfaea74f2610",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.figure.5",
+          "a.wk.measurement.1",
+          "a.wk.measurement.2",
+          "a.wk.pure.zone",
+          "a.wk.simple.zone",
+          "a.wk.threshold",
+          "a.wk.trend"
+        ],
+        "source_id": "claim.simple.shear.gradient"
+      },
+      {
+        "id": "claim:sha256:28e388e191badc8d328ebd06541938207e23aff9919b643652b8d59ae2d1eeaa",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.conclusion.fabric",
+          "a.conclusion.interpretation",
+          "a.fabric.trend",
+          "a.figure.2",
+          "a.recryst.1",
+          "a.recryst.2",
+          "a.strain.gradient.1",
+          "a.strain.gradient.2",
+          "a.strain.gradient.3",
+          "a.strain.gradient.4",
+          "a.wk.trend"
+        ],
+        "source_id": "claim.fabric.mechanism"
+      },
+      {
+        "id": "claim:sha256:c60ed3a77cf80cf616a390cd40b2648021ff59ce27fea93a6f26b74dea1a9335",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.figure.4",
+          "a.shear.indicators.1",
+          "a.shear.indicators.2",
+          "a.shear.pattern.1",
+          "a.shear.pattern.2",
+          "a.shear.pattern.3"
+        ],
+        "source_id": "claim.shear.sense"
+      },
+      {
+        "id": "claim:sha256:cb428d90fd642459ab32f9968817f83dda005fe6ed81a91ec5859d5c76bfdef5",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.fabric.crossed.1",
+          "a.fabric.crossed.2",
+          "a.fabric.south",
+          "a.fabric.summary",
+          "a.fabric.trend",
+          "a.figure.3"
+        ],
+        "source_id": "claim.fabric.transition"
+      },
+      {
+        "id": "claim:sha256:fc0da07ced6ea83bd612fa7dccb352e6b78a359e45a2315383bfd9758fc21cbe",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.figure.6",
+          "a.temperature.assumption",
+          "a.temperature.facies",
+          "a.temperature.opening",
+          "a.temperature.result.1",
+          "a.temperature.result.2"
+        ],
+        "source_id": "claim.temperature.comparison"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.assumption.plane",
+        "kind": "edge",
+        "source_id": "assumption.plane.strain",
+        "target_id": "reason.simple.shear.synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.thermometer",
+        "kind": "edge",
+        "source_id": "assumption.thermometer",
+        "target_id": "reason.temperature.synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.fabric.crossed.1",
+        "kind": "edge",
+        "source_id": "a.fabric.crossed.1",
+        "target_id": "obs.fabric.crossed",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fabric.crossed.2",
+        "kind": "edge",
+        "source_id": "a.fabric.crossed.2",
+        "target_id": "obs.fabric.crossed",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fabric.crossed.3",
+        "kind": "edge",
+        "source_id": "a.figure.3",
+        "target_id": "obs.fabric.crossed",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fabric.south",
+        "kind": "edge",
+        "source_id": "a.fabric.south",
+        "target_id": "obs.fabric.south",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fabric.summary",
+        "kind": "edge",
+        "source_id": "a.fabric.summary",
+        "target_id": "obs.fabric.summary",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fabric.trend",
+        "kind": "edge",
+        "source_id": "a.fabric.trend",
+        "target_id": "obs.fabric.trend",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.fabric.1",
+        "kind": "edge",
+        "source_id": "a.fabric.trend",
+        "target_id": "obs.mech.fabric",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.fabric.2",
+        "kind": "edge",
+        "source_id": "a.fabric.summary",
+        "target_id": "obs.mech.fabric",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.interpretation.1",
+        "kind": "edge",
+        "source_id": "a.conclusion.fabric",
+        "target_id": "obs.mech.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.interpretation.2",
+        "kind": "edge",
+        "source_id": "a.conclusion.interpretation",
+        "target_id": "obs.mech.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.strain.1",
+        "kind": "edge",
+        "source_id": "a.strain.gradient.1",
+        "target_id": "obs.mech.strain",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.strain.2",
+        "kind": "edge",
+        "source_id": "a.strain.gradient.2",
+        "target_id": "obs.mech.strain",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.strain.3",
+        "kind": "edge",
+        "source_id": "a.strain.gradient.3",
+        "target_id": "obs.mech.strain",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.strain.4",
+        "kind": "edge",
+        "source_id": "a.strain.gradient.4",
+        "target_id": "obs.mech.strain",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.vorticity",
+        "kind": "edge",
+        "source_id": "a.wk.trend",
+        "target_id": "obs.mech.vorticity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recryst.1",
+        "kind": "edge",
+        "source_id": "a.recryst.1",
+        "target_id": "obs.recrystallization",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recryst.2",
+        "kind": "edge",
+        "source_id": "a.recryst.2",
+        "target_id": "obs.recrystallization",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recryst.3",
+        "kind": "edge",
+        "source_id": "a.figure.2",
+        "target_id": "obs.recrystallization",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shear.indicators.1",
+        "kind": "edge",
+        "source_id": "a.shear.indicators.1",
+        "target_id": "obs.shear.indicators",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shear.indicators.2",
+        "kind": "edge",
+        "source_id": "a.shear.indicators.2",
+        "target_id": "obs.shear.indicators",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shear.indicators.3",
+        "kind": "edge",
+        "source_id": "a.figure.4",
+        "target_id": "obs.shear.indicators",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shear.pattern.1",
+        "kind": "edge",
+        "source_id": "a.shear.pattern.1",
+        "target_id": "obs.shear.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shear.pattern.2",
+        "kind": "edge",
+        "source_id": "a.shear.pattern.2",
+        "target_id": "obs.shear.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shear.pattern.3",
+        "kind": "edge",
+        "source_id": "a.shear.pattern.3",
+        "target_id": "obs.shear.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.temp.facies",
+        "kind": "edge",
+        "source_id": "a.temperature.facies",
+        "target_id": "obs.temperature.facies",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.temp.means.1",
+        "kind": "edge",
+        "source_id": "a.temperature.result.1",
+        "target_id": "obs.temperature.means",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.temp.means.2",
+        "kind": "edge",
+        "source_id": "a.temperature.result.2",
+        "target_id": "obs.temperature.means",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.temp.means.3",
+        "kind": "edge",
+        "source_id": "a.figure.6",
+        "target_id": "obs.temperature.means",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.temp.opening",
+        "kind": "edge",
+        "source_id": "a.temperature.opening",
+        "target_id": "obs.temperature.opening",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.wk.pure",
+        "kind": "edge",
+        "source_id": "a.wk.pure.zone",
+        "target_id": "obs.wk.pure.zone",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.wk.range.1",
+        "kind": "edge",
+        "source_id": "a.wk.measurement.1",
+        "target_id": "obs.wk.range",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.wk.range.2",
+        "kind": "edge",
+        "source_id": "a.wk.measurement.2",
+        "target_id": "obs.wk.range",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.wk.range.3",
+        "kind": "edge",
+        "source_id": "a.figure.5",
+        "target_id": "obs.wk.range",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.wk.simple",
+        "kind": "edge",
+        "source_id": "a.wk.simple.zone",
+        "target_id": "obs.wk.simple.zone",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.wk.threshold",
+        "kind": "edge",
+        "source_id": "a.wk.threshold",
+        "target_id": "obs.wk.threshold",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.wk.trend",
+        "kind": "edge",
+        "source_id": "a.wk.trend",
+        "target_id": "obs.wk.trend",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.fabric.crossed",
+        "kind": "edge",
+        "source_id": "obs.fabric.crossed",
+        "target_id": "reason.fabric.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.fabric.south",
+        "kind": "edge",
+        "source_id": "obs.fabric.south",
+        "target_id": "reason.fabric.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.fabric.summary",
+        "kind": "edge",
+        "source_id": "obs.fabric.summary",
+        "target_id": "reason.fabric.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.fabric.trend",
+        "kind": "edge",
+        "source_id": "obs.fabric.trend",
+        "target_id": "reason.fabric.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mech.fabric",
+        "kind": "edge",
+        "source_id": "obs.mech.fabric",
+        "target_id": "reason.fabric.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mech.interpretation",
+        "kind": "edge",
+        "source_id": "obs.mech.interpretation",
+        "target_id": "reason.fabric.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mech.strain",
+        "kind": "edge",
+        "source_id": "obs.mech.strain",
+        "target_id": "reason.fabric.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mech.vorticity",
+        "kind": "edge",
+        "source_id": "obs.mech.vorticity",
+        "target_id": "reason.fabric.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.recrystallization",
+        "kind": "edge",
+        "source_id": "obs.recrystallization",
+        "target_id": "reason.fabric.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.shear.indicators",
+        "kind": "edge",
+        "source_id": "obs.shear.indicators",
+        "target_id": "reason.shear.sense",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.shear.pattern",
+        "kind": "edge",
+        "source_id": "obs.shear.pattern",
+        "target_id": "reason.shear.sense",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.temp.facies",
+        "kind": "edge",
+        "source_id": "obs.temperature.facies",
+        "target_id": "reason.temperature.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.temp.means",
+        "kind": "edge",
+        "source_id": "obs.temperature.means",
+        "target_id": "reason.temperature.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.temp.opening",
+        "kind": "edge",
+        "source_id": "obs.temperature.opening",
+        "target_id": "reason.temperature.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.wk.pure",
+        "kind": "edge",
+        "source_id": "obs.wk.pure.zone",
+        "target_id": "reason.simple.shear.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.wk.range",
+        "kind": "edge",
+        "source_id": "obs.wk.range",
+        "target_id": "reason.simple.shear.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.wk.simple",
+        "kind": "edge",
+        "source_id": "obs.wk.simple.zone",
+        "target_id": "reason.simple.shear.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.wk.threshold",
+        "kind": "edge",
+        "source_id": "obs.wk.threshold",
+        "target_id": "reason.simple.shear.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.wk.trend",
+        "kind": "edge",
+        "source_id": "obs.wk.trend",
+        "target_id": "reason.simple.shear.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.fabric",
+        "kind": "edge",
+        "source_id": "reason.fabric.synthesis",
+        "target_id": "claim:sha256:cb428d90fd642459ab32f9968817f83dda005fe6ed81a91ec5859d5c76bfdef5",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.fabric.mechanism",
+        "kind": "edge",
+        "source_id": "reason.fabric.mechanism",
+        "target_id": "claim:sha256:28e388e191badc8d328ebd06541938207e23aff9919b643652b8d59ae2d1eeaa",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.shear.sense",
+        "kind": "edge",
+        "source_id": "reason.shear.sense",
+        "target_id": "claim:sha256:c60ed3a77cf80cf616a390cd40b2648021ff59ce27fea93a6f26b74dea1a9335",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.simple.shear",
+        "kind": "edge",
+        "source_id": "reason.simple.shear.synthesis",
+        "target_id": "claim:sha256:196dba35ffd69ced52117e05b6074c7c537d30345ff940414351dfaea74f2610",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.temperature",
+        "kind": "edge",
+        "source_id": "reason.temperature.synthesis",
+        "target_id": "claim:sha256:fc0da07ced6ea83bd612fa7dccb352e6b78a359e45a2315383bfd9758fc21cbe",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:fc1ac260eb91f7fe85647699fef26c6ecd3166e92bd2411f8e222c0290c8ad50",
+        "kind": "edge",
+        "source_id": "a.figure.6",
+        "target_id": "obs.temperature.facies",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

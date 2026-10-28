@@ -1,0 +1,1711 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+  "snapshot_id": "snapshot:sha256:0072e8eddfe7a2ebb3f0657096dd8d9ef118b5542d5fab5cfd7f2b0e889e8fc0",
+  "original_graph_json_sha256": "0072e8eddfe7a2ebb3f0657096dd8d9ef118b5542d5fab5cfd7f2b0e889e8fc0",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:2d6b924f-5f90-43ca-9ba4-be7a46e0fa6e",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:2d6b924f-5f90-43ca-9ba4-be7a46e0fa6e",
+        "sha256": "75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.figure.1",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 53
+        }
+      },
+      {
+        "id": "anchor.figure.2",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 54
+        }
+      },
+      {
+        "id": "anchor.figure.3",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 55
+        }
+      },
+      {
+        "id": "anchor.figure.4",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 56
+        }
+      },
+      {
+        "id": "anchor.figure.5",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 57
+        }
+      },
+      {
+        "id": "anchor.figure.s4",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 61
+        }
+      },
+      {
+        "id": "anchor.table.s1",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 31
+        }
+      },
+      {
+        "id": "anchor.text.ammonia_continuation",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.text.ammonia_discussion",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.text.ammonia_neutral_alternative",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.text.ammonia_porewater",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.text.ammonia_summary",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.text.arabian_coincidence",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.arabian_ratio",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.benthic_amoa",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.benthic_amoa_markers",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.benthic_gggp_continuation",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.benthic_gggp_markers",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.benthic_gggp_start",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.biochemical_tests",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.catalytic_site",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.deep",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.deep_clade_lipid",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.discussion_clusters",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.expression_lead",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.expression_table_ref",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.expression_value",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.figure4b_ref",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.gdgt_hypothesis",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.gdgt_ratio_hypothesis",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.global_deep",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.global_figure_ref",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.global_gene_share",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.global_ratio_figure",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.global_ratio_start",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.global_shallow",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.intermediate",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.low_ammonium_hypothesis",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.text.other_genes",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.pathway_hypothesis",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.position121",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.text.position144",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.text.pressure_interpretation",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.text.pressure_temperature",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.text.sequence_effect",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.shallow",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.shallow_expression",
+        "artifact_version_id": "artifact-version:sha256:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.ammonia_authors_interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ammonia_summary"
+        ]
+      },
+      {
+        "id": "obs.ammonia_discussion_values",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ammonia_continuation",
+          "anchor.text.ammonia_discussion"
+        ]
+      },
+      {
+        "id": "obs.ammonia_table_values",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.table.s1"
+        ]
+      },
+      {
+        "id": "obs.arabian_coincidence",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5",
+          "anchor.text.arabian_coincidence"
+        ]
+      },
+      {
+        "id": "obs.arabian_ratio",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5",
+          "anchor.figure.s4",
+          "anchor.text.arabian_ratio"
+        ]
+      },
+      {
+        "id": "obs.benthic_amoa",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.1",
+          "anchor.figure.2",
+          "anchor.text.benthic_amoa",
+          "anchor.text.benthic_amoa_markers"
+        ]
+      },
+      {
+        "id": "obs.benthic_conditions",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.pressure_interpretation",
+          "anchor.text.pressure_temperature"
+        ]
+      },
+      {
+        "id": "obs.benthic_expression",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.table.s1",
+          "anchor.text.expression_lead",
+          "anchor.text.expression_table_ref",
+          "anchor.text.expression_value"
+        ]
+      },
+      {
+        "id": "obs.benthic_gggp",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.figure.4",
+          "anchor.text.benthic_gggp_continuation",
+          "anchor.text.benthic_gggp_markers",
+          "anchor.text.benthic_gggp_start"
+        ]
+      },
+      {
+        "id": "obs.deep_arabian",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.text.deep"
+        ]
+      },
+      {
+        "id": "obs.depth_expression",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.shallow_expression"
+        ]
+      },
+      {
+        "id": "obs.gggp_sequence_changes",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.4",
+          "anchor.text.catalytic_site",
+          "anchor.text.position121",
+          "anchor.text.position144"
+        ]
+      },
+      {
+        "id": "obs.global_clades",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.4",
+          "anchor.text.global_deep",
+          "anchor.text.global_figure_ref",
+          "anchor.text.global_shallow"
+        ]
+      },
+      {
+        "id": "obs.global_deep_cluster_share",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.4",
+          "anchor.figure.5",
+          "anchor.text.figure4b_ref",
+          "anchor.text.global_gene_share"
+        ]
+      },
+      {
+        "id": "obs.global_sediment_ratio",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5",
+          "anchor.text.global_ratio_figure",
+          "anchor.text.global_ratio_start"
+        ]
+      },
+      {
+        "id": "obs.intermediate_arabian",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.text.intermediate"
+        ]
+      },
+      {
+        "id": "obs.low_ammonium_hypothesis",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.low_ammonium_hypothesis"
+        ]
+      },
+      {
+        "id": "obs.mechanism_limitations",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.biochemical_tests",
+          "anchor.text.other_genes"
+        ]
+      },
+      {
+        "id": "obs.neutral_alternative",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ammonia_neutral_alternative"
+        ]
+      },
+      {
+        "id": "obs.pathway_model",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.pathway_hypothesis"
+        ]
+      },
+      {
+        "id": "obs.porewater_availability",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ammonia_porewater"
+        ]
+      },
+      {
+        "id": "obs.proposed_sequence_effect",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.deep_clade_lipid",
+          "anchor.text.gdgt_hypothesis",
+          "anchor.text.gdgt_ratio_hypothesis",
+          "anchor.text.sequence_effect"
+        ]
+      },
+      {
+        "id": "obs.shallow_arabian",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.text.shallow"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.ammonia_measurement_conflict",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.table.s1",
+          "anchor.text.ammonia_discussion"
+        ]
+      },
+      {
+        "id": "reason.ammonia_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.ammonia_discussion",
+          "anchor.text.ammonia_porewater",
+          "anchor.text.ammonia_summary"
+        ]
+      },
+      {
+        "id": "reason.arabian_gene_lipid_coincidence",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.arabian_coincidence"
+        ]
+      },
+      {
+        "id": "reason.arabian_ratio_trend",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.arabian_ratio"
+        ]
+      },
+      {
+        "id": "reason.authors_ammonia_interpretation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.ammonia_summary"
+        ]
+      },
+      {
+        "id": "reason.benthic_activity",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.table.s1",
+          "anchor.text.expression_lead",
+          "anchor.text.expression_value"
+        ]
+      },
+      {
+        "id": "reason.benthic_amoa_affiliation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.benthic_amoa",
+          "anchor.text.benthic_amoa_markers"
+        ]
+      },
+      {
+        "id": "reason.benthic_gggp_affiliation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.benthic_gggp_continuation",
+          "anchor.text.benthic_gggp_markers",
+          "anchor.text.benthic_gggp_start"
+        ]
+      },
+      {
+        "id": "reason.benthic_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.1",
+          "anchor.figure.2",
+          "anchor.figure.3",
+          "anchor.figure.4"
+        ]
+      },
+      {
+        "id": "reason.deep_affiliation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.deep"
+        ]
+      },
+      {
+        "id": "reason.deep_cluster_depth_trend",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.figure4b_ref",
+          "anchor.text.global_gene_share"
+        ]
+      },
+      {
+        "id": "reason.depth_conditions",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.pressure_interpretation",
+          "anchor.text.pressure_temperature"
+        ]
+      },
+      {
+        "id": "reason.depth_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.figure.4"
+        ]
+      },
+      {
+        "id": "reason.discussion_ammonia_report",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.ammonia_continuation",
+          "anchor.text.ammonia_discussion"
+        ]
+      },
+      {
+        "id": "reason.expression_difference",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.shallow_expression"
+        ]
+      },
+      {
+        "id": "reason.global_depth_sorting",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.global_deep",
+          "anchor.text.global_figure_ref",
+          "anchor.text.global_shallow"
+        ]
+      },
+      {
+        "id": "reason.global_ratio_trend",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.global_ratio_figure",
+          "anchor.text.global_ratio_start"
+        ]
+      },
+      {
+        "id": "reason.intermediate_transition",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.intermediate"
+        ]
+      },
+      {
+        "id": "reason.lipid_gene_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.4",
+          "anchor.figure.5"
+        ]
+      },
+      {
+        "id": "reason.low_ammonium_candidate",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.low_ammonium_hypothesis"
+        ]
+      },
+      {
+        "id": "reason.mechanism_limits",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.biochemical_tests",
+          "anchor.text.other_genes"
+        ]
+      },
+      {
+        "id": "reason.mechanistic_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.4",
+          "anchor.figure.5"
+        ]
+      },
+      {
+        "id": "reason.neutral_alternative",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.ammonia_neutral_alternative"
+        ]
+      },
+      {
+        "id": "reason.pathway_plausibility",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.pathway_hypothesis"
+        ]
+      },
+      {
+        "id": "reason.porewater_context",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.ammonia_porewater"
+        ]
+      },
+      {
+        "id": "reason.proposed_effect",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.deep_clade_lipid",
+          "anchor.text.gdgt_hypothesis",
+          "anchor.text.gdgt_ratio_hypothesis",
+          "anchor.text.sequence_effect"
+        ]
+      },
+      {
+        "id": "reason.sequence_variation_basis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.catalytic_site",
+          "anchor.text.position121",
+          "anchor.text.position144"
+        ]
+      },
+      {
+        "id": "reason.shallow_affiliation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.shallow"
+        ]
+      },
+      {
+        "id": "reason.table_ammonia_report",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.table.s1"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:4dd8e959a1ee55b0ec75dae029fb145e682bc55bda82943b1ea60a4f50e6bed4",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.table.s1",
+          "anchor.text.ammonia_continuation",
+          "anchor.text.ammonia_discussion",
+          "anchor.text.ammonia_neutral_alternative",
+          "anchor.text.ammonia_porewater",
+          "anchor.text.ammonia_summary",
+          "anchor.text.low_ammonium_hypothesis",
+          "anchor.text.shallow_expression"
+        ],
+        "source_id": "claim.ammonia_niche_hypothesis"
+      },
+      {
+        "id": "claim:sha256:81e9cbdd08be904ec61a63de8bf1b8332310df2f0ea6672847fffd188d907d73",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.1",
+          "anchor.figure.2",
+          "anchor.figure.3",
+          "anchor.figure.4",
+          "anchor.table.s1",
+          "anchor.text.benthic_amoa",
+          "anchor.text.benthic_amoa_markers",
+          "anchor.text.benthic_gggp_continuation",
+          "anchor.text.benthic_gggp_markers",
+          "anchor.text.benthic_gggp_start",
+          "anchor.text.expression_lead",
+          "anchor.text.expression_table_ref",
+          "anchor.text.expression_value",
+          "anchor.text.pressure_interpretation",
+          "anchor.text.pressure_temperature"
+        ],
+        "source_id": "claim.benthic_affiliation"
+      },
+      {
+        "id": "claim:sha256:ddd5c0e0cfa96bf7c3b3f02eade0a2b5742f46da91239079b7bebd78b39a5261",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.4",
+          "anchor.figure.5",
+          "anchor.text.biochemical_tests",
+          "anchor.text.catalytic_site",
+          "anchor.text.deep_clade_lipid",
+          "anchor.text.gdgt_hypothesis",
+          "anchor.text.gdgt_ratio_hypothesis",
+          "anchor.text.other_genes",
+          "anchor.text.pathway_hypothesis",
+          "anchor.text.position121",
+          "anchor.text.position144",
+          "anchor.text.sequence_effect"
+        ],
+        "source_id": "claim.gggp_lipid_mechanism"
+      },
+      {
+        "id": "claim:sha256:f47190f36447ad1634ce8522a909da0a775589ca22b08932cad5e66d7cc75564",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.figure.4",
+          "anchor.text.deep",
+          "anchor.text.discussion_clusters",
+          "anchor.text.global_deep",
+          "anchor.text.global_figure_ref",
+          "anchor.text.global_shallow",
+          "anchor.text.intermediate",
+          "anchor.text.shallow"
+        ],
+        "source_id": "claim.depth_clades"
+      },
+      {
+        "id": "claim:sha256:fa77e01d8f9a05db8510763d7111747bd820f13e7de0319d4b3ab5ffd89f5633",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.4",
+          "anchor.figure.5",
+          "anchor.figure.s4",
+          "anchor.text.arabian_coincidence",
+          "anchor.text.arabian_ratio",
+          "anchor.text.figure4b_ref",
+          "anchor.text.global_gene_share",
+          "anchor.text.global_ratio_figure",
+          "anchor.text.global_ratio_start"
+        ],
+        "source_id": "claim.lipid_gene_depth_pattern"
+      }
+    ],
+    "visual_evidence": [
+      {
+        "id": "visual.table.s1",
+        "kind": "structured_visual_evidence"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.grounds.o1.f3",
+        "kind": "edge",
+        "source_id": "anchor.figure.3",
+        "target_id": "obs.shallow_arabian",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o1.t1",
+        "kind": "edge",
+        "source_id": "anchor.text.shallow",
+        "target_id": "obs.shallow_arabian",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o10.f5",
+        "kind": "edge",
+        "source_id": "anchor.figure.5",
+        "target_id": "obs.global_sediment_ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o10.t20",
+        "kind": "edge",
+        "source_id": "anchor.text.global_ratio_start",
+        "target_id": "obs.global_sediment_ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o10.t21",
+        "kind": "edge",
+        "source_id": "anchor.text.global_ratio_figure",
+        "target_id": "obs.global_sediment_ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o11.f4",
+        "kind": "edge",
+        "source_id": "anchor.figure.4",
+        "target_id": "obs.global_deep_cluster_share",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o11.f5",
+        "kind": "edge",
+        "source_id": "anchor.figure.5",
+        "target_id": "obs.global_deep_cluster_share",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o11.t22",
+        "kind": "edge",
+        "source_id": "anchor.text.global_gene_share",
+        "target_id": "obs.global_deep_cluster_share",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o11.t23",
+        "kind": "edge",
+        "source_id": "anchor.text.figure4b_ref",
+        "target_id": "obs.global_deep_cluster_share",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o12.f5",
+        "kind": "edge",
+        "source_id": "anchor.figure.5",
+        "target_id": "obs.arabian_coincidence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o12.t19",
+        "kind": "edge",
+        "source_id": "anchor.text.arabian_coincidence",
+        "target_id": "obs.arabian_coincidence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o13.f4",
+        "kind": "edge",
+        "source_id": "anchor.figure.4",
+        "target_id": "obs.gggp_sequence_changes",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o13.t24",
+        "kind": "edge",
+        "source_id": "anchor.text.catalytic_site",
+        "target_id": "obs.gggp_sequence_changes",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o13.t25",
+        "kind": "edge",
+        "source_id": "anchor.text.position121",
+        "target_id": "obs.gggp_sequence_changes",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o13.t26",
+        "kind": "edge",
+        "source_id": "anchor.text.position144",
+        "target_id": "obs.gggp_sequence_changes",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o14.t27",
+        "kind": "edge",
+        "source_id": "anchor.text.pathway_hypothesis",
+        "target_id": "obs.pathway_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o15.t28",
+        "kind": "edge",
+        "source_id": "anchor.text.sequence_effect",
+        "target_id": "obs.proposed_sequence_effect",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o15.t29",
+        "kind": "edge",
+        "source_id": "anchor.text.gdgt_hypothesis",
+        "target_id": "obs.proposed_sequence_effect",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o15.t30",
+        "kind": "edge",
+        "source_id": "anchor.text.gdgt_ratio_hypothesis",
+        "target_id": "obs.proposed_sequence_effect",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o15.t31",
+        "kind": "edge",
+        "source_id": "anchor.text.deep_clade_lipid",
+        "target_id": "obs.proposed_sequence_effect",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o16.t32",
+        "kind": "edge",
+        "source_id": "anchor.text.other_genes",
+        "target_id": "obs.mechanism_limitations",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o16.t33",
+        "kind": "edge",
+        "source_id": "anchor.text.biochemical_tests",
+        "target_id": "obs.mechanism_limitations",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o17.t34",
+        "kind": "edge",
+        "source_id": "anchor.text.ammonia_discussion",
+        "target_id": "obs.ammonia_discussion_values",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o17.t35",
+        "kind": "edge",
+        "source_id": "anchor.text.ammonia_continuation",
+        "target_id": "obs.ammonia_discussion_values",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o18.table",
+        "kind": "edge",
+        "source_id": "anchor.table.s1",
+        "target_id": "obs.ammonia_table_values",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o18.visual",
+        "kind": "edge",
+        "source_id": "visual.table.s1",
+        "target_id": "obs.ammonia_table_values",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o19.t36",
+        "kind": "edge",
+        "source_id": "anchor.text.shallow_expression",
+        "target_id": "obs.depth_expression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o2.f3",
+        "kind": "edge",
+        "source_id": "anchor.figure.3",
+        "target_id": "obs.intermediate_arabian",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o2.t2",
+        "kind": "edge",
+        "source_id": "anchor.text.intermediate",
+        "target_id": "obs.intermediate_arabian",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o20.t37",
+        "kind": "edge",
+        "source_id": "anchor.text.ammonia_porewater",
+        "target_id": "obs.porewater_availability",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o21.t38",
+        "kind": "edge",
+        "source_id": "anchor.text.low_ammonium_hypothesis",
+        "target_id": "obs.low_ammonium_hypothesis",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o22.t39",
+        "kind": "edge",
+        "source_id": "anchor.text.ammonia_neutral_alternative",
+        "target_id": "obs.neutral_alternative",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o23.t40",
+        "kind": "edge",
+        "source_id": "anchor.text.ammonia_summary",
+        "target_id": "obs.ammonia_authors_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o3.f3",
+        "kind": "edge",
+        "source_id": "anchor.figure.3",
+        "target_id": "obs.deep_arabian",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o3.t3",
+        "kind": "edge",
+        "source_id": "anchor.text.deep",
+        "target_id": "obs.deep_arabian",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o4.f4",
+        "kind": "edge",
+        "source_id": "anchor.figure.4",
+        "target_id": "obs.global_clades",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o4.t4",
+        "kind": "edge",
+        "source_id": "anchor.text.global_shallow",
+        "target_id": "obs.global_clades",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o4.t5",
+        "kind": "edge",
+        "source_id": "anchor.text.global_figure_ref",
+        "target_id": "obs.global_clades",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o4.t6",
+        "kind": "edge",
+        "source_id": "anchor.text.global_deep",
+        "target_id": "obs.global_clades",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o5.f1",
+        "kind": "edge",
+        "source_id": "anchor.figure.1",
+        "target_id": "obs.benthic_amoa",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o5.f2",
+        "kind": "edge",
+        "source_id": "anchor.figure.2",
+        "target_id": "obs.benthic_amoa",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o5.t8",
+        "kind": "edge",
+        "source_id": "anchor.text.benthic_amoa",
+        "target_id": "obs.benthic_amoa",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o5.t9",
+        "kind": "edge",
+        "source_id": "anchor.text.benthic_amoa_markers",
+        "target_id": "obs.benthic_amoa",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o6.f3",
+        "kind": "edge",
+        "source_id": "anchor.figure.3",
+        "target_id": "obs.benthic_gggp",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o6.f4",
+        "kind": "edge",
+        "source_id": "anchor.figure.4",
+        "target_id": "obs.benthic_gggp",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o6.t10",
+        "kind": "edge",
+        "source_id": "anchor.text.benthic_gggp_start",
+        "target_id": "obs.benthic_gggp",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o6.t11",
+        "kind": "edge",
+        "source_id": "anchor.text.benthic_gggp_continuation",
+        "target_id": "obs.benthic_gggp",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o6.t12",
+        "kind": "edge",
+        "source_id": "anchor.text.benthic_gggp_markers",
+        "target_id": "obs.benthic_gggp",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o7.t13",
+        "kind": "edge",
+        "source_id": "anchor.text.expression_lead",
+        "target_id": "obs.benthic_expression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o7.t14",
+        "kind": "edge",
+        "source_id": "anchor.text.expression_value",
+        "target_id": "obs.benthic_expression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o7.t15",
+        "kind": "edge",
+        "source_id": "anchor.text.expression_table_ref",
+        "target_id": "obs.benthic_expression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o7.table",
+        "kind": "edge",
+        "source_id": "anchor.table.s1",
+        "target_id": "obs.benthic_expression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o7.visual",
+        "kind": "edge",
+        "source_id": "visual.table.s1",
+        "target_id": "obs.benthic_expression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o8.t16",
+        "kind": "edge",
+        "source_id": "anchor.text.pressure_temperature",
+        "target_id": "obs.benthic_conditions",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o8.t17",
+        "kind": "edge",
+        "source_id": "anchor.text.pressure_interpretation",
+        "target_id": "obs.benthic_conditions",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o9.f5",
+        "kind": "edge",
+        "source_id": "anchor.figure.5",
+        "target_id": "obs.arabian_ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o9.fs4",
+        "kind": "edge",
+        "source_id": "anchor.figure.s4",
+        "target_id": "obs.arabian_ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o9.t18",
+        "kind": "edge",
+        "source_id": "anchor.text.arabian_ratio",
+        "target_id": "obs.arabian_ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.o1.r1",
+        "kind": "edge",
+        "source_id": "obs.shallow_arabian",
+        "target_id": "reason.shallow_affiliation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o10.r17",
+        "kind": "edge",
+        "source_id": "obs.global_sediment_ratio",
+        "target_id": "reason.global_ratio_trend",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o11.r18",
+        "kind": "edge",
+        "source_id": "obs.global_deep_cluster_share",
+        "target_id": "reason.deep_cluster_depth_trend",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o12.r19",
+        "kind": "edge",
+        "source_id": "obs.arabian_coincidence",
+        "target_id": "reason.arabian_gene_lipid_coincidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o13.r21",
+        "kind": "edge",
+        "source_id": "obs.gggp_sequence_changes",
+        "target_id": "reason.sequence_variation_basis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o14.r22",
+        "kind": "edge",
+        "source_id": "obs.pathway_model",
+        "target_id": "reason.pathway_plausibility",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o15.r23",
+        "kind": "edge",
+        "source_id": "obs.proposed_sequence_effect",
+        "target_id": "reason.proposed_effect",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o16.r24",
+        "kind": "edge",
+        "source_id": "obs.mechanism_limitations",
+        "target_id": "reason.mechanism_limits",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o17.r26",
+        "kind": "edge",
+        "source_id": "obs.ammonia_discussion_values",
+        "target_id": "reason.discussion_ammonia_report",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o18.r27",
+        "kind": "edge",
+        "source_id": "obs.ammonia_table_values",
+        "target_id": "reason.table_ammonia_report",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o19.r29",
+        "kind": "edge",
+        "source_id": "obs.depth_expression",
+        "target_id": "reason.expression_difference",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o2.r2",
+        "kind": "edge",
+        "source_id": "obs.intermediate_arabian",
+        "target_id": "reason.intermediate_transition",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o20.r30",
+        "kind": "edge",
+        "source_id": "obs.porewater_availability",
+        "target_id": "reason.porewater_context",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o21.r31",
+        "kind": "edge",
+        "source_id": "obs.low_ammonium_hypothesis",
+        "target_id": "reason.low_ammonium_candidate",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o22.r32",
+        "kind": "edge",
+        "source_id": "obs.neutral_alternative",
+        "target_id": "reason.neutral_alternative",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o23.r33",
+        "kind": "edge",
+        "source_id": "obs.ammonia_authors_interpretation",
+        "target_id": "reason.authors_ammonia_interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o3.r3",
+        "kind": "edge",
+        "source_id": "obs.deep_arabian",
+        "target_id": "reason.deep_affiliation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o4.r4",
+        "kind": "edge",
+        "source_id": "obs.global_clades",
+        "target_id": "reason.global_depth_sorting",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o5.r6",
+        "kind": "edge",
+        "source_id": "obs.benthic_amoa",
+        "target_id": "reason.benthic_amoa_affiliation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o6.r7",
+        "kind": "edge",
+        "source_id": "obs.benthic_gggp",
+        "target_id": "reason.benthic_gggp_affiliation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o7.r8",
+        "kind": "edge",
+        "source_id": "obs.benthic_expression",
+        "target_id": "reason.benthic_activity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o8.r9",
+        "kind": "edge",
+        "source_id": "obs.benthic_conditions",
+        "target_id": "reason.depth_conditions",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.o9.r16",
+        "kind": "edge",
+        "source_id": "obs.arabian_ratio",
+        "target_id": "reason.arabian_ratio_trend",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r1.r5",
+        "kind": "edge",
+        "source_id": "reason.shallow_affiliation",
+        "target_id": "reason.depth_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r10.r34",
+        "kind": "edge",
+        "source_id": "reason.benthic_synthesis",
+        "target_id": "reason.ammonia_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r16.r20",
+        "kind": "edge",
+        "source_id": "reason.arabian_ratio_trend",
+        "target_id": "reason.lipid_gene_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r17.r20",
+        "kind": "edge",
+        "source_id": "reason.global_ratio_trend",
+        "target_id": "reason.lipid_gene_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r18.r20",
+        "kind": "edge",
+        "source_id": "reason.deep_cluster_depth_trend",
+        "target_id": "reason.lipid_gene_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r19.r20",
+        "kind": "edge",
+        "source_id": "reason.arabian_gene_lipid_coincidence",
+        "target_id": "reason.lipid_gene_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r2.r5",
+        "kind": "edge",
+        "source_id": "reason.intermediate_transition",
+        "target_id": "reason.depth_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r20.r25",
+        "kind": "edge",
+        "source_id": "reason.lipid_gene_synthesis",
+        "target_id": "reason.mechanistic_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r21.r25",
+        "kind": "edge",
+        "source_id": "reason.sequence_variation_basis",
+        "target_id": "reason.mechanistic_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r22.r25",
+        "kind": "edge",
+        "source_id": "reason.pathway_plausibility",
+        "target_id": "reason.mechanistic_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r23.r25",
+        "kind": "edge",
+        "source_id": "reason.proposed_effect",
+        "target_id": "reason.mechanistic_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r24.r25",
+        "kind": "edge",
+        "source_id": "reason.mechanism_limits",
+        "target_id": "reason.mechanistic_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r26.r28",
+        "kind": "edge",
+        "source_id": "reason.discussion_ammonia_report",
+        "target_id": "reason.ammonia_measurement_conflict",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r27.r28",
+        "kind": "edge",
+        "source_id": "reason.table_ammonia_report",
+        "target_id": "reason.ammonia_measurement_conflict",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r28.r34",
+        "kind": "edge",
+        "source_id": "reason.ammonia_measurement_conflict",
+        "target_id": "reason.ammonia_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r29.r34",
+        "kind": "edge",
+        "source_id": "reason.expression_difference",
+        "target_id": "reason.ammonia_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r3.r5",
+        "kind": "edge",
+        "source_id": "reason.deep_affiliation",
+        "target_id": "reason.depth_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r30.r34",
+        "kind": "edge",
+        "source_id": "reason.porewater_context",
+        "target_id": "reason.ammonia_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r31.r34",
+        "kind": "edge",
+        "source_id": "reason.low_ammonium_candidate",
+        "target_id": "reason.ammonia_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r32.r34",
+        "kind": "edge",
+        "source_id": "reason.neutral_alternative",
+        "target_id": "reason.ammonia_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r33.r34",
+        "kind": "edge",
+        "source_id": "reason.authors_ammonia_interpretation",
+        "target_id": "reason.ammonia_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r4.r5",
+        "kind": "edge",
+        "source_id": "reason.global_depth_sorting",
+        "target_id": "reason.depth_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r6.r10",
+        "kind": "edge",
+        "source_id": "reason.benthic_amoa_affiliation",
+        "target_id": "reason.benthic_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r7.r10",
+        "kind": "edge",
+        "source_id": "reason.benthic_gggp_affiliation",
+        "target_id": "reason.benthic_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r8.r10",
+        "kind": "edge",
+        "source_id": "reason.benthic_activity",
+        "target_id": "reason.benthic_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r9.r10",
+        "kind": "edge",
+        "source_id": "reason.depth_conditions",
+        "target_id": "reason.benthic_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.r10.c2",
+        "kind": "edge",
+        "source_id": "reason.benthic_synthesis",
+        "target_id": "claim:sha256:81e9cbdd08be904ec61a63de8bf1b8332310df2f0ea6672847fffd188d907d73",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.r20.c3",
+        "kind": "edge",
+        "source_id": "reason.lipid_gene_synthesis",
+        "target_id": "claim:sha256:fa77e01d8f9a05db8510763d7111747bd820f13e7de0319d4b3ab5ffd89f5633",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.r25.c4",
+        "kind": "edge",
+        "source_id": "reason.mechanistic_synthesis",
+        "target_id": "claim:sha256:ddd5c0e0cfa96bf7c3b3f02eade0a2b5742f46da91239079b7bebd78b39a5261",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.r34.c5",
+        "kind": "edge",
+        "source_id": "reason.ammonia_synthesis",
+        "target_id": "claim:sha256:4dd8e959a1ee55b0ec75dae029fb145e682bc55bda82943b1ea60a4f50e6bed4",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.r5.c1",
+        "kind": "edge",
+        "source_id": "reason.depth_synthesis",
+        "target_id": "claim:sha256:f47190f36447ad1634ce8522a909da0a775589ca22b08932cad5e66d7cc75564",
+        "relation": "infers"
+      }
+    ]
+  }
+}

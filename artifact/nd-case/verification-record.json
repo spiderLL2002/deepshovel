@@ -1,0 +1,115 @@
+{
+  "checked_utc": "2026-10-27T10:38:04.131607+00:00",
+  "method": "Direct PDF text reading with pypdf and direct workbook cached/formula reading with openpyxl; comparison independently cross-checked against workbook cells.",
+  "article_sha256": "0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+  "workbook_sha256": "63d506477bb0dbe336bccf96148d9f3ee18d85d108290e50a3ba863eb14b2f93",
+  "comparison_sha256": "bba944313dcf101ecd85ddd68e4d59a01e72123d7a03ba1c5b006744cb1f0922",
+  "source_page_text": {
+    "1": "Nestmeyer et al. (2026)\nThe stable isotope fractionation of neodymium on ferrihydrite revisited\nAdvances in Geochemistry and Cosmochemistry 2(1): 1099, https://doi.org/10.33063/agc.v2i1.1099\nNestmeyer et al. (2026)\nThe stable isotope fractionation of neodymium on ferrihydrite revisited\nAdvances in Geochemistry and Cosmochemistry 2(1): 1099, https://doi.org/10.33063/agc.v2i1.1099\nNestmeyer et al. (2026)\nThe stable isotope fractionation of neodymium on ferrihydrite revisited\nAdvances in Geochemistry and Cosmochemistry 2(1): 1099, https://doi.org/10.33063/agc.v2i1.1099\nResearch article\nThe stable isotope fractionation of neodymium on ferrihydrite revisited\nMark Nestmeyer1,2B Alex J. McCoy-West1,3 Yuan Mei2 Kevin W. Burton4\n1 IsoTropics Geochemistry Laboratory, Earth and Environmental Science, James Cook University, Townsville, QLD 4811, Australia\n2 CSIRO Mineral Resources, Kensington, WA 6151, Australia\n3 Economic Geology Research Centre, James Cook University, Townsville, QLD 4811, Australia\n4 Department of Earth Sciences, Durham University, Elvet Hill, Durham DH1 3LE, UK\nB Correspondence to: Mark Nestmeyer: mark.nestmeyer@my.jcu.edu.au\nAuthor contributions: Conceptualization: MN, AJMC-W; Data curation: MN; Formal analysis: MN, AJMC-W; Funding acquisition:\nAJMC-W, YM; Investigation: MN, AJMC-W; Methodology: MN, AJMC-W, YM, KWB; Project administration: AJMC-W;\nResources: AJMC-W, YM, KWB; Software: MN, YM; Supervision: AJMC-W, YM; Validation: MN, AJMC-W, YM, KWB; Writing\n– original draft: MN; Writing – review & editing: AJMC-W, YM, KWB\nData, code, and outputs: Nestmeyer et al. (2026) https://doi.org/10.25903/tfqa-tt39\nSubmitted: 2025-12-30\nAccepted: 2026-04-02\nPublished: 2026-06-18\nProduction editor:\nRyan Ickert\nHandling editor:\nClaire Rollion-Bard,\nDaniel Ibarra\nReviews:\nJianghao Bai\nand one anonymous reviewer\nCopyediting:\nAnselm Loges,\nMarthe Klöcking\nFerrihydrite is a ubiquitous scavenger in aqueous environments that removes large amounts\nof dissolved metals thus it is pivotal to global geochemical cycles. Previous work found\ncontradictory directions of stable isotope fractionation amongst light rare earth elements\n(REE) between aqueous solutions and ferrihydrite. Here, the isotope fractionation of\n146Nd/144Nd on ferrihydrite has been revisited using a double spike that corrects for mass\nfractionation during sample processing. Surprisingly, contrary to previous observations, Nd on\nferrihydrite was found to be enriched in lighter isotopes compared to Nd in aqueous solution\nby 103ln αSol-Liq=-0.113 ±0.030. We also report the first data set of stableδ146/144Nd\nisotopes in seawater samples which are isotopically heavier than Fe-Mn (hydr)oxides by\n0.357 ‰ on average. This is consistent with the scavenging of lighter Nd isotopes by\nferrihydrite seen in the adsorption experiments. The fractionation is, however, much larger\nthan observed in the experiments. This can be explained by carbonate complexes being\nthe predominant aqueous complex of Nd in seawater which are isotopically heavier than\nfree Nd by 0.107‰ . However, additional data on natural samples is required to elucidate\nheterogeneities in seawater and Fe-Mn oxides in marine sediments. The enrichment of\nlighter Nd in the surface complex can be best explained by stiffer bonds in the aqueous\ncomplex which is demonstrated by a lower Debye-Waller factor (σ2). This study lays the\nfoundation for understanding the geochemical cycling of Nd and other REE between Earth’s\ncrust and hydrosphere using stable isotope signatures.\n1 Introduction\nRecent advances in analysing stable isotope ratios of rare\nearth elements (REE) have allowed their application to\nunderstanding their geochemical cycles between Earth’s\nmajor reservoirs (Bai et al., 2025, 2024; McCoy-West et al.,\n2021, 2017, 2020a; Yu et al., 2025). Previous studies\nhave found limited stable isotope fractionation in igneous\nsystems for Ce and Nd (Bai et al., 2022; Liu et al., 2025b;\nMcCoy-West et al., 2021, 2020a, 2022; Nestmeyer and\nMcCoy-West, 2026; Pourkhorsandi et al., 2021) most likely\ndue to the high temperature in those systems (>800°C)\nwhich reduces the magnitude of equilibrium isotope frac-\ntionation. Whereas studies concerned with low temperature\nsystems like weathering profiles and seafloor sediments\nhave observed larger isotope fractionation (Bai et al., 2025,\n2023; Kaufmann and McCoy-West, 2025; Liu et al., 2023).\nFor example, mid-ocean ridge basalts show a146Nd/144Nd\ncompositionof −0.061to −0.013 ‰ (Δ=0.048 ‰ ;McCoy-\nWest et al., 2021). By contrast, Bai et al. (2025) found\na variability of146Nd/144Nd in different phases in a marine\nsediment core from −0.147 to 0.114 ‰ (Δ=0.261 ‰ )\nand Bai et al. (2023) found a range of−0.152 to 0.058 ‰\n(Δ=0.210 ‰ ) within a single basaltic soil weathering profile.\nHigh precision analysis of stable REE isotopes is still\nin its infancy and isotopic data of a wider spectrum of\nsample types including natural waters and sediments is\nwarranted to understand the interplay of sinks and sources\nin the geochemical cycle of REE. Following a previous study\non isotope fractionation of light REE between aqueous\ncomplexes (Nestmeyer and McCoy-West, 2025), here we\nAdv. Geochem. Cosmochem. (AGC) | ISSN 2977-1994 | © the Author(s) 2026 | CC BY 4.0 1",
+    "3": "The stable isotope fractionation of neodymium on ferrihydrite revisited\nmarked the start of the reaction. The final experiment had\na NaCl concentration of 0.01mol/L and a volume of 50mL.\nThe pH of the experiments was adjusted to 5.5 by adding\n0.1mol/L and 0.01mol/L KOH. The adsorption edge of\nNd on ferrihydrite is between pH=5.0 and 6.0 (Bau, 1999)\nbut varies with the amount of ferrihydrite in the experiment.\nA pH of 5.5 is lower than natural waters but was required\nto avoid complete adsorption of Nd. In order to constrain\nthe time required for the system to achieve isotopic\nequilibrium, a time series experiment was conducted\nwhich contained identical experiments (i.e. input solutions)\nthat ran for variable durations (0.5-168h). Following\nthe time series experiments, another set of experiments\ncontaining variable amounts of ferrihydrite were undertaken\nthat lasted for at least 48h (see Section 3 Results) to\nconstrain the isotope fractionation factor. For experiments\nthat ran longer than 24h, the pH was adjusted daily\nback to 5.5. After the reaction time, experiments were\ncentrifuged for 10 minutes. The liquid was separated by\npipetting and subsequently filtering through a 0.22 µm\nPTFE filter membrane. The remaining ferrihydrite paste\nwas then digested in 6mol/L HCl. The solid and liquid\nphases were evaporated to dryness in Savillex ® PFA\nvials on a hotplate and then diluted in 5mL or 10mL of\n2mol/L HNO3, respectively. An aliquot of 0.1mL was\nvolumetrically acidified with 4.9mL of 2% HNO3 for trace\nelement analysis using a Thermo Fisher Scientific® iCAP\nTQ-ICP-MS. The analyses were performed using a 3-point\ncalibration of Nd-Fe solutions presented in Supplementary\nTable S1 (see Supplementary Material).\nModelling of the aqueous speciation of Nd in the exper-\niments and a simplified seawater was done in PHREEQC\n(Parkhurst and Appelo, 2013) using the Lawrence Livermore\nNational Laboratory (LLNL) database. The simulated\nsolution reflects the experimental parameters of pH=5.5,\nNd=60 µg, and NaCl=0.01mol/L. For the simplified sea-\nwater, concentrations of anions were taken from Diehl and\nBach (2020) and are presented in Table S2.\n2.2 Seawater sampling\nSeawater samples were collected from Seaham pier (north-\nern England) in August 2017. Five water samples were\ncollected from the same site in pre-cleaned 10L containers.\nAlkalinity was determined by titration. Within 8h, the\nwater was filtered through 0.2µm cellulose-acetate filters\nusing a pressurised Teflon unit. Sample locations and field\nmeasurements, including pH, temperature, alkalinity, and\ntotal dissolved solids (TDS), are given in Nestmeyer et al.\n(2026).\n2.3 Isotopic analysis\n2.3.1 Isotopic analysis of adsorption experiments\nIsotope measurements of the adsorption experiments were\nundertaken in the IsoTropics Geochemistry Laboratory, JCU.\nFollowing trace element analysis, samples were completely\nevaporated and diluted in 5mL of 6mol/L HCl. Aliquots\ncontaining 100ng Nd were separated and spiked using a\n145Nd-150Nd double spike (McCoy-West et al., 2020b) and\nrefluxed in 2mL of 16 M HNO3 at 120 °C for at least\n4h for spike-sample equilibration. Samples were again\nevaporated to dryness and diluted in 2mL of 1mol/L HCl\nfor ion exchange chromatography. Neodymium was isolated\nfollowing a slightly modified protocol from McCoy-West\net al. (2020b). The protocol contains a first separation\nof REE from the bulk matrix and a subsequent separation\nof Nd from other REE to account for small impurities in\nthe Nd dopant. First, BioRad® columns were filled with\n2mL AG50W-X8 cation exchange resin. The resin was\ncleaned with 1 column load of 6M HCl and conditioned\nwith 5mL of 1mol/L HCl. The bulk matrix was eluted in\n10mL of 1M HCl plus HF, 12mL of 2.5mol/L HCl and\n10mL of 2mol/L HNO3. The REE fraction was collected\nin 13mL of 6mol/L HCl.\nThe collected REE fraction was evaporated and diluted in\n0.5mL of 0.2mol/L HCl. Neodymium was separated from\nREE using polypropylene columns filled with Eichrom® lan-\nthanide specific resin. The resin was cleaned with 1 column\nload of single-distilled 6mol/L HCl and 1 column load of\nsingle-distilled 1mol/L HCl. The sample was loaded after\nconditioning with 0.5mL of 0.2mol/L HCl. The matrix was\neluted in 5mL of 0.2mol/L HCl, and Nd was collected in\n6mL of 0.2mol/L HCl and evaporated to dryness. Three\ndrops of 16mol/L HNO3 were added to remove any organic\nresidues. Samples were finally diluted in 0.5mL of 0.5mol/L\nHNO3 for isotopic analysis by multi-collection plasma source\nmass spectrometry (MC-ICP-MS) using a Thermo Fisher\nScientific® Neptune.\nMeasurements were performed in dry plasma mode using\na Cetac Aridus III desolvator. Each sample was analyzed for\n100 cycles of data acquisition (4s integrations), with 90s\nwashout between samples. The cup configuration used was\nL4= 142Nd, L3=143Nd, L2=144Nd, L1=145Nd, C=146Nd,\nH1= 147Sm, H2=148Nd, H3=149Sm, and H4=150Nd. The\ndoublespikedeconvolutionwascarriedoutontherawsignals\nafter Dodson (1963) using an in-house Mathematica code\nand is described in McCoy-West et al. (2020b) and was sub-\nsequently modified by Kaufmann and McCoy-West (2025).\nThe double spike deconvolution yields values for stable\n146Nd/144Nd ratios and calculates propagated uncertainties\nusingthe95%standarderrorfromaMonteCarlosimulation.\nThe measured isotope ratios were then normalized by the\nJNdi-1 standard, measured every two unknowns, by linear\ninterpolation of the bracketing standard measurements.\nIsotope ratios are finally reported as deviation from the\nJNdi-1 standard in per mille:\nδ146Nd =\n\"\n(146Nd /144N)sampl e\n(146Nd /144N)JNd i −1\n− 1\n#\n× 103 (1)\nThe difference in isotopic composition between the solid\nand liquid phase is reported asΔ-notation:\n∆146Nd Sol −Li q = δ146Nd Sol − δ146Nd Li q (2)\nTwo laboratory standards “Merck” and “MONA” (1000µg/g\nNd)wereusedassecondarystandardsduringtheanalysisses-\nsions yielding averageδ146Nd values of−0.086 ±0.015 ‰\nNestmeyer et al. (2026) Adv. Geochem. Cosmochem. 2(1): 1099, https://doi.org/10.33063/agc.v2i1.1099 3",
+    "7": "The stable isotope fractionation of neodymium on ferrihydrite revisited\nFigure 2.Results of time series experiments. (a) The\nliquid phase is enriched in146Nd compared to the solid\nphase throughout the series. The initial HPS Nd dopant\nhas aδ146Nd composition of 0.010±0.023 ‰ (2×SD)\nshown as the shaded field with the average a dashed line\n(Kaufmann and McCoy-West, 2025). (b) The difference in\nisotopic composition between solid and liquid phase\nremains constant within a 95% se interval (shaded field)\nof the samples with a duration of≥24h demonstrating\nisotopic equilibrium is achieved. (c) Nd is rapidly sorbed in\nthe first 48h followed by a slower uptake.\nFigure 3.Experiments with variable amount of sorbed Nd\ndisplay equilibrium fractionation. Due to the incomplete\nadsorption of Nd on the ferrihydrite surface, the\nfractionation in open isotopic exchange cannot be\nconfirmed.\n3 Results\n3.1 Solution chemistry\nThe XRD pattern of the synthesized mineral shows two\ncharacteristic humps above background at 35° and 62°2θ\nwhich confirms a successful synthesis of 2-line ferrihydrite\n(Fig. S3; Drits et al., 1993). Speciation modelling of\nthe experimental solution shows that free Nd3+ is the\npredominant species (98.57%) with chloride complexes\nNdCl2+ (1.27%) and NdCl2+ (0.16%) in minor abundances\n(Fig. 1). In the simplified seawater, however, NdCO3+ is by\nfar the most abundant species (90.01%; Fig. 1).\n3.2 Experimental Nd isotope compositions\nAn overview of conducted experiments and isotopic com-\npositions are given in Table 1 and Nestmeyer et al. (2026).\nIron concentrations in the liquid phase were <0.023% of\nthe total Fe concentration in the experiment demonstrating\nthat solid and liquid phases were successfully separated.\nThe purpose of the time series experiments was to assess\nkinetic effects, and the duration required to achieve isotopic\nequilibrium.\nTo determine isotopic equilibrium, we calculated a\nΔ146NdSol-Liq 95% confidence interval (i.e. how well\nconstrained the mean value) of the experiments with a\ndurationof ≥24h,whichgivesavalueof −0.098 ±0.012 ‰ .\nAll experiments show identical Δ146NdSol-Liq within the\n95% se interval between 24 and 168h. (Fig. 2a,b). This\ndemonstrates that isotopic equilibrium is achieved after at\nleast 24h. Prior to isotopic equilibrium, the solid phase\nis more enriched in 144Nd, showing that kinetic effects\nenrich lighter Nd on ferrihydrite. Uptake of Nd was rapid\ninitially with 8% adsorbed after 6h, 18% after 24h,\n28% of Nd was adsorbed within 48h and 48% after one\nNestmeyer et al. (2026) Adv. Geochem. Cosmochem. 2(1): 1099, https://doi.org/10.33063/agc.v2i1.1099 7",
+    "8": "The stable isotope fractionation of neodymium on ferrihydrite revisited\nFigure 4.Variable spike-sample equilibration time for Seaham seawater samples. (a) Stable Nd isotope composition does\nnot change with an equilibration time longer than five days. (b) Radiogenic composition of unspiked seawater analysis\nagrees with the spiked analyses within uncertainty. Shaded fields represent the average (dashed line)±2×SD. Individual\ndata points are plotted with a conservative long-term uncertainty. Due to the small amount of Nd processed larger\nlong-term uncertainties than previous works are prudent (±0.000015 for143Nd/144Nd and ±0.045 ‰ for δ146Nd; see\nSection 2 Methodology).\nweek (Fig. 2c). Sorption becomes slower with increasing\nexperiment duration which agrees with findings in previous\nstudies (Barling and Anbar, 2004; Brennecka et al., 2011;\nDong and Wasylenki, 2016; Wasylenki et al., 2008). The\nconstant offset in isotopic composition between aqueous\nand solid phase after 24h despite ongoing Nd uptake\ndemonstrates that elemental equilibration occurred more\nslowly. Isotopic equilibrium is not influence by elemental\nuptake instead it is controlled by differences in bonding\nenvironment between the aqueous and surface complexes,\nwhich remain constant after kinetic effects are overcome\n(cf. Goldberg et al., 2009).\nThe purpose of the second set of experiments was to use\nvariable amounts of ferrihydrite stock solution (0.5–2.5mL)\nand different reaction times (48–144h) to obtain experi-\nments with variable amounts of sorbed Nd. Percentages of\nadsorbed Nd range from 5 to 38% (Table 1). All of these\nexperiments ran for at least 48h and form parallel trends\nconfirming that the experiments were in isotopic equilibrium\n(Fig. 3). The equilibrium fractionation factor (α-factor)\nwas then calculated following:\nαSol i d−Li qui d = 1000 + δ146Nd Sol i d\n1000 + δ146Nd Li qui d\n(5)\nwhich yielded an average value of 0.999886±0.000030\nwhich corresponds to an average 10 3lnα value of\n−0.113 ±0.030 which is equal toΔ146NdSol-Liq. This value\nis very similar and within uncertainty of the value obtained\nin the timeseries experiments. Equilibrium and Rayleigh\nfractionation models were constructed using the obtained\naverage α-factor following:\n1) Equilibrium Model (isotopic exchange):\nδ146Nd Li qui d =\nδ146Nd HP S − 1000 × fsor bed × (αSol i d−Li qui d − 1)\n1 − fsor bed + (fsor bed × αSol i d−Li qui d)\n(6)\n2) Rayleigh Model (no isotopic exchange):\nδ146Nd Li qui d =\n(1000 + δ146Nd HP S) × (1 − fsor bed )αSol i d−Li qui d−1 − 1000\n(7)\nwhere δ146NdHPS represents the isotopic composition of\nthe dopant (0.010±0.023 ‰ ). The datapoints follow the\nparallel equilibrium curves with both phases becoming sys-\ntematically isotopically heavier depending on the amount\nof sorbed Nd (Fig. 3). Given incomplete adsorption of Nd\nwas achieved at 144h, an open exchange model cannot be\nconfirmed here.\nThe fraction of Nd in the two phases and their isotopic\ncomposition was then used to recalculate via mass balance\nthe composition of the original HPS Nd stock solution.\nAn offset outside uncertainty (2 times standard deviation)\nwould indicate significant contamination or precipitation\nof Nd that was not accounted for. Mass balancing was\ncalculated using:\nδ146Nd Mass bal ance =\n(δ146Nd Li qui d × fLi qui d) + (δ146Nd Sol i d × fSol i d)\n(8)\nNo experiments fell outside of the composition of the HPS\nstock solution (0.010±0.023 ‰ ; Kaufmann and McCoy-\nWest, 2025).\n3.3 Seawater Nd isotope compositions\nThe seawater samples (n=4) have δ146Nd compositions\nbetween 0.270±0.018 ‰ and 0.338±0.023 ‰ and are\nshown in Table 2. The average δ146Nd composition is\n0.312 ±0.060 ‰ (2×SD). Samples were equilibrated with\nthe spike for 5, 10, or 15 days and show a homogeneous\ncomposition within 2 times the standard deviation\n(Fig. 4a,b). No difference in δ146Nd and 143Nd/144Nd\nNestmeyer et al. (2026) Adv. Geochem. Cosmochem. 2(1): 1099, https://doi.org/10.33063/agc.v2i1.1099 8"
+  },
+  "selected_workbook_cells": {
+    "A9": {
+      "cached_value": 6,
+      "formula_or_value": 6
+    },
+    "B9": {
+      "cached_value": 24,
+      "formula_or_value": 24
+    },
+    "C9": {
+      "cached_value": 1,
+      "formula_or_value": 1
+    },
+    "D9": {
+      "cached_value": 17.689740240893922,
+      "formula_or_value": 17.689740240893922
+    },
+    "K9": {
+      "cached_value": -0.10025522093203161,
+      "formula_or_value": "=H9-E9"
+    },
+    "L9": {
+      "cached_value": 0.040298345485760584,
+      "formula_or_value": "=SQRT((F9^2)+(I9^2))"
+    },
+    "A10": {
+      "cached_value": 7,
+      "formula_or_value": 7
+    },
+    "B10": {
+      "cached_value": 48,
+      "formula_or_value": 48
+    },
+    "C10": {
+      "cached_value": 1,
+      "formula_or_value": 1
+    },
+    "D10": {
+      "cached_value": 28.096093519586024,
+      "formula_or_value": 28.096093519586024
+    },
+    "K10": {
+      "cached_value": -0.10159176094118005,
+      "formula_or_value": "=H10-E10"
+    },
+    "L10": {
+      "cached_value": 0.02685834482138191,
+      "formula_or_value": "=SQRT((F10^2)+(I10^2))"
+    },
+    "A11": {
+      "cached_value": 9,
+      "formula_or_value": 9
+    },
+    "B11": {
+      "cached_value": 168,
+      "formula_or_value": 168
+    },
+    "C11": {
+      "cached_value": 1,
+      "formula_or_value": 1
+    },
+    "D11": {
+      "cached_value": 47.59157120633573,
+      "formula_or_value": 47.59157120633573
+    },
+    "K11": {
+      "cached_value": -0.0925703191767546,
+      "formula_or_value": "=H11-E11"
+    },
+    "L11": {
+      "cached_value": 0.030287121114988064,
+      "formula_or_value": "=SQRT((F11^2)+(I11^2))"
+    }
+  },
+  "variable_series_cells": {
+    "B13": 48,
+    "C13": 0.5,
+    "B14": 48,
+    "C14": 0.75,
+    "B15": 48,
+    "C15": 1,
+    "B16": 96,
+    "C16": 1.25,
+    "B17": 96,
+    "C17": 1.5,
+    "B18": 96,
+    "C18": 1.75,
+    "B19": 144,
+    "C19": 2,
+    "B20": 144,
+    "C20": 2.25,
+    "B21": 144,
+    "C21": 2.5
+  },
+  "checks": {
+    "PDF_page1_CC_BY_4_0": true,
+    "p3_methods_pH_5_5_and_NaCl_0_01_read": true,
+    "p7_mean_CI_read": true,
+    "p8_48_144h_and_0_5_2_5mL_read": true,
+    "all_three_archived_author_values_equal_direct_workbook_cells": true
+  },
+  "limitations": "No new scientific expert review. Dataset license not resolved; original workbook not copied."
+}

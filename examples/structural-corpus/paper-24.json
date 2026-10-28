@@ -1,0 +1,2282 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+  "snapshot_id": "snapshot:sha256:007d7c0c8a45f478f6bcdae6924ffdea41ff15fbda8a61a458c6da1b45a763fb",
+  "original_graph_json_sha256": "007d7c0c8a45f478f6bcdae6924ffdea41ff15fbda8a61a458c6da1b45a763fb",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:0c93aa7e-f9a6-42a8-a119-b9a1eae39f5b",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:0c93aa7e-f9a6-42a8-a119-b9a1eae39f5b",
+        "sha256": "2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.figure.1a",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.figure.1b",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.figure.1c",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.figure.1d",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.text.db.diverge",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.text.db.interpret",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.text.db.same",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.db.samplecount",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.text.db.sparse",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.text.db.tight",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.text.db.timescale",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.text.ext.abstractrework",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.text.ext.all",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.ext.general.drop.1",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.ext.general.drop.2",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.ext.gondwana",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.ext.gondwana.drop.1",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.ext.gondwana.drop.2",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.ext.gondwana.part",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.ext.nuna",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.ext.nuna.drop.1",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.ext.nuna.drop.2",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.ext.rework",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.ext.rodinia",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.ext.rodinia.drop",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.ext.rodinia.part",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.method.conclusion",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.method.intro",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.text.method.nd",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.text.method.seawater",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.text.method.sr",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.text.mode.abstract",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.text.mode.adv",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.text.mode.example.adv.1",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.mode.example.adv.2",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.mode.example.ret.1",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.mode.example.ret.2",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.mode.ret",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.text.model.caption",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.text.model.label",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.text.model.num",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.text.model.ref",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.text.nuna.conclusion",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.nuna.craton",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.nuna.direct",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.nuna.flat.1",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.nuna.flat.2",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.og.extint",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.text.og.pattern.1",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.text.og.pattern.2",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.text.og.reworked",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.text.og.spread",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.text.pangea.abstract",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.text.pangea.flat",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.pangea.mode",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.pangea.rise.discussion",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.pangea.rise.num",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.pangea.sea",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.text.pangea.short",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.plate.abstract",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.text.plate.alt",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.plate.early.1",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.plate.early.2",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.plate.felsic",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.plate.no",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.plate.strong",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88",
+        "artifact_version_id": "artifact-version:sha256:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.db.diverge",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.db.diverge"
+        ]
+      },
+      {
+        "id": "obs.db.same",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.db.same"
+        ]
+      },
+      {
+        "id": "obs.db.sparse",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.db.sparse"
+        ]
+      },
+      {
+        "id": "obs.db.tight",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.db.tight"
+        ]
+      },
+      {
+        "id": "obs.db.timescale",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.db.timescale"
+        ]
+      },
+      {
+        "id": "obs.ext.all",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ext.all"
+        ]
+      },
+      {
+        "id": "obs.ext.general.drop",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ext.general.drop.1",
+          "anchor.text.ext.general.drop.2"
+        ]
+      },
+      {
+        "id": "obs.ext.gondwana",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ext.gondwana",
+          "anchor.text.ext.gondwana.part"
+        ]
+      },
+      {
+        "id": "obs.ext.gondwana.drop",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ext.gondwana.drop.1",
+          "anchor.text.ext.gondwana.drop.2"
+        ]
+      },
+      {
+        "id": "obs.ext.nuna",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ext.nuna"
+        ]
+      },
+      {
+        "id": "obs.ext.nuna.drop",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ext.nuna.drop.1",
+          "anchor.text.ext.nuna.drop.2"
+        ]
+      },
+      {
+        "id": "obs.ext.pangea",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.pangea.mode"
+        ]
+      },
+      {
+        "id": "obs.ext.rework",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ext.abstractrework",
+          "anchor.text.ext.rework"
+        ]
+      },
+      {
+        "id": "obs.ext.rodinia",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ext.rodinia",
+          "anchor.text.ext.rodinia.part"
+        ]
+      },
+      {
+        "id": "obs.ext.rodinia.drop",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ext.rodinia.drop"
+        ]
+      },
+      {
+        "id": "obs.method.conclusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.method.conclusion"
+        ]
+      },
+      {
+        "id": "obs.method.hfnd",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.method.intro"
+        ]
+      },
+      {
+        "id": "obs.method.nd",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.method.nd"
+        ]
+      },
+      {
+        "id": "obs.method.seawater",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.method.seawater"
+        ]
+      },
+      {
+        "id": "obs.method.sr",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.method.sr"
+        ]
+      },
+      {
+        "id": "obs.mode.abstract",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.mode.abstract"
+        ]
+      },
+      {
+        "id": "obs.mode.adv",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.mode.adv"
+        ]
+      },
+      {
+        "id": "obs.mode.example.adv",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.1d",
+          "anchor.text.mode.example.adv.1",
+          "anchor.text.mode.example.adv.2",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ]
+      },
+      {
+        "id": "obs.mode.example.ret",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.mode.example.ret.1",
+          "anchor.text.mode.example.ret.2"
+        ]
+      },
+      {
+        "id": "obs.mode.model",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.1a",
+          "anchor.figure.1b",
+          "anchor.figure.1c",
+          "anchor.figure.1d",
+          "anchor.text.model.caption",
+          "anchor.text.model.label",
+          "anchor.text.model.num",
+          "anchor.text.model.ref"
+        ]
+      },
+      {
+        "id": "obs.mode.ret",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.mode.ret"
+        ]
+      },
+      {
+        "id": "obs.nuna.conclusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.nuna.conclusion"
+        ]
+      },
+      {
+        "id": "obs.nuna.craton",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.nuna.craton"
+        ]
+      },
+      {
+        "id": "obs.nuna.direct",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.nuna.direct"
+        ]
+      },
+      {
+        "id": "obs.nuna.flat",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.nuna.flat.1",
+          "anchor.text.nuna.flat.2"
+        ]
+      },
+      {
+        "id": "obs.og.extint",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.og.extint"
+        ]
+      },
+      {
+        "id": "obs.og.pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.og.pattern.1",
+          "anchor.text.og.pattern.2",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ]
+      },
+      {
+        "id": "obs.og.reworked",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.og.reworked",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ]
+      },
+      {
+        "id": "obs.og.spread",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.og.spread"
+        ]
+      },
+      {
+        "id": "obs.pangea.flat",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.pangea.flat"
+        ]
+      },
+      {
+        "id": "obs.pangea.mode",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.pangea.mode"
+        ]
+      },
+      {
+        "id": "obs.pangea.rise",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.pangea.abstract",
+          "anchor.text.pangea.rise.discussion",
+          "anchor.text.pangea.rise.num",
+          "anchor.text.pangea.short"
+        ]
+      },
+      {
+        "id": "obs.pangea.sea",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.pangea.sea"
+        ]
+      },
+      {
+        "id": "obs.plate.abstract",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.plate.abstract"
+        ]
+      },
+      {
+        "id": "obs.plate.alt",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.plate.alt",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ]
+      },
+      {
+        "id": "obs.plate.early",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.plate.early.1",
+          "anchor.text.plate.early.2",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ]
+      },
+      {
+        "id": "obs.plate.felsic",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.plate.felsic"
+        ]
+      },
+      {
+        "id": "obs.plate.no",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.plate.no"
+        ]
+      },
+      {
+        "id": "obs.plate.strong",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.plate.strong"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.database.interval",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.db.diverge",
+          "anchor.text.db.tight"
+        ]
+      },
+      {
+        "id": "reason.database.sampling",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.db.samplecount",
+          "anchor.text.db.sparse"
+        ]
+      },
+      {
+        "id": "reason.database.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.db.same",
+          "anchor.text.db.timescale"
+        ]
+      },
+      {
+        "id": "reason.extro.decline",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.ext.general.drop.1",
+          "anchor.text.ext.general.drop.2",
+          "anchor.text.ext.gondwana.drop.1",
+          "anchor.text.ext.gondwana.drop.2",
+          "anchor.text.ext.nuna.drop.1",
+          "anchor.text.ext.nuna.drop.2",
+          "anchor.text.ext.rodinia.drop"
+        ]
+      },
+      {
+        "id": "reason.extro.mechanism",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.1a",
+          "anchor.figure.1b",
+          "anchor.figure.1c",
+          "anchor.figure.1d",
+          "anchor.text.ext.abstractrework",
+          "anchor.text.ext.rework",
+          "anchor.text.model.num",
+          "anchor.text.model.ref"
+        ]
+      },
+      {
+        "id": "reason.method.data",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.method.intro",
+          "anchor.text.method.nd"
+        ]
+      },
+      {
+        "id": "reason.method.seawater",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.method.seawater",
+          "anchor.text.method.sr"
+        ]
+      },
+      {
+        "id": "reason.method.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.method.conclusion"
+        ]
+      },
+      {
+        "id": "reason.mode.examples",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.1d",
+          "anchor.text.mode.example.adv.1",
+          "anchor.text.mode.example.adv.2",
+          "anchor.text.mode.example.ret.1",
+          "anchor.text.mode.example.ret.2",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ]
+      },
+      {
+        "id": "reason.mode.model",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.1a",
+          "anchor.figure.1b",
+          "anchor.figure.1c",
+          "anchor.figure.1d",
+          "anchor.text.mode.adv",
+          "anchor.text.mode.ret",
+          "anchor.text.model.caption",
+          "anchor.text.model.num",
+          "anchor.text.model.ref"
+        ]
+      },
+      {
+        "id": "reason.mode.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.mode.abstract"
+        ]
+      },
+      {
+        "id": "reason.nuna.evidence",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.nuna.conclusion",
+          "anchor.text.nuna.craton",
+          "anchor.text.nuna.direct",
+          "anchor.text.nuna.flat.1",
+          "anchor.text.nuna.flat.2"
+        ]
+      },
+      {
+        "id": "reason.orogen.compare",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.og.extint",
+          "anchor.text.og.pattern.1",
+          "anchor.text.og.pattern.2",
+          "anchor.text.og.spread",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ]
+      },
+      {
+        "id": "reason.pangea.qualify",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.pangea.sea"
+        ]
+      },
+      {
+        "id": "reason.pangea.signal",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.pangea.abstract",
+          "anchor.text.pangea.flat",
+          "anchor.text.pangea.mode",
+          "anchor.text.pangea.rise.discussion",
+          "anchor.text.pangea.rise.num",
+          "anchor.text.pangea.short"
+        ]
+      },
+      {
+        "id": "reason.plate.signal",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.plate.early.1",
+          "anchor.text.plate.early.2",
+          "anchor.text.plate.no",
+          "anchor.text.plate.strong",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ]
+      },
+      {
+        "id": "reason.preplate.explanation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.plate.abstract",
+          "anchor.text.plate.alt",
+          "anchor.text.plate.felsic",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ]
+      },
+      {
+        "id": "reason.supercycle.comparison",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.ext.all",
+          "anchor.text.ext.gondwana",
+          "anchor.text.ext.gondwana.part",
+          "anchor.text.ext.nuna",
+          "anchor.text.ext.rodinia",
+          "anchor.text.ext.rodinia.part",
+          "anchor.text.pangea.mode"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.epsilon",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.db.interpret"
+        ]
+      },
+      {
+        "id": "assumption.sampling",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.db.samplecount",
+          "anchor.text.db.sparse"
+        ]
+      },
+      {
+        "id": "assumption.seawater",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.method.seawater"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:08fd9a6529ed34ccc5ac0a1f879f375175159f1465098a0c3d3fd1660e572457",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.plate.early.1",
+          "anchor.text.plate.early.2",
+          "anchor.text.plate.no",
+          "anchor.text.plate.strong",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ],
+        "source_id": "claim.plate.no_signal"
+      },
+      {
+        "id": "claim:sha256:0ac5ebcae0f16f2da3d6f9112ad3e945498a97d440d73d0c2e0e5c2737435332",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.db.diverge",
+          "anchor.text.db.same",
+          "anchor.text.db.sparse",
+          "anchor.text.db.tight",
+          "anchor.text.db.timescale"
+        ],
+        "source_id": "claim.database.interval"
+      },
+      {
+        "id": "claim:sha256:1c378b6056210365764f7081019ae8258f4d13fc8bb080454dd295d11a8330d8",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.plate.abstract",
+          "anchor.text.plate.alt",
+          "anchor.text.plate.felsic",
+          "anchor.text.plate.no",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ],
+        "source_id": "claim.preplate.felsic_crust"
+      },
+      {
+        "id": "claim:sha256:2e56fa435d89605b25703879daa68e94ac923d84d5c79b894740630dcc65c787",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.ext.general.drop.1",
+          "anchor.text.ext.general.drop.2",
+          "anchor.text.ext.gondwana.drop.1",
+          "anchor.text.ext.gondwana.drop.2",
+          "anchor.text.ext.nuna.drop.1",
+          "anchor.text.ext.nuna.drop.2",
+          "anchor.text.ext.rodinia.drop"
+        ],
+        "source_id": "claim.extroversion.decline"
+      },
+      {
+        "id": "claim:sha256:462edddc858302bcd430a9a2ec1c88cc7a1f2c09a9a105337d57046a7639704d",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.nuna.conclusion",
+          "anchor.text.nuna.craton",
+          "anchor.text.nuna.direct",
+          "anchor.text.nuna.flat.1",
+          "anchor.text.nuna.flat.2"
+        ],
+        "source_id": "claim.nuna.no_breakup_signal"
+      },
+      {
+        "id": "claim:sha256:b461ad6affc75a78ff3f86f2a59cbabfffdb7479bd8db57d48dd8ec78019c30e",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.1a",
+          "anchor.figure.1b",
+          "anchor.figure.1c",
+          "anchor.figure.1d",
+          "anchor.text.mode.abstract",
+          "anchor.text.model.caption",
+          "anchor.text.model.label",
+          "anchor.text.model.num",
+          "anchor.text.model.ref"
+        ],
+        "source_id": "claim.orogen.mode"
+      },
+      {
+        "id": "claim:sha256:bc9382aca2e898efd39275ad311e4c14d4018b7b60f68ef13e033dec700e61e5",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.ext.all",
+          "anchor.text.ext.gondwana",
+          "anchor.text.ext.gondwana.part",
+          "anchor.text.ext.nuna",
+          "anchor.text.ext.rodinia",
+          "anchor.text.ext.rodinia.part",
+          "anchor.text.pangea.mode"
+        ],
+        "source_id": "claim.supercontinent.extroversion"
+      },
+      {
+        "id": "claim:sha256:ce667193085c27df62bfb3d293af036f714e23d4c449ecd76bd134dd214553a8",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.og.extint",
+          "anchor.text.og.pattern.1",
+          "anchor.text.og.pattern.2",
+          "anchor.text.og.reworked",
+          "anchor.text.og.spread",
+          "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88"
+        ],
+        "source_id": "claim.orogen.pattern"
+      },
+      {
+        "id": "claim:sha256:ce719c5993786d00c1f8a1b0367ffc9fe260a8f4084a89eeef77d05efe6f0c64",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.pangea.abstract",
+          "anchor.text.pangea.flat",
+          "anchor.text.pangea.mode",
+          "anchor.text.pangea.rise.discussion",
+          "anchor.text.pangea.rise.num",
+          "anchor.text.pangea.sea",
+          "anchor.text.pangea.short"
+        ],
+        "source_id": "claim.pangea.introversion"
+      },
+      {
+        "id": "claim:sha256:ed8ca84aa4ef05612d7b4febeede7705a009542395a25c6b6828ee42cfa8c6a4",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.1a",
+          "anchor.figure.1b",
+          "anchor.figure.1c",
+          "anchor.figure.1d",
+          "anchor.text.ext.abstractrework",
+          "anchor.text.ext.rework",
+          "anchor.text.model.caption",
+          "anchor.text.model.label",
+          "anchor.text.model.num",
+          "anchor.text.model.ref"
+        ],
+        "source_id": "claim.extroversion.reworking"
+      },
+      {
+        "id": "claim:sha256:ee18ed329f9ad97a128b4522c30b45ea00270945e1873149fe51d096208d4586",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.method.conclusion",
+          "anchor.text.method.intro",
+          "anchor.text.method.nd",
+          "anchor.text.method.seawater",
+          "anchor.text.method.sr"
+        ],
+        "source_id": "claim.method.combined"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.assumption.epsilon.database",
+        "kind": "edge",
+        "source_id": "assumption.epsilon",
+        "target_id": "reason.database.synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.epsilon.extro",
+        "kind": "edge",
+        "source_id": "assumption.epsilon",
+        "target_id": "reason.extro.decline",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.epsilon.mechanism",
+        "kind": "edge",
+        "source_id": "assumption.epsilon",
+        "target_id": "reason.extro.mechanism",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.epsilon.mode",
+        "kind": "edge",
+        "source_id": "assumption.epsilon",
+        "target_id": "reason.mode.synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.epsilon.plate",
+        "kind": "edge",
+        "source_id": "assumption.epsilon",
+        "target_id": "reason.plate.signal",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.sampling.database",
+        "kind": "edge",
+        "source_id": "assumption.sampling",
+        "target_id": "reason.database.sampling",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.sampling.mechanism",
+        "kind": "edge",
+        "source_id": "assumption.sampling",
+        "target_id": "reason.extro.mechanism",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.seawater.method",
+        "kind": "edge",
+        "source_id": "assumption.seawater",
+        "target_id": "reason.method.seawater",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.seawater.pangea",
+        "kind": "edge",
+        "source_id": "assumption.seawater",
+        "target_id": "reason.pangea.qualify",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.db.diverge",
+        "kind": "edge",
+        "source_id": "anchor.text.db.diverge",
+        "target_id": "obs.db.diverge",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.db.same",
+        "kind": "edge",
+        "source_id": "anchor.text.db.same",
+        "target_id": "obs.db.same",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.db.sparse",
+        "kind": "edge",
+        "source_id": "anchor.text.db.sparse",
+        "target_id": "obs.db.sparse",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.db.tight",
+        "kind": "edge",
+        "source_id": "anchor.text.db.tight",
+        "target_id": "obs.db.tight",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.db.timescale",
+        "kind": "edge",
+        "source_id": "anchor.text.db.timescale",
+        "target_id": "obs.db.timescale",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.abstractrework",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.abstractrework",
+        "target_id": "obs.ext.rework",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.all",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.all",
+        "target_id": "obs.ext.all",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.general.drop.1",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.general.drop.1",
+        "target_id": "obs.ext.general.drop",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.general.drop.2",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.general.drop.2",
+        "target_id": "obs.ext.general.drop",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.gondwana.1",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.gondwana",
+        "target_id": "obs.ext.gondwana",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.gondwana.2",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.gondwana.part",
+        "target_id": "obs.ext.gondwana",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.gondwana.drop.1",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.gondwana.drop.1",
+        "target_id": "obs.ext.gondwana.drop",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.gondwana.drop.2",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.gondwana.drop.2",
+        "target_id": "obs.ext.gondwana.drop",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.nuna",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.nuna",
+        "target_id": "obs.ext.nuna",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.nuna.drop.1",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.nuna.drop.1",
+        "target_id": "obs.ext.nuna.drop",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.nuna.drop.2",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.nuna.drop.2",
+        "target_id": "obs.ext.nuna.drop",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.pangea",
+        "kind": "edge",
+        "source_id": "anchor.text.pangea.mode",
+        "target_id": "obs.ext.pangea",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.rework",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.rework",
+        "target_id": "obs.ext.rework",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.rodinia.1",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.rodinia",
+        "target_id": "obs.ext.rodinia",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.rodinia.2",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.rodinia.part",
+        "target_id": "obs.ext.rodinia",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ext.rodinia.drop",
+        "kind": "edge",
+        "source_id": "anchor.text.ext.rodinia.drop",
+        "target_id": "obs.ext.rodinia.drop",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.method.conclusion",
+        "kind": "edge",
+        "source_id": "anchor.text.method.conclusion",
+        "target_id": "obs.method.conclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.method.hfnd",
+        "kind": "edge",
+        "source_id": "anchor.text.method.intro",
+        "target_id": "obs.method.hfnd",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.method.nd",
+        "kind": "edge",
+        "source_id": "anchor.text.method.nd",
+        "target_id": "obs.method.nd",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.method.seawater",
+        "kind": "edge",
+        "source_id": "anchor.text.method.seawater",
+        "target_id": "obs.method.seawater",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.method.sr",
+        "kind": "edge",
+        "source_id": "anchor.text.method.sr",
+        "target_id": "obs.method.sr",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mode.abstract",
+        "kind": "edge",
+        "source_id": "anchor.text.mode.abstract",
+        "target_id": "obs.mode.abstract",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mode.adv",
+        "kind": "edge",
+        "source_id": "anchor.text.mode.adv",
+        "target_id": "obs.mode.adv",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mode.example.adv.1",
+        "kind": "edge",
+        "source_id": "anchor.text.mode.example.adv.1",
+        "target_id": "obs.mode.example.adv",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mode.example.adv.2",
+        "kind": "edge",
+        "source_id": "anchor.text.mode.example.adv.2",
+        "target_id": "obs.mode.example.adv",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mode.example.ret.1",
+        "kind": "edge",
+        "source_id": "anchor.text.mode.example.ret.1",
+        "target_id": "obs.mode.example.ret",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mode.example.ret.2",
+        "kind": "edge",
+        "source_id": "anchor.text.mode.example.ret.2",
+        "target_id": "obs.mode.example.ret",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mode.ret",
+        "kind": "edge",
+        "source_id": "anchor.text.mode.ret",
+        "target_id": "obs.mode.ret",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.caption",
+        "kind": "edge",
+        "source_id": "anchor.text.model.caption",
+        "target_id": "obs.mode.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.fig1a",
+        "kind": "edge",
+        "source_id": "anchor.figure.1a",
+        "target_id": "obs.mode.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.fig1b",
+        "kind": "edge",
+        "source_id": "anchor.figure.1b",
+        "target_id": "obs.mode.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.fig1c",
+        "kind": "edge",
+        "source_id": "anchor.figure.1c",
+        "target_id": "obs.mode.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.fig1d",
+        "kind": "edge",
+        "source_id": "anchor.figure.1d",
+        "target_id": "obs.mode.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.label",
+        "kind": "edge",
+        "source_id": "anchor.text.model.label",
+        "target_id": "obs.mode.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.num",
+        "kind": "edge",
+        "source_id": "anchor.text.model.num",
+        "target_id": "obs.mode.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.ref",
+        "kind": "edge",
+        "source_id": "anchor.text.model.ref",
+        "target_id": "obs.mode.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nuna.conclusion",
+        "kind": "edge",
+        "source_id": "anchor.text.nuna.conclusion",
+        "target_id": "obs.nuna.conclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nuna.craton",
+        "kind": "edge",
+        "source_id": "anchor.text.nuna.craton",
+        "target_id": "obs.nuna.craton",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nuna.direct",
+        "kind": "edge",
+        "source_id": "anchor.text.nuna.direct",
+        "target_id": "obs.nuna.direct",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nuna.flat.1",
+        "kind": "edge",
+        "source_id": "anchor.text.nuna.flat.1",
+        "target_id": "obs.nuna.flat",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nuna.flat.2",
+        "kind": "edge",
+        "source_id": "anchor.text.nuna.flat.2",
+        "target_id": "obs.nuna.flat",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.og.extint",
+        "kind": "edge",
+        "source_id": "anchor.text.og.extint",
+        "target_id": "obs.og.extint",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.og.pattern.1",
+        "kind": "edge",
+        "source_id": "anchor.text.og.pattern.1",
+        "target_id": "obs.og.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.og.pattern.2",
+        "kind": "edge",
+        "source_id": "anchor.text.og.pattern.2",
+        "target_id": "obs.og.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.og.reworked",
+        "kind": "edge",
+        "source_id": "anchor.text.og.reworked",
+        "target_id": "obs.og.reworked",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.og.spread",
+        "kind": "edge",
+        "source_id": "anchor.text.og.spread",
+        "target_id": "obs.og.spread",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pangea.flat",
+        "kind": "edge",
+        "source_id": "anchor.text.pangea.flat",
+        "target_id": "obs.pangea.flat",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pangea.mode",
+        "kind": "edge",
+        "source_id": "anchor.text.pangea.mode",
+        "target_id": "obs.pangea.mode",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pangea.rise.abstract",
+        "kind": "edge",
+        "source_id": "anchor.text.pangea.abstract",
+        "target_id": "obs.pangea.rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pangea.rise.discussion",
+        "kind": "edge",
+        "source_id": "anchor.text.pangea.rise.discussion",
+        "target_id": "obs.pangea.rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pangea.rise.num",
+        "kind": "edge",
+        "source_id": "anchor.text.pangea.rise.num",
+        "target_id": "obs.pangea.rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pangea.sea",
+        "kind": "edge",
+        "source_id": "anchor.text.pangea.sea",
+        "target_id": "obs.pangea.sea",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pangea.short",
+        "kind": "edge",
+        "source_id": "anchor.text.pangea.short",
+        "target_id": "obs.pangea.rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.plate.abstract",
+        "kind": "edge",
+        "source_id": "anchor.text.plate.abstract",
+        "target_id": "obs.plate.abstract",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.plate.alt",
+        "kind": "edge",
+        "source_id": "anchor.text.plate.alt",
+        "target_id": "obs.plate.alt",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.plate.early.1",
+        "kind": "edge",
+        "source_id": "anchor.text.plate.early.1",
+        "target_id": "obs.plate.early",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.plate.early.2",
+        "kind": "edge",
+        "source_id": "anchor.text.plate.early.2",
+        "target_id": "obs.plate.early",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.plate.felsic",
+        "kind": "edge",
+        "source_id": "anchor.text.plate.felsic",
+        "target_id": "obs.plate.felsic",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.plate.no",
+        "kind": "edge",
+        "source_id": "anchor.text.plate.no",
+        "target_id": "obs.plate.no",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.plate.strong",
+        "kind": "edge",
+        "source_id": "anchor.text.plate.strong",
+        "target_id": "obs.plate.strong",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.db.diverge",
+        "kind": "edge",
+        "source_id": "obs.db.diverge",
+        "target_id": "reason.database.interval",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.db.interval",
+        "kind": "edge",
+        "source_id": "reason.database.interval",
+        "target_id": "reason.database.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.db.same",
+        "kind": "edge",
+        "source_id": "obs.db.same",
+        "target_id": "reason.database.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.db.sampling",
+        "kind": "edge",
+        "source_id": "reason.database.sampling",
+        "target_id": "reason.database.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.db.sparse",
+        "kind": "edge",
+        "source_id": "obs.db.sparse",
+        "target_id": "reason.database.sampling",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.db.tight",
+        "kind": "edge",
+        "source_id": "obs.db.tight",
+        "target_id": "reason.database.interval",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.db.timescale",
+        "kind": "edge",
+        "source_id": "obs.db.timescale",
+        "target_id": "reason.database.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ext.all",
+        "kind": "edge",
+        "source_id": "obs.ext.all",
+        "target_id": "reason.supercycle.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ext.decline.mechanism",
+        "kind": "edge",
+        "source_id": "reason.extro.decline",
+        "target_id": "reason.extro.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ext.general.drop",
+        "kind": "edge",
+        "source_id": "obs.ext.general.drop",
+        "target_id": "reason.extro.decline",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ext.gondwana",
+        "kind": "edge",
+        "source_id": "obs.ext.gondwana",
+        "target_id": "reason.supercycle.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ext.gondwana.drop",
+        "kind": "edge",
+        "source_id": "obs.ext.gondwana.drop",
+        "target_id": "reason.extro.decline",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ext.nuna",
+        "kind": "edge",
+        "source_id": "obs.ext.nuna",
+        "target_id": "reason.supercycle.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ext.nuna.drop",
+        "kind": "edge",
+        "source_id": "obs.ext.nuna.drop",
+        "target_id": "reason.extro.decline",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ext.pangea",
+        "kind": "edge",
+        "source_id": "obs.ext.pangea",
+        "target_id": "reason.supercycle.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ext.rework",
+        "kind": "edge",
+        "source_id": "obs.ext.rework",
+        "target_id": "reason.extro.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ext.rodinia",
+        "kind": "edge",
+        "source_id": "obs.ext.rodinia",
+        "target_id": "reason.supercycle.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ext.rodinia.drop",
+        "kind": "edge",
+        "source_id": "obs.ext.rodinia.drop",
+        "target_id": "reason.extro.decline",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.method.conclusion",
+        "kind": "edge",
+        "source_id": "obs.method.conclusion",
+        "target_id": "reason.method.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.method.data",
+        "kind": "edge",
+        "source_id": "reason.method.data",
+        "target_id": "reason.method.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.method.hfnd",
+        "kind": "edge",
+        "source_id": "obs.method.hfnd",
+        "target_id": "reason.method.data",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.method.nd",
+        "kind": "edge",
+        "source_id": "obs.method.nd",
+        "target_id": "reason.method.data",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.method.seawater",
+        "kind": "edge",
+        "source_id": "obs.method.seawater",
+        "target_id": "reason.method.seawater",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.method.seawater.synthesis",
+        "kind": "edge",
+        "source_id": "reason.method.seawater",
+        "target_id": "reason.method.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.method.sr",
+        "kind": "edge",
+        "source_id": "obs.method.sr",
+        "target_id": "reason.method.seawater",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mode.abstract",
+        "kind": "edge",
+        "source_id": "obs.mode.abstract",
+        "target_id": "reason.mode.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mode.adv",
+        "kind": "edge",
+        "source_id": "obs.mode.adv",
+        "target_id": "reason.mode.model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mode.example.adv",
+        "kind": "edge",
+        "source_id": "obs.mode.example.adv",
+        "target_id": "reason.mode.examples",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mode.example.ret",
+        "kind": "edge",
+        "source_id": "obs.mode.example.ret",
+        "target_id": "reason.mode.examples",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mode.examples.synthesis",
+        "kind": "edge",
+        "source_id": "reason.mode.examples",
+        "target_id": "reason.mode.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mode.model",
+        "kind": "edge",
+        "source_id": "obs.mode.model",
+        "target_id": "reason.mode.model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mode.model.mechanism",
+        "kind": "edge",
+        "source_id": "reason.mode.model",
+        "target_id": "reason.extro.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mode.model.synthesis",
+        "kind": "edge",
+        "source_id": "reason.mode.model",
+        "target_id": "reason.mode.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mode.ret",
+        "kind": "edge",
+        "source_id": "obs.mode.ret",
+        "target_id": "reason.mode.model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nuna.conclusion",
+        "kind": "edge",
+        "source_id": "obs.nuna.conclusion",
+        "target_id": "reason.nuna.evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nuna.craton",
+        "kind": "edge",
+        "source_id": "obs.nuna.craton",
+        "target_id": "reason.nuna.evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nuna.direct",
+        "kind": "edge",
+        "source_id": "obs.nuna.direct",
+        "target_id": "reason.nuna.evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nuna.flat",
+        "kind": "edge",
+        "source_id": "obs.nuna.flat",
+        "target_id": "reason.nuna.evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.og.extint",
+        "kind": "edge",
+        "source_id": "obs.og.extint",
+        "target_id": "reason.orogen.compare",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.og.pattern",
+        "kind": "edge",
+        "source_id": "obs.og.pattern",
+        "target_id": "reason.orogen.compare",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.og.reworked",
+        "kind": "edge",
+        "source_id": "obs.og.reworked",
+        "target_id": "reason.orogen.compare",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.og.spread",
+        "kind": "edge",
+        "source_id": "obs.og.spread",
+        "target_id": "reason.orogen.compare",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.pangea.flat",
+        "kind": "edge",
+        "source_id": "obs.pangea.flat",
+        "target_id": "reason.pangea.signal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.pangea.mode",
+        "kind": "edge",
+        "source_id": "obs.pangea.mode",
+        "target_id": "reason.pangea.signal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.pangea.rise",
+        "kind": "edge",
+        "source_id": "obs.pangea.rise",
+        "target_id": "reason.pangea.signal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.pangea.sea",
+        "kind": "edge",
+        "source_id": "obs.pangea.sea",
+        "target_id": "reason.pangea.qualify",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.plate.abstract",
+        "kind": "edge",
+        "source_id": "obs.plate.abstract",
+        "target_id": "reason.preplate.explanation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.plate.alt",
+        "kind": "edge",
+        "source_id": "obs.plate.alt",
+        "target_id": "reason.preplate.explanation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.plate.early",
+        "kind": "edge",
+        "source_id": "obs.plate.early",
+        "target_id": "reason.plate.signal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.plate.felsic",
+        "kind": "edge",
+        "source_id": "obs.plate.felsic",
+        "target_id": "reason.preplate.explanation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.plate.no",
+        "kind": "edge",
+        "source_id": "obs.plate.no",
+        "target_id": "reason.plate.signal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.plate.signal.explanation",
+        "kind": "edge",
+        "source_id": "reason.plate.signal",
+        "target_id": "reason.preplate.explanation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.plate.strong",
+        "kind": "edge",
+        "source_id": "obs.plate.strong",
+        "target_id": "reason.plate.signal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.supercycle.pangea",
+        "kind": "edge",
+        "source_id": "reason.supercycle.comparison",
+        "target_id": "reason.pangea.signal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.qualifies.pangea",
+        "kind": "edge",
+        "source_id": "reason.pangea.qualify",
+        "target_id": "claim:sha256:ce719c5993786d00c1f8a1b0367ffc9fe260a8f4084a89eeef77d05efe6f0c64",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.database",
+        "kind": "edge",
+        "source_id": "reason.database.synthesis",
+        "target_id": "claim:sha256:0ac5ebcae0f16f2da3d6f9112ad3e945498a97d440d73d0c2e0e5c2737435332",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.extro.decline",
+        "kind": "edge",
+        "source_id": "reason.extro.decline",
+        "target_id": "claim:sha256:2e56fa435d89605b25703879daa68e94ac923d84d5c79b894740630dcc65c787",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.extro.mechanism",
+        "kind": "edge",
+        "source_id": "reason.extro.mechanism",
+        "target_id": "claim:sha256:ed8ca84aa4ef05612d7b4febeede7705a009542395a25c6b6828ee42cfa8c6a4",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.method",
+        "kind": "edge",
+        "source_id": "reason.method.synthesis",
+        "target_id": "claim:sha256:ee18ed329f9ad97a128b4522c30b45ea00270945e1873149fe51d096208d4586",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.mode",
+        "kind": "edge",
+        "source_id": "reason.mode.synthesis",
+        "target_id": "claim:sha256:b461ad6affc75a78ff3f86f2a59cbabfffdb7479bd8db57d48dd8ec78019c30e",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.nuna",
+        "kind": "edge",
+        "source_id": "reason.nuna.evidence",
+        "target_id": "claim:sha256:462edddc858302bcd430a9a2ec1c88cc7a1f2c09a9a105337d57046a7639704d",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.orogen",
+        "kind": "edge",
+        "source_id": "reason.orogen.compare",
+        "target_id": "claim:sha256:ce667193085c27df62bfb3d293af036f714e23d4c449ecd76bd134dd214553a8",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.pangea",
+        "kind": "edge",
+        "source_id": "reason.pangea.signal",
+        "target_id": "claim:sha256:ce719c5993786d00c1f8a1b0367ffc9fe260a8f4084a89eeef77d05efe6f0c64",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.plate",
+        "kind": "edge",
+        "source_id": "reason.plate.signal",
+        "target_id": "claim:sha256:08fd9a6529ed34ccc5ac0a1f879f375175159f1465098a0c3d3fd1660e572457",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.preplate",
+        "kind": "edge",
+        "source_id": "reason.preplate.explanation",
+        "target_id": "claim:sha256:1c378b6056210365764f7081019ae8258f4d13fc8bb080454dd295d11a8330d8",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.supercycle",
+        "kind": "edge",
+        "source_id": "reason.supercycle.comparison",
+        "target_id": "claim:sha256:bc9382aca2e898efd39275ad311e4c14d4018b7b60f68ef13e033dec700e61e5",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:32fc8a55220fbb64ff729030bd3e93daa1210abbffc875fbd982051974d80726",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88",
+        "target_id": "obs.og.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:6ee81ead8b25bce469d088538e02af726ffcae70898b5c3483a4b88010ced4d5",
+        "kind": "edge",
+        "source_id": "anchor.figure.1d",
+        "target_id": "obs.mode.example.adv",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:87d4c5d2165c78c5a5e9202d6af0c13c2e21a9d03400a9adc907803bf7b71110",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88",
+        "target_id": "obs.plate.alt",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:b556b127997d995b4b7bec0bdf8d8385479339f226cd181dd95170e6c0fdb29b",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88",
+        "target_id": "obs.plate.early",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:bf1efe007f2b54d4f40b5e57b2a681cc634f3af63f2d7c8636846f3091e1efb1",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88",
+        "target_id": "obs.og.reworked",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:de49f929705773f40e1046e708bc96fa3107171e2aef3c8dc06602f9acd009a0",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:132782339f7df1c67097c2339df84a8722a4cd115a49d3a347f000b077bc5f88",
+        "target_id": "obs.mode.example.adv",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

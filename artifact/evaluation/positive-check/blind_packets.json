@@ -1,0 +1,2116 @@
+[
+  {
+    "query_id": "q70",
+    "query_text": "Based on absolute non-carbonate alkalinity values, what approximate NCA contribution to total alkalinity was inferred in spring 2015 Martinique Beach groundwater in the Magdalen Islands, and how were negative NCA values interpreted?",
+    "candidate": {
+      "candidate": 22,
+      "document_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+      "paper_id": "paper:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40",
+      "canonical": "During spring sampling, organic-matter-associated NCA was a substantial part of groundwater TA at the Martinique Beach STE (about 32% overall); negative NCA indicates proton-donating DOM associated with low pH, supporting remineralized organic matter as a source of acidity.",
+      "original": "Based on the absolute values, we calculated that NCA contributed to approximately $3 2 \\%$ of TA.",
+      "scope": {
+        "condition": [
+          "Spring groundwater sampling"
+        ],
+        "entities": [
+          "Martinique Beach STE",
+          "NCA",
+          "TA",
+          "dissolved organic matter",
+          "pH"
+        ],
+        "formation": [],
+        "location": [
+          "Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada"
+        ],
+        "measurement": [
+          "NCA fraction of TA and groundwater pH"
+        ],
+        "method": [
+          "NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair"
+        ],
+        "sample_type": [
+          "Groundwater"
+        ],
+        "time": {
+          "end": null,
+          "label": "Spring 2015",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "The approximate NCA contribution to TA was calculated from absolute values."
+      },
+      "quotes": [
+        "Based on the absolute values, we calculated that NCA contributed to approximately $3 2 \\%$ of TA.",
+        "The occurrence of negative NCA (i.e., acidity: ${ \\mathrm { A c } } >$ TA) implies that some of the DOM behaves as a proton donor, in agreement with the low $\\mathrm { p H }$ of the corresponding water sample.",
+        "NCA values ranged from -1.07 to $+ 1 . 1 1$ mmol $k g ^ { - 1 } \\left( \\pm 3 . 4 \\% \\right)$ with a mean value of -0.26 mmol $k g ^ { - 1 }$ .",
+        "The lowest values $( 5 . 9 0 < \\mathrm { p H } < 6 . 2 3 )$ ), which were lower than the pH measured in the inland fresh groundwater (e.g., $\\mathrm { p H } { \\sim } 6 . 3 4 .$ , Table 1), were measured in the middle of the intertidal zone, $1 . 2 \\textrm { m }$ below the surface.",
+        "The pHs ranged from 5.90 to 7.03 (Figure 3A).",
+        "The net production of acidity mainly results from the remineralization of organic matter released by the old buried forest soil.",
+        "TABLE 1 Geochemical characteristics of inland groundwater and seawater used as end members in the salinity-based mixing models. "
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "Using absolute values, NCA contributed approximately 32% of TA. Negative NCA was interpreted as acidity from DOM acting as a proton donor, consistent with low pH. This does not mean signed mean NCA/TA is +32% or that all samples have positive NCA. The signed NCA range and mean are supplementary. Grounded reference: claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4; BULK_d8b0e710104588346125.pdf.",
+      "rubric": {
+        "3": "Approximately 32% with absolute-value basis plus the proton-donating/acidity interpretation of negative NCA.",
+        "2": "The correctly scoped fraction alone or the compatible negative-NCA interpretation alone. No known scope conflict.",
+        "1": "Evidence with the conflicting scope described in the trap, or relevant background that does not supply the requested scoped result. Correctly labeled partial evidence instead receives 2.",
+        "0": "Irrelevant to the requested scientific quantity and setting."
+      },
+      "pool_sha256": "7f0fb0e26e412a4efbd13c4acbf95e5cf832b4bf9625f91ed83ebc1f6839791b"
+    }
+  },
+  {
+    "query_id": "q17",
+    "query_text": "What horizontal sinistral slip rates are reported for the Evrona Fault during the Late Pleistocene and during the Holocene?",
+    "candidate": {
+      "candidate": 21,
+      "document_id": "claim:sha256:9a7ce0aefa350eb2d8bf43066c6953b101e65f67ef2e9e27b750fa0c4782895b",
+      "paper_id": "paper:e214d61c26e1bab5ece65128924ed0e2cd7899d153fcc0a26260627ae0b7e444",
+      "canonical": "The average sinistral slip rate of the Evrona Fault increased from 0.7 ± 0.3 mm/yr during the Late Pleistocene to between 2.3 and 3.4 mm/yr during the Holocene.",
+      "original": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes.",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "Evrona Fault",
+          "Reef R4.1",
+          "Reef R5",
+          "seismic unit U6"
+        ],
+        "formation": [],
+        "location": [
+          "northern shelf of the Gulf of Elat/Aqaba"
+        ],
+        "measurement": [
+          "sinistral slip rate"
+        ],
+        "method": [
+          "offsets of relict fringing reefs R4.1 and R5 and of the shoreward isochrons of seismic unit U6"
+        ],
+        "sample_type": [],
+        "time": {
+          "end": null,
+          "label": "Late Pleistocene to Holocene",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "reported uncertainties of about ± 0.3 to ± 1.0 mm/yr and offset ranges of 29 ± 7 m to 62 ± 13 m"
+      },
+      "quotes": [
+        "These data indicate a Holocene slip rates of 2.3 ± 0.6 mm/yr.",
+        "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes.",
+        "The most active fault is the Evrona Fault that absorbs most of the left lateral slip within the basin with an average sinistral slip rate of 0.7 ± 0.3 mm/yr through the Late Pleistocene and 2.3–3.4 mm/yr during the Holocene.",
+        "The resulting sinistral and normal slip rates along the Evrona Fault indicate an increasing slip rate from the Late Pleistocene to the early Holocene.",
+        "Since the last marine transgression (i.e., MIS 5, \\~130–80 ka), the average sinistral, slip rate of the Evrona Fault has increased from \\~0.7 ± 0.3 mm/yr to between approximately 2.3 and 3.4 mm/yr, and the average rate of tilting of the Ayla High has increased from 4°/my to 9°/my."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The reported average is 0.7 ± 0.3 mm/yr through the Late Pleistocene and 2.3–3.4 mm/yr during the Holocene. Retain the interval–rate pairing and the distinction between the uncertainty on the older estimate and the younger range. Known active-corpus reference: 10.1002_2013JB010879.pdf; claim:sha256:9a7ce0aefa350eb2d8bf43066c6953b101e65f67ef2e9e27b750fa0c4782895b.",
+      "rubric": {
+        "3": "Reports both interval-specific sinistral rates with correct temporal assignment and units.",
+        "2": "Contains a compatible Evrona sinistral rate but omits one interval or leaves its averaging interval unresolved.",
+        "1": "Provides slip-rate background or explicitly assigns the correct numerical rate to the wrong requested interval.",
+        "0": "No relevant Evrona horizontal slip-rate evidence, such as unrelated earthquake magnitude data."
+      },
+      "pool_sha256": "3c6f93ceeead64384d1c18a0302b488a5a965f8d5d20632362075d39ed8f2f28"
+    }
+  },
+  {
+    "query_id": "q08",
+    "query_text": "osmium isotope Archean mantle komatiite",
+    "candidate": {
+      "candidate": 30,
+      "document_id": "claim:sha256:9589e2707fd633a9fc55a13a0eb653a912522005b3a4083ea617a28a76fed4ba",
+      "paper_id": "paper:bffe3b8febf2cd38c411185fa170443ced104e1a48088e802ff6797272654c87",
+      "canonical": "The time-integrated Re/Os and Pt/Os isotope signatures of the TN and PH mantle sources are chondritic and are best matched by enstatite chondrites.",
+      "original": "These parameters, which by far represent the most precise and accurate estimates of time-integrated $\\mathrm { P t / O s }$ and $\\mathrm { R e } / \\mathrm { O s }$ of the Archean mantle, are best matched by those of enstatite chondrites.",
+      "scope": {
+        "location": [
+          "Belingwe greenstone belt, Zimbabwe, and Munro Township, Abitibi greenstone belt, Canada"
+        ],
+        "time": {
+          "label": "ca. 2.7 Ga; early-Earth timing where specified",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Reliance Formation (TN) and PH-II flow"
+        ],
+        "sample_type": [
+          "Komatiite lava flows and calculated mantle-source compositions"
+        ],
+        "method": [
+          "Pt–Re–Os and Sm–Nd isotope analysis, HSE and REE abundance analysis, and source/melting models"
+        ],
+        "condition": [
+          "Well-preserved TN and PH flows; model conditions where stated"
+        ],
+        "measurement": [
+          "Source REE, HSE, and isotope systematics"
+        ],
+        "uncertainty": "Reported analytical uncertainties; calculated source abundances and melting histories are model-dependent.",
+        "entities": [
+          "PH-II flow (PH)",
+          "Primitive Upper Mantle (PUM)",
+          "Tony’s flow (TN)",
+          "enstatite chondrites",
+          "mantle sources"
+        ]
+      },
+      "quotes": [
+        "These parameters, which by far represent the most precise and accurate estimates of time-integrated $\\mathrm { P t / O s }$ and $\\mathrm { R e } / \\mathrm { O s }$ of the Archean mantle, are best matched by those of enstatite chondrites.",
+        "The source of the PH flow would have evolved from the early solar system to its initial $^ { 1 8 6 } \\mathrm { O s } / ^ { 1 8 8 } \\mathrm { O s } =$ 0.1198316 at $2 7 3 3 \\mathrm { M a }$ with a time-integrated, chondritic 190Pt/188Os = 0.00174 ± 0.00018, which is equivalent to a $\\mathrm { P t } / \\mathrm { O s } = 1 . 8 2 \\pm 0 . 1 9$ .",
+        "Using an early solar system initial $^ { 1 8 6 } \\mathrm { O s } / ^ { 1 8 8 } \\mathrm { O s } = 0 . 1 1 9 8 2 6 9$ (Brandon et al., 2006) and the $^ { 1 9 0 } \\mathrm { { P t } }$ decay constant $\\lambda = 1 . 4 7 7 \\times 1 0 ^ { - 1 2 } { \\mathrm { y e a r } } ^ { - 1 }$ (Begemann et al., 2001), it is calculated that the source of the TN flow would evolve from $T = 4 5 5 8 \\mathrm { M a }$ to its initial 186Os/188Os = 0.1198318 at 2690 Ma with a time-integrated, chondritic $^ { 1 9 0 } \\mathrm { P t } / ^ { 1 8 8 } \\mathrm { O s } = 0 . 0 0 1 7 8 \\pm 0 . 0 0 0 1 1$ , equivalent to $\\mathrm { P t } / \\mathrm { O s } = 1 . 8 6 \\pm 0 . 1 2$ .",
+        "The source of the PH flow is calculated to have evolved to its initial $^ { 1 8 7 } \\mathrm { O s } / ^ { 1 8 8 } \\mathrm { O s } = 0 . 1 0 8 7 3$ at $2 7 3 3 \\mathrm { M a }$ with a time-integrated, chondritic ${ } ^ { 1 8 7 } \\mathrm { R e } / { } ^ { 1 8 8 } \\mathrm { O s } = 0 . 4 1 5 \\pm 5 $ .",
+        "Using an early solar system initial $^ { 1 8 7 } \\mathrm { O s } / ^ { 1 8 8 } \\mathrm { O s } =$ 0.09531 (Shirey and Walker, 1998) and the $^ { 1 8 7 } \\mathrm { R e }$ decay constant $\\lambda { = } 1 . 6 \\dot { 6 } 6 \\times 1 0 ^ { - 1 1 } \\mathrm { y e a r } ^ { - 1 }$ (Smoliar et al., 1996), it is calculated that the source of the TN flow would have evolved from $T = 4 5 5 8 \\mathrm { M a }$ to its initial $^ { 1 8 7 } \\mathrm { O s } / ^ { 1 8 8 } \\mathrm { O s } =$ 0.10875 at $2 6 9 0 \\mathrm { M a }$ with a time-integrated, chondritic ${ } ^ { 1 8 7 } \\mathrm { R e } / { } ^ { 1 8 8 } \\mathrm { O s } = 0 . 4 0 7 \\pm 5$ ."
+      ],
+      "evidence_context": "[source] These parameters, which by far represent the most precise and accurate estimates of time-integrated $\\mathrm { P t / O s }$ and $\\mathrm { R e } / \\mathrm { O s }$ of the Archean mantle, are best matched by those of enstatite chondrites.\n[observation] The authors state that the estimated time-integrated Pt/Os and Re/Os parameters are best matched by enstatite chondrites.\n[reasoning] The Re–Os and Pt–Os source estimates jointly indicate chondritic time-integrated ratios, and the paper’s comparison identifies enstatite chondrites as the closest match."
+    },
+    "pool_query_context": {
+      "expected_answer": null,
+      "rubric": {
+        "3": "Direct evidence for the scientific topic and requested scope",
+        "2": "Compatible partial answer",
+        "1": "Background or explicit scope conflict",
+        "0": "Unrelated"
+      },
+      "pool_sha256": "4e9666f8d2b504e29fbf6f480cdb4f576abc1c46c19bddda3f7e1eb907c30be4"
+    }
+  },
+  {
+    "query_id": "q10",
+    "query_text": "chromium isotope fractionation oxidative weathering Precambrian",
+    "candidate": {
+      "candidate": 19,
+      "document_id": "claim:sha256:e0418382682065eaa6814677bf087a64be850f2e93a70b77c9d62710e95ed033",
+      "paper_id": "paper:8b7f64955aac277696a4357e3bbae510a020f6576915363c003e733b7a1c8a2a",
+      "canonical": "Slightly positive δ53Cr values in some sedimentary carbonates do not necessarily indicate a rise in atmospheric oxygen, because non-redox Cr cycling can also fractionate chromium isotopes.",
+      "original": "It has been found that ligand-promoted dissolution of $\\mathrm { { C r } ( I I I ) }$ (hydroxide, chromitite and silicate rocks) could be accompanied by Cr isotopic fractionation, with heavier",
+      "scope": {
+        "condition": [
+          "slightly positive δ53Cr values"
+        ],
+        "entities": [
+          "Cr(III)",
+          "atmospheric oxygen level",
+          "non-redox weathering",
+          "δ53Cr"
+        ],
+        "formation": [],
+        "location": [],
+        "measurement": [
+          "δ53Cr and atmospheric oxygen level"
+        ],
+        "method": [
+          "Cr-isotope interpretation"
+        ],
+        "sample_type": [
+          "sedimentary carbonates"
+        ],
+        "time": null,
+        "uncertainty": "Non-redox Cr cycling can also fractionate isotopes."
+      },
+      "quotes": [
+        "Therefore, positive $\\delta ^ { 5 3 } \\mathrm { C r }$ values in carbonates might not necessarily represent the presence of oxidative $\\mathrm { C r }$ weathering.",
+        "It has been found that ligand-promoted dissolution of $\\mathrm { { C r } ( I I I ) }$ (hydroxide, chromitite and silicate rocks) could be accompanied by Cr isotopic fractionation, with heavier",
+        "isotopes preferentially liberated [27,28].",
+        "In natural aquatic environments, $\\mathrm { C r } ( \\mathrm { I I I } )$ can result from the reduction of $\\mathrm { C r } ( \\mathrm { V I } )$ , but can also come from the non-redox weathering of $\\mathrm { C r }$ -bearing source rocks induced by $\\mathrm { C O } _ { 2 }$ or organic acid [23,25], especially during the early geological history when the AOL was low [26].",
+        "As non-redox $\\mathrm { C r }$ cycling also can cause isotopic fractionation, the slightly positively fractionated $\\mathrm { C r }$ isotopic values previously reported for some sedimentary carbonates do not necessarily correspond to the rise in the AOL as previously suggested."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": null,
+      "rubric": {
+        "3": "Direct evidence for the scientific topic and requested scope",
+        "2": "Compatible partial answer",
+        "1": "Background or explicit scope conflict",
+        "0": "Unrelated"
+      },
+      "pool_sha256": "d906918688eefb020db529dae0d3ebfb16891d3e0081696fac8173fba3abd114"
+    }
+  },
+  {
+    "query_id": "q89",
+    "query_text": "Find quantitative estimates of the fraction of total nitrate reduction attributable to anammox in marine sediments. Report the fraction and identify the sampled setting and measurement context.",
+    "candidate": {
+      "candidate": 19,
+      "document_id": "claim:sha256:297a63c9a7829b70b5235a31ce90248a937f24855a35247713d88d1e11a8c34e",
+      "paper_id": "paper:d35d4a7994c7d6c8e0156df9615142599316d12f87072be6942648c01894ce3f",
+      "canonical": "Anammox was a significant but secondary nitrate-reduction pathway in the sampled SBB sediments, contributing up to 26.6% of total nitrate reduction.",
+      "original": "Denitrification was the dominant $\\mathrm { N O } _ { 3 } ^ { - }$ reduction process, while anammox contributed $0 \\% - 2 7 \\%$ to total $\\mathrm { N O } _ { 3 } ^ { - }$ reduction.",
+      "scope": {
+        "condition": [
+          "Seasonal anoxia during the November 2019 survey; bottom-water oxygen conditions varied across stations, with depletion at the depocenter."
+        ],
+        "entities": [
+          "DNRA",
+          "Santa Barbara Basin sediments",
+          "anammox",
+          "denitrification",
+          "nitrate",
+          "nitrous oxide"
+        ],
+        "formation": [],
+        "location": [
+          "Santa Barbara Basin, California"
+        ],
+        "measurement": [
+          "Benthic nitrate uptake and relative contributions of nitrate-reduction pathways and N₂O production"
+        ],
+        "method": [
+          "In situ benthic flux chamber incubations with ¹⁵NO₃⁻ addition"
+        ],
+        "sample_type": [
+          "Sediments along the surveyed northern and southern transect"
+        ],
+        "time": {
+          "end": null,
+          "label": "November 2019; one seasonal survey",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Tracer nitrate amendment may stimulate uptake and alter the partition between nitrate storage and reduction; seasonal variability is not resolved."
+      },
+      "quotes": [
+        "Overall, anammox contributed up to $2 6 . 6 \\%$ of $\\mathrm { N O } _ { 3 } ^ { - }$ reduction in the SBB (Table 2), indicating that anammox was a significant process in benthic SBB N cycling.",
+        "Denitrification was the dominant $\\mathrm { N O } _ { 3 } ^ { - }$ reduction process, while anammox contributed $0 \\% - 2 7 \\%$ to total $\\mathrm { N O } _ { 3 } ^ { - }$ reduction.",
+        "The relative contribution of different processes (total $\\Nu _ { 2 }$ production, $\\Nu _ { 2 }$ from denitrification, $\\Nu _ { 2 }$ from anammox, $\\mathrm { N H } _ { 4 } ^ { + }$ from DNRA, and ${ \\mathrm { N } } _ { 2 } { \\mathrm { O } }$ production) to total $\\mathrm { N O } _ { 3 } ^ { - }$ reduction (upper part) and the relative contribution of total $\\mathrm { N O } _ { 3 } ^ { - }$ reduction to total $\\mathrm { N O } _ { 3 } ^ { - }$ uptake (lower part) in the Santa Barbara Basin.",
+        "Total $\\mathrm { N O } _ { 3 } ^ { - }$ reduction consists of total $\\Nu _ { 2 }$ production, $\\mathrm { N H } _ { 4 } ^ { + }$ from DNRA, and ${ \\bf N } _ { 2 } { \\bf O }$ production."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "Any directly supported compatible marine-sediment fraction with total nitrate reduction as denominator and a disclosed setting/context can fully answer this broad query. One grounded example is the November 2019 Santa Barbara Basin benthic 15NO3− chamber study: anammox contributed up to 26.6% of total nitrate reduction (abstract rounded range 0–27%). The denominator includes N2 production, DNRA-derived NH4+, and N2O production, and differs from total nitrate uptake or N2 production alone. This single seasonal survey and tracer-amended chamber result should not be represented as a universal annual fraction. Grounded reference: claim:sha256:297a63c9a7829b70b5235a31ce90248a937f24855a35247713d88d1e11a8c34e; 2024_The fate of fixed nitrogen in Santa Barbara Basin sediments during seasonal anoxia_4b6d3792.pdf.",
+      "rubric": {
+        "3": "Any supported fraction of total nitrate reduction in marine sediment, with setting and measurement context disclosed; matching the example site, season, or exact numeric value is not required.",
+        "2": "A compatible fraction with incomplete contextual identification, or marine-sediment evidence establishing anammox without quantifying the requested fraction. No known scope conflict.",
+        "1": "Water-column fractions or fractions using N2 production/nitrate uptake denominators; related sediment N-cycle background.",
+        "0": "Unrelated to the requested quantity and scientific setting."
+      },
+      "pool_sha256": "c8cb01e98bf907d37bb92cad23c56be0a568e702cab12d8ea2f042cc65038e4e"
+    }
+  },
+  {
+    "query_id": "q06",
+    "query_text": "lithium isotope continental weathering silicate mineral",
+    "candidate": {
+      "candidate": 33,
+      "document_id": "claim:sha256:7f9ec7fd466262560b026153da23e770e5e7c51b8726ca2ae5aeb02a3960dbcc",
+      "paper_id": "paper:c06652a3e5e8917be8195e98bcb227f0aa9284ef83a12a43283e79594211abea",
+      "canonical": "Expansion of deep-rooted land plants is the most plausible driver of Mid-Devonian regolith thickening and intensified global silicate weathering, changing riverine Li flux and δ⁷Li in a way that accounts for the seawater isotope rise.",
+      "original": "To explain the apparent discrepancy between the Li isotope signatures we would expect, based on modern observations,and the seawater Liisotope compositions reconstructed from Devonian paleo-records,we propose that the repeated destruction and regeneration of terrestrial ecosystems helped to maintain high $\\delta ^ { 7 } \\mathrm { L i } _ { \\mathrm { s e a w a t e r } }$ values during the Late Devonian, thereby circumventing the problem of a reduction in primary mineral availability as soils thicken.Theoretically,if the mature ecosystems are destroyed,the roots binding the soils would be removed, thereby increasing the erosion rates of the overlying regolith and exposing fresh rocks.The continents would then entera kinetic-limited weathering regime with low WI, producing low ${ \\delta } ^ { 7 } \\mathrm { L i } _ { \\mathrm { r i v e r } }$ values and high Li fluxes (arrow 3 in Fig.6).The subsequent regeneration of the ecosystems (i.e.,restoration of plants) could gradually rebuild the regolith (arrow1in Fig.6),producing weathering fluxes with highly fractionated ${ \\delta } ^ { 7 } \\mathrm { L i } _ { \\mathrm { r i v e r } }$ values again.As the regolith thickens, the WI would increase (arrow 2 in Fig.6),until another destruction event removes the roots and re-exposes the fresh rocks.These destruction-regeneration cycles could have repeated with a high frequency,producing a quasi-stable weathering pattern.Given the long residence time of Li in the ocean, the oscillations in $\\delta ^ { 7 } \\mathrm { L i } _ { \\mathrm { r i v e r } }$ values and Li fluxes would result in overall high $\\delta ^ { 7 } \\mathrm { L i } _ { \\mathrm { s e a w a t e r } }$ values on million-year timescales (i.e., the oscillations in the inputs over shorter timescales would likely be undetectable in marine sediments).The potential causes of the terrestrial ecosystem destruction required for such a scenario have been studied extensively, and include widespread wildfires,which might have been",
+      "scope": {
+        "location": [],
+        "time": {
+          "label": "Mid-Devonian",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [],
+        "method": [
+          "Li-isotope reconstruction and Monte Carlo box modeling"
+        ],
+        "condition": [
+          "Global interpretation under the study's modeled parameter ranges."
+        ],
+        "measurement": [
+          "Weathering intensity, regolith thickness, riverine Li flux and δ⁷Li, seawater δ⁷Li"
+        ],
+        "uncertainty": "Uniform independent input-uncertainty sampling and simplified global scenarios; coarse spatial and temporal resolution.",
+        "entities": [
+          "continental silicate weathering",
+          "deep-rooted land plants",
+          "regolith",
+          "riverine Li",
+          "seawater"
+        ]
+      },
+      "quotes": [
+        "To explain the apparent discrepancy between the Li isotope signatures we would expect, based on modern observations,and the seawater Liisotope compositions reconstructed from Devonian paleo-records,we propose that the repeated destruction and regeneration of terrestrial ecosystems helped to maintain high $\\delta ^ { 7 } \\mathrm { L i } _ { \\mathrm { s e a w a t e r } }$ values during the Late Devonian, thereby circumventing the problem of a reduction in primary mineral availability as soils thicken.Theoretically,if the mature ecosystems are destroyed,the roots binding the soils would be removed, thereby increasing the erosion rates of the overlying regolith and exposing fresh rocks.The continents would then entera kinetic-limited weathering regime with low WI, producing low ${ \\delta } ^ { 7 } \\mathrm { L i } _ { \\mathrm { r i v e r } }$ values and high Li fluxes (arrow 3 in Fig.6).The subsequent regeneration of the ecosystems (i.e.,restoration of plants) could gradually rebuild the regolith (arrow1in Fig.6),producing weathering fluxes with highly fractionated ${ \\delta } ^ { 7 } \\mathrm { L i } _ { \\mathrm { r i v e r } }$ values again.As the regolith thickens, the WI would increase (arrow 2 in Fig.6),until another destruction event removes the roots and re-exposes the fresh rocks.These destruction-regeneration cycles could have repeated with a high frequency,producing a quasi-stable weathering pattern.Given the long residence time of Li in the ocean, the oscillations in $\\delta ^ { 7 } \\mathrm { L i } _ { \\mathrm { r i v e r } }$ values and Li fluxes would result in overall high $\\delta ^ { 7 } \\mathrm { L i } _ { \\mathrm { s e a w a t e r } }$ values on million-year timescales (i.e., the oscillations in the inputs over shorter timescales would likely be undetectable in marine sediments).The potential causes of the terrestrial ecosystem destruction required for such a scenario have been studied extensively, and include widespread wildfires,which might have been",
+        "Indeed, the timing of the increase in our brachiopod $\\delta ^ { 7 } \\mathrm { L i }$ data,and the inferred rise in seawater $\\mathrm { \\delta ^ { 8 7 } L i }$ values,agrees well with the fossil records of deep-rooted forests found worldwide in the Mid-Devonian $\\left( \\sim 3 8 5 ~ \\mathrm { M a } \\right)$ (Stein et al., 2020) (Fig.2E).Unlike the avascular dwarf plants of the Ordovician and Silurian, the roots of the Late Devonian arborescent plants could reach several metres in depth,which may have increased the weathering fluxes (Algeo et al., 2Ool).",
+        "Considering the current understanding of how processes such as denudation and temperature operate upon weathering,combined with the wide uncertainty ranges sampled by our Monte Carlo approach, the box model results suggest that the rise in seawater $\\delta ^ { 7 } \\mathrm { L i }$ values is best explained by a $\\sim 1 0 \\text{‰}$ rise in riverine $\\mathrm { \\delta ^ { 8 7 } L i }$ values ( $\\mathrm { f r o m } \\sim 1 4 \\%$ to $\\sim 2 4$ $\\\\\\text{‰}$ (Fig.5D),accompanied by a two-fold increase in riverine Li fluxes across the Mid-Devonian (Fig.5C).At the same time, the $\\Delta ^ { 7 } \\mathrm { L i } _ { \\mathrm { : } }$ seawater-sink shows only a minor increase from $4 \\text{‰}$ to $5 \\text{‰}$ during this time (Fig.",
+        "The resultant poor fitting in all three additional tests (scenarios 2-4) appears to suggest that the regolith thickening occurred largely independent of either climate or tectonics (Fig.S7),even though these factors are generally considered as major controls on regolith production.These test results,based on our understanding of the Earth system during the Devonian,may suggest that the increase in Devonian seawater Li isotopes is likely related to independent regolith thickening.As the rootdepth evolution of vascular plants is independent from tectonic and climatic evolution,herein, we suggest that the rapid expansion of deeprooted land plants might have been responsible for the regolith thickening and ultimately the changes in weathering during the Devonian,as also hypothesized by Kalderon-Asael et al.",
+        "In addition, these deep roots would have enabled the trees to bind soils,thereby decreasing soil erosion and increasing soil residence times,eventually allowing more time for secondary mineral formation (i.e.,higher Li isotope compositions;",
+        "Therefore,despite our simple IMB modelling suggesting that changes in the Li sink did not substantially affect the Devonian seawater Li isotope record (see above), we also conducted sensitivity tests for the influence of both climatedependent and tectono-climate (sediment)-dependent reverse weathering changes on the $\\delta ^ { 7 } \\mathrm { { L i } }$ record generated by our model.More details of the configurations of these scenarios can be found in the Supplementary Materials.The relatively poorer fitting of all these scenarios (Fig.S6) suggests that,based on our current understanding of the Devonian Period,regolith thickening was very likely the main driver of the weathering transformations,and consequently the $\\delta ^ { 7 } \\mathrm { L i }$ record,across the Devonian (see Supplementary Materials)."
+      ],
+      "evidence_context": "[observation] The timing of the brachiopod δ⁷Li rise and inferred seawater rise agrees with worldwide fossil records of deep-rooted forests in the Mid-Devonian (~385 Ma) (Fig. 2E).\n[reasoning] The preferred regolith-thickening scenario coincides with the spread of deep-rooted forests, whose soil binding and longer residence times offer a mechanism for greater secondary-mineral formation and Li fractionation; the model therefore favors plant-driven weathering change, although its simplified assumptions do not establish a unique cause."
+    },
+    "pool_query_context": {
+      "expected_answer": null,
+      "rubric": {
+        "3": "Direct evidence for the scientific topic and requested scope",
+        "2": "Compatible partial answer",
+        "1": "Background or explicit scope conflict",
+        "0": "Unrelated"
+      },
+      "pool_sha256": "f642eacfecc640d0a5e4712b4b43d56c4b6b7a3b80f655bc180052e48f3a742c"
+    }
+  },
+  {
+    "query_id": "q66",
+    "query_text": "How does the pooled mean nitrate concentration across the 73-bore-well survey in the eastern Central Arabian graben and trough system compare with the Biyadh and Biyadh–Wasia aquifer-specific means?",
+    "candidate": {
+      "candidate": 21,
+      "document_id": "claim:sha256:4877da310be257268823d5e93a3f421a5364e2d40e04fb08355af5368b177fb5",
+      "paper_id": "paper:3387fd79a9beb4be091f75580e45503fab1b55eb0b155ccbd9ea7faee8946c66",
+      "canonical": "Mean nitrate concentration in the sampled groundwater is 56.38 mg/l, exceeding the 50 mg/l SASO and WHO drinking-water limits.",
+      "original": "The nitrate values range from 0.50 to 378 mg/l with an average of 56.38 mg/l which is above the Saudi Standards, Metrology and Quality Organization (SASO) and WHO prescribed limits of 50 mg/l for drinking water.",
+      "scope": {
+        "condition": [
+          "SASO and WHO drinking-water limit of 50 mg/l"
+        ],
+        "entities": [
+          "Biyadh aquifer",
+          "Biyadh-Wasia aquifer",
+          "Wasia aquifer",
+          "groundwater",
+          "nitrate"
+        ],
+        "formation": [
+          "Cretaceous Biyadh and Wasia sandstone aquifers"
+        ],
+        "location": [
+          "eastern part of the Central Arabian graben and trough system, Saudi Arabia"
+        ],
+        "measurement": [
+          "nitrate concentration"
+        ],
+        "method": [
+          "comparison of nitrate concentrations with SASO and WHO drinking-water limits"
+        ],
+        "sample_type": [
+          "groundwater samples from 73 bore wells"
+        ],
+        "time": null,
+        "uncertainty": null
+      },
+      "quotes": [
+        "The nitrate values range from 0.50 to 378 mg/l with an average of 56.38 mg/l which is above the Saudi Standards, Metrology and Quality Organization (SASO) and WHO prescribed limits of 50 mg/l for drinking water.",
+        "Aquifer wise break up shows that the mean nitrate values for Biyadh and Biyadh-Wasia aquifer are well within the prescribed limits for drinking water (36.57 and 22.70 mg/l respectively)."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The pooled mean is 56.38 mg/L, compared with 36.57 mg/L for Biyadh and 22.70 mg/L for Biyadh–Wasia. Both named subset means are lower than the pooled mean. The full survey range 0.50–378 mg/L is supplementary, not requested. Grounded reference: claim:sha256:4877da310be257268823d5e93a3f421a5364e2d40e04fb08355af5368b177fb5; 10.1016_j.jafrearsci.2016.05.012.pdf.",
+      "rubric": {
+        "3": "All three correctly assigned means with units and comparison.",
+        "2": "Only the pooled mean, one or both correctly identified subset means, or a compatible incomplete comparison. No known scope conflict.",
+        "1": "Evidence with the conflicting scope described in the trap, or relevant background that does not supply the requested scoped result. Correctly labeled partial evidence instead receives 2.",
+        "0": "Irrelevant to the requested scientific quantity and setting."
+      },
+      "pool_sha256": "4658e45b6b3d60204936ed72844639e9d8e1b97fcc466fcea48faad137686a4e"
+    }
+  },
+  {
+    "query_id": "q56",
+    "query_text": "How do the western- and eastern-domain mean Moho-corrected Pn velocities compare in the eastern Europe–western China tomography study?",
+    "candidate": {
+      "candidate": 2,
+      "document_id": "claim:sha256:f1258da9734838fd5e51c693ce3d7c415b78ed63a7a2f85db51fd90ae2f59d25",
+      "paper_id": "paper:f99e1a284b71778c96fececadc60f40097a423158023634ff6cbefe3b00c7f5a",
+      "canonical": "From eastern Europe to western China, the Moho-corrected tomography shows a laterally heterogeneous uppermost-mantle Pn-velocity field: high velocities occur beneath the Adriatic, Black, and Caspian Seas, the Arabian and Indian Plates, and the Tarim and Sichuan Basins, whereas low velocities occur beneath the Apennine Peninsula, Dead Sea fault zone, Anatolia, Caucasus, Iranian Plateau, Hindu Kush, Yunnan, and Myanmar; the western and eastern domains average approximately 8.0 and 8.1 km/s, respectively, with approximately 3%–4% perturbations.",
+      "original": "Beneath the eastern part of the study area, the average Pn velocity is 8.1 km/s with velocity perturbations of approximately 3%–4% (Figure 10b).",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "Moho",
+          "Pn waves",
+          "eastern Europe",
+          "uppermost mantle",
+          "western China"
+        ],
+        "formation": [],
+        "location": [
+          "eastern Europe to western China"
+        ],
+        "measurement": [
+          "Pn velocity and anisotropy"
+        ],
+        "method": [
+          "Moho-depth-corrected Pn velocity and anisotropy tomography"
+        ],
+        "sample_type": [
+          "Pn traveltimes from the study area"
+        ],
+        "time": null,
+        "uncertainty": null
+      },
+      "quotes": [
+        "Beneath the eastern part of the study area, the average Pn velocity is 8.1 km/s with velocity perturbations of approximately 3%–4% (Figure 10b).",
+        "High Pn velocities are distributed in the Indian Plate, Tarim Basin, Qaidam Basin, Junggar Basin, and Sichuan Basin.",
+        "In comparison, low Pn velocity anomalies are distributed in the Hindu Kush, Tianshan Mountains, Songpan-Ganzi orogenic belt, and Yunnan and Myanmar regions.",
+        "The average Pn velocity is 8.0 km/s in the western part of the study area, and the velocity perturbations are approximately 3%–4% (Figure 10a).",
+        "In general, high Pn velocities are distributed in the Russian Platform, Adriatic Sea, Aegean Sea, Black Sea, Caspian region, and Arabian plate.",
+        "In comparison, low Pn velocities are distributed in the Apennine Peninsula, Alps, Dead Sea fault region, Anatolia, Caucasus, and in parts of the Iranian Plateau."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The western-domain mean Pn velocity is about 8.0 km/s and the eastern-domain mean is about 8.1 km/s. The approximately 3–4% perturbations and detailed anomaly geography are supplementary. Known positive reference: claim:sha256:f1258da9734838fd5e51c693ce3d7c415b78ed63a7a2f85db51fd90ae2f59d25; source: 10.1002_2016JB013052.pdf.",
+      "rubric": {
+        "3": "Correctly assigns mean Pn speeds of ~8.0 km/s to the western and ~8.1 km/s to the eastern tomography domain.",
+        "2": "Provides one compatible domain mean and leaves the other unresolved. No known scope conflict.",
+        "1": "Known conflicting scope or useful background only. S-wave velocity or crustal P-wave speed instead of uppermost-mantle Pn, or eastern/western domain means swapped.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "4a3c0497551bbe8493a966796199514e3299e36c3ac086605ab90d28827c5de9"
+    }
+  },
+  {
+    "query_id": "q59",
+    "query_text": "What paired laboratory-scale and natural-scale estimates of maximum horizontal trench-normal deviatoric stress have been reported for analogue subduction/backarc experiments?",
+    "candidate": {
+      "candidate": 20,
+      "document_id": "claim:sha256:fc2009a8c5980613864df2fa0ac58047d0bb9415c3a3bc4d866cb1d9f5ba0f43",
+      "paper_id": "paper:27b20273d06556b3452e79b82b52d50b698750aa4e66dee489b71d469a3c0913",
+      "canonical": "Within the analogue models, basal-drag-induced tensional horizontal trench-normal deviatoric stress in the backarc, scaling to ∼28.8 MPa, is about 8–12 times larger than the trench-normal stress from the horizontal component of trench suction, scaling to ∼2.4–3.6 MPa, so trench suction is a minor driver of overriding-plate backarc extension.",
+      "original": "Therefore, the estimated maximum horizontal trench-normal deviatoric stress within the overriding plate is ∼7.2 Pa, scaling to 28.8 MPa in nature, which is some 8–12 times larger than the estimated trench suction stress $( \\sim 0 .",
+      "scope": {
+        "condition": [
+          "progressive subduction"
+        ],
+        "entities": [
+          "backarc region",
+          "basal drag",
+          "overriding plate",
+          "trench suction"
+        ],
+        "formation": [],
+        "location": [
+          "analogue overriding plate and natural scaling"
+        ],
+        "measurement": [
+          "horizontal trench-normal deviatoric stress and trench-suction stress"
+        ],
+        "method": [
+          "stress estimates from analogue-model strain and interface shear"
+        ],
+        "sample_type": [
+          "fixed overriding plate model"
+        ],
+        "time": {
+          "end": null,
+          "label": "whole subduction process",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "estimated stress magnitudes"
+      },
+      "quotes": [
+        "This comparison indicates that the trench suction force plays a minor role in driving overriding plate deformation.",
+        "Therefore, the estimated maximum horizontal trench-normal deviatoric stress within the overriding plate is ∼7.2 Pa, scaling to 28.8 MPa in nature, which is some 8–12 times larger than the estimated trench suction stress $( \\sim 0 .",
+        "6 \\substack { - 0 .",
+        "9 } \\mathrm { P a } )$ .",
+        "Indeed, the forearc shortening observed in our free overriding plate model indicates that trench suction cannot drive backarc extension located behind the forearc region.",
+        "9$ Pa, scaling to ∼2.4–3.6 MPa in nature, which is also the value of the horizontal component of the trench suction stress."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "Accept any documented compatible pair of laboratory-scale and natural-scale maximum horizontal trench-normal deviatoric stress estimates, with the scale mapping disclosed. A known example reports about 7.2 Pa in the experiment, scaling to about 28.8 MPa in nature. This example is not an exclusive target; a fixed-overriding-plate condition is not required. Known positive reference: claim:sha256:fc2009a8c5980613864df2fa0ac58047d0bb9415c3a3bc4d866cb1d9f5ba0f43; source: 10.1016_j.epsl.2016.02.027.pdf.",
+      "rubric": {
+        "3": "Provides a documented compatible laboratory/natural-scale maximum horizontal trench-normal deviatoric-stress pair for analogue subduction/backarc experiments, with scale mapping disclosed. The ~7.2 Pa/~28.8 MPa pair is one eligible example, not a required value pair.",
+        "2": "Provides a compatible correctly labeled laboratory or natural-scale stress estimate but omits its paired value or leaves the scale mapping unresolved; no known scope conflict.",
+        "1": "Known conflicting scope or useful background only. Treating the 7.2 Pa laboratory stress as the natural-scale magnitude, or the 28.8 MPa scaled value as a directly measured laboratory stress, confuses the scale of the same stress quantity.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "464228c9f8f93aa776ade4340c4dd77721e0d46f6a8141eb1aec930b44d5d337"
+    }
+  },
+  {
+    "query_id": "q25",
+    "query_text": "What total duration of Antarctic Ferrar magmatism is bracketed from emplacement of the Dawson Peak sill to eruption of the uppermost Storm Peak lava?",
+    "candidate": {
+      "candidate": 12,
+      "document_id": "claim:sha256:c22f30c56bc5b60fce70f1dae26c80911533339b79f21fc49a2cfc8e2ca7d9d7",
+      "paper_id": "paper:2d8b9edf9cbf6e532538b61a7d3ff28533b04a3caf9ec9f20908aa250e7c8e8f",
+      "canonical": "In the Antarctic Ferrar LIP, dated intrusive and extrusive magmatism spanned 349 ± 49 kyr, from emplacement of the Dawson Peak sill to eruption of the uppermost Storm Peak lava.",
+      "original": "The total duration of the Antarctic portion of magmatism is $3 4 9 \\pm 4 9$ kyr.",
+      "scope": {
+        "condition": [
+          "Antarctic portion; Mt. Falla sill excluded from the duration bracket"
+        ],
+        "entities": [
+          "Dawson Peak sill",
+          "Ferrar LIP",
+          "uppermost Storm Peak lava"
+        ],
+        "formation": [
+          "Ferrar Large Igneous Province"
+        ],
+        "location": [
+          "Antarctica"
+        ],
+        "measurement": [
+          "Duration of combined intrusive and extrusive magmatism"
+        ],
+        "method": [
+          "Single-crystal chemical abrasion U–Pb ID-TIMS zircon geochronology"
+        ],
+        "sample_type": [
+          "Dated sills and lavas"
+        ],
+        "time": {
+          "end": null,
+          "label": "Early Jurassic",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "349 ± 49 kyr"
+      },
+      "quotes": [
+        "The total duration of the Antarctic portion of magmatism is $3 4 9 \\pm 4 9$ kyr.",
+        "This period is defined by the difference in age of the",
+        "Dawson Peak sill and the uppermost lava flow from Storm Peak, excluding the relatively imprecise date on two grains from the Mt.",
+        "Falla sill.",
+        "Table 1 Weighted-mean $^ { 2 0 6 } \\mathrm { P b } / ^ { 2 3 8 } \\mathrm { U }$ dates. Uncertainty on weighted mean dates is reported as $\\pm x / y / z$ , where $x$ is the analytical (internal) uncertainty and $y$ and $z$ include the systematic uncertainties associated with tracer calibration $( 0 . 0 3 \\% )$ and $^ { 2 3 8 } \\mathrm { U }$ decay constant $( 0 . 0 5 \\% )$ , respectively. If calculated dates are to be compared with other $\\mathrm { U - P b }$ labs not using the EARTHTIME tracer, then $\\pm y$ should be used. If compared to other chronometers such as ${ } ^ { \\circ } \\mathrm { A r } - { } ^ { 3 9 } \\mathrm { A r }$ or astrochronology, then $\\pm z$ should be used. Full analytical results can be found in Table S1. "
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The dated intrusive-plus-extrusive interval is 349 ± 49 kyr. The published bracket excludes the relatively imprecise Mt. Falla sill date. Keep the Antarctic geographical scope and the sill-to-lava bounding events with the duration. This is the dated magmatic interval, not proof of uninterrupted eruption throughout that span; do not invent an uncertainty confidence level absent from the retrieved record. Known active-corpus reference: W2081518814.pdf; claim:sha256:c22f30c56bc5b60fce70f1dae26c80911533339b79f21fc49a2cfc8e2ca7d9d7.",
+      "rubric": {
+        "3": "Reports 349 ± 49 kyr as the Antarctic intrusive-plus-extrusive span with both bounding events traceable.",
+        "2": "Correct total-duration target but an endpoint, province qualifier or uncertainty context is missing without a known mismatch.",
+        "1": "Relevant Ferrar timing background or a lava-only duration explicitly substituted for the total magmatic bracket.",
+        "0": "No usable Ferrar duration evidence, such as an unrelated eruption age or an inter-province onset offset alone."
+      },
+      "pool_sha256": "4725e1ff395c9b3b7b2e662a31c0071fa57ff5cf72161592a5e94ae13eb5edb2"
+    }
+  },
+  {
+    "query_id": "q62",
+    "query_text": "During the 2013 Mw 7.7 Balochistan earthquake, in which direction and at approximately what speed did rupture propagate along the Hoshab fault?",
+    "candidate": {
+      "candidate": 5,
+      "document_id": "claim:sha256:3dea5b52be9e5e51f045026e1b0d25cf03ad80b66358f4c2205702e1840c3474",
+      "paper_id": "paper:60e4d80a53be90528e177f4af59bff0f1c63dc34130ba6ca62106b0f1cc23dc6",
+      "canonical": "On the bent, non-optimally oriented Hoshab fault, the observed fast rupture is interpreted as requiring a low strength-excess-to-stress-drop ratio, possibly due to intrinsically low yielding strength and/or strong dynamic weakening.",
+      "original": "Finite source kinematic model.",
+      "scope": {
+        "condition": [
+          "shallow dip and westward bend of the Hoshab fault"
+        ],
+        "entities": [
+          "2013 Balochistan earthquake",
+          "Hoshab fault"
+        ],
+        "formation": [],
+        "location": [
+          "Eastern Makran"
+        ],
+        "measurement": [
+          "rupture propagation and slip distribution"
+        ],
+        "method": [
+          "teleseismic back-projection and finite-source inversion"
+        ],
+        "sample_type": [
+          "seismic rupture"
+        ],
+        "time": {
+          "end": null,
+          "label": "09/24/2013",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "the specific dynamic facilitation mechanism is unresolved"
+      },
+      "quotes": [
+        "These characteristics require a low ratio of strength excess to stress drop possibly attesting to an intrinsically low yielding strength and/or very strong dynamic weakening.",
+        "Finite source kinematic model.",
+        "Nevertheless, the amplitude of high frequency radiation, as well as surface deformation and the finite source model, all consistently show that seismic rupture was actually boosted and not inhibited as it propagated along the bent Hoshab fault.",
+        "Also, due to the gradual fault bend, dynamic stresses should have induced clamping, hence inhibited the propagation of the rupture.",
+        "Both the shallow dip angle and the increasing westward bend of the fault trace should make the Hoshab fault unfavorably oriented for a strike-slip rupture assuming a rather homogeneous regional stress field at the scale of the rupture.",
+        "The average rupture speed estimated by our teleseismic backprojection and finite source inversion results ( 3 km/s) is about 85% of the S-waves speed at the centroid rupture depth (see Table S1 for velocity structure).",
+        "The finite-source model (Fig.",
+        "7) shows that the rupture initiated on $\\tt { a 7 0 ^ { \\circ } }$ westward dipping subfault and then propagated to the southwest on $4 5 ^ { \\circ }$ northwestward dipping fault segments releasing a cumulative moment of $5 ."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The rupture propagated mostly unilaterally southwestward at approximately 3 km/s on average, with speed fluctuations. This is event-scale rupture propagation, not long-term fault slip. The approximately 200 km surface rupture length is supplementary. Known positive reference: claim:sha256:67dfa2039b640b8e3cbfd16ac435a90de210522b2fcfab60e438941b0cc185b4; source: 10.1016_j.epsl.2014.01.036.pdf.",
+      "rubric": {
+        "3": "Provides mostly unilateral southwestward rupture at ~3 km/s for the 2013 Mw 7.7 Balochistan event along Hoshab.",
+        "2": "Provides the compatible rupture direction but omits propagation speed, or vice versa. No known scope conflict.",
+        "1": "A result explicitly misassigned as described in the scope trap, or useful background without the requested scoped result. A correctly labeled compatible partial result receives 2.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "98cd7f56a006c2b1b71d82f69e95997329f78f6f5599cb75a98a9d5168b3a75a"
+    }
+  },
+  {
+    "query_id": "q72",
+    "query_text": "What combined global water-column denitrification budget does the particle-microenvironment model estimate, and how is it divided between suboxic waters and waters outside the suboxic domain?",
+    "candidate": {
+      "candidate": 10,
+      "document_id": "claim:sha256:bcda220245e10442e54b3fdada68239e952d95127b8918c806fa0e67c6e439b1",
+      "paper_id": "paper:3fdc37b1aaa4d2fad782d3f292a3d6c505cbe8fda6ff72db6691b8142fa29756",
+      "canonical": "Including particle-associated denitrification outside suboxic waters yields a modeled global water-column denitrification rate of 121 ± 54 Tg N yr−1, approximately double current estimates based on suboxic zones alone.",
+      "original": "Fig. 4 | Expanded niche of anaerobic metabolism in the ocean. a,b, Predicted contribution of denitrification (a) and $\\mathsf { S O } _ { 4 } { } ^ { 2 - }$ reduction $( \\boldsymbol { \\mathbf { b } } )$ to depth-integrated POC respiration. Green and black contours enclose hypoxic and suboxic regions, respectively. Based on seawater chemistry alone, anaerobic respiration should only be expected within the black contour. Coloured dots indicate direct (blue)7–9,11, molecular (cyan)5,6,10–12 and trace metal (magenta)19,20 evidence that suggests denitrification is occurring in the presence of $\\mathsf { O } _ { 2 }$ (a) and $\\mathsf { S O } _ { 4 } { } ^ { 2 - }$ reduction in the presence of ${ \\mathsf { N O } } _ { 3 } ^ { - }$ (b). Maps average 24 simulations sampling observed ranges for uncertain parameters (Supplementary Table 4). c, Water column denitrification rates integrated over volumes with a given $[ \\mathsf { O } _ { 2 } ] ,$ , estimated by combining the microenvironment model with satellite estimates of POC export (Methods). Bars and error bars represent the mean and s.d., respectively, obtained from combining 24 model parameter sets and 9 POC export estimates (216 different estimates in total). ",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "denitrification",
+          "sinking organic particles",
+          "sulfate reduction"
+        ],
+        "formation": [],
+        "location": [
+          "Global ocean"
+        ],
+        "measurement": [
+          "Particle-associated denitrification and sulfate reduction"
+        ],
+        "method": [
+          "Size-resolved particle microenvironment model"
+        ],
+        "sample_type": [
+          "Modelled sinking organic particles"
+        ],
+        "time": null,
+        "uncertainty": "Model-parameter uncertainty where reported"
+      },
+      "quotes": [
+        "When combined, this yields a global water column denitrification rate of $1 2 1 { \\pm } 5 4 \\mathrm { T g N y r ^ { - 1 } }$ , approximately double that of current estimates based on suboxic zones alone.",
+        "Fig. 4 | Expanded niche of anaerobic metabolism in the ocean. a,b, Predicted contribution of denitrification (a) and $\\mathsf { S O } _ { 4 } { } ^ { 2 - }$ reduction $( \\boldsymbol { \\mathbf { b } } )$ to depth-integrated POC respiration. Green and black contours enclose hypoxic and suboxic regions, respectively. Based on seawater chemistry alone, anaerobic respiration should only be expected within the black contour. Coloured dots indicate direct (blue)7–9,11, molecular (cyan)5,6,10–12 and trace metal (magenta)19,20 evidence that suggests denitrification is occurring in the presence of $\\mathsf { O } _ { 2 }$ (a) and $\\mathsf { S O } _ { 4 } { } ^ { 2 - }$ reduction in the presence of ${ \\mathsf { N O } } _ { 3 } ^ { - }$ (b). Maps average 24 simulations sampling observed ranges for uncertain parameters (Supplementary Table 4). c, Water column denitrification rates integrated over volumes with a given $[ \\mathsf { O } _ { 2 } ] ,$ , estimated by combining the microenvironment model with satellite estimates of POC export (Methods). Bars and error bars represent the mean and s.d., respectively, obtained from combining 24 model parameter sets and 9 POC export estimates (216 different estimates in total). ",
+        "4c, Supplementary Fig.",
+        "After propagating uncertainty in model parameters and satellite export estimates, this calculation yields an integrated water column denitrification rate of ${ \\sim } 5 7 { \\pm } 2 1 \\mathrm { { T g N y r ^ { - 1 } } }$ within the OMZs, which is similar to previous estimates based on excess $\\Nu _ { 2 }$ gas measurements38, nitrate deficits39 and particle flux within $\\mathrm { O M Z } s ^ { 4 0 }$ .",
+        "However, we find that particle-associated denitrification outside of suboxic waters contributes a similar $_ \\mathrm { N }$ loss rate $( 6 4 \\pm 3 3 \\mathrm { T g N y r ^ { - 1 } } )$ when integrated across the expansive hypoxic regions that sustain anaerobic microenvironments (Fig."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The combined modeled budget is 121 ± 54 Tg N/year, comprising approximately 57 ± 21 within suboxic/OMZ waters and 64 ± 33 outside suboxic waters. The caption describes mean and SD across model-parameter and export-estimate combinations. Retain these reported uncertainties when quoting them; do not treat them as confidence intervals or recompute the combined uncertainty. Ensemble counts are optional. Grounded reference: claim:sha256:bcda220245e10442e54b3fdada68239e952d95127b8918c806fa0e67c6e439b1; NSFP_10074036.pdf.",
+      "rubric": {
+        "3": "The combined budget and both correctly assigned components with units and model context; reported uncertainty detail is supporting context rather than a separate unasked gate.",
+        "2": "Correct combined budget without both components, or one or both correct components without the combined result. No known scope conflict.",
+        "1": "Evidence with the conflicting scope described in the trap, or relevant background that does not supply the requested scoped result. Correctly labeled partial evidence instead receives 2.",
+        "0": "Irrelevant to the requested scientific quantity and setting."
+      },
+      "pool_sha256": "ae4df748b14b7559022a518d99b21419d4ee9741ec803ddf26d2f97786fd0656"
+    }
+  },
+  {
+    "query_id": "q07",
+    "query_text": "boron isotope proxy seawater pH foraminifera",
+    "candidate": {
+      "candidate": 28,
+      "document_id": "claim:sha256:15e2e77109eeec6b6e4e10491f566b4dacbb910fb121e733a6b4fb3c93d90ea8",
+      "paper_id": "paper:0571df1ef551a2dfe4ffe730afe16a6b0aeaf15f8cead25f018aa1e3c2db214b",
+      "canonical": "For reconstructing past seawater, δ¹¹B of biogenic carbonates cannot be used alone to estimate seawater pH while the secular δ¹¹B of seawater remains unconstrained.",
+      "original": "Low $\\delta ^ { 1 1 } \\mathrm { B }$ values of some biogenic carbonates cannot be attributed to low pH values of past seawater, but more probably to $\\delta ^ { 1 1 } \\mathrm { B }$ variations of seawater or diagenetic alteration by crustal aqueous fluids.",
+      "scope": {
+        "location": [],
+        "time": {
+          "label": "Past seawater; Jurassic and Cretaceous observations",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "Marine biogenic carbonates"
+        ],
+        "method": [
+          "Boron-isotope composition of carbonates and empirical brachiopod-calcite/seawater relation"
+        ],
+        "condition": [
+          "Secular seawater δ¹¹B is not independently constrained and carbonate-specific effects or diagenetic alteration are possible"
+        ],
+        "measurement": [
+          "Carbonate δ¹¹B and paleo-pH"
+        ],
+        "uncertainty": "Species, temperature, environment, and post-depositional aqueous exchange",
+        "entities": [
+          "biogenic carbonates",
+          "pH",
+          "seawater",
+          "δ¹¹B"
+        ]
+      },
+      "quotes": [
+        "Low $\\delta ^ { 1 1 } \\mathrm { B }$ values of some biogenic carbonates cannot be attributed to low pH values of past seawater, but more probably to $\\delta ^ { 1 1 } \\mathrm { B }$ variations of seawater or diagenetic alteration by crustal aqueous fluids.",
+        "Such an extreme low value for a marine biogenic carbonate can be only explained by a post-depositional boron exchange with crustal-derived aqueous fluids.",
+        "Finally, boron isotope compositions of biogenic carbonates are suspected to be species-dependent and affected by temperature variations Deyhle et al., 2003;",
+        "Using the empirically determined equation that links the $\\mathrm { \\delta ^ { 1 1 } B }$ of the brachiopod calcite to the $\\delta ^ { 1 1 } \\mathrm { B }$ of seawater (Le´cuyer et al., 2002), pH lower than 7.6 leads to a minimal boron isotope composition of calcite of 16x.",
+        "Such predicted variations in the boron isotope composition of seawater preclude the use of the $\\mathrm { \\hat { \\delta } ^ { 1 1 } B }$ of biogenic carbonates for estimating the pH of past seawater as long as further data are required to constrain the secular evolution of the boron isotope composition of seawater.",
+        "Table 2"
+      ],
+      "evidence_context": "[source] Low $\\delta ^ { 1 1 } \\mathrm { B }$ values of some biogenic carbonates cannot be attributed to low pH values of past seawater, but more probably to $\\delta ^ { 1 1 } \\mathrm { B }$ variations of seawater or diagenetic alteration by crustal aqueous fluids.\n[observation] Low δ¹¹B values of some biogenic carbonates cannot be attributed to low pH values of past seawater, but more probably to seawater δ¹¹B variations or diagenetic alteration by crustal aqueous fluids.\n[reasoning] The extreme Placenticeras value and the study's attribution support post-depositional aqueous exchange as an alternative explanation for some low carbonate δ¹¹B values.\n[reasoning] Because the seawater baseline is variable and carbonate values can also reflect pH-independent alteration, species, temperature, and environmental effects, carbonate δ¹¹B alone cannot isolate past seawater pH."
+    },
+    "pool_query_context": {
+      "expected_answer": null,
+      "rubric": {
+        "3": "Direct evidence for the scientific topic and requested scope",
+        "2": "Compatible partial answer",
+        "1": "Background or explicit scope conflict",
+        "0": "Unrelated"
+      },
+      "pool_sha256": "d6d5f9a5488c075457938e55093b119a12b5bc3ed85ff98f62b342f5278baba0"
+    }
+  },
+  {
+    "query_id": "q10",
+    "query_text": "chromium isotope fractionation oxidative weathering Precambrian",
+    "candidate": {
+      "candidate": 37,
+      "document_id": "claim:sha256:ad4f7a5cc0a0bf2609b29d26da9bba00965720660aaceb4638e7208555ca5f7b",
+      "paper_id": "paper:5d5a7401e42f38702906a4e4c49ea284c4d896648a711c4b0d98672fe265dc39",
+      "canonical": "Authigenic sediment δ53Cr in redox-stratified settings does not necessarily record oxidative subaerial weathering: Lake Cadagno shows a near-lithogenic, not significantly fractionated authigenic signal despite its oxidizing-atmosphere history.",
+      "original": "$\\delta ^ { 5 3 } \\mathrm { C r } _ { \\mathrm { B u l k } }$ is indistinguishable from lithogenic background and $\\delta ^ { 5 3 } \\mathrm { C r } _ { \\mathrm { A u t h } }$ is indistinguishable from or only slightly heavier than lithogenic background (Figure S5 in Supporting Information S1).",
+      "scope": {
+        "location": [
+          "Lake Cadagno, Switzerland"
+        ],
+        "time": {
+          "label": "2017–2020 sampling",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Water column and near-surface sediment"
+        ],
+        "sample_type": [
+          "Dissolved water, sinking particles and sediment"
+        ],
+        "method": [
+          "Water-column, particle and sediment analyses"
+        ],
+        "condition": [
+          "Euxinic deep water beneath a permanent chemocline"
+        ],
+        "measurement": [
+          "Cr concentration and δ53Cr"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Lake Cadagno",
+          "authigenic sediment chromium",
+          "dissolved chromium",
+          "sinking particles"
+        ]
+      },
+      "quotes": [
+        "$\\delta ^ { 5 3 } \\mathrm { C r } _ { \\mathrm { B u l k } }$ is indistinguishable from lithogenic background and $\\delta ^ { 5 3 } \\mathrm { C r } _ { \\mathrm { A u t h } }$ is indistinguishable from or only slightly heavier than lithogenic background (Figure S5 in Supporting Information S1).",
+        "Bulk sediment $\\delta ^ { 5 3 } \\mathrm { C r } ( \\delta ^ { 5 3 } \\mathrm { C r } _ { \\mathrm { B u l k } } )$ is indistinguishable from average continental crust $( - 0 . 1 2 \\pm 0 . 1 0 \\% o$ , Schoenberg et al., 2008) at all depths.",
+        "Despite a strongly oxidizing atmosphere throughout the entire history of Lake Cadagno, we find no significantly fractionated sediment $8 ^ { 5 3 } \\mathrm { C r } _ { \\mathrm { A u t h } }$ .",
+        "Furthermore, variable water column $\\delta ^ { 5 3 } \\mathrm { C r }$ , as well as potential early diagenetic modification of $8 ^ { 5 3 } \\mathrm { C r _ { A u t h } }$ , suggests there is no consistent offset between $8 ^ { 5 3 } \\mathrm { C r _ { A u t h } }$ and water column $\\delta ^ { 5 3 } \\mathrm { C r }$ .",
+        "Evidently, oxidative weathering does not necessarily result in high $8 ^ { 5 3 } \\mathrm { C r _ { A u t h } }$ ."
+      ],
+      "evidence_context": "[source] $\\delta ^ { 5 3 } \\mathrm { C r } _ { \\mathrm { B u l k } }$ is indistinguishable from lithogenic background and $\\delta ^ { 5 3 } \\mathrm { C r } _ { \\mathrm { A u t h } }$ is indistinguishable from or only slightly heavier than lithogenic background (Figure S5 in Supporting Information S1).\n[observation] Authigenic sediment δ53Cr is slightly higher than crustal signatures in the uppermost sediments but indistinguishable from the lithogenic inventory below 5 cm.\n[reasoning] The authigenic sediment signal approaches the lithogenic inventory with depth, despite a slight elevation in the uppermost sediment.\n[reasoning] The crust-like sediment isotope inventory, the demonstrated sediment–water offsets and internal cycling support treating authigenic δ53Cr as an imperfect, locally modified indicator rather than a unique record of oxidative weathering."
+    },
+    "pool_query_context": {
+      "expected_answer": null,
+      "rubric": {
+        "3": "Direct evidence for the scientific topic and requested scope",
+        "2": "Compatible partial answer",
+        "1": "Background or explicit scope conflict",
+        "0": "Unrelated"
+      },
+      "pool_sha256": "d906918688eefb020db529dae0d3ebfb16891d3e0081696fac8173fba3abd114"
+    }
+  },
+  {
+    "query_id": "q114",
+    "query_text": "How did linear sedimentation rates differ between the lower 10 m and uppermost 3 m of equatorial Pacific core EW9709-PC07?",
+    "candidate": {
+      "candidate": 28,
+      "document_id": "claim:sha256:87c5fad49266fbc9075586331922a66209a652fb44d7351a30d3b85cbab9f03d",
+      "paper_id": "paper:fc548eb3b5cb773b748aed0e2a88fd836ed5fe036109d7120626f2c70dc16c57",
+      "canonical": "The post-15 Ma sedimentation-rate decline in EW9709-PC07 was caused by tectonic migration of the site away from the equatorial high-productivity zone.",
+      "original": "Fig. 1. Location of the EW9709-PC07 piston core (same as ODP Site 1218) within the central north Pacific pelagic clay province. Highlighted area (from Jones et al., 1994) receives dominantly eolian input from Asian sources. Pacific plate motion (tectonic backtrack) model for EW9709-PC07 piston core and ODP Site 1218 shows paleo-locations at 10.6, 15.2, 17.3, and 19.4 million years ago. ",
+      "scope": {
+        "condition": [
+          "Site migration relative to the equatorial high-productivity zone"
+        ],
+        "entities": [
+          "EW9709-PC07",
+          "equatorial high-productivity zone",
+          "sediment"
+        ],
+        "formation": [],
+        "location": [
+          "Equatorial central Pacific, EW9709-PC07"
+        ],
+        "measurement": [
+          "Linear sedimentation rate"
+        ],
+        "method": [
+          "Age–depth profile from fish-teeth Sr, radiolarian, and correlated magnetostratigraphic ages"
+        ],
+        "sample_type": [
+          "Piston-core sediments"
+        ],
+        "time": {
+          "end": null,
+          "label": "Approximately 20 Ma to present",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "quotes": [
+        "Tectonic migration of the PC-07 site away from the equatorial high productivity zone produced a significant decrease in sedimentation rates after $1 5 \\ \\mathrm { M a }$ , diminishing to just ${ \\sim } 0 . 3 0 ~ \\mathrm { m m / k y }$ in the uppermost $3 \\textrm { m }$ of the core.",
+        "Fig. 1. Location of the EW9709-PC07 piston core (same as ODP Site 1218) within the central north Pacific pelagic clay province. Highlighted area (from Jones et al., 1994) receives dominantly eolian input from Asian sources. Pacific plate motion (tectonic backtrack) model for EW9709-PC07 piston core and ODP Site 1218 shows paleo-locations at 10.6, 15.2, 17.3, and 19.4 million years ago. ",
+        "Pacific plate motion (tectonic backtrack) model for EW9709-PC07 piston core and ODP Site 1218 shows paleo-locations at 10.6, 15.2, 17.3, and 19.4 million years ago.",
+        "1.",
+        "Fig.",
+        "Radiolarian ages place this transition between 15 and $1 0 \\ \\mathrm { M a }$ as the site was crossing ${ \\sim } 5 ^ { \\circ } \\mathrm { N }$ latitude (Fig.",
+        "1), apparently migrating north of the equatorial high productivity zone."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The lower 10 m (about 20–15 Ma) accumulated at approximately 2.0 mm/kyr; the uppermost 3 m (about 10 Ma to present) at approximately 0.30 mm/kyr, based on the age–depth model. Reference: W2088725896.pdf; claim:sha256:94771834d5c0f0251fb9783a56e4c5fcd41b4dbc5b51fbc28092f7913b42e846.",
+      "rubric": {
+        "3": "Correctly pairs approximately 2.0 mm/kyr with lower 10 m and approximately 0.30 mm/kyr with uppermost 3 m; age labels are optional.",
+        "2": "A correct subset of the requested comparison or definition, or relevant measurement with a scope qualifier unspecified; omission alone is not a known conflict.",
+        "1": "A result explicitly substituting the known wrong-scope measurement described in scope_trap, or merely related background.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "5337c216bb95b1181120da741b69fbe9a6e93c18d08d90461ec3a161a8dbdd99"
+    }
+  },
+  {
+    "query_id": "q61",
+    "query_text": "What shear-wave velocities and depth interval have been inferred for the low-velocity zone beneath the western Arabian Shield?",
+    "candidate": {
+      "candidate": 6,
+      "document_id": "claim:sha256:387e07dc0c34a6cf996ef4bd93328d5af4faf9fa3073a0d783e3ab1636b907a0",
+      "paper_id": "paper:3c33659c37dd3ad9f0b74586bcebf5e3b704e997a6e1e3ab16a0baae53f76920",
+      "canonical": "The low shear-wave velocities of the LVZ indicate partial melting in the upper mantle beneath the western Arabian shield.",
+      "original": "Schematic diagram of main structural features across the Red Sea at 20°N illustrating its development on a lithospheric scale low-angle detachment.",
+      "scope": {
+        "condition": [
+          "Volcanically active western shield"
+        ],
+        "entities": [
+          "LVZ",
+          "partial melt",
+          "upper mantle",
+          "western Arabian shield"
+        ],
+        "formation": [],
+        "location": [
+          "western Arabian shield"
+        ],
+        "measurement": [
+          "partial melting"
+        ],
+        "method": [
+          "Shear-wave velocity interpretation"
+        ],
+        "sample_type": [],
+        "time": null,
+        "uncertainty": "Inferred from low shear-wave velocity and the volcanic setting."
+      },
+      "quotes": [
+        "Schematic diagram of main structural features across the Red Sea at 20°N illustrating its development on a lithospheric scale low-angle detachment.",
+        "Our seismic results (Figure 9) are consistent with the passive rift model proposed by Wernicke [1985] and Lister et al.",
+        "The vertical slices of A-A0 , B-B0 , and C-C0 (Figures 8a–8c) show that the center of the strong LVZ (Vs = 4.0–4.2 km/s) is located beneath the western Arabian shield.",
+        "The anomalously low shear-wave velocity and the north-south elongated geometry of the LVZ also imply that partial melting and flowing northward of hot ascending asthenosphere from the Afar hot spot exist beneath the shield.",
+        "Shear-wave velocities lower than about 4.25 km/s are commonly considered to require the presence of melt in the upper mantle, especially beneath volcanically active areas [Plank and Forsyth, 2016]."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The reported tomographic LVZ has Vs as low as 4.0–4.2 km/s and extends from 60 km to about 180 km depth. Width and north–south trend may help context but are not requested requirements. Known positive reference: claim:sha256:aac37639d3e1fa3108045b7f2b0a953d14e2d552661b8916def96b10f95bc12f; source: 10.1002_2016JB013805.pdf.",
+      "rubric": {
+        "3": "Provides western Arabian Shield LVZ shear speeds of 4.0–4.2 km/s and depth extent of ~60–180 km as tomographic inferences.",
+        "2": "Provides compatible LVZ shear velocity but omits depth extent, or vice versa. No known scope conflict.",
+        "1": "A result explicitly misassigned as described in the scope trap, or useful background without the requested scoped result. A correctly labeled compatible partial result receives 2.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "84465fb433802e20780ab820b9e82caba71f70da2951e2c899b340ce729bf5a2"
+    }
+  },
+  {
+    "query_id": "q03",
+    "query_text": "rare earth element REE scavenging seawater ferrihydrite",
+    "candidate": {
+      "candidate": 36,
+      "document_id": "claim:sha256:6d07985db63d914a200944a11ced749b9482fe0d9df47749139f3741d8412d26",
+      "paper_id": "paper:ba15832f0541b01cbd7026a16609891a3d0f0fb91a1cf60b9555d12b5823f12f",
+      "canonical": "The authors infer that rare earth elements, strontium, uranium, and sulfur in these deposits were probably incorporated by coprecipitation or sorption from seawater.",
+      "original": "Cerium depletion,the most obvious feature of the sea-water pattern,is evident in all samples.Bender and others (l971) found that a metal-rich sample from the crest of the East Pacific Rise at $i 7 ^ { \\circ }$ S.also has the sea-water REE pattern,implying a sea-water origin for the rare earths in all the metalliferous sediments for which data have been published.",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "Bauer Deep sediments",
+          "DSDP sediments",
+          "East Pacific Rise sediments",
+          "basalt",
+          "seawater"
+        ],
+        "formation": [],
+        "location": [
+          "Pacific Ocean: East Pacific Rise, Bauer Deep, and DSDP sites"
+        ],
+        "measurement": [
+          "composition, mineralogy, and isotope ratios"
+        ],
+        "method": [
+          "chemical, mineralogical, and isotopic analyses"
+        ],
+        "sample_type": [
+          "metalliferous sediments"
+        ],
+        "time": null,
+        "uncertainty": "Some elemental source assignments are described as probable; the ultimate uranium source remains unresolved."
+      },
+      "quotes": [
+        "Cerium depletion,the most obvious feature of the sea-water pattern,is evident in all samples.Bender and others (l971) found that a metal-rich sample from the crest of the East Pacific Rise at $i 7 ^ { \\circ }$ S.also has the sea-water REE pattern,implying a sea-water origin for the rare earths in all the metalliferous sediments for which data have been published.",
+        "ment (REE) in six of the DSDP samples and the Bauer Deep sample are similar to the REE pattern of sea water (Fig.",
+        "This distinction is critical to our understanding of the geochemical balance of these elements in the oceans.The REE,strontium, uranium,and sulfur probably are examples of elements that are incorporated into metal-rich sediments via coprecipitation or sorption from sea water.",
+        "yet it also has a ${ \\sf S r ^ { 8 7 } } / { \\sf S r ^ { 8 6 } }$ ratio very near that of modern sea water.Thus,we believe our conclusion is correct-that Sr in these very poorly crystallized,metal-rich phases has equilibrated with marine Sr.",
+        "Jensen,1967).The sulfur in the metalliferous sediments,however, is isotopically similar_to Cretaceous-Tertiary evaporite sulfate $( + 1 5$ to $+ 2 2$ per mil）and dissolved sulfate in a present-day sea water ( $( + 2 1$ per mil)，as defined by Ault and Kulp (1959), Holser and Kaplan (1966)，and Claypool and others (l972).Althoughit is tempting to ascribe the lighter δ $\\mathbb { S } ^ { 3 \\breve { 4 } }$ values to minor contamination by magmatic sulfur， the values $( + 1 7 . 8$ to $+ \\dot { 2 } 0 . 9$ per mil) are in the range for marine sulfates and do not correlate with other chemical,isotopic,or mineralogic data.We conclude that the isotopic values are consistent with derivation of the sulfur directly from sea water with no imprint of biogenic or magmatic effects.",
+        "The $\\mathrm { U } ^ { 2 3 4 } / \\mathrm { U } ^ { 2 3 8 }$ activity ratios listed in Table 6 show that the two isotopes are in radioactive equilibrium and indicate that the DSDP sediments at the depths sampled in this study have formed closed systems with respect to uranium during the last few hundred thousand years,with no detectable secondary migration of $\\mathrm { U } ^ { 2 3 4 }$ .Whether the uranium was ultimately derived from sea water or from some other source related to volcanic activity cannot be deduced from these data,since the $\\mathrm { U } ^ { 2 3 4 } / \\mathrm { U } ^ { 2 3 8 }$ ratio is only a useful index of origin in recently deposited sediments because of the comparatively short half-life of $\\mathrm { U } ^ { 2 3 4 }$ $( 2 . 5 \\times 1 0 ^ { 5 } \\mathrm { ~ y } \\mathrm { } )$",
+        "Figure 4. REE abundance patterns of metalliferous sediments and sea water.All values arc normalized to the rare-earth abundance in chondritic meteorites (Haskin and others,1967). "
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": null,
+      "rubric": {
+        "3": "Direct evidence for the scientific topic and requested scope",
+        "2": "Compatible partial answer",
+        "1": "Background or explicit scope conflict",
+        "0": "Unrelated"
+      },
+      "pool_sha256": "853d159c3de952035ae3add8730dd700e87fc16d2e59a9f37f205a12d695c29f"
+    }
+  },
+  {
+    "query_id": "q103",
+    "query_text": "What magnitude of midlatitude sea-surface cooling accompanied CO2 drawdown during the Plenus Cold Event?",
+    "candidate": {
+      "candidate": 13,
+      "document_id": "claim:sha256:0a5c5d83491e55dd11aff842a18eef7f6ce9ec4211aef4cca65464ebdc9f64f1",
+      "paper_id": "paper:bd74e4078b447def2b9fea727fd07839d67c5675e12072ec42732b70c111141f",
+      "canonical": "In the Gharesu and Taherabad sections, proxy changes in interval 2 at the end of the Rotalipora cushmani zone support interpreting a short-term sea-surface cooling, comparable to the Plenus Cold Event.",
+      "original": "cushmani zone), rotaliporids appear in both sections.A marked increase in diversity and abundance of planktonic foraminifera occurs in this interval,as the number of species in the Gharesu section increases from 1 to 10 and in the Taherabad section from 6 to 15 (Fig.9), this is accompanied by a relative increase of $\\mathrm { C a C O } _ { 3 }$ content (Figs.8,9) which suggests, terrigenous input decreases in",
+      "scope": {
+        "location": [
+          "Gharesu and Taherabad sections, Kopet-Dagh Basin, NE Iran"
+        ],
+        "time": {
+          "label": "Late Cenomanian, at the Cenomanian–Turonian boundary succession",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "stratigraphic sediment samples"
+        ],
+        "method": [
+          "planktonic-foraminiferal assemblage and carbonate-content analysis"
+        ],
+        "condition": [
+          "Interval 2, at the end of the Rotalipora cushmani zone"
+        ],
+        "measurement": [
+          "foraminiferal abundance and diversity, carbonate content, and inferred runoff and sea-surface temperature"
+        ],
+        "uncertainty": "Cooling is inferred from proxy changes rather than directly measured.",
+        "entities": [
+          "CaCO3",
+          "planktonic foraminifera",
+          "runoff",
+          "sea-surface temperature"
+        ]
+      },
+      "quotes": [
+        "cushmani zone), rotaliporids appear in both sections.A marked increase in diversity and abundance of planktonic foraminifera occurs in this interval,as the number of species in the Gharesu section increases from 1 to 10 and in the Taherabad section from 6 to 15 (Fig.9), this is accompanied by a relative increase of $\\mathrm { C a C O } _ { 3 }$ content (Figs.8,9) which suggests, terrigenous input decreases in",
+        "cushmani zone) can be interpreted as evidence of a short-term cooling in the studied succession, which is comparable to the Plenus Cold Event in the Tethys realm and benthic oxic zone in the Atlantic Ocean.",
+        "Adecreased run off also coincides with increased carbonate contents and diversity of planktonic foraminifera in interval 2 (at the end of the R."
+      ],
+      "evidence_context": "[source] cushmani zone), rotaliporids appear in both sections.A marked increase in diversity and abundance of planktonic foraminifera occurs in this interval,as the number of species in the Gharesu section increases from 1 to 10 and in the Taherabad section from 6 to 15 (Fig.9), this is accompanied by a relative increase of $\\mathrm { C a C O } _ { 3 }$ content (Figs.8,9) which suggests, terrigenous input decreases in\n[observation] In interval 2, planktonic-foraminiferal diversity and abundance increase, with species counts rising from 1 to 10 in Gharesu and from 6 to 15 in Taherabad, alongside a relative increase in CaCO3 content (Figs. 8, 9).\n[reasoning] The interval-2 rise in foraminiferal diversity and abundance and in carbonate content, together with the reported decrease in runoff, forms the proxy basis for the short-term cooling interpretation."
+    },
+    "pool_query_context": {
+      "expected_answer": "A compatible CTB reconstruction concludes greater than 4 °C cooling at midlatitudes during CO2 drawdown. Other compatible proxy-based estimates may qualify; source-specific values should retain their calibration and spatial scope. Reference: W1845236820.pdf; claim:sha256:6b83e0f23d183dbd0ddbff332328ee1a68401b00bd16c5fb2d5ac41ba0422753.",
+      "rubric": {
+        "3": "Supplies a supported midlatitude Plenus cooling amplitude associated with CO2 drawdown; greater than 4 °C is a grounded example, with other compatible estimates eligible.",
+        "2": "Provides a useful partial answer or leaves a scope qualifier unresolved, without a known conflict with the question.",
+        "1": "A result explicitly substituting the known wrong-scope measurement described in scope_trap, or merely related background.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "91b96d6ab22c1bcc6293444600c5bf86f54e570fa407e09a7840aae3d0b0f456"
+    }
+  },
+  {
+    "query_id": "q38",
+    "query_text": "Find grain-size endmember measurements used to infer riverine sediment delivery during African Humid Periods, retaining the core identity, the interpreted transport process, and, where reported, the ranking of discharge intensity among periods.",
+    "candidate": {
+      "candidate": 9,
+      "document_id": "claim:sha256:fd43f147d5630e18cfa808734a18ac9a836b2eedc32beeac7f86a0712c19bf9c",
+      "paper_id": "paper:57b260976efa70940d1e9727b7575f6d402c7a6e1a46f4643f56f23c8e3c57a0",
+      "canonical": "In core M40/4_SL71, fluvial input represented by clay mineral EM3 and grain-size EM2 covaries with Northern Hemisphere summer insolation, with higher loadings at strong maxima associated with African Humid Periods and lower loadings at minima.",
+      "original": "Fig 9. Compilation of proxies for the fluvial discharge into the Eastern Mediterranean Sea. A: Nile discharge based on smectite/ (illite $^ +$ chlorite) in sediment core M51/3_SL110 from the southeast Levantine Sea [10]; B: Nile discharge in sediment core MS27PT based on Fe/total counts data from the Nile [4,80]; C: XRF EM2 from M40/4_SL71, D: clay mineral EM3 from M40/4_SL71; E: grain size EM2 from M40/4_SL71, F: summer insolation curve (21 June, $3 0 ^ { \\circ } \\mathsf { N }$ ) [79]; Black line in C—E: 25-point running average. Grey shaded areas indicate the sapropels. ",
+      "scope": {
+        "condition": [
+          "African Humid Periods and Northern Hemisphere summer insolation maxima and minima"
+        ],
+        "entities": [
+          "Clay mineral EM3",
+          "Fluvial sediment input",
+          "Grain-size EM2",
+          "M40/4_SL71"
+        ],
+        "formation": [],
+        "location": [
+          "Eastern Mediterranean Sea, southwest of Crete"
+        ],
+        "measurement": [
+          "Fluvial end-member loadings"
+        ],
+        "method": [
+          "End-member modelling of sedimentological datasets"
+        ],
+        "sample_type": [
+          "Marine sediment core"
+        ],
+        "time": {
+          "end": null,
+          "label": "Late Quaternary, ca. 180 kyr",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Nile and South Anatolian contributions cannot be distinguished"
+      },
+      "quotes": [
+        "Fig 9. Compilation of proxies for the fluvial discharge into the Eastern Mediterranean Sea. A: Nile discharge based on smectite/ (illite $^ +$ chlorite) in sediment core M51/3_SL110 from the southeast Levantine Sea [10]; B: Nile discharge in sediment core MS27PT based on Fe/total counts data from the Nile [4,80]; C: XRF EM2 from M40/4_SL71, D: clay mineral EM3 from M40/4_SL71; E: grain size EM2 from M40/4_SL71, F: summer insolation curve (21 June, $3 0 ^ { \\circ } \\mathsf { N }$ ) [79]; Black line in C—E: 25-point running average. Grey shaded areas indicate the sapropels. ",
+        "The loading patterns of two fluvial end members show a strong relationship with the Northern Hemisphere insolation, and all fluvial end members document enhanced input during the African Humid Periods.",
+        "temporal variations in the loadings of clay mineral EM3 and grain size EM2 correlate well with the Northern Hemisphere summer insolation [79] (Fig 9).",
+        "Changes in the fluvial discharge to the Eastern Mediterranean Sea are strongly related to the Northern Hemisphere insolation with enhanced discharge during the insolation maxima and a strongly reduced discharge during the summer insolation minima."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "In central Red Sea core KL11, EM3 has a principal mode of 4.5 µm and is interpreted as riverine suspension. Its loadings peak around 198, 125, 108, 84 and 6 ka; the reported relative strength is AHP5 strongest, followed by AHP7, AHP4, AHP3 and AHP1. These are proxy-based relative signals, not calibrated discharge in m³/s. Active indexed source: BULK_22c997b736d0c1e2e580.pdf; claim_id=claim:sha256:bd3aa7aa654f4c84d274c1c195745c32fe587e1942e9b42411ba50f387791332.",
+      "rubric": {
+        "3": "Gives a riverine grain-size endmember mode with core identity, African Humid Period timing and the supported transport interpretation, retaining any relative-intensity ranking reported by that source. KL11 EM3 at 4.5 µm is an eligible example; a ranking is not mandatory when the source reports none.",
+        "2": "Provides a compatible riverine endmember measurement but its core, timing or transport attribution is incomplete; absence of an unreported ranking alone does not lower relevance.",
+        "1": "Supplies an aeolian endmember mode as the requested riverine endmember.",
+        "0": "A result with no grain-size, riverine delivery or African Humid Period connection."
+      },
+      "pool_sha256": "01609118631b25e16d1590c982204005de7963c96315483aaa6e60076b4b0ce8"
+    }
+  },
+  {
+    "query_id": "q74",
+    "query_text": "What was the maximum reconstructed amount of sulfate reduced in the revised northeastern Osaka Basin Rayleigh model, and what sequence of redox processes was inferred for that groundwater?",
+    "candidate": {
+      "candidate": 9,
+      "document_id": "claim:sha256:218b897a12009f186181e5a4c25d0b4664236de3b6abedbb5d9de5d4f02f0c3d",
+      "paper_id": "paper:e50a54c20e9cdc02ce042db22c7f3c167fd353e02cb88f439549bc4f1bdad060",
+      "canonical": "The revised Rayleigh model estimates that up to 76% of initial sulfate was reduced in the NEOB aquifer system.",
+      "original": "where $\\delta ^ { 3 4 } \\mathsf { S } _ { \\mathsf { R } }$ and $\\delta ^ { 3 4 } \\mathsf { S } _ { \\mathsf { I } }$ are residual and initial $\\delta ^ { 3 4 } \\mathsf { S }$ values of sulfate, respectively, e is the isotopic enrichment factor, and $f _ { 5 0 _ { 4 } }$ is the fraction of initial sulfate remaining.",
+      "scope": {
+        "condition": [
+          "Flowpaths through confined aquifers, including fault-adjacent areas with localized sulfide oxidation"
+        ],
+        "entities": [
+          "NEOB groundwater",
+          "Rayleigh model",
+          "faults",
+          "marine sediments",
+          "sulfate",
+          "sulfide"
+        ],
+        "formation": [
+          "Pliocene–Holocene Osaka Basin sediments"
+        ],
+        "location": [
+          "Northeastern Osaka Basin, central Japan"
+        ],
+        "measurement": [
+          "δ34S, SO4, HCO3, redox indicators, and model-derived sulfate reduction"
+        ],
+        "method": [
+          "Groundwater chemical and sulfur-isotopic analyses; Rayleigh distillation modeling"
+        ],
+        "sample_type": [
+          "Confined groundwater"
+        ],
+        "time": {
+          "end": null,
+          "label": "July and August 1999 groundwater sampling",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Interpretations and reduction extents are model-based; sulfur-isotope analytical accuracy was ±1‰."
+      },
+      "quotes": [
+        "where $\\delta ^ { 3 4 } \\mathsf { S } _ { \\mathsf { R } }$ and $\\delta ^ { 3 4 } \\mathsf { S } _ { \\mathsf { I } }$ are residual and initial $\\delta ^ { 3 4 } \\mathsf { S }$ values of sulfate, respectively, e is the isotopic enrichment factor, and $f _ { 5 0 _ { 4 } }$ is the fraction of initial sulfate remaining.",
+        "5b), maximum fraction of initial sulfate reduced is $76 \\%$ in the NEOB aquifer system.",
+        "Since the lowest $f _ { 5 0 _ { 4 } }$ in the NEOB groundwater samples is 0.24 (sample 141, Fig."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The maximum modeled sulfate-reduced quantity, SO4red, was 48.5 mg/L sulfate-equivalent in sample 38. It was interpreted as a second sulfate-reduction episode following sulfide oxidation near faults. This is reconstructed sulfate consumed, not a measured residual sulfate concentration. The sample number is helpful context rather than an extra identification requirement. Grounded reference: claim:sha256:3c5950161a0bddb9dfcc63a32eff8381205e0d5aff7ce64d08f3ba7fb55f50a1; W1967634252.pdf.",
+      "rubric": {
+        "3": "48.5 mg/L as reconstructed sulfate reduced and the sulfide-oxidation-then-second-sulfate-reduction sequence.",
+        "2": "The correctly identified reconstructed amount alone or the compatible redox sequence without its maximum. No known scope conflict.",
+        "1": "Evidence with the conflicting scope described in the trap, or relevant background that does not supply the requested scoped result. Correctly labeled partial evidence instead receives 2.",
+        "0": "Irrelevant to the requested scientific quantity and setting."
+      },
+      "pool_sha256": "13f7befd1412fc540edb9f6b9fbfeaf27dd27132f4e01904be05553af154a120"
+    }
+  },
+  {
+    "query_id": "q51",
+    "query_text": "What south-to-north change in slip rate is reported along the Dead Sea Fault through the Jordan Valley?",
+    "candidate": {
+      "candidate": 12,
+      "document_id": "claim:sha256:5a2a5f61696421373406ebebd556c53131bcbd3353c2b8c290c01b87d1ed9118",
+      "paper_id": "paper:fbd6ed9394a9aa0bfcbb565072c23ffb335b84aaa84b8901930065055a646cfc",
+      "canonical": "The present-day geodetic pattern indicates that the CFS partitions the Sinai sub-plate into northern and southern microplates, rather than the sub-plate behaving as a single rigid block.",
+      "original": "Thus here, average left-lateral slip rate of $0 . 7 \\pm 0 . 4 5$ $\\mathrm { m m / y r }$ and extension rate of $0 . 6 \\pm 0 . 4 5 \\mathrm { m m } / \\mathrm { y r }$ are obtained by subtracting the average fault-parallel and fault-perpendicular velocities of stations on either side of the fault (Figure 10), resulting in a total relative horizontal displacement rate of $0 . 9 \\pm 0 . 4 5 \\mathrm { m m } / \\mathrm { y r }$ in the azimuth of $3 ^ { \\circ }$ .",
+      "scope": {
+        "location": [
+          "Northern Dead Sea Transform and Carmel Fault System, Israel"
+        ],
+        "time": {
+          "label": "1996–2008",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Sinai sub-plate"
+        ],
+        "sample_type": [
+          "GPS site velocities"
+        ],
+        "method": [
+          "GPS velocity comparison and 1-D elastic dislocation inversion"
+        ],
+        "condition": [
+          "Present-day interseismic deformation"
+        ],
+        "measurement": [
+          "Relative slip distribution across the DST and CFS"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Arabia",
+          "Carmel Fault System",
+          "Dead Sea Transform",
+          "Sinai sub-plate"
+        ]
+      },
+      "quotes": [
+        "Figure 5. Horizontal velocity map of North Israel and the Jericho Valley. Dark red lines denote the fault traces used for the computation of the slip rates and locking depths, and pink lines are additional faults that are part of the CFS. Green arrows denote GIL sites, blue arrows denote G1 sites, white arrows denote the G1 sites excluded from the inversion of the slip rates and locking depths and the black arrow denotes a site from $A l .$ -Tarazi et al. [2011]. Arrows outlined in red denote sites that are used for the inversion of slip rate along the Carmel’s northern segment. The northern (labeled as “a”) and southern solid (labeled as “b”) rectangles enclose sites that are used for the calculation of the slip rates and locking depths along the Northern Israel segment and the Jericho Valley, respectively. Sites enclosed within the two dashed lines in rectangle “a” are used for the inversion of the Jordan Fault slip rate and locking depth. Abbreviations: HB, Hula Basin; GH, Golan Heights; JF, Jordan Fault; HV, Harod Valley. ",
+        "Thus here, average left-lateral slip rate of $0 . 7 \\pm 0 . 4 5$ $\\mathrm { m m / y r }$ and extension rate of $0 . 6 \\pm 0 . 4 5 \\mathrm { m m } / \\mathrm { y r }$ are obtained by subtracting the average fault-parallel and fault-perpendicular velocities of stations on either side of the fault (Figure 10), resulting in a total relative horizontal displacement rate of $0 . 9 \\pm 0 . 4 5 \\mathrm { m m } / \\mathrm { y r }$ in the azimuth of $3 ^ { \\circ }$ .",
+        "Figure 10. Profiles of velocity versus distance for the Carmel Fault. (a) Carmel fault-parallel velocity. Positive values indicate NW horizontal motion. The red area indicates the range of model solutions for locking-depths between $5 { - } 2 0 \\ \\mathrm { k m }$ and northeast dipping angle between $6 0 ^ { \\circ } - 9 0 ^ { \\circ }$ . (b) Carmel fault-normal velocity. Positive values indicate NE horizontal motion. Blue and green symbols denote survey and permanent GPS stations, respectively. Orange symbols denote the average velocity of stations on either side of the Carmel Fault. ",
+        "Hofstetter et al., 1991], one north of Carmel-Gilboa line and the other south of the Carmel-Faria line (Figure 5), and that part of the slip between Arabia and Sinai is being transferred from the DST to the CFS.",
+        "The decrease in slip rate from the Jericho Valley to the northern segment indicates that the Sinai sub-plate is not behaving as a single rigid block, but instead is undergoing internal deformation.",
+        "Using our velocities and the transformed velocities of sites HUGS and MUD2 located in Jordan, east of the Jericho Valley and within it’s northern and southern ends at latitudes 32.175 and 31.75, respectively, we infer a slip rate of $4 . 6 -$ $5 . 9 \\ \\mathrm { m m / y r }$ and locking depth of $1 1 . 8 { - } 2 4 ~ \\mathrm { k m }$ with the most probable solution corresponding to $4 . 9 \\ : \\mathrm { m m / y r }$ and $1 5 . 8 \\mathrm { k m }$ , respectively (Figure 9a).",
+        "Thus, the present study provides geodetic confirmation of previous suggestions, based on differences in topography, seismic activity and crustal structure, that the CFS divides the Sinai sub-plate into two micro-plates [e.g., Ben-Avraham and Ginzburg, 1990;",
+        "The slip rate and the locking depth estimates are $3 . 1 { - } 4 . 5 \\ \\mathrm { m m / y r }$ and $7 . 8 \\mathrm { - } 1 6 . 5 \\mathrm { k m }$ , respectively, with the most probable solution corresponding to $3 . 8 ~ \\mathrm { m m / y r }$ and $1 2 . 4 \\ \\mathrm { k m }$ (Figure 8a)."
+      ],
+      "evidence_context": "[source] Figure 5. Horizontal velocity map of North Israel and the Jericho Valley. Dark red lines denote the fault traces used for the computation of the slip rates and locking depths, and pink lines are additional faults that are part of the CFS. Green arrows denote GIL sites, blue arrows denote G1 sites, white arrows denote the G1 sites excluded from the inversion of the slip rates and locking depths and the black arrow denotes a site from $A l .$ -Tarazi et al. [2011]. Arrows outlined in red denote sites that are used for the inversion of slip rate along the Carmel’s northern segment. The northern (labeled as “a”) and southern solid (labeled as “b”) rectangles enclose sites that are used for the calculation of the slip rates and locking depths along the Northern Israel segment and the Jericho Valley, respectively. Sites enclosed within the two dashed lines in rectangle “a” are used for the inversion of the Jordan Fault slip rate and locking depth. Abbreviations: HB, Hula Basin; GH, Golan Heights; JF, Jordan Fault; HV, Harod Valley. \n[observation] The paper describes the CFS as dividing the Sinai sub-plate into one microplate north of the Carmel-Gilboa line and another south of the Carmel-Faria line (Figure 5).\n[reasoning] The north-south DST rate contrast, Carmel Fault motion, and stated CFS geometry support interpreting the Sinai sub-plate as internally deforming and partitioned rather than moving as one rigid block."
+    },
+    "pool_query_context": {
+      "expected_answer": "The reported slip rate decreases by about 0.7 mm/yr from the southern to the northern Jordan Valley sections. This is a spatial rate difference, not the absolute slip rate at one location. Known positive reference: claim:sha256:4e1c3f0eb3e87be64558b1afa4e5a5fe4e002b6ba0ff3a88bf10f32bd644535c; source: 10.1002_2018GL077547.pdf.",
+      "rubric": {
+        "3": "Provides a south-to-north slip-rate decrease of about 0.7 mm/yr along the Jordan Valley DSF.",
+        "2": "Identifies the correct south-to-north decrease but gives no magnitude. No known scope conflict.",
+        "1": "Known conflicting scope or useful background only. Absolute slip rate at one station substituted for the south-to-north slip-rate difference.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "59baca6068c1d4ce224b484cc58e681522509a4b01696308a21bcc6efcd96135"
+    }
+  },
+  {
+    "query_id": "q28",
+    "query_text": "At what depth below the seafloor is T-type REY-rich mud reported in the southern to southeastern Minamitorishima EEZ, and what overlying sediment condition is noted there?",
+    "candidate": {
+      "candidate": 2,
+      "document_id": "claim:sha256:a7b26669ac07d0dc2884f63e0caba8b8dc4698ab88e272ae04a647020997725a",
+      "paper_id": "paper:d11a22ed168fd4605ac70d77a08d69b703c406c3b472b958562113abd17b4d8f",
+      "canonical": "The highly and extremely REY-rich mud layers in the Minamitorishima EEZ may represent a promising REY resource because their high total-REY and HREE enrichment occurs within 10 m of the seafloor and most REY, except Ce, was reported to be readily leachable.",
+      "original": "Of particular note, the average ÂHREE content in extremely REY-rich mud reaches almost 60 times that of average shale.",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "BCP",
+          "Minamitorishima EEZ",
+          "PC04",
+          "PC05",
+          "P₂O₅",
+          "ΣHREE",
+          "ΣREY"
+        ],
+        "formation": [],
+        "location": [
+          "Minamitorishima EEZ, western North Pacific Ocean"
+        ],
+        "measurement": [
+          "Bulk total REY and HREE concentrations, P₂O₅ content, mineralogy, and stratigraphic depth"
+        ],
+        "method": [
+          "X-ray fluorescence spectrometry for major elements and inductively coupled plasma mass spectrometry for trace elements and REY"
+        ],
+        "sample_type": [
+          "Deep-sea bulk sediment from piston cores PC04 and PC05"
+        ],
+        "time": {
+          "end": null,
+          "label": "KR13-02 cruise (2013)",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "The sediment ages are uncertain."
+      },
+      "quotes": [
+        "Of particular note, the average ÂHREE content in extremely REY-rich mud reaches almost 60 times that of average shale.",
+        "Moreover, it has been demonstrated that leaching of these mud samples with dilute acid (0.5 mol/L HCl) successfully extracted about $90 \\%$ of the REY (except for Ce) (Takaya et al., 2015).",
+        "The maximum ÂREY content in PC04 is almost $5 0 0 0 \\mathrm { p p m }$ at 8.29 mbsf;",
+        "The maximum ÂREY content in PC05 is $6 8 0 0 ~ \\mathrm { p p m }$ at 2.97 mbsf;",
+        "Considering that these highly and extremely REY-enriched layers occur at depths shallower than $1 0 \\mathrm { ~ m ~ }$ below the seafloor, and that most of REY in the muds can be easily leached, these muds might provide a solution for the predicted substantial growth of global REY demand in the near future."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The T-type mud occurs at shallow sub-seafloor depths, less than approximately 10 m, without an overlying L-type non-REY-rich sediment cover. The result concerns acoustic-stratigraphic occurrence. Do not require an exact conversion velocity as a grading prerequisite or reinterpret the depth as water depth below sea surface. Known active-corpus reference: 015_2016_Kentaro Nakamura_Acoustic characterization of pelagic sediments using sub-bottom profiler data_ Implications for the distribution of REY-rich mud.pdf; claim:sha256:594d57cffb7868f5e370d2a104067cd0a8793ec0654f1977fee0532400e5f6ef.",
+      "rubric": {
+        "3": "Gives the <approximately 10 m sub-seafloor occurrence with T-type material, southern/southeastern location and absence of L-type cover intact.",
+        "2": "Compatible local mud-depth evidence but the reference surface, cover status or geographic qualifier is unresolved.",
+        "1": "Relevant regional depth information or a water-depth measurement explicitly substituted for the mud’s sub-seafloor depth.",
+        "0": "Unrelated depth data or REY chemistry without usable acoustic-stratigraphic occurrence information."
+      },
+      "pool_sha256": "c2c15bad12ce589fa610484d50d7a5798d0da732d111b544dd19a25193d18356"
+    }
+  },
+  {
+    "query_id": "q79",
+    "query_text": "At how many Wellington-region groundwater sites did Halon-1301 exponential-piston-model mean residence times agree with tritium and/or SF6 estimates, and what agreement criterion was reported?",
+    "candidate": {
+      "candidate": 3,
+      "document_id": "claim:sha256:9a3a382a7178a9a2865491bf560b25fe0e1164af0ca75357b6e1cb89dac9c1dd",
+      "paper_id": "paper:cd9bdfcd36f3a441a7c14501b4ac26ff49a89c552fb96c9457afc1941822e29c",
+      "canonical": "At five of the 17 sites with direct age comparisons, all relatively old and anoxic, Halon-1301 inferred MRTs were higher than tritium and SF6 MRTs; the study did not resolve whether aquifer degradation or sorption/retardation caused the reduced Halon-1301 concentrations.",
+      "original": "These samples also showed evidence of significant (even higher) degradation and/or contamination of one or both of CFC-11 and CFC-12.",
+      "scope": {
+        "condition": [
+          "Reduced Halon-1301 concentrations"
+        ],
+        "entities": [
+          "CFC-11",
+          "CFC-12",
+          "Halon-1301",
+          "SF6",
+          "tritium"
+        ],
+        "formation": [],
+        "location": [
+          "Wellington region, New Zealand"
+        ],
+        "measurement": [
+          "Halon-1301 MRT relative to tritium and SF6 MRTs"
+        ],
+        "method": [
+          "Exponential piston flow model; comparison with tritium and SF6"
+        ],
+        "sample_type": [
+          "Older anoxic groundwater at five of 17 sites with direct age comparisons"
+        ],
+        "time": {
+          "end": null,
+          "label": "MRT range 2.5–40 years",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Degradation versus sorption/retardation is unresolved"
+      },
+      "quotes": [
+        "8.",
+        "These samples also showed evidence of significant (even higher) degradation and/or contamination of one or both of CFC-11 and CFC-12.",
+        "Increased inferred Halon-1301 ages in the remaining, particularly older samples with a MRT above 15 years were likely caused by (a) degradation, which is only likely to occur under anoxic/anoxic conditions (all affected samples are anoxic);",
+        "Significantly higher Halon-1301 MRTs to tritium and ${ \\mathrm { S F } } _ { 6 }$ MRTs (over an age range from 2.5 to 40 years MRT) were found in 5 of the 17 groundwater samples, where direct age comparison could be made.",
+        "(b) sorption to organic material in the aquifer (could not be excluded for any of the sites).",
+        "It is unclear if reduced concentrations were caused by degradation or retardation of Halon-1301 in the aquifer.",
+        "Figure 8. Summary of mean residence time including error bars $\\pm 1$ SD analytical uncertainty including uncertainty in solubility) inferred from Halon-1301, ${ \\mathrm { S F } } _ { 6 }$ vs. mean residence times inferred from tritium using the exponential piston flow model, data points are highlighted according to CFC-12/CFC-11 contamination/degradation (see legend); Halon-1301 and ${ \\mathrm { S F } } _ { 6 }$ were determined in this study, tritium and the CFCs were determined in previous study(s); the abbreviations $\\ \" { } _ { \\mathbf { C } } \\overrightarrow { } ^ { * }$ and “d” in the legend refer to contaminated and degraded in one or both CFCs, respectively; $\\mathrm { c / d }$ refers to contamination and degradation was observed for either CFC-12 or CFC-11; $\\mathrm { ^ { 6 6 } n / a ^ { 5 } }$ refers to no available CFC data. "
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "Agreement was reported at 12 of 17 sites, within approximately 1 SD. This is agreement of inferred EPM mean residence times, not simply stable measured concentrations during storage. The recommended recharge window and complementary-tracer advice are useful but not required to answer the count/criterion question. Grounded reference: claim:sha256:8c339175285c75dab3a44342e96798c2116002d453a8c77a7808e8fb10a44cfa; W2086092187.pdf.",
+      "rubric": {
+        "3": "12 of 17 sites plus approximately 1-SD agreement, correctly identified as EPM age comparison.",
+        "2": "The correct count or criterion alone, or compatible EPM comparison evidence without both requested components. No known scope conflict.",
+        "1": "Evidence with the conflicting scope described in the trap, or relevant background that does not supply the requested scoped result. Correctly labeled partial evidence instead receives 2.",
+        "0": "Irrelevant to the requested scientific quantity and setting."
+      },
+      "pool_sha256": "63afd47eb0929b048bd407ba7da5ff1422668d6df5c9065bbfacc52e908d3298"
+    }
+  },
+  {
+    "query_id": "q60",
+    "query_text": "What stress-drop range is inferred for small earthquakes southeast of Beni-Suef using a Brune circular-source model and displacement-spectrum inversion?",
+    "candidate": {
+      "candidate": 13,
+      "document_id": "claim:sha256:83daf8ea03816f79d90f8227916d4f579c93fa737bf60394ebe2798c2f344ee8",
+      "paper_id": "paper:6a8b5e812a4d9f82b3dcdf8e79e402993de355b4c572fd66ffd071ad51476cdb",
+      "canonical": "For the aftershocks of the 11 October 1999 southeast Beni-Suef earthquake sequence, P-wave spectra under the Brune source model yielded relatively similar source parameters: fault lengths from 0.3 to 0.6 km, seismic moments from 2.3 × 10^19 to 1.1 × 10^20 dyn.cm, stress drops from 0.7 to 4 bar, and relative displacements from 0.05 to 0.2 cm.",
+      "original": "In the following we use the model of Brune (1970, 1971) for simple waveform data, and the analysis was restricted to the Pwaves.",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "aftershocks",
+          "corner frequencies",
+          "main shock",
+          "source parameters"
+        ],
+        "formation": [],
+        "location": [
+          "southeast Beni-Suef, northern Egypt"
+        ],
+        "measurement": [
+          "P-wave spectral source parameters and corner frequencies"
+        ],
+        "method": [
+          "P-wave spectral analysis with a simplified circular source model and Brune model"
+        ],
+        "sample_type": [
+          "main shock and aftershocks"
+        ],
+        "time": {
+          "end": null,
+          "label": "11 October 1999 earthquake sequence",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "quotes": [
+        "In the following we use the model of Brune (1970, 1971) for simple waveform data, and the analysis was restricted to the Pwaves.",
+        "Assuming a simplified circular source model and using displacement spectra, it is possible to determine the dynamic source parameters of a given earthquake.",
+        "The source parameters of 9 earthquakes of the sequence have been derived from P wave spectra.",
+        "The estimated source parameters of the aftershocks as derived from P-wave spectra vary from 0.3 to 0.6 km for the fault length, from $2 .",
+        "3 \\times 1 0 ^ { 1 9 }$ to $1 .",
+        "1 \\times 1 0 ^ { 2 0 }$ dyn.cm for seismic moments, from 0.7 to 4 bar for stress drops and from 0.05 to 0.2 cm for relative displacement.",
+        "The aftershocks show a relatively similar source parameters fault length of $0 ."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The analyzed earthquake population yields stress drops of 0.2–4.9 MPa under the circular-source assumption. Fault lengths are supplementary; a single-event value is not the population range. Known positive reference: claim:sha256:b5c3e8e3194fa4a855a5001a97ec84275b62a812711ad3e33935e89c03206d00; source: 10.1016_j.jafrearsci.2007.12.006.pdf.",
+      "rubric": {
+        "3": "Provides the 0.2–4.9 MPa small-earthquake population stress-drop range for southeast Beni-Suef under the specified source model.",
+        "2": "Provides a correctly labeled single-event stress drop within the study population but not its range. No known scope conflict.",
+        "1": "Known conflicting scope or useful background only. Presenting a single-event stress drop as the range of the whole southeast Beni-Suef small-earthquake population changes the sample scope.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "34fddd00cf8ab2178231cf0c46c0f3371b6d9b72bf746d121118fe475394552c"
+    }
+  },
+  {
+    "query_id": "q04",
+    "query_text": "iron isotope fractionation low temperature pyrite formation",
+    "candidate": {
+      "candidate": 26,
+      "document_id": "claim:sha256:55735a9042f202e1adb42f577c911c1c83afbdc19d3acb10b480db0b9808c4ee",
+      "paper_id": "paper:986e9f2746210f66f669930bf936ec9cf00d940625052c1f7b2d403874cabb36",
+      "canonical": "Across Archean to early Paleoproterozoic iron formations, Fe-isotope systematics support Fe(II) oxidation followed by Fe(III)-oxyhydroxide deposition, with partial oxidation common, rather than extensive water-column Fe(II)-silicate precipitation as the main IF-forming process.",
+      "original": "Fig. 1. Temporal variations in $\\delta ^ { 5 6 } \\mathrm { F e }$ values (A) and $\\sf M n / F e$ ratios (B) of bulk Archean and early Paleoproterozoic IFs. Filled blue circles represent new results; unfilled gray squares indicate previous results. Detailed sources of these data are provided in the Supplementary Materials. Sample standard error is smaller than the data points. Horizontal gray bar denotes the range of $\\delta ^ { 5 6 } \\mathrm { F e }$ values of lithogenic and hydrothermal $\\mathrm { F e ( I I ) }$ sources $( - 0 . 5 < \\delta ^ { 5 6 } \\mathrm { F e } < 0 . 3 \\% )$ (Beard et al., 2003; Johnson et al., 2020; Severmann et al., 2004). Note the logarithmic scale in (B). ",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "Fe(II)",
+          "Fe(II)-silicates",
+          "Fe(III)-oxyhydroxides",
+          "iron formations"
+        ],
+        "formation": [],
+        "location": [],
+        "measurement": [
+          "Bulk-rock δ56Fe and Mn/Fe"
+        ],
+        "method": [
+          "Coupled Fe-isotope and Mn/Fe record"
+        ],
+        "sample_type": [
+          "Archean to early Paleoproterozoic iron formations"
+        ],
+        "time": {
+          "end": null,
+          "label": "Archean to early Paleoproterozoic",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "quotes": [
+        "Fig. 1. Temporal variations in $\\delta ^ { 5 6 } \\mathrm { F e }$ values (A) and $\\sf M n / F e$ ratios (B) of bulk Archean and early Paleoproterozoic IFs. Filled blue circles represent new results; unfilled gray squares indicate previous results. Detailed sources of these data are provided in the Supplementary Materials. Sample standard error is smaller than the data points. Horizontal gray bar denotes the range of $\\delta ^ { 5 6 } \\mathrm { F e }$ values of lithogenic and hydrothermal $\\mathrm { F e ( I I ) }$ sources $( - 0 . 5 < \\delta ^ { 5 6 } \\mathrm { F e } < 0 . 3 \\% )$ (Beard et al., 2003; Johnson et al., 2020; Severmann et al., 2004). Note the logarithmic scale in (B). ",
+        "Based on this updated IF geochemical record, we bolster the case that the partial oxidation of Fe(II) to $\\mathsf { F e } ( \\mathrm { I I I } )$ was central to IF genesis, arguing against extensive water column $\\mathsf { F e } ( \\mathrm { I I } )$ silicate formation as the main process driving IF deposition.",
+        "Most Archean IFs $( > 2 . 5 \\mathrm { G a } )$ are characterized by highly positive $\\delta ^ { 5 6 } \\mathrm { F e }$ values (Fig.",
+        "Finally, the predominance of Fe(III) phases on a basin scale is difficult to explain via post-depositional oxidation of Fe(II) silicates driven by groundwater flow on reasonable time scales (Robbins et al., 2019), supporting the interpretation that Fe(III)-oxyhydroxides should be the dominant primary phase for IFs.",
+        "Dauphas et al., 2017).",
+        "1A), suggesting that these IFs are the product of the partial oxidation of $\\mathsf { F e } ( \\mathrm { I I } )$ and a relatively large marine reservoir of aqueous Fe(II) (Rouxel et al., 2005).",
+        "Regardless, from an Fe isotope perspective, in contrast with those $\\delta ^ { 5 \\bar { 6 } } \\mathsf { F e }$ values $( - 0 . 7 8 \\sim - 0 . 1 \\mathrm { ~ \\% } o )$ measured for greenalite in IFs (Frost et al., 2007), the predominance of positively fractionated Fe isotope values in nearly all IFs—using a standard framework for interpreting Fe isotope values—provides strong support for genetic models that invoke precipitation of primary Fe(III)- oxyhydroxide minerals (Rouxel et al., 2005;",
+        "Further, secondary oxidation of greenalite cannot produce the commonly positive $\\delta ^ { 5 6 } \\mathrm { F e }$ values observed in our samples (Johnson et al., 2022), given that it requires high fluid/rock ratios."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": null,
+      "rubric": {
+        "3": "Direct evidence for the scientific topic and requested scope",
+        "2": "Compatible partial answer",
+        "1": "Background or explicit scope conflict",
+        "0": "Unrelated"
+      },
+      "pool_sha256": "bc44b23463e53386db446e2357d970987630d75e1a708dc700d239278afae622"
+    }
+  },
+  {
+    "query_id": "q69",
+    "query_text": "What seawater-fraction range was estimated by chloride mass balance for semiconfined fissure groundwater on the east coast of the Pearl River Estuary near Shenzhen?",
+    "candidate": {
+      "candidate": 2,
+      "document_id": "claim:sha256:cf257a1bf0c79376e8ff6ef2f02499c683c96562fbcc496c47d321bd27ad420b",
+      "paper_id": "paper:ac1d0f36e8ed969e63a261522e10996cdaeb3bdcfca195ba3c0d7fcf9af0add2",
+      "canonical": "In PGW, anthropogenic manure and sewage infiltration is the main source of nitrate enrichment.",
+      "original": "Source identification showed that the $\\delta ^ { 1 5 } \\mathrm { N - N O _ { 3 } } ^ { - }$ and $\\delta ^ { 1 8 } \\mathrm { O } -$ $\\mathrm { N O } _ { 3 } ^ { - }$ values in the groundwater fell in the range of manure and sewage zone (Figure 10A), which suggested that anthropogenic origin such as manure and sewage dominated in both the RFGW and the PGW.",
+      "scope": {
+        "location": [
+          "Coastal aquifer on the east coast of the Pearl River Estuary, Shenzhen"
+        ],
+        "time": null,
+        "formation": [],
+        "sample_type": [
+          "Groundwater"
+        ],
+        "method": [
+          "Nitrate dual-isotope source tracing"
+        ],
+        "condition": [],
+        "measurement": [
+          "Nitrate enrichment and nitrate isotope signatures"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "PGW",
+          "manure",
+          "nitrate",
+          "sewage"
+        ]
+      },
+      "quotes": [
+        "Source identification showed that the $\\delta ^ { 1 5 } \\mathrm { N - N O _ { 3 } } ^ { - }$ and $\\delta ^ { 1 8 } \\mathrm { O } -$ $\\mathrm { N O } _ { 3 } ^ { - }$ values in the groundwater fell in the range of manure and sewage zone (Figure 10A), which suggested that anthropogenic origin such as manure and sewage dominated in both the RFGW and the PGW.",
+        "Compared with the RFGW, elevated nitrate, nitrite, and ammonium were detected in the samples from the PGW.",
+        "The isotope signals of $\\delta ^ { 1 5 } \\mathrm { N - N O _ { 3 } } ^ { - }$ and $\\delta ^ { \\mathrm { 1 8 } } \\mathrm { O - N O _ { 3 } } ^ { - }$ values in the PGW showed higher values and within the expected range of manure and sewage zones (Figure 10A), indicating that the infiltration of manure and sewage caused by human activities was mainly responsible for the increase in nitrate in the groundwater.",
+        "In addition, $\\mathrm { N O } _ { 3 } { } ^ { - }$ showed a positive loading on factor 1, implying natural (non-anthropogenic) origin of $\\mathrm { N O } _ { 3 } { } ^ { - }$ such as precipitation deposition."
+      ],
+      "evidence_context": "[observation] PGW nitrate isotope signals fell within the expected manure and sewage ranges (Figure 10A); the authors attributed the nitrate increase mainly to manure and sewage infiltration.\n[reasoning] Higher nitrogen pollutant levels in PGW and its nitrate isotope source signature converge on manure and sewage infiltration as the main explanation for PGW nitrate enrichment."
+    },
+    "pool_query_context": {
+      "expected_answer": "The estimated seawater contribution ranged from 6% to 97%. The 12 SFGW samples are useful context, not an extra requested count. These are mixing fractions within groundwater, not percentages of samples classified as intruded. Grounded reference: claim:sha256:a94a01ce6adee8e9e80e40e7489da7ee45f4fac9208369871f621ee968f98700; BULK_a8a24db5b0d8e3fa9cb0.pdf.",
+      "rubric": {
+        "3": "6–97% seawater contribution with SFGW and chloride-mass-balance context.",
+        "2": "One correct bound or compatible SFGW mixing evidence lacking the requested full range. No known scope conflict.",
+        "1": "Evidence with the conflicting scope described in the trap, or relevant background that does not supply the requested scoped result. Correctly labeled partial evidence instead receives 2.",
+        "0": "Irrelevant to the requested scientific quantity and setting."
+      },
+      "pool_sha256": "3afe0d8a20ae89ef91700da255a6ce742afa0272cbcf7be44d9ef459ca41e374"
+    }
+  },
+  {
+    "query_id": "q119",
+    "query_text": "In the studied Khuff reservoir, how much does the porosity–permeability correlation change when evaluated within SSF depositional zones instead of across the whole formation?",
+    "candidate": {
+      "candidate": 2,
+      "document_id": "claim:sha256:363a81afca419b3a5683442c98b4ef7085feceb68d642be49f4f98171f11ca08",
+      "paper_id": "paper:e1ed74aaa63d8416c76413d670a5680c2e32dd3aa71e3c2bb7a920ac705c3f97",
+      "canonical": "The lower Khuff Formation is interpreted to act as an intraformational seal for underlying Unayzah clastic reservoirs, through its impermeable anhydrites, massive low-permeability carbonate rock, and shale.",
+      "original": "The results shows that the formation lithology is mainly dolomite and anhydrite interbeds with few limestone and shale intercalation at some levels.",
+      "scope": {
+        "condition": [
+          "Evaluation concerns available drilled intervals; Unayzah was not fully penetrated in the study wells"
+        ],
+        "entities": [
+          "Khuff Formation",
+          "Unayzah Formation"
+        ],
+        "formation": [
+          "Paleozoic Khuff and Unayzah formations"
+        ],
+        "location": [
+          "Kuwaiti oil fields"
+        ],
+        "measurement": [
+          "Lithology, porosity, permeability, water saturation, hydrocarbon saturation, and reservoir quality"
+        ],
+        "method": [
+          "Well-log petrophysical interpretation, calibrated with available core analysis at some intervals"
+        ],
+        "sample_type": [
+          "Subsurface intervals from nine deep exploratory and development wells"
+        ],
+        "time": null,
+        "uncertainty": "Petrophysical findings are based on well-log interpretations; core analysis was available at some intervals only"
+      },
+      "quotes": [
+        "The results shows that the formation lithology is mainly dolomite and anhydrite interbeds with few limestone and shale intercalation at some levels.",
+        "The permeability index is generally low and decreases with clay and anhydrite content.",
+        "The impermeable anhydrites, massive (low-permeability) carbonate rock and shale at the lower part of the formation combine to form intraformational seals for the clastic reservoirs of the underlying Unayzah Formation.",
+        "By contrast, the log interpretation revealed clastic lithological nature of the Unayzah Formation with cycles of conglomerate, sandstone, siltstone, mudstone and shales.",
+        "The Unayzah Formation unconformably underlies the Basal Khuff Clastics."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The reported coefficients are about 0.1 formation-wide versus 0.5–0.7 within SSF zones. These are the reported correlation coefficients; do not relabel them R² without evidence. Reference: 10.1016_j.petrol.2013.07.010.pdf; claim:sha256:cbe17d10a3db7fdfbea01d77b197e3b6ef0135993554c0c44a39757abb739cc1.",
+      "rubric": {
+        "3": "Compares approximately 0.1 formation-wide correlation with 0.5–0.7 within SSF zones; no co-kriging statistic is required.",
+        "2": "Provides a useful partial answer or leaves a scope qualifier unresolved, without a known conflict with the question.",
+        "1": "Related quantity or background with a known mismatch in site, interval, material, method, statistic, denominator or stated condition; including the scope trap.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "59582eda462e70155798a064f63a0a7c4ce5ca532f75400b280321c90008feb4"
+    }
+  },
+  {
+    "query_id": "q50",
+    "query_text": "Under the modeled gas-injection conditions, what maximum pore pressure can fault F2 in the Asmari reservoir sustain, and how do the three fault-stability formulations characterize it?",
+    "candidate": {
+      "candidate": 11,
+      "document_id": "claim:sha256:dbf43775e7729f9dbcbdbe576e4bd9c6f4c44be53dc39888973bb32d3fe76ad1",
+      "paper_id": "paper:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+      "canonical": "After pore-pressure diffusion in the modeled strike-slip fault system, a water-level increase produces a negative effective horizontal normal stress change across the modeled poroelastic range except at β=1, thereby tending to destabilize the fault.",
+      "original": "Figure 2",
+      "scope": {
+        "condition": [
+          "water-level increase"
+        ],
+        "entities": [
+          "effective horizontal normal stress",
+          "fault stability",
+          "pore pressure",
+          "water level"
+        ],
+        "formation": [
+          "strike-slip faulting"
+        ],
+        "location": [
+          "fault beneath a lake or reservoir"
+        ],
+        "measurement": [
+          "effective horizontal normal stress change"
+        ],
+        "method": [
+          "poroelastic model"
+        ],
+        "sample_type": [
+          "modeled fault"
+        ],
+        "time": {
+          "end": null,
+          "label": "post-diffusion stage",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "modeled poroelastic parameter ranges"
+      },
+      "quotes": [
+        "Figure 2",
+        "Figure 2: (a) A step-function water load, $\\sigma _ { w } ,$ applied on a top boundary of the structure.",
+        "Negative stress changes contribute to fault destabilization.",
+        "In contrast, at the post-diffusion stage, increase in pore pressure is always dominant over the loading effect, leading to the varying but always negative $\\Delta \\sigma _ { x x } ^ { \\prime }$ at any combination of poroelastic constants (Figure 5b).",
+        "Finally, at the post-diffusion stage (Figure 5b) $\\Delta \\sigma _ { \\mathrm { x x } } ^ { \\prime } / \\ p _ { s }$ is negative at any depth for the full range of variability in $\\beta$ and (except at $\\beta = 1$ , where $\\Delta \\sigma _ { \\mathrm { x x } } ^ { \\prime } / { \\mathrm p } _ { s } = 0 )$ , indicating that in contrast to the immediate undrained response (Figure 5a), fault stability may be compromised by the increase in the water level.",
+        "This analysis demonstrates that a certain combination of poroelastic fault properties, $\\beta$ or $\\gamma ,$ and of the elastic Poisson’s ratio, , may produce different effective stress change, $\\Delta \\sigma _ { \\mathrm { x x } } ^ { \\prime }$ , and thus result in a different fault behavior as a response to the increase in the water load.",
+        "Table 1: Poroelastic and elastic moduli for different rock types\\* (Wang, 2000)"
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The study estimates a maximum pore pressure of 55–57 MPa for F2. The 3-D Mohr-diagram, slip-tendency and modified-slip-tendency approaches identify F2 as the most stable of the studied faults. This is a conditional model estimate, with pre-existing faults treated as cohesionless, not an operational safety guarantee. Known positive reference: claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43; source: 10.1007_s12182-019-0331-9.pdf.",
+      "rubric": {
+        "3": "Provides the conditional F2 maximum pore-pressure estimate of 55–57 MPa and agreement of all three formulations that it is the most stable studied fault.",
+        "2": "Provides the compatible pressure estimate but omits the three-formulation stability comparison, or vice versa. No known scope conflict.",
+        "1": "Known conflicting scope or useful background only. Pore-pressure threshold of F1, F3 or F4, or differential pressure increase rather than maximum pore pressure.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "53326af0320b752f91526455b8276eb10013e562048eb9e2c4c03b2d369d59dc"
+    }
+  },
+  {
+    "query_id": "q108",
+    "query_text": "At Falkland Plateau DSDP Site 511, what temperature offset separates TEX86 and belemnite oxygen-isotope estimates through the Late Jurassic–Early Cretaceous, and how is it interpreted?",
+    "candidate": {
+      "candidate": 24,
+      "document_id": "claim:sha256:c43a35d73a48b698e1bf2621c3190e3ad3f844f62432581bc0e774c16084e835",
+      "paper_id": "paper:fea660d9ff23105f09d0a8137621ef34d34f46cacb228ba2dd0111b392d1c115",
+      "canonical": "Cooling episodes during C4 and across C5–C6 of Early Aptian OAE 1a had global significance, with corresponding signals reported in Pacific and European sections.",
+      "original": "As far as OAE 1a is concerned, at least three well-defined cooling episodes can be recognized recorded in Segments C3, C4 and C5– 6 of the characteristic carbon-isotope curve, of which the latter two have demonstrable global significance, being registered in the Pacific as well as European areas.",
+      "scope": {
+        "condition": [
+          "Within OAE 1a"
+        ],
+        "entities": [
+          "OAE 1a",
+          "marine temperature"
+        ],
+        "formation": [
+          "Oceanic Anoxic Event 1a (OAE 1a)"
+        ],
+        "location": [
+          "Sections from the Atlantic, Europe and Pacific"
+        ],
+        "measurement": [
+          "Marine palaeotemperature"
+        ],
+        "method": [
+          "Synthesis of TEX86, oxygen-isotope and nannofossil palaeotemperature proxies"
+        ],
+        "sample_type": [
+          "Stratigraphic sedimentary records"
+        ],
+        "time": {
+          "end": null,
+          "label": "Early Aptian",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Proxy calibration, diagenetic overprints and uneven stratigraphic resolution"
+      },
+      "quotes": [
+        "Figure 6. Comparison between two records and C-Segments of OAE 1a containing proxies $\\boldsymbol { \\mathrm { ( \\mathsf { T E } \\mathsf { X } _ { 8 6 } ^ { \\mathsf { H } } } }$ and $\\delta ^ { 1 8 } 0 )$ ) for sea-surface and upper water-column palaeotemperature, respectively, one a DSDP core through organic-rich mudstones and marlstones from the northeastern Atlantic [96], the other an outcrop of pelagic limestone from central Turkey assumed to be little altered diagenetically [97]. C-Segments after Li et al. [39]. The overall shapes of the palaeotemperature trends match each other closely. Maximum palaeotemperatures correspond with the latter half of the C3 Segment, which agrees with the oxygen-isotope profile from Cismon (figure 3; [35]) and palynological data from Italian sections [98]. Cooler intervals, shown in blue, correlate well in the C4 Segment, as also seen in the Cismon data (figure 3) and overlap in the C5 to C6 Segments. Cyclostratigraphic estimates for the durations of the C-Segments based on Italian data [41]. Alternative durations of these intervals, based on graphical methods, are also available [52]. Osmium-isotope data [50,53], depicted by the orange band and interpreted as an oceanwide signal, show an interval (blank) where higher values in two Italian sections suggest increased importance of continental weathering over basalt–seawater interaction; mercury data (red band) from European sections are suggestive of ongoing, possibly intermittent volcanic activity [54]. Whether or not the onset of the Hg anomaly coincided in time with that of the initial osmium-isotope shift to less radiogenic values is unknown, given that the data derive from different sections. Note how, in the Turkish section, the oxygen-isotope profile, plotted to reflect temperature, is virtually a mirror image of the carbon-isotope curve, with cooler intervals correlating with movement to higher $\\delta ^ { 1 3 } \\mathsf { C }$ values. Such relationships could indicate decrea…",
+        "As far as OAE 1a is concerned, at least three well-defined cooling episodes can be recognized recorded in Segments C3, C4 and C5– 6 of the characteristic carbon-isotope curve, of which the latter two have demonstrable global significance, being registered in the Pacific as well as European areas.",
+        "Cooler intervals, shown in blue, correlate well in the C4 Segment, as also seen in the Cismon data (figure 3) and overlap in the C5 to C6 Segments.",
+        "The well-defined cooler interval in C4, extending into C5, shown in blue, correlates with those recognized in sections from Europe (figure 6) and is clearly of global significance, as is also the case for the cooler interval (blue) extending over the C5–C6 boundary.",
+        "Notably, the abrupt fall in temperature across Subsegments 4b–4c correlates with an equally abrupt rise in carbon-isotope values attributable to an increase in global organic-matter burial that would occasion a drop in $p ( 0 _ { 2 }$ ."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "TEX86 estimates are approximately 14 °C warmer than belemnite estimates, interpreted as a thermocline/mixed-layer temperature drop because belemnites likely lived deeper. Belemnite calculations assume seawater δ18O = −1‰ SMOW and are considered maxima. Reference: W2123643570.pdf; claim:sha256:22a00b0a460ee23a5e51875cba0efc34d7af17fe2426e9893487cd39536f101e.",
+      "rubric": {
+        "3": "Gives TEX86 approximately 14 °C warmer than belemnite estimates at Site 511 and the deeper-habitat/thermocline interpretation; auxiliary seawater-isotope assumptions are optional.",
+        "2": "A correct subset of the requested comparison or definition, or relevant measurement with a scope qualifier unspecified; omission alone is not a known conflict.",
+        "1": "A result explicitly substituting the known wrong-scope measurement described in scope_trap, or merely related background.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "4f1c67f63f58c4f6c6170e4f7f6f0020f01a6818eecf4ded13ce6edf781edc0b"
+    }
+  },
+  {
+    "query_id": "q58",
+    "query_text": "What mean right-lateral slip rate is inferred for the eastern Düzce Fault from approximately 7–60 ka offset streams and terraces, and what qualifications accompany this estimate?",
+    "candidate": {
+      "candidate": 24,
+      "document_id": "claim:sha256:2fde655dad43a19764c130e948cf99e4baea0a742aee747fa1652c8eeeec5b46",
+      "paper_id": "paper:e214d61c26e1bab5ece65128924ed0e2cd7899d153fcc0a26260627ae0b7e444",
+      "canonical": "Based on displaced seismic reflectors of the SB2 surface, the Elat and Aqaba marginal normal faults of the northern Gulf of Elat/Aqaba have Holocene vertical slip rates of 1.0 ± 0.2 mm/yr and 0.4 ± 0.1 mm/yr, respectively.",
+      "original": "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes.",
+      "scope": {
+        "location": [
+          "western and eastern margins of the northern Gulf of Elat/Aqaba"
+        ],
+        "time": {
+          "label": "Holocene (approximately 9–10 ka)",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [],
+        "method": [
+          "vertical offsets of the SB2 surface and the overlying U5–U6 units"
+        ],
+        "condition": [],
+        "measurement": [
+          "vertical slip rate"
+        ],
+        "uncertainty": "± 0.2 mm/yr (Elat Fault) and ± 0.1 mm/yr (Aqaba Fault)",
+        "entities": [
+          "Aqaba Fault",
+          "Elat Fault",
+          "SB2 sequence boundary"
+        ]
+      },
+      "quotes": [
+        "Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes.",
+        "Using an age of 9–10 ka for the SB2 surface, we calculate a vertical slip rate of 1.0 ± 0.2 mm/yr and 0.4 ± 0.1 mm/yr for the Elat and Aqaba faults, respectively (Figure 15).",
+        "The basin is flanked on the west by the Elat Fault and on the east by the Aqaba Fault."
+      ],
+      "evidence_context": "[source] Figure 15. A map of the major faults (black lines) that divide the northern GEA and their estimated slip rates (internal frames), overlaid on the curvature of the seafloor. Faults are marked by solid lines where they were interpreted from the seismic data across the shelf. The continuation of the faults southward is suggested based on their extrapolation from the curvature analysis of the bathymetric data and in similarity to the fault outlines that were previously suggested [Reches et al., 1987; Ben Avraham and Tibor, 1993; Ehrhardt et al., 2005; Tibor et al., 2010]. Their continuation northward is suggested based on their extrapolation from presettlement (1945) aerial photographs. The graphs of average slip rates and tilt rates as a function of the averaging time-span are shown for their relevant faults. Average slip rates are marked by black lines and calculated uncertainty indicated by gray boxes.\n[observation] Using an age of 9–10 ka for the SB2 surface, a vertical slip rate of 1.0 ± 0.2 mm/yr and 0.4 ± 0.1 mm/yr is calculated for the Elat and Aqaba faults, respectively (Figure 15).\n[reasoning] Equal vertical offset of the SB2 surface and the overlying U5–U6 units indicates that the full measured offset accumulated since approximately 9–10 ka, giving Holocene vertical slip rates of 1.0 ± 0.2 and 0.4 ± 0.1 mm/yr on the Elat and Aqaba marginal faults."
+    },
+    "pool_query_context": {
+      "expected_answer": "The mean inferred slip rate is 15.0 ± 3.2 mm/yr. The interval-wide interpretation assumes a constant slip rate over roughly the past 60 ka. The dated deposits systematically predate the offset geomorphic markers, so rates calculated with those ages should be treated as minimum estimates. Known positive reference: claim:sha256:9bce89e3d4754a15561229094922f0050f1ae279ff9c5fe5e2a275d4bbbd9b52; source: 10.1016_j.geomorph.2007.09.002.pdf.",
+      "rubric": {
+        "3": "Provides eastern Düzce mean slip of 15.0 ± 3.2 mm/yr, the constant-slip assumption over ~60 ka, and minimum-rate qualification because deposits predate offset markers.",
+        "2": "Provides the compatible mean rate but omits one or both requested methodological qualifications. No known scope conflict.",
+        "1": "Known conflicting scope or useful background only. An interseismic GPS rate from a different NAF segment substituted for the eastern Düzce geological 7–60 ka markers.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "1985b4b876d919ebec1df71cfd00903e8612524f88ad388c5dcb1e675125d1f5"
+    }
+  },
+  {
+    "query_id": "q113",
+    "query_text": "Under the paper’s 20–30 cm sea-level-rise scenario for 2020–2030, what average Romanian-coast recession rate was estimated using Bruun theory?",
+    "candidate": {
+      "candidate": 31,
+      "document_id": "claim:sha256:06c13d69637558c1f2bb0c5b893a96d1bcd8321e39f3f9d46cee85777c17ebf9",
+      "paper_id": "paper:7410d390eae5b3aafca911ad2779940193a7aa2e608bddaeaa500ec65842a34f",
+      "canonical": "For calcite and dunite (olivine) weathering on Baltic Sea surface sediments exposed to undersaturated bottom water, rate constants inferred from excess Ca and Si fluxes were close to published dissolution values, supporting use of the corresponding rate laws in EBW models for the Baltic Sea and chemically similar conditions.",
+      "original": "This leads to a rate constant $\\mathrm { k _ { r } c _ { a } }$ of $0 . 0 0 2 5 \\pm 0 . 0 0 0 8 ~ \\mu \\mathrm { m o l }$ $\\mathrm { c m } ^ { 2 } \\ \\mathrm { d } ^ { - 1 }$ and subsequently to a $\\mathrm { L o g _ { 1 0 } ( k _ { r C a } ) }$ of $- 1 3 . 5 4 \\pm 0 . 1 2 \\mathrm { m o l }$ $\\mathrm { c m } ^ { - 2 } \\ s ^ { - 1 }$ for a mean $\\Omega _ { \\mathrm { C a l } }$ value of 0.9 (Figure 5C).",
+      "scope": {
+        "location": [
+          "Boknis Eck, Eckernförde Bay, Western Baltic Sea"
+        ],
+        "time": null,
+        "formation": [],
+        "sample_type": [
+          "organic-rich sediment cores"
+        ],
+        "method": [
+          "controlled sediment-core incubation with constant flow-through"
+        ],
+        "condition": [
+          "CO2-enriched, hypoxic-to-anoxic and calcite-undersaturated Baltic bottom water"
+        ],
+        "measurement": [
+          "benthic TA, Ca and Si fluxes; calcite saturation"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Baltic Sea bottom water",
+          "calcite",
+          "dunite (olivine)",
+          "sediments"
+        ]
+      },
+      "quotes": [
+        "This implies that these kinetic constants and the corresponding rate laws can be employed to simulate EBW and investigate the uptake of atmospheric $\\mathrm { C O } _ { 2 }$ induced by OAE in the Baltic Sea and presumably other anoxic to hypoxic ocean basins.",
+        "This leads to a rate constant $\\mathrm { k _ { r } c _ { a } }$ of $0 . 0 0 2 5 \\pm 0 . 0 0 0 8 ~ \\mu \\mathrm { m o l }$ $\\mathrm { c m } ^ { 2 } \\ \\mathrm { d } ^ { - 1 }$ and subsequently to a $\\mathrm { L o g _ { 1 0 } ( k _ { r C a } ) }$ of $- 1 3 . 5 4 \\pm 0 . 1 2 \\mathrm { m o l }$ $\\mathrm { c m } ^ { - 2 } \\ s ^ { - 1 }$ for a mean $\\Omega _ { \\mathrm { C a l } }$ value of 0.9 (Figure 5C).",
+        "The result is a $\\mathrm { k _ { r S i } }$ of $1 . 8 2 2 \\cdot 1 0 ^ { - 1 0 } \\mathrm { m o l } \\mathrm { m } ^ { - 2 } \\mathrm { s } ^ { - 1 }$ and subsequent $\\mathrm { L o g _ { 1 0 } ( k _ { r S i } ) }$ of $- 9 . 7 6 \\pm 0 . 1 6$ $[ - 9 . 9 0 < \\mathrm { L o g } _ { 1 0 } ( \\mathrm { k } _ { \\mathrm { r S i } } )$ $< ~ - 9 . 5 9 ]$ .",
+        "Furthermore, the results of the present study reveal that under anoxic to hypoxic conditions the weathering of calcite and dunite can be traced and quantified based on dissolved Ca and Si, respectively.",
+        "A highlight of this study is the congruence of observed and previously published dissolution rate constants which underpins the usability of these constants for modeling approaches toward large scale assessment of EBW as a climate change mitigation measure.",
+        "With these assumptions in mind, the dissolution kinetics of olivine can be estimated following Equations 6, 7, with Si as a candidate proxy, assuming congruent weathering."
+      ],
+      "evidence_context": "[source] This implies that these kinetic constants and the corresponding rate laws can be employed to simulate EBW and investigate the uptake of atmospheric $\\mathrm { C O } _ { 2 }$ induced by OAE in the Baltic Sea and presumably other anoxic to hypoxic ocean basins.\n[observation] The authors state that these kinetic constants and rate laws can be used to simulate EBW and investigate atmospheric CO2 uptake in the Baltic Sea and presumably other anoxic-to-hypoxic ocean basins.\n[reasoning] Convergence of the mineral-specific flux proxies and literature-consistent rate estimates supports applying the corresponding calcite and olivine rate laws in EBW simulations for undersaturated Baltic Sea surface sediments."
+    },
+    "pool_query_context": {
+      "expected_answer": "The modeled average recession is 3–5 m/yr. This is the paper’s conditional historical forecast, not an observed 2020–2030 trend or a current assessment. Reference: BULK_21f637c0c66eae026a7f.pdf; claim:sha256:bf91bfb8ef0b5db56d1aa97c80a933ae8a8689149d19d695003adc6302b91863.",
+      "rubric": {
+        "3": "Gives the conditional Bruun-model Romanian recession estimate of 3–5 m/yr under the stated 20–30 cm rise scenario, not an observed trend.",
+        "2": "Provides a useful partial answer or leaves a scope qualifier unresolved, without a known conflict with the question.",
+        "1": "A result explicitly substituting the known wrong-scope measurement described in scope_trap, or merely related background.",
+        "0": "Unrelated to the requested scientific quantity and context."
+      },
+      "pool_sha256": "fb6bd7d7e9cbeb3b7e63fa2c8553ea1fea56ad7b9b35139fe2ce30cbe4a33974"
+    }
+  },
+  {
+    "query_id": "q14",
+    "query_text": "silicon isotope biogenic silica diatom fractionation",
+    "candidate": {
+      "candidate": 43,
+      "document_id": "claim:sha256:d69bc9914d3a5d564ffd14a3c2e00304d0833912426edafe79c208a06c513254",
+      "paper_id": "paper:b7ed2d4a4df2ca9b0949cbb879c4a876fab7cfc161999509d95d3ef0d7f8d379",
+      "canonical": "在华南早寒武世织金磷块岩中，伊利石是早期成岩阶段白云母经海洋硅酸盐蚀变形成的自生矿物。",
+      "original": "将上述硅同位素组成分别作为碎屑矿物分解端元和海水端元, 织金样品的 $\\delta ^ { 3 0 } \\mathrm { S i }$ 值落在两端元之间, 暗示着织金硅的混合来源(碎屑和海水来源).",
+      "scope": {
+        "location": [
+          "贵州省织金县"
+        ],
+        "time": {
+          "label": "早寒武世",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "戈仲武组"
+        ],
+        "sample_type": [
+          "海相磷块岩"
+        ],
+        "method": [
+          "矿物学、原位REY、全岩Si-Fe同位素"
+        ],
+        "condition": [
+          "波动的氧化-次氧化海洋条件"
+        ],
+        "measurement": [
+          "REY含量与配分、δ30Si、δ56Fe、Al/Si"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "REY",
+          "伊利石",
+          "孔隙水",
+          "白云母",
+          "磷灰石",
+          "织金磷块岩"
+        ]
+      },
+      "quotes": [
+        "将上述硅同位素组成分别作为碎屑矿物分解端元和海水端元, 织金样品的 $\\delta ^ { 3 0 } \\mathrm { S i }$ 值落在两端元之间, 暗示着织金硅的混合来源(碎屑和海水来源).",
+        "总之, 矿物的空间分布、黏土矿物的REY浓度和配分模式、Al含量、Al/Si比值以及 $\\delta ^ { 3 0 } \\mathrm { S i }$ 值都证明织金伊利石形成于早期成岩期间白云母的海洋硅酸盐蚀变过程.",
+        "织金样品中石英和黄铁矿生长在伊利石基质中,伊利石生长在白云母边缘, 残余的白云母沿黄铁矿边缘分布(图2a, 2b)."
+      ],
+      "evidence_context": "[observation] 梅树村样品中正长石和白云母随机分布，二者无清晰接触关系（图2c）。\n[reasoning] 矿物接触关系显示织金伊利石围绕并交代白云母生长，而梅树村正长石与白云母随机分布、缺乏类似接触，指示织金存在自生伊利石形成而梅树村以碎屑组合为主。\n[reasoning] 综合矿物接触关系、REY配分和Si-Al同位素/元素指标，织金伊利石最符合早期成岩阶段白云母经海洋硅酸盐蚀变形成的自生矿物。"
+    },
+    "pool_query_context": {
+      "expected_answer": null,
+      "rubric": {
+        "3": "Direct evidence for the scientific topic and requested scope",
+        "2": "Compatible partial answer",
+        "1": "Background or explicit scope conflict",
+        "0": "Unrelated"
+      },
+      "pool_sha256": "32ca7fa7b4513f05ad9d412f04f3f95192870ca031526f4713670e3c53e63bcc"
+    }
+  },
+  {
+    "query_id": "q05",
+    "query_text": "molybdenum isotope euxinic conditions ocean sediment black shale",
+    "candidate": {
+      "candidate": 42,
+      "document_id": "claim:sha256:db116b7c04842e2c76ed43cec8994eb5e3381c9f3f46f5833654361d3066d2d6",
+      "paper_id": "paper:64c6f90d697361f963cd56ca0da61f48ac9ec529e9b1fd4c59d6f6aa1ab63549",
+      "canonical": "不同类型海洋沉积物的锌同位素组成受矿物吸附、沉淀及生物过程控制：碳酸盐和铁锰结核倾向富集重锌，而贫氧—缺氧沉积物可保存轻锌，硅质生物沉积物的组成还随物种和环境而变化。",
+      "original": "这 与 实 验 研 究 结果一致，锌在碳酸盐表面的吸附和沉淀过程中，重锌同位素优先与碳酸盐结合（Dong and Wasylenki，2016；",
+      "scope": {
+        "condition": [
+          "不同矿物吸附、沉淀及生物摄取条件"
+        ],
+        "entities": [
+          "海洋沉积物",
+          "硅质生物沉积物",
+          "碳酸盐",
+          "贫氧—缺氧沉积物",
+          "铁锰结核",
+          "锌同位素"
+        ],
+        "formation": [
+          "沉积物形成及锌吸附、沉淀和生物摄取"
+        ],
+        "location": [
+          "海洋"
+        ],
+        "measurement": [
+          "沉积物锌同位素组成"
+        ],
+        "method": [
+          "文献综述综合"
+        ],
+        "sample_type": [
+          "多类型海洋沉积物"
+        ],
+        "time": {
+          "end": null,
+          "label": "现代海洋研究",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "不同物种、环境和沉积过程均可能影响组成"
+      },
+      "quotes": [
+        "这 与 实 验 研 究 结果一致，锌在碳酸盐表面的吸附和沉淀过程中，重锌同位素优先与碳酸盐结合（Dong and Wasylenki，2016；",
+        "2014a，2014b）的研究表明，铁锰结核的$Z \\mathrm { n }$ 同位素组成变化较大，为 $+ 0 . 5 3 \\% 0 \\sim + 1 . 4 2 \\%$ ，平均值 $+ 0 . 9 5 \\pm 0 . 3 3 \\%$ （ $N = 6 5$ ，2SD），均高于现代海水平均值 $( + 0 . 5 \\text{‰}$ ），这是由于吸附 $Z \\mathrm { n }$ 的过程中，配 位 数 减 小 ，优 先 吸 附 较 重 的 $^ { 6 6 } Z \\mathrm { n }$ （Fujii et al.，2010，2011；",
+        "2.2.5 贫氧‒缺氧沉积物的锌同位素组成 东北太平洋和东南太平洋边缘贫氧且富有机质的沉积物，具有轻于平均海水的 $\\delta ^ { 6 6 } Z \\mathrm { n }$ 值 $( - 0 . 0 5 \\% \\sim + 0 . 3 6 \\%$ ，平 均 值 为 $+ 0 . 1 5 \\pm 0 . 2 4 \\%$ ， $N = 3 6$ ，2SD）.Littleet al.（2016）将 这 种 较 轻 的 $Z \\mathrm { n }$ 同位素组成特征归因于：（1）透光带中海洋浮游植物对 $Z \\mathrm { n }$ 的摄取，优先吸收较轻的 $Z \\mathrm { n }$ 同位素，并将这种信号保存在富有机质的沉积物中；",
+        "生 物 成 因 硅 质 沉 积 物 的 锌 同 位 素 组 成 变 化较 大（图 2），硅 质 生 物 所 处 的 环 境 条 件（例 如 环境 中 $Z \\mathrm { n } ^ { 2 + }$ 、Fe 浓 度 的 不 同）、生 物 所 属 种 类 的 不同以及生长习性的差异都会影响其 Zn 同位素的组成，因此，在解释其代表的生长环境时，应考虑到铁的限制、Zn 的吸收速率、有机络合程度等多 种 影 响 因 素 .",
+        "图2 不同种类硅质沉积物的 $Z \\mathrm { n }$ 同位素组成Fig.2 $Z \\mathrm { n }$ isotopic composition of different types of siliceoussediments数据来源于 Andersen et al（. 2011）；Hendry and Andersen（2013）"
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": null,
+      "rubric": {
+        "3": "Direct evidence for the scientific topic and requested scope",
+        "2": "Compatible partial answer",
+        "1": "Background or explicit scope conflict",
+        "0": "Unrelated"
+      },
+      "pool_sha256": "7ef9c42b6693e3d9af920278be47721a3b66d3db492d789b0234294ffc9a5e5e"
+    }
+  },
+  {
+    "query_id": "q82",
+    "query_text": "Using the 1990 census baseline, what number and share of people served by domestic wells in the conterminous United States were estimated potentially to consume groundwater with Mn above 300 μg/L?",
+    "candidate": {
+      "candidate": 2,
+      "document_id": "claim:sha256:59cc23b51f757b6263ff8a1e64d923e51ce9364fb7dd4f2349431f106824f8bf",
+      "paper_id": "paper:a6805ec9fd6398974a4a71dd580cd56853fdea92c1eb4d4f679bf721f942beff",
+      "canonical": "In the sampled Morogoro groundwater, nitrate concentration generally decreased as well depth increased, with high concentrations occurring mainly in wells shallower than 41 m.",
+      "original": "Figure 5: The variation of ${ \\mathrm { N O } } _ { 3 } { } ^ { - }$ concentration with depth.",
+      "scope": {
+        "location": [
+          "Morogoro municipality, Tanzania"
+        ],
+        "time": {
+          "label": "Wet season, March–April 2010",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Neogene alluvium aquifer"
+        ],
+        "sample_type": [
+          "Groundwater samples from 20 wells in six wards"
+        ],
+        "method": [
+          "Spectrophotometric nitrate analysis"
+        ],
+        "condition": [
+          "Wet-season sampling"
+        ],
+        "measurement": [
+          "Nitrate concentration"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "groundwater",
+          "nitrate (NO₃⁻)"
+        ]
+      },
+      "quotes": [
+        "Figure 5: The variation of ${ \\mathrm { N O } } _ { 3 } { } ^ { - }$ concentration with depth.",
+        "The results show that high nitrate concentration occurred mainly in wells with depths less than $4 1  { \\mathrm { ~ \\textrm ~ { ~ ~ } ~ } }  { \\mathrm { m } }$ .",
+        "Figure 5 shows the variation of $\\mathrm { N O _ { 3 } } ^ { - }$ concentration with depth.",
+        "It can be observed from the graph that the trend of ${ \\mathrm { N O } } _ { 3 } ^ { - }$ is decreasing with depth, though there are some deep wells with high ${ \\mathrm { N O } } _ { 3 } { } ^ { - }$ , however, this can be due to the multiple screens.",
+        "The spectrophotometer was used to measure the ${ \\mathrm { N O } } _ { 3 } { } ^ { - }$ concentration in water samples.",
+        "Groundwater samples were collected from 20 wells during wet season period in March-April 2010 in 6 wards namely Kihonda, Mji Mpya, Mafisa, Saba Saba, Boma and Kilakala."
+      ],
+      "evidence_context": "[source] Figure 5: The variation of ${ \\mathrm { N O } } _ { 3 } { } ^ { - }$ concentration with depth.\n[observation] The text describing Figure 5 reports a general decrease in nitrate concentration with depth, while noting high-nitrate deep wells that may be due to multiple screens.\n[reasoning] The graph-reported decline and the finding that high concentrations occurred mainly below 41 m support a general inverse depth–nitrate association; high-nitrate deep wells rule out a universal monotonic decrease."
+    },
+    "pool_query_context": {
+      "expected_answer": "Approximately 2.6 million of 36.4 million domestic-well users, or about 7%, were estimated potentially to consume such groundwater. These are population estimates based on the stated baseline, not verified individual consumption or current population counts. The 36.4-million denominator provides necessary interpretation of the share; exact reproduction of that baseline count is supporting context. Grounded reference: claim:sha256:86253218fc64732dbbf2e67a9b87bdc9fb598e023af8a988b773ff04a901eb85; W2905378476.pdf.",
+      "rubric": {
+        "3": "About 2.6 million and 7%, with domestic-well population, 1990 baseline, and >300-μg/L threshold preserved.",
+        "2": "Only the correct number or share, or compatible population evidence with missing context but no contradictory baseline or denominator. No known scope conflict.",
+        "1": "Evidence with the conflicting scope described in the trap, or relevant background that does not supply the requested scoped result. Correctly labeled partial evidence instead receives 2.",
+        "0": "Irrelevant to the requested scientific quantity and setting."
+      },
+      "pool_sha256": "2e0e746e60216f21f5bdfcdcab2d8a6813e30d32dc774affacc66b79f1b76507"
+    }
+  },
+  {
+    "query_id": "q79",
+    "query_text": "At how many Wellington-region groundwater sites did Halon-1301 exponential-piston-model mean residence times agree with tritium and/or SF6 estimates, and what agreement criterion was reported?",
+    "candidate": {
+      "candidate": 14,
+      "document_id": "claim:sha256:358e39f8fd6483805a23ec80e19d8f7c4f580f268c653144071c41e5d2cfd9e7",
+      "paper_id": "paper:633a0b3b2bd6ea7a12a783cdd9f6922311b95d11b59308b50ab7a738244c33c0",
+      "canonical": "The Permian Phosphoria Sea exchanged water robustly with the open ocean rather than being stagnant; the modeled mean bottom-water residence time was about 10 years, with a V-based estimate of 11 years.",
+      "original": "The RT agrees closely with the RT of 11 years that was calculated from the accumulation rate of V.",
+      "scope": {
+        "condition": [
+          "Water exchange between the Phosphoria Sea and open ocean"
+        ],
+        "entities": [
+          "Mo",
+          "Phosphoria Sea",
+          "V",
+          "bottom water",
+          "open ocean",
+          "organic carbon"
+        ],
+        "formation": [
+          "Meade Peak Member of the Phosphoria Formation"
+        ],
+        "location": [
+          "Phosphoria Basin"
+        ],
+        "measurement": [
+          "Bottom-water residence time and Mo:Corg distribution"
+        ],
+        "method": [
+          "Mo:Corg patterns and accumulation-rate circulation model"
+        ],
+        "sample_type": [
+          "Sediment samples and reconstructed basin water"
+        ],
+        "time": {
+          "end": null,
+          "label": "Permian Meade Peak Member accumulation",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Residence-time calculations depend on assumed V concentration and removal."
+      },
+      "quotes": [
+        "The RT agrees closely with the RT of 11 years that was calculated from the accumulation rate of V.",
+        "Figure 11 The relationship between Mo and $\\complement _ { \\mathfrak { o r g } }$ in samples from the MPM at the Hot Springs site. The shaded area encloses samples from the Namibian shelf, southwest Africa (Algeo and Lyons, 2006). ",
+        "Figure 12 A circulation model for the Phosphoria Basin. The upwelling rate is based on the mean accumulation rates of the trace nutrients Cd, Cu, Ni, and Zn. Advection of bottom water is based on the mean accumulation rate of the redox-sensitive trace metal V. The rate of exchange of water between the Phosphoria Basin and the Goose Egg Basin assumes an evaporation rate of $1 . 5 \\ : \\mathrm { m y e a r } ^ { - 1 }$ (Penman, 1948) and an area of evaporation in the Goose Egg Basin that equaled the area of phosphogenesis in the Phosphoria Basin. ",
+        "Figure 12 A circulation model for the Phosphoria Basin.",
+        "The $\\mathbf { M o } \\mathrm { { : C } _ { \\mathrm { { o r g } } } }$ ratios also exhibit a distribution similar to that of sediments from the Namibian Shelf (Figure 11), further supporting the interpretation of the free exchange of water between the Phosphoria Sea and the open ocean.",
+        "A mean bottom-water RT in the Phosphoria Sea of 11 years was certainly not a stagnant condition.",
+        "the ratios are randomly distributed (Piper et al., 2000) for both the glacial (low sea level) and interglacial (high sea level) periods (Figure 7(a)), suggesting that the exchange of water between the ocean and the Phosphoria Sea was unrestricted during the entire period of deposition.",
+        "\\begin{array} { l } { { \\mathrm { R T } _ { \\mathrm { ( V ) } } = \\left[ 2 5 1 \\mathrm { c m } ^ { - 2 } \\times 1 . 8 \\mu { \\bf g } - \\mathrm { V } { \\mathrm { I } } ^ { - 1 } \\times 5 0 \\% \\right] } } \\\\ { ~ \\div \\left[ 1 . 4 \\times 1 0 ^ { - 3 } \\mathrm { c m } \\mathrm { y e a r } ^ { - 1 } \\times 2 . 5 { \\bf g } \\mathrm { c m } ^ { - 3 } \\times 5 6 5 \\mathrm { p p m } \\right] } \\\\ { ~ = 1 1 \\mathrm { y e a r s } } \\end{array}"
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "Agreement was reported at 12 of 17 sites, within approximately 1 SD. This is agreement of inferred EPM mean residence times, not simply stable measured concentrations during storage. The recommended recharge window and complementary-tracer advice are useful but not required to answer the count/criterion question. Grounded reference: claim:sha256:8c339175285c75dab3a44342e96798c2116002d453a8c77a7808e8fb10a44cfa; W2086092187.pdf.",
+      "rubric": {
+        "3": "12 of 17 sites plus approximately 1-SD agreement, correctly identified as EPM age comparison.",
+        "2": "The correct count or criterion alone, or compatible EPM comparison evidence without both requested components. No known scope conflict.",
+        "1": "Evidence with the conflicting scope described in the trap, or relevant background that does not supply the requested scoped result. Correctly labeled partial evidence instead receives 2.",
+        "0": "Irrelevant to the requested scientific quantity and setting."
+      },
+      "pool_sha256": "63afd47eb0929b048bd407ba7da5ff1422668d6df5c9065bbfacc52e908d3298"
+    }
+  },
+  {
+    "query_id": "q67",
+    "query_text": "What fraction of groundwater samples from the El Kef-Sers Mio-Plio-Quaternary aquifer exceeded the study-cited nitrate threshold of 50 mg/L?",
+    "candidate": {
+      "candidate": 8,
+      "document_id": "claim:sha256:87b85bfd1582f907ad801e8c591c002fd6c91d4230299dfee511ab8b1ef509f2",
+      "paper_id": "paper:61480668f0d0fdfdb55f95aba89fd13f4678bfab84480b00687ebc7cc4631a0d",
+      "canonical": "At the nitrate-discharge zone in Fishermans Cove, only a limited fraction—no more than 30–40%—of incoming groundwater nitrate is removed before discharge; rapid upward transit and electron-donor limitation constrain net attenuation despite high laboratory denitrification potential near the surface.",
+      "original": "During this test, $\\mathrm { N O } _ { 3 } \\mathrm { ^ { - } }$ concentrations during breakthrough at depths from 75 to $1 5 \\mathrm { { c m } }$ varied between the ambient groundwater and injectate values, indicating no reactive loss of $\\mathrm { N O } _ { 3 } { } ^ { - }$ .",
+      "scope": {
+        "condition": [
+          "Nitrate-discharge zone; acetate added in the second tracer test"
+        ],
+        "entities": [
+          "Ashumet Pond",
+          "Fishermans Cove",
+          "lakebed sediments",
+          "nitrate-contaminated groundwater"
+        ],
+        "formation": [],
+        "location": [
+          "Ashumet Pond, Fishermans Cove, Cape Cod, Massachusetts"
+        ],
+        "measurement": [
+          "Potential denitrification rates, nitrate attenuation, and tracer velocity"
+        ],
+        "method": [
+          "Laboratory sediment microcosms and natural-gradient tracer tests"
+        ],
+        "sample_type": [
+          "Lakebed sediments and porewater"
+        ],
+        "time": {
+          "end": null,
+          "label": "October 2014",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Laboratory microcosm rates are potential rates, not actual in situ rates"
+      },
+      "quotes": [
+        "Although the microbial community was functionally primed and capable of reducing substantial amounts of $\\mathrm { N O } _ { 3 } \\mathrm { ^ { - } }$ prior to discharge, electron donor limitation coupled with relatively rapid transit rates through the active zone precluded substantial $\\mathrm { N O } _ { 3 } \\mathrm { ^ { - } }$ removal from occurring.",
+        "During this test, $\\mathrm { N O } _ { 3 } \\mathrm { ^ { - } }$ concentrations during breakthrough at depths from 75 to $1 5 \\mathrm { { c m } }$ varied between the ambient groundwater and injectate values, indicating no reactive loss of $\\mathrm { N O } _ { 3 } { } ^ { - }$ .",
+        "Potential rates of denitrification were 10 to 470 times higher in near-surface sediments $( 0 - 5 \\mathrm { c m } )$ ) than in pooled deeper sediments $( 5 { - } 3 0 \\mathrm { c m } )$ at the $\\mathrm { N O } _ { 3 } \\mathrm { ^ { - } }$ discharge zone (Table 2, Figure 6a), with no clear correlation with sediment porewater $\\mathrm { N O } _ { 3 } \\mathrm { ^ { - } }$ concentrations along the horizontal transect perpendicular to shore (compare Figures 4 and 6a).",
+        "The fate of groundwater $\\mathrm { N O } _ { 3 } \\mathrm { ^ { - } }$ and other contaminants discharging into a lake depends on coupling between hydrologic and geochemical processes within, and upgradient of, the discharge area, as depicted in Figure 9.",
+        "Diagrammatic interpretation of a groundwater contaminant plume discharging into a freshwater lake.",
+        "Figure 9.",
+        "3) Within the lakebed, where more degradable carbon is available, flow paths angle upward, and there is a greater potential for N cycle redox reactions such as anammox and denitrification to occur.",
+        "However, the zone of reactivity is relatively thin (redshaded area) and transit times, which can be quite short, dictate the extent to which biogeochemical processes transform or remove DIN species, resulting in 4) delivery and uptake of DIN in the water column of the lake.",
+        "Genes regulating denitrification (nosZI, nosZII, and nirS) and anammox $( h z o )$ (data points) and potential rates of denitrification, anammox, and net anoxic nitrate consumption (bars) grouped by sampling transect and date (green bars), and depth interval (grey, yellow, and red bars represent replicates) within sediment cores.",
+        "(a) Background concentration of nitrate;",
+        "Rates are considered to be potential rates, not actual in situ rates, but serve as the basis for spatial and temporal sample comparison.",
+        "Thus, the amount of $\\mathrm { N O } _ { 3 } \\mathrm { ^ { - } }$ removed prior to discharge to the lake was no more than $3 0 { - } 4 0 \\%$ of the incoming porewater $\\mathrm { N O } _ { 3 } \\mathrm { ^ { - } }$ concentration in the near-surface sediment, even when acetate was present.",
+        "In contrast, significant losses of $\\mathrm { N O } _ { 3 } \\mathrm { ^ { - } }$ were observed near the sediment surface (Figure 8a)."
+      ]
+    },
+    "pool_query_context": {
+      "expected_answer": "The reported fraction is 77%. This is a sample-exceedance fraction at the study-cited threshold, not a statement about the fraction of all groundwater volume. The export identifies July–August 2001 sampling; that contextual date is not an additional requested gate. Grounded reference: claim:sha256:f20d63aaf8469fdce85656b8c6c6e678c5d8b73a94f6779d19416682c0e24d9f; 10.1016_j.jafrearsci.2013.02.004.pdf.",
+      "rubric": {
+        "3": "77% with the correct sample population and threshold.",
+        "2": "Compatible MPQ nitrate measurements or exceedance evidence without the requested fraction. No known scope conflict.",
+        "1": "Evidence with the conflicting scope described in the trap, or relevant background that does not supply the requested scoped result. Correctly labeled partial evidence instead receives 2.",
+        "0": "Irrelevant to the requested scientific quantity and setting."
+      },
+      "pool_sha256": "b9b814c25cc366ee52f823c1ed5876daa1fb2693426175a6e1d855fd77e628e8"
+    }
+  }
+]

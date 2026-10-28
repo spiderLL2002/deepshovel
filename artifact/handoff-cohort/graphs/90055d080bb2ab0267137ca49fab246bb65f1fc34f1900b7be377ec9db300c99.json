@@ -1,0 +1,944 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "6dadded6f998d3e9327247629de0f90cff20cb29fabb6090c65ffb7ada2e1570",
+  "http_body_sha256": "3b83cb4b3f2935cec3cb93698d339a33594493f59cd12a8a1e78c4c1b72ee311",
+  "snapshot": {
+    "id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+    "rootArtifactVersionId": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99"
+  },
+  "graph": {
+    "paper_id": "paper:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+    "anchors": [
+      {
+        "id": "anchor.carbonate-abstract",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.conclusion.bonds",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.conclusion.geometry",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.exp.alpha",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.exp.conclusion",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.exp.conditions",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.exp.delta-definition",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.exp.time-series",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.fig2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.fig2.equilibrium",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.fig2.liquid-solid",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.fig6",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.fig6.caption",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.fig7",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.fig7.caption",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.fig7.reference",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.md.dwf-aqueous",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.md.dwf-surface",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.md.dwf-theory",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.md.exafs-bond",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.md.exafs-fe",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.md.fig-reference",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.md.geometry",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.md.stiffness-principle",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.natural.difference",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.natural.direction",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.prediction",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.prediction-figure-reference",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.sample-environments",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.sample-locations",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.seawater.mean",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.table2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:d81c3a9f89fafe5f410e32602588351e0dcf33bcc48d6952bce74c36f338cfdc",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "selector": {
+          "page": 11
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.carbonate-speciation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.carbonate-abstract"
+        ]
+      },
+      {
+        "id": "obs.debye-waller",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.md.dwf-aqueous",
+          "anchor.md.dwf-surface",
+          "anchor:compiler:visual:d81c3a9f89fafe5f410e32602588351e0dcf33bcc48d6952bce74c36f338cfdc"
+        ]
+      },
+      {
+        "id": "obs.equilibrium-fractionation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.exp.alpha",
+          "anchor.exp.delta-definition"
+        ]
+      },
+      {
+        "id": "obs.equilibrium-time",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.exp.time-series",
+          "anchor.fig2",
+          "anchor.fig2.equilibrium"
+        ]
+      },
+      {
+        "id": "obs.exafs-comparison",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.md.exafs-bond",
+          "anchor.md.exafs-fe"
+        ]
+      },
+      {
+        "id": "obs.light-isotope-direction",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig2",
+          "anchor.fig2.liquid-solid"
+        ]
+      },
+      {
+        "id": "obs.natural-difference",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig7",
+          "anchor.fig7.caption",
+          "anchor.fig7.reference",
+          "anchor.natural.difference",
+          "anchor.natural.direction"
+        ]
+      },
+      {
+        "id": "obs.predicted-fractionation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig7",
+          "anchor.fig7.caption",
+          "anchor.prediction",
+          "anchor.prediction-figure-reference"
+        ]
+      },
+      {
+        "id": "obs.seawater-mean",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.seawater.mean",
+          "anchor.table2"
+        ]
+      },
+      {
+        "id": "obs.stiffness-principle",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.md.stiffness-principle"
+        ]
+      },
+      {
+        "id": "obs.surface-geometry",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig6",
+          "anchor.fig6.caption",
+          "anchor.md.fig-reference",
+          "anchor.md.geometry"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.bond-mechanism",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig2.liquid-solid",
+          "anchor.fig6",
+          "anchor.fig6.caption",
+          "anchor.md.dwf-aqueous",
+          "anchor.md.dwf-surface",
+          "anchor.md.fig-reference",
+          "anchor.md.geometry",
+          "anchor.md.stiffness-principle",
+          "anchor:compiler:visual:d81c3a9f89fafe5f410e32602588351e0dcf33bcc48d6952bce74c36f338cfdc"
+        ]
+      },
+      {
+        "id": "reason.carbonate-model",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.carbonate-abstract",
+          "anchor.fig7",
+          "anchor.fig7.caption",
+          "anchor.prediction",
+          "anchor.prediction-figure-reference"
+        ]
+      },
+      {
+        "id": "reason.equilibrium-fractionation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.exp.alpha",
+          "anchor.exp.delta-definition",
+          "anchor.exp.time-series",
+          "anchor.fig2"
+        ]
+      },
+      {
+        "id": "reason.natural-comparison",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig7",
+          "anchor.fig7.caption",
+          "anchor.fig7.reference",
+          "anchor.natural.difference",
+          "anchor.natural.direction",
+          "anchor.sample-environments",
+          "anchor.sample-locations",
+          "anchor.seawater.mean",
+          "anchor.table2"
+        ]
+      },
+      {
+        "id": "reason.surface-model",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig6",
+          "anchor.fig6.caption",
+          "anchor.md.exafs-bond",
+          "anchor.md.exafs-fe",
+          "anchor.md.fig-reference",
+          "anchor.md.geometry"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:1519690c5e683e98c260746d9f070388a4487fcf0bd44e8dda3d354e45244ece",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.conclusion.geometry",
+          "anchor.fig6",
+          "anchor.fig6.caption",
+          "anchor.md.exafs-bond",
+          "anchor.md.exafs-fe",
+          "anchor.md.fig-reference",
+          "anchor.md.geometry"
+        ]
+      },
+      {
+        "id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.exp.alpha",
+          "anchor.exp.conclusion",
+          "anchor.exp.conditions"
+        ]
+      },
+      {
+        "id": "claim:sha256:8cef4b44e8367519c0de8b905a3608254212f9015607edc22b3fe15b33fad5e3",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig7",
+          "anchor.fig7.caption",
+          "anchor.fig7.reference",
+          "anchor.natural.difference",
+          "anchor.natural.direction",
+          "anchor.sample-environments",
+          "anchor.sample-locations",
+          "anchor.seawater.mean",
+          "anchor.table2"
+        ]
+      },
+      {
+        "id": "claim:sha256:c01ca38b93b1a01a20017ae2e76e72763844715d033826ec13e5a2d6a8426d0f",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.carbonate-abstract",
+          "anchor.fig7",
+          "anchor.fig7.caption",
+          "anchor.natural.difference",
+          "anchor.prediction",
+          "anchor.prediction-figure-reference"
+        ]
+      },
+      {
+        "id": "claim:sha256:db11a3ff8bac3d372083bfba7009132e58f5a4047944626afa8e893934813dae",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.conclusion.bonds",
+          "anchor.fig2.liquid-solid",
+          "anchor.fig6",
+          "anchor.fig6.caption",
+          "anchor.md.dwf-aqueous",
+          "anchor.md.dwf-surface",
+          "anchor.md.fig-reference",
+          "anchor.md.geometry",
+          "anchor.md.stiffness-principle",
+          "anchor:compiler:visual:d81c3a9f89fafe5f410e32602588351e0dcf33bcc48d6952bce74c36f338cfdc"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:35d7d703-bed4-4b95-adf0-690b4d1fcb07",
+        "sha256": "0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.g.alpha",
+        "source_id": "anchor.exp.alpha",
+        "target_id": "obs.equilibrium-fractionation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.carbonate",
+        "source_id": "anchor.carbonate-abstract",
+        "target_id": "obs.carbonate-speciation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.delta",
+        "source_id": "anchor.exp.delta-definition",
+        "target_id": "obs.equilibrium-fractionation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.dwf-aqueous",
+        "source_id": "anchor.md.dwf-aqueous",
+        "target_id": "obs.debye-waller",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.dwf-surface",
+        "source_id": "anchor.md.dwf-surface",
+        "target_id": "obs.debye-waller",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.equilibrium",
+        "source_id": "anchor.exp.time-series",
+        "target_id": "obs.equilibrium-time",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.exafs-bond",
+        "source_id": "anchor.md.exafs-bond",
+        "target_id": "obs.exafs-comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.exafs-fe",
+        "source_id": "anchor.md.exafs-fe",
+        "target_id": "obs.exafs-comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.fig2",
+        "source_id": "anchor.fig2",
+        "target_id": "obs.equilibrium-time",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.fig2eq",
+        "source_id": "anchor.fig2.equilibrium",
+        "target_id": "obs.equilibrium-time",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.fig6",
+        "source_id": "anchor.fig6",
+        "target_id": "obs.surface-geometry",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.fig6caption",
+        "source_id": "anchor.fig6.caption",
+        "target_id": "obs.surface-geometry",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.fig7",
+        "source_id": "anchor.fig7",
+        "target_id": "obs.natural-difference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.fig7caption",
+        "source_id": "anchor.fig7.caption",
+        "target_id": "obs.natural-difference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.fig7reference",
+        "source_id": "anchor.fig7.reference",
+        "target_id": "obs.natural-difference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.figref",
+        "source_id": "anchor.md.fig-reference",
+        "target_id": "obs.surface-geometry",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.geometry",
+        "source_id": "anchor.md.geometry",
+        "target_id": "obs.surface-geometry",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.light",
+        "source_id": "anchor.fig2.liquid-solid",
+        "target_id": "obs.light-isotope-direction",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.lightfig",
+        "source_id": "anchor.fig2",
+        "target_id": "obs.light-isotope-direction",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.natural-difference",
+        "source_id": "anchor.natural.difference",
+        "target_id": "obs.natural-difference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.natural-direction",
+        "source_id": "anchor.natural.direction",
+        "target_id": "obs.natural-difference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.predcaption",
+        "source_id": "anchor.fig7.caption",
+        "target_id": "obs.predicted-fractionation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.predfig",
+        "source_id": "anchor.fig7",
+        "target_id": "obs.predicted-fractionation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.prediction",
+        "source_id": "anchor.prediction",
+        "target_id": "obs.predicted-fractionation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.predref",
+        "source_id": "anchor.prediction-figure-reference",
+        "target_id": "obs.predicted-fractionation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.principle",
+        "source_id": "anchor.md.dwf-theory",
+        "target_id": "obs.stiffness-principle",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.seawater-mean",
+        "source_id": "anchor.seawater.mean",
+        "target_id": "obs.seawater-mean",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.table2",
+        "source_id": "anchor.table2",
+        "target_id": "obs.seawater-mean",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.tablevisual",
+        "source_id": "visual.table2",
+        "target_id": "obs.seawater-mean",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.p.carbonate",
+        "source_id": "obs.carbonate-speciation",
+        "target_id": "reason.carbonate-model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.direction",
+        "source_id": "obs.light-isotope-direction",
+        "target_id": "reason.bond-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.dwf",
+        "source_id": "obs.debye-waller",
+        "target_id": "reason.bond-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.equilibrium-time",
+        "source_id": "obs.equilibrium-time",
+        "target_id": "reason.equilibrium-fractionation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.equilibrium-value",
+        "source_id": "obs.equilibrium-fractionation",
+        "target_id": "reason.equilibrium-fractionation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.exafs",
+        "source_id": "obs.exafs-comparison",
+        "target_id": "reason.surface-model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.exp-context",
+        "source_id": "reason.equilibrium-fractionation",
+        "target_id": "reason.carbonate-model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.fractionation-for-mechanism",
+        "source_id": "reason.equilibrium-fractionation",
+        "target_id": "reason.bond-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.geometry",
+        "source_id": "obs.surface-geometry",
+        "target_id": "reason.surface-model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.model-for-mechanism",
+        "source_id": "reason.surface-model",
+        "target_id": "reason.bond-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.natural",
+        "source_id": "obs.natural-difference",
+        "target_id": "reason.natural-comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.natural-context",
+        "source_id": "reason.natural-comparison",
+        "target_id": "reason.carbonate-model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.predicted",
+        "source_id": "obs.predicted-fractionation",
+        "target_id": "reason.carbonate-model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.seawater",
+        "source_id": "obs.seawater-mean",
+        "target_id": "reason.natural-comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.stiffness",
+        "source_id": "obs.stiffness-principle",
+        "target_id": "reason.bond-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.s.carbonate",
+        "source_id": "reason.carbonate-model",
+        "target_id": "claim:sha256:c01ca38b93b1a01a20017ae2e76e72763844715d033826ec13e5a2d6a8426d0f",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.experiment",
+        "source_id": "reason.equilibrium-fractionation",
+        "target_id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.geometry",
+        "source_id": "reason.surface-model",
+        "target_id": "claim:sha256:1519690c5e683e98c260746d9f070388a4487fcf0bd44e8dda3d354e45244ece",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.mechanism",
+        "source_id": "reason.bond-mechanism",
+        "target_id": "claim:sha256:db11a3ff8bac3d372083bfba7009132e58f5a4047944626afa8e893934813dae",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.natural",
+        "source_id": "reason.natural-comparison",
+        "target_id": "claim:sha256:8cef4b44e8367519c0de8b905a3608254212f9015607edc22b3fe15b33fad5e3",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:1621870045e0677f75090ce28eea4b7c7a7fdef73b3adc87b7ab9ce5207d0f88",
+        "source_id": "anchor:compiler:visual:d81c3a9f89fafe5f410e32602588351e0dcf33bcc48d6952bce74c36f338cfdc",
+        "target_id": "obs.debye-waller",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:5bf9fa609912a695856b630bb983f317e81ed7eac19d4ba5b9dd56aede808b96",
+        "source_id": "anchor.md.stiffness-principle",
+        "target_id": "obs.stiffness-principle",
+        "relation": "grounds"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:68fa4eab397b282cbe801cb1cc8e8fc1a066b25375c1f9672f6df1fa1a2569a5",
+        "entity_ids": [
+          "anchor.carbonate-abstract",
+          "anchor.conclusion.bonds",
+          "anchor.conclusion.geometry",
+          "anchor.exp.alpha",
+          "anchor.exp.conclusion",
+          "anchor.exp.conditions",
+          "anchor.exp.delta-definition",
+          "anchor.exp.time-series",
+          "anchor.fig2",
+          "anchor.fig2.equilibrium",
+          "anchor.fig2.liquid-solid",
+          "anchor.fig6",
+          "anchor.fig6.caption",
+          "anchor.fig7",
+          "anchor.fig7.caption",
+          "anchor.fig7.reference",
+          "anchor.md.dwf-aqueous",
+          "anchor.md.dwf-surface",
+          "anchor.md.dwf-theory",
+          "anchor.md.exafs-bond",
+          "anchor.md.exafs-fe",
+          "anchor.md.fig-reference",
+          "anchor.md.geometry",
+          "anchor.md.stiffness-principle",
+          "anchor.natural.difference",
+          "anchor.natural.direction",
+          "anchor.prediction",
+          "anchor.prediction-figure-reference",
+          "anchor.sample-environments",
+          "anchor.sample-locations",
+          "anchor.seawater.mean",
+          "anchor.table2",
+          "anchor:compiler:visual:d81c3a9f89fafe5f410e32602588351e0dcf33bcc48d6952bce74c36f338cfdc",
+          "artifact-version:sha256:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+          "artifact:35d7d703-bed4-4b95-adf0-690b4d1fcb07",
+          "claim:sha256:1519690c5e683e98c260746d9f070388a4487fcf0bd44e8dda3d354e45244ece",
+          "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+          "claim:sha256:8cef4b44e8367519c0de8b905a3608254212f9015607edc22b3fe15b33fad5e3",
+          "claim:sha256:c01ca38b93b1a01a20017ae2e76e72763844715d033826ec13e5a2d6a8426d0f",
+          "claim:sha256:db11a3ff8bac3d372083bfba7009132e58f5a4047944626afa8e893934813dae",
+          "obs.carbonate-speciation",
+          "obs.debye-waller",
+          "obs.equilibrium-fractionation",
+          "obs.equilibrium-time",
+          "obs.exafs-comparison",
+          "obs.light-isotope-direction",
+          "obs.natural-difference",
+          "obs.predicted-fractionation",
+          "obs.seawater-mean",
+          "obs.stiffness-principle",
+          "obs.surface-geometry",
+          "reason.bond-mechanism",
+          "reason.carbonate-model",
+          "reason.equilibrium-fractionation",
+          "reason.natural-comparison",
+          "reason.surface-model",
+          "visual.table2"
+        ],
+        "edge_ids": [
+          "edge.g.alpha",
+          "edge.g.carbonate",
+          "edge.g.delta",
+          "edge.g.dwf-aqueous",
+          "edge.g.dwf-surface",
+          "edge.g.equilibrium",
+          "edge.g.exafs-bond",
+          "edge.g.exafs-fe",
+          "edge.g.fig2",
+          "edge.g.fig2eq",
+          "edge.g.fig6",
+          "edge.g.fig6caption",
+          "edge.g.fig7",
+          "edge.g.fig7caption",
+          "edge.g.fig7reference",
+          "edge.g.figref",
+          "edge.g.geometry",
+          "edge.g.light",
+          "edge.g.lightfig",
+          "edge.g.natural-difference",
+          "edge.g.natural-direction",
+          "edge.g.predcaption",
+          "edge.g.predfig",
+          "edge.g.prediction",
+          "edge.g.predref",
+          "edge.g.principle",
+          "edge.g.seawater-mean",
+          "edge.g.table2",
+          "edge.g.tablevisual",
+          "edge.p.carbonate",
+          "edge.p.direction",
+          "edge.p.dwf",
+          "edge.p.equilibrium-time",
+          "edge.p.equilibrium-value",
+          "edge.p.exafs",
+          "edge.p.exp-context",
+          "edge.p.fractionation-for-mechanism",
+          "edge.p.geometry",
+          "edge.p.model-for-mechanism",
+          "edge.p.natural",
+          "edge.p.natural-context",
+          "edge.p.predicted",
+          "edge.p.seawater",
+          "edge.p.stiffness",
+          "edge.s.carbonate",
+          "edge.s.experiment",
+          "edge.s.geometry",
+          "edge.s.mechanism",
+          "edge.s.natural",
+          "edge:compiler:1621870045e0677f75090ce28eea4b7c7a7fdef73b3adc87b7ab9ce5207d0f88",
+          "edge:compiler:5bf9fa609912a695856b630bb983f317e81ed7eac19d4ba5b9dd56aede808b96"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "input": "value-citation-projection.csv",
+  "questions": [
+    {
+      "id": 1,
+      "answer": {
+        "prepared_value": "55–57",
+        "unit": "MPa"
+      },
+      "evidence": [
+        "CSV data row 1, prepared_value",
+        "CSV data row 1, unit"
+      ]
+    },
+    {
+      "id": 2,
+      "answer": "unavailable",
+      "reason": "No original selected-observation numeric, raw or unit fields are present."
+    },
+    {
+      "id": 3,
+      "answer": "unavailable",
+      "reason": "No prepared quantity or conditions fields are present."
+    },
+    {
+      "id": 4,
+      "answer": "unavailable",
+      "reason": "No selected-observation ID, claim ID or directed route is present."
+    },
+    {
+      "id": 5,
+      "answer": "unavailable",
+      "reason": "DOI is present, but source-version SHA and recorded/corrected locators are absent.",
+      "retained_doi": "10.1007/s12182-019-0331-9",
+      "evidence": [
+        "CSV data row 1, doi"
+      ]
+    },
+    {
+      "id": 6,
+      "answer": "unavailable",
+      "reason": "No operator conclusion or qualification fields are present."
+    }
+  ]
+}

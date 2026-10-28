@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "project_id": "deepshovel-evidence",
+  "app_slug": "deepshovel",
+  "display_name": "DeepShovel",
+  "dns_zone": "iiot-shxt.xyz",
+  "subdomain": "deepshovel",
+  "bundle_id": "xyz.iiot-shxt.deepshovel.control",
+  "service_namespace": "xyz.iiot-shxt.deepshovel",
+  "local_port": 8100,
+  "compiler_port": 8011,
+  "health_path": "/api/health",
+  "compiler_health_path": "/health",
+  "public_url": "https://deepshovel.iiot-shxt.xyz",
+  "install_directory": "DeepShovel",
+  "tunnel_name": "deepshovel",
+  "tunnel_protocol": "auto",
+  "build_command": "npm run build",
+  "start_command": [
+    "deploy/runtime/run-services.sh"
+  ],
+  "runtime_paths": [
+    "dist",
+    "package.json",
+    "package-lock.json",
+    "compiler/compiler_service",
+    "compiler/pyproject.toml",
+    "deploy/runtime",
+    "control_app/ServiceControl.swift"
+  ],
+  "persistent_paths": [
+    "data",
+    "logs",
+    "secrets",
+    "cloudflared"
+  ],
+  "public_deny_paths": [
+    "/debug",
+    "/api/internal",
+    "/__vite"
+  ],
+  "requires_cloudflare_access": false
+}

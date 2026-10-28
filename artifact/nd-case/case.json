@@ -1,0 +1,247 @@
+{
+  "schema_version": "nd-curated-case/1.0",
+  "title": "Nd isotope offset and continuing uptake",
+  "curation_kind": "author-curated source-linked observation tuples for the demo artifact, prepared with AI assistance; not a rerun of automatic extraction",
+  "human_scientific_review": "not performed or asserted",
+  "article": {
+    "title": "The stable isotope fractionation of neodymium on ferrihydrite revisited",
+    "authors": [
+      "Mark Nestmeyer",
+      "Alex J. McCoy-West",
+      "Yuan Mei",
+      "Kevin W. Burton"
+    ],
+    "doi": "10.33063/agc.v2i1.1099",
+    "url": "https://doi.org/10.33063/agc.v2i1.1099",
+    "local_pdf": "source/article.pdf",
+    "license": "CC BY 4.0"
+  },
+  "dataset": {
+    "doi": "10.25903/tfqa-tt39",
+    "url": "https://doi.org/10.25903/tfqa-tt39",
+    "workbook": "Data_Nd_Fhy.xlsx",
+    "worksheet": "Table1",
+    "workbook_redistributed": false,
+    "license_status": "Dataset landing page unavailable during this check; do not infer workbook license from article license."
+  },
+  "production_context": {
+    "paper_id": "paper:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+    "claim_label": "Claim 02",
+    "claim_id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+    "scoped_claim_id": null,
+    "note": "Recorded composite claim from the completed loading-series query; its returned observation and anchor identify the loading-series value. Prepared time-series tuple is source-page curation.",
+    "catalog_id": "W7165146192",
+    "source_artifact_name": "W7165146192.pdf",
+    "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+    "observation_id": "obs.equilibrium-fractionation",
+    "anchor_id": "anchor.exp.alpha",
+    "source_page": 8,
+    "article_sha256": "0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+    "evidence_receipt": "../live-case/summary.json"
+  },
+  "observation_tuples": [
+    {
+      "tuple_id": "curated:nd:time-series-offset",
+      "experiment_series": "Time series: isotopic plateau subset",
+      "duration_h": [
+        24,
+        168
+      ],
+      "observed_times_h": [
+        24,
+        48,
+        168
+      ],
+      "ferrihydrite_stock_mL": 1,
+      "measurement": {
+        "symbol": "Δ146Nd_Sol-Liq",
+        "definition": "δ146Nd_Sol − δ146Nd_Liq",
+        "value": -0.098,
+        "uncertainty": 0.012,
+        "unit": "‰",
+        "uncertainty_type": "95% confidence interval for the mean (explicitly stated by authors)"
+      },
+      "scope": {
+        "material": "2-line ferrihydrite",
+        "pH": 5.5,
+        "NaCl_mol_L": 0.01,
+        "experiment_volume_mL": 50,
+        "methods_page": 3,
+        "methods_section": "2.1 Adsorption experiments",
+        "methods_excerpt": "The final experiment had a NaCl concentration of 0.01mol/L and a volume of 50mL.",
+        "source_link": "source/article.pdf#page=3"
+      },
+      "source": {
+        "page": 7,
+        "section": "3.2 Experimental Nd isotope compositions",
+        "link": "source/article.pdf#page=7",
+        "excerpt": "95% confidence interval (i.e. how well constrained the mean value)",
+        "reported_value": "−0.098 ± 0.012 ‰",
+        "definition_page": 3,
+        "workbook_cells": [
+          "Table1!B9:D11",
+          "Table1!K9:L11"
+        ],
+        "workbook_role": "individual experimental observations; published aggregate/CI quoted from article, not recomputed"
+      },
+      "production_observation_ref": null,
+      "table_reference": {
+        "page": 4,
+        "label": "Table 1",
+        "cells": [
+          "B9:C11"
+        ]
+      }
+    },
+    {
+      "tuple_id": "curated:nd:variable-loading-factor",
+      "experiment_series": "Variable ferrihydrite loading in equilibrium",
+      "duration_h": [
+        48,
+        144
+      ],
+      "observed_times_h": [
+        48,
+        96,
+        144
+      ],
+      "ferrihydrite_stock_mL_range": [
+        0.5,
+        2.5
+      ],
+      "measurement": {
+        "symbol": "10^3 ln α_Solid-Liquid",
+        "definition": "α=(1000+δ146Nd_Solid)/(1000+δ146Nd_Liquid)",
+        "value": -0.113,
+        "uncertainty": 0.03,
+        "unit": "dimensionless scaled logarithmic factor",
+        "uncertainty_type": "±0.030 as reported; aggregate uncertainty construction not established here",
+        "authors_equivalence": "Authors state this value is equal to Δ146Nd_Sol-Liq; retain original 10^3 ln α representation."
+      },
+      "scope": {
+        "material": "2-line ferrihydrite",
+        "pH": 5.5,
+        "NaCl_mol_L": 0.01,
+        "experiment_volume_mL": 50,
+        "methods_page": 3,
+        "methods_section": "2.1 Adsorption experiments",
+        "methods_excerpt": "The final experiment had a NaCl concentration of 0.01mol/L and a volume of 50mL.",
+        "source_link": "source/article.pdf#page=3"
+      },
+      "source": {
+        "page": 8,
+        "section": "3.2 Experimental Nd isotope compositions",
+        "link": "source/article.pdf#page=8",
+        "excerpt": "variable amounts of ferrihydrite stock solution (0.5–2.5mL) and different reaction times (48–144h)",
+        "reported_value": "−0.113 ± 0.030",
+        "workbook_cells": [
+          "Table1!B13:D21",
+          "Table1!E13:L21"
+        ],
+        "workbook_role": "individual experimental observations; aggregate factor quoted from article"
+      },
+      "production_observation_ref": {
+        "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+        "claim_id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+        "observation_id": "obs.equilibrium-fractionation",
+        "anchor_id": "anchor.exp.alpha",
+        "source_page": 8,
+        "matching_basis": "matching artifact SHA256, source page, quantity and reported value in recorded retrieval path"
+      },
+      "table_reference": {
+        "page": 4,
+        "label": "Table 1",
+        "cells": [
+          "B13:C21"
+        ]
+      }
+    }
+  ],
+  "uptake": [
+    {
+      "tuple_id": "curated:nd:uptake-24h",
+      "duration_h": 24,
+      "Nd_sorbed_percent": 17.689740240893922,
+      "experiment_id": 6,
+      "source_kind": "author workbook cached numeric value",
+      "workbook_cell": "Table1!D9",
+      "duration_cell": "Table1!B9",
+      "article_figure": "Figure 2c, page 7",
+      "article_link": "source/article.pdf#page=7",
+      "digitized_candidate": {
+        "target_duration_h": 24,
+        "matching_rule": "unique nearest candidate within 1 h; time-only curated association; not automatic identity verification",
+        "status": "CANDIDATE_ASSOCIATION_NEEDS_REVIEW",
+        "candidate_index_zero_based": 2,
+        "reported_experiment_id": 6,
+        "reported_uptake_percent": 17.689740240893922,
+        "reported_workbook_cell": "D9",
+        "digitized_duration_h": 23.792486583184264,
+        "digitized_uptake_percent": 17.702418915765733,
+        "difference_percentage_points": 0.012678674871811069,
+        "absolute_time_difference_h": 0.2075134168157362,
+        "pixel_x": 205.72093023255815,
+        "pixel_y": 1049.0697674418604
+      }
+    },
+    {
+      "tuple_id": "curated:nd:uptake-48h",
+      "duration_h": 48,
+      "Nd_sorbed_percent": 28.096093519586024,
+      "experiment_id": 7,
+      "source_kind": "author workbook cached numeric value",
+      "workbook_cell": "Table1!D10",
+      "duration_cell": "Table1!B10",
+      "article_figure": "Figure 2c, page 7",
+      "article_link": "source/article.pdf#page=7",
+      "digitized_candidate": {
+        "target_duration_h": 48,
+        "matching_rule": "unique nearest candidate within 1 h; time-only curated association; not automatic identity verification",
+        "status": "CANDIDATE_ASSOCIATION_NEEDS_REVIEW",
+        "candidate_index_zero_based": 1,
+        "reported_experiment_id": 7,
+        "reported_uptake_percent": 28.096093519586024,
+        "reported_workbook_cell": "D10",
+        "digitized_duration_h": 47.80527396806466,
+        "digitized_uptake_percent": 28.13253480594227,
+        "difference_percentage_points": 0.036441286356247105,
+        "absolute_time_difference_h": 0.194726031935339,
+        "pixel_x": 253.88372093023256,
+        "pixel_y": 1017.8837209302326
+      }
+    },
+    {
+      "tuple_id": "curated:nd:uptake-168h",
+      "duration_h": 168,
+      "Nd_sorbed_percent": 47.59157120633573,
+      "experiment_id": 9,
+      "source_kind": "author workbook cached numeric value",
+      "workbook_cell": "Table1!D11",
+      "duration_cell": "Table1!B11",
+      "article_figure": "Figure 2c, page 7",
+      "article_link": "source/article.pdf#page=7",
+      "digitized_candidate": {
+        "target_duration_h": 168,
+        "matching_rule": "unique nearest candidate within 1 h; time-only curated association; not automatic identity verification",
+        "status": "CANDIDATE_ASSOCIATION_NEEDS_REVIEW",
+        "candidate_index_zero_based": 0,
+        "reported_experiment_id": 9,
+        "reported_uptake_percent": 47.59157120633573,
+        "reported_workbook_cell": "D11",
+        "digitized_duration_h": 167.98515868283312,
+        "digitized_uptake_percent": 47.73275258613987,
+        "difference_percentage_points": 0.14118137980413792,
+        "absolute_time_difference_h": 0.014841317166883528,
+        "pixel_x": 494.93023255813955,
+        "pixel_y": 959.2790697674418
+      }
+    }
+  ],
+  "interpretation": "A stable isotopic offset can coexist with increasing sorbed fraction; these are distinct observables.",
+  "limits": [
+    "Loading-series production observation mapping is recorded in production-link.json; the time-series tuple is page-curated.",
+    "No independent human labels or extraction accuracy asserted.",
+    "Digitized pairs are archived time-only candidate associations requiring review, not independent measurements or verified identities.",
+    "Workbook uncertainty column L is per-row propagated error, not proof of the aggregate ±0.030 construction."
+  ]
+}

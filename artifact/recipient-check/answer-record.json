@@ -1,0 +1,233 @@
+{
+  "input": "input-record.jsonld",
+  "method": "RDFLib graph lookup followed by JSON decoding of xsd:string literals; directed traversal of embedded selectedInspectionPath edges",
+  "rdflib_version": "7.6.0",
+  "triples": 57,
+  "questions": [
+    {
+      "id": 1,
+      "answer": {
+        "value": "55–57",
+        "unit": "MPa"
+      },
+      "layer": "operator-prepared entry",
+      "evidence": [
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:preparedValue",
+          "input_jsonpath": "$['@graph'][0]['ds:preparedValue']['@value']"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:preparedUnit",
+          "input_jsonpath": "$['@graph'][0]['ds:preparedUnit']['@value']"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "answer": {
+        "numeric": 55,
+        "raw": "55–57 MPa",
+        "unit": "MPa"
+      },
+      "layer": "recorded selected observation",
+      "evidence": [
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:observation",
+          "predicate_iri": "urn:deepshovel:reuse:v1:json",
+          "input_jsonpath": "$['@graph'][2]['ds:json']['@value']",
+          "after_json_decode_jsonpath": "$.value.numeric"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:observation",
+          "predicate_iri": "urn:deepshovel:reuse:v1:json",
+          "input_jsonpath": "$['@graph'][2]['ds:json']['@value']",
+          "after_json_decode_jsonpath": "$.value.raw"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:observation",
+          "predicate_iri": "urn:deepshovel:reuse:v1:json",
+          "input_jsonpath": "$['@graph'][2]['ds:json']['@value']",
+          "after_json_decode_jsonpath": "$.value.unit"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "answer": {
+        "quantity": "Maximum sustainable pore pressure, author-reported modeled summary",
+        "conditions": "F2; Asmari reservoir; Gachsaran oilfield, SW Iran; zero cohesion and friction coefficient 0.6; 3D Mohr diagrams, slip tendency and modified slip tendency."
+      },
+      "layer": "operator-prepared entry",
+      "evidence": [
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:preparedQuantity",
+          "input_jsonpath": "$['@graph'][0]['ds:preparedQuantity']['@value']"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:preparedConditions",
+          "input_jsonpath": "$['@graph'][0]['ds:preparedConditions']['@value']"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "answer": {
+        "selected_observation_id": "obs.f2.assessed",
+        "claim_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+        "directed_route": [
+          {
+            "source": "obs.f2.assessed",
+            "relation": "premise_for",
+            "target": "reason.f2.evidence",
+            "edge_id": "edge.premise.014"
+          },
+          {
+            "source": "reason.f2.evidence",
+            "relation": "premise_for",
+            "target": "reason.f2.safety",
+            "edge_id": "edge.premise.021"
+          },
+          {
+            "source": "reason.f2.safety",
+            "relation": "infers",
+            "target": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+            "edge_id": "edge.support.003"
+          }
+        ],
+        "terminal_relation": "infers"
+      },
+      "evidence": [
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:observation",
+          "predicate_iri": "urn:deepshovel:reuse:v1:recordedNodeId",
+          "input_jsonpath": "$['@graph'][2]['ds:recordedNodeId']['@value']"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:reference",
+          "input_jsonpath": "$['@graph'][0]['ds:reference']['@value']",
+          "after_json_decode_jsonpath": "$.claim_id"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:selectedInspectionPath",
+          "input_jsonpath": "$['@graph'][0]['ds:selectedInspectionPath']['@value']",
+          "after_json_decode_jsonpath": "$.edges[23]"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:selectedInspectionPath",
+          "input_jsonpath": "$['@graph'][0]['ds:selectedInspectionPath']['@value']",
+          "after_json_decode_jsonpath": "$.edges[25]"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:selectedInspectionPath",
+          "input_jsonpath": "$['@graph'][0]['ds:selectedInspectionPath']['@value']",
+          "after_json_decode_jsonpath": "$.edges[28]"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "answer": {
+        "source_version_sha256": "f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "recorded_locator": {
+          "char_end": null,
+          "char_start": null,
+          "column_names": [],
+          "dataset_path": null,
+          "figure": null,
+          "page": 11,
+          "paragraph": null,
+          "region": {
+            "height": 0.11139240506329114,
+            "unit": "normalized",
+            "width": 0.41008403361344536,
+            "x": 0.07899159663865546,
+            "y": 0.7987341772151899
+          },
+          "region_label": null,
+          "row_end": null,
+          "row_range_label": null,
+          "row_start": null,
+          "section": "6 Slip tendency parameter",
+          "series": null,
+          "table": null
+        },
+        "operator_corrected_locator": "PDF p.11, Section 6 right lower column; Table 4. Conclusions: PDF p.13. Imported region points to the left column and is retained unchanged.",
+        "corrected_region_coordinates": "unavailable"
+      },
+      "qualification": "The correction is retained operator text; no source PDF was opened and no corrected rectangle is supplied. Null locator fields remain unavailable.",
+      "evidence": [
+        {
+          "subject_iri": "urn:deepshovel:artifact:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "predicate_iri": "urn:deepshovel:reuse:v1:sha256",
+          "input_jsonpath": "$['@graph'][4]['ds:sha256']['@value']"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:anchor",
+          "predicate_iri": "urn:deepshovel:reuse:v1:json",
+          "input_jsonpath": "$['@graph'][3]['ds:json']['@value']",
+          "after_json_decode_jsonpath": "$.selector"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:preparedLocator",
+          "input_jsonpath": "$['@graph'][0]['ds:preparedLocator']['@value']"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:preparedNotes",
+          "input_jsonpath": "$['@graph'][0]['ds:preparedNotes']['@value']"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "answer": {
+        "conclusion": "qualified_reuse",
+        "authorship": "local operator entry",
+        "purpose": "interpretation",
+        "qualification": "Author-reported modeled range; Table 4 separately lists formulation-specific Pc and PCr values.",
+        "notes": "Automated UI verification after independent AI source reading. Author summary is 55–57 MPa. Table 4 Pc: 55.03/55.31 MPa; PCr: 57.58/57.81 MPa. The stored numeric 55 is only the range lower bound. The source sentence is in the right lower column on PDF p.11; the imported left-column rectangle remains preserved for comparison. This run builds the observation branch in the local browser from separately supplied recorded graph data."
+      },
+      "qualification": "Reconstructed operator entry, not independent scientific validation.",
+      "evidence": [
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:sourceReading",
+          "input_jsonpath": "$['@graph'][0]['ds:sourceReading']['@value']",
+          "after_json_decode_jsonpath": "$.conclusion"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:sourceReading",
+          "input_jsonpath": "$['@graph'][0]['ds:sourceReading']['@value']",
+          "after_json_decode_jsonpath": "$.authorship"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:preparedPurpose",
+          "input_jsonpath": "$['@graph'][0]['ds:preparedPurpose']['@value']"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:preparedUncertainty",
+          "input_jsonpath": "$['@graph'][0]['ds:preparedUncertainty']['@value']"
+        },
+        {
+          "subject_iri": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+          "predicate_iri": "urn:deepshovel:reuse:v1:sourceReading",
+          "input_jsonpath": "$['@graph'][0]['ds:sourceReading']['@value']",
+          "after_json_decode_jsonpath": "$.notes"
+        }
+      ]
+    }
+  ],
+  "scope": "One purposively selected record; retention illustration only. CSV omissions are by construction; no competitor, human-benefit, or scientific-truth claim."
+}

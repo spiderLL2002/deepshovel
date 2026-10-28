@@ -1,0 +1,149 @@
+{
+  "kind": "constructed minimal fixture adapted from repository conftest raw_graph_payload; no real paper or PDF; no external parser call",
+  "graph": {
+    "schema_version": "1.0",
+    "paper_id": "paper:compiler-demo",
+    "claims": [
+      {
+        "id": "claim.local.1",
+        "statement": "Treatment increases the measured amount.",
+        "claim_type": "causal",
+        "polarity": "affirmed",
+        "scope_id": "scope.local.1",
+        "anchor_ids": [
+          "anchor.text.1"
+        ],
+        "qualifiers": [
+          "laboratory condition"
+        ],
+        "proposition_key": null,
+        "scoped_claim_id": null
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.local.1",
+        "statement": "The treated sample reached 5 mg.",
+        "observation_type": "measurement",
+        "anchor_ids": [
+          "anchor.text.1"
+        ],
+        "scope_id": "scope.local.1",
+        "raw_value": "5",
+        "unit": "mg"
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.local.1",
+        "statement": "The controlled comparison attributes the increase to treatment.",
+        "reasoning_type": "causal_inference",
+        "anchor_ids": [
+          "anchor.text.1"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "anchors": [
+      {
+        "id": "anchor.text.1",
+        "artifact_id": "artifact:fixture",
+        "version_id": "artifact-version:sha256:49316cf018bef99e422d43efb36ca287a0e40345f1ab93ea1394629514fb1fcd",
+        "artifact_sha256": "49316cf018bef99e422d43efb36ca287a0e40345f1ab93ea1394629514fb1fcd",
+        "media_type": "application/pdf",
+        "anchor_type": "text",
+        "locator": {
+          "page": 1,
+          "section": "Results",
+          "paragraph": null,
+          "figure": null,
+          "table": null,
+          "row_range": null,
+          "column_names": [],
+          "series": null,
+          "region": null,
+          "quote": "The treated sample reached 5 mg."
+        }
+      }
+    ],
+    "visual_evidence": [],
+    "scopes": [
+      {
+        "id": "scope.local.1",
+        "location": null,
+        "time": null,
+        "formation": null,
+        "sample_type": "treated sample",
+        "method": "controlled comparison",
+        "condition": "laboratory",
+        "measurement": "amount",
+        "uncertainty": null,
+        "entities": [
+          "treatment",
+          "amount"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.grounds.1",
+        "source_id": "anchor.text.1",
+        "target_id": "obs.local.1",
+        "relation": "grounds",
+        "rationale": null,
+        "confidence": null
+      },
+      {
+        "id": "edge.premise.1",
+        "source_id": "obs.local.1",
+        "target_id": "reason.local.1",
+        "relation": "premise_for",
+        "rationale": null,
+        "confidence": null
+      },
+      {
+        "id": "edge.support.1",
+        "source_id": "reason.local.1",
+        "target_id": "claim.local.1",
+        "relation": "supports",
+        "rationale": "Controlled comparison.",
+        "confidence": 0.8
+      }
+    ]
+  },
+  "document": {
+    "artifact": {
+      "paper_id": "paper:compiler-demo",
+      "artifact_id": "artifact:fixture",
+      "version_id": "artifact-version:sha256:49316cf018bef99e422d43efb36ca287a0e40345f1ab93ea1394629514fb1fcd",
+      "artifact_sha256": "49316cf018bef99e422d43efb36ca287a0e40345f1ab93ea1394629514fb1fcd",
+      "media_type": "application/pdf",
+      "locator": "fixture://constructed",
+      "file_name": "constructed.pdf"
+    },
+    "parser": {
+      "name": "mineru",
+      "version": "fixture",
+      "backend": "pipeline",
+      "method": "auto",
+      "transport": "remote"
+    },
+    "page_count": 1,
+    "pages": [
+      {
+        "number": 1,
+        "blocks": [
+          {
+            "id": "block:1",
+            "kind": "paragraph",
+            "page": 1,
+            "source_index": 0,
+            "bbox": null,
+            "text": "The treated sample reached 5 mg."
+          }
+        ]
+      }
+    ],
+    "markdown": "The treated sample reached 5 mg."
+  }
+}

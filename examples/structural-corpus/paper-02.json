@@ -1,0 +1,903 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+  "snapshot_id": "snapshot:sha256:001409a9ec258e6e1955ef72a33654a75a9e8a04c565d15e16f248df97179dfd",
+  "original_graph_json_sha256": "001409a9ec258e6e1955ef72a33654a75a9e8a04c565d15e16f248df97179dfd",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:29b55f1f-be22-4dc3-82b6-d399bfc0579d",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:29b55f1f-be22-4dc3-82b6-d399bfc0579d",
+        "sha256": "beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "a.fig2",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.fig2.caption.fig",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.fig2.caption.num",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.fig3",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.fig3.caption.fig",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.fig3.caption.max",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.fig3.caption.min",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.fig3.caption.num",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.fig5",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.fig5.caption.diagram",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.fig5.caption.fig",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.fig5.caption.num",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.iron.minerals.rate",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.low.sulfate.pyrite",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.model.max.end",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.model.max.middle",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.model.max.start",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.organic.rate",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.oxygen.burial.premise.end",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.oxygen.burial.premise.start",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.oxygen.h2.premise",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.paper.acceleration",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.paper.synthesis.balance",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.paper.synthesis.start",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.pcontent.sentence",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.photosyn.summary",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.pinput",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.pyrite.rate",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.pyrite.share.end",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.pyrite.share.start",
+        "artifact_version_id": "artifact-version:sha256:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.fig3.model",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig3",
+          "a.fig3.caption.fig",
+          "a.fig3.caption.max",
+          "a.fig3.caption.min",
+          "a.fig3.caption.num"
+        ]
+      },
+      {
+        "id": "obs.fig5.burial",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig5",
+          "a.fig5.caption.diagram",
+          "a.fig5.caption.fig",
+          "a.fig5.caption.num"
+        ]
+      },
+      {
+        "id": "obs.iron.minerals.rate",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.iron.minerals.rate"
+        ]
+      },
+      {
+        "id": "obs.model.max",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig3",
+          "a.model.max.end",
+          "a.model.max.middle",
+          "a.model.max.start"
+        ]
+      },
+      {
+        "id": "obs.organic.rate",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.organic.rate"
+        ]
+      },
+      {
+        "id": "obs.oxygen.burial.premise",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.oxygen.burial.premise.end",
+          "a.oxygen.burial.premise.start"
+        ]
+      },
+      {
+        "id": "obs.oxygen.h2.premise",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.oxygen.h2.premise"
+        ]
+      },
+      {
+        "id": "obs.paper.synthesis",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.paper.acceleration",
+          "a.paper.synthesis.balance",
+          "a.paper.synthesis.start"
+        ]
+      },
+      {
+        "id": "obs.pcontent",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig2",
+          "a.fig2.caption.fig",
+          "a.fig2.caption.num",
+          "a.pcontent.sentence"
+        ]
+      },
+      {
+        "id": "obs.photosyn.summary",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.photosyn.summary"
+        ]
+      },
+      {
+        "id": "obs.pinput",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.pinput"
+        ]
+      },
+      {
+        "id": "obs.pyrite.low.sulfate",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.low.sulfate.pyrite"
+        ]
+      },
+      {
+        "id": "obs.pyrite.rate",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.pyrite.rate"
+        ]
+      },
+      {
+        "id": "obs.pyrite.share",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.pyrite.share.end",
+          "a.pyrite.share.start"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.acceleration.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.fig2",
+          "a.fig3",
+          "a.fig3.caption.max",
+          "a.fig3.caption.min",
+          "a.iron.minerals.rate",
+          "a.low.sulfate.pyrite",
+          "a.model.max.end",
+          "a.model.max.middle",
+          "a.model.max.start",
+          "a.organic.rate",
+          "a.paper.acceleration",
+          "a.paper.synthesis.balance",
+          "a.paper.synthesis.start",
+          "a.pcontent.sentence",
+          "a.photosyn.summary",
+          "a.pinput",
+          "a.pyrite.rate",
+          "a.pyrite.share.end",
+          "a.pyrite.share.start"
+        ]
+      },
+      {
+        "id": "reason.oxygen.premise",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.oxygen.burial.premise.end",
+          "a.oxygen.burial.premise.start",
+          "a.oxygen.h2.premise"
+        ]
+      },
+      {
+        "id": "reason.phosphorus.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.fig2",
+          "a.fig3",
+          "a.fig3.caption.max",
+          "a.fig3.caption.min",
+          "a.model.max.end",
+          "a.model.max.middle",
+          "a.model.max.start",
+          "a.pcontent.sentence",
+          "a.photosyn.summary",
+          "a.pinput"
+        ]
+      },
+      {
+        "id": "reason.pyrite.budget",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.fig5",
+          "a.fig5.caption.diagram",
+          "a.iron.minerals.rate",
+          "a.low.sulfate.pyrite",
+          "a.organic.rate",
+          "a.pyrite.rate",
+          "a.pyrite.share.end",
+          "a.pyrite.share.start"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.net.oxygen",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.oxygen.burial.premise.end",
+          "a.oxygen.burial.premise.start",
+          "a.oxygen.h2.premise"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:312e3205c9578ba4e642ddbb4a954af7194b06298bb05005e06a835e7db52627",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.fig2",
+          "a.fig2.caption.fig",
+          "a.fig2.caption.num",
+          "a.fig3",
+          "a.fig3.caption.fig",
+          "a.fig3.caption.max",
+          "a.fig3.caption.min",
+          "a.fig3.caption.num",
+          "a.model.max.end",
+          "a.model.max.middle",
+          "a.model.max.start",
+          "a.pcontent.sentence",
+          "a.photosyn.summary",
+          "a.pinput"
+        ],
+        "source_id": "claim.phosphorus.photosynthesis"
+      },
+      {
+        "id": "claim:sha256:7793c9f304de2ea936f4bcc0e08981482f9a53180ec1f18e9fd4c2d5e01d40db",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.fig2",
+          "a.fig2.caption.fig",
+          "a.fig2.caption.num",
+          "a.fig3",
+          "a.fig3.caption.fig",
+          "a.fig3.caption.max",
+          "a.fig3.caption.min",
+          "a.fig3.caption.num",
+          "a.iron.minerals.rate",
+          "a.low.sulfate.pyrite",
+          "a.model.max.end",
+          "a.model.max.middle",
+          "a.model.max.start",
+          "a.organic.rate",
+          "a.paper.acceleration",
+          "a.paper.synthesis.balance",
+          "a.paper.synthesis.start",
+          "a.pcontent.sentence",
+          "a.photosyn.summary",
+          "a.pinput",
+          "a.pyrite.rate",
+          "a.pyrite.share.end",
+          "a.pyrite.share.start"
+        ],
+        "source_id": "claim.accelerated.oxygenation"
+      },
+      {
+        "id": "claim:sha256:f88d27d29d54e2aab631e1716b05332f8fa80ffb8977d6e690965b10211070da",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.fig5",
+          "a.fig5.caption.diagram",
+          "a.fig5.caption.fig",
+          "a.fig5.caption.num",
+          "a.iron.minerals.rate",
+          "a.low.sulfate.pyrite",
+          "a.organic.rate",
+          "a.pyrite.rate",
+          "a.pyrite.share.end",
+          "a.pyrite.share.start"
+        ],
+        "source_id": "claim.pyrite.net.oxygen"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "e.assumption.acceleration.r4",
+        "kind": "edge",
+        "source_id": "assumption.net.oxygen",
+        "target_id": "reason.acceleration.synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "e.assumption.oxygen.premise",
+        "kind": "edge",
+        "source_id": "assumption.net.oxygen",
+        "target_id": "reason.oxygen.premise",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "e.ground.assumption.burial.end",
+        "kind": "edge",
+        "source_id": "a.oxygen.burial.premise.end",
+        "target_id": "obs.oxygen.burial.premise",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.assumption.burial.start",
+        "kind": "edge",
+        "source_id": "a.oxygen.burial.premise.start",
+        "target_id": "obs.oxygen.burial.premise",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.assumption.h2",
+        "kind": "edge",
+        "source_id": "a.oxygen.h2.premise",
+        "target_id": "obs.oxygen.h2.premise",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.fig3.fignum",
+        "kind": "edge",
+        "source_id": "a.fig3.caption.num",
+        "target_id": "obs.fig3.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.fig3.figword",
+        "kind": "edge",
+        "source_id": "a.fig3.caption.fig",
+        "target_id": "obs.fig3.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.fig3.image",
+        "kind": "edge",
+        "source_id": "a.fig3",
+        "target_id": "obs.fig3.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.fig3.max",
+        "kind": "edge",
+        "source_id": "a.fig3.caption.max",
+        "target_id": "obs.fig3.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.fig3.min",
+        "kind": "edge",
+        "source_id": "a.fig3.caption.min",
+        "target_id": "obs.fig3.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.fig5.burial.caption",
+        "kind": "edge",
+        "source_id": "a.fig5.caption.diagram",
+        "target_id": "obs.fig5.burial",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.fig5.burial.fig",
+        "kind": "edge",
+        "source_id": "a.fig5.caption.fig",
+        "target_id": "obs.fig5.burial",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.fig5.burial.image",
+        "kind": "edge",
+        "source_id": "a.fig5",
+        "target_id": "obs.fig5.burial",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.fig5.burial.num",
+        "kind": "edge",
+        "source_id": "a.fig5.caption.num",
+        "target_id": "obs.fig5.burial",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.low.sulfate",
+        "kind": "edge",
+        "source_id": "a.low.sulfate.pyrite",
+        "target_id": "obs.pyrite.low.sulfate",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.minerals.rate",
+        "kind": "edge",
+        "source_id": "a.iron.minerals.rate",
+        "target_id": "obs.iron.minerals.rate",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.model.end",
+        "kind": "edge",
+        "source_id": "a.model.max.end",
+        "target_id": "obs.model.max",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.model.fig3",
+        "kind": "edge",
+        "source_id": "a.fig3",
+        "target_id": "obs.model.max",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.model.middle",
+        "kind": "edge",
+        "source_id": "a.model.max.middle",
+        "target_id": "obs.model.max",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.model.start",
+        "kind": "edge",
+        "source_id": "a.model.max.start",
+        "target_id": "obs.model.max",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.model.summary",
+        "kind": "edge",
+        "source_id": "a.photosyn.summary",
+        "target_id": "obs.photosyn.summary",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.organic.rate",
+        "kind": "edge",
+        "source_id": "a.organic.rate",
+        "target_id": "obs.organic.rate",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.pcontent",
+        "kind": "edge",
+        "source_id": "a.pcontent.sentence",
+        "target_id": "obs.pcontent",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.pcontent.fignum",
+        "kind": "edge",
+        "source_id": "a.fig2.caption.num",
+        "target_id": "obs.pcontent",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.pcontent.figure",
+        "kind": "edge",
+        "source_id": "a.fig2",
+        "target_id": "obs.pcontent",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.pcontent.figword",
+        "kind": "edge",
+        "source_id": "a.fig2.caption.fig",
+        "target_id": "obs.pcontent",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.pinput",
+        "kind": "edge",
+        "source_id": "a.pinput",
+        "target_id": "obs.pinput",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.pyrite.rate",
+        "kind": "edge",
+        "source_id": "a.pyrite.rate",
+        "target_id": "obs.pyrite.rate",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.pyrite.share.end",
+        "kind": "edge",
+        "source_id": "a.pyrite.share.end",
+        "target_id": "obs.pyrite.share",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.pyrite.share.start",
+        "kind": "edge",
+        "source_id": "a.pyrite.share.start",
+        "target_id": "obs.pyrite.share",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.synthesis.acceleration",
+        "kind": "edge",
+        "source_id": "a.paper.acceleration",
+        "target_id": "obs.paper.synthesis",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.synthesis.balance",
+        "kind": "edge",
+        "source_id": "a.paper.synthesis.balance",
+        "target_id": "obs.paper.synthesis",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.synthesis.start",
+        "kind": "edge",
+        "source_id": "a.paper.synthesis.start",
+        "target_id": "obs.paper.synthesis",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.premise.assumption.h2.obs",
+        "kind": "edge",
+        "source_id": "obs.oxygen.h2.premise",
+        "target_id": "reason.oxygen.premise",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.assumption.obs",
+        "kind": "edge",
+        "source_id": "obs.oxygen.burial.premise",
+        "target_id": "reason.oxygen.premise",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.fig3.r1",
+        "kind": "edge",
+        "source_id": "obs.fig3.model",
+        "target_id": "reason.phosphorus.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.fig5.burial.r2",
+        "kind": "edge",
+        "source_id": "obs.fig5.burial",
+        "target_id": "reason.pyrite.budget",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.final.r4",
+        "kind": "edge",
+        "source_id": "obs.paper.synthesis",
+        "target_id": "reason.acceleration.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.low.sulfate.r2",
+        "kind": "edge",
+        "source_id": "obs.pyrite.low.sulfate",
+        "target_id": "reason.pyrite.budget",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.minerals.rate.r2",
+        "kind": "edge",
+        "source_id": "obs.iron.minerals.rate",
+        "target_id": "reason.pyrite.budget",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.model.r1",
+        "kind": "edge",
+        "source_id": "obs.model.max",
+        "target_id": "reason.phosphorus.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.organic.rate.r2",
+        "kind": "edge",
+        "source_id": "obs.organic.rate",
+        "target_id": "reason.pyrite.budget",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.oxygen.r4",
+        "kind": "edge",
+        "source_id": "reason.oxygen.premise",
+        "target_id": "reason.acceleration.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.pcontent.r1",
+        "kind": "edge",
+        "source_id": "obs.pcontent",
+        "target_id": "reason.phosphorus.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.pinput.r1",
+        "kind": "edge",
+        "source_id": "obs.pinput",
+        "target_id": "reason.phosphorus.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.pyrite.rate.r2",
+        "kind": "edge",
+        "source_id": "obs.pyrite.rate",
+        "target_id": "reason.pyrite.budget",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.r1.r4",
+        "kind": "edge",
+        "source_id": "reason.phosphorus.synthesis",
+        "target_id": "reason.acceleration.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.r2.r4",
+        "kind": "edge",
+        "source_id": "reason.pyrite.budget",
+        "target_id": "reason.acceleration.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.share.r2",
+        "kind": "edge",
+        "source_id": "obs.pyrite.share",
+        "target_id": "reason.pyrite.budget",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.summary.r1",
+        "kind": "edge",
+        "source_id": "obs.photosyn.summary",
+        "target_id": "reason.phosphorus.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.support.claim1",
+        "kind": "edge",
+        "source_id": "reason.phosphorus.synthesis",
+        "target_id": "claim:sha256:312e3205c9578ba4e642ddbb4a954af7194b06298bb05005e06a835e7db52627",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.claim2",
+        "kind": "edge",
+        "source_id": "reason.pyrite.budget",
+        "target_id": "claim:sha256:f88d27d29d54e2aab631e1716b05332f8fa80ffb8977d6e690965b10211070da",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.claim4",
+        "kind": "edge",
+        "source_id": "reason.acceleration.synthesis",
+        "target_id": "claim:sha256:7793c9f304de2ea936f4bcc0e08981482f9a53180ec1f18e9fd4c2d5e01d40db",
+        "relation": "infers"
+      }
+    ]
+  }
+}

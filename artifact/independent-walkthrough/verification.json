@@ -1,0 +1,18 @@
+{
+  "record_hash_valid": true,
+  "all_input_result_fields_preserved": true,
+  "added_original_result_keys": [
+    "observation_evidence_path"
+  ],
+  "source_pdf_sha256": "f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+  "file_mtimes_utc": {
+    "source-10.png": "2026-10-27T12:36:30.916908+00:00",
+    "source-11.png": "2026-10-27T12:36:31.332607+00:00",
+    "A-final-export.json": "2026-10-27T12:39:13.796367+00:00",
+    "A-saved.jpg": "2026-10-27T12:38:20.147089+00:00",
+    "operator-fields.json": "2026-10-27T12:38:10.138979+00:00",
+    "B-shortest-only.jpg": "2026-10-27T12:37:03.772779+00:00",
+    "A-saved-dom.txt": "2026-10-27T12:38:20.168992+00:00",
+    "B-shortest-only-dom.txt": "2026-10-27T12:37:03.821361+00:00"
+  }
+}

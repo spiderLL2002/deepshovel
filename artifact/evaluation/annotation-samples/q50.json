@@ -1,0 +1,2682 @@
+{
+  "query_id": "q50",
+  "query_text": "Under the modeled gas-injection conditions, what maximum pore pressure can fault F2 in the Asmari reservoir sustain, and how do the three fault-stability formulations characterize it?",
+  "expected_answer": "The study estimates a maximum pore pressure of 55–57 MPa for F2. The 3-D Mohr-diagram, slip-tendency and modified-slip-tendency approaches identify F2 as the most stable of the studied faults. This is a conditional model estimate, with pre-existing faults treated as cohesionless, not an operational safety guarantee. Known positive reference: claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43; source: 10.1007_s12182-019-0331-9.pdf.",
+  "original_query_rubric": {
+    "3": "Provides the conditional F2 maximum pore-pressure estimate of 55–57 MPa and agreement of all three formulations that it is the most stable studied fault.",
+    "2": "Provides the compatible pressure estimate but omits the three-formulation stability comparison, or vice versa. No known scope conflict.",
+    "1": "Known conflicting scope or useful background only. Pore-pressure threshold of F1, F3 or F4, or differential pressure increase rather than maximum pore pressure.",
+    "0": "Unrelated to the requested scientific quantity and context."
+  },
+  "original_pool_sha256": "53326af0320b752f91526455b8276eb10013e562048eb9e2c4c03b2d369d59dc",
+  "sample_type": "fixed-ID method inspection; not random, expert-reviewed, or reliability-estimation sample",
+  "candidate_count": 22,
+  "candidates": [
+    {
+      "candidate": 1,
+      "document_id": "claim:sha256:f878b2ae2ec5beee2076c7db2a44d2b3260c12134275243dc55a750f9d07c37b",
+      "paper_id": "paper:7589a2f4e8552ed2898b4cf9a8c234431ec1fbf1cceaaf8f4dda7b208f6a404e",
+      "snapshot_id": "snapshot:sha256:332d03f8eda03c880508ee575d118ef5d055f2d0337ce88c6e11e860fd001023",
+      "artifact_version_id": "artifact-version:sha256:7589a2f4e8552ed2898b4cf9a8c234431ec1fbf1cceaaf8f4dda7b208f6a404e",
+      "source_name": "10.1016_j.petrol.2008.05.001.pdf",
+      "canonical_claim": "For the modeled reservoir, pressure response appears more sensitive to the distance between sealing faults and wells than to fault shape and geometry.",
+      "original_claim": "This means that changing the sub-seismic fault scenario to other type of barriers may not produce similar results in pressure response.",
+      "scope": {
+        "condition": [
+          "History matching with seismic-interpreted and sub-seismic fault patterns"
+        ],
+        "entities": [
+          "compartments",
+          "field pressures (SBHP, FWHP)",
+          "sub-seismic faults"
+        ],
+        "formation": [
+          "Upper Devonian siliciclastic deposition"
+        ],
+        "location": [],
+        "measurement": [
+          "Field pressure response: SBHP and FWHP"
+        ],
+        "method": [
+          "Iterative hydrodynamic inversion of sub-seismic faults"
+        ],
+        "sample_type": [
+          "Complex faulted and eroded deep gas reservoir"
+        ],
+        "time": null,
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.alternative_barriers",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "This means that changing the sub-seismic fault scenario to other type of barriers may not produce similar results in pressure response.",
+          "excerpt_original_characters": 135,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.distance_interpretation",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "Thus, the distance of sealing faults to wells appears to be by far more important than the shape and geometry of the faults.",
+          "excerpt_original_characters": 124,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.error_distance",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "Once the pressure response is obtained from the flow simulator with the new fault pattern, the pressure error is correlated to the compartment size to estimate a perturbation on the average distance between fault and wells.",
+          "excerpt_original_characters": 223,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.nonuniqueness",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "The non-uniqueness of the inverse approach is considered to be limited by the expected pressure response.",
+          "excerpt_original_characters": 105,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 587,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "封闭断层与井距压力响应非F2阈值",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 2,
+      "document_id": "claim:sha256:6d6449f97fa8cb2d1e996cd10ac1f20f5af9af4fa88b113bb215ecde045b3951",
+      "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+      "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "source_name": "10.1007_s12182-019-0331-9.pdf",
+      "canonical_claim": "For the four Asmari-reservoir faults, the 3D Mohr-diagram, slip-tendency, and modified slip-tendency analyses give concordant fault-stability assessments.",
+      "original_claim": "On the other hand, F2 is the most stable fault, because it has the lowest $T _ { \\mathrm { s } }$ and $T _ { \\mathrm { s m } }$ and can undergo an average maximum pore pressure of 55–57 MPa.",
+      "scope": {
+        "condition": [
+          "current and critical pore-pressure states"
+        ],
+        "entities": [
+          "Asmari reservoir",
+          "F1",
+          "F2",
+          "F3",
+          "F4",
+          "Gachsaran oilfield"
+        ],
+        "formation": [
+          "Asmari reservoir"
+        ],
+        "location": [
+          "Gachsaran oilfield, SW Iran"
+        ],
+        "measurement": [
+          "fault-stability assessment"
+        ],
+        "method": [
+          "3D Mohr diagrams, slip tendency, and modified slip tendency"
+        ],
+        "sample_type": [
+          "four faults F1, F2, F3, and F4"
+        ],
+        "time": null,
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.cohesion",
+          "page": 3,
+          "section": "2 Geological setting",
+          "figure": null,
+          "table": null,
+          "excerpt": "Since the cohesion of the weakness (pre-existing fault) can be neglected, they were considered cohesionless (i.e., C = 0).",
+          "excerpt_original_characters": 122,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.f2.stability",
+          "page": 11,
+          "section": "6 Slip tendency parameter",
+          "figure": null,
+          "table": null,
+          "excerpt": "On the other hand, F2 is the most stable fault, because it has the lowest $T _ { \\mathrm { s } }$ and $T _ { \\mathrm { s m } }$ and can undergo an average maximum pore pressure of 55–57 MPa.",
+          "excerpt_original_characters": 190,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.f3.comparison",
+          "page": 11,
+          "section": "6 Slip tendency parameter",
+          "figure": null,
+          "table": null,
+          "excerpt": "Based on the results of both 3D Mohr diagrams (Table 3) and slip tendency equations (Table 4), F3 is more likely to reactivate, since its $\\Delta P _ { \\mathrm { p } }$ and $P _ { \\mathrm { p m a x } }$ are lower than the other faults.",
+          "excerpt_original_characters": 235,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.f3.slip",
+          "page": 11,
+          "section": "6 Slip tendency parameter",
+          "figure": null,
+          "table": null,
+          "excerpt": "It also has the highest slip tendency value, which means it can reactivate with a lower pore pressure increase.",
+          "excerpt_original_characters": 111,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.methods.all",
+          "page": 13,
+          "section": "8 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Results of all three methods of 3D Mohr diagrams, slip tendency and modifed slip tendency, confrmed that F2 is the most stable fault in the fe",
+          "excerpt_original_characters": 202,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:89ce84f5a0c8b0e7a721bd77e4d7d7698de7dd656ed9ec197bc9fa5c0d40d79f",
+          "page": 11,
+          "section": null,
+          "figure": null,
+          "table": "Table 4",
+          "excerpt": "",
+          "excerpt_original_characters": 345,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1205,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 3,
+        "scope_error": false,
+        "rationale": "原文完整给F2最大55至57MPa、三种方法一致最稳定及无黏聚力假设",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 3,
+      "document_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+      "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+      "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "source_name": "10.1007_s12182-019-0331-9.pdf",
+      "canonical_claim": "For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.",
+      "original_claim": "On the other hand, F2 is the most stable fault, because it has the lowest $T _ { \\mathrm { s } }$ and $T _ { \\mathrm { s m } }$ and can undergo an average maximum pore pressure of 55–57 MPa.",
+      "scope": {
+        "condition": [
+          "gas-injection pressure increase"
+        ],
+        "entities": [
+          "Asmari reservoir",
+          "F1",
+          "F2",
+          "F3",
+          "F4",
+          "Gachsaran oilfield"
+        ],
+        "formation": [
+          "Asmari reservoir"
+        ],
+        "location": [
+          "Gachsaran oilfield, SW Iran"
+        ],
+        "measurement": [
+          "reactivation tendency and maximum sustainable pore pressure"
+        ],
+        "method": [
+          "3D Mohr diagrams, slip tendency, and modified slip tendency"
+        ],
+        "sample_type": [
+          "four faults F1, F2, F3, and F4"
+        ],
+        "time": null,
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.cohesion",
+          "page": 3,
+          "section": "2 Geological setting",
+          "figure": null,
+          "table": null,
+          "excerpt": "Since the cohesion of the weakness (pre-existing fault) can be neglected, they were considered cohesionless (i.e., C = 0).",
+          "excerpt_original_characters": 122,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.f2.stability",
+          "page": 11,
+          "section": "6 Slip tendency parameter",
+          "figure": null,
+          "table": null,
+          "excerpt": "On the other hand, F2 is the most stable fault, because it has the lowest $T _ { \\mathrm { s } }$ and $T _ { \\mathrm { s m } }$ and can undergo an average maximum pore pressure of 55–57 MPa.",
+          "excerpt_original_characters": 190,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.methods.all",
+          "page": 13,
+          "section": "8 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Results of all three methods of 3D Mohr diagrams, slip tendency and modifed slip tendency, confrmed that F2 is the most stable fault in the feld, and it can sustain a maximum pore pressure of 55–57 MPa.",
+          "excerpt_original_characters": 202,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 514,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 3,
+        "scope_error": false,
+        "rationale": "原文给55至57MPa最大孔压及三方法F2最稳定，注明无黏聚力模型",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 4,
+      "document_id": "claim:sha256:db8dde68036ccc36dacdab00a1d8372bfa0f97ac3bf8f4cff727dae3b50b7f93",
+      "paper_id": "paper:20071443f28f6da825f477da3cfe6855396061b418f29599e4faa0d458a0d8d7",
+      "snapshot_id": "snapshot:sha256:7c58feead81af4697e123c67e24f7e3ae915eb34e61e97ce9d11f0e2e846441b",
+      "artifact_version_id": "artifact-version:sha256:20071443f28f6da825f477da3cfe6855396061b418f29599e4faa0d458a0d8d7",
+      "source_name": "10.1016_j.ijrmms.2018.03.002.pdf",
+      "canonical_claim": "For the Bangestan Reservoir, the derived Eq. (23) provides an acceptable approximation of breakdown pressure for vertical, perforated cased-holes, whereas deviated wells require further modification.",
+      "original_claim": "Accordingly, an acceptable approximation for breakdown pressure in the Bangestan reservoir for vertical and perforated cased-holes can be measured using the Eq.",
+      "scope": {
+        "location": [
+          "SW Iran"
+        ],
+        "time": {
+          "label": "present-day",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Bangestan Reservoir"
+        ],
+        "sample_type": [
+          "Bangestan wells"
+        ],
+        "method": [
+          "derived Eq. (23)"
+        ],
+        "condition": [
+          "vertical, perforated cased-holes"
+        ],
+        "measurement": [
+          "breakdown pressure"
+        ],
+        "uncertainty": "deviated wells require modifications",
+        "entities": [
+          "Bangestan Reservoir",
+          "P_B",
+          "breakdown pressure"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.break.accept",
+          "page": 12,
+          "section": "5. Hydraulic fracturing in Bangestan reservoir",
+          "figure": null,
+          "table": null,
+          "excerpt": "Accordingly, an acceptable approximation for breakdown pressure in the Bangestan reservoir for vertical and perforated cased-holes can be measured using the Eq.",
+          "excerpt_original_characters": 160,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.break.correlation",
+          "page": 12,
+          "section": "5. Hydraulic fracturing in Bangestan reservoir",
+          "figure": null,
+          "table": null,
+          "excerpt": "(19), the calculated breakdown pressure, $P _ { B } ,$ yields a good correlation of modified field breakdown pressure for the Bangestan reservoir (square symbols in Fig.",
+          "excerpt_original_characters": 169,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.break.deviated",
+          "page": 12,
+          "section": "5. Hydraulic fracturing in Bangestan reservoir",
+          "figure": null,
+          "table": null,
+          "excerpt": "However, for deviated wells some other modifications are needed.",
+          "excerpt_original_characters": 64,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.break.farfield",
+          "page": 12,
+          "section": "5. Hydraulic fracturing in Bangestan reservoir",
+          "figure": null,
+          "table": null,
+          "excerpt": "Hence, the breakdown pick pressure, which is detectable in pressure profile, represents mainly the far-field fracture propagation, not the fracture initiation.",
+          "excerpt_original_characters": 159,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.break.relation",
+          "page": 12,
+          "section": "5. Hydraulic fracturing in Bangestan reservoir",
+          "figure": null,
+          "table": null,
+          "excerpt": "P _ { B } \\approx P _ { b } ( 2 - A ) = 3 S _ { h } - S _ { H } - A P _ { o } + \\sigma _ { T }\\tag{23}",
+          "excerpt_original_characters": 102,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:14eecf284728e281e47d050a41c6bb7918b252f6bd781d2f0edfee60c39267bf",
+          "page": 11,
+          "section": null,
+          "figure": "Figure 12",
+          "table": null,
+          "excerpt": "Fig. 12. Breakdown pressure versus depth for Bangestan reservoir.",
+          "excerpt_original_characters": 65,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 719,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Bangestan井孔破裂压力非断层F2阈值",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 5,
+      "document_id": "claim:sha256:7410820e363cd0e2c258bb2d1a3acc503878b272bec5ceca690860ee2f06477a",
+      "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+      "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "source_name": "10.1007_s12182-019-0331-9.pdf",
+      "canonical_claim": "When stress-orientation image logs are unavailable, slip-tendency analysis is a practical, more cost-effective alternative for estimating critical pore pressure in the Asmari-reservoir fault assessment.",
+      "original_claim": "The orientations of the minimum and the maximum horizontal stresses were identifed by interpreting image logs, and their magnitudes were estimated using poroelastic equations.",
+      "scope": {
+        "condition": [
+          "absence of image logs for stress orientation"
+        ],
+        "entities": [
+          "Asmari reservoir",
+          "F1",
+          "F2",
+          "F3",
+          "F4",
+          "Gachsaran oilfield"
+        ],
+        "formation": [
+          "Asmari reservoir"
+        ],
+        "location": [
+          "Gachsaran oilfield, SW Iran"
+        ],
+        "measurement": [
+          "critical pore pressure"
+        ],
+        "method": [
+          "slip-tendency analysis"
+        ],
+        "sample_type": [
+          "four faults F1, F2, F3, and F4"
+        ],
+        "time": null,
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.image.logs",
+          "page": 3,
+          "section": "3 Methodology",
+          "figure": null,
+          "table": null,
+          "excerpt": "The orientations of the minimum and the maximum horizontal stresses were identifed by interpreting image logs, and their magnitudes were estimated using poroelastic equations.",
+          "excerpt_original_characters": 175,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.methods.all",
+          "page": 13,
+          "section": "8 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Results of all three methods of 3D Mohr diagrams, slip tendency and modifed slip tendency, confrmed that F2 is the most stable fault in the feld, and it can sustain a maximum pore pressure of 55–57 MPa.",
+          "excerpt_original_characters": 202,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.slip.application",
+          "page": 13,
+          "section": "8 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Since the slip tendency factor can estimate the critical pore pressure with a good precision and without knowing the stress orientation, it will be more cost-efective in such studies, because of costliness and difcult interpretation of image logs.",
+          "excerpt_original_characters": 247,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 624,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 3,
+        "scope_error": false,
+        "rationale": "原文完整给F2三方法一致最稳定及55至57MPa，属于该条件模型评估",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 6,
+      "document_id": "claim:sha256:939083b72847a601b30d3a605c5b8c3778f1b3fb8deee724d8e2c557132014f9",
+      "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+      "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "source_name": "10.1007_s12182-019-0331-9.pdf",
+      "canonical_claim": "Among F1–F4 in the Asmari reservoir, F3 is the most prone to reactivation under the assessed gas-injection conditions.",
+      "original_claim": "Based on the results of both 3D Mohr diagrams (Table 3) and slip tendency equations (Table 4), F3 is more likely to reactivate, since its $\\Delta P _ { \\mathrm { p } }$ and $P _ { \\mathrm { p m a x } }$ are lower than the other faults.",
+      "scope": {
+        "condition": [
+          "gas-injection pressure increase"
+        ],
+        "entities": [
+          "Asmari reservoir",
+          "F1",
+          "F2",
+          "F3",
+          "F4",
+          "Gachsaran oilfield"
+        ],
+        "formation": [
+          "Asmari reservoir"
+        ],
+        "location": [
+          "Gachsaran oilfield, SW Iran"
+        ],
+        "measurement": [
+          "reactivation tendency and maximum sustainable pore pressure"
+        ],
+        "method": [
+          "3D Mohr diagrams, slip tendency, and modified slip tendency"
+        ],
+        "sample_type": [
+          "four faults F1, F2, F3, and F4"
+        ],
+        "time": null,
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.fig7",
+          "page": 7,
+          "section": null,
+          "figure": "Fig. 7",
+          "table": null,
+          "excerpt": "Fig. 7 Stereographic projection of fault planes and in situ stresses orientations",
+          "excerpt_original_characters": 81,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.f3.comparison",
+          "page": 11,
+          "section": "6 Slip tendency parameter",
+          "figure": null,
+          "table": null,
+          "excerpt": "Based on the results of both 3D Mohr diagrams (Table 3) and slip tendency equations (Table 4), F3 is more likely to reactivate, since its $\\Delta P _ { \\mathrm { p } }$ and $P _ { \\mathrm { p m a x } }$ are lower than the other faults.",
+          "excerpt_original_characters": 235,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.f3.slip",
+          "page": 11,
+          "section": "6 Slip tendency parameter",
+          "figure": null,
+          "table": null,
+          "excerpt": "It also has the highest slip tendency value, which means it can reactivate with a lower pore pressure increase.",
+          "excerpt_original_characters": 111,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:89ce84f5a0c8b0e7a721bd77e4d7d7698de7dd656ed9ec197bc9fa5c0d40d79f",
+          "page": 11,
+          "section": null,
+          "figure": null,
+          "table": "Table 4",
+          "excerpt": "Table 4 Slip tendencies calculated using Morris et al. $\\left( 1 9 9 6 \\right) \\left( T _ { \\mathrm { s } } \\right)$ and Hawkes et  al. (2005) $( T _ { \\mathrm { s m } } )$ equations; critical pore pressures calculated from the Rutqvist et  al. (2007) $( P _ { \\mathrm { c } } )$ and Hawkes et  al. (2005) $( P _ { \\mathrm { C r } } )$ equations",
+          "excerpt_original_characters": 345,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 772,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "F3最低再活化阈值不是F2最大孔压",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 7,
+      "document_id": "claim:sha256:d71be473e7815b433097ea3b579b67317881a3b9a516a07d11917cde99b1e991",
+      "paper_id": "paper:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+      "snapshot_id": "snapshot:sha256:79acd1fdeae121f33e7362dcac51176945a1b8d7522d9c658f110780bfa08c84",
+      "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+      "source_name": "10.1016_j.jog.2012.03.006.pdf",
+      "canonical_claim": "For the approximately 20° low-angle segment of the Gediz Graben master bounding fault at approximately 6 km depth, the projected stress model suggests that brittle shear reactivation likely requires elevated pore pressure together with fault-zone weakening; overpressure alone may be insufficient.",
+      "original_claim": "There is surely some uncertainty in this computation because the principal stress gradients are based on the data from the first $2 \\mathrm { k m }$ of the sedimentary cover (Fig.",
+      "scope": {
+        "location": [
+          "Gediz Graben, Western Turkey"
+        ],
+        "time": null,
+        "formation": [],
+        "sample_type": [],
+        "method": [
+          "Projected stress and fault-reactivation calculations"
+        ],
+        "condition": [
+          "Approximately 20° MGBF segment at approximately 6 km depth; hydrostatic and overpressured scenarios"
+        ],
+        "measurement": [
+          "Effective stress and shear-reactivation conditions"
+        ],
+        "uncertainty": "Stress projection extrapolates upper-2-km gradients and ignores possible σ₁ deviation from vertical",
+        "entities": [
+          "fault strength",
+          "low-angle master bounding fault",
+          "pore pressure",
+          "shear reactivation"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.assumption1",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "There is surely some uncertainty in this computation because the principal stress gradients are based on the data from the first $2 \\mathrm { k m }$ of the sedimentary cover (Fig.",
+          "excerpt_original_characters": 179,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.assumption2",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "Moreover, potential deviation of $\\sigma _ { 1 }$ from vertical trajectory is also ignored which could occur toward the low angle segment at depth (e.g., Wernicke, 1995;",
+          "excerpt_original_characters": 169,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.assumption2Ref",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "Westaway, 1999).",
+          "excerpt_original_characters": 16,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.assumptionRef",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "5).",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.conclusionLimit",
+          "page": 11,
+          "section": "9. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Although fluid overpressures are favorable for reactivation, pressure relief due to hydrofracturing and differential stress drop due to poroelastic response may prevent the shear reactivation of the low-angle segment.",
+          "excerpt_original_characters": 217,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.conclusionWeak",
+          "page": 11,
+          "section": "9. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "If this is the case, auxiliary weakening of the fault zone may be the key factor in reactivation and seismicity of the ${ \\sim } 6 \\mathrm { k m } \\cdot$ deep, low-angle segment of the master bounding fault of the Ge",
+          "excerpt_original_characters": 227,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.f5",
+          "page": 7,
+          "section": null,
+          "figure": "Fig. 5",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 808,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.f9",
+          "page": 10,
+          "section": null,
+          "figure": "Fig. 9",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 597,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.fig9caption",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 80,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.fig9fig",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 4,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.fig9num",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 2,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.hydro",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 146,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.hydrocont",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 128,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.hydrofrac",
+          "page": 11,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 230,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.muweak",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 104,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.muweakref",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.overalone",
+          "page": 11,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 107,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.pfactor",
+          "page": 10,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 162,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.poro",
+          "page": 11,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 235,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.pororef",
+          "page": 11,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 32,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.pstress",
+          "page": 11,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 59,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.pstressref",
+          "page": 11,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 78,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.weaken",
+          "page": 11,
+          "section": "8.4. Activity of the low-angle master graben bounding fault",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 146,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 3732,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Gediz低角度断层再活化条件非GachsaranF2",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 8,
+      "document_id": "claim:sha256:d90d2d9ee2b3c44ca2c6ece1e5f88afa3bd8a62a7060b683ef1d861cbea46cfc",
+      "paper_id": "paper:fb05bdf250be4130382e487f4bbe260850b9768bba8933b0f71d57c29c0d572b",
+      "snapshot_id": "snapshot:sha256:e894a59d8c89bdebd12661a3f520e89275da2f8c4b62dc16da95ea14a6b1414b",
+      "artifact_version_id": "artifact-version:sha256:fb05bdf250be4130382e487f4bbe260850b9768bba8933b0f71d57c29c0d572b",
+      "source_name": "10.1016_S0012-8252(03)00083-7.pdf",
+      "canonical_claim": "Under the paper’s simplified lateral-constraint model for the shallow crust, with lithostatic load as σ₃ in compressional regimes and no localized fluid overpressure, thrust faults are more unstable at shallower levels, predicting shallow nucleation followed by downward rupture and early-aftershock migration.",
+      "original_claim": "In compressional regimes, the vertical load is $\\sigma _ { 3 } .$ As far as the ‘lateral constraint’ state of stress is considered, moving upward from location B to A, the differential stress (the diameter of the Mohr circle) increases (Fig.",
+      "scope": {
+        "condition": [
+          "No localized fluid overpressure; approximately 0–20 km"
+        ],
+        "entities": [
+          "Mohr circle",
+          "lithostatic load",
+          "thrust faults"
+        ],
+        "formation": [
+          "Compressional tectonic regimes"
+        ],
+        "location": [],
+        "measurement": [
+          "Fault stability and rupture or early-aftershock propagation"
+        ],
+        "method": [
+          "Mohr diagrams with lateral-constraint stress distribution"
+        ],
+        "sample_type": [
+          "Simplified isotropic-body model"
+        ],
+        "time": null,
+        "uncertainty": "Departures from assumptions can change behavior"
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.emp.scope",
+          "page": 2,
+          "section": "2. A selection of earthquakes occurred world-wide",
+          "figure": null,
+          "table": null,
+          "excerpt": "In this work, we deal with the 0– 20 km depth range, where tectonic and stress features are better constrained.",
+          "excerpt_original_characters": 111,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig.13",
+          "page": 19,
+          "section": null,
+          "figure": "Fig. 13",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model.comp.diff",
+          "page": 18,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "In compressional regimes, the vertical load is $\\sigma _ { 3 } .$ As far as the ‘lateral constraint’ state of stress is considered, moving upward from location B to A, the differential stress (the diameter of the Mohr circle) increases (Fig.",
+          "excerpt_original_characters": 241,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model.comp.inst",
+          "page": 18,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "As a consequence, moving upward along a thrust fault, the decrease of $\\sigma _ { 3 }$ enlarges the Mohr circle making the fault plane more unstable.",
+          "excerpt_original_characters": 149,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model.comp.pred",
+          "page": 18,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "This means that rupture along the fault is likely to occur at shallower depths and that both the fracture and early aftershocks are expected to propagate downward, consistently with observations outlined above.",
+          "excerpt_original_characters": 210,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model.fig13.num",
+          "page": 19,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "13.",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model.fig13a",
+          "page": 19,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "(a) Sketch and Mohr diagrams of the variation of $\\sigma _ { 3 }$ (vertical load) and ",
+          "excerpt_original_characters": 208,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.model.nofluid",
+          "page": 25,
+          "section": "6. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 176,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.model.principal",
+          "page": 18,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 213,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1311,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "一般压缩断层稳定性模型背景无F2阈值",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 9,
+      "document_id": "claim:sha256:7a274e7d60ac0860e4ebeaa22ea89fc28a0cd1ddb139654ba9257eafe64f977d",
+      "paper_id": "paper:aa013283ad7a120f85041d2e1529a91f54f40455724a245f8dc9b8842ce18aae",
+      "snapshot_id": "snapshot:sha256:e98f67aa6c86953e155e6e1cbd6e67ef0a1c1f39b9faf3cf355c268b992e3156",
+      "artifact_version_id": "artifact-version:sha256:aa013283ad7a120f85041d2e1529a91f54f40455724a245f8dc9b8842ce18aae",
+      "source_name": "BULK_6ba71e5263f62063aafb.pdf",
+      "canonical_claim": "In the non-steady-state Argentine margin system, changes in sedimentation and SMT position can produce repeated or inverse redox zonation, allowing similar sulfur and iron alteration processes to occur at different sediment depths even after pore-water profiles approach steady state.",
+      "original_claim": "Our data show that in non-steady state systems, redox zones do not occur in sequence but can reappear or proceed in inverse sequence throughout the sediment column, causing similar mineral alteration processes to occur at the same time at different sediment depths.",
+      "scope": {
+        "location": [
+          "Argentine continental slope, western Argentine Basin"
+        ],
+        "time": null,
+        "formation": [
+          "Dynamic deposition and sediment reworking under non-steady-state conditions."
+        ],
+        "sample_type": [
+          "Siliciclastic marine sediments"
+        ],
+        "method": [
+          "Gravity cores; pore-water and solid-phase geochemical and sulfur-isotope analyses"
+        ],
+        "condition": [
+          "Abundant reactive iron phases, refractory organic matter, and low organoclastic sulfate reduction rates."
+        ],
+        "measurement": [
+          "Pore-water and solid-phase sulfur/iron inventories and sulfur isotope composition"
+        ],
+        "uncertainty": "Potential polysulfide concentrations are calculated rather than direct measurements; bulk TOS isotope data mix sulfur compounds.",
+        "entities": [
+          "GeoB 13824",
+          "GeoB 13863",
+          "iron phases",
+          "sulfate-methane transition (SMT)",
+          "sulfur phases"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.abstractRedox",
+          "page": 2,
+          "section": "Citation:",
+          "figure": null,
+          "table": null,
+          "excerpt": "Our data show that in non-steady state systems, redox zones do not occur in sequence but can reappear or proceed in inverse sequence throughout the sediment column, causing similar mineral alteration processes to occur at the same time at different sediment depths.",
+          "excerpt_original_characters": 265,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.currentSolid",
+          "page": 14,
+          "section": "Interpretation of the Geochemical Evolution of Dynamic Sediments Based on Inventory and Isotope Composition of Sulfur Species",
+          "figure": null,
+          "table": null,
+          "excerpt": "This is the stage that is captured in the investigated sediments, with steady state pore water profiles as displayed by sulfate, while the solid phases are integrated and mostly capture the preceding non-steady state conditions.",
+          "excerpt_original_characters": 228,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig7",
+          "page": 13,
+          "section": null,
+          "figure": "Figure 7",
+          "table": null,
+          "excerpt": "FIGURE 7 | Schematic model displaying iron oxide alteration and sulfur phase distribution with its isotopic signature related to changes in depositional conditions (modified after Riedinger, 2005). (A) During high sedimentation (one or multiple depositional events) the SMT moves rapidly upward, a non-stead",
+          "excerpt_original_characters": 2177,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.fig7A",
+          "page": 13,
+          "section": "Interpretation of the Geochemical Evolution of Dynamic Sediments Based on Inventory and Isotope Composition of Sulfur Species",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 464,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.fig7B",
+          "page": 13,
+          "section": "Interpretation of the Geochemical Evolution of Dynamic Sediments Based on Inventory and Isotope Composition of Sulfur Species",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 259,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.fig7Broadening",
+          "page": 13,
+          "section": "Interpretation of the Geochemical Evolution of Dynamic Sediments Based on Inventory and Isotope Composition of Sulfur Species",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 91,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.fig7C",
+          "page": 13,
+          "section": "Interpretation of the Geochemical Evolution of Dynamic Sediments Based on Inventory and Isotope Composition of Sulfur Species",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 95,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.fig7Caption",
+          "page": 13,
+          "section": "Interpretation of the Geochemical Evolution of Dynamic Sediments Based on Inventory and Isotope Composition of Sulfur Species",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 197,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.modelIntro",
+          "page": 13,
+          "section": "Interpretation of the Geochemical Evolution of Dynamic Sediments Based on Inventory and Isotope Composition of Sulfur Species",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 134,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.siteRefine",
+          "page": 14,
+          "section": "Interpretation of the Geochemical Evolution of Dynamic Sediments Based on Inventory and Isotope Composition of Sulfur Species",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 90,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.sulfateProfile",
+          "page": 6,
+          "section": "Pore Water",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 322,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.tosA",
+          "page": 10,
+          "section": "Stable Sulfur Isotope Composition of Pore Water and Solid Phase Sulfur Compounds",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 225,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.tosPast",
+          "page": 14,
+          "section": "Interpretation of the Geochemical Evolution of Dynamic Sediments Based on Inventory and Isotope Composition of Sulfur Species",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 179,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:21d3c3c50f50444447431c3b1504e51698f347f75c7da7e3392928797ec082e6",
+          "page": 7,
+          "section": null,
+          "figure": "Figure 3",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 1313,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 6039,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "沉积氧化还原分带非断层压力",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 10,
+      "document_id": "claim:sha256:a5f283b407e0158a7161d121b4588a4ac89c855fabfe9c833ba6193821b436ea",
+      "paper_id": "paper:9c8281eb14cd90c3080e049d062db84b777b3ed18bfe2a8c888c9f27f113b1a1",
+      "snapshot_id": "snapshot:sha256:4b6227dc9a791f0144c8bdd238c5cfc02180e4fa040403aa74317c5d8bf1763d",
+      "artifact_version_id": "artifact-version:sha256:9c8281eb14cd90c3080e049d062db84b777b3ed18bfe2a8c888c9f27f113b1a1",
+      "source_name": "10.1016_j.jafrearsci.2018.06.008.pdf",
+      "canonical_claim": "In the Mansourabad oilfield, Asmari and Bangestan reservoir fluids and pressures are interpreted as not connected, with dense Pabdeh and Gurpi beds acting as effective static barriers.",
+      "original_claim": "Table 2 Selected biomarker-derived thermal maturity parameters of crude oils from the Mansourabad Oilfield.a ",
+      "scope": {
+        "condition": [
+          "Oils from the Asmari and Bangestan reservoirs"
+        ],
+        "entities": [
+          "Asmari reservoir",
+          "Bangestan reservoir",
+          "Kazhdumi Formation",
+          "Mansourabad oilfield",
+          "Pabdeh Formation"
+        ],
+        "formation": [],
+        "location": [
+          "Mansourabad oilfield, SW Iran"
+        ],
+        "measurement": [
+          "API gravity, bulk fractions, biomarker ratios, and carbon-isotope composition"
+        ],
+        "method": [
+          "Biomarker, GC/GC-MS, bulk-composition, and stable carbon-isotope analyses"
+        ],
+        "sample_type": [
+          "Crude oils from five producing wells: three Asmari and two Bangestan samples"
+        ],
+        "time": null,
+        "uncertainty": "Candidate source-rock samples were unavailable; source contributions could not be quantified."
+      },
+      "anchors": [
+        {
+          "anchor_id": "anc.fig2",
+          "page": 23,
+          "section": null,
+          "figure": "Figure 2",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anc.table2",
+          "page": 29,
+          "section": null,
+          "figure": null,
+          "table": "Table 2",
+          "excerpt": "Table 2 Selected biomarker-derived thermal maturity parameters of crude oils from the Mansourabad Oilfield.a ",
+          "excerpt_original_characters": 109,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anc.text.barrier",
+          "page": 15,
+          "section": "6.Summary and conclusion",
+          "figure": null,
+          "table": null,
+          "excerpt": "Alizadeh et al.,2018).But in Mansourabad oilfield,different maturityand bulk properties of the Asmari and Bangestan oils demonstrate that fluid and pressure of these reservoirs are not connected,because the dense Pabdeh and Gurpi layers act as effective static barriers.",
+          "excerpt_original_characters": 270,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anc.text.metal",
+          "page": 7,
+          "section": "4.3.Nickel and vanadium data",
+          "figure": null,
+          "table": null,
+          "excerpt": "While both samples from Asmari reservoir contain similarly high contents of nickel and vanadium $( \\mathrm { N i } > 4 0 \\mathrm { p p m }$ ， $\\nabla { > } 1 0 0 \\mathrm { p p m } )$ , the Bangestan oil nearly depleted from these heavy elements (Ni: 2ppm, V: 3.6ppm).",
+          "excerpt_original_characters": 267,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anc.text.stratcont",
+          "page": 5,
+          "section": "2. Geological framework and field description",
+          "figure": null,
+          "table": null,
+          "excerpt": "Gachsaran and the marly Gurpi (Late Cretaceous) Formations,respectively (Fig.",
+          "excerpt_original_characters": 77,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anc.text.stratnumber",
+          "page": 5,
+          "section": "2. Geological framework and field description",
+          "figure": null,
+          "table": null,
+          "excerpt": "2).",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anc.text.stratstart",
+          "page": 4,
+          "section": "2. Geological framework and field description",
+          "figure": null,
+          "table": null,
+          "excerpt": "It seems that reverse faulting played a greatrole in the development of th",
+          "excerpt_original_characters": 468,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1194,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Mansourabad储层连通性非F2阈值",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 11,
+      "document_id": "claim:sha256:dbf43775e7729f9dbcbdbe576e4bd9c6f4c44be53dc39888973bb32d3fe76ad1",
+      "paper_id": "paper:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+      "snapshot_id": "snapshot:sha256:9e4cabc7fc47f31b39e747dda60145faf71094bc8fb7a3744cc5631f6580680f",
+      "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+      "source_name": "10.1016_j.tecto.2018.06.004.pdf",
+      "canonical_claim": "After pore-pressure diffusion in the modeled strike-slip fault system, a water-level increase produces a negative effective horizontal normal stress change across the modeled poroelastic range except at β=1, thereby tending to destabilize the fault.",
+      "original_claim": "Figure 2",
+      "scope": {
+        "condition": [
+          "water-level increase"
+        ],
+        "entities": [
+          "effective horizontal normal stress",
+          "fault stability",
+          "pore pressure",
+          "water level"
+        ],
+        "formation": [
+          "strike-slip faulting"
+        ],
+        "location": [
+          "fault beneath a lake or reservoir"
+        ],
+        "measurement": [
+          "effective horizontal normal stress change"
+        ],
+        "method": [
+          "poroelastic model"
+        ],
+        "sample_type": [
+          "modeled fault"
+        ],
+        "time": {
+          "end": null,
+          "label": "post-diffusion stage",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "modeled poroelastic parameter ranges"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.5b",
+          "page": 56,
+          "section": null,
+          "figure": "Figure 5",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.figure.2",
+          "page": 53,
+          "section": null,
+          "figure": "Figure 2",
+          "table": null,
+          "excerpt": "Figure 2",
+          "excerpt_original_characters": 8,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.model.caption.a",
+          "page": 48,
+          "section": "ACCEPTED MANUSCRIPT",
+          "figure": null,
+          "table": null,
+          "excerpt": "Figure 2: (a) A step-function water load, $\\sigma _ { w } ,$ applied on a top boundary of the structure.",
+          "excerpt_original_characters": 104,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.negative.destabilization",
+          "page": 28,
+          "section": "6. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Negative stress changes contribute to fault destabilization.",
+          "excerpt_original_characters": 60,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.postdiff.dominance",
+          "page": 26,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "In contrast, at the post-diffusion stage, increase in pore pressure is always dominant over the loading effect, leading to the varying but always negative $\\Delta \\sigma _ { x x } ^ { \\prime }$ at any combination of poroelastic constants (Figure 5b).",
+          "excerpt_original_characters": 250,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.postdiff.negative",
+          "page": 16,
+          "section": "ACCEPTED MANUSCRIPT",
+          "figure": null,
+          "table": null,
+          "excerpt": "Finally, at the post-diffusion stage (Figure 5b) $\\Delta \\sigma _ { \\mathrm { x x } } ^ { \\prime } / \\ p _ { s }$ is negative at any depth for the full range of variability in $\\beta$ and (except at $\\beta = 1$ , where $\\Delta \\sigma _ { \\mathrm { x x } } ^ { \\prime } / { \\mathrm p } _ { s } = 0 )$ , indicating that in contrast to the immediate undrained response (Figure 5a),",
+          "excerpt_original_characters": 449,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.property.interplay",
+          "page": 15,
+          "section": "ACCEPTED MANUSCRIPT",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 341,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d",
+          "page": 51,
+          "section": null,
+          "figure": null,
+          "table": "Table 1",
+          "excerpt": "",
+          "excerpt_original_characters": 79,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1291,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "水库走滑孔弹性稳定机制背景无目标阈值",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 12,
+      "document_id": "claim:sha256:a8a8bea35a173f9bf94fe43af3b41fb636d929807c004a4261b003f2b829a5b5",
+      "paper_id": "paper:fb05bdf250be4130382e487f4bbe260850b9768bba8933b0f71d57c29c0d572b",
+      "snapshot_id": "snapshot:sha256:e894a59d8c89bdebd12661a3f520e89275da2f8c4b62dc16da95ea14a6b1414b",
+      "artifact_version_id": "artifact-version:sha256:fb05bdf250be4130382e487f4bbe260850b9768bba8933b0f71d57c29c0d572b",
+      "source_name": "10.1016_S0012-8252(03)00083-7.pdf",
+      "canonical_claim": "Under the paper’s simplified lateral-constraint model for the shallow crust, with lithostatic load as σ₁ in extensional regimes and no localized fluid overpressure, normal faults are more stable at shallow levels and preferentially rupture at greater depth, predicting upward rupture and early-aftershock migration.",
+      "original_claim": "Moving from location B to A, the differential stress decreases (Fig.",
+      "scope": {
+        "location": [],
+        "time": null,
+        "formation": [
+          "Extensional tectonic regimes"
+        ],
+        "sample_type": [
+          "Simplified isotropic-body model"
+        ],
+        "method": [
+          "Mohr diagrams with lateral-constraint stress distribution"
+        ],
+        "condition": [
+          "No localized fluid overpressure; approximately 0–20 km"
+        ],
+        "measurement": [
+          "Fault stability and rupture or early-aftershock propagation"
+        ],
+        "uncertainty": "Departures from assumptions can change behavior",
+        "entities": [
+          "Mohr circle",
+          "lithostatic load",
+          "normal faults"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.borah.reloc",
+          "page": 3,
+          "section": "2.1.2. The 1983 Borah Peak, ID, earthquake",
+          "figure": null,
+          "table": null,
+          "excerpt": "By means of a master-event technique, the mainshock was relocated at a depth of 14 km ca.",
+          "excerpt_original_characters": 89,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig.13",
+          "page": 19,
+          "section": null,
+          "figure": "Fig. 13",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model.ext.diff",
+          "page": 18,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "Moving from location B to A, the differential stress decreases (Fig.",
+          "excerpt_original_characters": 68,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model.ext.inst",
+          "page": 18,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "The decrease of $\\sigma _ { 1 }$ diminishes the Mohr circle making the fault plane more stable at shallower depth (Fig.",
+          "excerpt_original_characters": 119,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model.ext.pred",
+          "page": 18,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "As a consequence rupture is expected to occur, along normal faults, at deeper depths and early aftershocks are expected to propagate upwards, as observed in natural cases.",
+          "excerpt_original_characters": 171,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model.fig13.num",
+          "page": 19,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "13.",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model.fig13b",
+          "page": 19,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "(b) Sketch and Mohr diagram of the variation of $\\sigma _ { 1 }$ (vertical load) and $\\sigma _ { 3 }$ (horizontal load) along normal faults according to the ‘lateral constraint’ state of stress shown in Fig.",
+          "excerpt_original_characters": 207,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model.nofluid",
+          "page": 25,
+          "section": "6. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "This could determine, in absence of localised fluid overpressures, an increase of differential stress with depth in extensional regimes and a d",
+          "excerpt_original_characters": 176,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.model.principal",
+          "page": 18,
+          "section": "3.2. State of stress and earthquake nucleation depth",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 213,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1046,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "一般正断层模型背景未给F2阈值",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 13,
+      "document_id": "claim:sha256:45806e43e98ac5d1ec283d43090446657107f0fc3d3ea19fb9ff1a441068f2a4",
+      "paper_id": "paper:7589a2f4e8552ed2898b4cf9a8c234431ec1fbf1cceaaf8f4dda7b208f6a404e",
+      "snapshot_id": "snapshot:sha256:332d03f8eda03c880508ee575d118ef5d055f2d0337ce88c6e11e860fd001023",
+      "artifact_version_id": "artifact-version:sha256:7589a2f4e8552ed2898b4cf9a8c234431ec1fbf1cceaaf8f4dda7b208f6a404e",
+      "source_name": "10.1016_j.petrol.2008.05.001.pdf",
+      "canonical_claim": "For the illustrated complex faulted and eroded deep-gas reservoir, iterative pressure-error inversion of sub-seismic fault patterns produced a satisfactory match to measured shut-in bottom-hole pressure (SBHP) and flowing wellhead pressure (FWHP).",
+      "original_claim": "The final results led to a much more complex model with additional 65 sub-seismic faults.",
+      "scope": {
+        "condition": [
+          "History matching with seismic-interpreted and sub-seismic fault patterns"
+        ],
+        "entities": [
+          "compartments",
+          "field pressures (SBHP, FWHP)",
+          "sub-seismic faults"
+        ],
+        "formation": [
+          "Upper Devonian siliciclastic deposition"
+        ],
+        "location": [],
+        "measurement": [
+          "Field pressure response: SBHP and FWHP"
+        ],
+        "method": [
+          "Iterative hydrodynamic inversion of sub-seismic faults"
+        ],
+        "sample_type": [
+          "Complex faulted and eroded deep gas reservoir"
+        ],
+        "time": null,
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.additional_faults",
+          "page": 7,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "The final results led to a much more complex model with additional 65 sub-seismic faults.",
+          "excerpt_original_characters": 89,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.convergence",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "5 shows the convergence of pressure responses after each perturbation of the fault network.",
+          "excerpt_original_characters": 91,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.drilling",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "This approach was further corroborated by the recent horizontal drilling that reported the existence of sub-seismic discontinuities with fault characteristics being intercepted.",
+          "excerpt_original_characters": 177,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.error_distance",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "Once the pressure response is obtained from the flow simulator with the new fault pattern, the pressure error is correlated to the compartment size to estimate a perturbation on the average distance between fault and wells.",
+          "excerpt_original_characters": 223,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.error_zero",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "The convergence is observed as the error goes to zero.",
+          "excerpt_original_characters": 54,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.failed_adjustment",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "Reducing the permeability and porosity to account for the trivial consideration of over-estimated reservoir connectivity did not resolve the history match issues, and",
+          "excerpt_original_characters": 206,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.fault_perturbation",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 127,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.figure.5",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": "Fig. 5",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 257,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.figure.6",
+          "page": 7,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": "Fig. 6",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.final_match",
+          "page": 5,
+          "section": "4.3. Forward flow modeling",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 154,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.initial_mismatch",
+          "page": 5,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 259,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.pattern_update",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 58,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.pore_volume",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 115,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.size_choice",
+          "page": 6,
+          "section": "4.4. Results of the inverse modeling of faults",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 91,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1901,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "气藏井压历史匹配非F2最大孔压",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 14,
+      "document_id": "claim:sha256:4ba5b60bbf4e93e0854adc6a2c6c3b31bca618c2ae0b8b7dea6a488b3a8bdb8f",
+      "paper_id": "paper:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+      "snapshot_id": "snapshot:sha256:9e4cabc7fc47f31b39e747dda60145faf71094bc8fb7a3744cc5631f6580680f",
+      "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+      "source_name": "10.1016_j.tecto.2018.06.004.pdf",
+      "canonical_claim": "For modeled strike-slip faults, increasing the water level followed by pore-pressure diffusion shortens the earthquake recurrence interval.",
+      "original_claim": "Figure 2",
+      "scope": {
+        "condition": [
+          "water-level increase followed by pore-pressure diffusion"
+        ],
+        "entities": [
+          "Mohr circle",
+          "earthquake recurrence interval",
+          "failure envelope",
+          "pore pressure",
+          "water level"
+        ],
+        "formation": [
+          "strike-slip faulting"
+        ],
+        "location": [
+          "strike-slip fault beneath a lake or reservoir"
+        ],
+        "measurement": [
+          "earthquake recurrence interval"
+        ],
+        "method": [
+          "Mohr-Coulomb failure model"
+        ],
+        "sample_type": [
+          "modeled fault"
+        ],
+        "time": {
+          "end": null,
+          "label": "post-diffusion stage",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "t_diff << t_RI"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.5b",
+          "page": 56,
+          "section": null,
+          "figure": "Figure 5",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.figure.2",
+          "page": 53,
+          "section": null,
+          "figure": "Figure 2",
+          "table": null,
+          "excerpt": "Figure 2",
+          "excerpt_original_characters": 8,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.eq12",
+          "page": 20,
+          "section": "4.2.2. Recurrence interval under the strike-slip faulting with the increase in the water level",
+          "figure": null,
+          "table": null,
+          "excerpt": "\\begin{array} { r } { t _ { R I } ^ { w } = \\Delta t = \\left( \\mathrm { C } + \\tan ( \\varphi ) \\Delta \\sigma ^ { \\prime } \\right) \\frac { t _ { R I } } { \\mathrm { C } } } \\end{array}\\tag{12}",
+          "excerpt_original_characters": 191,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.failure",
+          "page": 19,
+          "section": "4.2.2. Recurrence interval under the strike-slip faulting with the increase in the water level",
+          "figure": null,
+          "table": null,
+          "excerpt": "For the calculated tectonic shear stresses, $\\Delta \\tau _ { x y } = \\Delta t \\Delta { \\dot { \\tau } _ { x y } } ,$ , and effective water-level-induced horizontal normal stress change, $\\Delta \\sigma ^ { \\prime }$ , the failure occurs when the growing (blue) Mohr circle centered at $\\sigma _ { 0 } + \\Delta \\sigma ^ { \\prime }$ reaches the failure envelope (Figure 6b).",
+          "excerpt_original_characters": 370,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.interval.reduced",
+          "page": 20,
+          "section": "4.2.2. Recurrence interval under the strike-slip faulting with the increase in the water level",
+          "figure": null,
+          "table": null,
+          "excerpt": "where $t _ { R I } ^ { w }$ is the new recurrence interval, reduced compared to the former one, $t _ { R I }$ , due to the water level increase.",
+          "excerpt_original_characters": 144,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.model.caption.a",
+          "page": 48,
+          "section": "ACCEPTED MANUSCRIPT",
+          "figure": null,
+          "table": null,
+          "excerpt": "Figure 2: (a) A step-function water load, $\\sigma _ { w } ,$ applied on a top boundary ",
+          "excerpt_original_characters": 104,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.model.method",
+          "page": 8,
+          "section": "3. Methods",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 219,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.mohr.shift",
+          "page": 19,
+          "section": "4.2.2. Recurrence interval under the strike-slip faulting with the increase in the water level",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 413,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1449,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "水位扩散地震复发机制未给F2阈值",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 15,
+      "document_id": "claim:sha256:d7c3117d077b57b00a8f83ab33433fe1032fd33fc7534fa5ed42e3e3db2848ae",
+      "paper_id": "paper:5125106f1149f2ae9ef3431bcc8771d8b7ba4cd500765e42b5a5c708e97ba05e",
+      "snapshot_id": "snapshot:sha256:ed789e6ffd40142c38be664148f80ae87ffc93e3460d8c1df93c1232b6fea4f9",
+      "artifact_version_id": "artifact-version:sha256:5125106f1149f2ae9ef3431bcc8771d8b7ba4cd500765e42b5a5c708e97ba05e",
+      "source_name": "10.1016_j.gete.2015.04.001.pdf",
+      "canonical_claim": "For the two vertical Iranian case-study wells, Mogi–Coulomb is the more appropriate of the three failure criteria for wellbore stability because its minimum allowable drilling mud pressure most closely matches the actual drilling pressure.",
+      "original_claim": "It can be found that numerical and analytical results using FLAC, Mohr–Coulomb (MC) and Hoek–Brown (HB) overestimate the $P _ { \\mathrm { { w m i n } } }$ obtained from field data (actual drilling mud pressure).",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "Hoek–Brown",
+          "Mogi–Coulomb",
+          "Mohr–Coulomb",
+          "actual drilling mud pressure",
+          "well 32",
+          "well 54"
+        ],
+        "formation": [
+          "limestone"
+        ],
+        "location": [
+          "two Iranian oilfields"
+        ],
+        "measurement": [
+          "minimum and maximum allowable drilling mud pressure"
+        ],
+        "method": [
+          "analytical and numerical wellbore stability analysis"
+        ],
+        "sample_type": [
+          "two vertical wellbores"
+        ],
+        "time": null,
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.4",
+          "page": 1,
+          "section": "a b s t r a c t",
+          "figure": null,
+          "table": null,
+          "excerpt": "It is shown that the minimum allowable drilling mud pressure obtained from the Mogi–Coulomb criterion is close to actual data collected during drilling operation.",
+          "excerpt_original_characters": 162,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.1",
+          "page": 5,
+          "section": "7.2. Results",
+          "figure": null,
+          "table": null,
+          "excerpt": "It can be found that numerical and analytical results using FLAC, Mohr–Coulomb (MC) and Hoek–Brown (HB) overestimate the $P _ { \\mathrm { { w m i n } } }$ obtained from field data (actual drilling mud pressure).",
+          "excerpt_original_characters": 211,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.2",
+          "page": 5,
+          "section": "7.2. Results",
+          "figure": null,
+          "table": null,
+          "excerpt": "The Mogi–Coulomb (MG) criterion shows realistic result in this case.",
+          "excerpt_original_characters": 68,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.3",
+          "page": 5,
+          "section": "7.2. Results",
+          "figure": null,
+          "table": null,
+          "excerpt": "The actual drilling mud pressures during drilling in well 32 and 54 were 6.8 MPa and 25 MPa, respectively.",
+          "excerpt_original_characters": 106,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.5",
+          "page": 5,
+          "section": "7.2. Results",
+          "figure": null,
+          "table": null,
+          "excerpt": "This fact confirms that the Mogi–Coulomb has estimated a more realistic drilling mud window rather than the other two criteria.",
+          "excerpt_original_characters": 127,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.6",
+          "page": 1,
+          "section": "a b s t r a c t",
+          "figure": null,
+          "table": null,
+          "excerpt": "Hence, this criterion is considered more appropriate for wellbore stability analysis than the other two criteria.",
+          "excerpt_original_characters": 113,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 787,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "钻井泥浆压力判据非断层最大孔压",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 16,
+      "document_id": "claim:sha256:e4666180b331d55287579b920bfb2a88a49aacd71aca63f7340b1de5aff0bbbb",
+      "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+      "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "source_name": "10.1007_s12182-019-0331-9.pdf",
+      "canonical_claim": "For EOR and geosequestration injection planning in this part of the Gachsaran field, the NW side of F2 is the preferred location for a new injection well because it is associated with the lower modeled reactivation risk.",
+      "original_claim": "On the other hand, F2 is the most stable fault, because it has the lowest $T _ { \\mathrm { s } }$ and $T _ { \\mathrm { s m } }$ and can undergo an average maximum pore pressure of 55–57 MPa.",
+      "scope": {
+        "condition": [
+          "EOR and geosequestration injection planning"
+        ],
+        "entities": [
+          "Asmari reservoir",
+          "Gachsaran oilfield",
+          "NW side of F2"
+        ],
+        "formation": [
+          "Asmari reservoir"
+        ],
+        "location": [
+          "Gachsaran oilfield, SW Iran"
+        ],
+        "measurement": [
+          "injection-well location"
+        ],
+        "method": [
+          "fault-stability analysis"
+        ],
+        "sample_type": [
+          "injection site near F2"
+        ],
+        "time": null,
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.recommendation",
+          "page": 13,
+          "section": "8 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "According to the results, the best location for an injection well in EOR and geosequestration activities will be the NW side of F2.",
+          "excerpt_original_characters": 131,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.f2.stability",
+          "page": 11,
+          "section": "6 Slip tendency parameter",
+          "figure": null,
+          "table": null,
+          "excerpt": "On the other hand, F2 is the most stable fault, because it has the lowest $T _ { \\mathrm { s } }$ and $T _ { \\mathrm { s m } }$ and can undergo an average maximum pore pressure of 55–57 MPa.",
+          "excerpt_original_characters": 190,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 321,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 2,
+        "scope_error": false,
+        "rationale": "原文F2最稳定及55至57MPa正确，未明确三方法一致",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 17,
+      "document_id": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+      "paper_id": "paper:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+      "snapshot_id": "snapshot:sha256:1116bfdeeb1a66370dc3107b965e5cd3b6b09158ce3e49eef26b89730c0c8921",
+      "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+      "source_name": "10.1016_j.marpetgeo.2013.10.004.pdf",
+      "canonical_claim": "Critically stressed open fractures do not play a major role in Khuff reservoir performance under the studied reservoir conditions.",
+      "original_claim": "Figure 25. Illustrated examples of the analysis of stress criticality of the observed natural fractures in six of the vertical key wells (referred to as 1, 2, 3, 4, 5, and 6) in the Khuff of the study area. (A) Mohr diagrams compared with the Mohr-Coulomb shear failure envelopes and polar plots (lower hemisphere equal area projection of lines perpendicular to fracture planes) for each of the wells 1 to 6. The polar plot is color coded according to the Coulomb failure function to show how close a particular fracture is to shear failure under the reservoir stress conditions. Shear slip requires the function to be greater than zero, which means the applied shear stress on the fracture is greater than needed for shear slip. (B) Tadpole plots of all the fractures versus total vertical depth TVD in ft for each of the wells 1 to 6. The fractures in the plots are color coded according to the stress status: white (in the polar plot and Mohr diagram) and red (in the tadpole plots): predicted critically stressed fractures, black: stable fractures, green: fractures perpendicular to the minimum stress and are potentially affected by dilation. Under reservoir conditions the fractures are not critically stressed. In order to reach stress criticality we have to assume zero cohesion, as illustrated in one of the key wells (well 6) or increase the pore pressure significantly. Reduction of the cohesion to zero in well 6 would only induce stress criticality in $5 . 5 \\%$ of the fractures in this well. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.) ",
+      "scope": {
+        "condition": [
+          "Reservoir conditions where specified"
+        ],
+        "entities": [
+          "Khuff reservoir",
+          "anhydrite seals",
+          "maximum horizontal in-situ stress",
+          "minimum horizontal in-situ stress",
+          "system 1 fractures",
+          "system 2 fractures"
+        ],
+        "formation": [
+          "Permian–Triassic Khuff Formation"
+        ],
+        "location": [
+          "Eastern Province, offshore Arabian Gulf, Saudi Arabia; regional comparisons extend to central onshore Saudi Arabia and the Zagros vicinity"
+        ],
+        "measurement": [
+          "Natural fracture patterns, in-situ stress, fracture permeability/productivity, and reservoir pressure profiles"
+        ],
+        "method": [
+          "Borehole image logs, oriented cores, seismic data, geomechanical analyses, and dynamic reservoir observations"
+        ],
+        "sample_type": [
+          "Nine offshore periclinal structural traps"
+        ],
+        "time": null,
+        "uncertainty": "Stress assessment has an approximately 10% margin of error"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.25",
+          "page": 17,
+          "section": "7.1. Fracture aperture enhancement",
+          "figure": "Figure 25",
+          "table": null,
+          "excerpt": "Figure 25. Illustrated examples of the analysis of stress criticality of the observed natural fractures in six of the vertical key wells (referred to as 1, 2, 3, 4, 5, and 6) in the Khuff of the study area. (A) Mohr diagrams compared with the Mohr-Coulomb shear failure envelopes and polar plots (lower hemisphere equal area projection of lines perpendicular to fracture planes) for each of the wells 1 to 6. The polar plot is color coded according to the Coulomb failure function to show how close a particular fracture is to shear failure under the reservoir stress conditions. Shear slip requires the function to be greater than zero, which means the applied shear stress on the fracture is greater than needed for shear slip. (B) Tadpole plots of all the fractures versus total vertical depth TVD",
+          "excerpt_original_characters": 1638,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.no_borehole_shear",
+          "page": 16,
+          "section": "7.1. Fracture aperture enhancement",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 210,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.not_critical",
+          "page": 16,
+          "section": "7.1. Fracture aperture enhancement",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 147,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1995,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Khuff裂缝渗流非F2阈值",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 18,
+      "document_id": "claim:sha256:5384a03db5e97e2743a891f1b4cd991a5545cd18694c00e560244569864fc26f",
+      "paper_id": "paper:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+      "snapshot_id": "snapshot:sha256:1116bfdeeb1a66370dc3107b965e5cd3b6b09158ce3e49eef26b89730c0c8921",
+      "artifact_version_id": "artifact-version:sha256:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+      "source_name": "10.1016_j.marpetgeo.2013.10.004.pdf",
+      "canonical_claim": "The studied Khuff reservoir units lack current vertical communication through seal-breaching faults; fracture-enhanced flow is confined by mechanical layering and anhydrite seals.",
+      "original_claim": "Figure 23. Typical example of well flow profile in one of the key wells illustrating how preproduction normal pressure gradient “profile” across the Khuff B, C, and D changes once production commences and the production and the pressure become heterogeneous. ",
+      "scope": {
+        "location": [
+          "Eastern Province, offshore Arabian Gulf, Saudi Arabia; regional comparisons extend to central onshore Saudi Arabia and the Zagros vicinity"
+        ],
+        "time": null,
+        "formation": [
+          "Permian–Triassic Khuff Formation"
+        ],
+        "sample_type": [
+          "Nine offshore periclinal structural traps"
+        ],
+        "method": [
+          "Borehole image logs, oriented cores, seismic data, geomechanical analyses, and dynamic reservoir observations"
+        ],
+        "condition": [
+          "Reservoir conditions where specified"
+        ],
+        "measurement": [
+          "Natural fracture patterns, in-situ stress, fracture permeability/productivity, and reservoir pressure profiles"
+        ],
+        "uncertainty": "Stress assessment has an approximately 10% margin of error",
+        "entities": [
+          "Khuff reservoir",
+          "anhydrite seals",
+          "maximum horizontal in-situ stress",
+          "minimum horizontal in-situ stress",
+          "system 1 fractures",
+          "system 2 fractures"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.23",
+          "page": 15,
+          "section": "7.1. Fracture aperture enhancement",
+          "figure": "Figure 23",
+          "table": null,
+          "excerpt": "Figure 23. Typical example of well flow profile in one of the key wells illustrating how preproduction normal pressure gradient “profile” across the Khuff B, C, and D changes once production commences and the production and the pressure become heterogeneous. ",
+          "excerpt_original_characters": 259,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.losses_confined",
+          "page": 13,
+          "section": "6.1. Impact on porosity, permeability, and productivity",
+          "figure": null,
+          "table": null,
+          "excerpt": "All the observed losses are vertically constrained within individual zones consisting of one or a few layers.",
+          "excerpt_original_characters": 109,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.losses_no_seal_crossing",
+          "page": 13,
+          "section": "6.1. Impact on porosity, permeability, and productivity",
+          "figure": null,
+          "table": null,
+          "excerpt": "None of the losses continued across the different anhydrite seals separating the different reservoir units.",
+          "excerpt_original_characters": 107,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.postproduction_profiles",
+          "page": 13,
+          "section": "6.1. Impact on porosity, permeability, and productivity",
+          "figure": null,
+          "table": null,
+          "excerpt": "However, when production commences in each well the pressure profile changes and becomes heterogeneous across the different seal units (Fig.",
+          "excerpt_original_characters": 140,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.preproduction_similarity",
+          "page": 13,
+          "section": "6.1. Impact on porosity, permeability, and productivity",
+          "figure": null,
+          "table": null,
+          "excerpt": "Pre-Production and Post-Production Pressure and Flow Profile: In the studied structural traps, the different reservoir units in exploration wells show similar preproduction pressure pro",
+          "excerpt_original_characters": 216,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.production_rates",
+          "page": 13,
+          "section": "6.1. Impact on porosity, permeability, and productivity",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 94,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:e92d9c62efa12786b86a16fde043e6288cca290d221936263ab61392c99ea64a",
+          "page": 15,
+          "section": null,
+          "figure": "Figure 21",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 507,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1432,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Khuff垂向连通性非F2阈值",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 19,
+      "document_id": "claim:sha256:59ff8db056e1697e771e7b5884ed7ba53890ed95d95ed58517e068fb035f3755",
+      "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+      "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "source_name": "10.1007_s12182-019-0331-9.pdf",
+      "canonical_claim": "Under the present-day stress state and pore pressure modeled for the Gachsaran oilfield, all four analyzed Asmari-reservoir faults (F1–F4) are stable and not critically stressed.",
+      "original_claim": "10 shows, none of the faults is critically stressed in the current stress feld.",
+      "scope": {
+        "condition": [
+          "current stress state and pore pressure"
+        ],
+        "entities": [
+          "Asmari reservoir",
+          "F1",
+          "F2",
+          "F3",
+          "F4",
+          "Gachsaran oilfield"
+        ],
+        "formation": [
+          "Asmari reservoir"
+        ],
+        "location": [
+          "Gachsaran oilfield, SW Iran"
+        ],
+        "measurement": [
+          "fault stability"
+        ],
+        "method": [
+          "3D Mohr diagrams and stress polygons"
+        ],
+        "sample_type": [
+          "four faults F1, F2, F3, and F4"
+        ],
+        "time": {
+          "end": null,
+          "label": "present-day",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.mohr.result",
+          "page": 9,
+          "section": "5 Three‑dimensional Mohr diagrams",
+          "figure": null,
+          "table": null,
+          "excerpt": "10 shows, none of the faults is critically stressed in the current stress feld.",
+          "excerpt_original_characters": 79,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.polygon.current",
+          "page": 12,
+          "section": "7 Stress polygon",
+          "figure": null,
+          "table": null,
+          "excerpt": "13 shows, all the faults are inactive at the present stress state, and the estimated horizontal stresses fall within the normal faulting triangle (triangle with solid lines).",
+          "excerpt_original_characters": 174,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107",
+          "page": 12,
+          "section": null,
+          "figure": "Figure 13",
+          "table": null,
+          "excerpt": "Fig. 13 Stress polygons plotted for the four faults. Three triangles NF, SS, and RF represent the normal, strike-slip and reverse faulting regimes, respectively. The blue solid lines represent the current stress feld and pore pressure. Black dashed lines represent the stress feld in critical pore pressure obtained by 3D Mohr diagrams. Circle and diamond shaped points represent the NISOC and Seyed Sajadi and Aghighi (2015) equations for obtaining elastic moduli used for estimating the horizontal stresses magnitudes",
+          "excerpt_original_characters": 519,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9",
+          "page": 10,
+          "section": null,
+          "figure": "Figure 10",
+          "table": null,
+          "excerpt": "Fig. 10 3D Mohr diagrams of ",
+          "excerpt_original_characters": 217,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 989,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同研究当前稳定状态背景，未给F2注气极限或三方法最稳定比较",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 20,
+      "document_id": "claim:sha256:ede02337e36f8fb0db251eeda3b7152fc3aceb00b3090bab425a81fc7587120a",
+      "paper_id": "paper:27d226b0030ac25f2ceac9fcca3ccb50bd0d0f87c592a5db093409254cd0e931",
+      "snapshot_id": "snapshot:sha256:396c22f137b1d3ecc7affba43e1594004aa11a28f31b3c2b037f84c144ad582a",
+      "artifact_version_id": "artifact-version:sha256:27d226b0030ac25f2ceac9fcca3ccb50bd0d0f87c592a5db093409254cd0e931",
+      "source_name": "10.1016_S1876-3804(18)30075-2.pdf",
+      "canonical_claim": "生产井的压差控制界限取决于储层渗透率：渗透率大于或等于20×10⁻³ μm²的碳酸盐岩油藏，单井总体生产压差需控制在4 MPa以下；渗透率小于20×10⁻³ μm²的油藏可适当放大压差以保证产能，控制在7 MPa以下。",
+      "original_claim": "Fig. 10. Comparison of pressure drawdown of wells in carbonate reservoirs with different reservoir qualities in the Middle East.",
+      "scope": {
+        "condition": [
+          "无水与低含水开发阶段"
+        ],
+        "entities": [
+          "中东碳酸盐岩油藏",
+          "开发单元划分",
+          "注水井网与井距",
+          "注采比（voidage replacement ratio）",
+          "生产压差",
+          "隔夹层（barriers and baffles）"
+        ],
+        "formation": [
+          "中生代白垩系与侏罗系碳酸盐岩储层（如Mishrif、Khasib、Sarvark、Shuaiba、Daleel）"
+        ],
+        "location": [
+          "中东（伊拉克、伊朗、阿曼等）"
+        ],
+        "measurement": [
+          "采收率、含水率、生产压差、注采比、井距"
+        ],
+        "method": [
+          "注水开发（边缘注水、顶部注气+边缘注水、底部注水顶部采油、面状井网注水）"
+        ],
+        "sample_type": [
+          "碳酸盐岩油藏与注水开发油田"
+        ],
+        "time": null,
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.10",
+          "page": 11,
+          "section": "4. Water flooding development strategies",
+          "figure": "Fig. 10",
+          "table": null,
+          "excerpt": "Fig. 10. Comparison of pressure drawdown of wells in carbonate reservoirs with different reservoir qualities in the Middle East.",
+          "excerpt_original_characters": 128,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.35",
+          "page": 10,
+          "section": "4. Water flooding development strategies",
+          "figure": null,
+          "table": null,
+          "excerpt": "10), it is found that for the carbonate reservoirs with a permeability greater than or equal to 20 × $1 0 ^ { - 3 } \\mathrm { \\ : \\mu m } ^ { 2 }$ , the overall single-well pressure drawdown needs to be controlled below 4 MPa.",
+          "excerpt_original_characters": 226,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.36",
+          "page": 10,
+          "section": "4. Water flooding development strategies",
+          "figure": null,
+          "table": null,
+          "excerpt": "For carbonate reservoirs with a permeability less than $2 0 \\times 1 0 ^ { - 3 } ~ \\mu \\mathrm { m } ^ { 2 }$ , the pressure drawdown needs to be increased appropriately so as to ensure a certain production capacity, which can be controlled below 7 MPa.",
+          "excerpt_original_characters": 253,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 607,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "生产压差界限非断层孔压极限",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 21,
+      "document_id": "claim:sha256:d520fcba5c0bf7cb5865d9cd2487f3142ccb6f575be29146b00edf65a07f5e29",
+      "paper_id": "paper:a28dd0d06db20b8b80c3ad4f44888cb55c60b0dc1b8f003efa43c7486b0f38f1",
+      "snapshot_id": "snapshot:sha256:c4866cb684cae4751aebf1e75a962e6911e6d43e84a3d75e480f2e31dcad1ce6",
+      "artifact_version_id": "artifact-version:sha256:a28dd0d06db20b8b80c3ad4f44888cb55c60b0dc1b8f003efa43c7486b0f38f1",
+      "source_name": "10.1016_j.rgg.2012.12.006.pdf",
+      "canonical_claim": "The pressure state associated with petroleum emplacement at Kuh-e Mond is uncertain: the abstract describes a hydrostatically pressured reservoir, whereas the vein-calcite discussion suggests pressure may have been above hydrostatic.",
+      "original_claim": "They also suggest that pressures may have been above hydrostatic (Munz, 2001).",
+      "scope": {
+        "location": [
+          "Kuh-e Mond Oilfield, Zagros Basin, Iran"
+        ],
+        "time": null,
+        "formation": [
+          "Asmari Formation"
+        ],
+        "sample_type": [
+          "Reservoir and vein-filling fluid inclusions"
+        ],
+        "method": [
+          "Fluid-inclusion microthermometry and interpretation"
+        ],
+        "condition": [
+          "Reservoir filling and vein-filling calcite are discussed separately"
+        ],
+        "measurement": [
+          "Inferred pressure relative to hydrostatic"
+        ],
+        "uncertainty": "Hydrostatic and above-hydrostatic interpretations both occur",
+        "entities": [
+          "pressure",
+          "reservoir petroleum",
+          "vein-filling calcite"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.above_hydrostatic",
+          "page": 15,
+          "section": "Discussions and interpretation of fluid inclusion data",
+          "figure": null,
+          "table": null,
+          "excerpt": "They also suggest that pressures may have been above hydrostatic (Munz, 2001).",
+          "excerpt_original_characters": 78,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.hydrostatic_pressure",
+          "page": 1,
+          "section": "Abstract",
+          "figure": null,
+          "table": null,
+          "excerpt": "The microthermometry data on the petroleum fluid inclusions suggest that the reservoir was filled with heavy black oils and high-salinity waters and indicate that undersaturated oil was present in a hydrostatically pressured reservoir.",
+          "excerpt_original_characters": 235,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 313,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Kuh-eMond成藏压力状态非F2阈值",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 22,
+      "document_id": "claim:sha256:5cdf009af0609c94a6604fa7b05be71fcabcf052c6b0e95ff0c98e1bc99b4d46",
+      "paper_id": "paper:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+      "snapshot_id": "snapshot:sha256:9e4cabc7fc47f31b39e747dda60145faf71094bc8fb7a3744cc5631f6580680f",
+      "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+      "source_name": "10.1016_j.tecto.2018.06.004.pdf",
+      "canonical_claim": "In the modeled fault system beneath a large lake or reservoir, a water-level increase can produce either positive or negative effective horizontal normal stress changes during the immediate undrained response; the sign depends on Poisson’s ratio and the Biot-Willis coefficient.",
+      "original_claim": "Figure 2",
+      "scope": {
+        "location": [
+          "fault beneath a lake or reservoir"
+        ],
+        "time": {
+          "label": "immediate undrained response",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "strike-slip faulting"
+        ],
+        "sample_type": [
+          "modeled fault"
+        ],
+        "method": [
+          "poroelastic model"
+        ],
+        "condition": [
+          "water-level increase"
+        ],
+        "measurement": [
+          "effective horizontal normal stress change"
+        ],
+        "uncertainty": "modeled poroelastic parameter ranges",
+        "entities": [
+          "Biot-Willis coefficient",
+          "Poisson’s ratio",
+          "effective horizontal normal stress",
+          "fault stability",
+          "water level"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.5a",
+          "page": 56,
+          "section": null,
+          "figure": "Figure 5",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.figure.2",
+          "page": 53,
+          "section": null,
+          "figure": "Figure 2",
+          "table": null,
+          "excerpt": "Figure 2",
+          "excerpt_original_characters": 8,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.immediate.negative",
+          "page": 15,
+          "section": "ACCEPTED MANUSCRIPT",
+          "figure": null,
+          "table": null,
+          "excerpt": "In the former case (Figure 5a), $\\Delta \\sigma _ { \\mathrm { x x } } ^ { \\prime } / \\ p _ { s }$ , is negative for the full range of variability in $\\beta$ and small values of $\\nu ,$ meaning that compressive horizontal stresses induced by the water loading do not compensate for the increase in pore pressure.",
+          "excerpt_original_characters": 310,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.immediate.positive",
+          "page": 15,
+          "section": "ACCEPTED MANUSCRIPT",
+          "figure": null,
+          "table": null,
+          "excerpt": "In contrast, for the larger values of , positive $\\Delta \\sigma _ { \\mathrm { x x } } ^ { \\prime } / \\ p _ { s }$ are observed (Figure 5a), which increases the stability of the fault.",
+          "excerpt_original_characters": 183,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.model.caption.a",
+          "page": 48,
+          "section": "ACCEPTED MANUSCRIPT",
+          "figure": null,
+          "table": null,
+          "excerpt": "Figure 2: (a) A step-function water load, $\\sigma _ { w } ,$ applied on a top boundary of the structure.",
+          "excerpt_original_characters": 104,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.property.interplay",
+          "page": 15,
+          "section": "ACCEPTED MANUSCRIPT",
+          "figure": null,
+          "table": null,
+          "excerpt": "This analysis demonstrates that a certain combination of poroelastic fault properties, $\\beta$ or $\\gamma ,$ and of the elastic Poisson’s ratio, , may produce different effective stress change, $",
+          "excerpt_original_characters": 341,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d",
+          "page": 51,
+          "section": null,
+          "figure": null,
+          "table": "Table 1",
+          "excerpt": "",
+          "excerpt_original_characters": 79,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1025,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "一般水库孔弹性响应背景无F2最大孔压",
+        "source_label_file": "judgments_q16_q50.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    }
+  ]
+}

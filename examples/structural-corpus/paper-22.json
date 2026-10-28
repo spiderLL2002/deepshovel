@@ -1,0 +1,1176 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+  "snapshot_id": "snapshot:sha256:0077fd94a383b5458d0b0583cafa29115d2c64d15f7bb2979ae6d505d9d5625e",
+  "original_graph_json_sha256": "0077fd94a383b5458d0b0583cafa29115d2c64d15f7bb2979ae6d505d9d5625e",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:17bd6338-20e8-4a43-b2f9-aeba7fc7fca8",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:17bd6338-20e8-4a43-b2f9-aeba7fc7fca8",
+        "sha256": "e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "a.carbon.conclusion",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "a.epigenetic",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.eu.interpretation",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "a.eu.results",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.fe.conclusion",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "a.fe.leach",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.fe.possible",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.fi.corr",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.fi.leak",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.fi.leakend",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.fi.nacl",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.fi.salmost",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.fi.salrange",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.fi.temp",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.fi.trend",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.fig11",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "a.fig4",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.fig9",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "a.fluid.conclusion1",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "a.fluid.conclusion2",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "a.hypogene",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.iso.alteration",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "a.iso.c",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.iso.figref1",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "a.iso.figref2",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "a.iso.o",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.lree.acid",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "a.remnant",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.repl1",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.repl2",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.super.conclusion",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "a.super.meteoric",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.super.oxidation",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.super.products",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.super.texture",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.super.water",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.table4",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "a.table5",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "a.ti.content",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.v.content",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.vein",
+        "artifact_version_id": "artifact-version:sha256:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "o.acidic_lree_leaching",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.lree.acid"
+        ]
+      },
+      {
+        "id": "o.calcite_carbon_isotopes",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.iso.c",
+          "a.table5"
+        ]
+      },
+      {
+        "id": "o.calcite_oxygen_isotopes",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.iso.o",
+          "a.table5"
+        ]
+      },
+      {
+        "id": "o.common_salinity",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fi.nacl",
+          "a.fi.salmost"
+        ]
+      },
+      {
+        "id": "o.descending_water",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.super.water"
+        ]
+      },
+      {
+        "id": "o.eu_anomalies",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.eu.results"
+        ]
+      },
+      {
+        "id": "o.eu_redox_association",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.eu.interpretation"
+        ]
+      },
+      {
+        "id": "o.hypogene_replacement",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.epigenetic",
+          "a.hypogene"
+        ]
+      },
+      {
+        "id": "o.inclusion_salinity_range",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fi.salrange",
+          "a.table4"
+        ]
+      },
+      {
+        "id": "o.inclusion_temperature",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fi.temp"
+        ]
+      },
+      {
+        "id": "o.isotope_modification",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig11",
+          "a.iso.alteration"
+        ]
+      },
+      {
+        "id": "o.isotope_plot",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig11",
+          "a.iso.figref1",
+          "a.iso.figref2"
+        ]
+      },
+      {
+        "id": "o.meteoric_model",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.super.meteoric"
+        ]
+      },
+      {
+        "id": "o.oxidized_ores",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.super.oxidation"
+        ]
+      },
+      {
+        "id": "o.possible_magmatic_source",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fe.possible"
+        ]
+      },
+      {
+        "id": "o.proposed_fe_leaching",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fe.leach"
+        ]
+      },
+      {
+        "id": "o.replacement_texture",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig4",
+          "a.repl1",
+          "a.repl2"
+        ]
+      },
+      {
+        "id": "o.salinity_temperature_pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fi.corr",
+          "a.fi.leak",
+          "a.fi.leakend",
+          "a.fi.trend",
+          "a.fig9"
+        ]
+      },
+      {
+        "id": "o.supergene_products",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.super.products",
+          "a.super.texture"
+        ]
+      },
+      {
+        "id": "o.titanium",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.ti.content"
+        ]
+      },
+      {
+        "id": "o.vanadium",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.v.content"
+        ]
+      },
+      {
+        "id": "o.vein_assemblage",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.remnant",
+          "a.vein"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "r.carbonate_source",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.fig11",
+          "a.iso.alteration",
+          "a.iso.c",
+          "a.iso.figref1",
+          "a.iso.figref2",
+          "a.iso.o",
+          "a.table5"
+        ]
+      },
+      {
+        "id": "r.fluid_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.fluid.conclusion1",
+          "a.fluid.conclusion2"
+        ]
+      },
+      {
+        "id": "r.inclusion_constraints",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.fi.corr",
+          "a.fi.leak",
+          "a.fi.nacl",
+          "a.fi.salmost",
+          "a.fi.salrange",
+          "a.fi.temp",
+          "a.fi.trend",
+          "a.fig9",
+          "a.table4"
+        ]
+      },
+      {
+        "id": "r.iron_source",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.fe.leach",
+          "a.fe.possible",
+          "a.ti.content",
+          "a.v.content"
+        ]
+      },
+      {
+        "id": "r.ree_conditions",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.eu.interpretation",
+          "a.eu.results",
+          "a.lree.acid"
+        ]
+      },
+      {
+        "id": "r.replacement",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.epigenetic",
+          "a.fig4",
+          "a.hypogene",
+          "a.remnant",
+          "a.repl1",
+          "a.repl2",
+          "a.vein"
+        ]
+      },
+      {
+        "id": "r.supergene_sequence",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.super.meteoric",
+          "a.super.oxidation",
+          "a.super.products",
+          "a.super.texture",
+          "a.super.water"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:140f822ea6e2ccb9f9165ec6427f5ce547ffac333dee8c338550d26f7f48cac7",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.eu.interpretation",
+          "a.eu.results",
+          "a.fi.corr",
+          "a.fi.leak",
+          "a.fi.leakend",
+          "a.fi.nacl",
+          "a.fi.salmost",
+          "a.fi.salrange",
+          "a.fi.temp",
+          "a.fi.trend",
+          "a.fig9",
+          "a.fluid.conclusion1",
+          "a.fluid.conclusion2",
+          "a.lree.acid",
+          "a.table4"
+        ],
+        "source_id": "claim.fluid_conditions"
+      },
+      {
+        "id": "claim:sha256:1bb7fa9e819db343fc74fea8504eedb6aefe46ec769f78f54a7a4274410482b1",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.epigenetic",
+          "a.fig4",
+          "a.hypogene",
+          "a.remnant",
+          "a.repl1",
+          "a.repl2",
+          "a.vein"
+        ],
+        "source_id": "claim.replacement"
+      },
+      {
+        "id": "claim:sha256:5d9b2cdd8c63435fbb8ee01731a9ba2360d320732c6435a8823741320f122a13",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.super.conclusion",
+          "a.super.meteoric",
+          "a.super.oxidation",
+          "a.super.products",
+          "a.super.texture",
+          "a.super.water"
+        ],
+        "source_id": "claim.supergene_overprint"
+      },
+      {
+        "id": "claim:sha256:87619f810bac79b17e71b28d0bee14f09aaafb5e8b7d6f594a2c4453140e6873",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.carbon.conclusion",
+          "a.fig11",
+          "a.iso.alteration",
+          "a.iso.c",
+          "a.iso.figref1",
+          "a.iso.figref2",
+          "a.iso.o",
+          "a.table5"
+        ],
+        "source_id": "claim.carbonate_source"
+      },
+      {
+        "id": "claim:sha256:b519f2adaf253593813bf7cb4be462576a8e1895f28ae1b49c09f407e96201a9",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.fe.conclusion",
+          "a.fe.leach",
+          "a.fe.possible",
+          "a.ti.content",
+          "a.v.content"
+        ],
+        "source_id": "claim.iron_source"
+      }
+    ],
+    "visual_evidence": [
+      {
+        "id": "visual.table5",
+        "kind": "structured_visual_evidence"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e.ground.o1.a1",
+        "kind": "edge",
+        "source_id": "a.repl1",
+        "target_id": "o.replacement_texture",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o1.a2",
+        "kind": "edge",
+        "source_id": "a.repl2",
+        "target_id": "o.replacement_texture",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o1.fig4",
+        "kind": "edge",
+        "source_id": "a.fig4",
+        "target_id": "o.replacement_texture",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o10.lree",
+        "kind": "edge",
+        "source_id": "a.lree.acid",
+        "target_id": "o.acidic_lree_leaching",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o11.isoC",
+        "kind": "edge",
+        "source_id": "a.iso.c",
+        "target_id": "o.calcite_carbon_isotopes",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o11.table",
+        "kind": "edge",
+        "source_id": "a.table5",
+        "target_id": "o.calcite_carbon_isotopes",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o11.visual",
+        "kind": "edge",
+        "source_id": "visual.table5",
+        "target_id": "o.calcite_carbon_isotopes",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o12.isoO",
+        "kind": "edge",
+        "source_id": "a.iso.o",
+        "target_id": "o.calcite_oxygen_isotopes",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o12.table",
+        "kind": "edge",
+        "source_id": "a.table5",
+        "target_id": "o.calcite_oxygen_isotopes",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o12.visual",
+        "kind": "edge",
+        "source_id": "visual.table5",
+        "target_id": "o.calcite_oxygen_isotopes",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o13.fig11",
+        "kind": "edge",
+        "source_id": "a.fig11",
+        "target_id": "o.isotope_plot",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o13.ref1",
+        "kind": "edge",
+        "source_id": "a.iso.figref1",
+        "target_id": "o.isotope_plot",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o13.ref2",
+        "kind": "edge",
+        "source_id": "a.iso.figref2",
+        "target_id": "o.isotope_plot",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o14.alter",
+        "kind": "edge",
+        "source_id": "a.iso.alteration",
+        "target_id": "o.isotope_modification",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o15.v",
+        "kind": "edge",
+        "source_id": "a.v.content",
+        "target_id": "o.vanadium",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o16.ti",
+        "kind": "edge",
+        "source_id": "a.ti.content",
+        "target_id": "o.titanium",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o17.source",
+        "kind": "edge",
+        "source_id": "a.fe.possible",
+        "target_id": "o.possible_magmatic_source",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o18.leach",
+        "kind": "edge",
+        "source_id": "a.fe.leach",
+        "target_id": "o.proposed_fe_leaching",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o19.water",
+        "kind": "edge",
+        "source_id": "a.super.water",
+        "target_id": "o.descending_water",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o2.remnant",
+        "kind": "edge",
+        "source_id": "a.remnant",
+        "target_id": "o.vein_assemblage",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o2.vein",
+        "kind": "edge",
+        "source_id": "a.vein",
+        "target_id": "o.vein_assemblage",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o20.meteoric",
+        "kind": "edge",
+        "source_id": "a.super.meteoric",
+        "target_id": "o.meteoric_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o21.oxidation",
+        "kind": "edge",
+        "source_id": "a.super.oxidation",
+        "target_id": "o.oxidized_ores",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o22.products",
+        "kind": "edge",
+        "source_id": "a.super.products",
+        "target_id": "o.supergene_products",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o22.texture",
+        "kind": "edge",
+        "source_id": "a.super.texture",
+        "target_id": "o.supergene_products",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o3.epigenetic",
+        "kind": "edge",
+        "source_id": "a.epigenetic",
+        "target_id": "o.hypogene_replacement",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o3.hypogene",
+        "kind": "edge",
+        "source_id": "a.hypogene",
+        "target_id": "o.hypogene_replacement",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o4.temp",
+        "kind": "edge",
+        "source_id": "a.fi.temp",
+        "target_id": "o.inclusion_temperature",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o5.salrange",
+        "kind": "edge",
+        "source_id": "a.fi.salrange",
+        "target_id": "o.inclusion_salinity_range",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o5.table4",
+        "kind": "edge",
+        "source_id": "a.table4",
+        "target_id": "o.inclusion_salinity_range",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o6.nacl",
+        "kind": "edge",
+        "source_id": "a.fi.nacl",
+        "target_id": "o.common_salinity",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o6.salmost",
+        "kind": "edge",
+        "source_id": "a.fi.salmost",
+        "target_id": "o.common_salinity",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o7.corr",
+        "kind": "edge",
+        "source_id": "a.fi.corr",
+        "target_id": "o.salinity_temperature_pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o7.fig9",
+        "kind": "edge",
+        "source_id": "a.fig9",
+        "target_id": "o.salinity_temperature_pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o7.leak",
+        "kind": "edge",
+        "source_id": "a.fi.leak",
+        "target_id": "o.salinity_temperature_pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o7.leakend",
+        "kind": "edge",
+        "source_id": "a.fi.leakend",
+        "target_id": "o.salinity_temperature_pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o7.trend",
+        "kind": "edge",
+        "source_id": "a.fi.trend",
+        "target_id": "o.salinity_temperature_pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o8.eu",
+        "kind": "edge",
+        "source_id": "a.eu.results",
+        "target_id": "o.eu_anomalies",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.o9.eu",
+        "kind": "edge",
+        "source_id": "a.eu.interpretation",
+        "target_id": "o.eu_redox_association",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.premise.o1.r1",
+        "kind": "edge",
+        "source_id": "o.replacement_texture",
+        "target_id": "r.replacement",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o10.r3",
+        "kind": "edge",
+        "source_id": "o.acidic_lree_leaching",
+        "target_id": "r.ree_conditions",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o11.r5",
+        "kind": "edge",
+        "source_id": "o.calcite_carbon_isotopes",
+        "target_id": "r.carbonate_source",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o12.r5",
+        "kind": "edge",
+        "source_id": "o.calcite_oxygen_isotopes",
+        "target_id": "r.carbonate_source",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o13.r5",
+        "kind": "edge",
+        "source_id": "o.isotope_plot",
+        "target_id": "r.carbonate_source",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o14.r5",
+        "kind": "edge",
+        "source_id": "o.isotope_modification",
+        "target_id": "r.carbonate_source",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o15.r6",
+        "kind": "edge",
+        "source_id": "o.vanadium",
+        "target_id": "r.iron_source",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o16.r6",
+        "kind": "edge",
+        "source_id": "o.titanium",
+        "target_id": "r.iron_source",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o17.r6",
+        "kind": "edge",
+        "source_id": "o.possible_magmatic_source",
+        "target_id": "r.iron_source",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o18.r6",
+        "kind": "edge",
+        "source_id": "o.proposed_fe_leaching",
+        "target_id": "r.iron_source",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o19.r7",
+        "kind": "edge",
+        "source_id": "o.descending_water",
+        "target_id": "r.supergene_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o2.r1",
+        "kind": "edge",
+        "source_id": "o.vein_assemblage",
+        "target_id": "r.replacement",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o20.r7",
+        "kind": "edge",
+        "source_id": "o.meteoric_model",
+        "target_id": "r.supergene_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o21.r7",
+        "kind": "edge",
+        "source_id": "o.oxidized_ores",
+        "target_id": "r.supergene_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o22.r7",
+        "kind": "edge",
+        "source_id": "o.supergene_products",
+        "target_id": "r.supergene_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o3.r1",
+        "kind": "edge",
+        "source_id": "o.hypogene_replacement",
+        "target_id": "r.replacement",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o4.r2",
+        "kind": "edge",
+        "source_id": "o.inclusion_temperature",
+        "target_id": "r.inclusion_constraints",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o5.r2",
+        "kind": "edge",
+        "source_id": "o.inclusion_salinity_range",
+        "target_id": "r.inclusion_constraints",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o6.r2",
+        "kind": "edge",
+        "source_id": "o.common_salinity",
+        "target_id": "r.inclusion_constraints",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o7.r2",
+        "kind": "edge",
+        "source_id": "o.salinity_temperature_pattern",
+        "target_id": "r.inclusion_constraints",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o8.r3",
+        "kind": "edge",
+        "source_id": "o.eu_anomalies",
+        "target_id": "r.ree_conditions",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.o9.r3",
+        "kind": "edge",
+        "source_id": "o.eu_redox_association",
+        "target_id": "r.ree_conditions",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.r2.r4",
+        "kind": "edge",
+        "source_id": "r.inclusion_constraints",
+        "target_id": "r.fluid_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.r3.r4",
+        "kind": "edge",
+        "source_id": "r.ree_conditions",
+        "target_id": "r.fluid_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.support.r1.c1",
+        "kind": "edge",
+        "source_id": "r.replacement",
+        "target_id": "claim:sha256:1bb7fa9e819db343fc74fea8504eedb6aefe46ec769f78f54a7a4274410482b1",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.r4.c2",
+        "kind": "edge",
+        "source_id": "r.fluid_synthesis",
+        "target_id": "claim:sha256:140f822ea6e2ccb9f9165ec6427f5ce547ffac333dee8c338550d26f7f48cac7",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.r5.c3",
+        "kind": "edge",
+        "source_id": "r.carbonate_source",
+        "target_id": "claim:sha256:87619f810bac79b17e71b28d0bee14f09aaafb5e8b7d6f594a2c4453140e6873",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.r6.c4",
+        "kind": "edge",
+        "source_id": "r.iron_source",
+        "target_id": "claim:sha256:b519f2adaf253593813bf7cb4be462576a8e1895f28ae1b49c09f407e96201a9",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.r7.c5",
+        "kind": "edge",
+        "source_id": "r.supergene_sequence",
+        "target_id": "claim:sha256:5d9b2cdd8c63435fbb8ee01731a9ba2360d320732c6435a8823741320f122a13",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:b63b9cce0200959802e49b4892c35e0723844c43848a35d2bef023c85932b950",
+        "kind": "edge",
+        "source_id": "a.fig11",
+        "target_id": "o.isotope_modification",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

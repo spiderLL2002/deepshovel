@@ -1,0 +1,1158 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "f184c11b5f017fbc36db497dc468d13a874a8c831f28646a8e8d8d2f502e5502",
+  "http_body_sha256": "7e2a9f90e135afa78f86e1491a08c12561f24c6eb4bc8ac3f09d790557c31875",
+  "snapshot": {
+    "id": "snapshot:sha256:6eed8960f5989547888f77d4bd67a1e6462e2fc6c8041c36870e8fa1dabf99ca",
+    "rootArtifactVersionId": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "6eed8960f5989547888f77d4bd67a1e6462e2fc6c8041c36870e8fa1dabf99ca"
+  },
+  "graph": {
+    "paper_id": "paper:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+    "anchors": [
+      {
+        "id": "a.fig.2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.fig.3",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.fig.4",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.t.aq.bio.interpretation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.t.aq.poly",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.aq.s0.control1",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.aq.s0.control2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.aq.s0.live",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.aq.sulfite.rate",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.aq.tet.control",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.aq.tet.lag",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.aq.tet.rate",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.aq.tet.stoich",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.t.aq.tet.stoich.figure",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.t.aq.thio.control",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.aq.thio.live",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.cycle.linked",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.t.cycle.slowdown",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.t.sed.bio.interpretation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.t.sed.initial",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.sed.iron",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.t.sed.s0",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.t.sed.tet.appearance",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.t.sed.tet.loss",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.t.sed.thio.rate",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.t.sulfite.disproportionation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.t.sulfite.masking",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.t.sulfite.no.sulfide",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.t.sulfite.possible.reaction",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.t.sulfite.thio.formation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "selector": {
+          "page": 7
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.aq.bio.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.t.aq.bio.interpretation"
+        ]
+      },
+      {
+        "id": "obs.aq.poly",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig.3",
+          "a.t.aq.poly"
+        ]
+      },
+      {
+        "id": "obs.aq.s0",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig.3",
+          "a.t.aq.s0.control1",
+          "a.t.aq.s0.control2",
+          "a.t.aq.s0.live"
+        ]
+      },
+      {
+        "id": "obs.aq.sulfite",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig.3",
+          "a.t.aq.sulfite.rate"
+        ]
+      },
+      {
+        "id": "obs.aq.tet",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig.3",
+          "a.t.aq.tet.control",
+          "a.t.aq.tet.lag",
+          "a.t.aq.tet.rate"
+        ]
+      },
+      {
+        "id": "obs.aq.thio",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig.3",
+          "a.t.aq.thio.control",
+          "a.t.aq.thio.live"
+        ]
+      },
+      {
+        "id": "obs.cycle.aq.reverse",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig.4",
+          "a.t.aq.tet.stoich",
+          "a.t.aq.tet.stoich.figure"
+        ]
+      },
+      {
+        "id": "obs.cycle.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.t.cycle.linked",
+          "a.t.cycle.slowdown"
+        ]
+      },
+      {
+        "id": "obs.cycle.sed.forward",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.t.sed.tet.appearance",
+          "a.t.sed.thio.rate"
+        ]
+      },
+      {
+        "id": "obs.cycle.sed.reverse",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig.2",
+          "a.t.sed.tet.loss"
+        ]
+      },
+      {
+        "id": "obs.sed.bio.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.t.sed.bio.interpretation"
+        ]
+      },
+      {
+        "id": "obs.sed.initial",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.t.sed.initial"
+        ]
+      },
+      {
+        "id": "obs.sed.iron",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.t.sed.iron"
+        ]
+      },
+      {
+        "id": "obs.sed.s0",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.t.sed.s0"
+        ]
+      },
+      {
+        "id": "obs.sed.tet.appearance",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.t.sed.tet.appearance"
+        ]
+      },
+      {
+        "id": "obs.sed.tet.loss",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig.2",
+          "a.t.sed.tet.loss"
+        ]
+      },
+      {
+        "id": "obs.sed.thio.rate",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.t.sed.thio.rate"
+        ]
+      },
+      {
+        "id": "obs.sulfite.acceptors",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.t.sulfite.disproportionation"
+        ]
+      },
+      {
+        "id": "obs.sulfite.loss",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig.3",
+          "a.t.aq.sulfite.rate"
+        ]
+      },
+      {
+        "id": "obs.sulfite.masking",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.t.sulfite.masking"
+        ]
+      },
+      {
+        "id": "obs.sulfite.sulfide",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig.4",
+          "a.t.sulfite.no.sulfide",
+          "a.t.sulfite.possible.reaction"
+        ]
+      },
+      {
+        "id": "obs.sulfite.thio",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig.4",
+          "a.t.sulfite.thio.formation"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.aqueous.bio",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.t.aq.bio.interpretation",
+          "a.t.aq.poly",
+          "a.t.aq.s0.control1",
+          "a.t.aq.s0.live",
+          "a.t.aq.sulfite.rate",
+          "a.t.aq.tet.control",
+          "a.t.aq.tet.rate",
+          "a.t.aq.thio.control",
+          "a.t.aq.thio.live"
+        ]
+      },
+      {
+        "id": "reason.cycle.aqueous",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.t.aq.tet.stoich",
+          "a.t.aq.tet.stoich.figure"
+        ]
+      },
+      {
+        "id": "reason.cycle.integrated",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.t.cycle.linked",
+          "a.t.cycle.slowdown"
+        ]
+      },
+      {
+        "id": "reason.cycle.sediment",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.t.sed.tet.appearance",
+          "a.t.sed.tet.loss",
+          "a.t.sed.thio.rate"
+        ]
+      },
+      {
+        "id": "reason.sediment.bio",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.t.sed.bio.interpretation",
+          "a.t.sed.tet.appearance",
+          "a.t.sed.tet.loss",
+          "a.t.sed.thio.rate"
+        ]
+      },
+      {
+        "id": "reason.sediment.iron",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.t.sed.initial",
+          "a.t.sed.iron",
+          "a.t.sed.s0"
+        ]
+      },
+      {
+        "id": "reason.sulfite.disproportionation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.t.aq.sulfite.rate",
+          "a.t.sulfite.disproportionation",
+          "a.t.sulfite.masking",
+          "a.t.sulfite.no.sulfide",
+          "a.t.sulfite.possible.reaction",
+          "a.t.sulfite.thio.formation"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:4f3ce4f173a2bf79793171bbc96a7f4bcecd96d7d49a5dba4d280fe1236d9ce6",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.t.sed.initial",
+          "a.t.sed.iron",
+          "a.t.sed.s0"
+        ]
+      },
+      {
+        "id": "claim:sha256:6517e45f763fd63353560819f884e80e12846a22d6f21b4f44160f56f8a3a2a9",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.fig.3",
+          "a.t.aq.bio.interpretation",
+          "a.t.aq.poly",
+          "a.t.aq.s0.control1",
+          "a.t.aq.s0.control2",
+          "a.t.aq.s0.live",
+          "a.t.aq.sulfite.rate",
+          "a.t.aq.tet.control",
+          "a.t.aq.tet.lag",
+          "a.t.aq.tet.rate",
+          "a.t.aq.thio.control",
+          "a.t.aq.thio.live"
+        ]
+      },
+      {
+        "id": "claim:sha256:a211c8abde5ddadff14f5931989cb9d4831a8d54cebee1533e8eeb664657c70f",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.fig.3",
+          "a.fig.4",
+          "a.t.aq.sulfite.rate",
+          "a.t.sulfite.disproportionation",
+          "a.t.sulfite.masking",
+          "a.t.sulfite.no.sulfide",
+          "a.t.sulfite.possible.reaction",
+          "a.t.sulfite.thio.formation"
+        ]
+      },
+      {
+        "id": "claim:sha256:aaead6f71db6d165e1f65a357cba3eaed5c3cb927e3c8be421deec7798e82e30",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.fig.2",
+          "a.fig.4",
+          "a.t.aq.tet.stoich",
+          "a.t.aq.tet.stoich.figure",
+          "a.t.cycle.linked",
+          "a.t.cycle.slowdown",
+          "a.t.sed.tet.appearance",
+          "a.t.sed.tet.loss",
+          "a.t.sed.thio.rate"
+        ]
+      },
+      {
+        "id": "claim:sha256:e78203cc190c018042049c188d11bbc070f2bea71c4a4775c8dfda89cd25734b",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.fig.2",
+          "a.t.sed.bio.interpretation",
+          "a.t.sed.tet.appearance",
+          "a.t.sed.tet.loss",
+          "a.t.sed.thio.rate"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:cd98d702-3b84-4621-b904-b4826ebd59b5",
+        "sha256": "f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e.ground.aq.bio.interpretation",
+        "source_id": "a.t.aq.bio.interpretation",
+        "target_id": "obs.aq.bio.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.poly",
+        "source_id": "a.t.aq.poly",
+        "target_id": "obs.aq.poly",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.poly.fig3",
+        "source_id": "a.fig.3",
+        "target_id": "obs.aq.poly",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.s0.control1",
+        "source_id": "a.t.aq.s0.control1",
+        "target_id": "obs.aq.s0",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.s0.control2",
+        "source_id": "a.t.aq.s0.control2",
+        "target_id": "obs.aq.s0",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.s0.fig3",
+        "source_id": "a.fig.3",
+        "target_id": "obs.aq.s0",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.s0.live",
+        "source_id": "a.t.aq.s0.live",
+        "target_id": "obs.aq.s0",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.sulfite",
+        "source_id": "a.t.aq.sulfite.rate",
+        "target_id": "obs.aq.sulfite",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.sulfite.fig3",
+        "source_id": "a.fig.3",
+        "target_id": "obs.aq.sulfite",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.tet.control",
+        "source_id": "a.t.aq.tet.control",
+        "target_id": "obs.aq.tet",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.tet.fig3",
+        "source_id": "a.fig.3",
+        "target_id": "obs.aq.tet",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.tet.lag",
+        "source_id": "a.t.aq.tet.lag",
+        "target_id": "obs.aq.tet",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.tet.rate",
+        "source_id": "a.t.aq.tet.rate",
+        "target_id": "obs.aq.tet",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.thio.control",
+        "source_id": "a.t.aq.thio.control",
+        "target_id": "obs.aq.thio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.thio.fig3",
+        "source_id": "a.fig.3",
+        "target_id": "obs.aq.thio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.aq.thio.live",
+        "source_id": "a.t.aq.thio.live",
+        "target_id": "obs.aq.thio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.cycle.aq.fig4",
+        "source_id": "a.fig.4",
+        "target_id": "obs.cycle.aq.reverse",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.cycle.aq.stoich",
+        "source_id": "a.t.aq.tet.stoich",
+        "target_id": "obs.cycle.aq.reverse",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.cycle.aq.stoich.figure",
+        "source_id": "a.t.aq.tet.stoich.figure",
+        "target_id": "obs.cycle.aq.reverse",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.cycle.interpret.linked",
+        "source_id": "a.t.cycle.linked",
+        "target_id": "obs.cycle.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.cycle.interpret.slowdown",
+        "source_id": "a.t.cycle.slowdown",
+        "target_id": "obs.cycle.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.cycle.sed.forward.tet",
+        "source_id": "a.t.sed.tet.appearance",
+        "target_id": "obs.cycle.sed.forward",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.cycle.sed.forward.thio",
+        "source_id": "a.t.sed.thio.rate",
+        "target_id": "obs.cycle.sed.forward",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.cycle.sed.reverse.fig2",
+        "source_id": "a.fig.2",
+        "target_id": "obs.cycle.sed.reverse",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.cycle.sed.reverse.text",
+        "source_id": "a.t.sed.tet.loss",
+        "target_id": "obs.cycle.sed.reverse",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sed.bio.interpretation",
+        "source_id": "a.t.sed.bio.interpretation",
+        "target_id": "obs.sed.bio.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sed.initial",
+        "source_id": "a.t.sed.initial",
+        "target_id": "obs.sed.initial",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sed.iron",
+        "source_id": "a.t.sed.iron",
+        "target_id": "obs.sed.iron",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sed.s0",
+        "source_id": "a.t.sed.s0",
+        "target_id": "obs.sed.s0",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sed.tet.appearance",
+        "source_id": "a.t.sed.tet.appearance",
+        "target_id": "obs.sed.tet.appearance",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sed.tet.loss.fig2",
+        "source_id": "a.fig.2",
+        "target_id": "obs.sed.tet.loss",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sed.tet.loss.text",
+        "source_id": "a.t.sed.tet.loss",
+        "target_id": "obs.sed.tet.loss",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sed.thio.rate",
+        "source_id": "a.t.sed.thio.rate",
+        "target_id": "obs.sed.thio.rate",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sulfite.acceptors",
+        "source_id": "a.t.sulfite.disproportionation",
+        "target_id": "obs.sulfite.acceptors",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sulfite.loss",
+        "source_id": "a.t.aq.sulfite.rate",
+        "target_id": "obs.sulfite.loss",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sulfite.loss.fig3",
+        "source_id": "a.fig.3",
+        "target_id": "obs.sulfite.loss",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sulfite.masking",
+        "source_id": "a.t.sulfite.masking",
+        "target_id": "obs.sulfite.masking",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sulfite.no.sulfide",
+        "source_id": "a.t.sulfite.no.sulfide",
+        "target_id": "obs.sulfite.sulfide",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sulfite.possible.reaction",
+        "source_id": "a.t.sulfite.possible.reaction",
+        "target_id": "obs.sulfite.sulfide",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sulfite.sulfide.fig4",
+        "source_id": "a.fig.4",
+        "target_id": "obs.sulfite.sulfide",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sulfite.thio",
+        "source_id": "a.t.sulfite.thio.formation",
+        "target_id": "obs.sulfite.thio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sulfite.thio.fig4",
+        "source_id": "a.fig.4",
+        "target_id": "obs.sulfite.thio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.premise.aq.bio.interpretation",
+        "source_id": "obs.aq.bio.interpretation",
+        "target_id": "reason.aqueous.bio",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.aq.poly",
+        "source_id": "obs.aq.poly",
+        "target_id": "reason.aqueous.bio",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.aq.s0",
+        "source_id": "obs.aq.s0",
+        "target_id": "reason.aqueous.bio",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.aq.sulfite",
+        "source_id": "obs.aq.sulfite",
+        "target_id": "reason.aqueous.bio",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.aq.tet",
+        "source_id": "obs.aq.tet",
+        "target_id": "reason.aqueous.bio",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.aq.thio",
+        "source_id": "obs.aq.thio",
+        "target_id": "reason.aqueous.bio",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.cycle.aq.integrate",
+        "source_id": "reason.cycle.aqueous",
+        "target_id": "reason.cycle.integrated",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.cycle.aq.reverse",
+        "source_id": "obs.cycle.aq.reverse",
+        "target_id": "reason.cycle.aqueous",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.cycle.interpretation",
+        "source_id": "obs.cycle.interpretation",
+        "target_id": "reason.cycle.integrated",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.cycle.sed.forward",
+        "source_id": "obs.cycle.sed.forward",
+        "target_id": "reason.cycle.sediment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.cycle.sed.integrate",
+        "source_id": "reason.cycle.sediment",
+        "target_id": "reason.cycle.integrated",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.cycle.sed.reverse",
+        "source_id": "obs.cycle.sed.reverse",
+        "target_id": "reason.cycle.sediment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sed.bio.appearance",
+        "source_id": "obs.sed.tet.appearance",
+        "target_id": "reason.sediment.bio",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sed.bio.interpretation",
+        "source_id": "obs.sed.bio.interpretation",
+        "target_id": "reason.sediment.bio",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sed.bio.loss",
+        "source_id": "obs.sed.tet.loss",
+        "target_id": "reason.sediment.bio",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sed.bio.thio",
+        "source_id": "obs.sed.thio.rate",
+        "target_id": "reason.sediment.bio",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sed.initial",
+        "source_id": "obs.sed.initial",
+        "target_id": "reason.sediment.iron",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sed.iron",
+        "source_id": "obs.sed.iron",
+        "target_id": "reason.sediment.iron",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sed.s0",
+        "source_id": "obs.sed.s0",
+        "target_id": "reason.sediment.iron",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sulfite.acceptors",
+        "source_id": "obs.sulfite.acceptors",
+        "target_id": "reason.sulfite.disproportionation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sulfite.loss",
+        "source_id": "obs.sulfite.loss",
+        "target_id": "reason.sulfite.disproportionation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sulfite.masking",
+        "source_id": "obs.sulfite.masking",
+        "target_id": "reason.sulfite.disproportionation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sulfite.sulfide",
+        "source_id": "obs.sulfite.sulfide",
+        "target_id": "reason.sulfite.disproportionation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sulfite.thio",
+        "source_id": "obs.sulfite.thio",
+        "target_id": "reason.sulfite.disproportionation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.support.aq.bio",
+        "source_id": "reason.aqueous.bio",
+        "target_id": "claim:sha256:6517e45f763fd63353560819f884e80e12846a22d6f21b4f44160f56f8a3a2a9",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.cycle",
+        "source_id": "reason.cycle.integrated",
+        "target_id": "claim:sha256:aaead6f71db6d165e1f65a357cba3eaed5c3cb927e3c8be421deec7798e82e30",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.sed.bio",
+        "source_id": "reason.sediment.bio",
+        "target_id": "claim:sha256:e78203cc190c018042049c188d11bbc070f2bea71c4a4775c8dfda89cd25734b",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.sed.iron",
+        "source_id": "reason.sediment.iron",
+        "target_id": "claim:sha256:4f3ce4f173a2bf79793171bbc96a7f4bcecd96d7d49a5dba4d280fe1236d9ce6",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.sulfite",
+        "source_id": "reason.sulfite.disproportionation",
+        "target_id": "claim:sha256:a211c8abde5ddadff14f5931989cb9d4831a8d54cebee1533e8eeb664657c70f",
+        "relation": "infers"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:c52c2225b21996238275ab7c592409da612025763ac2e1390574bcc3ef506fc5",
+        "entity_ids": [
+          "a.fig.2",
+          "a.fig.3",
+          "a.fig.4",
+          "a.t.aq.bio.interpretation",
+          "a.t.aq.poly",
+          "a.t.aq.s0.control1",
+          "a.t.aq.s0.control2",
+          "a.t.aq.s0.live",
+          "a.t.aq.sulfite.rate",
+          "a.t.aq.tet.control",
+          "a.t.aq.tet.lag",
+          "a.t.aq.tet.rate",
+          "a.t.aq.tet.stoich",
+          "a.t.aq.tet.stoich.figure",
+          "a.t.aq.thio.control",
+          "a.t.aq.thio.live",
+          "a.t.cycle.linked",
+          "a.t.cycle.slowdown",
+          "a.t.sed.bio.interpretation",
+          "a.t.sed.initial",
+          "a.t.sed.iron",
+          "a.t.sed.s0",
+          "a.t.sed.tet.appearance",
+          "a.t.sed.tet.loss",
+          "a.t.sed.thio.rate",
+          "a.t.sulfite.disproportionation",
+          "a.t.sulfite.masking",
+          "a.t.sulfite.no.sulfide",
+          "a.t.sulfite.possible.reaction",
+          "a.t.sulfite.thio.formation",
+          "artifact-version:sha256:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+          "artifact:cd98d702-3b84-4621-b904-b4826ebd59b5",
+          "claim:sha256:4f3ce4f173a2bf79793171bbc96a7f4bcecd96d7d49a5dba4d280fe1236d9ce6",
+          "claim:sha256:6517e45f763fd63353560819f884e80e12846a22d6f21b4f44160f56f8a3a2a9",
+          "claim:sha256:a211c8abde5ddadff14f5931989cb9d4831a8d54cebee1533e8eeb664657c70f",
+          "claim:sha256:aaead6f71db6d165e1f65a357cba3eaed5c3cb927e3c8be421deec7798e82e30",
+          "claim:sha256:e78203cc190c018042049c188d11bbc070f2bea71c4a4775c8dfda89cd25734b",
+          "obs.aq.bio.interpretation",
+          "obs.aq.poly",
+          "obs.aq.s0",
+          "obs.aq.sulfite",
+          "obs.aq.tet",
+          "obs.aq.thio",
+          "obs.cycle.aq.reverse",
+          "obs.cycle.interpretation",
+          "obs.cycle.sed.forward",
+          "obs.cycle.sed.reverse",
+          "obs.sed.bio.interpretation",
+          "obs.sed.initial",
+          "obs.sed.iron",
+          "obs.sed.s0",
+          "obs.sed.tet.appearance",
+          "obs.sed.tet.loss",
+          "obs.sed.thio.rate",
+          "obs.sulfite.acceptors",
+          "obs.sulfite.loss",
+          "obs.sulfite.masking",
+          "obs.sulfite.sulfide",
+          "obs.sulfite.thio",
+          "reason.aqueous.bio",
+          "reason.cycle.aqueous",
+          "reason.cycle.integrated",
+          "reason.cycle.sediment",
+          "reason.sediment.bio",
+          "reason.sediment.iron",
+          "reason.sulfite.disproportionation"
+        ],
+        "edge_ids": [
+          "e.ground.aq.bio.interpretation",
+          "e.ground.aq.poly",
+          "e.ground.aq.poly.fig3",
+          "e.ground.aq.s0.control1",
+          "e.ground.aq.s0.control2",
+          "e.ground.aq.s0.fig3",
+          "e.ground.aq.s0.live",
+          "e.ground.aq.sulfite",
+          "e.ground.aq.sulfite.fig3",
+          "e.ground.aq.tet.control",
+          "e.ground.aq.tet.fig3",
+          "e.ground.aq.tet.lag",
+          "e.ground.aq.tet.rate",
+          "e.ground.aq.thio.control",
+          "e.ground.aq.thio.fig3",
+          "e.ground.aq.thio.live",
+          "e.ground.cycle.aq.fig4",
+          "e.ground.cycle.aq.stoich",
+          "e.ground.cycle.aq.stoich.figure",
+          "e.ground.cycle.interpret.linked",
+          "e.ground.cycle.interpret.slowdown",
+          "e.ground.cycle.sed.forward.tet",
+          "e.ground.cycle.sed.forward.thio",
+          "e.ground.cycle.sed.reverse.fig2",
+          "e.ground.cycle.sed.reverse.text",
+          "e.ground.sed.bio.interpretation",
+          "e.ground.sed.initial",
+          "e.ground.sed.iron",
+          "e.ground.sed.s0",
+          "e.ground.sed.tet.appearance",
+          "e.ground.sed.tet.loss.fig2",
+          "e.ground.sed.tet.loss.text",
+          "e.ground.sed.thio.rate",
+          "e.ground.sulfite.acceptors",
+          "e.ground.sulfite.loss",
+          "e.ground.sulfite.loss.fig3",
+          "e.ground.sulfite.masking",
+          "e.ground.sulfite.no.sulfide",
+          "e.ground.sulfite.possible.reaction",
+          "e.ground.sulfite.sulfide.fig4",
+          "e.ground.sulfite.thio",
+          "e.ground.sulfite.thio.fig4",
+          "e.premise.aq.bio.interpretation",
+          "e.premise.aq.poly",
+          "e.premise.aq.s0",
+          "e.premise.aq.sulfite",
+          "e.premise.aq.tet",
+          "e.premise.aq.thio",
+          "e.premise.cycle.aq.integrate",
+          "e.premise.cycle.aq.reverse",
+          "e.premise.cycle.interpretation",
+          "e.premise.cycle.sed.forward",
+          "e.premise.cycle.sed.integrate",
+          "e.premise.cycle.sed.reverse",
+          "e.premise.sed.bio.appearance",
+          "e.premise.sed.bio.interpretation",
+          "e.premise.sed.bio.loss",
+          "e.premise.sed.bio.thio",
+          "e.premise.sed.initial",
+          "e.premise.sed.iron",
+          "e.premise.sed.s0",
+          "e.premise.sulfite.acceptors",
+          "e.premise.sulfite.loss",
+          "e.premise.sulfite.masking",
+          "e.premise.sulfite.sulfide",
+          "e.premise.sulfite.thio",
+          "e.support.aq.bio",
+          "e.support.cycle",
+          "e.support.sed.bio",
+          "e.support.sed.iron",
+          "e.support.sulfite"
+        ]
+      }
+    ]
+  }
+}

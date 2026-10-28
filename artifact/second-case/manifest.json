@@ -1,0 +1,30 @@
+[
+  {
+    "file": "SOURCE.md",
+    "sha256": "2ad7426f8e62f53179d009e649ae617bcf15eab00dd3a4c3ff8ea3d062e8c71a"
+  },
+  {
+    "file": "full-graph.json",
+    "sha256": "20f30f0b870acfc2949415af24f40330e80b5e7dc2774bb8aa149561cf42ab4b"
+  },
+  {
+    "file": "path-verification.json",
+    "sha256": "fbd890eb4f797521876a0ad0f854811392484539bbe0986f77a60ea0b002adb6"
+  },
+  {
+    "file": "result.json",
+    "sha256": "a49d7014fcbfb32007ec99990a835a1bc01d7753dd4d047739c22ec5c0610c8f"
+  },
+  {
+    "file": "source.pdf",
+    "sha256": "f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99"
+  },
+  {
+    "file": "task-fields.json",
+    "sha256": "7102563b661a7a986a8de2d0f5d892425cb4a4e623e16bb21a2ddd8e12c684e6"
+  },
+  {
+    "file": "verify-path.py",
+    "sha256": "29806921b2c71441ef980a48ff36e1447d904451291f78fa94d139f66a991291"
+  }
+]

@@ -1,0 +1,1593 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+  "snapshot_id": "snapshot:sha256:0006c4b79ad880cd7ceac5fff3e75a141fbc652cc7f603e52320486ec8b8ed67",
+  "original_graph_json_sha256": "0006c4b79ad880cd7ceac5fff3e75a141fbc652cc7f603e52320486ec8b8ed67",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:1a4cd7f9-320e-4d7a-b9d8-284d7feec833",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:1a4cd7f9-320e-4d7a-b9d8-284d7feec833",
+        "sha256": "2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "a.circ.downwelling",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "a.circ.freshening",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "a.circ.hypothesis",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "a.circ.models",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "a.circ.post1",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "a.circ.post2",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "a.circ.post3",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "a.circ.pre1",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "a.circ.pre2",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "a.circ.speculative",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "a.cycle1",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.cycle2",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.cycle3",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "a.cycle4",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.f4a",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.f4b",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.f4c",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.grap.carbon",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 27
+        }
+      },
+      {
+        "id": "a.grap.habitat",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 27
+        }
+      },
+      {
+        "id": "a.grap.interpretation",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 27
+        }
+      },
+      {
+        "id": "a.grap.replacement",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 27
+        }
+      },
+      {
+        "id": "a.grap.shift",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 27
+        }
+      },
+      {
+        "id": "a.kat.concl",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "a.kat.fig1",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "a.kat.fig2",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "a.kat.fig3",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "a.mid.concl",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "a.mid.fig1",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.mid.fig2",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.mid.fig3",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.mid.fig4",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.n.bio",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "a.n.low",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "a.n.nevada",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "a.n.positive",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "a.org.nitrogen",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "a.org.restricted",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "a.org.toc",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "a.proxy1",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "a.proxy2",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "a.rhud.breadth",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.rhud.concl1",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "a.rhud.concl2",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "a.rhud.fig1",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.rhud.fig2",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.table1",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "a.table2",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "a.table2.footnote",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:76833d9f6d8fd9a623c08652b4a7f2194d8550298230f8895d417155df601d4e",
+        "artifact_version_id": "artifact-version:sha256:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.burial.mid_count",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.table2",
+          "a.table2.footnote"
+        ]
+      },
+      {
+        "id": "obs.burial.nitrogen",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.org.nitrogen"
+        ]
+      },
+      {
+        "id": "obs.burial.organic_matter",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.org.toc"
+        ]
+      },
+      {
+        "id": "obs.circulation.downwelling",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.circ.downwelling"
+        ]
+      },
+      {
+        "id": "obs.circulation.freshening",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.circ.freshening"
+        ]
+      },
+      {
+        "id": "obs.circulation.hypothesis",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.circ.hypothesis"
+        ]
+      },
+      {
+        "id": "obs.circulation.limitation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.circ.models",
+          "a.circ.speculative"
+        ]
+      },
+      {
+        "id": "obs.circulation.previous_oxygenation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.circ.pre1",
+          "a.circ.pre2",
+          "a.f4a",
+          "a.f4b"
+        ]
+      },
+      {
+        "id": "obs.circulation.rhuddanian_shales",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.circ.post1",
+          "a.circ.post2",
+          "a.circ.post3",
+          "a.f4c",
+          "a.table1",
+          "anchor:compiler:visual:76833d9f6d8fd9a623c08652b4a7f2194d8550298230f8895d417155df601d4e"
+        ]
+      },
+      {
+        "id": "obs.cycle.drawdown",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.cycle3"
+        ]
+      },
+      {
+        "id": "obs.cycle.interglacial",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.cycle2"
+        ]
+      },
+      {
+        "id": "obs.cycle.phases",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.cycle1"
+        ]
+      },
+      {
+        "id": "obs.graptolite.author_interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.grap.interpretation"
+        ]
+      },
+      {
+        "id": "obs.graptolite.carbon_timing",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.grap.carbon"
+        ]
+      },
+      {
+        "id": "obs.graptolite.habitat",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.grap.habitat"
+        ]
+      },
+      {
+        "id": "obs.graptolite.replacement",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.grap.replacement"
+        ]
+      },
+      {
+        "id": "obs.graptolite_shift",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.grap.shift"
+        ]
+      },
+      {
+        "id": "obs.hirnantian.count",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.table2",
+          "a.table2.footnote"
+        ]
+      },
+      {
+        "id": "obs.hirnantian.pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f4b",
+          "a.mid.concl",
+          "a.mid.fig1",
+          "a.mid.fig2",
+          "a.mid.fig3"
+        ]
+      },
+      {
+        "id": "obs.katian.count",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.table2",
+          "a.table2.footnote"
+        ]
+      },
+      {
+        "id": "obs.katian.pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f4a",
+          "a.kat.concl",
+          "a.kat.fig1",
+          "a.kat.fig2",
+          "a.kat.fig3",
+          "a.table2"
+        ]
+      },
+      {
+        "id": "obs.nitrogen.biomarker",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.n.bio"
+        ]
+      },
+      {
+        "id": "obs.nitrogen.low",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.n.low"
+        ]
+      },
+      {
+        "id": "obs.nitrogen.nevada_shift",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.n.nevada"
+        ]
+      },
+      {
+        "id": "obs.nitrogen.positive_excursion",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.n.positive"
+        ]
+      },
+      {
+        "id": "obs.rhuddanian.breadth",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f4c",
+          "a.rhud.breadth",
+          "a.rhud.fig1",
+          "a.rhud.fig2",
+          "a.table2"
+        ]
+      },
+      {
+        "id": "obs.rhuddanian.count",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.table2",
+          "a.table2.footnote"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.burial_test",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.org.nitrogen",
+          "a.org.toc",
+          "a.proxy1",
+          "a.proxy2",
+          "a.table2"
+        ]
+      },
+      {
+        "id": "reason.circulation_change",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.circ.post1",
+          "a.circ.post2",
+          "a.circ.post3",
+          "a.circ.pre1",
+          "a.circ.pre2",
+          "anchor:compiler:visual:76833d9f6d8fd9a623c08652b4a7f2194d8550298230f8895d417155df601d4e"
+        ]
+      },
+      {
+        "id": "reason.circulation_hypothesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.circ.downwelling",
+          "a.circ.freshening",
+          "a.circ.hypothesis",
+          "a.circ.models",
+          "a.circ.speculative"
+        ]
+      },
+      {
+        "id": "reason.distribution_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.kat.concl",
+          "a.mid.concl",
+          "a.proxy1",
+          "a.proxy2",
+          "a.rhud.breadth",
+          "a.table2"
+        ]
+      },
+      {
+        "id": "reason.glacial_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.cycle1",
+          "a.cycle2",
+          "a.cycle3",
+          "a.cycle4"
+        ]
+      },
+      {
+        "id": "reason.graptolite_cause",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.grap.carbon",
+          "a.grap.habitat",
+          "a.grap.interpretation",
+          "a.grap.replacement",
+          "a.grap.shift"
+        ]
+      },
+      {
+        "id": "reason.graptolite_habitat",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.grap.habitat",
+          "a.grap.replacement"
+        ]
+      },
+      {
+        "id": "reason.graptolite_timing",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.grap.carbon",
+          "a.grap.shift"
+        ]
+      },
+      {
+        "id": "reason.hirnantian_pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.mid.concl",
+          "a.table2"
+        ]
+      },
+      {
+        "id": "reason.katian_pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.kat.concl",
+          "a.table2"
+        ]
+      },
+      {
+        "id": "reason.nitrogen_cycle_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.n.bio",
+          "a.n.low",
+          "a.n.nevada",
+          "a.n.positive"
+        ]
+      },
+      {
+        "id": "reason.nitrogen_depletion",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.n.bio",
+          "a.n.low"
+        ]
+      },
+      {
+        "id": "reason.nitrogen_glacial_shift",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.n.nevada",
+          "a.n.positive"
+        ]
+      },
+      {
+        "id": "reason.rhuddanian_pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.rhud.breadth",
+          "a.table2"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.black_shale_proxy",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.proxy1",
+          "a.proxy2"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:00a3323062d49f25c8daf428004c126045d643917cc110cef649729a49099073",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.grap.carbon",
+          "a.grap.habitat",
+          "a.grap.interpretation",
+          "a.grap.replacement",
+          "a.grap.shift"
+        ],
+        "source_id": "claim.graptolite_extinction"
+      },
+      {
+        "id": "claim:sha256:0404ff22641ec4c2d0484d67be39436c05fbf49cc2f29dc944b6fb01c4a180d9",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.cycle1",
+          "a.cycle2",
+          "a.cycle3",
+          "a.cycle4"
+        ],
+        "source_id": "claim.glacial_cycles"
+      },
+      {
+        "id": "claim:sha256:09ed160394af037cfafae4f69353b0856211ff7cb3399dcd4f37372183b2232b",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.n.bio",
+          "a.n.low",
+          "a.n.nevada",
+          "a.n.positive"
+        ],
+        "source_id": "claim.laurentian_nitrogen_cycle"
+      },
+      {
+        "id": "claim:sha256:2947e5fef1a63e7e6f3d406db959b7c3cf56ca513c1b81214b00c86e1c5b6629",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.circ.downwelling",
+          "a.circ.freshening",
+          "a.circ.hypothesis",
+          "a.circ.models",
+          "a.circ.post1",
+          "a.circ.post2",
+          "a.circ.post3",
+          "a.circ.pre1",
+          "a.circ.pre2",
+          "a.circ.speculative",
+          "a.f4a",
+          "a.f4b",
+          "a.f4c",
+          "a.table1",
+          "anchor:compiler:visual:76833d9f6d8fd9a623c08652b4a7f2194d8550298230f8895d417155df601d4e"
+        ],
+        "source_id": "claim.rhuddanian_circulation"
+      },
+      {
+        "id": "claim:sha256:61ae27a8b895cb533cfac51f5cb077909d4cff6a940ff67bf6cffb7a7cd184e2",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.f4a",
+          "a.f4b",
+          "a.f4c",
+          "a.kat.concl",
+          "a.kat.fig1",
+          "a.kat.fig2",
+          "a.kat.fig3",
+          "a.mid.concl",
+          "a.mid.fig1",
+          "a.mid.fig2",
+          "a.mid.fig3",
+          "a.proxy1",
+          "a.proxy2",
+          "a.rhud.breadth",
+          "a.rhud.concl1",
+          "a.rhud.concl2",
+          "a.rhud.fig1",
+          "a.rhud.fig2",
+          "a.table2",
+          "a.table2.footnote"
+        ],
+        "source_id": "claim.anoxia_trajectory"
+      },
+      {
+        "id": "claim:sha256:fc0f702773584df6e4981b14c06edab59c6281fea2db0e81f962c7e7bb799062",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.org.nitrogen",
+          "a.org.restricted",
+          "a.org.toc",
+          "a.proxy1",
+          "a.proxy2",
+          "a.table2",
+          "a.table2.footnote"
+        ],
+        "source_id": "claim.hirnantian_burial"
+      }
+    ],
+    "visual_evidence": [
+      {
+        "id": "v.table2",
+        "kind": "structured_visual_evidence"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.a.burial.proxy",
+        "kind": "edge",
+        "source_id": "assumption.black_shale_proxy",
+        "target_id": "reason.burial_test",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.a.proxy",
+        "kind": "edge",
+        "source_id": "assumption.black_shale_proxy",
+        "target_id": "reason.distribution_synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.g.burial.count.caption",
+        "kind": "edge",
+        "source_id": "a.table2",
+        "target_id": "obs.burial.mid_count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.burial.count.footnote",
+        "kind": "edge",
+        "source_id": "a.table2.footnote",
+        "target_id": "obs.burial.mid_count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.burial.count.visual",
+        "kind": "edge",
+        "source_id": "v.table2",
+        "target_id": "obs.burial.mid_count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.burial.n",
+        "kind": "edge",
+        "source_id": "a.org.nitrogen",
+        "target_id": "obs.burial.nitrogen",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.burial.toc",
+        "kind": "edge",
+        "source_id": "a.org.toc",
+        "target_id": "obs.burial.organic_matter",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.down",
+        "kind": "edge",
+        "source_id": "a.circ.downwelling",
+        "target_id": "obs.circulation.downwelling",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.fresh",
+        "kind": "edge",
+        "source_id": "a.circ.freshening",
+        "target_id": "obs.circulation.freshening",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.hypothesis",
+        "kind": "edge",
+        "source_id": "a.circ.hypothesis",
+        "target_id": "obs.circulation.hypothesis",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.models",
+        "kind": "edge",
+        "source_id": "a.circ.models",
+        "target_id": "obs.circulation.limitation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.post.fig",
+        "kind": "edge",
+        "source_id": "a.f4c",
+        "target_id": "obs.circulation.rhuddanian_shales",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.post.table",
+        "kind": "edge",
+        "source_id": "a.table1",
+        "target_id": "obs.circulation.rhuddanian_shales",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.post1",
+        "kind": "edge",
+        "source_id": "a.circ.post1",
+        "target_id": "obs.circulation.rhuddanian_shales",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.post2",
+        "kind": "edge",
+        "source_id": "a.circ.post2",
+        "target_id": "obs.circulation.rhuddanian_shales",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.post3",
+        "kind": "edge",
+        "source_id": "a.circ.post3",
+        "target_id": "obs.circulation.rhuddanian_shales",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.pre.fig4a",
+        "kind": "edge",
+        "source_id": "a.f4a",
+        "target_id": "obs.circulation.previous_oxygenation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.pre.fig4b",
+        "kind": "edge",
+        "source_id": "a.f4b",
+        "target_id": "obs.circulation.previous_oxygenation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.pre1",
+        "kind": "edge",
+        "source_id": "a.circ.pre1",
+        "target_id": "obs.circulation.previous_oxygenation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.pre2",
+        "kind": "edge",
+        "source_id": "a.circ.pre2",
+        "target_id": "obs.circulation.previous_oxygenation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.circ.spec",
+        "kind": "edge",
+        "source_id": "a.circ.speculative",
+        "target_id": "obs.circulation.limitation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.cycle1",
+        "kind": "edge",
+        "source_id": "a.cycle1",
+        "target_id": "obs.cycle.phases",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.cycle2",
+        "kind": "edge",
+        "source_id": "a.cycle2",
+        "target_id": "obs.cycle.interglacial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.cycle3",
+        "kind": "edge",
+        "source_id": "a.cycle3",
+        "target_id": "obs.cycle.drawdown",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.grap.carbon",
+        "kind": "edge",
+        "source_id": "a.grap.carbon",
+        "target_id": "obs.graptolite.carbon_timing",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.grap.habitat",
+        "kind": "edge",
+        "source_id": "a.grap.habitat",
+        "target_id": "obs.graptolite.habitat",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.grap.interpretation",
+        "kind": "edge",
+        "source_id": "a.grap.interpretation",
+        "target_id": "obs.graptolite.author_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.grap.replacement",
+        "kind": "edge",
+        "source_id": "a.grap.replacement",
+        "target_id": "obs.graptolite.replacement",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.grap.shift",
+        "kind": "edge",
+        "source_id": "a.grap.shift",
+        "target_id": "obs.graptolite_shift",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.katcount.caption",
+        "kind": "edge",
+        "source_id": "a.table2",
+        "target_id": "obs.katian.count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.katcount.footnote",
+        "kind": "edge",
+        "source_id": "a.table2.footnote",
+        "target_id": "obs.katian.count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.katcount.table",
+        "kind": "edge",
+        "source_id": "v.table2",
+        "target_id": "obs.katian.count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.katpattern.concl",
+        "kind": "edge",
+        "source_id": "a.kat.concl",
+        "target_id": "obs.katian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.katpattern.figure",
+        "kind": "edge",
+        "source_id": "a.f4a",
+        "target_id": "obs.katian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.katpattern.ref1",
+        "kind": "edge",
+        "source_id": "a.kat.fig1",
+        "target_id": "obs.katian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.katpattern.ref2",
+        "kind": "edge",
+        "source_id": "a.kat.fig2",
+        "target_id": "obs.katian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.katpattern.ref3",
+        "kind": "edge",
+        "source_id": "a.kat.fig3",
+        "target_id": "obs.katian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.midcount.caption",
+        "kind": "edge",
+        "source_id": "a.table2",
+        "target_id": "obs.hirnantian.count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.midcount.footnote",
+        "kind": "edge",
+        "source_id": "a.table2.footnote",
+        "target_id": "obs.hirnantian.count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.midcount.table",
+        "kind": "edge",
+        "source_id": "v.table2",
+        "target_id": "obs.hirnantian.count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.midpattern.concl",
+        "kind": "edge",
+        "source_id": "a.mid.concl",
+        "target_id": "obs.hirnantian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.midpattern.figure",
+        "kind": "edge",
+        "source_id": "a.f4b",
+        "target_id": "obs.hirnantian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.midpattern.ref1",
+        "kind": "edge",
+        "source_id": "a.mid.fig1",
+        "target_id": "obs.hirnantian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.midpattern.ref2",
+        "kind": "edge",
+        "source_id": "a.mid.fig2",
+        "target_id": "obs.hirnantian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.midpattern.ref3",
+        "kind": "edge",
+        "source_id": "a.mid.fig3",
+        "target_id": "obs.hirnantian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.midpattern.ref4",
+        "kind": "edge",
+        "source_id": "a.mid.fig4",
+        "target_id": "obs.hirnantian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.n.bio",
+        "kind": "edge",
+        "source_id": "a.n.bio",
+        "target_id": "obs.nitrogen.biomarker",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.n.low",
+        "kind": "edge",
+        "source_id": "a.n.low",
+        "target_id": "obs.nitrogen.low",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.n.nevada",
+        "kind": "edge",
+        "source_id": "a.n.nevada",
+        "target_id": "obs.nitrogen.nevada_shift",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.n.positive",
+        "kind": "edge",
+        "source_id": "a.n.positive",
+        "target_id": "obs.nitrogen.positive_excursion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.rhudbreadth.figure",
+        "kind": "edge",
+        "source_id": "a.f4c",
+        "target_id": "obs.rhuddanian.breadth",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.rhudbreadth.ref1",
+        "kind": "edge",
+        "source_id": "a.rhud.fig1",
+        "target_id": "obs.rhuddanian.breadth",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.rhudbreadth.ref2",
+        "kind": "edge",
+        "source_id": "a.rhud.fig2",
+        "target_id": "obs.rhuddanian.breadth",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.rhudbreadth.text",
+        "kind": "edge",
+        "source_id": "a.rhud.breadth",
+        "target_id": "obs.rhuddanian.breadth",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.rhudcount.caption",
+        "kind": "edge",
+        "source_id": "a.table2",
+        "target_id": "obs.rhuddanian.count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.rhudcount.footnote",
+        "kind": "edge",
+        "source_id": "a.table2.footnote",
+        "target_id": "obs.rhuddanian.count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.rhudcount.table",
+        "kind": "edge",
+        "source_id": "v.table2",
+        "target_id": "obs.rhuddanian.count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.p.burial.count",
+        "kind": "edge",
+        "source_id": "obs.burial.mid_count",
+        "target_id": "reason.burial_test",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.burial.n",
+        "kind": "edge",
+        "source_id": "obs.burial.nitrogen",
+        "target_id": "reason.burial_test",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.burial.toc",
+        "kind": "edge",
+        "source_id": "obs.burial.organic_matter",
+        "target_id": "reason.burial_test",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.circ.change_synth",
+        "kind": "edge",
+        "source_id": "reason.circulation_change",
+        "target_id": "reason.circulation_hypothesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.circ.down",
+        "kind": "edge",
+        "source_id": "obs.circulation.downwelling",
+        "target_id": "reason.circulation_hypothesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.circ.fresh",
+        "kind": "edge",
+        "source_id": "obs.circulation.freshening",
+        "target_id": "reason.circulation_hypothesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.circ.hypothesis",
+        "kind": "edge",
+        "source_id": "obs.circulation.hypothesis",
+        "target_id": "reason.circulation_hypothesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.circ.limitation",
+        "kind": "edge",
+        "source_id": "obs.circulation.limitation",
+        "target_id": "reason.circulation_hypothesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.circ.post",
+        "kind": "edge",
+        "source_id": "obs.circulation.rhuddanian_shales",
+        "target_id": "reason.circulation_change",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.circ.pre",
+        "kind": "edge",
+        "source_id": "obs.circulation.previous_oxygenation",
+        "target_id": "reason.circulation_change",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.cycle1",
+        "kind": "edge",
+        "source_id": "obs.cycle.phases",
+        "target_id": "reason.glacial_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.cycle2",
+        "kind": "edge",
+        "source_id": "obs.cycle.interglacial",
+        "target_id": "reason.glacial_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.cycle3",
+        "kind": "edge",
+        "source_id": "obs.cycle.drawdown",
+        "target_id": "reason.glacial_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.grap.carbon",
+        "kind": "edge",
+        "source_id": "obs.graptolite.carbon_timing",
+        "target_id": "reason.graptolite_timing",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.grap.habitat",
+        "kind": "edge",
+        "source_id": "obs.graptolite.habitat",
+        "target_id": "reason.graptolite_habitat",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.grap.habitat_cause",
+        "kind": "edge",
+        "source_id": "reason.graptolite_habitat",
+        "target_id": "reason.graptolite_cause",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.grap.interpretation",
+        "kind": "edge",
+        "source_id": "obs.graptolite.author_interpretation",
+        "target_id": "reason.graptolite_cause",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.grap.replacement",
+        "kind": "edge",
+        "source_id": "obs.graptolite.replacement",
+        "target_id": "reason.graptolite_habitat",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.grap.shift",
+        "kind": "edge",
+        "source_id": "obs.graptolite_shift",
+        "target_id": "reason.graptolite_timing",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.grap.timing_cause",
+        "kind": "edge",
+        "source_id": "reason.graptolite_timing",
+        "target_id": "reason.graptolite_cause",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.kat_to_synth",
+        "kind": "edge",
+        "source_id": "reason.katian_pattern",
+        "target_id": "reason.distribution_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.katcount",
+        "kind": "edge",
+        "source_id": "obs.katian.count",
+        "target_id": "reason.katian_pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.katpattern",
+        "kind": "edge",
+        "source_id": "obs.katian.pattern",
+        "target_id": "reason.katian_pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.mid_to_synth",
+        "kind": "edge",
+        "source_id": "reason.hirnantian_pattern",
+        "target_id": "reason.distribution_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.midcount",
+        "kind": "edge",
+        "source_id": "obs.hirnantian.count",
+        "target_id": "reason.hirnantian_pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.midpattern",
+        "kind": "edge",
+        "source_id": "obs.hirnantian.pattern",
+        "target_id": "reason.hirnantian_pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.n.bio",
+        "kind": "edge",
+        "source_id": "obs.nitrogen.biomarker",
+        "target_id": "reason.nitrogen_depletion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.n.depletion_synth",
+        "kind": "edge",
+        "source_id": "reason.nitrogen_depletion",
+        "target_id": "reason.nitrogen_cycle_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.n.low",
+        "kind": "edge",
+        "source_id": "obs.nitrogen.low",
+        "target_id": "reason.nitrogen_depletion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.n.nevada",
+        "kind": "edge",
+        "source_id": "obs.nitrogen.nevada_shift",
+        "target_id": "reason.nitrogen_glacial_shift",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.n.positive",
+        "kind": "edge",
+        "source_id": "obs.nitrogen.positive_excursion",
+        "target_id": "reason.nitrogen_glacial_shift",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.n.shift_synth",
+        "kind": "edge",
+        "source_id": "reason.nitrogen_glacial_shift",
+        "target_id": "reason.nitrogen_cycle_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.rhud_to_synth",
+        "kind": "edge",
+        "source_id": "reason.rhuddanian_pattern",
+        "target_id": "reason.distribution_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.rhudbreadth",
+        "kind": "edge",
+        "source_id": "obs.rhuddanian.breadth",
+        "target_id": "reason.rhuddanian_pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.rhudcount",
+        "kind": "edge",
+        "source_id": "obs.rhuddanian.count",
+        "target_id": "reason.rhuddanian_pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.s.burial",
+        "kind": "edge",
+        "source_id": "reason.burial_test",
+        "target_id": "claim:sha256:fc0f702773584df6e4981b14c06edab59c6281fea2db0e81f962c7e7bb799062",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.circ",
+        "kind": "edge",
+        "source_id": "reason.circulation_hypothesis",
+        "target_id": "claim:sha256:2947e5fef1a63e7e6f3d406db959b7c3cf56ca513c1b81214b00c86e1c5b6629",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.cycle",
+        "kind": "edge",
+        "source_id": "reason.glacial_synthesis",
+        "target_id": "claim:sha256:0404ff22641ec4c2d0484d67be39436c05fbf49cc2f29dc944b6fb01c4a180d9",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.distribution",
+        "kind": "edge",
+        "source_id": "reason.distribution_synthesis",
+        "target_id": "claim:sha256:61ae27a8b895cb533cfac51f5cb077909d4cff6a940ff67bf6cffb7a7cd184e2",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.grap.cause",
+        "kind": "edge",
+        "source_id": "reason.graptolite_cause",
+        "target_id": "claim:sha256:00a3323062d49f25c8daf428004c126045d643917cc110cef649729a49099073",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.nitrogen",
+        "kind": "edge",
+        "source_id": "reason.nitrogen_cycle_synthesis",
+        "target_id": "claim:sha256:09ed160394af037cfafae4f69353b0856211ff7cb3399dcd4f37372183b2232b",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:3eca8c2dcacac5cf22388d5b861407f7e550fe9f103f9e096a8a3865613a790d",
+        "kind": "edge",
+        "source_id": "a.table2",
+        "target_id": "obs.rhuddanian.breadth",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:662bec5409c93b9c8add72c044b3f6ce44e2e5ccbac276990bddd50abdbfa1e1",
+        "kind": "edge",
+        "source_id": "a.table2",
+        "target_id": "obs.katian.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:ca42f78af2a12aa7e50b0f5b9939e63e560bede260a770fd71c9ff16eada8cfd",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:76833d9f6d8fd9a623c08652b4a7f2194d8550298230f8895d417155df601d4e",
+        "target_id": "obs.circulation.rhuddanian_shales",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

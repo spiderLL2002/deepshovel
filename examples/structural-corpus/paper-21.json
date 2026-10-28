@@ -1,0 +1,266 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:c0b4d68057a806b7687a8599179955ba50bbf8c2cee68518664b47b98ed17a16",
+  "snapshot_id": "snapshot:sha256:0072ed8ec1fdb70c6547ec18913984534790b6765e39a5fe69a083246065934a",
+  "original_graph_json_sha256": "0072ed8ec1fdb70c6547ec18913984534790b6765e39a5fe69a083246065934a",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:cc31d1e5-cd49-47f7-92e1-5064891b4052",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:c0b4d68057a806b7687a8599179955ba50bbf8c2cee68518664b47b98ed17a16",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:cc31d1e5-cd49-47f7-92e1-5064891b4052",
+        "sha256": "c0b4d68057a806b7687a8599179955ba50bbf8c2cee68518664b47b98ed17a16",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.circ.limit",
+        "artifact_version_id": "artifact-version:sha256:c0b4d68057a806b7687a8599179955ba50bbf8c2cee68518664b47b98ed17a16",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.circ.result",
+        "artifact_version_id": "artifact-version:sha256:c0b4d68057a806b7687a8599179955ba50bbf8c2cee68518664b47b98ed17a16",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.temp.combined",
+        "artifact_version_id": "artifact-version:sha256:c0b4d68057a806b7687a8599179955ba50bbf8c2cee68518664b47b98ed17a16",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.temp.result",
+        "artifact_version_id": "artifact-version:sha256:c0b4d68057a806b7687a8599179955ba50bbf8c2cee68518664b47b98ed17a16",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.temp.solo",
+        "artifact_version_id": "artifact-version:sha256:c0b4d68057a806b7687a8599179955ba50bbf8c2cee68518664b47b98ed17a16",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:65e91f2e97f182059765bc1dbc9ff33f4b2f808ad6feb1a0e2000f8e775af56b",
+        "artifact_version_id": "artifact-version:sha256:c0b4d68057a806b7687a8599179955ba50bbf8c2cee68518664b47b98ed17a16",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:ddd0652d3729ee3f79e7580b43986a4e47a9613fa5e97a6ef5a3b85377b01b69",
+        "artifact_version_id": "artifact-version:sha256:c0b4d68057a806b7687a8599179955ba50bbf8c2cee68518664b47b98ed17a16",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.circulation_response",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.circ.result",
+          "anchor:compiler:visual:65e91f2e97f182059765bc1dbc9ff33f4b2f808ad6feb1a0e2000f8e775af56b"
+        ]
+      },
+      {
+        "id": "obs.sst_response",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.temp.result",
+          "anchor:compiler:visual:ddd0652d3729ee3f79e7580b43986a4e47a9613fa5e97a6ef5a3b85377b01b69"
+        ]
+      },
+      {
+        "id": "obs.stagnant_p_limit",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.circ.limit"
+        ]
+      },
+      {
+        "id": "obs.warming_alone",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.temp.solo"
+        ]
+      },
+      {
+        "id": "obs.warming_with_p",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.temp.combined"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.circulation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.circ.limit",
+          "anchor.circ.result",
+          "anchor:compiler:visual:65e91f2e97f182059765bc1dbc9ff33f4b2f808ad6feb1a0e2000f8e775af56b"
+        ]
+      },
+      {
+        "id": "reason.warming",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.temp.combined",
+          "anchor.temp.result",
+          "anchor.temp.solo",
+          "anchor:compiler:visual:ddd0652d3729ee3f79e7580b43986a4e47a9613fa5e97a6ef5a3b85377b01b69"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:03d91532b62e8729d5d8c3070befed76bdaf4056663c557c7fea61ed7bd99689",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.temp.combined",
+          "anchor.temp.result",
+          "anchor.temp.solo",
+          "anchor:compiler:visual:ddd0652d3729ee3f79e7580b43986a4e47a9613fa5e97a6ef5a3b85377b01b69"
+        ],
+        "source_id": "claim.warming"
+      },
+      {
+        "id": "claim:sha256:555a01bdb6f18ae57e17776854357d7c13ad516a90a24f6768423fc36c0db185",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.circ.limit",
+          "anchor.circ.result",
+          "anchor:compiler:visual:65e91f2e97f182059765bc1dbc9ff33f4b2f808ad6feb1a0e2000f8e775af56b"
+        ],
+        "source_id": "claim.circulation"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.ground.circ.limit",
+        "kind": "edge",
+        "source_id": "anchor.circ.limit",
+        "target_id": "obs.stagnant_p_limit",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.circ.result",
+        "kind": "edge",
+        "source_id": "anchor.circ.result",
+        "target_id": "obs.circulation_response",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.temp.combined",
+        "kind": "edge",
+        "source_id": "anchor.temp.combined",
+        "target_id": "obs.warming_with_p",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.temp.result",
+        "kind": "edge",
+        "source_id": "anchor.temp.result",
+        "target_id": "obs.sst_response",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.temp.solo",
+        "kind": "edge",
+        "source_id": "anchor.temp.solo",
+        "target_id": "obs.warming_alone",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.circulation.limit",
+        "kind": "edge",
+        "source_id": "obs.stagnant_p_limit",
+        "target_id": "reason.circulation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.circulation.response",
+        "kind": "edge",
+        "source_id": "obs.circulation_response",
+        "target_id": "reason.circulation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.warming.alone",
+        "kind": "edge",
+        "source_id": "obs.warming_alone",
+        "target_id": "reason.warming",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.warming.combined",
+        "kind": "edge",
+        "source_id": "obs.warming_with_p",
+        "target_id": "reason.warming",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.warming.response",
+        "kind": "edge",
+        "source_id": "obs.sst_response",
+        "target_id": "reason.warming",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.circulation",
+        "kind": "edge",
+        "source_id": "reason.circulation",
+        "target_id": "claim:sha256:555a01bdb6f18ae57e17776854357d7c13ad516a90a24f6768423fc36c0db185",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.warming",
+        "kind": "edge",
+        "source_id": "reason.warming",
+        "target_id": "claim:sha256:03d91532b62e8729d5d8c3070befed76bdaf4056663c557c7fea61ed7bd99689",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:9cea197591721f975e72aeeb99b2079c6b92e6c195e0bec73a065e40a296d1f9",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:65e91f2e97f182059765bc1dbc9ff33f4b2f808ad6feb1a0e2000f8e775af56b",
+        "target_id": "obs.circulation_response",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:a3fe6ff8d9f507ab91ec2a163c1c5c188c7fb996491bc30289e9a2078c4fbdb8",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:ddd0652d3729ee3f79e7580b43986a4e47a9613fa5e97a6ef5a3b85377b01b69",
+        "target_id": "obs.sst_response",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

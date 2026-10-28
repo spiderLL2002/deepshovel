@@ -1,0 +1,21 @@
+{
+  "verified": true,
+  "scientific_node_equality": "exact JSON field values",
+  "verified_branch_nodes": 5,
+  "verified_branch_edges": 4,
+  "directed_path": [
+    "anchor.text.f2.stability",
+    "obs.f2.assessed",
+    "reason.f2.evidence",
+    "reason.f2.safety",
+    "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+  ],
+  "source_pdf_sha256": "f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+  "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+  "original_shortest_path_unchanged": true,
+  "original_shortest_path_has_observation": false,
+  "branch_is_original_shortest_path": false,
+  "scope": "One paper; structural reproduction only, not independent scientific correctness",
+  "new_provenance_edges_created": 0,
+  "new_snapshots_created": 0
+}

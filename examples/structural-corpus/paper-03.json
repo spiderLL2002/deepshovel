@@ -1,0 +1,762 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+  "snapshot_id": "snapshot:sha256:001831da46d73139d67ec9686df232e8a0e17c6f28f3eeb0b6f85decf184661f",
+  "original_graph_json_sha256": "001831da46d73139d67ec9686df232e8a0e17c6f28f3eeb0b6f85decf184661f",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:f9d6d5c9-cc17-47f0-a407-0971fd8cd3b2",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:f9d6d5c9-cc17-47f0-a407-0971fd8cd3b2",
+        "sha256": "b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.bioturbation",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.fig11",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.fig12",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.globalisotope",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.globalmap1",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.globalmap2",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.iso",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.isoend",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.isotopealign",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.localend",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.losar",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.marker",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.meishan",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.omz",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.panthalassa",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.pyrite",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.sapropelic",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.table1",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:11a9a4e475fa656362720dff5d57b1aea4234e3f1a54bd39f521a71a61bedbc5",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:6136fc941b8aaf5e63678a924044ecb39bbc9467c91d5149414d414659d07420",
+        "artifact_version_id": "artifact-version:sha256:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.biotic_contrast",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.bioturbation"
+        ]
+      },
+      {
+        "id": "obs.global_isotope",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.globalisotope",
+          "anchor:compiler:visual:6136fc941b8aaf5e63678a924044ecb39bbc9467c91d5149414d414659d07420"
+        ]
+      },
+      {
+        "id": "obs.isotope_alignment",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.isotopealign"
+        ]
+      },
+      {
+        "id": "obs.isotope_excursion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig11",
+          "anchor.iso",
+          "anchor.isoend",
+          "anchor.table1"
+        ]
+      },
+      {
+        "id": "obs.local_termination",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.localend"
+        ]
+      },
+      {
+        "id": "obs.losar_pulses",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.losar",
+          "anchor:compiler:visual:11a9a4e475fa656362720dff5d57b1aea4234e3f1a54bd39f521a71a61bedbc5"
+        ]
+      },
+      {
+        "id": "obs.marker_oxygenated",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.marker"
+        ]
+      },
+      {
+        "id": "obs.omz_interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig12",
+          "anchor.omz"
+        ]
+      },
+      {
+        "id": "obs.onset_meishan",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.meishan"
+        ]
+      },
+      {
+        "id": "obs.onset_panthalassa",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.panthalassa"
+        ]
+      },
+      {
+        "id": "obs.perth_termination",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.localend"
+        ]
+      },
+      {
+        "id": "obs.sapropelic_anoxia",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.pyrite",
+          "anchor.sapropelic"
+        ]
+      },
+      {
+        "id": "obs.synchronous_onset",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig12",
+          "anchor.globalmap1",
+          "anchor.globalmap2"
+        ]
+      },
+      {
+        "id": "obs.variable_cessation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig12",
+          "anchor.globalmap1",
+          "anchor.globalmap2"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.cessation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig12",
+          "anchor.globalmap1",
+          "anchor.globalmap2",
+          "anchor.localend",
+          "anchor.losar",
+          "anchor:compiler:visual:11a9a4e475fa656362720dff5d57b1aea4234e3f1a54bd39f521a71a61bedbc5"
+        ]
+      },
+      {
+        "id": "reason.isotope_correlation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.globalisotope",
+          "anchor:compiler:visual:6136fc941b8aaf5e63678a924044ecb39bbc9467c91d5149414d414659d07420"
+        ]
+      },
+      {
+        "id": "reason.isotope_signal",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig11",
+          "anchor.iso",
+          "anchor.isoend",
+          "anchor.isotopealign",
+          "anchor.table1"
+        ]
+      },
+      {
+        "id": "reason.local_age",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.localend"
+        ]
+      },
+      {
+        "id": "reason.local_redox",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.bioturbation",
+          "anchor.marker",
+          "anchor.pyrite",
+          "anchor.sapropelic"
+        ]
+      },
+      {
+        "id": "reason.mechanism",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig12",
+          "anchor.omz"
+        ]
+      },
+      {
+        "id": "reason.onset",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig12",
+          "anchor.globalmap1",
+          "anchor.globalmap2",
+          "anchor.meishan",
+          "anchor.panthalassa"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:06fc8dc393008fc1bd84074ee6a3443a709626f96bb0588156c9c4302356bc94",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig12",
+          "anchor.globalmap1",
+          "anchor.globalmap2",
+          "anchor.localend",
+          "anchor.losar",
+          "anchor:compiler:visual:11a9a4e475fa656362720dff5d57b1aea4234e3f1a54bd39f521a71a61bedbc5"
+        ],
+        "source_id": "claim.global_cessation"
+      },
+      {
+        "id": "claim:sha256:4a10d8968b5b847b7af97f9245a9a96d427e79c52e997f00c42419a4f4e1af74",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig12",
+          "anchor.globalmap1",
+          "anchor.globalmap2",
+          "anchor.omz"
+        ],
+        "source_id": "claim.mechanism"
+      },
+      {
+        "id": "claim:sha256:4ff5dcbffdc9059a54f1bd978c968c563e47c08d4d12ffd0c2ae5f9ee951f1db",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig11",
+          "anchor.globalisotope",
+          "anchor.iso",
+          "anchor.isoend",
+          "anchor.isotopealign",
+          "anchor.table1",
+          "anchor:compiler:visual:6136fc941b8aaf5e63678a924044ecb39bbc9467c91d5149414d414659d07420"
+        ],
+        "source_id": "claim.isotope"
+      },
+      {
+        "id": "claim:sha256:8876dc5702fd010167f1fc84344cc4988901262e0baad9dea3754c858bb2de98",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig12",
+          "anchor.globalmap1",
+          "anchor.globalmap2",
+          "anchor.meishan",
+          "anchor.panthalassa"
+        ],
+        "source_id": "claim.global_onset"
+      },
+      {
+        "id": "claim:sha256:e026657550939f440b2006f7c799d63076677c48d97232f9d0025163f6875075",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.bioturbation",
+          "anchor.localend",
+          "anchor.marker",
+          "anchor.pyrite",
+          "anchor.sapropelic"
+        ],
+        "source_id": "claim.local_anoxia"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.ground.align",
+        "kind": "edge",
+        "source_id": "anchor.isotopealign",
+        "target_id": "obs.isotope_alignment",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.bioturb",
+        "kind": "edge",
+        "source_id": "anchor.bioturbation",
+        "target_id": "obs.biotic_contrast",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fig11",
+        "kind": "edge",
+        "source_id": "anchor.fig11",
+        "target_id": "obs.isotope_excursion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fig12.cess",
+        "kind": "edge",
+        "source_id": "anchor.fig12",
+        "target_id": "obs.variable_cessation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fig12.omz",
+        "kind": "edge",
+        "source_id": "anchor.fig12",
+        "target_id": "obs.omz_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fig12.onset",
+        "kind": "edge",
+        "source_id": "anchor.fig12",
+        "target_id": "obs.synchronous_onset",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.globaliso",
+        "kind": "edge",
+        "source_id": "anchor.globalisotope",
+        "target_id": "obs.global_isotope",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.globalmap1",
+        "kind": "edge",
+        "source_id": "anchor.globalmap1",
+        "target_id": "obs.synchronous_onset",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.globalmap1.cess",
+        "kind": "edge",
+        "source_id": "anchor.globalmap1",
+        "target_id": "obs.variable_cessation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.globalmap2",
+        "kind": "edge",
+        "source_id": "anchor.globalmap2",
+        "target_id": "obs.synchronous_onset",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.globalmap2.cess",
+        "kind": "edge",
+        "source_id": "anchor.globalmap2",
+        "target_id": "obs.variable_cessation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.iso",
+        "kind": "edge",
+        "source_id": "anchor.iso",
+        "target_id": "obs.isotope_excursion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.isoend",
+        "kind": "edge",
+        "source_id": "anchor.isoend",
+        "target_id": "obs.isotope_excursion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.localend",
+        "kind": "edge",
+        "source_id": "anchor.localend",
+        "target_id": "obs.local_termination",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.losar",
+        "kind": "edge",
+        "source_id": "anchor.losar",
+        "target_id": "obs.losar_pulses",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.marker",
+        "kind": "edge",
+        "source_id": "anchor.marker",
+        "target_id": "obs.marker_oxygenated",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.meishan",
+        "kind": "edge",
+        "source_id": "anchor.meishan",
+        "target_id": "obs.onset_meishan",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.omz",
+        "kind": "edge",
+        "source_id": "anchor.omz",
+        "target_id": "obs.omz_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.panthalassa",
+        "kind": "edge",
+        "source_id": "anchor.panthalassa",
+        "target_id": "obs.onset_panthalassa",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.perth",
+        "kind": "edge",
+        "source_id": "anchor.localend",
+        "target_id": "obs.perth_termination",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.pyrite",
+        "kind": "edge",
+        "source_id": "anchor.pyrite",
+        "target_id": "obs.sapropelic_anoxia",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.sapropelic",
+        "kind": "edge",
+        "source_id": "anchor.sapropelic",
+        "target_id": "obs.sapropelic_anoxia",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.table1",
+        "kind": "edge",
+        "source_id": "anchor.table1",
+        "target_id": "obs.isotope_excursion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.bioturb",
+        "kind": "edge",
+        "source_id": "obs.biotic_contrast",
+        "target_id": "reason.local_redox",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.globaliso",
+        "kind": "edge",
+        "source_id": "obs.global_isotope",
+        "target_id": "reason.isotope_correlation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.isoalign",
+        "kind": "edge",
+        "source_id": "obs.isotope_alignment",
+        "target_id": "reason.isotope_signal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.isosignal",
+        "kind": "edge",
+        "source_id": "obs.isotope_excursion",
+        "target_id": "reason.isotope_signal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.localend",
+        "kind": "edge",
+        "source_id": "obs.local_termination",
+        "target_id": "reason.local_age",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.localredox",
+        "kind": "edge",
+        "source_id": "reason.local_redox",
+        "target_id": "reason.local_age",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.losar",
+        "kind": "edge",
+        "source_id": "obs.losar_pulses",
+        "target_id": "reason.cessation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.marker",
+        "kind": "edge",
+        "source_id": "obs.marker_oxygenated",
+        "target_id": "reason.local_redox",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.meishan",
+        "kind": "edge",
+        "source_id": "obs.onset_meishan",
+        "target_id": "reason.onset",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.omz",
+        "kind": "edge",
+        "source_id": "obs.omz_interpretation",
+        "target_id": "reason.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.panthalassa",
+        "kind": "edge",
+        "source_id": "obs.onset_panthalassa",
+        "target_id": "reason.onset",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.pattern",
+        "kind": "edge",
+        "source_id": "reason.cessation",
+        "target_id": "reason.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.perth",
+        "kind": "edge",
+        "source_id": "obs.perth_termination",
+        "target_id": "reason.cessation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sapropelic",
+        "kind": "edge",
+        "source_id": "obs.sapropelic_anoxia",
+        "target_id": "reason.local_redox",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.signalcor",
+        "kind": "edge",
+        "source_id": "reason.isotope_signal",
+        "target_id": "reason.isotope_correlation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.synchronous",
+        "kind": "edge",
+        "source_id": "obs.synchronous_onset",
+        "target_id": "reason.onset",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.variable",
+        "kind": "edge",
+        "source_id": "obs.variable_cessation",
+        "target_id": "reason.cessation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.cessation",
+        "kind": "edge",
+        "source_id": "reason.cessation",
+        "target_id": "claim:sha256:06fc8dc393008fc1bd84074ee6a3443a709626f96bb0588156c9c4302356bc94",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.isotope",
+        "kind": "edge",
+        "source_id": "reason.isotope_correlation",
+        "target_id": "claim:sha256:4ff5dcbffdc9059a54f1bd978c968c563e47c08d4d12ffd0c2ae5f9ee951f1db",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.localanoxia",
+        "kind": "edge",
+        "source_id": "reason.local_age",
+        "target_id": "claim:sha256:e026657550939f440b2006f7c799d63076677c48d97232f9d0025163f6875075",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.mechanism",
+        "kind": "edge",
+        "source_id": "reason.mechanism",
+        "target_id": "claim:sha256:4a10d8968b5b847b7af97f9245a9a96d427e79c52e997f00c42419a4f4e1af74",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.onset",
+        "kind": "edge",
+        "source_id": "reason.onset",
+        "target_id": "claim:sha256:8876dc5702fd010167f1fc84344cc4988901262e0baad9dea3754c858bb2de98",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:5e4dea2bf13f7d2df7e8780c1d4035f1feeea02de2aafb8a1fd30ea891ca970b",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:6136fc941b8aaf5e63678a924044ecb39bbc9467c91d5149414d414659d07420",
+        "target_id": "obs.global_isotope",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:a84780caa89f42286277d279b8682ac4f0b046c9c14312b72ffeff3fe18a265e",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:11a9a4e475fa656362720dff5d57b1aea4234e3f1a54bd39f521a71a61bedbc5",
+        "target_id": "obs.losar_pulses",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

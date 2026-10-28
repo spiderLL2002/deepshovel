@@ -1,0 +1,818 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+  "snapshot_id": "snapshot:sha256:002ea7a7c1719bd688bf6e66bd6ba0d0bd0050af9637441bf2a3c393f1ab04f1",
+  "original_graph_json_sha256": "002ea7a7c1719bd688bf6e66bd6ba0d0bd0050af9637441bf2a3c393f1ab04f1",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:927c798d-660b-47ff-a502-de9fafaeba35",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:927c798d-660b-47ff-a502-de9fafaeba35",
+        "sha256": "3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "a.c1.conclusion",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "a.cl",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "a.cl.production",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.corg",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "a.deeper.conclusion",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "a.degradation.interpretation",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "a.degradation.tex",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.exception.conclusion",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "a.fig4.ref",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.fig6a.ref",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "a.fig6b.ref",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.fig6c.ref",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "a.figure4",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 35
+        }
+      },
+      {
+        "id": "a.figure5",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 36
+        }
+      },
+      {
+        "id": "a.figure6",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 37
+        }
+      },
+      {
+        "id": "a.flux.assumption",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "a.gdgt0.increase",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "a.hph.depth",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "a.ipl.trends",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "a.spm.caveat",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.spm.depth",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.surface.production",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.temperature.impact",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "a.tex.cl",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.tex.ipl",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.tex.toz.correlation",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.trap.deep",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.trap.interpretation",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.trap.shallow",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:650e9a842b41fba91b6e3c6a95bdc8c54b80322ac9a93c61285a35e5ed6c9949",
+        "artifact_version_id": "artifact-version:sha256:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 31
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.cl",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.cl",
+          "a.fig6c.ref",
+          "a.figure6"
+        ]
+      },
+      {
+        "id": "obs.corg",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.corg",
+          "a.fig6a.ref",
+          "a.figure6"
+        ]
+      },
+      {
+        "id": "obs.exceptions",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.exception.conclusion"
+        ]
+      },
+      {
+        "id": "obs.gdgt0",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.gdgt0.increase"
+        ]
+      },
+      {
+        "id": "obs.hph",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure5",
+          "a.hph.depth"
+        ]
+      },
+      {
+        "id": "obs.ipl.trends",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.ipl.trends"
+        ]
+      },
+      {
+        "id": "obs.spm",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.spm.caveat",
+          "a.spm.depth"
+        ]
+      },
+      {
+        "id": "obs.surface.production",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.cl.production",
+          "a.surface.production"
+        ]
+      },
+      {
+        "id": "obs.temperature.impact",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.temperature.impact"
+        ]
+      },
+      {
+        "id": "obs.tex.cl",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.fig4.ref",
+          "a.figure4",
+          "a.tex.cl"
+        ]
+      },
+      {
+        "id": "obs.tex.ipl",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.tex.ipl"
+        ]
+      },
+      {
+        "id": "obs.tex.toz",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.degradation.tex",
+          "a.fig6b.ref",
+          "a.figure6",
+          "a.tex.toz.correlation"
+        ]
+      },
+      {
+        "id": "obs.trap",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.trap.deep",
+          "a.trap.shallow"
+        ]
+      },
+      {
+        "id": "obs.trap.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.trap.interpretation"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.degradation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.c1.conclusion",
+          "a.degradation.interpretation",
+          "anchor:compiler:visual:650e9a842b41fba91b6e3c6a95bdc8c54b80322ac9a93c61285a35e5ed6c9949"
+        ]
+      },
+      {
+        "id": "reason.exceptions",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.exception.conclusion",
+          "a.hph.depth"
+        ]
+      },
+      {
+        "id": "reason.temperature.impact",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.deeper.conclusion",
+          "a.temperature.impact"
+        ]
+      },
+      {
+        "id": "reason.tex86",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.deeper.conclusion",
+          "a.degradation.tex",
+          "a.trap.interpretation"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.flux",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.flux.assumption"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:45aff7241e8162a2807ad1269dd0f12605dea0f1510ee2d5d7f499b1306d1c32",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.cl.production",
+          "a.deeper.conclusion",
+          "a.degradation.tex",
+          "a.fig4.ref",
+          "a.fig6b.ref",
+          "a.figure4",
+          "a.spm.caveat",
+          "a.spm.depth",
+          "a.surface.production",
+          "a.tex.cl",
+          "a.tex.ipl",
+          "a.tex.toz.correlation",
+          "a.trap.deep",
+          "a.trap.interpretation",
+          "a.trap.shallow"
+        ],
+        "source_id": "claim.tex86_depth_mechanism"
+      },
+      {
+        "id": "claim:sha256:5bb03e8207b2c7593a6db3589baa6510c6513c32cb1ad7f040298371b83b76f2",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.c1.conclusion",
+          "a.cl",
+          "a.corg",
+          "a.degradation.interpretation",
+          "a.fig6a.ref",
+          "a.fig6c.ref",
+          "a.figure6",
+          "a.ipl.trends",
+          "anchor:compiler:visual:650e9a842b41fba91b6e3c6a95bdc8c54b80322ac9a93c61285a35e5ed6c9949"
+        ],
+        "source_id": "claim.degradation"
+      },
+      {
+        "id": "claim:sha256:e1a8164a0d7cba994eedd95ab6f8d79e20a2df7f97d5d6f8584eda9bc973ea67",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.deeper.conclusion",
+          "a.fig4.ref",
+          "a.figure4",
+          "a.temperature.impact",
+          "a.tex.cl"
+        ],
+        "source_id": "claim.temperature_bias"
+      },
+      {
+        "id": "claim:sha256:f6f399f438416dc815fec2e2f506fc3589c1502a8f60b3231e525ebab537aaf3",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.exception.conclusion",
+          "a.figure5",
+          "a.gdgt0.increase",
+          "a.hph.depth"
+        ],
+        "source_id": "claim.in_situ_exceptions"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.assumption.flux",
+        "kind": "edge",
+        "source_id": "assumption.flux",
+        "target_id": "reason.degradation",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.ground.cl",
+        "kind": "edge",
+        "source_id": "a.cl",
+        "target_id": "obs.cl",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.cl.figure",
+        "kind": "edge",
+        "source_id": "a.figure6",
+        "target_id": "obs.cl",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.cl.ref",
+        "kind": "edge",
+        "source_id": "a.fig6c.ref",
+        "target_id": "obs.cl",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.clprod",
+        "kind": "edge",
+        "source_id": "a.cl.production",
+        "target_id": "obs.surface.production",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.corg",
+        "kind": "edge",
+        "source_id": "a.corg",
+        "target_id": "obs.corg",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.corg.figure",
+        "kind": "edge",
+        "source_id": "a.figure6",
+        "target_id": "obs.corg",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.corg.ref",
+        "kind": "edge",
+        "source_id": "a.fig6a.ref",
+        "target_id": "obs.corg",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.degradtex",
+        "kind": "edge",
+        "source_id": "a.degradation.tex",
+        "target_id": "obs.tex.toz",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.exceptions",
+        "kind": "edge",
+        "source_id": "a.exception.conclusion",
+        "target_id": "obs.exceptions",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.gdgt0",
+        "kind": "edge",
+        "source_id": "a.gdgt0.increase",
+        "target_id": "obs.gdgt0",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.hph",
+        "kind": "edge",
+        "source_id": "a.hph.depth",
+        "target_id": "obs.hph",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.hph.figure",
+        "kind": "edge",
+        "source_id": "a.figure5",
+        "target_id": "obs.hph",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.ipl",
+        "kind": "edge",
+        "source_id": "a.ipl.trends",
+        "target_id": "obs.ipl.trends",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.spm",
+        "kind": "edge",
+        "source_id": "a.spm.depth",
+        "target_id": "obs.spm",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.spmcaveat",
+        "kind": "edge",
+        "source_id": "a.spm.caveat",
+        "target_id": "obs.spm",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.surfaceprod",
+        "kind": "edge",
+        "source_id": "a.surface.production",
+        "target_id": "obs.surface.production",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.temperature",
+        "kind": "edge",
+        "source_id": "a.temperature.impact",
+        "target_id": "obs.temperature.impact",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.texcl",
+        "kind": "edge",
+        "source_id": "a.tex.cl",
+        "target_id": "obs.tex.cl",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.texfigure",
+        "kind": "edge",
+        "source_id": "a.figure4",
+        "target_id": "obs.tex.cl",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.texipl",
+        "kind": "edge",
+        "source_id": "a.tex.ipl",
+        "target_id": "obs.tex.ipl",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.texref",
+        "kind": "edge",
+        "source_id": "a.fig4.ref",
+        "target_id": "obs.tex.cl",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.toz",
+        "kind": "edge",
+        "source_id": "a.tex.toz.correlation",
+        "target_id": "obs.tex.toz",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.tozfigure",
+        "kind": "edge",
+        "source_id": "a.figure6",
+        "target_id": "obs.tex.toz",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.tozref",
+        "kind": "edge",
+        "source_id": "a.fig6b.ref",
+        "target_id": "obs.tex.toz",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.trap1",
+        "kind": "edge",
+        "source_id": "a.trap.deep",
+        "target_id": "obs.trap",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.trap2",
+        "kind": "edge",
+        "source_id": "a.trap.shallow",
+        "target_id": "obs.trap",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.trapinterp",
+        "kind": "edge",
+        "source_id": "a.trap.interpretation",
+        "target_id": "obs.trap.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.cl",
+        "kind": "edge",
+        "source_id": "obs.cl",
+        "target_id": "reason.degradation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.corg",
+        "kind": "edge",
+        "source_id": "obs.corg",
+        "target_id": "reason.degradation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.exceptions",
+        "kind": "edge",
+        "source_id": "obs.exceptions",
+        "target_id": "reason.exceptions",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.gdgt0",
+        "kind": "edge",
+        "source_id": "obs.gdgt0",
+        "target_id": "reason.exceptions",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hph",
+        "kind": "edge",
+        "source_id": "obs.hph",
+        "target_id": "reason.exceptions",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.ipl",
+        "kind": "edge",
+        "source_id": "obs.ipl.trends",
+        "target_id": "reason.degradation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.spm",
+        "kind": "edge",
+        "source_id": "obs.spm",
+        "target_id": "reason.tex86",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.surfaceprod",
+        "kind": "edge",
+        "source_id": "obs.surface.production",
+        "target_id": "reason.tex86",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.temperature",
+        "kind": "edge",
+        "source_id": "obs.temperature.impact",
+        "target_id": "reason.temperature.impact",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tex86.impact",
+        "kind": "edge",
+        "source_id": "reason.tex86",
+        "target_id": "reason.temperature.impact",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.texcl",
+        "kind": "edge",
+        "source_id": "obs.tex.cl",
+        "target_id": "reason.tex86",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.texipl",
+        "kind": "edge",
+        "source_id": "obs.tex.ipl",
+        "target_id": "reason.tex86",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.toz",
+        "kind": "edge",
+        "source_id": "obs.tex.toz",
+        "target_id": "reason.tex86",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.trap",
+        "kind": "edge",
+        "source_id": "obs.trap",
+        "target_id": "reason.tex86",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.trapinterp",
+        "kind": "edge",
+        "source_id": "obs.trap.interpretation",
+        "target_id": "reason.tex86",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.degradation",
+        "kind": "edge",
+        "source_id": "reason.degradation",
+        "target_id": "claim:sha256:5bb03e8207b2c7593a6db3589baa6510c6513c32cb1ad7f040298371b83b76f2",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.exceptions",
+        "kind": "edge",
+        "source_id": "reason.exceptions",
+        "target_id": "claim:sha256:f6f399f438416dc815fec2e2f506fc3589c1502a8f60b3231e525ebab537aaf3",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.temperature",
+        "kind": "edge",
+        "source_id": "reason.temperature.impact",
+        "target_id": "claim:sha256:e1a8164a0d7cba994eedd95ab6f8d79e20a2df7f97d5d6f8584eda9bc973ea67",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.tex86",
+        "kind": "edge",
+        "source_id": "reason.tex86",
+        "target_id": "claim:sha256:45aff7241e8162a2807ad1269dd0f12605dea0f1510ee2d5d7f499b1306d1c32",
+        "relation": "infers"
+      }
+    ]
+  }
+}

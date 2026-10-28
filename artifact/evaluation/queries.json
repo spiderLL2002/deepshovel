@@ -1,0 +1,572 @@
+[
+  {
+    "query_id": "q03",
+    "query_text": "rare earth element REE scavenging seawater ferrihydrite",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q04",
+    "query_text": "iron isotope fractionation low temperature pyrite formation",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q05",
+    "query_text": "molybdenum isotope euxinic conditions ocean sediment black shale",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q06",
+    "query_text": "lithium isotope continental weathering silicate mineral",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q07",
+    "query_text": "boron isotope proxy seawater pH foraminifera",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q08",
+    "query_text": "osmium isotope Archean mantle komatiite",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q09",
+    "query_text": "tungsten isotope anomaly Hadean Archean zircon",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q10",
+    "query_text": "chromium isotope fractionation oxidative weathering Precambrian",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q11",
+    "query_text": "uranium thorium isotope ratio arc magma subduction zone",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q12",
+    "query_text": "magnesium isotope clay mineral weathering profile",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q14",
+    "query_text": "silicon isotope biogenic silica diatom fractionation",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q15",
+    "query_text": "calcium isotope carbonate preservation seawater Cretaceous",
+    "source_batch": "legacy12"
+  },
+  {
+    "query_id": "q16",
+    "query_text": "What crustal thickness is inferred from receiver-function stacking along the approximately 200 km Afar array, and how does it vary between the Red Sea Rift axis and the Red Sea–Gulf of Aden overlap zone?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q17",
+    "query_text": "What horizontal sinistral slip rates are reported for the Evrona Fault during the Late Pleistocene and during the Holocene?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q18",
+    "query_text": "In the North Anatolian Fault InSAR profile inversion, what mean slip rate and locking depth are reported when the T400a rate map is excluded?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q19",
+    "query_text": "What age interval is interpreted as the principal younger zircon crystallization population at Wadi Tayin, and how is it distinguished from the full single-grain 206Pb/238U date range?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q20",
+    "query_text": "What temperatures are inferred for progressive strain localization in the Hilti mantle shear zone from porphyroclastic tectonite through (proto)mylonite to ultramylonite?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q21",
+    "query_text": "What pressure–temperature conditions are inferred for retrograde metamorphism in the Bajgan Complex from chlorite and clinozoisite replacing garnet?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q22",
+    "query_text": "What peak-metamorphic pressure–temperature conditions are assigned to the M1b assemblage in Mahneshan metapelitic rocks?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q23",
+    "query_text": "What maximum individual melt-equilibration temperatures are estimated for Hasan Monogenetic Cluster basalts containing more than 8 wt% MgO, and what group mean and dispersion are reported?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q24",
+    "query_text": "What 10 kyr tilting rate is inferred at the depocenter approximately 2 km west of the eastern Karamürsel Basin shoreline?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q25",
+    "query_text": "What total duration of Antarctic Ferrar magmatism is bracketed from emplacement of the Dawson Peak sill to eruption of the uppermost Storm Peak lava?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q26",
+    "query_text": "What sulfur budgets are calculated for Ethiopian peralkaline rhyolite eruptions under explicitly stated assumptions about coexisting fluid abundance and sulfur concentration in that fluid?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q27",
+    "query_text": "What sedimentation rate is obtained from the 210Pb CIC fit for the 600 m-deep anoxic western Black Sea core sampled in 2004?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q28",
+    "query_text": "At what depth below the seafloor is T-type REY-rich mud reported in the southern to southeastern Minamitorishima EEZ, and what overlying sediment condition is noted there?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q29",
+    "query_text": "Find measured U–Pb dates in marine carbonate-fluorapatite phosphorites that record post-depositional closure rather than phosphate precipitation; retain the sample identities and the interpretation of each date.",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q30",
+    "query_text": "In Holocene surface sediments around the Emperor Seamount Chain, what relationship between sortable-silt grain size and water depth can be reused to compare bottom-current strength, and at what depths is the contrast with the abyssal plain especially strong?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q31",
+    "query_text": "Find quantitative core-plug comparisons of porosity and permeability between limestone and dolomite that can inform a comparison of dolomitization effects on carbonate reservoir quality; retain formation and field identity.",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q32",
+    "query_text": "For Barremian–Aptian mud-supported limestones at Jabal Madar, how does dedolomite abundance affect reuse of carbon- and oxygen-isotope measurements, comparing samples with only 5–10% dedolomite to those with abundant replacive dedolomite?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q33",
+    "query_text": "At core PER 6 in the Sound of Lefkada, what calibrated radiocarbon interval from plant remains constrains the uppermost tsunami layer, and should it be reused as an exact event date or as a temporal limit?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q34",
+    "query_text": "For open Mediterranean surface seawater sampled on the Urania cruise in July–August 2000, retrieve the dissolved fraction of total mercury and the total-mercury concentration range suitable for reuse, including any excluded contaminated value.",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q35",
+    "query_text": "In anoxic incubations of Romanian Black Sea shelf sediment below about 1 cm depth, what quantitative stoichiometric assumption and observed production-rate agreement support assigning organic-carbon oxidation to sulfate reduction?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q36",
+    "query_text": "For Smeerenburgfjorden sediment slurries from the 0–2 cm layer, what fraction of iron reduction was attributed to electron donors other than the investigated volatile fatty acids?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q37",
+    "query_text": "During PETM recovery, find quantitative model–data evidence comparing continental-margin and deep-ocean contributions to excess organic-carbon burial; preserve the model scenario and distinguish regional shares from the global total.",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q38",
+    "query_text": "Find grain-size endmember measurements used to infer riverine sediment delivery during African Humid Periods, retaining the core identity, the interpreted transport process, and, where reported, the ranking of discharge intensity among periods.",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q39",
+    "query_text": "In mercury-impacted Bay of Biscay marine sediments, does normalized merA and hgcAB gene abundance provide a statistically supported proxy for total mercury concentration, and what restriction applies when reusing the relationship as evidence of active mercury transformation?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q40",
+    "query_text": "For the Summer 2011 North Carolina sampling, what arsenic concentrations were measured at the Asheville and Riverbend coal-combustion-residual outfalls, retaining which value belongs to each site?",
+    "source_batch": "new25"
+  },
+  {
+    "query_id": "q41",
+    "query_text": "How strongly can the fluid/melt Ce/H2O ratio vary with salinity at fixed 4 GPa and 800°C in fluid–eclogite experiments, and what does that imply for a temperature-only indicator?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q42",
+    "query_text": "What crystallization-age interval is indicated by SIMS zircon U–Pb data for Meiji Atoll drill-hole andesites?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q43",
+    "query_text": "What average subsidence rate is inferred for ODP Site 650 in the Marsili Basin from a vesicularity-based depth reconstruction, and over what interval is it applied?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q44",
+    "query_text": "What zircon U–Pb crystallization age is reported for the Keketuohai pyroxene diorite in the Chinese Altai?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q45",
+    "query_text": "What zircon 206Pb/238U age result is reported for Band-e-Hezarchah metabasite sample 79-2, and how does the summary age relate to the spread of individual dates?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q46",
+    "query_text": "What preferred Rb–Sr mineral-isochron age is reported for the Ebrahim-Attar (EBAT) body?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q47",
+    "query_text": "In the noisy GeoStrain synthetic models B and C, with ±0.5 and ±1.0 mm/yr velocity noise, how well were rotation rate and maximum shear strain rate recovered?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q48",
+    "query_text": "What zircon crystallization age is reported for GH15 granodiorite at Jabal Ghadarah, and how is it cautiously interpreted relative to early transpressive deformation of the Najd fault system?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q49",
+    "query_text": "What two discrete periods of volcanic activity are identified for the Aleppo Plateau and vicinity in northwestern Syria?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q50",
+    "query_text": "Under the modeled gas-injection conditions, what maximum pore pressure can fault F2 in the Asmari reservoir sustain, and how do the three fault-stability formulations characterize it?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q51",
+    "query_text": "What south-to-north change in slip rate is reported along the Dead Sea Fault through the Jordan Valley?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q52",
+    "query_text": "What shallow creep rate and depth extent are inferred for the northern Jordan Valley Fault from GPS measurements and dislocation-model inversion?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q53",
+    "query_text": "How did the width of the Taupo Rift change since approximately 1.5–2 Ma?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q54",
+    "query_text": "What amount and average rate of uplift are inferred for the southern margin of the Central Anatolian Plateau since 0.467 Ma?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q55",
+    "query_text": "How much of the GPS velocity-field variance does the three-parameter Anatolia–Aegean thin-sheet model account for, and what regional velocity-direction and magnitude features does it reproduce?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q56",
+    "query_text": "How do the western- and eastern-domain mean Moho-corrected Pn velocities compare in the eastern Europe–western China tomography study?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q57",
+    "query_text": "What maximum creep rate is inferred from ascending and descending InSAR about 30 km east of Ismetpasa, and how does it compare with the single-descending-look estimate?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q58",
+    "query_text": "What mean right-lateral slip rate is inferred for the eastern Düzce Fault from approximately 7–60 ka offset streams and terraces, and what qualifications accompany this estimate?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q59",
+    "query_text": "What paired laboratory-scale and natural-scale estimates of maximum horizontal trench-normal deviatoric stress have been reported for analogue subduction/backarc experiments?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q60",
+    "query_text": "What stress-drop range is inferred for small earthquakes southeast of Beni-Suef using a Brune circular-source model and displacement-spectrum inversion?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q61",
+    "query_text": "What shear-wave velocities and depth interval have been inferred for the low-velocity zone beneath the western Arabian Shield?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q62",
+    "query_text": "During the 2013 Mw 7.7 Balochistan earthquake, in which direction and at approximately what speed did rupture propagate along the Hoshab fault?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q63",
+    "query_text": "Find quantitative estimates showing how a subduction zone’s thermal gradient changed through time, with the location and time interval identified.",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q64",
+    "query_text": "What mantle potential temperature was inferred for Jurassic mafic alkaline magmatism in Scania, southern Sweden?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q65",
+    "query_text": "Find zircon U–Pb crystallization-age estimates for granites of the Jabal Al-Hassir ring complex in the southern Arabian Shield.",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q66",
+    "query_text": "How does the pooled mean nitrate concentration across the 73-bore-well survey in the eastern Central Arabian graben and trough system compare with the Biyadh and Biyadh–Wasia aquifer-specific means?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q67",
+    "query_text": "What fraction of groundwater samples from the El Kef-Sers Mio-Plio-Quaternary aquifer exceeded the study-cited nitrate threshold of 50 mg/L?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q68",
+    "query_text": "What fraction of solid-phase arsenic was interpreted as trivalent in ferromanganese nodule MB4 from Mecklenburg Bight?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q69",
+    "query_text": "What seawater-fraction range was estimated by chloride mass balance for semiconfined fissure groundwater on the east coast of the Pearl River Estuary near Shenzhen?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q70",
+    "query_text": "Based on absolute non-carbonate alkalinity values, what approximate NCA contribution to total alkalinity was inferred in spring 2015 Martinique Beach groundwater in the Magdalen Islands, and how were negative NCA values interpreted?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q71",
+    "query_text": "What positive submarine-groundwater-discharge water-flux range is reported from the 222Rn mass balance for the Cuddalore coast, and why is it not the complete signed range across all modeled stations?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q72",
+    "query_text": "What combined global water-column denitrification budget does the particle-microenvironment model estimate, and how is it divided between suboxic waters and waters outside the suboxic domain?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q73",
+    "query_text": "How did mineral-nutrient addition affect sulfolane biodegradation at nominal 100 mg/L versus 500 μg/L in aerobic sediment–groundwater slurries from North Pole, Alaska?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q74",
+    "query_text": "What was the maximum reconstructed amount of sulfate reduced in the revised northeastern Osaka Basin Rayleigh model, and what sequence of redox processes was inferred for that groundwater?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q76",
+    "query_text": "What lake-derived groundwater fractions were inferred around Lake Barco by δ18O–δ2H mass balance, and how did they differ beneath the lake, at breached confinement, and along the downgradient well sequence?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q77",
+    "query_text": "What fraction of total nitrogen was sorbed ammonium in the Orleans, Cape Cod wastewater plume in December 1992, and what nitrogen pool formed the denominator?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q78",
+    "query_text": "Find quantitative groundwater-age error estimates caused by local atmospheric CFC excess relative to a global atmospheric input curve, retaining the location and input-history assumptions.",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q79",
+    "query_text": "At how many Wellington-region groundwater sites did Halon-1301 exponential-piston-model mean residence times agree with tritium and/or SF6 estimates, and what agreement criterion was reported?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q80",
+    "query_text": "What ammonium-front advance velocities were observed over 7.7 years in the MMR plume at Cape Cod, and what fraction of groundwater velocity did they represent?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q81",
+    "query_text": "How did dissolved iron concentrations differ across the anoxic, suboxic and oxic groundwater zones of the Poocher Swamp freshwater lens?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q82",
+    "query_text": "Using the 1990 census baseline, what number and share of people served by domestic wells in the conterminous United States were estimated potentially to consume groundwater with Mn above 300 μg/L?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q83",
+    "query_text": "For Nørresø in the 2016–2017 hydrological year, what groundwater shares of annual external water-borne DIP loading were estimated under the spring-concentration scenario and the lower-concentration scenario, and what assumptions define each?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q84",
+    "query_text": "What upper limit on porewater nitrate concentration loss was observed along the Fishermans Cove, Ashumet Pond natural-gradient tracer path, including the acetate-added second test?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q85",
+    "query_text": "How did modeled nitrite residence times differ between the central NH4+, sulfate- and nitrate-rich Leuna plume wells and adjacent hydrocarbon-rich, electron-acceptor-poor wells?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q86",
+    "query_text": "For the nitrate-amended anoxic paddy-soil microcosms labeled S1 and S2, what fraction of total N2O emissions was attributed to chemodenitrification, and was that fraction measured directly or estimated?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q87",
+    "query_text": "How did potential denitrification rates in Werribee Southern Beach sandy sediments differ between summer and winter in the anoxic flow-through reactor experiments? Give the reported seasonal ranges with units.",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q88",
+    "query_text": "At the shallow Peruvian shelf station reported at 70 m water depth, how did integrated surface methanogenesis compare with the estimated deep methane production? Give the surface-to-deep ratio and explain the basis of the deep-production estimate.",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q89",
+    "query_text": "Find quantitative estimates of the fraction of total nitrate reduction attributable to anammox in marine sediments. Report the fraction and identify the sampled setting and measurement context.",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q90",
+    "query_text": "What annual denitrification nitrogen-loss range was extrapolated for the western Indian continental shelf during seasonal anoxia, and what reducing-season duration and water-volume range underpinned it?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q91",
+    "query_text": "For the two Kömürlü–Penek sandstone reservoir zones evaluated in the Aşkale single-well study, what effective-porosity and computed-permeability ranges were reported?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q92",
+    "query_text": "What hydrocarbon-saturation range and mean were obtained for Baba Sandstone in the selected Badri Field wells?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q93",
+    "query_text": "What prevailing late Aptian surface-temperature range is inferred from primary halite inclusions in Congo Basin core ZK143?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q94",
+    "query_text": "In West Qurna Mishrif carbonate barriers and intercalations, what fraction of pore space is microporous, and how is a micropore defined?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q95",
+    "query_text": "During sapropel S1, when was Libyan-margin riverine sediment input strongest in core CP10BC?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q96",
+    "query_text": "What age window do the pollen and dinocyst records in western Black Sea core AKAD 11-17 assign to the short cooling episode associated with the 8.2 ka event?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q97",
+    "query_text": "Which low-frequency periods are prominent in the ODP 966/967 wet-phase precipitation reconstruction over the last 4.5 million years?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q98",
+    "query_text": "For Fur and Store Bælt, how much warming across the Palaeocene–Eocene boundary is inferred using TEX86H after excluding the anomalous pre-CIE glauconitic silt?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q99",
+    "query_text": "Find quantitative porosity observations for Black Sea sapropel sediment horizons.",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q100",
+    "query_text": "In Well Z201 at 4317–4374 m, how do total and fracture porosity compare in the deep Wufeng–Longmaxi shale?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q101",
+    "query_text": "What oxygen-isotope paleotemperature was estimated for Ma5 dolomite deposition in the Dingbei area, and what caveats affect that estimate?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q102",
+    "query_text": "For the studied southern Tibetan Cretaceous sections, how does the TOC–sedimentation-rate relationship differ below 4 cm/ka and at higher rates?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q103",
+    "query_text": "What magnitude of midlatitude sea-surface cooling accompanied CO2 drawdown during the Plenus Cold Event?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q104",
+    "query_text": "What preliminary duration and mean sedimentation rate were inferred for the 26.5-m Wunstorf OAE2 black-shale succession from its potential eccentricity cycles?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q105",
+    "query_text": "What maximum SST variation is inferred from planktic oxygen isotopes in Lower Saxony core GB1 during the middle to early-late Albian?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q106",
+    "query_text": "What range of average sedimentation rates is reported across the four studied Central Tunisian Bahloul sections using cyclostratigraphic tuning?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q107",
+    "query_text": "What porosity and qualitative pore-connectivity evidence supports reservoir potential in Carboniferous sandstones of the Ballavaarkish borehole?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q108",
+    "query_text": "At Falkland Plateau DSDP Site 511, what temperature offset separates TEX86 and belemnite oxygen-isotope estimates through the Late Jurassic–Early Cretaceous, and how is it interpreted?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q109",
+    "query_text": "What characteristic mean grain diameter supports the aeolian-dust interpretation for the Soom Shale Member, and are all grains that size?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q110",
+    "query_text": "At Fiskegrav, what duration is assigned to late Permian marine and terrestrial ecosystem collapse using the revised sedimentation rates, compared with the earlier estimate?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q111",
+    "query_text": "How do western-Tethys calibrated m-TI and TEX86 SST estimates differ in the late Cenomanian?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q113",
+    "query_text": "Under the paper’s 20–30 cm sea-level-rise scenario for 2020–2030, what average Romanian-coast recession rate was estimated using Bruun theory?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q114",
+    "query_text": "How did linear sedimentation rates differ between the lower 10 m and uppermost 3 m of equatorial Pacific core EW9709-PC07?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q115",
+    "query_text": "In the Hatton Bank multi-core reconstruction, what mean sedimentation rates are reported for the last glacial interval and for roughly the last 18 ka, termed “interglacial” in that paper?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q116",
+    "query_text": "What proportion of Congo Fan turbidite detritus is estimated to originate from northward-drifting northern Angolan littoral sand?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q117",
+    "query_text": "What porosity and permeability thresholds characterize the better-quality MF-5 and MF-6 facies of the upper Fahliyan reservoir in S Field?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q119",
+    "query_text": "In the studied Khuff reservoir, how much does the porosity–permeability correlation change when evaluated within SSF depositional zones instead of across the whole formation?",
+    "source_batch": "new80"
+  },
+  {
+    "query_id": "q120",
+    "query_text": "For the independent 95-sample Shuaiba validation set, how do reported Klinkenberg-permeability prediction errors compare between the general Shuaiba correlation and the North Sea equation?",
+    "source_batch": "new80"
+  }
+]

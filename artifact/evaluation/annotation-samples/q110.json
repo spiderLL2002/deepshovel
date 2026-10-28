@@ -1,0 +1,4140 @@
+{
+  "query_id": "q110",
+  "query_text": "At Fiskegrav, what duration is assigned to late Permian marine and terrestrial ecosystem collapse using the revised sedimentation rates, compared with the earlier estimate?",
+  "expected_answer": "The revised estimate is 1.6–8 kyr, compared with the older 10–60 kyr range. Both concern inferred durations dependent on sedimentation-rate chronology, not direct elapsed-time measurements. Reference: W2766182206.pdf; claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38.",
+  "original_query_rubric": {
+    "3": "Compares the revised 1.6–8 kyr collapse duration with the older 10–60 kyr estimate for Fiskegrav.",
+    "2": "A correctly labelled older 10–60 kyr estimate alone, the revised 1.6–8 kyr estimate alone, or other useful compatible partial evidence without a known scope conflict. The older range is conflicting only when mislabelled as revised.",
+    "1": "Related quantity or background with a known mismatch in site, interval, material, method, statistic, denominator or stated condition; including the scope trap.",
+    "0": "Unrelated to the requested scientific quantity and context."
+  },
+  "original_pool_sha256": "eab55365c6bc90693755fbd2b81a8a414eefb59af8b3b30bd69f9e19753e49b1",
+  "sample_type": "fixed-ID method inspection; not random, expert-reviewed, or reliability-estimation sample",
+  "candidate_count": 37,
+  "candidates": [
+    {
+      "candidate": 1,
+      "document_id": "claim:sha256:3361894fe36c733f3434a9d7dcaf38a06eafd9ed63aec8e9492d95be9f3a72c7",
+      "paper_id": "paper:5a3ab0656258bd741f774abc556603c4dbf6ca529e3403c38bdaeaf09abe439b",
+      "snapshot_id": "snapshot:sha256:d584185f605069d377a296fbc764ead8273a6ab19ebbaff95a3bfcb504ce7ed4",
+      "artifact_version_id": "artifact-version:sha256:5a3ab0656258bd741f774abc556603c4dbf6ca529e3403c38bdaeaf09abe439b",
+      "source_name": "NVA_019cc36d9839-2bec60c2-fbdf-42fd-96d7-7a1e3888d784.pdf",
+      "canonical_claim": "Lusitaniadalen records a regional post-extinction increase in marine primary productivity, inferred from elevated pristane and phytane biomarkers attributed mainly to marine photosynthetic organisms.",
+      "original_claim": "Eventually， prevalent oxic conditions were reestablished in the Early Triassic.Hence,in contrast to what has been hypothesized for some coeval equatorial setings,persistent water column anoxia or euxinia might not have been a dominant driver of the extinction event at this Boreal site,emphasizing spatial variability in ocean redox conditions during the Permian-Triasic transition.Nevertheless,transient dysoxic episodes,water column stratification and enhanced input of terestrial organic matter in the early to middle Griesbachian likely affected local ecosystem structure and function,potentially providing beneficial conditions for some marine photosynthetic organisms to thrive and form regional phytoplankton blooms.Finall，our extended biomarker record demonstrates that changes in the biomarker inventory across the extinction horizon do not simply reflect facies variability but likely record substantial changes in local planktonic microbial communities.However,we do not detect indications for microbial ecosystem recovery such as a return towards a pre-crisis community composition within this interval.",
+      "scope": {
+        "location": [
+          "Lusitaniadalen, Svalbard, Boreal Realm"
+        ],
+        "time": {
+          "label": "Late Permian through Early Triassic, including the Permian–Triassic transition and early Griesbachian",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Kapp Starostin and Vikinghogda formations"
+        ],
+        "sample_type": [
+          "Sedimentary rocks"
+        ],
+        "method": [
+          "Multiproxy geochemical and lipid biomarker analysis"
+        ],
+        "condition": [
+          "Across the Permian–Triassic extinction horizon"
+        ],
+        "measurement": [
+          "RSM EF*, Ce anomalies, TAR, pristane/phytane, and lipid biomarker inventory"
+        ],
+        "uncertainty": "Biomarker source contributions and the duration represented by the sampled post-extinction interval limit interpretation.",
+        "entities": [
+          "Kapp Starostin Formation",
+          "Lusitaniadalen",
+          "Svalbard",
+          "Vikinghogda Formation"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.5",
+          "page": 11,
+          "section": null,
+          "figure": "Figure 5",
+          "table": null,
+          "excerpt": "Figure 5. Organic geochemical profiles recording $\\delta ^ { 1 3 } \\mathrm { C _ { o r g } }$ and lipid biomarkers across the Permian-Triassic transition atLusitaniadalen.Arylisoprenoids,biphytane and lycopanewereprtiaceotseditompddldtatdftadicte discontinuous scale of the $y .$ axiassampligefortsfocusedonstratarcordingsiilardepositioalenvronmentspriortndaftertheextinctioeventtoducethe effectofio $_ { 0 \\textrm { m } }$ ,whichalsosiiatacoab Preference Index; Pr,Pristane,Ph,Phytane; regular PMI,2,6,10,14,18-pentamethylicosane. ",
+          "excerpt_original_characters": 532,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.conclusion.final",
+          "page": 16,
+          "section": "5. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Eventually， prevalent oxic conditions were reestablished in the Early Triassic.Hence,in contrast to what has been hypothesized for some coeval equatorial setings,persistent water column anoxia or euxinia might not have been a dominant driver of the extinction event at",
+          "excerpt_original_characters": 1115,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.productivity.first",
+          "page": 9,
+          "section": "3.3.Lipid Biomarker Inventory",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 267,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.productivity.interpretation",
+          "page": 15,
+          "section": "4.4. Biotic Ecosystem Response",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 453,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.productivity.pre",
+          "page": 9,
+          "section": "3.3.Lipid Biomarker Inventory",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 335,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.productivity.source",
+          "page": 15,
+          "section": "4.4. Biotic Ecosystem Response",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 314,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.productivity.sustained",
+          "page": 10,
+          "section": "3.3.Lipid Biomarker Inventory",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 249,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 3265,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "灭绝后生产力变化未给时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 2,
+      "document_id": "claim:sha256:d5c7c5b894998930faa4ed842bfd5b4aa076eb8bbfa1fdd4e59203fe12b2acca",
+      "paper_id": "paper:7adc1bef9789e547cfad51c3cee8e86d64e0e8fb594497b449523a474d6b5058",
+      "snapshot_id": "snapshot:sha256:58661d2e54a954077d7f8fd21726e83b9b02cfc130e66bb18d30d149947b718e",
+      "artifact_version_id": "artifact-version:sha256:7adc1bef9789e547cfad51c3cee8e86d64e0e8fb594497b449523a474d6b5058",
+      "source_name": "BULK_cb1beda9cea887de0ecf.pdf",
+      "canonical_claim": "The Permian–Triassic extinction affected marine ecosystems more severely than terrestrial ecosystems; the review reports losses of 96% of marine species and 70% of terrestrial vertebrate species.",
+      "original_claim": "The terrestrial environments were not as greatly affected by the PT extinction compared to marine ecosystems, but they also did undergo significant changes.",
+      "scope": {
+        "condition": [
+          "Permian–Triassic extinction event"
+        ],
+        "entities": [
+          "marine ecosystems",
+          "marine species",
+          "terrestrial ecosystems",
+          "terrestrial vertebrate species"
+        ],
+        "formation": [],
+        "location": [
+          "global"
+        ],
+        "measurement": [
+          "species losses and ecosystem impacts"
+        ],
+        "method": [
+          "literature synthesis"
+        ],
+        "sample_type": [
+          "published studies summarized in the review"
+        ],
+        "time": {
+          "end": null,
+          "label": "Permian–Triassic",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "loss estimates summarized by the review"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.impact_comparison",
+          "page": 3,
+          "section": "2.2. Impact on Terrestrial Life",
+          "figure": null,
+          "table": null,
+          "excerpt": "The terrestrial environments were not as greatly affected by the PT extinction compared to marine ecosystems, but they also did undergo significant changes.",
+          "excerpt_original_characters": 156,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.impact_estimates",
+          "page": 1,
+          "section": "The Permian-Triassic Extinction Event: Causes, Consequences, and Contemporary Relevance",
+          "figure": null,
+          "table": null,
+          "excerpt": "note that $96 \\%$ of all marine species and later $70 \\%$ of all terrestrial vertebrate species were wiped out during these extinctions.",
+          "excerpt_original_characters": 136,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 292,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "灭绝损失比例不是持续时间",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 3,
+      "document_id": "claim:sha256:8d6bd6c4328586e8925f0d475126bdeecab1307e205b3c11c4f1d5fbfc028805",
+      "paper_id": "paper:84543d007ad50f9e7d2d743a60099907d656dfb7144a49297d4cd052a539ea47",
+      "snapshot_id": "snapshot:sha256:7d9e66e7138451b587ec02377077b151d584c24d5cc49735896f81759528ff69",
+      "artifact_version_id": "artifact-version:sha256:84543d007ad50f9e7d2d743a60099907d656dfb7144a49297d4cd052a539ea47",
+      "source_name": "W2042526900.pdf",
+      "canonical_claim": "Late Permian marine extinction was genuinely elevated in at least two intervals, beginning near the end of the Capitanian and culminating at the end of the Permian.",
+      "original_claim": "Because origination rates were low during the Late Permian, this finding means that the consistently high proportionality of generic last appearances through the last three stages of the Late Permian was accomplished by successively smaller numbers of extinctions (Fig.3 and Table 1).In the well-preserved Late Permian succession of South China, last appearances of marine families (38),genera (41),and species (4） all show high concentrations at the Capitanian-Wujiapingian as well as P-T boundaries.",
+      "scope": {
+        "location": [
+          "South China and marine fossil compilations"
+        ],
+        "time": {
+          "label": "Late Permian, especially the Capitanian–Wujiapingian and P–T boundaries",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "Marine families, genera, and species"
+        ],
+        "method": [
+          "Stratigraphic last-appearance compilations and boundary occurrence analysis"
+        ],
+        "condition": [
+          "Intercontinental correlation and sampling are imperfect"
+        ],
+        "measurement": [
+          "Taxonomic last appearances and extinction concentrations"
+        ],
+        "uncertainty": "Signor–Lipps effects contribute; stratigraphic resolution limits timing precision",
+        "entities": [
+          "families",
+          "genera",
+          "marine animals",
+          "species"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "src.timing_author",
+          "page": 4,
+          "section": "The_Timing and Pattern of Late Permian Mass Extinction",
+          "figure": null,
+          "table": null,
+          "excerpt": "Although Signor-Lippsartifactsundoubtedly contribute to the observed stratigraphic pattern of extinctions,the foregoing arguments all support the hypothesis of genuinely elevated extinction beginning near the end of the Capitanian and culminating at the end of the Permian Period.",
+          "excerpt_original_characters": 280,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "src.boundary",
+          "page": 4,
+          "section": "The_Timing and Pattern of Late Permian Mass Extinction",
+          "figure": null,
+          "table": null,
+          "excerpt": "Because origination rates were low during the Late Permian, this finding means that the consistently high proportionality of generic last appearances through the last three stages of the Late Permian was accomplished by successively smaller numbers of extinctions (Fig.3 and Table 1).In the well-preserved Late Permian succession of South China, last appearances of marine families (38),genera (41),and species (4） all show high concentrations at the Capitanian-Wujiapingian as well as P-T boundaries.",
+          "excerpt_original_characters": 501,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "src.families",
+          "page": 3,
+          "section": "The_Timing and Pattern of Late Permian Mass Extinction",
+          "figure": null,
+          "table": null,
+          "excerpt": "Sepkoski's (36） com",
+          "excerpt_original_characters": 658,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "src.fig3",
+          "page": 3,
+          "section": "The_Timing and Pattern of Late Permian Mass Extinction",
+          "figure": "Fig. 3",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 358,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "src.stat_methods",
+          "page": 4,
+          "section": "The_Timing and Pattern of Late Permian Mass Extinction",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 213,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "src.stat_result",
+          "page": 4,
+          "section": "The_Timing and Pattern of Late Permian Mass Extinction",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 62,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "src.table1",
+          "page": 4,
+          "section": "The_Timing and Pattern of Late Permian Mass Extinction",
+          "figure": null,
+          "table": "Table 1",
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 2072,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "全球灭绝两区间未给Fiskegrav修订时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 4,
+      "document_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+      "paper_id": "paper:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "source_name": "W2766182206.pdf",
+      "canonical_claim": "At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.",
+      "original_claim": "however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.",
+      "scope": {
+        "condition": [
+          "Shallow-marine shelf setting"
+        ],
+        "entities": [
+          "AOM",
+          "Fiskegrav section",
+          "Micrhystridium breve",
+          "acritarchs",
+          "freshwater run-off",
+          "marine and terrestrial ecosystems"
+        ],
+        "formation": [
+          "Schuchert Dal and Wordie Creek formations"
+        ],
+        "location": [
+          "Fiskegrav, central Jameson Land, East Greenland"
+        ],
+        "measurement": [
+          "Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context"
+        ],
+        "method": [
+          "High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses"
+        ],
+        "sample_type": [
+          "Stratigraphic palynological samples"
+        ],
+        "time": {
+          "end": null,
+          "label": "Late Permian extinction and Permian–Triassic boundary",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Salinity is proxy-inferred; duration estimates depend on sedimentation rates."
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.duration.new",
+          "page": 7,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.",
+          "excerpt_original_characters": 215,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.duration.old",
+          "page": 2,
+          "section": "1 Introduction",
+          "figure": null,
+          "table": null,
+          "excerpt": "(2001) showed that collapse of marine and terrestrial ecosystems was synchronous and took between 10 and 60 kyr.",
+          "excerpt_original_characters": 112,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 327,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 3,
+        "scope_error": false,
+        "rationale": "修订1.6–8 kyr与旧10–60 kyr均有原文，依赖沉积速率",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 5,
+      "document_id": "claim:sha256:f803b0a3532e9330f1761ca2099aad50f3415338b146e4fc11134c1bdb332db9",
+      "paper_id": "paper:0482eecc31d84131572967e2d03d7acf06f491b285a37f0ce972641d19fc11af",
+      "snapshot_id": "snapshot:sha256:0f45ac0ca3516bf774c79b36f2afda0f37ecf978d1c9d3db80d1a85dad71290f",
+      "artifact_version_id": "artifact-version:sha256:0482eecc31d84131572967e2d03d7acf06f491b285a37f0ce972641d19fc11af",
+      "source_name": "NEWCN_HYXYJ_58.pdf",
+      "canonical_claim": "长江口及邻近海域泥质沉积过程、生态系统作用和碳库增量等前沿研究需要海洋观测站网提供支撑。",
+      "original_claim": "探讨了长江来源物质的时空分布\\*潮汐0波浪0陆架环流所致物质输运\\*长江三角洲%河口与水下三角洲\\*浙闽泥质沉积带&规模\\*表层底质对流域变化的时间响应\\*沉积记录的连续性等问题(但由于高分辨率的长期\\*连续观测数据很少!",
+      "scope": {
+        "condition": [
+          "面向区域泥质沉积动力学及相关前沿研究"
+        ],
+        "entities": [
+          "泥质沉积动力学",
+          "海洋观测站网",
+          "生态系统作用",
+          "碳库增量潜力"
+        ],
+        "formation": [],
+        "location": [
+          "长江口及邻近海域"
+        ],
+        "measurement": [
+          "观测数据的分辨率、连续性及数据类型"
+        ],
+        "method": [
+          "海洋观测站网的长期连续观测"
+        ],
+        "sample_type": [],
+        "time": null,
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.5",
+          "page": 8,
+          "section": "5 结论",
+          "figure": null,
+          "table": null,
+          "excerpt": "%\\$&长江口及邻近海域的泥质沉积过程0产物关系\\*泥质沉积在生态系统动力学中的作用\\*泥质沉积碳库增量潜力!",
+          "excerpt_original_characters": 55,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.1",
+          "page": 2,
+          "section": "/ 引言",
+          "figure": null,
+          "table": null,
+          "excerpt": "探讨了长江来源物质的时空分布\\*潮汐0波浪0陆架环流所致物质输运\\*长江三角洲%河口与水下三角洲\\*浙闽泥质沉积带&规模\\*表层底质对流域变化的时间响应\\*沉积记录的连续性等问题(但由于高分辨率的长期\\*连续观测数据很少!",
+          "excerpt_original_characters": 111,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.2",
+          "page": 2,
+          "section": "/ 引言",
+          "figure": null,
+          "table": null,
+          "excerpt": "一些前沿研究受到了制约+另一方面!",
+          "excerpt_original_characters": 17,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.3",
+          "page": 5,
+          "section": "210 内陆架泥质沉积的过程3产物关系",
+          "figure": null,
+          "table": null,
+          "excerpt": "但其局限性也日益显现(河口海岸水域观测工作的艰巨性以及近岸水域繁忙的交通条件使得观测的效率难以提高!",
+          "excerpt_original_characters": 50,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.4",
+          "page": 5,
+          "section": "210 内陆架泥质沉积的过程3产物关系",
+          "figure": null,
+          "table": null,
+          "excerpt": "过程0产物关系的新问题%如风暴沉积\\*浅水沉积物重力流\\*泥质床面消浪等过程&均涉及长期连续观测!",
+          "excerpt_original_characters": 49,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.6",
+          "page": 8,
+          "section": "5 结论",
+          "figure": null,
+          "table": null,
+          "excerpt": "个前沿问题的研究均需要海洋观测站网的支撑!",
+          "excerpt_original_characters": 21,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 303,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "长江口观测无关",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 6,
+      "document_id": "claim:sha256:886b4ce9bb8add61ccbed8258e9cf426336e106d6f982087e6553b12bca82ca9",
+      "paper_id": "paper:09cc87c5433973fe12674d72e61469fa9cbe3676ec147641b0cc6bc4e1011a3e",
+      "snapshot_id": "snapshot:sha256:5aabb0865aa030d81f4529f94a3f799acb31bcd5988b449955db71981a3ee785",
+      "artifact_version_id": "artifact-version:sha256:09cc87c5433973fe12674d72e61469fa9cbe3676ec147641b0cc6bc4e1011a3e",
+      "source_name": "W2144845316.pdf",
+      "canonical_claim": "On the Pyrenean platform, pelagic sedimentation persisted for about 1.0–1.5 m.y. and shallow benthic recovery lagged the end of the OAE; the authors attribute this delay probably to increased accommodation from eustatic sea-level rise and tectonic subsidence.",
+      "original_claim": "Elevated concentrations of Ba,P,and Si (in the form of chert nodules) observed in the pelagic facies are typical of modern and ancient upwelling systems.Petrographic evidence for oxygen deficiency is limited to the lower slope region.The warm mid-Cretaceous climate and a global rise in sea level resulted in changes in oceanic circulation patterns, increased organic productivity,and a shift in the trophic structure to one that favored planktonic productivity over benthic productivity.Pelagic deposition persisted for approximately 1 to $\\mathbf { 1 . 5 \\ m . y . }$ ,longer than the OAE.The time difference between the end of the OAE and the reestablishment of a shallow,benthic platform is attributed to increased accommodation caused by the Turonian sea-level rise and tectonic subsidence.",
+      "scope": {
+        "location": [
+          "South-central Pyrenees, Spain"
+        ],
+        "time": {
+          "label": "C/T boundary through middle Turonian and end of sequence UK-3",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Pardina limestone, sequence UK-3"
+        ],
+        "sample_type": [
+          "carbonate-platform shelf and slope strata"
+        ],
+        "method": [
+          "foraminiferal biozone duration estimates and facies/paleontological analysis"
+        ],
+        "condition": [
+          "post-drowning pelagic sedimentation and platform recovery"
+        ],
+        "measurement": [
+          "duration of pelagic deposition and return of shallow benthic fauna"
+        ],
+        "uncertainty": "Duration is estimated from foraminiferal biozones; the accommodation explanation is stated as probable.",
+        "entities": [
+          "C/T oceanic anoxic event",
+          "Pyrenean platform",
+          "planktonic sedimentation",
+          "shallow benthic fauna"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.abstract.recovery",
+          "page": 1,
+          "section": "CARBONATE PLATFORM DROWNING AND OCEANIC ANOXIC EVENTS ON A MID-CRETACEOUS CARBONATE PLATFORM, SOUTH-CENTRAL PYRENEES, SPAIN",
+          "figure": null,
+          "table": null,
+          "excerpt": "Elevated concentrations of Ba,P,and Si (in the form of chert nodules) observed in the pelagic facies are typical of modern and ancient upwelling systems.Petrographic evidence for oxygen deficiency is limited to the lower slope region.The warm mid-Cretaceous climate and a global rise in sea level resulted in changes in oceanic circulation patterns, increased organic productivity,and a shift in the trophic structure to one that favored planktonic productivity over benthic productivity.Pelagic deposition persisted for approximately 1 to $\\mathbf { 1 . 5 \\ m . y . }$ ,longer than the OAE.The time difference between the end of the OAE and the reestablishment of a shallow,benthic platform is attributed to increased accommodation caused by the Turonian sea-level rise and tectonic subsidence.",
+          "excerpt_original_characters": 795,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.conclusion.recovery",
+          "page": 14,
+          "section": "SUMMARY AND CONCLUSIONS",
+          "figure": null,
+          "table": null,
+          "excerpt": "(5)Re",
+          "excerpt_original_characters": 251,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1046,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "其他事件恢复时长非目标崩溃",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 7,
+      "document_id": "claim:sha256:da70c5a82c4f879416484473f9dcbdca02ce2efb3b91852c8a11ead0ffe35272",
+      "paper_id": "paper:18222116ee051569005d558c87f079674ba487a2db5ff41201cfaeaba38adf8e",
+      "snapshot_id": "snapshot:sha256:29fcfba4474bd4cdd722479b2bc618afa956990b23c13031c50a2e40391f4b53",
+      "artifact_version_id": "artifact-version:sha256:18222116ee051569005d558c87f079674ba487a2db5ff41201cfaeaba38adf8e",
+      "source_name": "NJG_1ba1fb08221b680880c3.pdf",
+      "canonical_claim": "In the revised Late Jurassic calibration, the nominal duration of the Kimmeridgian is 1.6 m.y. shorter than previously determined.",
+      "original_claim": "Fig. 5. Shows the Late Jurassic time scale of Gradstein et al. (2004) and the new time scale based on the $R e$ -Os age for the Oxfordian/ Kimmeridgian Staffin Shale Member and the Early Berriasian $A r { - } A r$ age (Mahoney et al. 2005). The new ages suggest, based on the age for the Kimmeridgian/Tithonian boundary $( 1 5 0 . 8 \\pm 4 . 0 \\ : M a $ ), that the Kimmeridgian and the Tithonian are nominally $1 . 6 m$ .y. shorter and $o . 9 m$ .y. longer, respectively. ",
+      "scope": {
+        "location": [],
+        "time": {
+          "label": "Kimmeridgian stage",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [],
+        "method": [
+          "Revised Late Jurassic time-scale calibration"
+        ],
+        "condition": [
+          "Compared with the previous duration estimate using the basal Kimmeridgian Re-Os age and basal Tithonian estimate"
+        ],
+        "measurement": [
+          "Nominal Kimmeridgian duration"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Kimmeridgian",
+          "basal Kimmeridgian",
+          "basal Tithonian"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure5",
+          "page": 6,
+          "section": "Results",
+          "figure": "Fig. 5",
+          "table": null,
+          "excerpt": "Fig. 5. Shows the Late Jurassic time scale of Gradstein et al. (2004) and the new time scale based on the $R e$ -Os age for the Oxfordian/ Kimmeridgian Staffin Shale Member and the Early Berriasian $A r { - } A r$ age (Mahoney et al. 2005). The new ages suggest, based on the age for the Kimmeridgian/Tithonian boundary $( 1 5 0 . 8 \\pm 4 . 0 \\ : M a $ ), that the Kimmeridgian and the Tithonian are nominally $1 . 6 m$ .y. shorter and $o . 9 m$ .y. longer, respectively. ",
+          "excerpt_original_characters": 472,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.propagated.age",
+          "page": 6,
+          "section": "Results",
+          "figure": null,
+          "table": null,
+          "excerpt": "1996), the Re-Os age for the Oxfordian-Kimmeridgian boundary is 154.1 $\\pm 2 . 2 \\mathrm { M a }$ .",
+          "excerpt_original_characters": 99,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.stage.duration.change",
+          "page": 7,
+          "section": "Basal Kimmeridgian Re-Os black shale dating",
+          "figure": null,
+          "table": null,
+          "excerpt": "shorter and 0.9 m.y.",
+          "excerpt_original_characters": 20,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.stage.duration.comparison",
+          "page": 7,
+          "section": "Basal Kimmeridgian Re-Os black shale dating",
+          "figure": null,
+          "table": null,
+          "excerpt": "longer, respectively, than previously determined (Gradstein et al.",
+          "excerpt_original_characters": 66,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.stage.duration.figure1",
+          "page": 7,
+          "section": "Basal Kimmeridgian Re-Os black shale dating",
+          "figure": null,
+          "table": null,
+          "excerpt": "2004, Fig.",
+          "excerpt_original_characters": 10,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.stage.duration.figure2",
+          "page": 7,
+          "section": "Basal Kimmeridgian Re-Os black shale dating",
+          "figure": null,
+          "table": null,
+          "excerpt": "5).",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.stage.duration.start",
+          "page": 7,
+          "section": "Basal Kimmeridgian Re-Os black shale dating",
+          "figure": null,
+          "table": null,
+          "excerpt": "2005) the nominal durations for the Kimmeridgian and Tithonian are 1.6 m.y.",
+          "excerpt_original_characters": 75,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.tithonian.age",
+          "page": 7,
+          "section": "Basal Kimmeridgian Re-Os black shale dating",
+          "figure": null,
+          "table": null,
+          "excerpt": "Using the new Re-Os age (this study), together with the",
+          "excerpt_original_characters": 142,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 887,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "Kimmeridgian阶时长非生态崩溃",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 8,
+      "document_id": "claim:sha256:d30b194f3fcb36591cbd530faff2c8555491f8d4d600b4355e961093e4f1fcf6",
+      "paper_id": "paper:e369e84be13a5ebdff71680e3245422801ee6444ff64c4f96144645fc2a4e058",
+      "snapshot_id": "snapshot:sha256:f3d0f4ee2d12ebfdfdb94d600a2287c705ffc9e2659035cde86734ba62b13f12",
+      "artifact_version_id": "artifact-version:sha256:e369e84be13a5ebdff71680e3245422801ee6444ff64c4f96144645fc2a4e058",
+      "source_name": "W2098293862.pdf",
+      "canonical_claim": "At Festningen, terrestrial palynological turnover coincided with marine extinction marked by loss of chert-forming siliceous sponges, indicating synchronous marine and terrestrial ecological disruption.",
+      "original_claim": "Thus, the latest Permian terrestrial collapse observed across northwestern Pangea is coincident with the marine extinction marked by the loss of chert-forming siliceous sponges.",
+      "scope": {
+        "location": [
+          "Festningen section, Spitsbergen, northwestern Pangea"
+        ],
+        "time": {
+          "label": "Latest Permian extinction interval",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Kapp Starostin and Vardebukta Formations"
+        ],
+        "sample_type": [
+          "Stratigraphic sedimentary section"
+        ],
+        "method": [
+          "High-resolution geochemical and palynological analyses"
+        ],
+        "condition": [
+          "Across the latest Permian extinction horizon"
+        ],
+        "measurement": [
+          "Faunal, palynological, carbon-isotope, trace-metal, and redox-proxy records"
+        ],
+        "uncertainty": "The paper gives differing oxic-condition descriptions for the extinction horizon and presents environmental mechanisms as interpretations.",
+        "entities": [
+          "Festningen section",
+          "Siberian Traps",
+          "burrowing organisms",
+          "carbonate producers",
+          "redox-sensitive elements",
+          "siliceous sponges",
+          "terrestrial palynological assemblages"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.land_marine.coincidence",
+          "page": 9,
+          "section": "Carbon Isotope Records and the LPE Boundary",
+          "figure": null,
+          "table": null,
+          "excerpt": "Thus, the latest Permian terrestrial collapse observed across northwestern Pangea is coincident with the marine extinction marked by the loss of chert-forming siliceous sponges.",
+          "excerpt_original_characters": 177,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.pollen.shift",
+          "page": 9,
+          "section": "Carbon Isotope Records and the LPE Boundary",
+          "figure": null,
+          "table": null,
+          "excerpt": "The top of the Kapp Starostin Formation also marks a shift in palynological assemblages, from those dominated by gymnosperms to an assemblage dominated by lycopsids, as described at Festningen and other sections on Spitsbergen (Mangerud and Konieczny, 1993).",
+          "excerpt_original_characters": 258,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.sponge.ichnofabric",
+          "page": 3,
+          "section": "STUDY AREA",
+          "figure": null,
+          "table": null,
+          "excerpt": "The top of the Kapp Starostin Formation coincides with the loss of siliceous sponges and an abrupt change in ichnofabrics, marked by disappearance of Zoophycos and Chondrites.",
+          "excerpt_original_characters": 175,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 610,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "Festningen同步性未给目标时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 9,
+      "document_id": "claim:sha256:a787fba66a83f73d27408b6133787c4a03ced2a109337fd42a97bf72d5c2a299",
+      "paper_id": "paper:be7a28a063740e7bfee9ae3cab0c482f5d84d82f747e9f4787e10f8c58b30981",
+      "snapshot_id": "snapshot:sha256:87a36dd6cbd508ff4537581ab95777d9764898037e50cf23379357dc0ec81ab1",
+      "artifact_version_id": "artifact-version:sha256:be7a28a063740e7bfee9ae3cab0c482f5d84d82f747e9f4787e10f8c58b30981",
+      "source_name": "2025_晚二叠世全球海洋生态系统逐步坍塌与缺氧的可能联系_e7a33350.pdf",
+      "canonical_claim": "在中等深水斜坡和更深水环境中，浮游放射虫生态系统的灭绝早于底栖生态系统。",
+      "original_claim": "图4　全球不同古地理环境中浮游生物‒底栖生物灭绝时间的对比",
+      "scope": {
+        "condition": [
+          "中等深水斜坡和更深水环境"
+        ],
+        "entities": [
+          "底栖动物",
+          "浮游放射虫",
+          "海洋生态系统"
+        ],
+        "formation": [],
+        "location": [
+          "全球海洋剖面"
+        ],
+        "measurement": [
+          "不同生活方式生物的灭绝时序"
+        ],
+        "method": [
+          "化石记录及跨剖面对比"
+        ],
+        "sample_type": [
+          "海相剖面"
+        ],
+        "time": {
+          "end": null,
+          "label": "晚二叠世至二叠纪—三叠纪之交",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "跨剖面地层对比"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.4",
+          "page": 10,
+          "section": "4 全球海洋生物灭绝规律与生态系统坍塌",
+          "figure": "图4",
+          "table": null,
+          "excerpt": "图4　全球不同古地理环境中浮游生物‒底栖生物灭绝时间的对比",
+          "excerpt_original_characters": 29,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.figure.5",
+          "page": 11,
+          "section": "4 全球海洋生物灭绝规律与生态系统坍塌",
+          "figure": "图5",
+          "table": null,
+          "excerpt": "图5 全球不同古水深环境浮游生物‒底栖生物灭绝时间的对比和总结",
+          "excerpt_original_characters": 31,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.deep_benthic",
+          "page": 10,
+          "section": "4 全 球 海 洋 生 物 灭 绝 规 律 与 生 态 系统坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "底栖动物的灭绝开始于 Clarkina yini 带底部，到Clarkina yini 带 顶 部 达 到 顶 峰（图 4 ，图 5）.",
+          "excerpt_original_characters": 68,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.deep_radiolaria",
+          "page": 10,
+          "section": "4 全 球 海 洋 生 物 灭 绝 规 律 与 生 态 系统坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "在 更 深 水 环 境，放 射 虫 的 灭 绝 开 始于吴家坪期，在 Clarkina yini 带上部达到顶峰；",
+          "excerpt_original_characters": 57,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.ecology_summary",
+          "page": 10,
+          "section": "4 全 球 海 洋 生 物 灭 绝 规 律 与 生 态 系统坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "因 此 ，不管是在中等深水还是更深水环境，浮游动物放射虫的灭绝早于底栖动物灭绝（图 4，图 5）.",
+          "excerpt_original_characters": 49,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.mid_benthic",
+          "page": 10,
+          "section": "4 全 球 海 洋 生 物 灭 绝 规 律 与 生 态 系统坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "底 栖 动 物 的 灭 绝 开 始 于 Clarkinayini 带 上 部 ，并 延 续 至 二 叠 系 ‒ 三 叠 系 界 线 之 上（图 4，图 5）.",
+          "excerpt_original_characters": 79,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.mid_radiolaria",
+          "page": 10,
+          "section": "4 全 球 海 洋 生 物 灭 绝 规 律 与 生 态 系统坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "将不同生活方式的生物灭绝进行总结，有如下规律：在中等深水斜坡环境，放射虫的灭绝开始 于 Clarkina changxingensis 带 ，延 续 至 Clarkinayini 带 底 部 ；",
+          "excerpt_original_characters": 97,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 410,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "放射虫与底栖先后不是Fiskegrav持续时间",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 10,
+      "document_id": "claim:sha256:a7218bdeffc548d05e24342508f5f8db40686d695ffe4824614c7784ab7c5dc0",
+      "paper_id": "paper:646cbf8cd3d7b928eba9149cd63a84d8c01598b7a707565cc49cf2c06d97b5a7",
+      "snapshot_id": "snapshot:sha256:62342fd73f4221668f60b667e939ba11b141d860bac865552468c9980a3ce398",
+      "artifact_version_id": "artifact-version:sha256:646cbf8cd3d7b928eba9149cd63a84d8c01598b7a707565cc49cf2c06d97b5a7",
+      "source_name": "W2996932871.pdf",
+      "canonical_claim": "Across the Hatton Bank cores, mean sedimentation was faster during the last glacial period (about 4.2 cm ka^-1) than during the last interglacial period (about 1.4 cm ka^-1).",
+      "original_claim": "Figure 8. Sedimentation rates based on the correlation between the HL identified in the $+ 5 7 / 2 0 – 9$ core and the published calibrated ages for the HE [30,36,37,44]. Two lineal regressions have been calculated to obtain sedimentation rates depending on the climatic period. ",
+      "scope": {
+        "condition": [
+          "Beyond the IRD belt"
+        ],
+        "entities": [
+          "BOFS14K",
+          "BOFS17K",
+          "Hatton Bank sediment cores",
+          "Heinrich events"
+        ],
+        "formation": [],
+        "location": [
+          "Hatton Bank–Rockall Plateau, NE Atlantic Ocean"
+        ],
+        "measurement": [
+          "MS, silt, geochemical proxies and sedimentation rates"
+        ],
+        "method": [
+          "Multiproxy sediment-core analysis and core correlation"
+        ],
+        "sample_type": [
+          "Six gravity cores"
+        ],
+        "time": {
+          "end": null,
+          "label": "Late Quaternary",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.8",
+          "page": 13,
+          "section": "4.2. Chronostratigraphic Approximation and Reconstruction",
+          "figure": "Figure 8",
+          "table": null,
+          "excerpt": "Figure 8. Sedimentation rates based on the correlation between the HL identified in the $+ 5 7 / 2 0 – 9$ core and the published calibrated ages for the HE [30,36,37,44]. Two lineal regressions have been calculated to obtain sedimentation rates depending on the climatic period. ",
+          "excerpt_original_characters": 279,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.rate.conclusion",
+          "page": 14,
+          "section": "5. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "and (iii) estimate the mean sedimentation rates for the last glacial $( \\sim 4 . 2 \\ c m \\ k a ^ { - 1 } ,$ ) and interglacial $( \\sim 1 . 4 \\ c m \\ k a ^ { - 1 }$ ) periods in the area, revealing fairly uniform deposition of HE from between water depths of 933 and $1 0 4 1 \\mathrm { m }$ .",
+          "excerpt_original_characters": 291,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.rate.multicore",
+          "page": 12,
+          "section": "4.2. Chronostratigraphic Approximation and Reconstruction",
+          "figure": null,
+          "table": null,
+          "excerpt": "In this way, mean sedimentation rates of $1 . 4 \\mathrm { c m } \\mathrm { k a } ^ { - 1 }$ for the last interglacial period $( \\sim 1 8 \\mathrm { k a } )$ , and $4 . 2 \\ c m \\ k a ^ { - 1 }$ for the last glacial period, have been ",
+          "excerpt_original_characters": 239,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.rate.single",
+          "page": 12,
+          "section": "4.2. Chronostratigraphic Approximation and Reconstruction",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 301,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1110,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "Hatton沉积速率非Fiskegrav崩溃时间",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 11,
+      "document_id": "claim:sha256:e0216a77f0c05c52d818c17e3489cfa0f49254bc580aa6ff1b2038d47323fefc",
+      "paper_id": "paper:aaebe0f1efdcb9d610fc6ba1e8f5bc0b4a1a6e298e0840e269ea66d0d9411e69",
+      "snapshot_id": "snapshot:sha256:d88a6a960a8d2e0784193336e9a8b16fe77e7d8585aae290d56e4d58182a6e52",
+      "artifact_version_id": "artifact-version:sha256:aaebe0f1efdcb9d610fc6ba1e8f5bc0b4a1a6e298e0840e269ea66d0d9411e69",
+      "source_name": "2023_Centennial scale sequences of environmental deterioration preceded the end-Permian mass extinction_8cc06d09.pdf",
+      "canonical_claim": "In the South China record, the terrestrial crisis preceded the onset of the marine EPME by approximately 300 years (120–480 yr, ±2 s.d.).",
+      "original_claim": "However, we note that some uncertainty remains when assuming a linear sedimentation rate since major environmental and biotic changes are recorded by the lithological changes towards the top of Bed 24.",
+      "scope": {
+        "location": [
+          "Meishan section, South China"
+        ],
+        "time": {
+          "label": "End-Permian transition",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Upper Permian Changhsing Formation, including Bed 24e at Meishan."
+        ],
+        "sample_type": [
+          "Near-shore marine succession"
+        ],
+        "method": [
+          "High-resolution biomarker and elemental record with a stratigraphic age model"
+        ],
+        "condition": [
+          "Low-latitude South China sections; terrestrial crisis compared with the marine extinction onset."
+        ],
+        "measurement": [
+          "Relative timing of terrestrial crisis and marine extinction onset"
+        ],
+        "uncertainty": "Estimated lead of approximately 300 yr (120–480 yr, ±2 s.d.); age-model uncertainty near the top of Bed 24 is acknowledged.",
+        "entities": [
+          "marine EPME",
+          "terrestrial crisis"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.age.caveat",
+          "page": 5,
+          "section": "Age model",
+          "figure": null,
+          "table": null,
+          "excerpt": "However, we note that some uncertainty remains when assuming a linear sedimentation rate since major environmental and biotic changes are recorded by the lithological changes towards the top of Bed 24.",
+          "excerpt_original_characters": 201,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.age.model",
+          "page": 5,
+          "section": "Age model",
+          "figure": null,
+          "table": null,
+          "excerpt": "A linear high-resolution age model was constructed using a weighted-mean sedimentation rate calculated in a Monte Carlo simulation in ref.",
+          "excerpt_original_characters": 138,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.event4",
+          "page": 3,
+          "section": "Centennial-scale sequence of environmental deterioration",
+          "figure": null,
+          "table": null,
+          "excerpt": "Event 4 at Bed 24e, which immediately preceded the onset of the EPME is characterized by the largest peak of soil organic matter input as indicated by $\\mathbf { C } _ { 2 } { \\mathrm { - D B F } }$ ;",
+          "excerpt_original_characters": 200,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.onset.context.1",
+          "page": 3,
+          "section": "Centennial-scale sequence of environmental deterioration",
+          "figure": null,
+          "table": null,
+          "excerpt": "To further evaluate this hypothesis, we concentrate on the uppermost 4 cm (ca.",
+          "excerpt_original_characters": 78,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.onset.context.2",
+          "page": 3,
+          "section": "Centennial-scale sequence of environmental deterioration",
+          "figure": null,
+          "table": null,
+          "excerpt": "2000 yr) of our record, which includes the onset of the EPME as defined by the extinction of Paleozoic corals and fusulinids32.",
+          "excerpt_original_characters": 127,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.timing",
+          "page": 5,
+          "section": "Timing of terrestrial and marine crises",
+          "figure": null,
+          "table": null,
+          "excerpt": "Namely, this study shows that the terrestrial crisis occ",
+          "excerpt_original_characters": 190,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 934,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "华南海陆危机相差300年不是Fiskegrav崩溃时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 12,
+      "document_id": "claim:sha256:b182c874a15e59ad0653d0ab7742027bde14166f0864ddcb156915ba1782df8e",
+      "paper_id": "paper:22245dfa7b75477c8973552545ee52c63d954a55e3b405ff96bd8a6a9911c9d7",
+      "snapshot_id": "snapshot:sha256:de65e914a25cc182b3030c45797fa7b2994fd7e61add3cd7eb47b36ce14176aa",
+      "artifact_version_id": "artifact-version:sha256:22245dfa7b75477c8973552545ee52c63d954a55e3b405ff96bd8a6a9911c9d7",
+      "source_name": "W1788051507.pdf",
+      "canonical_claim": "Permian reef ecosystems did not extend into the Triassic; the Early Triassic microbialites do not demonstrate their persistence.",
+      "original_claim": "(2006) studied the extinction process of reef ecosystems at end of the Permian, and found that all Permian reef ecosystems became extinct in the latest Permian Clarkina yini zone[11].",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "Permian reef ecosystems",
+          "Triassic reefs",
+          "thalamid sponges"
+        ],
+        "formation": [
+          "Permian-Triassic boundary interval"
+        ],
+        "location": [],
+        "measurement": [
+          "Reef-ecosystem persistence and reef-building taxa"
+        ],
+        "method": [
+          "Stratigraphic and taxonomic synthesis"
+        ],
+        "sample_type": [
+          "Permian reef ecosystems and Triassic reef-building organisms"
+        ],
+        "time": {
+          "end": null,
+          "label": "Latest Permian to Triassic",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.permian.reef.extinction",
+          "page": 10,
+          "section": "3.3 Extinction of reef ecosystems at the end of the Permian Period",
+          "figure": null,
+          "table": null,
+          "excerpt": "(2006) studied the extinction process of reef ecosystems at end of the Permian, and found that all Permian reef ecosystems became extinct in the latest Permian Clarkina yini zone[11].",
+          "excerpt_original_characters": 183,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.reef.extension.conclusion",
+          "page": 10,
+          "section": "3.3 Extinction of reef ecosystems at the end of the Permian Period",
+          "figure": null,
+          "table": null,
+          "excerpt": "In conclusion, the argument that Permian reef ecosystems extended to the Triassic is incorrect.",
+          "excerpt_original_characters": 95,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.thalamid.extinction",
+          "page": 10,
+          "section": "3.3 Extinction of reef ecosystems at the end of the Permian Period",
+          "figure": null,
+          "table": null,
+          "excerpt": "Wu and Fan found that all thalamid sponges, the main reef-building organism in Permian reefs, disappeared at the end of the Permian[35].",
+          "excerpt_original_characters": 136,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.triassic.thalamids",
+          "page": 10,
+          "section": "3.3 Extinction of reef ecosystems at the end of the Permian Period",
+          "figure": null,
+          "table": null,
+          "excerpt": "The thalamid sponges in Triassic reefs are all new species.",
+          "excerpt_original_characters": 59,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 473,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "礁生态跨界持续性没有目标时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 13,
+      "document_id": "claim:sha256:3f85ba70002b1628718c564259a4a9614d49907db486265ff67313fcb8d74d4a",
+      "paper_id": "paper:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "source_name": "W2766182206.pdf",
+      "canonical_claim": "At Fiskegrav, the spore:pollen-defined late Permian biotic crisis postdated the TOC carbon-isotope excursion and began before Fe-speciation-confirmed ferruginous conditions.",
+      "original_claim": "Within the lowermost Wordie Creek Formation, from 0.6 to $0 . 7 { \\mathrm { m } }$ above the formation boundary, anoxic conditions are confirmed by Fe speciation (Mettam et al., 2017).",
+      "scope": {
+        "location": [
+          "Fiskegrav, central Jameson Land, East Greenland"
+        ],
+        "time": {
+          "label": "Late Permian extinction and Permian–Triassic boundary",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Schuchert Dal and Wordie Creek formations"
+        ],
+        "sample_type": [
+          "Stratigraphic palynological samples"
+        ],
+        "method": [
+          "High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses"
+        ],
+        "condition": [
+          "Shallow-marine shelf setting"
+        ],
+        "measurement": [
+          "Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context"
+        ],
+        "uncertainty": "Salinity is proxy-inferred; duration estimates depend on sedimentation rates.",
+        "entities": [
+          "AOM",
+          "Fiskegrav section",
+          "Micrhystridium breve",
+          "acritarchs",
+          "freshwater run-off",
+          "marine and terrestrial ecosystems"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.anoxia.fe",
+          "page": 8,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "Within the lowermost Wordie Creek Formation, from 0.6 to $0 . 7 { \\mathrm { m } }$ above the formation boundary, anoxic conditions are confirmed by Fe speciation (Mettam et al., 2017).",
+          "excerpt_original_characters": 184,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.crisis.before",
+          "page": 8,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "Since the extinction started before conditions became ferruginous, spreading anoxia cannot be the main cause for the marine biotic crisis in the Fiskegrav section.",
+          "excerpt_original_characters": 163,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.crisis.definition",
+          "page": 6,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "(2001), we define the period with the highest spore : pollen ratios as the extinction interval.",
+          "excerpt_original_characters": 95,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig2",
+          "page": 4,
+          "section": null,
+          "figure": "Figure 2",
+          "table": null,
+          "excerpt": "Figure 2. Change in major groups of palynofacies. AOM: amorphous organic matter. The grey shaded box highlights the biotic crisis as defined by the high spore : pollen ratios, which are indicative for the disappearance of forest communities. Green shading indicates data from bioturbated rocks; grey shading indicates data from laminated rocks. Grey horizont",
+          "excerpt_original_characters": 439,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.spore",
+          "page": 6,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 107,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.spore.close",
+          "page": 6,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.toc",
+          "page": 7,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 148,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.toc.close",
+          "page": 7,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1142,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同剖面危机相对先后无持续时间",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 14,
+      "document_id": "claim:sha256:fa4f8ac52e05d065549eb46463298a86ec2f62c1bd5d4776ebd39af8fba23856",
+      "paper_id": "paper:5a3ab0656258bd741f774abc556603c4dbf6ca529e3403c38bdaeaf09abe439b",
+      "snapshot_id": "snapshot:sha256:d584185f605069d377a296fbc764ead8273a6ab19ebbaff95a3bfcb504ce7ed4",
+      "artifact_version_id": "artifact-version:sha256:5a3ab0656258bd741f774abc556603c4dbf6ca529e3403c38bdaeaf09abe439b",
+      "source_name": "NVA_019cc36d9839-2bec60c2-fbdf-42fd-96d7-7a1e3888d784.pdf",
+      "canonical_claim": "At this Boreal site, oxygen depletion was likely not the sole driver of the Permian–Triassic extinction, because earlier deoxygenation episodes were not accompanied by a biotic response of comparable severity.",
+      "original_claim": "Eventually， prevalent oxic conditions were reestablished in the Early Triassic.Hence,in contrast to what has been hypothesized for some coeval equatorial setings,persistent water column anoxia or euxinia might not have been a dominant driver of the extinction event at this Boreal site,emphasizing spatial variability in ocean redox conditions during the Permian-Triasic transition.Nevertheless,transient dysoxic episodes,water column stratification and enhanced input of terestrial organic matter in the early to middle Griesbachian likely affected local ecosystem structure and function,potentially providing beneficial conditions for some marine photosynthetic organisms to thrive and form regional phytoplankton blooms.Finall，our extended biomarker record demonstrates that changes in the biomarker inventory across the extinction horizon do not simply reflect facies variability but likely record substantial changes in local planktonic microbial communities.However,we do not detect indications for microbial ecosystem recovery such as a return towards a pre-crisis community composition within this interval.",
+      "scope": {
+        "location": [
+          "Lusitaniadalen, Svalbard, Boreal Realm"
+        ],
+        "time": {
+          "label": "Late Permian through Early Triassic, including the Permian–Triassic transition and early Griesbachian",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Kapp Starostin and Vikinghogda formations"
+        ],
+        "sample_type": [
+          "Sedimentary rocks"
+        ],
+        "method": [
+          "Multiproxy geochemical and lipid biomarker analysis"
+        ],
+        "condition": [
+          "Across the Permian–Triassic extinction horizon"
+        ],
+        "measurement": [
+          "RSM EF*, Ce anomalies, TAR, pristane/phytane, and lipid biomarker inventory"
+        ],
+        "uncertainty": "Biomarker source contributions and the duration represented by the sampled post-extinction interval limit interpretation.",
+        "entities": [
+          "Kapp Starostin Formation",
+          "Lusitaniadalen",
+          "Svalbard",
+          "Vikinghogda Formation"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.driver.comparison",
+          "page": 15,
+          "section": "4.3. Paleoredox Conditions",
+          "figure": null,
+          "table": null,
+          "excerpt": "However, neither of the sites record a biotic response similar in severity to the Permian-Triassic mass extinction during these earlier episodes of deoxygenation.",
+          "excerpt_original_characters": 162,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.conclusion.final",
+          "page": 16,
+          "section": "5. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Eventually， prevalent oxic conditions were reestablished in the Early Triassic.Hence,in contrast to what has been hypothesized for some coeval equatorial setings,persistent water column anoxia or euxinia might not have been a dominant driver of the extinction event at this Boreal site,emphasizing spatial variability in ocean redox conditions during the Permian-Triasic transition.Nevertheless,transient dysoxic episodes,water column stratification and enhanced input of terestrial organic matter in the early to middle Griesbachian likely affected local ecosystem structure and function,potentially providing beneficial conditions for s",
+          "excerpt_original_characters": 1115,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.driver.interpretation",
+          "page": 15,
+          "section": "4.3. Paleoredox Conditions",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 146,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.redox.conclusion",
+          "page": 16,
+          "section": "5. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 1179,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 2602,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "缺氧非唯一驱动无时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 15,
+      "document_id": "claim:sha256:04e9b1d782fd8654504bb203ae3689a09fcb6fc321c2482de549c8f76d72df49",
+      "paper_id": "paper:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "source_name": "W2766182206.pdf",
+      "canonical_claim": "At Fiskegrav, enhanced run-off and freshwater delivery, together with nutrient-driven productivity and water-column stratification, are the preferred explanation for periodic anoxic bottom-water deposition during the later stages of the crisis.",
+      "original_claim": "Phytoclasts are dominant in the bioturbated samples in the lower part of the section, while AOM dominates the palynofacies in the laminated intervals.",
+      "scope": {
+        "location": [
+          "Fiskegrav, central Jameson Land, East Greenland"
+        ],
+        "time": {
+          "label": "Late Permian extinction and Permian–Triassic boundary",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Schuchert Dal and Wordie Creek formations"
+        ],
+        "sample_type": [
+          "Stratigraphic palynological samples"
+        ],
+        "method": [
+          "High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses"
+        ],
+        "condition": [
+          "Shallow-marine shelf setting"
+        ],
+        "measurement": [
+          "Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context"
+        ],
+        "uncertainty": "Salinity is proxy-inferred; duration estimates depend on sedimentation rates.",
+        "entities": [
+          "AOM",
+          "Fiskegrav section",
+          "Micrhystridium breve",
+          "acritarchs",
+          "freshwater run-off",
+          "marine and terrestrial ecosystems"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.aom.result",
+          "page": 4,
+          "section": "4.1 Palynofacies",
+          "figure": null,
+          "table": null,
+          "excerpt": "Phytoclasts are dominant in the bioturbated samples in the lower part of the section, while AOM dominates the palynofacies in the laminated intervals.",
+          "excerpt_original_characters": 150,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig2",
+          "page": 4,
+          "section": null,
+          "figure": "Figure 2",
+          "table": null,
+          "excerpt": "Figure 2. Change in major groups of palynofacies. AOM: amorphous organic matter. The grey shaded box highlights the biotic crisis as defined by the high spore : pollen ratios, which are indicative for the disappearance of forest communities. Green shading indicates data from bioturbated rocks; grey shading indicates data from laminated rocks. Grey horizontal bar indicates the extinction interval, based on high spore $:$ pollen ratios. ",
+          "excerpt_original_characters": 439,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.freshwater.wedge",
+          "page": 10,
+          "section": "6 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Enhanced run-off would lead to elevated freshwater flux into shallow shelf seas, which would have led to the development of a freshwater wedge, stratification and a reduction in salinity.",
+          "excerpt_original_characters": 187,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.later.lamination",
+          "page": 10,
+          "section": "6 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "During the latter stages",
+          "excerpt_original_characters": 117,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.pollen.continuation",
+          "page": 8,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 84,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.pollen.figure",
+          "page": 8,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 81,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.pollen.interpretation",
+          "page": 8,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 222,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.runoff.delay",
+          "page": 10,
+          "section": "6 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 213,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.runoff.model",
+          "page": 10,
+          "section": "6 Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 215,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1708,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同剖面径流缺氧机制无时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 16,
+      "document_id": "claim:sha256:5dd804903eb9edf54e2cbbcd03e88f2a74a66f372015c8f6572bd4eb885f8eba",
+      "paper_id": "paper:ec1584844418381b0327f7ef7ee2da5256715f161f799ee9be0f63ea69e5a4f3",
+      "snapshot_id": "snapshot:sha256:888be67c02aad7002c966f4d3d0b09a47823fb8e77625f75781b9cc26c2bb0dc",
+      "artifact_version_id": "artifact-version:sha256:ec1584844418381b0327f7ef7ee2da5256715f161f799ee9be0f63ea69e5a4f3",
+      "source_name": "W4388194207.pdf",
+      "canonical_claim": "In northern Boreal Spitsbergen, shelly benthos disappeared an estimated 2.3 million years before the Permo-Triassic boundary, indicating an earlier regional extinction interval.",
+      "original_claim": "Taking a duration of 7.65 million years for the Late Permian [22], and assuming constant sedimentation rates (spiculitic cherts dominate the Spitsbergen section at this level [21]), indicates the shelly benthos went extinct 2.3 million years below the boundary.",
+      "scope": {
+        "location": [
+          "Spitsbergen, northern Boreal latitudes"
+        ],
+        "time": {
+          "label": "Changhsingian to Permo-Triassic boundary",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "shelly benthos and marine strata"
+        ],
+        "method": [
+          "chemostratigraphic age estimation assuming constant sedimentation rates"
+        ],
+        "condition": [],
+        "measurement": [
+          "stratigraphic position of shelly-fauna losses"
+        ],
+        "uncertainty": "The 2.3-million-year estimate depends on constant sedimentation rates.",
+        "entities": [
+          "PTMME",
+          "Spitsbergen",
+          "shelly benthos"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.boreal.interpret1",
+          "page": 3,
+          "section": "INTRODUCTION",
+          "figure": null,
+          "table": null,
+          "excerpt": "This is a level at the base of the topmost Permian Changhsingian Stage, considerably earlier than the onset of the PTMME (Fig.",
+          "excerpt_original_characters": 126,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.boreal.estimate",
+          "page": 3,
+          "section": "INTRODUCTION",
+          "figure": null,
+          "table": null,
+          "excerpt": "Taking a duration of 7.65 million years for the Late Permian [22], and assuming constant sedimentation rates (spiculitic cherts dominate the Spitsbergen section at this level [21]), indicates the shelly benthos went extinct 2.3 million years below the boundary.",
+          "excerpt_original_characters": 261,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.boreal.groups",
+          "page": 3,
+          "section": "INTRODUCTION",
+          "figure": null,
+          "table": null,
+          "excerpt": "The shelf seas of Spitsbergen in the Svalbard archipelago, located in northern Boreal latitudes, saw diverse shelly groups (notably brachiopods, bivalves, bryozoans, foraminifers) disappear considerably below the Permo-Triassic boundary although siliceous sponges and a large, soft-bodied burrowing fauna persisted to a level shortly above the onset of a negative $\\delta ^ { 1 3 } \\mathrm { C _ { \\mathrm { o r g",
+          "excerpt_original_characters": 436,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.boreal.interpret2",
+          "page": 3,
+          "section": "INTRODUCTION",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.figure3",
+          "page": 5,
+          "section": null,
+          "figure": "Figure 3",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 576,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1402,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Spitsbergen早灭绝时间非Fiskegrav修订时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 17,
+      "document_id": "claim:sha256:71d4daef37b0bb44010733c7cce126edde6e0c535e6c4e8cfcb6167691d1da48",
+      "paper_id": "paper:7adc1bef9789e547cfad51c3cee8e86d64e0e8fb594497b449523a474d6b5058",
+      "snapshot_id": "snapshot:sha256:58661d2e54a954077d7f8fd21726e83b9b02cfc130e66bb18d30d149947b718e",
+      "artifact_version_id": "artifact-version:sha256:7adc1bef9789e547cfad51c3cee8e86d64e0e8fb594497b449523a474d6b5058",
+      "source_name": "BULK_cb1beda9cea887de0ecf.pdf",
+      "canonical_claim": "Recovery after the Permian–Triassic extinction followed different prolonged trajectories: marine ecosystems required about 10 million years for true recovery, while terrestrial recovery signs appeared earlier in some areas but full recuperation remained delayed.",
+      "original_claim": "A few investigations indicate that signs of recovery appeared more promptly in terrestrial systems than in marine ones although full recuperation was still dragged out [17].",
+      "scope": {
+        "condition": [
+          "post-extinction recovery"
+        ],
+        "entities": [
+          "marine ecosystems",
+          "reef-building organisms",
+          "terrestrial ecosystems"
+        ],
+        "formation": [],
+        "location": [
+          "global"
+        ],
+        "measurement": [
+          "recovery duration and ecological succession"
+        ],
+        "method": [
+          "literature synthesis"
+        ],
+        "sample_type": [
+          "published studies summarized in the review"
+        ],
+        "time": {
+          "end": null,
+          "label": "Triassic recovery after the Permian–Triassic extinction",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "terrestrial recovery timing varies among areas"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.land_recovery",
+          "page": 3,
+          "section": "2.2. Impact on Terrestrial Life",
+          "figure": null,
+          "table": null,
+          "excerpt": "A few investigations indicate that signs of recovery appeared more promptly in terrestrial systems than in marine ones although full recuperation was still dragged out [17].",
+          "excerpt_original_characters": 173,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.marine_recovery",
+          "page": 3,
+          "section": "2.1. Impact on Marine Life",
+          "figure": null,
+          "table": null,
+          "excerpt": "A full 10 million years were needed for true recovery to take place, during which there were multiple \"false starts\" with simple low-diversity communities taking over [9].",
+          "excerpt_original_characters": 171,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.reef_gap",
+          "page": 3,
+          "section": "2.1. Impact on Marine Life",
+          "figure": null,
+          "table": null,
+          "excerpt": "When the major reef-building organisms disappeared because of the extinction, their absence created a gap in reefs that lasted millions of years into the Triassic period.",
+          "excerpt_original_characters": 170,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 514,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "灭绝恢复千万年不是崩溃持续时间",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 18,
+      "document_id": "claim:sha256:1601155b72af42ddb8885414dbe7f2ba32420ed31b456ab1386280625d07325b",
+      "paper_id": "paper:afb15f1843db1de72b3976109fa5edea221cd4fc464e363dc61e607e0d6de8e0",
+      "snapshot_id": "snapshot:sha256:250c8d9dc11433cf811988257db0e614ee2aab883f270ca31ee78f97d7966366",
+      "artifact_version_id": "artifact-version:sha256:afb15f1843db1de72b3976109fa5edea221cd4fc464e363dc61e607e0d6de8e0",
+      "source_name": "W2077630461.pdf",
+      "canonical_claim": "For the central North Pacific red-clay core EW9709 PC-01, triangular ichthyolith Sr-isotope ages referenced to the Neogene seawater curve indicate a mean sediment accumulation rate of about 0.45 mm/kyr over most of the approximately 24 Myr record.",
+      "original_claim": "The data for $\\mathrm { E W 9 7 0 9 ~ P C { - } 0 1 }$ indicate a fairly constant sediment accumulation rate of $\\sim 0 . 4 5$ $\\mathrm { m m / k y r }$ over most of the 24 Myr time period represented by this core.",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "EW9709 PC-01",
+          "ichthyoliths",
+          "sediment"
+        ],
+        "formation": [
+          "Neogene pelagic red clay"
+        ],
+        "location": [
+          "central North Pacific Ocean"
+        ],
+        "measurement": [
+          "age-depth profile and sediment accumulation rate"
+        ],
+        "method": [
+          "ichthyolith Sr-isotope stratigraphy referenced to the Neogene seawater Sr curve"
+        ],
+        "sample_type": [
+          "11 m large-diameter piston core EW9709 PC-01; triangular fish-tooth ichthyoliths"
+        ],
+        "time": {
+          "end": null,
+          "label": "approximately 24 Myr represented by the core",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Age assignments depend on the seawater Sr curve; the reported rate is a core-wide mean."
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.abstract.rate",
+          "page": 1,
+          "section": "Abstract",
+          "figure": null,
+          "table": null,
+          "excerpt": "The data for $\\mathrm { E W 9 7 0 9 ~ P C { - } 0 1 }$ indicate a fairly constant sediment accumulation rate of $\\sim 0 . 4 5$ $\\mathrm { m m / k y r }$ over most of the 24 Myr time period represented by this core.",
+          "excerpt_original_characters": 214,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.figure3",
+          "page": 7,
+          "section": null,
+          "figure": "Fig. 3",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.localfit.end",
+          "page": 6,
+          "section": "3. Results",
+          "figure": null,
+          "table": null,
+          "excerpt": "3b).",
+          "excerpt_original_characters": 4,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.localfit.start",
+          "page": 6,
+          "section": "3. Results",
+          "figure": null,
+          "table": null,
+          "excerpt": "A best-¢t curve to selected data points (least error) suggests that sedimentation rates may have actually increased downcore from approximately $0 . 2 5 \\ \\mathrm { m m / k y r }$ in the upper part to $0 . 6 \\ \\mathrm { m m / k y r }$ at core base (Fig.",
+          "excerpt_original_characters": 253,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.method",
+          "page": 3,
+          "section": "2. Materials and methods",
+          "figure": null,
+          "table": null,
+          "excerpt": "For Sr isotopic analysis, we chose to analyze only triangular ¢sh teeth ichthyoliths, thereby eliminating ichthyolith type as a variable [1,2].",
+          "excerpt_original_characters": 143,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.table1",
+          "page": 6,
+          "section": null,
+          "figure": null,
+          "table": "Table 1",
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.table1.agecurve",
+          "page": 6,
+          "section": "3. Results",
+          "figure": null,
+          "table": null,
+          "excerpt": "b Age determined from Sr seawater curve [16] $^ { 8 7 } \\mathrm { S r } / ^ { 8 6 } \\mathrm { S r }$ (2-sigma) $= 0 . 7 1 0 2 5 2 \\pm 1 1$ $( n = 6 1 )$ ) for NBS987.",
+          "excerpt_original_characters": 166,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 780,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "太平洋速率非目标崩溃时间",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 19,
+      "document_id": "claim:sha256:c67883a401bf5904880df5b5599c117928949a813cbc974b899f20a7fc589b08",
+      "paper_id": "paper:7bd9acaf5a21030279fce089cf4594cb16e23bf6f6a366750fa3409d8e123239",
+      "snapshot_id": "snapshot:sha256:00db67b6d97d65656702a6a878ce6bbe8c3ccacef917329489ffca5f3e759237",
+      "artifact_version_id": "artifact-version:sha256:7bd9acaf5a21030279fce089cf4594cb16e23bf6f6a366750fa3409d8e123239",
+      "source_name": "BULK_0b7686cebef60507e089.pdf",
+      "canonical_claim": "The cyclic timing of small-scale carbon-isotope events in the Oerlinghausen record suggests that orbital forcing exerted control on surface-water productivity and organic-matter preservation as a consequence of seafloor redox conditions.",
+      "original_claim": "The average sedimentation rate of pelagic carbonates in epicontinental shelf sea settings is in the order of $2 0 { - } 3 0 ~ \\mathrm { m M y r } .$ Assuming a sedimentation rate of $2 2 ~ \\mathrm { m } /$ Myr, the observed cycles at $9 \\textrm { m }$ and $2 { - } 3 \\ \\mathrm { ~ m ~ }$ would correspond to the $4 0 5 \\mathrm { k y r }$ and $1 0 0 \\mathrm { k y r }$ cycle of the long and short eccentricity, which suggests that eccentricity exerted control on carbon cycle variations.",
+      "scope": {
+        "location": [
+          "Oerlinghausen, Westfalen"
+        ],
+        "time": {
+          "label": "Turonian",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "Pelagic carbonate succession"
+        ],
+        "method": [
+          "LOWESS filtering and Lomb–Scargle spectral analysis"
+        ],
+        "condition": [],
+        "measurement": [
+          "Carbon-isotope cyclicity and spectral analysis"
+        ],
+        "uncertainty": "Orbital control is proposed from cyclicity and temporal spacing",
+        "entities": [
+          "Oerlinghausen carbon-isotope record",
+          "organic-matter preservation",
+          "surface-water productivity"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.text.orbital_conclusion",
+          "page": 13,
+          "section": "7. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "The cyclic appearance and the temporal spacing of the small-scale carbon isotope events suggest that orbital forcing exerted control on surface water productivity and organic matter preservation as a consequence of the redox conditions at the sea floor.",
+          "excerpt_original_characters": 253,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.cyclemapping",
+          "page": 8,
+          "section": "5.2. Oerlinghausen",
+          "figure": null,
+          "table": null,
+          "excerpt": "The average sedimentation rate of pelagic carbonates in epicontinental shelf sea settings is in the order of $2 0 { - } 3 0 ~ \\mathrm { m M y r } .$ Assuming a sedimentation rate of $2 2 ~ \\mathrm { m } /$ Myr, the observed cycles at $9 \\textrm { m }$ and $2 { - } 3 \\ \\mathrm { ~ m ~ }$ would correspond to the $4 0 5 \\mathrm { k y r }$ and $1 0 0 \\mathrm { k y r }$ cycle of the long and short eccentricity, which suggests that eccentricity exerted control on carbon cycle variations.",
+          "excerpt_original_characters": 486,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.spectral",
+          "page": 8,
+          "section": "5.2. Oerlinghausen",
+          "figure": null,
+          "table": null,
+          "excerpt": "Results of spectral analysis of the carbon isotope data show ",
+          "excerpt_original_characters": 136,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.spectral.figure_token",
+          "page": 8,
+          "section": "5.2. Oerlinghausen",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 4,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 879,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "Oerlinghausen轨道周期无关",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 20,
+      "document_id": "claim:sha256:c40a972769cfc5267784fe5ef142148f2e70d05497ce034d8a9eb1ff76001d3a",
+      "paper_id": "paper:e8f8af6906bb97242db4f11377f8be24310c6e21098018de0180e81018e473eb",
+      "snapshot_id": "snapshot:sha256:8f0f1924e18ad154d74d96764131450c9097ca457a98c1b143c3d5c518e58a5e",
+      "artifact_version_id": "artifact-version:sha256:e8f8af6906bb97242db4f11377f8be24310c6e21098018de0180e81018e473eb",
+      "source_name": "W128848223.pdf",
+      "canonical_claim": "The paper’s estimated natural global marine phosphorus budget is approximately closed: fluvial reactive-P input balances identified burial, implying an oceanic phosphorus residence time on the order of 10^5 years (about 10^5 years in the abstract and 8 × 10^4 years in the conclusions).",
+      "original_claim": "The identified sources and sinks approximately balance, yielding a residence time for ${ \\bf P }$ in the oceans of about $1 0 ^ { 5 }$ yrs.",
+      "scope": {
+        "location": [
+          "Global ocean"
+        ],
+        "time": {
+          "label": "Natural or pre-agricultural input estimate; long-term budget",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [],
+        "method": [
+          "Global phosphorus flux budget"
+        ],
+        "condition": [
+          "Assumed steady state"
+        ],
+        "measurement": [
+          "Reactive-P input, identified burial, and oceanic residence time"
+        ],
+        "uncertainty": "Approximate flux and residence-time estimates",
+        "entities": [
+          "marine phosphorus cycle",
+          "ocean sediments",
+          "rivers"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.balance",
+          "page": 1,
+          "section": "THE MARINE PHOSPHORUS CYCLE",
+          "figure": null,
+          "table": null,
+          "excerpt": "The identified sources and sinks approximately balance, yielding a residence time for ${ \\bf P }$ in the oceans of about $1 0 ^ { 5 }$ yrs.",
+          "excerpt_original_characters": 139,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.input",
+          "page": 10,
+          "section": "INPUTSOF PHOSPHORUS TO THE OCEAN",
+          "figure": null,
+          "table": null,
+          "excerpt": "Since no other significant input fluxes can be recognized,we take the total input flux of reactive-P to the oceans as equal to the fluvial flux $( 1 0 ~ \\pm ~ \\bar { 5 } ~ \\times ~ 1 0 ^ { - 9 }$ moles $\\mathrm { c m } ^ { - 2 } \\mathrm { y r } ^ { - 1 } )$ .",
+          "excerpt_original_characters": 259,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.residence_conclusion",
+          "page": 31,
+          "section": "CONCLUSIONS",
+          "figure": null,
+          "table": null,
+          "excerpt": "mathrm { c m } ^ { - 2 } \\mathrm { y r } ^ { - 1 }$ ， requiring a river water “reactive” P-concentration of about $1 ~ \\mu \\mathrm { M }$ .The residence time of $\\mathbf { P }$ in the oceans is thus about $8 \\times 1 0 ^ { 4 }$ yrs.",
+          "excerpt_original_characters": 232,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 630,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "海洋P停留时间无关",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 21,
+      "document_id": "claim:sha256:358e39f8fd6483805a23ec80e19d8f7c4f580f268c653144071c41e5d2cfd9e7",
+      "paper_id": "paper:633a0b3b2bd6ea7a12a783cdd9f6922311b95d11b59308b50ab7a738244c33c0",
+      "snapshot_id": "snapshot:sha256:94c8608ae58f7b1138c68bf832f3b1a3b54cb2b91539ecfe22138235498442c0",
+      "artifact_version_id": "artifact-version:sha256:633a0b3b2bd6ea7a12a783cdd9f6922311b95d11b59308b50ab7a738244c33c0",
+      "source_name": "W203867509.pdf",
+      "canonical_claim": "The Permian Phosphoria Sea exchanged water robustly with the open ocean rather than being stagnant; the modeled mean bottom-water residence time was about 10 years, with a V-based estimate of 11 years.",
+      "original_claim": "The RT agrees closely with the RT of 11 years that was calculated from the accumulation rate of V.",
+      "scope": {
+        "condition": [
+          "Water exchange between the Phosphoria Sea and open ocean"
+        ],
+        "entities": [
+          "Mo",
+          "Phosphoria Sea",
+          "V",
+          "bottom water",
+          "open ocean",
+          "organic carbon"
+        ],
+        "formation": [
+          "Meade Peak Member of the Phosphoria Formation"
+        ],
+        "location": [
+          "Phosphoria Basin"
+        ],
+        "measurement": [
+          "Bottom-water residence time and Mo:Corg distribution"
+        ],
+        "method": [
+          "Mo:Corg patterns and accumulation-rate circulation model"
+        ],
+        "sample_type": [
+          "Sediment samples and reconstructed basin water"
+        ],
+        "time": {
+          "end": null,
+          "label": "Permian Meade Peak Member accumulation",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Residence-time calculations depend on assumed V concentration and removal."
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.altrt",
+          "page": 14,
+          "section": "13.12.5.3 A Circulation Model",
+          "figure": null,
+          "table": null,
+          "excerpt": "The RT agrees closely with the RT of 11 years that was calculated from the accumulation rate of V.",
+          "excerpt_original_characters": 98,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig11",
+          "page": 13,
+          "section": "13.12.5.2 Hydrogenous Trace Elements",
+          "figure": "Figure 11",
+          "table": null,
+          "excerpt": "Figure 11 The relationship between Mo and $\\complement _ { \\mathfrak { o r g } }$ in samples from the MPM at the Hot Springs site. The shaded area encloses samples from the Namibian shelf, southwest Africa (Algeo and Lyons, 2006). ",
+          "excerpt_original_characters": 231,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig12",
+          "page": 14,
+          "section": "13.12.5.3 A Circulation Model",
+          "figure": "Figure 12",
+          "table": null,
+          "excerpt": "Figure 12 A circulation model for the Phosphoria Basin. The upwelling rate is based on the mean accumulation rates of the trace nutrients Cd, Cu, Ni, and Zn. Advection of bottom water is based on the mean accumulation rate of the redox-sensitive trace metal V. The rate of exchange of water between the Phosphoria Basin and the Goose Egg Basin assumes an evaporation rate of $1 . 5 \\ : \\mathrm { m y e a r } ^ { - 1 }$ (Penman, 1948) and an area of evaporation in the Goo",
+          "excerpt_original_characters": 549,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.fig7",
+          "page": 8,
+          "section": "13.12.4 Lithogenous Sediment Fraction",
+          "figure": "Figure 7",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.model_caption",
+          "page": 14,
+          "section": "13.12.5.3 A Circulation Model",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 55,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.namibia",
+          "page": 13,
+          "section": "13.12.5.2 Hydrogenous Trace Elements",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 285,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.nonstagnant",
+          "page": 13,
+          "section": "13.12.5.2 Hydrogenous Trace Elements",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 96,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.ratio_random",
+          "page": 13,
+          "section": "13.12.5.2 Hydrogenous Trace Elements",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 286,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.vrt",
+          "page": 13,
+          "section": "13.12.5.2 Hydrogenous Trace Elements",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 432,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 2032,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Phosphoria水停留时间无关",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 22,
+      "document_id": "claim:sha256:6d14186e542e3b6a4bc3e69e794a03d16fe15a407ac6e31e4feeb30da179449b",
+      "paper_id": "paper:764cc23f85f04037211160baff48770a1d042ad3cf665cdc83a32c5f998edea1",
+      "snapshot_id": "snapshot:sha256:0970dea21bb565f4cfc9a1f8a6f5fef95c024e7b00477f6295c4984f11ed7d5f",
+      "artifact_version_id": "artifact-version:sha256:764cc23f85f04037211160baff48770a1d042ad3cf665cdc83a32c5f998edea1",
+      "source_name": "2007_Paleophysiology and end-Permian mass extinction_7bbb01d6.pdf",
+      "canonical_claim": "In Early–Middle Triassic marine ecosystems, physiologically selective community composition and depressed animal biomass indicate that some end-Permian environmental conditions persisted or recurred for 4–5 million years, governing the timing and pattern of recovery.",
+      "original_claim": "Thus,a strong case can be made for reduced animal biomass in post-extinction oceans that persisted for several million years.",
+      "scope": {
+        "location": [
+          "Early–Middle Triassic oceans"
+        ],
+        "time": {
+          "label": "Early to Middle Triassic; 4–5 million years after the boundary",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "Early–Middle Triassic marine assemblages"
+        ],
+        "method": [
+          "paleontological and sedimentary evidence interpreted physiologically"
+        ],
+        "condition": [
+          "post-extinction ecological recovery"
+        ],
+        "measurement": [
+          "community composition, skeletal contributions, and animal biomass"
+        ],
+        "uncertainty": "Persistent or recurring conditions are inferred from biological and physical patterns.",
+        "entities": [
+          "marine invertebrate communities"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.recovery_interpretation",
+          "page": 14,
+          "section": "6.1. Diversity and abundance patterns",
+          "figure": null,
+          "table": null,
+          "excerpt": "Together, the diversity and composition of Early and Middle Triassic marine communities suggest that some version of the environmental conditions established at the time of mass extinction persisted or recurred for the next 4-5 million years, even if the acute disruption that precipitated the crisis did not.",
+          "excerpt_original_characters": 309,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.biomass_persistence",
+          "page": 12,
+          "section": "6.1. Diversity and abundance patterns",
+          "figure": null,
+          "table": null,
+          "excerpt": "Thus,a strong case can be made for reduced animal biomass in post-extinction oceans that persisted for several million years.",
+          "excerpt_original_characters": 125,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.early_comp",
+          "page": 14,
+          "section": "6.1. Diversity and abundance patterns",
+          "figure": null,
+          "table": null,
+          "excerpt": "Taxa least sensitive to hypercapnic stress dominated most Early Triassic deposits, whereas physiologically sensitive taxa were rare or absent until the Spathian and Anisian.",
+          "excerpt_original_characters": 173,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.recovery_rates",
+          "page": 14,
+          "section": "6.1. Diversity and abundance patterns",
+          "figure": null,
+          "table": null,
+          "excerpt": "During the recovery interval, taxa in our poorly-buffered group one actually diversified at higher rates than the well buffered group two that dominated Early Triassic assemblages [15,131].",
+          "excerpt_original_characters": 189,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.skeletal_biomass",
+          "page": 12,
+          "section": "6.1. Diversity and abundance patterns",
+          "figure": null,
+          "table": null,
+          "excerpt": "Quan",
+          "excerpt_original_characters": 374,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.trace_mats",
+          "page": 12,
+          "section": "6.1. Diversity and abundance patterns",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 407,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1577,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "三叠纪恢复迟缓不是目标崩溃时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 23,
+      "document_id": "claim:sha256:f9536ebfe8d4b008f3f348d1fe9cdc90a1409785d9a3b7657245e091109b62f8",
+      "paper_id": "paper:be7a28a063740e7bfee9ae3cab0c482f5d84d82f747e9f4787e10f8c58b30981",
+      "snapshot_id": "snapshot:sha256:87a36dd6cbd508ff4537581ab95777d9764898037e50cf23379357dc0ec81ab1",
+      "artifact_version_id": "artifact-version:sha256:be7a28a063740e7bfee9ae3cab0c482f5d84d82f747e9f4787e10f8c58b30981",
+      "source_name": "2025_晚二叠世全球海洋生态系统逐步坍塌与缺氧的可能联系_e7a33350.pdf",
+      "canonical_claim": "晚二叠世全球海洋生态系统灭绝时序的深浅水差异及浮游—底栖差异，最可能与最小含氧带（OMZ）在深水形成、增厚并向海底和浅水扩展所造成的缺氧有关（图6）。",
+      "original_claim": "究均支持这一假说 .Algeo et al.（2011）对日本远洋二叠纪‒三叠纪之交微量元素和硫同位素的研究表明，在 水 深 为 $5 0 0 { \\sim } 1 ~ 0 0 0 ~ \\mathrm { m }$ 的 水 体 中，为 滞 流 环 境（euxinic）， $1 ~ 0 0 0 ~ \\mathrm { m }$ 以下为氧化至厌氧环境（oxic‒suboxic），这种现象被解释为最小含氧带在泛大洋中层水体形成的结果.前人对华南古特提斯长兴晚期至三叠纪早期的地层进行同位素地球化学研究表明，存在碳、氮等同位素古水深梯度，表明长兴晚期在古特提斯洋的中层水体发育最小含氧带，到二叠纪末至 三 叠 纪 早 期 ，最 小 含 氧 带 向 浅 水 扩 展（Song etal.",
+      "scope": {
+        "condition": [
+          "不同水深及浮游、底栖生态功能"
+        ],
+        "entities": [
+          "底栖生态系统",
+          "最小含氧带（OMZ）",
+          "浮游生态系统",
+          "缺氧"
+        ],
+        "formation": [],
+        "location": [
+          "全球海洋"
+        ],
+        "measurement": [
+          "灭绝时序与古海洋氧化还原条件"
+        ],
+        "method": [
+          "化石、古环境及地球化学记录综合解释"
+        ],
+        "sample_type": [
+          "晚二叠世海相剖面及相关古环境记录"
+        ],
+        "time": {
+          "end": null,
+          "label": "晚二叠世至二叠纪—三叠纪之交",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "OMZ机制为最可能解释，非唯一因果证明"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.6",
+          "page": 12,
+          "section": "5.1 OMZ的形成、扩展导致缺氧的发展和海洋生态系统逐步坍塌",
+          "figure": "图6",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.geochemistry",
+          "page": 12,
+          "section": "5.1 OMZ的形成、扩展导致缺氧的发展和海洋生态系统逐步坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "究均支持这一假说 .Algeo et al.（2011）对日本远洋二叠纪‒三叠纪之交微量元素和硫同位素的研究表明，在 水 深 为 $5 0 0 { \\sim } 1 ~ 0 0 0 ~ \\mathrm { m }$ 的 水 体 中，为 滞 流 环 境（euxinic）， $1 ~ 0 0 0 ~ \\mathrm { m }$ 以下为氧化至厌氧环境（oxic‒suboxic），这种现象被解释为最小含氧带在泛大洋中层水体形成的结果.前人对华南古特提斯长兴晚期至三叠纪早期的地层进行同位素地球化学研究表明，存在碳、氮等同位素古水深梯度，表明长兴晚期在古特提斯洋的中层水体发育最小含氧带，到二叠纪末至 三 叠 纪 早 期 ，最 小 含 氧 带 向 浅 水 扩 展（Song etal.",
+          "excerpt_original_characters": 340,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.model_stage1",
+          "page": 11,
+          "section": "5.1 OMZ的形成、扩展导致缺氧的发展和海洋生态系统逐步坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "海 洋 生 态 系 统 坍塌 的 这 种 时 空 差 异 很 难 用 单 一 因 素 或 者 几 种 因 素简单解释，根据上述现代大洋 OMZ氧气含量的分带性，最大可能性与最小含氧带的形成并随时间发生 扩 展 有 关 .本 文 采 用 这 一 更 为 合 理 的 假 说 解 释海 洋 生 态 系 统 逐 步 坍 塌 的 过 程 ：最 小 含 氧 带（OMZ）在深水（包括远洋）形成，位于 OMZ的核心带（core zone）缺氧，导致栖居于深水水层的浮游动物 放 射 虫 发 生 衰 退 或 者 灭 绝（图 6a）；",
+          "excerpt_original_characters": 259,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.model_stage2",
+          "page": 11,
+          "section": "5.1 OMZ的形成、扩展导致缺氧的发展和海洋生态系统逐步坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "随 着 海 洋 缺氧程度增强，最小含氧带OMZ加厚，导致缺氧环境先后向海底（图 6b）和浅水扩展（图 6c），最终导致深水和浅水环境中的底栖生态系统彻底倒塌 .这个 过 程 的 后 期 阶 段 还 叠 加 了 其 他 因 素 对 生 态 系 统的 影 响 ，比 如 全 球 变 暖（Joachimski et al.",
+          "excerpt_original_characters": 158,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.omz_down",
+          "page": 11,
+          "section": "5.1 OMZ的形成、扩展导致缺氧的发展和海洋生态系统逐步坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "OMZ 向下扩展将导致海底或者更深水缺氧；",
+          "excerpt_original_characters": 21,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.omz_structure",
+          "page": 11,
+          "section": "5.1 OMZ的形成、扩展导致缺氧的发展和海洋生态系统逐步坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "有关现代大洋最小含氧带研究表明：在大洋 水 ",
+          "excerpt_original_characters": 307,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.omz_up",
+          "page": 11,
+          "section": "5.1 OMZ的形成、扩展导致缺氧的发展和海洋生态系统逐步坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 35,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.redox_deep",
+          "page": 11,
+          "section": "5.1 OMZ的形成、扩展导致缺氧的发展和海洋生态系统逐步坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 116,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.text.redox_shallow",
+          "page": 11,
+          "section": "5.1 OMZ的形成、扩展导致缺氧的发展和海洋生态系统逐步坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 44,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1280,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "全球OMZ灭绝机制无目标时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 24,
+      "document_id": "claim:sha256:d3b51d47f12f6f9875245346c041f7e5b662261e7e273e5701db4f66f6917abb",
+      "paper_id": "paper:c95af5dd763010202b94a6de0a44ff5975774e91711303b3bd861c2700aefb6c",
+      "snapshot_id": "snapshot:sha256:2c740c3ec438c68f66f5cb8b460cb40a8926a753a8ea0005c26d3aef3e6ca899",
+      "artifact_version_id": "artifact-version:sha256:c95af5dd763010202b94a6de0a44ff5975774e91711303b3bd861c2700aefb6c",
+      "source_name": "W2028845497.pdf",
+      "canonical_claim": "Historical sediment markers, Pb-210 dating, and sediment traps support an average annual dry-sediment deposition rate of about 100 g m−2 yr−1 in the central basin of Framvaren.",
+      "original_claim": "$> 1 0 0 0 \\ p \\mathsf { p m } Z \\mathsf { n } \\}$ ,are typical examples.The rate of sedimentation is estimated in three independent ways suggesting an average,annual flux of $\\sim 1 0 0 \\ \\mathrm { ~ g ~ } \\mathrm { ~ m ~ } ^ { - 2 } \\ \\mathrm { y } \\mathrm { r } ^ { - 1 }$ in the central basin of Framvaren.Fluxes of organic mater and zinc to the sediments are calculated and compared with potential sources.",
+      "scope": {
+        "location": [
+          "Central basin of Framvaren"
+        ],
+        "time": null,
+        "formation": [],
+        "sample_type": [
+          "Upper black varved sediment and sediment-trap material"
+        ],
+        "method": [
+          "Historical sediment markers, Pb-210 dating, and sediment traps"
+        ],
+        "condition": [
+          "Deep basin of the permanently anoxic fjord"
+        ],
+        "measurement": [
+          "Annual dry-sediment deposition rate"
+        ],
+        "uncertainty": "The methods give approximate estimates; the paper notes sources of error.",
+        "entities": [
+          "Framvaren",
+          "dry sediment"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.sed.hist.marker",
+          "page": 11,
+          "section": "Sediment fluxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "Hence,a marine sediment is overlying a lake sediment and the changeover is historically dated to l850, as explained earlier.",
+          "excerpt_original_characters": 124,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.sed.abstract",
+          "page": 1,
+          "section": "ABSTRACT",
+          "figure": null,
+          "table": null,
+          "excerpt": "$> 1 0 0 0 \\ p \\mathsf { p m } Z \\mathsf { n } \\}$ ,are typical examples.The rate of sedimentation is estimated in three independent ways suggesting an average,annual flux of $\\sim 1 0 0 \\ \\mathrm { ~ g ~ } \\mathrm { ~ m ~ } ^ { - 2 } \\ \\mathrm { y } \\mathrm { r } ^ { - 1 }$ in the central basin of Framvaren.Fluxes of organic mater and zinc to the sediments are calculated and compared with potential sources.",
+          "excerpt_original_characters": 411,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.sed.pb.chron",
+          "page": 11,
+          "section": "Sediment fluxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "This implies that the upper $3 8 \\ \\mathrm { c m }$ of the black, varved sediment is deposited during the last \\~ l25 yrs.",
+          "excerpt_original_characters": 122,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.sed.pb.flux",
+          "page": 11,
+          "section": "Sediment fluxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "A rate of sedimentation of $3 \\ \\mathrm { m m } \\ \\mathrm { y r } ^ { - 1 }$ and an average water content of $9 6 \\%$ in the upper $1 0 ~ \\math",
+          "excerpt_original_characters": 298,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.sed.pb.rate",
+          "page": 11,
+          "section": "Sediment fluxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 191,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.sed.summary",
+          "page": 13,
+          "section": "Sediment fluxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 213,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.sed.trap",
+          "page": 12,
+          "section": "Sediment fluxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 269,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1628,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "Framvaren沉积量非目标时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 25,
+      "document_id": "claim:sha256:555a097bc9d94ee838796641ab8e8e33c3f895e5ea1b6e59aca7aa8e2e1c25e5",
+      "paper_id": "paper:be7a28a063740e7bfee9ae3cab0c482f5d84d82f747e9f4787e10f8c58b30981",
+      "snapshot_id": "snapshot:sha256:87a36dd6cbd508ff4537581ab95777d9764898037e50cf23379357dc0ec81ab1",
+      "artifact_version_id": "artifact-version:sha256:be7a28a063740e7bfee9ae3cab0c482f5d84d82f747e9f4787e10f8c58b30981",
+      "source_name": "2025_晚二叠世全球海洋生态系统逐步坍塌与缺氧的可能联系_e7a33350.pdf",
+      "canonical_claim": "全球晚二叠世海洋生态系统衰退呈由深水向浅水推进的时序：深水相灭绝的开始和顶峰均早于浅水相。",
+      "original_claim": "图4　全球不同古地理环境中浮游生物‒底栖生物灭绝时间的对比",
+      "scope": {
+        "condition": [
+          "不同古水深环境"
+        ],
+        "entities": [
+          "全球海洋生态系统",
+          "浅水环境",
+          "深水环境"
+        ],
+        "formation": [],
+        "location": [
+          "全球海洋"
+        ],
+        "measurement": [
+          "生态系统衰退及灭绝开始、顶峰时序"
+        ],
+        "method": [
+          "全球海相剖面的化石和古环境记录综合研究"
+        ],
+        "sample_type": [
+          "全球30个海相二叠纪—三叠纪界线剖面"
+        ],
+        "time": {
+          "end": null,
+          "label": "晚二叠世至二叠纪—三叠纪之交",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "跨剖面地层对比"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.4",
+          "page": 10,
+          "section": "4 全球海洋生物灭绝规律与生态系统坍塌",
+          "figure": "图4",
+          "table": null,
+          "excerpt": "图4　全球不同古地理环境中浮游生物‒底栖生物灭绝时间的对比",
+          "excerpt_original_characters": 29,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.figure.5",
+          "page": 11,
+          "section": "4 全球海洋生物灭绝规律与生态系统坍塌",
+          "figure": "图5",
+          "table": null,
+          "excerpt": "图5 全球不同古水深环境浮游生物‒底栖生物灭绝时间的对比和总结",
+          "excerpt_original_characters": 31,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.deep_early",
+          "page": 7,
+          "section": "3 不同古地理背景下生物灭绝规律的对比与阶段划分",
+          "figure": null,
+          "table": null,
+          "excerpt": "本文对不同古地理背景下各剖面进行了详细的生物灭绝规律的分析和总结（图3和图4）：第一个阶 段（I，从 吴 家 坪 期 到 Clarkina yini 带 下 部 或 者 相当于煤山剖面第23层顶部对应时期），从穿越远洋、深 水 盆 地、深 水 陆 架 至 中 等 深 水 斜 坡 的 深 水 环 境，生物衰退开始于吴家坪期（远洋环境中，浮游生物放射虫 Albaillellaria 目的属级灭绝率为 $53 \\%$ ）（图4）；",
+          "excerpt_original_characters": 214,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.deep_stage3",
+          "page": 7,
+          "section": "3 不同古地理背景下生物灭绝规律的对比与阶段划分",
+          "figure": null,
+          "table": null,
+          "excerpt": "第 三 个 阶 段（III，对 应于 Clarkina meishanensis 带 或 者 煤 山 剖 面 第 24e 至25层），深水环境中，浮游生物放射虫和底栖动物继续发生灭绝；",
+          "excerpt_original_characters": 92,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.depth_benthic",
+          "page": 11,
+          "section": "4 全 球 海 洋 生 物 灭 绝 规 律 与 生 态 系统坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "并且，深水底栖生态系统的坍塌又要早于浅水底栖生态系统（图 5）.",
+          "excerpt_original_characters": 32,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.depth_summary",
+          "page": 10,
+          "section": "4 全 球 海 洋 生 物 灭 绝 规 律 与 生 态 系统坍塌",
+          "figure": null,
+          "table": null,
+          "excerpt": "Clarkina meishanensis 带（ME，煤 山 第 24e 至 25 层）（图4，图5）.总之，深水相生物灭绝开始（onset）和顶峰 期（peak）均 比 浅 水 灭 绝 的 开 始 和 顶 峰 期 要 早 .",
+          "excerpt_original_characters": 113,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.shallow_onset",
+          "page": 7,
+          "section": "3 不同古地理背景下生物灭绝规律的对比与阶段划分",
+          "figure": null,
+          "table": null,
+          "excerpt": "甚至，浅水台地（如凉风垭剖面）的底栖动物有孔虫 也 开 始 发 生 灭 绝（图 4）.",
+          "excerpt_original_characters": 43,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.text.shallow_stage3",
+          "page": 7,
+          "section": "3 不同古地理背景下生物灭绝规律的对比与阶段划分",
+          "figure": null,
+          "table": null,
+          "excerpt": "浅水环境中，底栖动物普遍发生灭绝（图 4）.",
+          "excerpt_original_characters": 22,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 576,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "深浅水灭绝先后没有目标时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 26,
+      "document_id": "claim:sha256:178fd21f09aa15c81cbb227151e33e7856f28ee89412efd59d0cd49e68118687",
+      "paper_id": "paper:5c26946aa7d666309ccf300ef1e62ec1c30258f272f27929c01713e918411431",
+      "snapshot_id": "snapshot:sha256:faad992fca37bd9f692bd63a1cb483c0bc6f703afafeeb1a7a5d9b50bb694e87",
+      "artifact_version_id": "artifact-version:sha256:5c26946aa7d666309ccf300ef1e62ec1c30258f272f27929c01713e918411431",
+      "source_name": "W3021912679.pdf",
+      "canonical_claim": "Estimated linear sedimentation rates in Spitsbergen were 4 to 20 times faster during the Induan than during the Permian.",
+      "original_claim": "Based on our zircon age and Burgess et al.’s (2014) Induan-Olenekian boundary age, the Induan interval is interpreted to have lasted around 0.91 Myr.",
+      "scope": {
+        "location": [
+          "Spitsbergen, Svalbard"
+        ],
+        "time": {
+          "label": "Permian and Induan",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Kapp Starostin and Vikinghøgda formations"
+        ],
+        "sample_type": [
+          "Preserved marine sedimentary successions"
+        ],
+        "method": [
+          "Age-constrained linear sedimentation-rate estimates"
+        ],
+        "condition": [],
+        "measurement": [
+          "Linear sedimentation rate"
+        ],
+        "uncertainty": "Limited biostratigraphic and chronostratigraphic constraints.",
+        "entities": [
+          "Induan",
+          "Permian"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.induan.duration",
+          "page": 30,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "Based on our zircon age and Burgess et al.’s (2014) Induan-Olenekian boundary age, the Induan interval is interpreted to have lasted around 0.91 Myr.",
+          "excerpt_original_characters": 149,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.induan.rates",
+          "page": 30,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "Average linear sedimentation rates during the Induan were therefore 61 m/Myr in central Spitsbergen and nearly four times faster, at 220 m/Myr in  western",
+          "excerpt_original_characters": 154,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.induan.rates.cont",
+          "page": 31,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "Spitsbergen.",
+          "excerpt_original_characters": 12,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.permian.rates",
+          "page": 30,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "Therefore, the Kapp Starostin Formation potentially encompasses a time span of 32.5 to 21 Myr, which implies that, on average, 10 to 15 m of sediments accumulated every million years.",
+          "excerpt_original_characters": 183,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.sedimentation.comparison",
+          "page": 31,
+          "section": "5. Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "Although these values are approximate and rely on the limited bio- and chronostratigraphical constraints in the core, they demonstrate that linear sedimentation rates in Svalbard were between  4 and 20 times faster in the Induan than in the Permian.",
+          "excerpt_original_characters": 249,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 747,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "Spitsbergen速率倍数无Fiskegrav崩溃时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 27,
+      "document_id": "claim:sha256:730b6b5fdc1d2e11c9aca2923a2724487b10f613957849dfebd743f4771841f8",
+      "paper_id": "paper:e7c45d670fa97dbe6c3fb13b8cf8511da089814ccd275a96b3c38b736ba14ad1",
+      "snapshot_id": "snapshot:sha256:1024ab7b33bd5afc5e597d652bf0dcd66fce8460cd0f546eaef21f4da799821f",
+      "artifact_version_id": "artifact-version:sha256:e7c45d670fa97dbe6c3fb13b8cf8511da089814ccd275a96b3c38b736ba14ad1",
+      "source_name": "2016_二叠纪—三叠纪之交生物大灭绝与残存_afe8b64e.pdf",
+      "canonical_claim": "二叠纪－三叠纪之交海洋生物灭绝总体呈两幕式，但灭绝形式随生物门类和沉积相而异。",
+      "original_claim": "图2 二叠纪－三叠纪之交生物的两幕式、选择性灭绝",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "二叠纪－三叠纪之交的海洋生物群"
+        ],
+        "formation": [],
+        "location": [
+          "海相剖面及不同沉积相"
+        ],
+        "measurement": [
+          "灭绝幕数和灭绝形式"
+        ],
+        "method": [
+          "多门类化石与高分辨率地层记录综述"
+        ],
+        "sample_type": [
+          "海洋生物化石记录"
+        ],
+        "time": {
+          "end": null,
+          "label": "二叠纪－三叠纪之交",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "不同门类和剖面的灭绝形式存在差异"
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.fig.2",
+          "page": 4,
+          "section": null,
+          "figure": "图2",
+          "table": null,
+          "excerpt": "图2 二叠纪－三叠纪之交生物的两幕式、选择性灭绝",
+          "excerpt_original_characters": 24,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig.3",
+          "page": 5,
+          "section": null,
+          "figure": "图3",
+          "table": null,
+          "excerpt": "图3 二叠纪－三叠纪之交有孔虫、介形虫和腕足动物在不同相区的灭绝过程示意",
+          "excerpt_original_characters": 36,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.text.ext.overall",
+          "page": 4,
+          "section": "表1 二叠纪－三叠纪灭绝事件中科、属、种级灭绝率",
+          "figure": null,
+          "table": null,
+          "excerpt": "程，包括非 有孔虫、介形虫、腕足动物、软体动物（双壳类、腹足类、菊石）和牙形石．从栖息环境的角度看，这些生物门类分布很广，从浅海到深水盆地都有分布，有些门类在泻湖中也可以生存（例如双壳类、腹足类以及有孔虫），而且还有一些类别可以生活在陆相的淡水湖泊中（例如双壳类、腹足类以及介形虫）．这些遭受两幕式灭绝的生物门类，其灭绝率也有差别，总体上非 有孔虫、介形虫和腕足动物灭绝率较高，软体动物和牙形石灭绝率较低．虽然不同生物门类的灭绝形式表现不同，但笔者从整体海洋生态系的角度来看，生物灭绝呈现出较为显著的两幕式过程（图2）",
+          "excerpt_original_characters": 259,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.text.ext.taxa",
+          "page": 4,
+          "section": "表1 二叠纪－三叠纪灭绝事件中科、属、种级灭绝率",
+          "figure": null,
+          "table": null,
+          "excerpt": "王永标等，2005),其中有孔虫多样性非常低，常见的只有两类灾难分子 sp．和Postcladella kalhori(Song etal.，2ol6).所以浅水台地相有孔虫主要表现为单幕式的灭绝形式，也就犆犾犽犻 犻犺 犻是绝大部分有孔虫在 带消失（图3）．而处于较深水的台内凹陷或者斜坡相区的有孔虫主要表现为两幕式的灭绝过程．与浅水台地相类似，斜坡相区晚二叠世有孔虫也非常丰富，但类非常少见，大个体有孔虫的比例也较低，小个体有孔虫非常繁盛． 类和绝大多数大个体的有孔虫在犆犾犽犻 犻犺第一幕灭绝事件中消失，但在带之上依然存在很多小个体有孔虫，超过30多个种犾 犆犾（Song ．，2009a）．这些残存的有孔虫在na meishanensis带至Isarcicella staeschei带地层中稳定存在，丰度和分异度变化不大（图2，3）．这些小个体有孔虫大多数都在第二幕灭绝事件中消失犾（Song ．，2009a）．与有孔虫相反，介形虫在浅水台地相表现为典型的两幕式灭绝过程，而在斜坡相表现为单幕式灭绝（图3）．腕足动物与前两者都不同，在浅水台地、较深水斜",
+          "excerpt_original_characters": 506,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 825,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "两幕灭绝模式未给目标估算",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 28,
+      "document_id": "claim:sha256:36454409020afe1f2a52391a7c349641216ffd2b54b4aa857e8961772875e10d",
+      "paper_id": "paper:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "source_name": "W2766182206.pdf",
+      "canonical_claim": "Where Permian–Triassic shelf salinity declined as inferred at Fiskegrav, oxygen-isotope palaeotemperature reconstructions that assume constant seawater salinity may overestimate Early Triassic warming.",
+      "original_claim": "Oxygen isotope values partially reflect seawater salinity, although this is generally ignored in palaeotemperature studies because there is currently no independent proxy of salinity change, and so it is assumed that salinity remained constant.",
+      "scope": {
+        "location": [
+          "Fiskegrav, central Jameson Land, East Greenland"
+        ],
+        "time": {
+          "label": "Late Permian extinction and Permian–Triassic boundary",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Schuchert Dal and Wordie Creek formations"
+        ],
+        "sample_type": [
+          "Stratigraphic palynological samples"
+        ],
+        "method": [
+          "High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses"
+        ],
+        "condition": [
+          "Shallow-marine shelf setting"
+        ],
+        "measurement": [
+          "Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context"
+        ],
+        "uncertainty": "Salinity is proxy-inferred; duration estimates depend on sedimentation rates.",
+        "entities": [
+          "AOM",
+          "Fiskegrav section",
+          "Micrhystridium breve",
+          "acritarchs",
+          "freshwater run-off",
+          "marine and terrestrial ecosystems"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.isotope.salinity",
+          "page": 10,
+          "section": "5.3 Seawater temperature",
+          "figure": null,
+          "table": null,
+          "excerpt": "Oxygen isotope values partially reflect seawater salinity, although this is generally ignored in palaeotemperature studies because there is currently no independent proxy of salinity change, and so it is assumed that salinity remained constant.",
+          "excerpt_original_characters": 244,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.no.local.temperature",
+          "page": 9,
+          "section": "5.3 Seawater temperature",
+          "figure": null,
+          "table": null,
+          "excerpt": "Since no water temperature reconstructions exist for the Greenland–Norway basin, at this time, it is not possible to exclude the effects of rising water temperatures on the acritarch morphology.",
+          "excerpt_original_characters": 194,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.process.salinity",
+          "page": 9,
+          "section": "5.2 Sea-level and salinity changes",
+          "figure": null,
+          "table": null,
+          "excerpt": "Instead, the shortening of the processes could be interpreted as a lowering in salinity during the extinction event.",
+          "excerpt_original_characters": 116,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.temperature.overestimate",
+          "page": 10,
+          "section": "5.3 Seawater temperature",
+          "figure": null,
+          "table": null,
+          "excerpt": "enhanced precipitation and run-off), as it appears for East Greenland at least, then all of these studies may have significantly overestimated Early Triassic temperatures.",
+          "excerpt_original_characters": 171,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 725,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同区盐度温度偏差未给崩溃时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 29,
+      "document_id": "claim:sha256:0ce266d9b7a44f41754c13df368d344c07ef61082e6ca5e0912e44bd018e6b61",
+      "paper_id": "paper:38f343c942631ae68dd1554bce7c354051696e33ba988a947468aa792821ccf1",
+      "snapshot_id": "snapshot:sha256:c9a75f99531de19b3519bf30cffe3780cc43761819202c16c572420afe838360",
+      "artifact_version_id": "artifact-version:sha256:38f343c942631ae68dd1554bce7c354051696e33ba988a947468aa792821ccf1",
+      "source_name": "ELS_6b4698976cff8f18522c.pdf",
+      "canonical_claim": "In the middle of the Fiskegrav section, alternating oxygen-restricted and temporarily oxygenated conditions prevented benthic colonization at some times and allowed intermittent infaunal recolonization at others.",
+      "original_claim": "The alternations of laminated and bioturbated mudstone in Interval 2 indicate that at times the seafloor was devoid of benthic animals and at other times supported an infaunal community of micro- and meiofauna, although macroscopic shelly fossils remained absent.",
+      "scope": {
+        "location": [
+          "Fiskegrav, East Greenland"
+        ],
+        "time": {
+          "label": "Late Permian; studied strata are interpreted as post-LPME and pre-PTB",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Upper Schuchert Dal Formation and lower Wordie Creek Formation"
+        ],
+        "sample_type": [
+          "Siliciclastic siltstones and mudstones"
+        ],
+        "method": [
+          "High-resolution sedimentological and geochemical analyses, including Fe speciation and stable-isotope measurements"
+        ],
+        "condition": [
+          "Marine transgression; stratigraphic Intervals 1–4"
+        ],
+        "measurement": [
+          "Depositional redox conditions, sedimentology, TOC/TN, δ13Corg and δ15Nbulk"
+        ],
+        "uncertainty": "Interval 2 timing depends on sedimentation-rate constraints; the proposed climatic mechanism is speculative.",
+        "entities": [
+          "Fiskegrav succession",
+          "Hadley Cell",
+          "benthic organisms",
+          "marine redox conditions",
+          "shallow-shelf ecosystem"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.fig4",
+          "page": 5,
+          "section": null,
+          "figure": "Fig. 4",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.benthic.alternation",
+          "page": 10,
+          "section": "5.5. Fluctuations in depositional conditions and the disappearance of benthos",
+          "figure": null,
+          "table": null,
+          "excerpt": "The alternations of laminated and bioturbated mudstone in Interval 2 indicate that at times the seafloor was devoid of benthic animals and at other times supported an infaunal community of micro- and meiofauna, although macroscopic shelly fossils remained absent.",
+          "excerpt_original_characters": 263,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig4.caption",
+          "page": 5,
+          "section": "4.2. Bulk rock geochemistry",
+          "figure": null,
+          "table": null,
+          "excerpt": "Fe speciation, TOC/TN and stable isotope data.",
+          "excerpt_original_characters": 46,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig7",
+          "page": 10,
+          "section": null,
+          "figure": "Fig. 7",
+          "table": null,
+          "excerpt": "Fig. 7. Cross plots of major elements and TOC and TN in Interval 2 only. Dashed lines in F and G show Redfield C/N ratio minimum for organic matter (Gao et al., 2012). In F, data plotted below and to the right of the dashed line shows sub-Redfield ratios; in G, data plotted to the left of the dashed line shows sub-Redfield ratios. Open squares represent laminated layers and filled circles represent bioturbated horizons. ",
+          "excerpt_original_characters": 424,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig7.caption",
+          "page": 10,
+          "section": "5.5. Fluctuations in depositional conditions and the disappearance of benthos",
+          "figure": null,
+          "table": null,
+          "excerpt": "Cross plots of major elements and TOC and TN in Interval 2 only.",
+          "excerpt_original_characters": 64,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig7.ref",
+          "page": 10,
+          "section": "5.5. Fluctuations in depositional conditions and the disappearance of benthos",
+          "figure": null,
+          "table": null,
+          "excerpt": "7).",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.interval2.beds",
+          "page": 4,
+          "section": "4.1. Lithology",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 214,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.interval2.populations",
+          "page": 10,
+          "section": "5.5. Fluctuations in depositional conditions and the disappearance of benthos",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 293,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.interval2.separation",
+          "page": 4,
+          "section": "4.1. Lithology",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 74,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.oxidative.markers",
+          "page": 10,
+          "section": "5.5. Fluctuations in depositional conditions and the disappearance of benthos",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 181,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.oxidative.refs",
+          "page": 10,
+          "section": "5.5. Fluctuations in depositional conditions and the disappearance of benthos",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 6,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.redox.lithology.interpretation",
+          "page": 10,
+          "section": "5.5. Fluctuations in depositional conditions and the disappearance of benthos",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 335,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1903,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同剖面间歇底栖重建无持续时间",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 30,
+      "document_id": "claim:sha256:8eb083a6149df96599a87442fafc705fbcb4c7c7bffd6579a9fd0dc690ebf129",
+      "paper_id": "paper:0bb36fae4c2c004b5325f62c51369e2cc4adc205a5e39e718947c3452e6ac599",
+      "snapshot_id": "snapshot:sha256:8c89f1510eeb8d5ec4768348dfae761f72497d6e3767a7ac5b888077879a90c8",
+      "artifact_version_id": "artifact-version:sha256:0bb36fae4c2c004b5325f62c51369e2cc4adc205a5e39e718947c3452e6ac599",
+      "source_name": "NEWCN_DSJYJ_34c14956-2075-4997-a855-087c2b5abcb5.pdf",
+      "canonical_claim": "新疆准噶尔和吐哈盆地的中纬度陆地生态系统在二叠纪－三叠纪过渡期经历长期、缓慢且呈阶段性的演替，植被贫乏期较短，并在早三叠世转入缓慢恢复。",
+      "original_claim": "岩性和地层颜色的系统性变化（图 1e），表明北方中纬度地区晚二叠世开始出现季节性干旱，且干旱程度呈现逐渐加强的趋势，到早三叠世更甚。",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "准噶尔盆地",
+          "吐哈盆地",
+          "陆地生态系统"
+        ],
+        "formation": [
+          "上二叠统至下三叠统陆相地层"
+        ],
+        "location": [
+          "新疆准噶尔和吐哈盆地（北半球中纬度地区）"
+        ],
+        "measurement": [
+          "植被演替、气候沉积指标及恢复迹象"
+        ],
+        "method": [
+          "沉积学、有机碳同位素、炭屑、孢粉与植物组合记录综合"
+        ],
+        "sample_type": [
+          "河流－湖泊陆相沉积序列"
+        ],
+        "time": {
+          "end": null,
+          "label": "晚二叠世至早三叠世",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.fig.1",
+          "page": 4,
+          "section": null,
+          "figure": "图 1",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.txt.xj-aridity",
+          "page": 4,
+          "section": "21 岩石颜色的变化",
+          "figure": null,
+          "table": null,
+          "excerpt": "岩性和地层颜色的系统性变化（图 1e），表明北方中纬度地区晚二叠世开始出现季节性干旱，且干旱程度呈现逐渐加强的趋势，到早三叠世更甚。",
+          "excerpt_original_characters": 66,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.txt.xj-multiproxy",
+          "page": 3,
+          "section": "1 陆地生态系统的演变",
+          "figure": null,
+          "table": null,
+          "excerpt": "新疆准噶尔和吐哈盆地是研究北半球中高纬度安加拉植物区陆地生态系统转变的代表性区域，陆相二叠系－三叠系剖面沉积学特征、有机碳同位素、炭屑丰度、孢粉相和植物组合等在二叠纪－三叠纪过渡时期都发生了显著变化 $[ 3 4 , 5 3 \\sim 5 4 , 7 2 \\sim 7 4 ]$ ，该区域陆地生态系统的演替具有长期缓慢性和阶段性，植被贫乏期相对较短。",
+          "excerpt_original_characters": 175,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.txt.xj-recovery",
+          "page": 7,
+          "section": "32 多环芳烃",
+          "figure": null,
+          "table": null,
+          "excerpt": "随后 PAHs含量出现较大波动，孢粉组合也明显增加，表明陆地生态系统开始缓慢恢复，此时陆地的植被覆盖面积增加，植物组成出现明显变化。",
+          "excerpt_original_characters": 66,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 307,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "新疆陆地慢速演替不是Fiskegrav持续时间",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 31,
+      "document_id": "claim:sha256:02a3562bf5ca493ffe73d45b36ea2a5a90f35e6858b368546c9a712f853ed4ea",
+      "paper_id": "paper:38f343c942631ae68dd1554bce7c354051696e33ba988a947468aa792821ccf1",
+      "snapshot_id": "snapshot:sha256:c9a75f99531de19b3519bf30cffe3780cc43761819202c16c572420afe838360",
+      "artifact_version_id": "artifact-version:sha256:38f343c942631ae68dd1554bce7c354051696e33ba988a947468aa792821ccf1",
+      "source_name": "ELS_6b4698976cff8f18522c.pdf",
+      "canonical_claim": "At Fiskegrav, the marine transgression coincided with a progressive decline in oxygen availability, from oxic deposition toward ferruginous conditions; unambiguous anoxia appears only in Interval 4.",
+      "original_claim": "Interval 1 shows $\\mathrm { F e } _ { \\mathrm { H R } } / \\mathrm { F e } _ { \\mathrm { T } }$ ratios consistently below 0.22.",
+      "scope": {
+        "location": [
+          "Fiskegrav, East Greenland"
+        ],
+        "time": {
+          "label": "Late Permian; studied strata are interpreted as post-LPME and pre-PTB",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Upper Schuchert Dal Formation and lower Wordie Creek Formation"
+        ],
+        "sample_type": [
+          "Siliciclastic siltstones and mudstones"
+        ],
+        "method": [
+          "High-resolution sedimentological and geochemical analyses, including Fe speciation and stable-isotope measurements"
+        ],
+        "condition": [
+          "Marine transgression; stratigraphic Intervals 1–4"
+        ],
+        "measurement": [
+          "Depositional redox conditions, sedimentology, TOC/TN, δ13Corg and δ15Nbulk"
+        ],
+        "uncertainty": "Interval 2 timing depends on sedimentation-rate constraints; the proposed climatic mechanism is speculative.",
+        "entities": [
+          "Fiskegrav succession",
+          "Hadley Cell",
+          "benthic organisms",
+          "marine redox conditions",
+          "shallow-shelf ecosystem"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.euxinia.thresholds",
+          "page": 4,
+          "section": "3.2. Fe speciation and major element analyses",
+          "figure": null,
+          "table": null,
+          "excerpt": "Traditionally, unambiguously euxinic depositional conditions have been inferred when the $\\mathrm { F e } _ { \\mathrm { P Y } } / \\mathrm { F e } _ { \\mathrm { H R } }$ ratio $\\ge 0 . 8$ , however recent work indicates a $\\mathrm { F e } _ { \\mathrm { P Y } } / \\mathrm { F e } _ { \\mathrm { H R } }$ ratio of $\\ge 0 . 7$ may be indicative of euxinia (Poulton and Canfeld, 2011;",
+          "excerpt_original_characters": 378,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fe.interval1",
+          "page": 6,
+          "section": "4.3. Iron speciation",
+          "figure": null,
+          "table": null,
+          "excerpt": "Interval 1 shows $\\mathrm { F e } _ { \\mathrm { H R } } / \\mathrm { F e } _ { \\mathrm { T } }$ ratios consistently below 0.22.",
+          "excerpt_original_characters": 126,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fe.interval23",
+          "page": 6,
+          "section": "4.3. Iron speciation",
+          "figure": null,
+          "table": null,
+          "excerpt": "Although $\\mathrm { F e _ { H R } / F e _ { T } }$ ratios increase through Intervals 2 and 3, they do not exceed 0.38 until Interval 4.",
+          "excerpt_original_characters": 135,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fe.results",
+          "page": 6,
+          "section": "4.3. Iron speciation",
+          "figure": null,
+          "table": null,
+          "excerpt": "$\\mathrm { F e } _ { \\mathrm { H R } } / \\mathrm { F e } _ { \\mathrm { T } }$ ratios range from 0.15 to 0.59, with a mean value 0.28 (Fig.",
+          "excerpt_original_characters": 138,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fe.thresholds",
+          "page": 4,
+          "section": "3.2. Fe speciation and major element analyses",
+          "figure": null,
+          "table": null,
+          "excerpt": "Oxic depositional condi",
+          "excerpt_original_characters": 370,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.ferruginous",
+          "page": 8,
+          "section": "5.3. Palaeoredox evolution",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 269,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.fig4",
+          "page": 5,
+          "section": null,
+          "figure": "Fig. 4",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig4.caption",
+          "page": 5,
+          "section": "4.2. Bulk rock geochemistry",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 46,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.lithology",
+          "page": 4,
+          "section": "4.1. Lithology",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 199,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.transgression",
+          "page": 6,
+          "section": "5.2. Evidence of marine transgression",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 194,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1855,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同剖面缺氧发展未量化崩溃时间",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 32,
+      "document_id": "claim:sha256:79a0ab6bee1b4338551e759f3d94f6b2a0d2f8d5535585ed9b3c9f9a725d519a",
+      "paper_id": "paper:38f343c942631ae68dd1554bce7c354051696e33ba988a947468aa792821ccf1",
+      "snapshot_id": "snapshot:sha256:c9a75f99531de19b3519bf30cffe3780cc43761819202c16c572420afe838360",
+      "artifact_version_id": "artifact-version:sha256:38f343c942631ae68dd1554bce7c354051696e33ba988a947468aa792821ccf1",
+      "source_name": "ELS_6b4698976cff8f18522c.pdf",
+      "canonical_claim": "At Fiskegrav, defining the local LPME by the start of the δ13Corg excursion and the last Permian brachiopod, the extinction horizon predates final marine ecosystem collapse marked by cessation of bioturbation.",
+      "original_claim": "Following the disappearance of the last Permian macrofossil, however, the rocks remain bioturbated, indicating persistence of a functioning marine ecosystem.",
+      "scope": {
+        "condition": [
+          "Marine transgression; stratigraphic Intervals 1–4"
+        ],
+        "entities": [
+          "Fiskegrav succession",
+          "Hadley Cell",
+          "benthic organisms",
+          "marine redox conditions",
+          "shallow-shelf ecosystem"
+        ],
+        "formation": [
+          "Upper Schuchert Dal Formation and lower Wordie Creek Formation"
+        ],
+        "location": [
+          "Fiskegrav, East Greenland"
+        ],
+        "measurement": [
+          "Depositional redox conditions, sedimentology, TOC/TN, δ13Corg and δ15Nbulk"
+        ],
+        "method": [
+          "High-resolution sedimentological and geochemical analyses, including Fe speciation and stable-isotope measurements"
+        ],
+        "sample_type": [
+          "Siliciclastic siltstones and mudstones"
+        ],
+        "time": {
+          "end": null,
+          "label": "Late Permian; studied strata are interpreted as post-LPME and pre-PTB",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Interval 2 timing depends on sedimentation-rate constraints; the proposed climatic mechanism is speculative."
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.biota.persistence",
+          "page": 2,
+          "section": "2.2. The position of the latest Permian mass extinction horizon and Permian-Triassic Boundary at Fiskegrav",
+          "figure": null,
+          "table": null,
+          "excerpt": "Following the disappearance of the last Permian macrofossil, however, the rocks remain bioturbated, indicating persistence of a functioning marine ecosystem.",
+          "excerpt_original_characters": 157,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "page": 3,
+          "section": null,
+          "figure": "Fig. 2",
+          "table": null,
+          "excerpt": "Fig. 2. Sedimentary section at Fiskegrav – A Biostratigraphy relevant to the extinction event and the Permian Triassic boundary, adapted from Twitchett et al. (2001). B Position of samples in this study. LAD $=$ last appearance datum. $\\mathrm { F A D = }$ first appearance datum. ",
+          "excerpt_original_characters": 281,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig2.ref",
+          "page": 2,
+          "section": "2.1. Palaeogeography and biostratigraphy",
+          "figure": null,
+          "table": null,
+          "excerpt": "2).",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.highres.decline",
+          "page": 2,
+          "section": "2.2. The position of the latest Permian mass extinction horizon and Permian-Triassic Boundary at Fiskegrav",
+          "figure": null,
+          "table": null,
+          "excerpt": "however our higher-resolution data show that the sharp decline in $\\delta ^ { 1 3 } \\mathsf C _ { \\mathrm { o r g } }$ occurred lower in the Schuchert Dal Fm.",
+          "excerpt_original_characters": 158,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.last.brachiopod",
+          "page": 2,
+          "section": "2.2. The position of the latest Permian mass extinction horizon and Permian-Triassic Boundary at Fiskegrav",
+          "figure": null,
+          "table": null,
+          "excerpt": "The start of this decline coincides with the last occurrence of Permian macroinvertebrates (brachiopods) (Fig.",
+          "excerpt_original_characters": 110,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.local.lpme",
+          "page": 2,
+          "section": "2.2. The position of the latest Permian mass extinction horizon and Permian-Triassic Boundary at Fiskegrav",
+          "figure": null,
+          "table": null,
+          "excerpt": "If the local LPME horizon at Fiskegrav is defined as the start of the $\\delta ^ { 1 3 } \\ma",
+          "excerpt_original_characters": 363,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1072,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同剖面灭绝层先后解释无修订时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 33,
+      "document_id": "claim:sha256:7b4f781060b25853155ccb7bb088f034082f7bd8f5c7381a8f4b3658bad40c57",
+      "paper_id": "paper:034c065d4f61a356fd7f994cd980857b8f042ba3f9565734c1ea042192795af4",
+      "snapshot_id": "snapshot:sha256:3ac22680617665ce5664b1ef965905b629824a436bae7664424af6920cc04120",
+      "artifact_version_id": "artifact-version:sha256:034c065d4f61a356fd7f994cd980857b8f042ba3f9565734c1ea042192795af4",
+      "source_name": "NVA_0198cc8f1536-fb4f8d96-2330-409b-956a-a8b07c8e7be7.pdf",
+      "canonical_claim": "In late-Quaternary Arctic marine sediments, variable sedimentation and 230Thxs scavenging and accumulation fluxes limit radiometric dating to an approximate final extinction age rather than reliable ages for individual layers; the high-sedimentation-rate PS2757 estimate has especially large depth and time uncertainties.",
+      "original_claim": "The above features explain the great variability of $^ { 2 3 0 } \\mathrm { T h } _ { \\mathrm { x } s }$ -recordings in the Arctic Ocean and document the difficulties in using this isotope to set any reliable “radiometric age\",other than that of the final “extinction age”documented above.",
+      "scope": {
+        "location": [
+          "Arctic Ocean; PS2757 on the Southern Lomonosov Ridge"
+        ],
+        "time": {
+          "label": "Late Quaternary",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "Marine sediment sequences"
+        ],
+        "method": [
+          "230Thxs extinction-age approach"
+        ],
+        "condition": [
+          "Variable sedimentation and scavenging/accumulation fluxes; relatively high sedimentation rate at PS2757"
+        ],
+        "measurement": [
+          "Residual 230Thxs profile and extinction boundary"
+        ],
+        "uncertainty": "Large depth and time uncertainties at PS2757",
+        "entities": [
+          "230Thxs",
+          "Arctic marine sediments",
+          "PS2757"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.age.discussion",
+          "page": 7,
+          "section": "4.5. A $^ { 2 3 0 } T h _ { x s }$ -stratigraphy",
+          "figure": null,
+          "table": null,
+          "excerpt": "The above features explain the great variability of $^ { 2 3 0 } \\mathrm { T h } _ { \\mathrm { x } s }$ -recordings in the Arctic Ocean and document the difficulties in using this isotope to set any reliable “radiometric age\",other than that of the final “extinction age”documented above.",
+          "excerpt_original_characters": 288,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.age.estimate",
+          "page": 7,
+          "section": "4.4.Chronologcal costraintsfrom $^ { 2 3 0 } T h _ { x s }$ distribution and decay",
+          "figure": null,
+          "table": null,
+          "excerpt": "6.With a $6 8 \\%$ probability,an age of $2 3 1 + 3 1 / - 2 5 \\mathrm { k a }$ is obtained at a depth of ${ \\sim } 5 . 9 \\pm 1 . 5 \\mathrm { m }$ Given the near ${ } ^ { 2 3 0 } \\mathrm { T h } / { } ^ { 2 3 4 } \\mathrm { U } .$ equilibrium below $5 9 0 ~ \\mathrm { c m }$ ,as suggested by their inventories,the most probable depth of the $^ { 2 3 0 } \\mathrm { T h } _ { \\mathrm { x } s }$ \"extinction” would thus have to be within the ${ \\sim } 4 4 0 { \\mathrm { - } } 5 9 0 { \\mathrm { c m } }$ interval.",
+          "excerpt_original_characters": 506,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.age.model",
+          "page": 7,
+          "section": "4.4.Chronologcal costraintsfrom $^ { 2 3 0 } T h _ { x s }$ distribution and decay",
+          "figure": null,
+          "table": null,
+          "excerpt": "e., wi",
+          "excerpt_original_characters": 248,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.age.site",
+          "page": 8,
+          "section": "5．Conclusion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 645,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.age.trend",
+          "page": 7,
+          "section": "4.4.Chronologcal costraintsfrom $^ { 2 3 0 } T h _ { x s }$ distribution and decay",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 728,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.fig6",
+          "page": 7,
+          "section": null,
+          "figure": "Figure 6",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 422,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 2837,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "北极沉积定年误差不是目标危机",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 34,
+      "document_id": "claim:sha256:5392bcabe1dc9a27427d626a2d0a80179940ea28858d612d312168c270e8eb64",
+      "paper_id": "paper:0bb36fae4c2c004b5325f62c51369e2cc4adc205a5e39e718947c3452e6ac599",
+      "snapshot_id": "snapshot:sha256:8c89f1510eeb8d5ec4768348dfae761f72497d6e3767a7ac5b888077879a90c8",
+      "artifact_version_id": "artifact-version:sha256:0bb36fae4c2c004b5325f62c51369e2cc4adc205a5e39e718947c3452e6ac599",
+      "source_name": "NEWCN_DSJYJ_34c14956-2075-4997-a855-087c2b5abcb5.pdf",
+      "canonical_claim": "二叠纪－三叠纪之交，剧烈火山活动、快速升温和干旱化及频繁增强的陆地野火相互作用，共同促成全球陆地生态系统崩溃。",
+      "original_claim": "图 3 晚二叠世炭屑的扫描电镜照片",
+      "scope": {
+        "condition": [
+          "全球升温和干旱化背景"
+        ],
+        "entities": [
+          "火山活动",
+          "陆地生态系统",
+          "陆地野火"
+        ],
+        "formation": [
+          "二叠系－三叠系转折期陆相沉积序列"
+        ],
+        "location": [
+          "全球陆地；记录重点包括中国西南和新疆等地区"
+        ],
+        "measurement": [
+          "火山活动、野火及陆地生态系统变化"
+        ],
+        "method": [
+          "对炭屑、燃烧来源PAHs、Hg、Hg/TOC、CO₂及古生态记录的综合"
+        ],
+        "sample_type": [
+          "多地区沉积、地球化学与古生物记录"
+        ],
+        "time": {
+          "end": null,
+          "label": "二叠纪末至早三叠世",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "火山作用来源及野火对全球CO₂与变暖的反馈仍有争议或缺少定量约束"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.txt.fire-feedback-limit",
+          "page": 8,
+          "section": "33 野火事件对气候条件的反馈和影响",
+          "figure": null,
+          "table": null,
+          "excerpt": "然而遗憾的是，关于晚二叠世野火事件和大气 $\\mathrm { C O } _ { 2 }$ 含量上升、全球变暖之间的关联一直处于定性阶段，当前既没有野火事件释放出 $\\mathrm { C O } _ { 2 }$ 总量的评估，也没有来自同一剖面序列的相互关联的野火事件证据与 $\\mathrm { C O } _ { 2 }$ 含量确凿数据。",
+          "excerpt_original_characters": 173,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig.3",
+          "page": 7,
+          "section": null,
+          "figure": "图 3",
+          "table": null,
+          "excerpt": "图 3 晚二叠世炭屑的扫描电镜照片",
+          "excerpt_original_characters": 17,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.txt.charcoal-intensification",
+          "page": 6,
+          "section": "31 炭屑",
+          "figure": null,
+          "table": null,
+          "excerpt": "至二叠纪末期，炭屑丰度陡然增加，表明高强度野火事件的规模和影响突然变强，这很可能与全球气温骤然升高和随之出现的干旱气候条件有关。",
+          "excerpt_original_characters": 64,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.txt.charcoal-pattern",
+          "page": 6,
+          "section": "31 炭屑",
+          "figure": null,
+          "table": null,
+          "excerpt": "在 新 疆 和 华 南 陆 相 剖 面 上 二 叠 统中［54，88］ ，炭屑类型多样且丰度高，同时反射率也相对较高，表明这一时期野火事件发生频繁且主要为较高燃烧温度的林冠火，这也从侧面反映了晚二叠世植被较为繁盛，存在相对高大的林木；",
+          "excerpt_original_characters": 117,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.txt.co2-trend",
+          "page": 8,
+          "section": "4 火山活动与升温事件",
+          "figure": null,
+          "table": null,
+          "excerpt": "$\\mathbb { W } \\mathbf { u }$ 等［122］ 利用 $\\mathrm { C } _ { 3 }$ 植物的 $\\delta ^ { 1 3 } \\mathrm { C }$ 数据，计算出 $\\mathrm { C O } _ { 2 }$ 含量从晚二叠世晚期的 $4 2 6 \\mathrm { \\ p p m v }$ 逐渐上升，直到二叠纪－三叠纪之交达到峰值 $2 5 0 7 \\ \\mathrm { p p m v }$ ，至早三叠世早期一直维持在较高的水平。",
+          "excerpt_original_characters": 247,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.txt.fire-global",
+          "page": 6,
+          "section": "31 炭屑",
+          "figure": null,
+          "table": null,
+          "excerpt": "诸多地区丰富的炭屑记录表明二叠纪－三叠纪之交野火事件在陆地上频繁、普遍地发生（图 3）。",
+          "excerpt_original_characters": 44,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.txt.hk1",
+          "page": 8,
+          "section": "4 火山活动与升温事件",
+          "figure": null,
+          "table": null,
+          "excerpt": "中国西南地区陆相二叠系－三叠系HK1钻孔中［47］ ，燃烧来源 PAHs含量、 $\\mathrm { H g }$ 含量和$\\mathrm { H g / T O C }$ 的异常富集均出现在二叠纪末期，并且有机碳同位素也发生显著负偏，表明该时期存在剧烈的火山作用，并引发野",
+          "excerpt_original_characters": 196,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.txt.pah-pattern",
+          "page": 7,
+          "section": "32 多环芳烃",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 152,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.txt.volcanic-hg",
+          "page": 8,
+          "section": "4 火山活动与升温事件",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 192,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.txt.volcanic-source-debate",
+          "page": 9,
+          "section": "4 火山活动与升温事件",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 138,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.txt.volcanism-co2",
+          "page": 8,
+          "section": "4 火山活动与升温事件",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 81,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1421,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "全球陆地崩溃机制未给目标时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 35,
+      "document_id": "claim:sha256:c9daa2c63bc71b2c7a4cc186035e02b650e27ca2d41425cbe4abd3af94199a52",
+      "paper_id": "paper:5a3ab0656258bd741f774abc556603c4dbf6ca529e3403c38bdaeaf09abe439b",
+      "snapshot_id": "snapshot:sha256:d584185f605069d377a296fbc764ead8273a6ab19ebbaff95a3bfcb504ce7ed4",
+      "artifact_version_id": "artifact-version:sha256:5a3ab0656258bd741f774abc556603c4dbf6ca529e3403c38bdaeaf09abe439b",
+      "source_name": "NVA_019cc36d9839-2bec60c2-fbdf-42fd-96d7-7a1e3888d784.pdf",
+      "canonical_claim": "After the extinction, Lusitaniadalen shallow-marine deposits record increased terrigenous organic-matter input, reflected in elevated TAR and terrestrial plant-derived long-chain n-alkanes.",
+      "original_claim": "Eventually， prevalent oxic conditions were reestablished in the Early Triassic.Hence,in contrast to what has been hypothesized for some coeval equatorial setings,persistent water column anoxia or euxinia might not have been a dominant driver of the extinction event at this Boreal site,emphasizing spatial variability in ocean redox conditions during the Permian-Triasic transition.Nevertheless,transient dysoxic episodes,water column stratification and enhanced input of terestrial organic matter in the early to middle Griesbachian likely affected local ecosystem structure and function,potentially providing beneficial conditions for some marine photosynthetic organisms to thrive and form regional phytoplankton blooms.Finall，our extended biomarker record demonstrates that changes in the biomarker inventory across the extinction horizon do not simply reflect facies variability but likely record substantial changes in local planktonic microbial communities.However,we do not detect indications for microbial ecosystem recovery such as a return towards a pre-crisis community composition within this interval.",
+      "scope": {
+        "location": [
+          "Lusitaniadalen, Svalbard, Boreal Realm"
+        ],
+        "time": {
+          "label": "Late Permian through Early Triassic, including the Permian–Triassic transition and early Griesbachian",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Kapp Starostin and Vikinghogda formations"
+        ],
+        "sample_type": [
+          "Sedimentary rocks"
+        ],
+        "method": [
+          "Multiproxy geochemical and lipid biomarker analysis"
+        ],
+        "condition": [
+          "Across the Permian–Triassic extinction horizon"
+        ],
+        "measurement": [
+          "RSM EF*, Ce anomalies, TAR, pristane/phytane, and lipid biomarker inventory"
+        ],
+        "uncertainty": "Biomarker source contributions and the duration represented by the sampled post-extinction interval limit interpretation.",
+        "entities": [
+          "Kapp Starostin Formation",
+          "Lusitaniadalen",
+          "Svalbard",
+          "Vikinghogda Formation"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.figure.5",
+          "page": 11,
+          "section": null,
+          "figure": "Figure 5",
+          "table": null,
+          "excerpt": "Figure 5. Organic geochemical profiles recording $\\delta ^ { 1 3 } \\mathrm { C _ { o r g } }$ and lipid biomarkers across the Permian-Triassic transition atLusitaniadalen.Arylisoprenoids,biphytane and lycopanewereprtiaceotseditompddldtatdftadicte discontinuous scale of the $y .$ axiassampligefortsfocusedonstratarcordingsiilardepositioalenvronmentspriortndaftertheextinctioeventtoducethe effectofio $_ { 0 \\textrm { m } }$ ,whichalsosiiatacoab Preference Index; Pr,Pristane,Ph,Phytane; regular PMI,2,6,10,14,18-pentamethylicosane. ",
+          "excerpt_original_characters": 532,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.conclusion.final",
+          "page": 16,
+          "section": "5. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Eventually， prevalent oxic conditions were reestablished in the Early Triassic.Hence,in contrast to what has been hypothesized for some coeval equatorial setings,persistent water column anoxia or euxinia might not have been a dominant driver of the extinction event at",
+          "excerpt_original_characters": 1115,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.terrigenous.proxy",
+          "page": 12,
+          "section": "4.2. Terrestrial Input",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 664,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.terrigenous.results",
+          "page": 9,
+          "section": "3.3.Lipid Biomarker Inventory",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 188,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 2499,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "灭绝后陆源输入无持续时间",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 36,
+      "document_id": "claim:sha256:48e076553aff578e798cb26921d3a23df2b61995e438677f6732e1226a72a2ae",
+      "paper_id": "paper:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "source_name": "W2766182206.pdf",
+      "canonical_claim": "Expanding marine anoxia was not the main cause of the Fiskegrav marine biotic crisis, because ferruginous conditions developed after crisis onset.",
+      "original_claim": "Within the lowermost Wordie Creek Formation, from 0.6 to $0 . 7 { \\mathrm { m } }$ above the formation boundary, anoxic conditions are confirmed by Fe speciation (Mettam et al., 2017).",
+      "scope": {
+        "location": [
+          "Fiskegrav, central Jameson Land, East Greenland"
+        ],
+        "time": {
+          "label": "Late Permian extinction and Permian–Triassic boundary",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Schuchert Dal and Wordie Creek formations"
+        ],
+        "sample_type": [
+          "Stratigraphic palynological samples"
+        ],
+        "method": [
+          "High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses"
+        ],
+        "condition": [
+          "Shallow-marine shelf setting"
+        ],
+        "measurement": [
+          "Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context"
+        ],
+        "uncertainty": "Salinity is proxy-inferred; duration estimates depend on sedimentation rates.",
+        "entities": [
+          "AOM",
+          "Fiskegrav section",
+          "Micrhystridium breve",
+          "acritarchs",
+          "freshwater run-off",
+          "marine and terrestrial ecosystems"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.anoxia.fe",
+          "page": 8,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "Within the lowermost Wordie Creek Formation, from 0.6 to $0 . 7 { \\mathrm { m } }$ above the formation boundary, anoxic conditions are confirmed by Fe speciation (Mettam et al., 2017).",
+          "excerpt_original_characters": 184,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.crisis.before",
+          "page": 8,
+          "section": "5.1 The extinction event and onset of anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "Since the extinction started before conditions became ferruginous, spreading anoxia cannot be the main cause for the marine biotic crisis in the Fiskegrav section.",
+          "excerpt_original_characters": 163,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 347,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同剖面缺氧较晚无修订时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 37,
+      "document_id": "claim:sha256:5cc514ada20090d1168744ee81f658d085572387860c49e622188250a12309d8",
+      "paper_id": "paper:e7c45d670fa97dbe6c3fb13b8cf8511da089814ccd275a96b3c38b736ba14ad1",
+      "snapshot_id": "snapshot:sha256:1024ab7b33bd5afc5e597d652bf0dcd66fce8460cd0f546eaef21f4da799821f",
+      "artifact_version_id": "artifact-version:sha256:e7c45d670fa97dbe6c3fb13b8cf8511da089814ccd275a96b3c38b736ba14ad1",
+      "source_name": "2016_二叠纪—三叠纪之交生物大灭绝与残存_afe8b64e.pdf",
+      "canonical_claim": "二叠纪－三叠纪之交的选择性灭绝是古生代型海洋生态系向中生代型转变的核心驱动力。",
+      "original_claim": "图4 古、中生代之交生物类群的转变",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "海洋无脊椎动物类群",
+          "海洋生态系"
+        ],
+        "formation": [],
+        "location": [
+          "华南及显生宙海洋记录"
+        ],
+        "measurement": [
+          "类群灭绝率、生理特征、栖息范围及生态系结构"
+        ],
+        "method": [
+          "化石分布资料综合"
+        ],
+        "sample_type": [
+          "海洋生物化石记录"
+        ],
+        "time": {
+          "end": null,
+          "label": "二叠纪－三叠纪之交及其后",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.fig.4",
+          "page": 6,
+          "section": null,
+          "figure": "图4",
+          "table": null,
+          "excerpt": "图4 古、中生代之交生物类群的转变",
+          "excerpt_original_characters": 17,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.text.eco.turn",
+          "page": 5,
+          "section": "1．2 选择性灭绝及其对海洋生态系结构的影响",
+          "figure": null,
+          "table": null,
+          "excerpt": "生物的选择性灭绝严重影响了显生宙海洋生态犾系统结构．Bambach ．（2002）在 Knoll（1996）的基础上对显生宙海洋生态系统结构进行了系统研究，主要从生物的移动能力、生理特征等角度探讨海洋生态系统的演化过程，发现那些移动能力强、生理方面有缓冲的物种所占的比例呈现出逐渐增加的趋势（图4a）．这种变化主要发生在古、中生代之交和中、新生代之交，其中前者表现更为明显（图4），而且这些转变是一个突然的、快速的过程显生宙海洋底栖无脊椎动物的典型代表腕足动物和双壳类也发生了类似的过程，腕足动物是古生代底栖无脊椎动物的主导生物类群，而双壳类是中、新生代底栖无脊椎动物的主导类群，这个转变也是发生犾在古、中生代之交．Knoll ．（1996）发现这种快速的海洋生态系统的变革的主要驱动机制是生物的犾选择性灭绝．Song ．（2013b）基于华南的详细资料进一步证实二叠纪－三叠纪之交的生物灭绝事件是促使古生代型海洋生态系结构向中生代型海洋生态系结构转变的核心驱动力．而高分辨率化石分布数据表明这个转变主要发生在第二幕灭绝，也就犾是三叠纪初的灭绝（Song ．，2013b）．移动型动物的比例从灭绝前的 $30 \\%$ 增加到灭绝后的超过$50 \\%$ （图4b），生理方面有缓冲的动物的比例从灭绝前的 $40 \\%$ 增加到灭绝后的 $70 \\%$ （图4d）；",
+          "excerpt_original_characters": 581,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.text.sel.high",
+          "page": 5,
+          "section": "1．2 选择性灭绝及其对海洋生态系结构的影响",
+          "figure": null,
+          "table": null,
+          "excerpt": "现二叠纪－三叠纪之交不同生物门类其灭绝率存在区别，整体上可归为两组：一组灭绝率较高，包括四射珊瑚、苔藓虫、棘皮动物和腕足动物，这些动物的共同特征是没有鳃，具有较低的新陈代谢速率和较弱的内部循环系统；",
+          "excerpt_original_characters": 99,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.text.sel.low",
+          "page": 5,
+          "section": "1．2 选择性灭绝及其对海洋生态系结构的影响",
+          "figure": null,
+          "table": null,
+          "excerpt": "另外一组灭绝率较低，包括双壳类、腹足类、头足类、节肢动物、牙形石和脊椎动物，这些动物通常有鳃、有着相对较高的新陈代谢速率和较强的内部循环系统．前面笔者也提到，在高分辨率地层基础上识别出的两幕式生物灭绝过程也",
+          "excerpt_original_characters": 160,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.text.sel.range",
+          "page": 5,
+          "section": "1．2 选择性灭绝及其对海洋生态系结构的影响",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 329,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1186,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "生态转型驱动未给时长",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    }
+  ]
+}

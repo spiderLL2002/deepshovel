@@ -1,0 +1,803 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+  "snapshot_id": "snapshot:sha256:00885213eb98400a3c64d9349b278e8c67ba069a6c26c25749932202f8c39d6b",
+  "original_graph_json_sha256": "00885213eb98400a3c64d9349b278e8c67ba069a6c26c25749932202f8c39d6b",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:f345ae55-4360-43af-b4b0-7b29cc687ed8",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:f345ae55-4360-43af-b4b0-7b29cc687ed8",
+        "sha256": "97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.attenuation",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.attenuation.detail",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.fig4.caption",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 32
+        }
+      },
+      {
+        "id": "anchor.fig4a",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 32
+        }
+      },
+      {
+        "id": "anchor.fig9.caption",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 33
+        }
+      },
+      {
+        "id": "anchor.fig9.depletion",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 34
+        }
+      },
+      {
+        "id": "anchor.figure4",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 38
+        }
+      },
+      {
+        "id": "anchor.figure9",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 43
+        }
+      },
+      {
+        "id": "anchor.final.conclusion",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.final.qualifier",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.hamersley.assumptions",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.iron.input",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.mixing",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.primary",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.productivity.bound",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.productivity.continuation",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.sediment",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.siderite.balance",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.siderite.flux",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.siderite.occurrence",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.siderite.timing",
+        "artifact_version_id": "artifact-version:sha256:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.deepwater.transport",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.sediment"
+        ]
+      },
+      {
+        "id": "obs.figure4.model",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig4.caption",
+          "anchor.fig4a",
+          "anchor.figure4"
+        ]
+      },
+      {
+        "id": "obs.final.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.final.conclusion",
+          "anchor.final.qualifier"
+        ]
+      },
+      {
+        "id": "obs.input.estimate",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.iron.input"
+        ]
+      },
+      {
+        "id": "obs.mixing.attenuation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.attenuation",
+          "anchor.attenuation.detail"
+        ]
+      },
+      {
+        "id": "obs.mixing.minerals",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig9.caption",
+          "anchor.figure9",
+          "anchor.mixing"
+        ]
+      },
+      {
+        "id": "obs.model.depletion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig9.caption",
+          "anchor.fig9.depletion",
+          "anchor.figure9"
+        ]
+      },
+      {
+        "id": "obs.primary.silicate",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.primary"
+        ]
+      },
+      {
+        "id": "obs.productivity.bound",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.productivity.bound",
+          "anchor.productivity.continuation"
+        ]
+      },
+      {
+        "id": "obs.siderite.balance",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.siderite.balance"
+        ]
+      },
+      {
+        "id": "obs.siderite.estimate",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.siderite.flux"
+        ]
+      },
+      {
+        "id": "obs.siderite.settings",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.siderite.occurrence"
+        ]
+      },
+      {
+        "id": "obs.siderite.timing",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig4.caption",
+          "anchor.figure4",
+          "anchor.siderite.timing"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.electron.donor",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.attenuation",
+          "anchor.fig9.depletion",
+          "anchor.siderite.balance"
+        ]
+      },
+      {
+        "id": "reason.flux.attenuation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.attenuation",
+          "anchor.fig9.depletion",
+          "anchor.figure9"
+        ]
+      },
+      {
+        "id": "reason.flux.comparison",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.hamersley.assumptions",
+          "anchor.iron.input",
+          "anchor.siderite.flux"
+        ]
+      },
+      {
+        "id": "reason.local.depletion",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.attenuation",
+          "anchor.attenuation.detail",
+          "anchor.fig9.caption",
+          "anchor.fig9.depletion",
+          "anchor.figure9"
+        ]
+      },
+      {
+        "id": "reason.productivity",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.final.conclusion",
+          "anchor.final.qualifier",
+          "anchor.productivity.bound",
+          "anchor.productivity.continuation"
+        ]
+      },
+      {
+        "id": "reason.record",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig4.caption",
+          "anchor.fig4a",
+          "anchor.figure4",
+          "anchor.primary",
+          "anchor.sediment"
+        ]
+      },
+      {
+        "id": "reason.siderite.record",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig4.caption",
+          "anchor.figure4",
+          "anchor.siderite.occurrence",
+          "anchor.siderite.timing"
+        ]
+      },
+      {
+        "id": "reason.sink.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.iron.input",
+          "anchor.siderite.balance",
+          "anchor.siderite.flux",
+          "anchor.siderite.occurrence",
+          "anchor.siderite.timing"
+        ]
+      },
+      {
+        "id": "reason.source.model",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig9.caption",
+          "anchor.figure9",
+          "anchor.mixing",
+          "anchor.sediment"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.hamersley.model",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.hamersley.assumptions"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:3e2765444d4b4452c728d0313f7ad1336603049a7fab9bfe9e8a19a68605d44c",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.attenuation",
+          "anchor.fig9.depletion",
+          "anchor.figure9",
+          "anchor.final.conclusion",
+          "anchor.final.qualifier",
+          "anchor.productivity.bound",
+          "anchor.productivity.continuation",
+          "anchor.siderite.balance"
+        ],
+        "source_id": "claim.local.4"
+      },
+      {
+        "id": "claim:sha256:660c832f44235284576e9162bf223cd4195a84ae05e1e945023e8d0ef67345f0",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig4.caption",
+          "anchor.figure4",
+          "anchor.hamersley.assumptions",
+          "anchor.iron.input",
+          "anchor.siderite.balance",
+          "anchor.siderite.flux",
+          "anchor.siderite.occurrence",
+          "anchor.siderite.timing"
+        ],
+        "source_id": "claim.local.3"
+      },
+      {
+        "id": "claim:sha256:aa9eef189bf80a68f59e254ea41eaf157bd8656ac37a3560a074ad7863038cc9",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig4.caption",
+          "anchor.fig4a",
+          "anchor.fig9.caption",
+          "anchor.figure4",
+          "anchor.figure9",
+          "anchor.mixing",
+          "anchor.primary",
+          "anchor.sediment"
+        ],
+        "source_id": "claim.local.1"
+      },
+      {
+        "id": "claim:sha256:d63c3465cb8508e9bd9322b87b705b24cec7b6c66f8b904b967594829e567dee",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.attenuation",
+          "anchor.attenuation.detail",
+          "anchor.fig9.caption",
+          "anchor.fig9.depletion",
+          "anchor.figure9"
+        ],
+        "source_id": "claim.local.2"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.assumption.1",
+        "kind": "edge",
+        "source_id": "assumption.hamersley.model",
+        "target_id": "reason.flux.comparison",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.1",
+        "kind": "edge",
+        "source_id": "anchor.primary",
+        "target_id": "obs.primary.silicate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.10",
+        "kind": "edge",
+        "source_id": "anchor.attenuation.detail",
+        "target_id": "obs.mixing.attenuation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.11",
+        "kind": "edge",
+        "source_id": "anchor.fig9.depletion",
+        "target_id": "obs.model.depletion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.12",
+        "kind": "edge",
+        "source_id": "anchor.fig9.caption",
+        "target_id": "obs.model.depletion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.13",
+        "kind": "edge",
+        "source_id": "anchor.figure9",
+        "target_id": "obs.model.depletion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.14",
+        "kind": "edge",
+        "source_id": "anchor.siderite.timing",
+        "target_id": "obs.siderite.timing",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.15",
+        "kind": "edge",
+        "source_id": "anchor.figure4",
+        "target_id": "obs.siderite.timing",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.16",
+        "kind": "edge",
+        "source_id": "anchor.siderite.occurrence",
+        "target_id": "obs.siderite.settings",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.17",
+        "kind": "edge",
+        "source_id": "anchor.siderite.flux",
+        "target_id": "obs.siderite.estimate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.18",
+        "kind": "edge",
+        "source_id": "anchor.iron.input",
+        "target_id": "obs.input.estimate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.19",
+        "kind": "edge",
+        "source_id": "anchor.siderite.balance",
+        "target_id": "obs.siderite.balance",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.2",
+        "kind": "edge",
+        "source_id": "anchor.fig4.caption",
+        "target_id": "obs.figure4.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.20",
+        "kind": "edge",
+        "source_id": "anchor.productivity.bound",
+        "target_id": "obs.productivity.bound",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.21",
+        "kind": "edge",
+        "source_id": "anchor.productivity.continuation",
+        "target_id": "obs.productivity.bound",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.22",
+        "kind": "edge",
+        "source_id": "anchor.final.qualifier",
+        "target_id": "obs.final.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.23",
+        "kind": "edge",
+        "source_id": "anchor.final.conclusion",
+        "target_id": "obs.final.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.3",
+        "kind": "edge",
+        "source_id": "anchor.fig4a",
+        "target_id": "obs.figure4.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.4",
+        "kind": "edge",
+        "source_id": "anchor.figure4",
+        "target_id": "obs.figure4.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.5",
+        "kind": "edge",
+        "source_id": "anchor.sediment",
+        "target_id": "obs.deepwater.transport",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.6",
+        "kind": "edge",
+        "source_id": "anchor.mixing",
+        "target_id": "obs.mixing.minerals",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.7",
+        "kind": "edge",
+        "source_id": "anchor.fig9.caption",
+        "target_id": "obs.mixing.minerals",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.8",
+        "kind": "edge",
+        "source_id": "anchor.figure9",
+        "target_id": "obs.mixing.minerals",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.9",
+        "kind": "edge",
+        "source_id": "anchor.attenuation",
+        "target_id": "obs.mixing.attenuation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.1",
+        "kind": "edge",
+        "source_id": "obs.primary.silicate",
+        "target_id": "reason.record",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.10",
+        "kind": "edge",
+        "source_id": "obs.siderite.settings",
+        "target_id": "reason.siderite.record",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.11",
+        "kind": "edge",
+        "source_id": "obs.siderite.estimate",
+        "target_id": "reason.flux.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.12",
+        "kind": "edge",
+        "source_id": "obs.input.estimate",
+        "target_id": "reason.flux.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.13",
+        "kind": "edge",
+        "source_id": "reason.siderite.record",
+        "target_id": "reason.sink.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.14",
+        "kind": "edge",
+        "source_id": "reason.flux.comparison",
+        "target_id": "reason.sink.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.15",
+        "kind": "edge",
+        "source_id": "obs.siderite.balance",
+        "target_id": "reason.sink.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.16",
+        "kind": "edge",
+        "source_id": "reason.flux.attenuation",
+        "target_id": "reason.electron.donor",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.17",
+        "kind": "edge",
+        "source_id": "reason.sink.synthesis",
+        "target_id": "reason.electron.donor",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.18",
+        "kind": "edge",
+        "source_id": "reason.electron.donor",
+        "target_id": "reason.productivity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.19",
+        "kind": "edge",
+        "source_id": "obs.productivity.bound",
+        "target_id": "reason.productivity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.2",
+        "kind": "edge",
+        "source_id": "obs.figure4.model",
+        "target_id": "reason.record",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.20",
+        "kind": "edge",
+        "source_id": "obs.final.interpretation",
+        "target_id": "reason.productivity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.3",
+        "kind": "edge",
+        "source_id": "obs.deepwater.transport",
+        "target_id": "reason.record",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.4",
+        "kind": "edge",
+        "source_id": "reason.record",
+        "target_id": "reason.source.model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.5",
+        "kind": "edge",
+        "source_id": "obs.mixing.minerals",
+        "target_id": "reason.source.model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.6",
+        "kind": "edge",
+        "source_id": "obs.mixing.attenuation",
+        "target_id": "reason.local.depletion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.7",
+        "kind": "edge",
+        "source_id": "obs.model.depletion",
+        "target_id": "reason.local.depletion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.8",
+        "kind": "edge",
+        "source_id": "reason.local.depletion",
+        "target_id": "reason.flux.attenuation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.9",
+        "kind": "edge",
+        "source_id": "obs.siderite.timing",
+        "target_id": "reason.siderite.record",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.1",
+        "kind": "edge",
+        "source_id": "reason.source.model",
+        "target_id": "claim:sha256:aa9eef189bf80a68f59e254ea41eaf157bd8656ac37a3560a074ad7863038cc9",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.2",
+        "kind": "edge",
+        "source_id": "reason.flux.attenuation",
+        "target_id": "claim:sha256:d63c3465cb8508e9bd9322b87b705b24cec7b6c66f8b904b967594829e567dee",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.3",
+        "kind": "edge",
+        "source_id": "reason.sink.synthesis",
+        "target_id": "claim:sha256:660c832f44235284576e9162bf223cd4195a84ae05e1e945023e8d0ef67345f0",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.4",
+        "kind": "edge",
+        "source_id": "reason.productivity",
+        "target_id": "claim:sha256:3e2765444d4b4452c728d0313f7ad1336603049a7fab9bfe9e8a19a68605d44c",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:54cc47f9480a07785f8f1d2d857a2c3c70cd0abc7dad08fed7f5fc439e4f3d2e",
+        "kind": "edge",
+        "source_id": "anchor.fig4.caption",
+        "target_id": "obs.siderite.timing",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "pairs": 36,
+  "original_grade_counts": {
+    "3": 12,
+    "2": 12,
+    "1": 6,
+    "0": 6
+  },
+  "grade_exact_agreement_count": 29,
+  "source_context_flagged_limited_count": 10,
+  "scope_assessable_count": 29,
+  "scope_exact_agreement_count": 26,
+  "confusion_original_rows_fresh_columns": [
+    [
+      5,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      11
+    ]
+  ],
+  "disagreements": [
+    {
+      "original": {
+        "query_id": "q10",
+        "document_id": "claim:sha256:e0418382682065eaa6814677bf087a64be850f2e93a70b77c9d62710e95ed033",
+        "grade": 3,
+        "scope_error": false
+      },
+      "fresh": {
+        "query_id": "q10",
+        "document_id": "claim:sha256:e0418382682065eaa6814677bf087a64be850f2e93a70b77c9d62710e95ed033",
+        "relevance": 2,
+        "support_assessable": false,
+        "scope_error": null,
+        "scope_assessable": false,
+        "reason": "引文直接解释非氧化还原Cr循环也能分馏、正δ53Cr不必代表氧化风化，属于兼容的部分证据；但只笼统提早期地质历史，未给可核实的前寒武纪样品/时段，片段不足以确认完整时间范围。"
+      }
+    },
+    {
+      "original": {
+        "query_id": "q10",
+        "document_id": "claim:sha256:ad4f7a5cc0a0bf2609b29d26da9bba00965720660aaceb4638e7208555ca5f7b",
+        "grade": 2,
+        "scope_error": false
+      },
+      "fresh": {
+        "query_id": "q10",
+        "document_id": "claim:sha256:ad4f7a5cc0a0bf2609b29d26da9bba00965720660aaceb4638e7208555ca5f7b",
+        "relevance": 1,
+        "support_assessable": true,
+        "scope_error": true,
+        "scope_assessable": true,
+        "reason": "这是2017–2020现代Lake Cadagno沉积物Cr同位素结果，能作为氧化风化代理局限的背景，但不能充当前寒武纪观测；同一Cr同位素记录的时间/样品范围明确不同。"
+      }
+    },
+    {
+      "original": {
+        "query_id": "q74",
+        "document_id": "claim:sha256:218b897a12009f186181e5a4c25d0b4664236de3b6abedbb5d9de5d4f02f0c3d",
+        "grade": 2,
+        "scope_error": false
+      },
+      "fresh": {
+        "query_id": "q74",
+        "document_id": "claim:sha256:218b897a12009f186181e5a4c25d0b4664236de3b6abedbb5d9de5d4f02f0c3d",
+        "relevance": 1,
+        "support_assessable": false,
+        "scope_error": false,
+        "scope_assessable": true,
+        "reason": "片段只给初始硫酸盐减少76%、剩余比例0.24（sample 141），未给重建消耗浓度48.5 mg/L及先硫化物氧化后第二次硫酸盐还原顺序。材料不足以回答所问；76%是比例而非所问浓度，按背景1，不把不同quantity自动标scope冲突。"
+      }
+    },
+    {
+      "original": {
+        "query_id": "q51",
+        "document_id": "claim:sha256:5a2a5f61696421373406ebebd556c53131bcbd3353c2b8c290c01b87d1ed9118",
+        "grade": 2,
+        "scope_error": false
+      },
+      "fresh": {
+        "query_id": "q51",
+        "document_id": "claim:sha256:5a2a5f61696421373406ebebd556c53131bcbd3353c2b8c290c01b87d1ed9118",
+        "relevance": 1,
+        "support_assessable": true,
+        "scope_error": null,
+        "scope_assessable": false,
+        "reason": "引文有Jericho Valley至北段的区域滑速下降，但未给Jordan Valley内南北约0.7 mm/yr差值。0.7±0.45是Carmel绝对左旋率，4.9与3.8亦不能冒作所问差值。仅背景1；目标南北分段与引文分段不能完全对齐，scope冲突不作确定判断。"
+      }
+    },
+    {
+      "original": {
+        "query_id": "q60",
+        "document_id": "claim:sha256:83daf8ea03816f79d90f8227916d4f579c93fa737bf60394ebe2798c2f344ee8",
+        "grade": 2,
+        "scope_error": false
+      },
+      "fresh": {
+        "query_id": "q60",
+        "document_id": "claim:sha256:83daf8ea03816f79d90f8227916d4f579c93fa737bf60394ebe2798c2f344ee8",
+        "relevance": 1,
+        "support_assessable": true,
+        "scope_error": null,
+        "scope_assessable": false,
+        "reason": "引文明确1999年10月11日序列余震0.7–4 bar，即0.07–0.4 MPa，并非rubric要求的小地震总体0.2–4.9 MPa。数值与总体范围均不满足3/2，只能背景1。盲包未给目标总体的时间/成员，无法证实两总体明确不相容，scope_error留null而非凭不同paper_id推断。"
+      }
+    },
+    {
+      "original": {
+        "query_id": "q58",
+        "document_id": "claim:sha256:2fde655dad43a19764c130e948cf99e4baea0a742aee747fa1652c8eeeec5b46",
+        "grade": 1,
+        "scope_error": true
+      },
+      "fresh": {
+        "query_id": "q58",
+        "document_id": "claim:sha256:2fde655dad43a19764c130e948cf99e4baea0a742aee747fa1652c8eeeec5b46",
+        "relevance": 0,
+        "support_assessable": true,
+        "scope_error": false,
+        "scope_assessable": true,
+        "reason": "Elat/Aqaba全新世垂向正断层滑速不提供东Düzce右旋水平滑速或其地质定年资格，按无关0。分量和对象均不同，未出现同一右旋量的明确替代，窄义scope_error=false。"
+      }
+    },
+    {
+      "original": {
+        "query_id": "q67",
+        "document_id": "claim:sha256:87b85bfd1582f907ad801e8c591c002fd6c91d4230299dfee511ab8b1ef509f2",
+        "grade": 0,
+        "scope_error": false
+      },
+      "fresh": {
+        "query_id": "q67",
+        "document_id": "claim:sha256:87b85bfd1582f907ad801e8c591c002fd6c91d4230299dfee511ab8b1ef509f2",
+        "relevance": 1,
+        "support_assessable": true,
+        "scope_error": false,
+        "scope_assessable": true,
+        "reason": "Fishermans Cove地下水硝酸盐去除30–40%是氮迁移背景，不是El Kef-Sers样品超过50 mg/L比例。去除份额与样品超标率分母/quantity不同，不能凭地点差异就自动作同一结果scope冲突。"
+      }
+    }
+  ],
+  "blinding": "Original relevance/scope labels withheld; supplied reference answers include claim identifiers. This is reference-aware AI checking, not fully reference-blinded reliability or expert truth."
+}

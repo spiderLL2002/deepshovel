@@ -1,0 +1,1862 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "2bfe6de32f526f2d106be6a72645cbcfb2f72fc91dabb35eeb60e1b042dbd37e",
+  "http_body_sha256": "38fed78bdc059482da8e9614f8590d8950c146abd861bd5fea6c7233ca1b38aa",
+  "snapshot": {
+    "id": "snapshot:sha256:79acd1fdeae121f33e7362dcac51176945a1b8d7522d9c658f110780bfa08c84",
+    "rootArtifactVersionId": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "79acd1fdeae121f33e7362dcac51176945a1b8d7522d9c658f110780bfa08c84"
+  },
+  "graph": {
+    "paper_id": "paper:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+    "anchors": [
+      {
+        "id": "a.assumption1",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.assumption2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.assumption2Ref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.assumptionRef",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.axesavg",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.axesavgref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.break",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.breakref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.breaksigma",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.co2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.conclusionLimit",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.conclusionWeak",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.cross",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.dilref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.dilresult",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.diltheory",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.f4",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.f5",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.f6",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.f7",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.f9",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.fig9caption",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.fig9fig",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.fig9num",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.flow",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.gradabstract",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "a.hydro",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.hydrocont",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.hydrofrac",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.mantle",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.mantle1",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.mantle2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.mgbfconcl",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.mgbfinterpre",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.muweak",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.muweakref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.nochange",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.optimum",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.optimumref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.overalone",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.pfactor",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.poro",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.pororef",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.pstress",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.pstressref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.sig1ref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.sig1value",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.sig2phi",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.sig2range",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.sig2ref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.sig2value",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.sig3final",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.sig3lower",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.sig3lowerref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.sig3noXLOT",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.slip",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.springs",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.springs2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.subfault",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.subfaultref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.surface",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.surfsec",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.table1",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.temp",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.tempref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.weaken",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "selector": {
+          "page": 11
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.axisaverage",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.axesavg",
+          "a.axesavgref",
+          "a.cross",
+          "a.f4",
+          "a.table1"
+        ]
+      },
+      {
+        "id": "obs.breakout",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.break",
+          "a.breakref",
+          "a.breaksigma",
+          "a.f4"
+        ]
+      },
+      {
+        "id": "obs.co2fraction",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.co2"
+        ]
+      },
+      {
+        "id": "obs.dilationprediction",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.dilref",
+          "a.dilresult",
+          "a.f7"
+        ]
+      },
+      {
+        "id": "obs.dilationtheory",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.diltheory"
+        ]
+      },
+      {
+        "id": "obs.flowtrend",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.flow"
+        ]
+      },
+      {
+        "id": "obs.gradientsummary",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.gradabstract"
+        ]
+      },
+      {
+        "id": "obs.historicalinterpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.nochange"
+        ]
+      },
+      {
+        "id": "obs.hydrostaticmodel",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f5",
+          "a.f9",
+          "a.fig9caption",
+          "a.fig9fig",
+          "a.fig9num",
+          "a.hydro",
+          "a.hydrocont",
+          "a.muweak",
+          "a.muweakref"
+        ]
+      },
+      {
+        "id": "obs.mantleanomalies",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.mantle",
+          "a.mantle1",
+          "a.mantle2"
+        ]
+      },
+      {
+        "id": "obs.mgbfinterpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.mgbfconcl",
+          "a.mgbfinterpre"
+        ]
+      },
+      {
+        "id": "obs.optimum",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f7",
+          "a.optimum",
+          "a.optimumref"
+        ]
+      },
+      {
+        "id": "obs.overpressuremodel",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f9",
+          "a.fig9caption",
+          "a.fig9fig",
+          "a.fig9num",
+          "a.pfactor",
+          "a.pstress",
+          "a.pstressref"
+        ]
+      },
+      {
+        "id": "obs.pressurerelief",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f9",
+          "a.fig9fig",
+          "a.fig9num",
+          "a.hydrofrac",
+          "a.overalone",
+          "a.poro",
+          "a.pororef",
+          "a.weaken"
+        ]
+      },
+      {
+        "id": "obs.sig1gradient",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f5",
+          "a.sig1ref",
+          "a.sig1value"
+        ]
+      },
+      {
+        "id": "obs.sig2gradient",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f5",
+          "a.sig2phi",
+          "a.sig2range",
+          "a.sig2ref",
+          "a.sig2value",
+          "a.table1"
+        ]
+      },
+      {
+        "id": "obs.sig3accepted",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.sig3final"
+        ]
+      },
+      {
+        "id": "obs.sig3constraints",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.sig3noXLOT"
+        ]
+      },
+      {
+        "id": "obs.sig3lower",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f5",
+          "a.sig3lower",
+          "a.sig3lowerref"
+        ]
+      },
+      {
+        "id": "obs.slip",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.slip"
+        ]
+      },
+      {
+        "id": "obs.springs",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.springs",
+          "a.springs2"
+        ]
+      },
+      {
+        "id": "obs.subfault",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f7",
+          "a.subfault",
+          "a.subfaultref"
+        ]
+      },
+      {
+        "id": "obs.surfacefault",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f7",
+          "a.surface",
+          "a.surfsec"
+        ]
+      },
+      {
+        "id": "obs.temperature",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.f6",
+          "a.temp",
+          "a.tempref"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.dilation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.dilresult",
+          "a.diltheory",
+          "a.flow"
+        ]
+      },
+      {
+        "id": "reason.history",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.nochange",
+          "a.optimum",
+          "a.subfault",
+          "a.surface"
+        ]
+      },
+      {
+        "id": "reason.magnitudes",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.sig1value",
+          "a.sig2phi",
+          "a.sig2range",
+          "a.sig2value",
+          "a.sig3final",
+          "a.sig3lower",
+          "a.sig3noXLOT",
+          "a.table1"
+        ]
+      },
+      {
+        "id": "reason.mgbf",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.co2",
+          "a.mantle",
+          "a.mgbfinterpre",
+          "a.springs",
+          "a.temp"
+        ]
+      },
+      {
+        "id": "reason.orientation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.axesavg",
+          "a.break",
+          "a.breaksigma",
+          "a.cross",
+          "a.slip",
+          "a.table1"
+        ]
+      },
+      {
+        "id": "reason.patternmatch",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.optimum",
+          "a.subfault",
+          "a.surface",
+          "a.surfsec"
+        ]
+      },
+      {
+        "id": "reason.reactivationlimits",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.assumption1",
+          "a.assumption2",
+          "a.f5",
+          "a.f9",
+          "a.fig9caption",
+          "a.hydrofrac",
+          "a.overalone",
+          "a.poro",
+          "a.weaken"
+        ]
+      },
+      {
+        "id": "reason.reactivationstate",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.f9",
+          "a.fig9caption",
+          "a.hydro",
+          "a.muweak",
+          "a.pfactor",
+          "a.pstress"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:06e9fb746f2fcf238d1ba5e7d3f431b4871a85920e5959d35a8075c6bee16b1b",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.co2",
+          "a.f6",
+          "a.mantle",
+          "a.mantle1",
+          "a.mantle2",
+          "a.mgbfconcl",
+          "a.mgbfinterpre",
+          "a.springs",
+          "a.springs2",
+          "a.temp",
+          "a.tempref"
+        ]
+      },
+      {
+        "id": "claim:sha256:4d64416d5e22d660f88ca7fda0c7506709d8afffe7a024f6d5d2805d7ccae01e",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.f7",
+          "a.nochange",
+          "a.optimum",
+          "a.optimumref",
+          "a.subfault",
+          "a.subfaultref",
+          "a.surface",
+          "a.surfsec"
+        ]
+      },
+      {
+        "id": "claim:sha256:5fabdff673881229eac3f841f493a75558b3738b6b30d171781394da6c0cf04a",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.axesavg",
+          "a.axesavgref",
+          "a.break",
+          "a.breaksigma",
+          "a.cross",
+          "a.f4",
+          "a.slip",
+          "a.table1"
+        ]
+      },
+      {
+        "id": "claim:sha256:7cc0fdee29f66ee230c4298aba295d0e3368c833a5fbd466f099091727b2c379",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.f5",
+          "a.gradabstract",
+          "a.sig1ref",
+          "a.sig1value",
+          "a.sig2phi",
+          "a.sig2range",
+          "a.sig2ref",
+          "a.sig2value",
+          "a.sig3final",
+          "a.sig3lower",
+          "a.sig3lowerref",
+          "a.sig3noXLOT",
+          "a.table1"
+        ]
+      },
+      {
+        "id": "claim:sha256:cd6f01d2998a8263e9c355d6e7018314e527837a67b490fb92286fe87e965deb",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.dilref",
+          "a.dilresult",
+          "a.diltheory",
+          "a.f7",
+          "a.flow"
+        ]
+      },
+      {
+        "id": "claim:sha256:d71be473e7815b433097ea3b579b67317881a3b9a516a07d11917cde99b1e991",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.assumption1",
+          "a.assumption2",
+          "a.assumption2Ref",
+          "a.assumptionRef",
+          "a.conclusionLimit",
+          "a.conclusionWeak",
+          "a.f5",
+          "a.f9",
+          "a.fig9caption",
+          "a.fig9fig",
+          "a.fig9num",
+          "a.hydro",
+          "a.hydrocont",
+          "a.hydrofrac",
+          "a.muweak",
+          "a.muweakref",
+          "a.overalone",
+          "a.pfactor",
+          "a.poro",
+          "a.pororef",
+          "a.pstress",
+          "a.pstressref",
+          "a.weaken"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.depthprojection",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.assumption1",
+          "a.assumption2",
+          "a.assumption2Ref",
+          "a.assumptionRef",
+          "a.f5"
+        ]
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:9c0c0492-cfc7-4de3-a6e7-e4a4c5485eab",
+        "sha256": "ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e.a.depth",
+        "source_id": "assumption.depthprojection",
+        "target_id": "reason.reactivationlimits",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "e.g.avg",
+        "source_id": "a.axesavg",
+        "target_id": "obs.axisaverage",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.avgref",
+        "source_id": "a.axesavgref",
+        "target_id": "obs.axisaverage",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.break",
+        "source_id": "a.break",
+        "target_id": "obs.breakout",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.breakref",
+        "source_id": "a.breakref",
+        "target_id": "obs.breakout",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.breaksigma",
+        "source_id": "a.breaksigma",
+        "target_id": "obs.breakout",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.co2",
+        "source_id": "a.co2",
+        "target_id": "obs.co2fraction",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.cross",
+        "source_id": "a.cross",
+        "target_id": "obs.axisaverage",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.dilref",
+        "source_id": "a.dilref",
+        "target_id": "obs.dilationprediction",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.dilresult",
+        "source_id": "a.dilresult",
+        "target_id": "obs.dilationprediction",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.diltheory",
+        "source_id": "a.diltheory",
+        "target_id": "obs.dilationtheory",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.f4avg",
+        "source_id": "a.f4",
+        "target_id": "obs.axisaverage",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.f4break",
+        "source_id": "a.f4",
+        "target_id": "obs.breakout",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.f5sig1",
+        "source_id": "a.f5",
+        "target_id": "obs.sig1gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.f5sig2",
+        "source_id": "a.f5",
+        "target_id": "obs.sig2gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.f5sig3",
+        "source_id": "a.f5",
+        "target_id": "obs.sig3lower",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.f6temp",
+        "source_id": "a.f6",
+        "target_id": "obs.temperature",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.f7dil",
+        "source_id": "a.f7",
+        "target_id": "obs.dilationprediction",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.f7opt",
+        "source_id": "a.f7",
+        "target_id": "obs.optimum",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.f7sub",
+        "source_id": "a.f7",
+        "target_id": "obs.subfault",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.f7surf",
+        "source_id": "a.f7",
+        "target_id": "obs.surfacefault",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.fig9caption",
+        "source_id": "a.fig9caption",
+        "target_id": "obs.hydrostaticmodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.fig9model",
+        "source_id": "a.f9",
+        "target_id": "obs.hydrostaticmodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.fig9over",
+        "source_id": "a.f9",
+        "target_id": "obs.overpressuremodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.fig9relief",
+        "source_id": "a.f9",
+        "target_id": "obs.pressurerelief",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.flow",
+        "source_id": "a.flow",
+        "target_id": "obs.flowtrend",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.gradabstract",
+        "source_id": "a.gradabstract",
+        "target_id": "obs.gradientsummary",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.hydro",
+        "source_id": "a.hydro",
+        "target_id": "obs.hydrostaticmodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.hydrocont",
+        "source_id": "a.hydrocont",
+        "target_id": "obs.hydrostaticmodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.hydrofrac",
+        "source_id": "a.hydrofrac",
+        "target_id": "obs.pressurerelief",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.mantle",
+        "source_id": "a.mantle",
+        "target_id": "obs.mantleanomalies",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.mantle1",
+        "source_id": "a.mantle1",
+        "target_id": "obs.mantleanomalies",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.mantle2",
+        "source_id": "a.mantle2",
+        "target_id": "obs.mantleanomalies",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.mgbfconcl",
+        "source_id": "a.mgbfconcl",
+        "target_id": "obs.mgbfinterpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.mgbfinterp",
+        "source_id": "a.mgbfinterpre",
+        "target_id": "obs.mgbfinterpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.muweak",
+        "source_id": "a.muweak",
+        "target_id": "obs.hydrostaticmodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.muweakref",
+        "source_id": "a.muweakref",
+        "target_id": "obs.hydrostaticmodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.nochange",
+        "source_id": "a.nochange",
+        "target_id": "obs.historicalinterpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.optimum",
+        "source_id": "a.optimum",
+        "target_id": "obs.optimum",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.optref",
+        "source_id": "a.optimumref",
+        "target_id": "obs.optimum",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.overalone",
+        "source_id": "a.overalone",
+        "target_id": "obs.pressurerelief",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.poro",
+        "source_id": "a.poro",
+        "target_id": "obs.pressurerelief",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.pororef",
+        "source_id": "a.pororef",
+        "target_id": "obs.pressurerelief",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.pressfactor",
+        "source_id": "a.pfactor",
+        "target_id": "obs.overpressuremodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.pressref",
+        "source_id": "a.pstressref",
+        "target_id": "obs.overpressuremodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.pressstress",
+        "source_id": "a.pstress",
+        "target_id": "obs.overpressuremodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.sig1",
+        "source_id": "a.sig1value",
+        "target_id": "obs.sig1gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.sig1ref",
+        "source_id": "a.sig1ref",
+        "target_id": "obs.sig1gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.sig2phi",
+        "source_id": "a.sig2phi",
+        "target_id": "obs.sig2gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.sig2range",
+        "source_id": "a.sig2range",
+        "target_id": "obs.sig2gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.sig2ref",
+        "source_id": "a.sig2ref",
+        "target_id": "obs.sig2gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.sig2value",
+        "source_id": "a.sig2value",
+        "target_id": "obs.sig2gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.sig3accepted",
+        "source_id": "a.sig3final",
+        "target_id": "obs.sig3accepted",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.sig3lower",
+        "source_id": "a.sig3lower",
+        "target_id": "obs.sig3lower",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.sig3lowerref",
+        "source_id": "a.sig3lowerref",
+        "target_id": "obs.sig3lower",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.sig3tests",
+        "source_id": "a.sig3noXLOT",
+        "target_id": "obs.sig3constraints",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.slip",
+        "source_id": "a.slip",
+        "target_id": "obs.slip",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.springs",
+        "source_id": "a.springs",
+        "target_id": "obs.springs",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.springs2",
+        "source_id": "a.springs2",
+        "target_id": "obs.springs",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.subfault",
+        "source_id": "a.subfault",
+        "target_id": "obs.subfault",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.subref",
+        "source_id": "a.subfaultref",
+        "target_id": "obs.subfault",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.surface",
+        "source_id": "a.surface",
+        "target_id": "obs.surfacefault",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.surfsec",
+        "source_id": "a.surfsec",
+        "target_id": "obs.surfacefault",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.tableSig2",
+        "source_id": "a.table1",
+        "target_id": "obs.sig2gradient",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.tableavg",
+        "source_id": "a.table1",
+        "target_id": "obs.axisaverage",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.temp",
+        "source_id": "a.temp",
+        "target_id": "obs.temperature",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.tempref",
+        "source_id": "a.tempref",
+        "target_id": "obs.temperature",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.g.weaken",
+        "source_id": "a.weaken",
+        "target_id": "obs.pressurerelief",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.p.axes",
+        "source_id": "obs.axisaverage",
+        "target_id": "reason.orientation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.break",
+        "source_id": "obs.breakout",
+        "target_id": "reason.orientation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.co2",
+        "source_id": "obs.co2fraction",
+        "target_id": "reason.mgbf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.dilresult",
+        "source_id": "obs.dilationprediction",
+        "target_id": "reason.dilation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.diltheory",
+        "source_id": "obs.dilationtheory",
+        "target_id": "reason.dilation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.flow",
+        "source_id": "obs.flowtrend",
+        "target_id": "reason.dilation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.gradabstract",
+        "source_id": "obs.gradientsummary",
+        "target_id": "reason.magnitudes",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.hydro",
+        "source_id": "obs.hydrostaticmodel",
+        "target_id": "reason.reactivationstate",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.interpret",
+        "source_id": "obs.historicalinterpretation",
+        "target_id": "reason.history",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.mantle",
+        "source_id": "obs.mantleanomalies",
+        "target_id": "reason.mgbf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.matchhistory",
+        "source_id": "reason.patternmatch",
+        "target_id": "reason.history",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.mgbfinterp",
+        "source_id": "obs.mgbfinterpretation",
+        "target_id": "reason.mgbf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.optimum",
+        "source_id": "obs.optimum",
+        "target_id": "reason.patternmatch",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.over",
+        "source_id": "obs.overpressuremodel",
+        "target_id": "reason.reactivationstate",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.relief",
+        "source_id": "obs.pressurerelief",
+        "target_id": "reason.reactivationlimits",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.sig1",
+        "source_id": "obs.sig1gradient",
+        "target_id": "reason.magnitudes",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.sig2",
+        "source_id": "obs.sig2gradient",
+        "target_id": "reason.magnitudes",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.sig3final",
+        "source_id": "obs.sig3accepted",
+        "target_id": "reason.magnitudes",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.sig3lower",
+        "source_id": "obs.sig3lower",
+        "target_id": "reason.magnitudes",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.sig3tests",
+        "source_id": "obs.sig3constraints",
+        "target_id": "reason.magnitudes",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.slip",
+        "source_id": "obs.slip",
+        "target_id": "reason.orientation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.springs",
+        "source_id": "obs.springs",
+        "target_id": "reason.mgbf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.state",
+        "source_id": "reason.reactivationstate",
+        "target_id": "reason.reactivationlimits",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.subfault",
+        "source_id": "obs.subfault",
+        "target_id": "reason.patternmatch",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.surface",
+        "source_id": "obs.surfacefault",
+        "target_id": "reason.patternmatch",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.p.temp",
+        "source_id": "obs.temperature",
+        "target_id": "reason.mgbf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.s.dilation",
+        "source_id": "reason.dilation",
+        "target_id": "claim:sha256:cd6f01d2998a8263e9c355d6e7018314e527837a67b490fb92286fe87e965deb",
+        "relation": "infers"
+      },
+      {
+        "id": "e.s.lowangle",
+        "source_id": "reason.reactivationlimits",
+        "target_id": "claim:sha256:d71be473e7815b433097ea3b579b67317881a3b9a516a07d11917cde99b1e991",
+        "relation": "infers"
+      },
+      {
+        "id": "e.s.magnitudes",
+        "source_id": "reason.magnitudes",
+        "target_id": "claim:sha256:7cc0fdee29f66ee230c4298aba295d0e3368c833a5fbd466f099091727b2c379",
+        "relation": "infers"
+      },
+      {
+        "id": "e.s.mgbf",
+        "source_id": "reason.mgbf",
+        "target_id": "claim:sha256:06e9fb746f2fcf238d1ba5e7d3f431b4871a85920e5959d35a8075c6bee16b1b",
+        "relation": "infers"
+      },
+      {
+        "id": "e.s.orientation",
+        "source_id": "reason.orientation",
+        "target_id": "claim:sha256:5fabdff673881229eac3f841f493a75558b3738b6b30d171781394da6c0cf04a",
+        "relation": "infers"
+      },
+      {
+        "id": "e.s.pattern",
+        "source_id": "reason.history",
+        "target_id": "claim:sha256:4d64416d5e22d660f88ca7fda0c7506709d8afffe7a024f6d5d2805d7ccae01e",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:0688f4c61f1d5945e3bd6756121851de15f127966f0f36bff871b3aacecb3e98",
+        "source_id": "a.fig9fig",
+        "target_id": "obs.hydrostaticmodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:44adcef99bc0dea86232c203d4826da6c298041b8ea214fb77babdac3269363c",
+        "source_id": "a.fig9num",
+        "target_id": "obs.hydrostaticmodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:5a16c22ee18afe0093f9a5645325a02692ba28a190b07de617f57662f227b54e",
+        "source_id": "a.fig9num",
+        "target_id": "obs.overpressuremodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:623bbabb146d40850bfb625c4629d1890683c59f0c2c0cdbb4aec27d4f433016",
+        "source_id": "a.fig9fig",
+        "target_id": "obs.overpressuremodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:8357b66c567ccbc8087034d57429839f5e2465dee51c3844e770941f32192c29",
+        "source_id": "a.f5",
+        "target_id": "obs.hydrostaticmodel",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:934252c8e69c19d6125bb2adfbed991bb82d082abfeff8ee7a8905084bf732a6",
+        "source_id": "a.fig9fig",
+        "target_id": "obs.pressurerelief",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:a5c569b784199f084b95aec990780aa827df2dff843e0f5236eec9b050bb8e5c",
+        "source_id": "a.fig9num",
+        "target_id": "obs.pressurerelief",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:aa842a6fa642f4fb8da70f91b46b53f6812934c0e1793c59e7d716c08dc2c9ea",
+        "source_id": "a.fig9caption",
+        "target_id": "obs.overpressuremodel",
+        "relation": "grounds"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:5f5846aa4f94d93c1e8a4c774202758ff8cef8c7bb90147ee96d56cb2785f1bb",
+        "entity_ids": [
+          "a.assumption1",
+          "a.assumption2",
+          "a.assumption2Ref",
+          "a.assumptionRef",
+          "a.axesavg",
+          "a.axesavgref",
+          "a.break",
+          "a.breakref",
+          "a.breaksigma",
+          "a.co2",
+          "a.conclusionLimit",
+          "a.conclusionWeak",
+          "a.cross",
+          "a.dilref",
+          "a.dilresult",
+          "a.diltheory",
+          "a.f4",
+          "a.f5",
+          "a.f6",
+          "a.f7",
+          "a.f9",
+          "a.fig9caption",
+          "a.fig9fig",
+          "a.fig9num",
+          "a.flow",
+          "a.gradabstract",
+          "a.hydro",
+          "a.hydrocont",
+          "a.hydrofrac",
+          "a.mantle",
+          "a.mantle1",
+          "a.mantle2",
+          "a.mgbfconcl",
+          "a.mgbfinterpre",
+          "a.muweak",
+          "a.muweakref",
+          "a.nochange",
+          "a.optimum",
+          "a.optimumref",
+          "a.overalone",
+          "a.pfactor",
+          "a.poro",
+          "a.pororef",
+          "a.pstress",
+          "a.pstressref",
+          "a.sig1ref",
+          "a.sig1value",
+          "a.sig2phi",
+          "a.sig2range",
+          "a.sig2ref",
+          "a.sig2value",
+          "a.sig3final",
+          "a.sig3lower",
+          "a.sig3lowerref",
+          "a.sig3noXLOT",
+          "a.slip",
+          "a.springs",
+          "a.springs2",
+          "a.subfault",
+          "a.subfaultref",
+          "a.surface",
+          "a.surfsec",
+          "a.table1",
+          "a.temp",
+          "a.tempref",
+          "a.weaken",
+          "artifact-version:sha256:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+          "artifact:9c0c0492-cfc7-4de3-a6e7-e4a4c5485eab",
+          "assumption.depthprojection",
+          "claim:sha256:06e9fb746f2fcf238d1ba5e7d3f431b4871a85920e5959d35a8075c6bee16b1b",
+          "claim:sha256:4d64416d5e22d660f88ca7fda0c7506709d8afffe7a024f6d5d2805d7ccae01e",
+          "claim:sha256:5fabdff673881229eac3f841f493a75558b3738b6b30d171781394da6c0cf04a",
+          "claim:sha256:7cc0fdee29f66ee230c4298aba295d0e3368c833a5fbd466f099091727b2c379",
+          "claim:sha256:cd6f01d2998a8263e9c355d6e7018314e527837a67b490fb92286fe87e965deb",
+          "claim:sha256:d71be473e7815b433097ea3b579b67317881a3b9a516a07d11917cde99b1e991",
+          "obs.axisaverage",
+          "obs.breakout",
+          "obs.co2fraction",
+          "obs.dilationprediction",
+          "obs.dilationtheory",
+          "obs.flowtrend",
+          "obs.gradientsummary",
+          "obs.historicalinterpretation",
+          "obs.hydrostaticmodel",
+          "obs.mantleanomalies",
+          "obs.mgbfinterpretation",
+          "obs.optimum",
+          "obs.overpressuremodel",
+          "obs.pressurerelief",
+          "obs.sig1gradient",
+          "obs.sig2gradient",
+          "obs.sig3accepted",
+          "obs.sig3constraints",
+          "obs.sig3lower",
+          "obs.slip",
+          "obs.springs",
+          "obs.subfault",
+          "obs.surfacefault",
+          "obs.temperature",
+          "reason.dilation",
+          "reason.history",
+          "reason.magnitudes",
+          "reason.mgbf",
+          "reason.orientation",
+          "reason.patternmatch",
+          "reason.reactivationlimits",
+          "reason.reactivationstate"
+        ],
+        "edge_ids": [
+          "e.a.depth",
+          "e.g.avg",
+          "e.g.avgref",
+          "e.g.break",
+          "e.g.breakref",
+          "e.g.breaksigma",
+          "e.g.co2",
+          "e.g.cross",
+          "e.g.dilref",
+          "e.g.dilresult",
+          "e.g.diltheory",
+          "e.g.f4avg",
+          "e.g.f4break",
+          "e.g.f5sig1",
+          "e.g.f5sig2",
+          "e.g.f5sig3",
+          "e.g.f6temp",
+          "e.g.f7dil",
+          "e.g.f7opt",
+          "e.g.f7sub",
+          "e.g.f7surf",
+          "e.g.fig9caption",
+          "e.g.fig9model",
+          "e.g.fig9over",
+          "e.g.fig9relief",
+          "e.g.flow",
+          "e.g.gradabstract",
+          "e.g.hydro",
+          "e.g.hydrocont",
+          "e.g.hydrofrac",
+          "e.g.mantle",
+          "e.g.mantle1",
+          "e.g.mantle2",
+          "e.g.mgbfconcl",
+          "e.g.mgbfinterp",
+          "e.g.muweak",
+          "e.g.muweakref",
+          "e.g.nochange",
+          "e.g.optimum",
+          "e.g.optref",
+          "e.g.overalone",
+          "e.g.poro",
+          "e.g.pororef",
+          "e.g.pressfactor",
+          "e.g.pressref",
+          "e.g.pressstress",
+          "e.g.sig1",
+          "e.g.sig1ref",
+          "e.g.sig2phi",
+          "e.g.sig2range",
+          "e.g.sig2ref",
+          "e.g.sig2value",
+          "e.g.sig3accepted",
+          "e.g.sig3lower",
+          "e.g.sig3lowerref",
+          "e.g.sig3tests",
+          "e.g.slip",
+          "e.g.springs",
+          "e.g.springs2",
+          "e.g.subfault",
+          "e.g.subref",
+          "e.g.surface",
+          "e.g.surfsec",
+          "e.g.tableSig2",
+          "e.g.tableavg",
+          "e.g.temp",
+          "e.g.tempref",
+          "e.g.weaken",
+          "e.p.axes",
+          "e.p.break",
+          "e.p.co2",
+          "e.p.dilresult",
+          "e.p.diltheory",
+          "e.p.flow",
+          "e.p.gradabstract",
+          "e.p.hydro",
+          "e.p.interpret",
+          "e.p.mantle",
+          "e.p.matchhistory",
+          "e.p.mgbfinterp",
+          "e.p.optimum",
+          "e.p.over",
+          "e.p.relief",
+          "e.p.sig1",
+          "e.p.sig2",
+          "e.p.sig3final",
+          "e.p.sig3lower",
+          "e.p.sig3tests",
+          "e.p.slip",
+          "e.p.springs",
+          "e.p.state",
+          "e.p.subfault",
+          "e.p.surface",
+          "e.p.temp",
+          "e.s.dilation",
+          "e.s.lowangle",
+          "e.s.magnitudes",
+          "e.s.mgbf",
+          "e.s.orientation",
+          "e.s.pattern",
+          "edge:compiler:0688f4c61f1d5945e3bd6756121851de15f127966f0f36bff871b3aacecb3e98",
+          "edge:compiler:44adcef99bc0dea86232c203d4826da6c298041b8ea214fb77babdac3269363c",
+          "edge:compiler:5a16c22ee18afe0093f9a5645325a02692ba28a190b07de617f57662f227b54e",
+          "edge:compiler:623bbabb146d40850bfb625c4629d1890683c59f0c2c0cdbb4aec27d4f433016",
+          "edge:compiler:8357b66c567ccbc8087034d57429839f5e2465dee51c3844e770941f32192c29",
+          "edge:compiler:934252c8e69c19d6125bb2adfbed991bb82d082abfeff8ee7a8905084bf732a6",
+          "edge:compiler:a5c569b784199f084b95aec990780aa827df2dff843e0f5236eec9b050bb8e5c",
+          "edge:compiler:aa842a6fa642f4fb8da70f91b46b53f6812934c0e1793c59e7d716c08dc2c9ea"
+        ]
+      }
+    ]
+  }
+}

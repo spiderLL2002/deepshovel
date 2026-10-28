@@ -1,0 +1,6 @@
+PREFIX prov: <http://www.w3.org/ns/prov#>
+ PREFIX ds: <urn:deepshovel:reuse:v1:>
+ SELECT ?record ?input ?activity ?used WHERE {
+ ?record a ds:PreparedRecord; prov:wasDerivedFrom ?input; prov:wasGeneratedBy ?activity.
+ ?activity a prov:Activity; prov:used ?used.
+ }

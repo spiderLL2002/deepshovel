@@ -1,0 +1,820 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+  "snapshot_id": "snapshot:sha256:003cfe070eb2983c23e5571ea7cf90a117d35649b6a1e59209f5bbe4063186cc",
+  "original_graph_json_sha256": "003cfe070eb2983c23e5571ea7cf90a117d35649b6a1e59209f5bbe4063186cc",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:e333cc36-35b8-49e7-a149-43cd21befc88",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:e333cc36-35b8-49e7-a149-43cd21befc88",
+        "sha256": "c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "a.additional_flux",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "a.both_drivers",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.budget_plausible",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "a.calc_input",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "a.calc_rate",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "a.calc_sensitivity",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "a.clathrate_need",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.clathrate_replenish",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.clathrate_reservoir",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.clathrate_warming",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.east_fig_end",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.east_main",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.feedback_conclusion",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "a.feedback_mech",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.model_limits",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.multi_end",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "a.multi_start",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "a.orbital",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.other_forcing",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.similar_times",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.thermo_limit",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "a.warm_climate",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.wetland_needed",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "a.wetland_response",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "a.wetland_total",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "a.yakoun_osc",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.yakoun_steps",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:4e84e98e6689461267b48463f094e788d14a7be82ed77eb0d9dd0b2776e1011b",
+        "artifact_version_id": "artifact-version:sha256:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 32
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.astronomical_proposal",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.orbital"
+        ]
+      },
+      {
+        "id": "obs.clathrate_constraints",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.clathrate_need",
+          "a.clathrate_replenish",
+          "a.clathrate_reservoir",
+          "a.clathrate_warming"
+        ]
+      },
+      {
+        "id": "obs.climate_sensitive_methanogenesis",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.wetland_response"
+        ]
+      },
+      {
+        "id": "obs.conclusion_methanogenesis",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.feedback_conclusion"
+        ]
+      },
+      {
+        "id": "obs.early_jurassic_climate",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.warm_climate"
+        ]
+      },
+      {
+        "id": "obs.methanogenesis_calculation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.calc_input",
+          "a.calc_rate",
+          "a.calc_sensitivity"
+        ]
+      },
+      {
+        "id": "obs.model_limits",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.model_limits",
+          "a.thermo_limit"
+        ]
+      },
+      {
+        "id": "obs.other_short_term_sources",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.other_forcing"
+        ]
+      },
+      {
+        "id": "obs.possible_co_drivers",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.both_drivers",
+          "a.similar_times"
+        ]
+      },
+      {
+        "id": "obs.proposed_warming_feedback",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.feedback_mech"
+        ]
+      },
+      {
+        "id": "obs.short_term_cies",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.east_fig_end",
+          "a.east_main",
+          "a.yakoun_osc",
+          "a.yakoun_steps",
+          "anchor:compiler:visual:4e84e98e6689461267b48463f094e788d14a7be82ed77eb0d9dd0b2776e1011b"
+        ]
+      },
+      {
+        "id": "obs.terrestrial_budget_role",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.budget_plausible",
+          "a.multi_end",
+          "a.multi_start"
+        ]
+      },
+      {
+        "id": "obs.wetland_climate_response",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.wetland_response"
+        ]
+      },
+      {
+        "id": "obs.wetland_release_estimate",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.wetland_needed",
+          "a.wetland_total"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.budget_constraints",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.clathrate_need",
+          "a.clathrate_replenish",
+          "a.model_limits",
+          "a.thermo_limit"
+        ]
+      },
+      {
+        "id": "reason.feedback_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.feedback_conclusion",
+          "a.feedback_mech",
+          "a.warm_climate"
+        ]
+      },
+      {
+        "id": "reason.flux_plausibility",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.calc_input",
+          "a.calc_rate",
+          "a.calc_sensitivity",
+          "a.wetland_response"
+        ]
+      },
+      {
+        "id": "reason.short_term_plausibility",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.east_main",
+          "a.wetland_response",
+          "a.yakoun_steps",
+          "anchor:compiler:visual:4e84e98e6689461267b48463f094e788d14a7be82ed77eb0d9dd0b2776e1011b"
+        ]
+      },
+      {
+        "id": "reason.short_term_uncertainty",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.both_drivers",
+          "a.orbital",
+          "a.other_forcing",
+          "a.similar_times"
+        ]
+      },
+      {
+        "id": "reason.terrestrial_budget_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.budget_plausible",
+          "a.multi_start",
+          "a.wetland_needed",
+          "a.wetland_total"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.modern_wetland_proxy",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.calc_input",
+          "a.wetland_response"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:703bac1ddbc227e62e6602f1496af1a93ded5ba3c0d25b31baaeb44233146b90",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.calc_rate",
+          "a.feedback_conclusion",
+          "a.feedback_mech"
+        ],
+        "source_id": "claim.terrestrial_feedback"
+      },
+      {
+        "id": "claim:sha256:71c654d71a89552c0db46eeb502e6631e89675ff8461fa4e3192ae9a25570651",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.additional_flux",
+          "a.budget_plausible",
+          "a.wetland_needed",
+          "a.wetland_total"
+        ],
+        "source_id": "claim.terrestrial_budget"
+      },
+      {
+        "id": "claim:sha256:7a4a7ec87353289c205740108cb11bd8b754bff466ba7fafba9ef7ed74b2909b",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.both_drivers",
+          "a.orbital",
+          "a.similar_times"
+        ],
+        "source_id": "claim.astronomical_methanogenesis"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.assumption.modern1",
+        "kind": "edge",
+        "source_id": "assumption.modern_wetland_proxy",
+        "target_id": "reason.flux_plausibility",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.modern2",
+        "kind": "edge",
+        "source_id": "assumption.modern_wetland_proxy",
+        "target_id": "reason.terrestrial_budget_synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.both",
+        "kind": "edge",
+        "source_id": "a.both_drivers",
+        "target_id": "obs.possible_co_drivers",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.budget",
+        "kind": "edge",
+        "source_id": "a.budget_plausible",
+        "target_id": "obs.terrestrial_budget_role",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.calcinput",
+        "kind": "edge",
+        "source_id": "a.calc_input",
+        "target_id": "obs.methanogenesis_calculation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.calcrate",
+        "kind": "edge",
+        "source_id": "a.calc_rate",
+        "target_id": "obs.methanogenesis_calculation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.calcsens",
+        "kind": "edge",
+        "source_id": "a.calc_sensitivity",
+        "target_id": "obs.methanogenesis_calculation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.clath_need",
+        "kind": "edge",
+        "source_id": "a.clathrate_need",
+        "target_id": "obs.clathrate_constraints",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.clath_refill",
+        "kind": "edge",
+        "source_id": "a.clathrate_replenish",
+        "target_id": "obs.clathrate_constraints",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.clath_res",
+        "kind": "edge",
+        "source_id": "a.clathrate_reservoir",
+        "target_id": "obs.clathrate_constraints",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.clath_warm",
+        "kind": "edge",
+        "source_id": "a.clathrate_warming",
+        "target_id": "obs.clathrate_constraints",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.feedback",
+        "kind": "edge",
+        "source_id": "a.feedback_mech",
+        "target_id": "obs.proposed_warming_feedback",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.feedbackcon",
+        "kind": "edge",
+        "source_id": "a.feedback_conclusion",
+        "target_id": "obs.conclusion_methanogenesis",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model",
+        "kind": "edge",
+        "source_id": "a.model_limits",
+        "target_id": "obs.model_limits",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.multi1",
+        "kind": "edge",
+        "source_id": "a.multi_start",
+        "target_id": "obs.terrestrial_budget_role",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.multi2",
+        "kind": "edge",
+        "source_id": "a.multi_end",
+        "target_id": "obs.terrestrial_budget_role",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.orbit",
+        "kind": "edge",
+        "source_id": "a.orbital",
+        "target_id": "obs.astronomical_proposal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.other",
+        "kind": "edge",
+        "source_id": "a.other_forcing",
+        "target_id": "obs.other_short_term_sources",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.short",
+        "kind": "edge",
+        "source_id": "a.east_main",
+        "target_id": "obs.short_term_cies",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.short2",
+        "kind": "edge",
+        "source_id": "a.yakoun_steps",
+        "target_id": "obs.short_term_cies",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.short3",
+        "kind": "edge",
+        "source_id": "a.yakoun_osc",
+        "target_id": "obs.short_term_cies",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shortresponse",
+        "kind": "edge",
+        "source_id": "a.wetland_response",
+        "target_id": "obs.climate_sensitive_methanogenesis",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.similar",
+        "kind": "edge",
+        "source_id": "a.similar_times",
+        "target_id": "obs.possible_co_drivers",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.thermo",
+        "kind": "edge",
+        "source_id": "a.thermo_limit",
+        "target_id": "obs.model_limits",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.warm",
+        "kind": "edge",
+        "source_id": "a.warm_climate",
+        "target_id": "obs.early_jurassic_climate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.wet_needed",
+        "kind": "edge",
+        "source_id": "a.wetland_needed",
+        "target_id": "obs.wetland_release_estimate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.wet_total",
+        "kind": "edge",
+        "source_id": "a.wetland_total",
+        "target_id": "obs.wetland_release_estimate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.wetresp",
+        "kind": "edge",
+        "source_id": "a.wetland_response",
+        "target_id": "obs.wetland_climate_response",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.budget1",
+        "kind": "edge",
+        "source_id": "reason.budget_constraints",
+        "target_id": "reason.terrestrial_budget_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.budget2",
+        "kind": "edge",
+        "source_id": "obs.wetland_release_estimate",
+        "target_id": "reason.terrestrial_budget_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.budget3",
+        "kind": "edge",
+        "source_id": "obs.terrestrial_budget_role",
+        "target_id": "reason.terrestrial_budget_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.constraints1",
+        "kind": "edge",
+        "source_id": "obs.model_limits",
+        "target_id": "reason.budget_constraints",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.constraints2",
+        "kind": "edge",
+        "source_id": "obs.clathrate_constraints",
+        "target_id": "reason.budget_constraints",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.feedback1",
+        "kind": "edge",
+        "source_id": "reason.flux_plausibility",
+        "target_id": "reason.feedback_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.feedback2",
+        "kind": "edge",
+        "source_id": "obs.early_jurassic_climate",
+        "target_id": "reason.feedback_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.feedback3",
+        "kind": "edge",
+        "source_id": "obs.proposed_warming_feedback",
+        "target_id": "reason.feedback_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.feedback4",
+        "kind": "edge",
+        "source_id": "obs.conclusion_methanogenesis",
+        "target_id": "reason.feedback_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.flux1",
+        "kind": "edge",
+        "source_id": "obs.wetland_climate_response",
+        "target_id": "reason.flux_plausibility",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.flux2",
+        "kind": "edge",
+        "source_id": "obs.methanogenesis_calculation",
+        "target_id": "reason.flux_plausibility",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.short1",
+        "kind": "edge",
+        "source_id": "obs.short_term_cies",
+        "target_id": "reason.short_term_plausibility",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.short2",
+        "kind": "edge",
+        "source_id": "obs.climate_sensitive_methanogenesis",
+        "target_id": "reason.short_term_plausibility",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.short3",
+        "kind": "edge",
+        "source_id": "reason.short_term_plausibility",
+        "target_id": "reason.short_term_uncertainty",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.short4",
+        "kind": "edge",
+        "source_id": "obs.astronomical_proposal",
+        "target_id": "reason.short_term_uncertainty",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.short5",
+        "kind": "edge",
+        "source_id": "obs.possible_co_drivers",
+        "target_id": "reason.short_term_uncertainty",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.short6",
+        "kind": "edge",
+        "source_id": "obs.other_short_term_sources",
+        "target_id": "reason.short_term_uncertainty",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.astronomical",
+        "kind": "edge",
+        "source_id": "reason.short_term_uncertainty",
+        "target_id": "claim:sha256:7a4a7ec87353289c205740108cb11bd8b754bff466ba7fafba9ef7ed74b2909b",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.budget",
+        "kind": "edge",
+        "source_id": "reason.terrestrial_budget_synthesis",
+        "target_id": "claim:sha256:71c654d71a89552c0db46eeb502e6631e89675ff8461fa4e3192ae9a25570651",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.feedback",
+        "kind": "edge",
+        "source_id": "reason.feedback_synthesis",
+        "target_id": "claim:sha256:703bac1ddbc227e62e6602f1496af1a93ded5ba3c0d25b31baaeb44233146b90",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:6c3633e8d944f6f9a97637906b8651679d7f99ab4380848f8e257ee7c6fc7829",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:4e84e98e6689461267b48463f094e788d14a7be82ed77eb0d9dd0b2776e1011b",
+        "target_id": "obs.short_term_cies",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:ee849706f8f7b42d21f03128c42ee955635c1ddaa8eb95fd475adce47cd937d2",
+        "kind": "edge",
+        "source_id": "a.east_fig_end",
+        "target_id": "obs.short_term_cies",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

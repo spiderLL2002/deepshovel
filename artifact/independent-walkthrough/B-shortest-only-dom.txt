@@ -1,0 +1,118 @@
+- banner:
+  - strong: DeepShovel
+  - text: / Observation reuse
+  - generic: Local import · explicit user preparation
+- main:
+  - heading "Prepare an observation for reuse" [level=1]
+  - paragraph: Import a production retrieval result, inspect its source path, and record a scoped observation with your reading conclusion.
+  - generic: This creates an artifact-local, user-prepared observation record. The imported production result remains preserved alongside your fields. Files and decisions stay in this browser; the page sends no data to an external service.
+  - heading "1. Import a retrieval result" [level=2]
+  - text: Retrieval JSON file
+  - button "Retrieval JSON file" [active]
+  - text: Or paste JSON
+  - textbox "Or paste JSON":
+    - /placeholder: "{\"result\":{\"paper_id\":\"…\",\"snapshot_id\":\"…\",\"claim_id\":\"…\",\"scope\":{},\"canonical_claim\":\"…\",\"shortest_evidence_path\":{\"nodes\":[],\"links\":[]}}}"
+  - button "Import pasted JSON"
+  - button "Load demo sample · recorded Nd result"
+  - status: Result imported. Path lacks observations or source anchors; saving is unavailable.
+  - heading "Optional · build an observation branch" [level=2]
+  - paragraph: Choose a complete stored evidence graph for the imported result. The local adapter retains recorded grounds edges and deterministic reasoning routes; your scientific fields remain blank for preparation.
+  - text: Stored graph JSON file
+  - button "Stored graph JSON file"
+  - button "Build observation branch" [disabled]
+  - status: Optional graph not selected. Existing imported paths remain available.
+  - heading "2. Inspect the original context" [level=2]
+  - paragraph: For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.
+  - generic "Original composite scope"
+  - generic: "{ \"condition\": [ \"gas-injection pressure increase\" ], \"entities\": [ \"Asmari reservoir\", \"F1\", \"F2\", \"F3\", \"F4\", \"Gachsaran oilfield\" ], \"formation\": [ \"Asmari reservoir\" ], \"location\": [ \"Gachsaran oilfield, SW Iran\" ], \"measurement\": [ \"reactivation tendency and maximum sustainable pore pressure\" ], \"method\": [ \"3D Mohr diagrams, slip tendency, and modified slip tendency\" ], \"sample_type\": [ \"four faults F1, F2, F3, and F4\" ], \"time\": null, \"uncertainty\": null }"
+  - generic "Production references and complete path"
+  - group "3. Prepare your observation":
+    - generic: 3. Prepare your observation
+    - text: Inspection path
+    - combobox "Inspection path":
+      - option "Returned shortest path" [selected]
+    - paragraph: Returned shortest evidence path. This path lacks an observation or source anchor; select an available inspection path to prepare a decision.
+    - text: Recorded observation
+    - combobox "Recorded observation":
+      - option "Choose observation" [selected]
+    - paragraph
+    - text: Recorded source anchor
+    - combobox "Recorded source anchor":
+      - option "Choose a grounded source anchor" [selected]
+    - paragraph
+    - generic: Select a recorded observation to inspect its graph links.
+    - text: Experiment / context
+    - textbox "Experiment / context"
+    - text: Quantity
+    - textbox "Quantity"
+    - text: Value as read
+    - textbox "Value as read":
+      - /placeholder: Preserve reported representation
+    - text: Unit
+    - textbox "Unit"
+    - text: Uncertainty and interpretation
+    - textbox "Uncertainty and interpretation":
+      - /placeholder: Reported ± value and uncertainty type, or explicitly unknown
+    - text: Conditions
+    - textbox "Conditions"
+    - text: Page / figure / cell locator
+    - textbox "Page / figure / cell locator":
+      - /placeholder: Enter the locator you read in the source
+    - text: Reuse purpose
+    - combobox "Reuse purpose":
+      - option "Choose purpose" [selected]
+      - option "Estimate"
+      - option "Interpretation"
+      - option "Further review"
+    - text: Reading conclusion
+    - combobox "Reading conclusion":
+      - option "Choose conclusion" [selected]
+      - option "Supports reuse within recorded conditions"
+      - option "Reuse with qualification"
+      - option "Requires further review"
+    - text: Your source-reading notes
+    - textbox "Your source-reading notes":
+      - /placeholder: Explain what you checked and any qualification
+  - heading "Imported and prepared fields" [level=2]
+  - paragraph: This comparison shows text differences. Prepared wording records the operator’s source reading; a text difference is not an automatic scientific error or compatibility judgment.
+  - article:
+    - heading "Uncertainty" [level=3]
+    - paragraph: Prepared text pending
+    - strong: Imported scope uncertainty
+    - generic: (not supplied)
+    - strong: Prepared uncertainty
+    - generic: (not entered)
+  - article:
+    - heading "Time and conditions" [level=3]
+    - paragraph: Prepared text pending
+    - strong: Imported scope time / condition
+    - generic: "{\"time\":null,\"condition\":[\"gas-injection pressure increase\"]}"
+    - strong: Prepared conditions
+    - generic: (not entered)
+  - heading "4. Check the source file" [level=2]
+  - paragraph:
+    - strong: File identity state
+    - text: is independent of the recorded graph-link check. Either state describes provenance, not scientific support.
+  - paragraph: Choose the PDF you inspected. Its SHA-256 is compared with artifact-version hashes in the imported path. A saved decision preserves the observed hash and comparison state.
+  - text: Local source PDF
+  - button "Local source PDF"
+  - button "Check the demo sample PDF" [disabled]
+  - status: Pending · no PDF selected.
+  - heading "5. Save the reuse decision" [level=2]
+  - paragraph: The decision records the selected nodes, original scope, prepared scientific fields, source identity check, and your reading conclusion.
+  - button "Save reuse decision" [disabled]
+  - button "Download saved JSON" [disabled]
+  - button "Reset this tool"
+  - status: Complete the required preparation fields.
+  - status: Saved decisions preserve the source check state, including an explicitly pending check.
+  - generic "Saved JSON and reproducible hash"
+  - paragraph:
+    - link "Curated Nd case":
+      - /url: nd-case/index.html
+    - text: ·
+    - link "Recorded contract replay":
+      - /url: contract-replay.html
+    - text: ·
+    - link "Evaluation README":
+      - /url: evaluation/README.md
+  - paragraph: Decisions are stored under this tool’s localStorage key. Reset clears only that key. Download preserves the last saved decision; edits remain a draft until saved.

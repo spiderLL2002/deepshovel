@@ -1,0 +1,623 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "d0b5d186882a3fe5107a63d1beb6d5164828c1310a5f9a7c8cd0e53ffe27e450",
+  "http_body_sha256": "ecff2b1b3db0845f1b7aeea3cc9bea5ae3f4cdb0c1e5210a90ae4eaa2074449f",
+  "snapshot": {
+    "id": "snapshot:sha256:045b813be329773731f8fec8293b26b5abf2b2e295dd6d1cb8c7282cdb46479e",
+    "rootArtifactVersionId": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "045b813be329773731f8fec8293b26b5abf2b2e295dd6d1cb8c7282cdb46479e"
+  },
+  "graph": {
+    "paper_id": "paper:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+    "anchors": [
+      {
+        "id": "anchor.anoxia.area",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.anoxia.decrease",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.anoxia.regions",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.organic.interpretation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.organic.ipt",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.organic.muddy",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.organic.regression",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.organic.sandy",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.sink.approach1",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.sink.approach2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.sink.load",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.sink.mapmethod",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.sink.representativeness",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.table4",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:e07fe758edc1772abb2f817a721425d06a24a541fbb2562aee7a2bcb157a3717",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "selector": {
+          "page": 5
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.anoxia.area",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.anoxia.area"
+        ]
+      },
+      {
+        "id": "obs.anoxia.decrease",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.anoxia.decrease",
+          "anchor.anoxia.regions",
+          "anchor.table4"
+        ]
+      },
+      {
+        "id": "obs.organic.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.organic.interpretation"
+        ]
+      },
+      {
+        "id": "obs.organic.muddy",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.organic.ipt",
+          "anchor.organic.muddy"
+        ]
+      },
+      {
+        "id": "obs.organic.regression",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.organic.regression"
+        ]
+      },
+      {
+        "id": "obs.organic.sandy",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.organic.ipt",
+          "anchor.organic.sandy"
+        ]
+      },
+      {
+        "id": "obs.sink.approach1",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.sink.approach1",
+          "anchor:compiler:visual:e07fe758edc1772abb2f817a721425d06a24a541fbb2562aee7a2bcb157a3717"
+        ]
+      },
+      {
+        "id": "obs.sink.approach2",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.sink.approach2"
+        ]
+      },
+      {
+        "id": "obs.sink.load",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.sink.load",
+          "anchor:compiler:visual:e07fe758edc1772abb2f817a721425d06a24a541fbb2562aee7a2bcb157a3717"
+        ]
+      },
+      {
+        "id": "obs.sink.mapmethod",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.sink.mapmethod"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.anoxia.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.anoxia.area",
+          "anchor.anoxia.decrease",
+          "anchor.anoxia.regions",
+          "anchor.table4"
+        ]
+      },
+      {
+        "id": "reason.organic.category",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.organic.ipt",
+          "anchor.organic.muddy",
+          "anchor.organic.sandy"
+        ]
+      },
+      {
+        "id": "reason.organic.regression",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.organic.interpretation",
+          "anchor.organic.regression"
+        ]
+      },
+      {
+        "id": "reason.organic.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.organic.interpretation",
+          "anchor.organic.muddy",
+          "anchor.organic.regression",
+          "anchor.organic.sandy"
+        ]
+      },
+      {
+        "id": "reason.sink.interpretation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.sink.approach1",
+          "anchor.sink.approach2",
+          "anchor.sink.load",
+          "anchor.sink.mapmethod",
+          "anchor.sink.representativeness",
+          "anchor:compiler:visual:e07fe758edc1772abb2f817a721425d06a24a541fbb2562aee7a2bcb157a3717"
+        ]
+      },
+      {
+        "id": "reason.sink.range",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.sink.approach1",
+          "anchor.sink.approach2",
+          "anchor.sink.mapmethod",
+          "anchor.sink.representativeness",
+          "anchor:compiler:visual:e07fe758edc1772abb2f817a721425d06a24a541fbb2562aee7a2bcb157a3717"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:578c0e04885404605d6fe5d30202a211cccb76b8243804228206dcea1d3c1e47",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.sink.approach1",
+          "anchor.sink.approach2",
+          "anchor.sink.load",
+          "anchor.sink.mapmethod",
+          "anchor.sink.representativeness",
+          "anchor:compiler:visual:e07fe758edc1772abb2f817a721425d06a24a541fbb2562aee7a2bcb157a3717"
+        ]
+      },
+      {
+        "id": "claim:sha256:a33434df02f28247c7bbb46bd4cd00ace795af42f9c10aabb44926e74d178413",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.anoxia.area",
+          "anchor.anoxia.decrease",
+          "anchor.anoxia.regions",
+          "anchor.table4"
+        ]
+      },
+      {
+        "id": "claim:sha256:e8b87313a214323d205f104c64c8f708b595aacf11379add33f22f94da16a12a",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.organic.interpretation",
+          "anchor.organic.ipt",
+          "anchor.organic.muddy",
+          "anchor.organic.regression",
+          "anchor.organic.sandy"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.sink.representativeness",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.sink.representativeness"
+        ]
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:e950ced5-91ed-4f5b-bb3a-e23835c6ab16",
+        "sha256": "384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.assumption.sink.representativeness",
+        "source_id": "assumption.sink.representativeness",
+        "target_id": "reason.sink.range",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.anoxia.area",
+        "source_id": "anchor.anoxia.area",
+        "target_id": "obs.anoxia.area",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.anoxia.decrease",
+        "source_id": "anchor.anoxia.decrease",
+        "target_id": "obs.anoxia.decrease",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.anoxia.regions",
+        "source_id": "anchor.anoxia.regions",
+        "target_id": "obs.anoxia.decrease",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.anoxia.table",
+        "source_id": "anchor.table4",
+        "target_id": "obs.anoxia.decrease",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.anoxia.visual",
+        "source_id": "visual.table4",
+        "target_id": "obs.anoxia.decrease",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.organic.interpretation",
+        "source_id": "anchor.organic.interpretation",
+        "target_id": "obs.organic.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.organic.ipt.muddy",
+        "source_id": "anchor.organic.ipt",
+        "target_id": "obs.organic.muddy",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.organic.ipt.sandy",
+        "source_id": "anchor.organic.ipt",
+        "target_id": "obs.organic.sandy",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.organic.muddy",
+        "source_id": "anchor.organic.muddy",
+        "target_id": "obs.organic.muddy",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.organic.regression",
+        "source_id": "anchor.organic.regression",
+        "target_id": "obs.organic.regression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.organic.sandy",
+        "source_id": "anchor.organic.sandy",
+        "target_id": "obs.organic.sandy",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.sink.approach1",
+        "source_id": "anchor.sink.approach1",
+        "target_id": "obs.sink.approach1",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.sink.approach2",
+        "source_id": "anchor.sink.approach2",
+        "target_id": "obs.sink.approach2",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.sink.load",
+        "source_id": "anchor.sink.load",
+        "target_id": "obs.sink.load",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.sink.mapmethod",
+        "source_id": "anchor.sink.mapmethod",
+        "target_id": "obs.sink.mapmethod",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.sink.representativeness",
+        "source_id": "anchor.sink.representativeness",
+        "target_id": "obs.sink.mapmethod",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.anoxia.area",
+        "source_id": "obs.anoxia.area",
+        "target_id": "reason.anoxia.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.anoxia.decrease",
+        "source_id": "obs.anoxia.decrease",
+        "target_id": "reason.anoxia.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.organic.category",
+        "source_id": "reason.organic.category",
+        "target_id": "reason.organic.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.organic.interpretation",
+        "source_id": "obs.organic.interpretation",
+        "target_id": "reason.organic.regression",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.organic.muddy",
+        "source_id": "obs.organic.muddy",
+        "target_id": "reason.organic.category",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.organic.regression",
+        "source_id": "obs.organic.regression",
+        "target_id": "reason.organic.regression",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.organic.regression.synthesis",
+        "source_id": "reason.organic.regression",
+        "target_id": "reason.organic.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.organic.sandy",
+        "source_id": "obs.organic.sandy",
+        "target_id": "reason.organic.category",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sink.approach1",
+        "source_id": "obs.sink.approach1",
+        "target_id": "reason.sink.range",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sink.approach2",
+        "source_id": "obs.sink.approach2",
+        "target_id": "reason.sink.range",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sink.load",
+        "source_id": "obs.sink.load",
+        "target_id": "reason.sink.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sink.mapmethod",
+        "source_id": "obs.sink.mapmethod",
+        "target_id": "reason.sink.range",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sink.range",
+        "source_id": "reason.sink.range",
+        "target_id": "reason.sink.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.anoxia",
+        "source_id": "reason.anoxia.synthesis",
+        "target_id": "claim:sha256:a33434df02f28247c7bbb46bd4cd00ace795af42f9c10aabb44926e74d178413",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.organic",
+        "source_id": "reason.organic.synthesis",
+        "target_id": "claim:sha256:e8b87313a214323d205f104c64c8f708b595aacf11379add33f22f94da16a12a",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.sink",
+        "source_id": "reason.sink.interpretation",
+        "target_id": "claim:sha256:578c0e04885404605d6fe5d30202a211cccb76b8243804228206dcea1d3c1e47",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:93cc80c1c0dfa71162a1b0b08ea295bb5cd4d9a3ac4ea79f679408ac8d8dffd0",
+        "source_id": "anchor:compiler:visual:e07fe758edc1772abb2f817a721425d06a24a541fbb2562aee7a2bcb157a3717",
+        "target_id": "obs.sink.approach1",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:e8ffbc06205aeb7e85729ed1662f0c3a2eac935de8c9793ea91a60106f0752e5",
+        "source_id": "anchor:compiler:visual:e07fe758edc1772abb2f817a721425d06a24a541fbb2562aee7a2bcb157a3717",
+        "target_id": "obs.sink.load",
+        "relation": "grounds"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:2c49e4da73816b5b80c0d786012338603f72b966f0d0d7efaec166242d4511b0",
+        "entity_ids": [
+          "anchor.anoxia.area",
+          "anchor.anoxia.decrease",
+          "anchor.anoxia.regions",
+          "anchor.organic.interpretation",
+          "anchor.organic.ipt",
+          "anchor.organic.muddy",
+          "anchor.organic.regression",
+          "anchor.organic.sandy",
+          "anchor.sink.approach1",
+          "anchor.sink.approach2",
+          "anchor.sink.load",
+          "anchor.sink.mapmethod",
+          "anchor.sink.representativeness",
+          "anchor.table4",
+          "anchor:compiler:visual:e07fe758edc1772abb2f817a721425d06a24a541fbb2562aee7a2bcb157a3717",
+          "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+          "artifact:e950ced5-91ed-4f5b-bb3a-e23835c6ab16",
+          "assumption.sink.representativeness",
+          "claim:sha256:578c0e04885404605d6fe5d30202a211cccb76b8243804228206dcea1d3c1e47",
+          "claim:sha256:a33434df02f28247c7bbb46bd4cd00ace795af42f9c10aabb44926e74d178413",
+          "claim:sha256:e8b87313a214323d205f104c64c8f708b595aacf11379add33f22f94da16a12a",
+          "obs.anoxia.area",
+          "obs.anoxia.decrease",
+          "obs.organic.interpretation",
+          "obs.organic.muddy",
+          "obs.organic.regression",
+          "obs.organic.sandy",
+          "obs.sink.approach1",
+          "obs.sink.approach2",
+          "obs.sink.load",
+          "obs.sink.mapmethod",
+          "reason.anoxia.synthesis",
+          "reason.organic.category",
+          "reason.organic.regression",
+          "reason.organic.synthesis",
+          "reason.sink.interpretation",
+          "reason.sink.range",
+          "visual.table4"
+        ],
+        "edge_ids": [
+          "edge.assumption.sink.representativeness",
+          "edge.grounds.anoxia.area",
+          "edge.grounds.anoxia.decrease",
+          "edge.grounds.anoxia.regions",
+          "edge.grounds.anoxia.table",
+          "edge.grounds.anoxia.visual",
+          "edge.grounds.organic.interpretation",
+          "edge.grounds.organic.ipt.muddy",
+          "edge.grounds.organic.ipt.sandy",
+          "edge.grounds.organic.muddy",
+          "edge.grounds.organic.regression",
+          "edge.grounds.organic.sandy",
+          "edge.grounds.sink.approach1",
+          "edge.grounds.sink.approach2",
+          "edge.grounds.sink.load",
+          "edge.grounds.sink.mapmethod",
+          "edge.grounds.sink.representativeness",
+          "edge.premise.anoxia.area",
+          "edge.premise.anoxia.decrease",
+          "edge.premise.organic.category",
+          "edge.premise.organic.interpretation",
+          "edge.premise.organic.muddy",
+          "edge.premise.organic.regression",
+          "edge.premise.organic.regression.synthesis",
+          "edge.premise.organic.sandy",
+          "edge.premise.sink.approach1",
+          "edge.premise.sink.approach2",
+          "edge.premise.sink.load",
+          "edge.premise.sink.mapmethod",
+          "edge.premise.sink.range",
+          "edge.support.anoxia",
+          "edge.support.organic",
+          "edge.support.sink",
+          "edge:compiler:93cc80c1c0dfa71162a1b0b08ea295bb5cd4d9a3ac4ea79f679408ac8d8dffd0",
+          "edge:compiler:e8ffbc06205aeb7e85729ed1662f0c3a2eac935de8c9793ea91a60106f0752e5"
+        ]
+      }
+    ]
+  }
+}

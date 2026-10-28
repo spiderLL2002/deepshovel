@@ -1,0 +1,1357 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+  "snapshot_id": "snapshot:sha256:0041ed6e41b15e75d665632a5f3f1d0a27976b3215974967e312c1f602be9e56",
+  "original_graph_json_sha256": "0041ed6e41b15e75d665632a5f3f1d0a27976b3215974967e312c1f602be9e56",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:513592e7-7dee-4f3b-bb47-999b62cfb403",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:513592e7-7dee-4f3b-bb47-999b62cfb403",
+        "sha256": "6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.figure.2",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.text.abstract.branching",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.text.abstract.events",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.text.abstract.rate_comparison",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.text.abstract.rates",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.text.abstract.recurrence",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.text.behoura.wall_last_event",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.behoura.wall_offset",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.additional_data",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.branch_explanation",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.branch_fig2_number",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.kh_event_evidence",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.kh_single_event",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.kh_volcano_offset",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.kh_volcano_rate",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.kh_wall_rate",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.ri_setup",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.segment_counts",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.trench_iv_date",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.va_events",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.va_hypothesis",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.va_min_recurrence",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.va_rate_agreement",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.va_rates",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.va_timing",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.va_two_events",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.fault.branch_geometry",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.text.kh.magnitude_lower",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.text.kh.magnitude_lower_cont",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.text.kh.volcano_age",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.kh.volcano_offset",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.kh.volcano_rate",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.kh.wall_rate",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.kh.wall_rate_context",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.model.colluvial_wedge",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.text.ri_definition",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.ri_equation",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.ri_result",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.trench1.earlier_event",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.text.trench3.colluvial_wedges",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.trench3.sag_event",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.trench3.sag_unit",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.text.trench3.wedge_units",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.trench5.single_event",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.text.va.magnitude_event2",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.va.magnitude_event2_cont",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.va.riss_age",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.va.river_max",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.va.river_rate",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.va.trench_consistency",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.va.trench_rate",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:1fc0d8d0cb06119f613e969277e96b881c90c2233d3f9f6869086d40036dace0",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 25
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:a460a8f5761efb944f0f509df143d8aa58c6a7ae41451ad6a4f92dd41bab47fa",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:be98218bb33fcb64071dfc86a217a049693e99166407dc8ca5710f32e659ed03",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:c939e2bed7bae29de5dca59e4d78c979f3c5e0d5b1f0788c4c6163745ebc79f0",
+        "artifact_version_id": "artifact-version:sha256:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.events.kh.trenchV",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.trench5.single_event"
+        ]
+      },
+      {
+        "id": "obs.events.kh.wall",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.behoura.wall_last_event",
+          "anchor.text.behoura.wall_offset"
+        ]
+      },
+      {
+        "id": "obs.events.va.earlier",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.trench3.sag_event",
+          "anchor.text.trench3.sag_unit"
+        ]
+      },
+      {
+        "id": "obs.events.va.trenchI",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.trench1.earlier_event",
+          "anchor:compiler:visual:a460a8f5761efb944f0f509df143d8aa58c6a7ae41451ad6a4f92dd41bab47fa"
+        ]
+      },
+      {
+        "id": "obs.events.va.wedges",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.trench3.colluvial_wedges",
+          "anchor.text.trench3.wedge_units",
+          "anchor:compiler:visual:c939e2bed7bae29de5dca59e4d78c979f3c5e0d5b1f0788c4c6163745ebc79f0"
+        ]
+      },
+      {
+        "id": "obs.mech.branching",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.fault.branch_geometry"
+        ]
+      },
+      {
+        "id": "obs.mech.kh_rate",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.conclusion.kh_volcano_rate",
+          "anchor.text.conclusion.kh_wall_rate"
+        ]
+      },
+      {
+        "id": "obs.mech.proposal",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.text.abstract.branching",
+          "anchor.text.conclusion.branch_explanation",
+          "anchor.text.conclusion.branch_fig2_number"
+        ]
+      },
+      {
+        "id": "obs.mech.va_rate",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.conclusion.va_rates"
+        ]
+      },
+      {
+        "id": "obs.recurrence.kh.magnitude",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.kh.magnitude_lower",
+          "anchor.text.kh.magnitude_lower_cont"
+        ]
+      },
+      {
+        "id": "obs.recurrence.kh.rate",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.ri_result"
+        ]
+      },
+      {
+        "id": "obs.recurrence.kh.ri",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.conclusion.ri_setup",
+          "anchor.text.ri_definition",
+          "anchor.text.ri_equation",
+          "anchor.text.ri_result"
+        ]
+      },
+      {
+        "id": "obs.recurrence.kh.wall",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.behoura.wall_offset"
+        ]
+      },
+      {
+        "id": "obs.recurrence.va.events",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.conclusion.trench_iv_date",
+          "anchor.text.conclusion.va_timing",
+          "anchor.text.conclusion.va_two_events"
+        ]
+      },
+      {
+        "id": "obs.recurrence.va.magnitude",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.va.magnitude_event2",
+          "anchor.text.va.magnitude_event2_cont"
+        ]
+      },
+      {
+        "id": "obs.recurrence.va.minimum",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.conclusion.va_min_recurrence"
+        ]
+      },
+      {
+        "id": "obs.slip.kh.volcano",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.kh.volcano_age",
+          "anchor.text.kh.volcano_offset",
+          "anchor.text.kh.volcano_rate"
+        ]
+      },
+      {
+        "id": "obs.slip.kh.wall",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.behoura.wall_offset",
+          "anchor.text.kh.wall_rate",
+          "anchor.text.kh.wall_rate_context"
+        ]
+      },
+      {
+        "id": "obs.slip.va.river",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.va.riss_age",
+          "anchor.text.va.river_max",
+          "anchor.text.va.river_rate",
+          "anchor:compiler:visual:be98218bb33fcb64071dfc86a217a049693e99166407dc8ca5710f32e659ed03"
+        ]
+      },
+      {
+        "id": "obs.slip.va.trench",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.va.trench_consistency",
+          "anchor.text.va.trench_rate"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.events.compare",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.abstract.events",
+          "anchor.text.conclusion.segment_counts",
+          "anchor:compiler:visual:1fc0d8d0cb06119f613e969277e96b881c90c2233d3f9f6869086d40036dace0"
+        ]
+      },
+      {
+        "id": "reason.events.kh",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.conclusion.kh_event_evidence",
+          "anchor.text.conclusion.kh_single_event"
+        ]
+      },
+      {
+        "id": "reason.events.va",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.conclusion.va_events",
+          "anchor.text.conclusion.va_hypothesis",
+          "anchor:compiler:visual:1fc0d8d0cb06119f613e969277e96b881c90c2233d3f9f6869086d40036dace0"
+        ]
+      },
+      {
+        "id": "reason.mech.contrast",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.conclusion.kh_volcano_rate",
+          "anchor.text.conclusion.va_rates"
+        ]
+      },
+      {
+        "id": "reason.mech.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.text.conclusion.additional_data",
+          "anchor.text.conclusion.branch_explanation"
+        ]
+      },
+      {
+        "id": "reason.recurrence.kh",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.ri_equation",
+          "anchor.text.ri_result"
+        ]
+      },
+      {
+        "id": "reason.recurrence.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.abstract.recurrence",
+          "anchor.text.conclusion.va_min_recurrence",
+          "anchor.text.ri_result"
+        ]
+      },
+      {
+        "id": "reason.recurrence.va",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.conclusion.trench_iv_date",
+          "anchor.text.conclusion.va_min_recurrence"
+        ]
+      },
+      {
+        "id": "reason.slip.compare",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.abstract.rate_comparison"
+        ]
+      },
+      {
+        "id": "reason.slip.kh",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.conclusion.kh_volcano_rate",
+          "anchor.text.conclusion.kh_wall_rate"
+        ]
+      },
+      {
+        "id": "reason.slip.va",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.conclusion.va_rate_agreement",
+          "anchor.text.conclusion.va_rates"
+        ]
+      },
+      {
+        "id": "reason.strong.events",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.kh.magnitude_lower",
+          "anchor.text.va.magnitude_event2"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.colluvial.model",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.model.colluvial_wedge"
+        ]
+      },
+      {
+        "id": "assumption.kh.recurrence",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.conclusion.ri_setup",
+          "anchor.text.ri_equation",
+          "anchor.text.ri_result"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:5db73e2d5163982f3b9ef28d61f8fef248d639b65becf22bfb4c3cddadab3b67",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.abstract.events",
+          "anchor.text.conclusion.kh_single_event",
+          "anchor.text.conclusion.segment_counts",
+          "anchor.text.conclusion.va_events",
+          "anchor.text.conclusion.va_hypothesis",
+          "anchor:compiler:visual:1fc0d8d0cb06119f613e969277e96b881c90c2233d3f9f6869086d40036dace0"
+        ],
+        "source_id": "claim.segmented.events"
+      },
+      {
+        "id": "claim:sha256:5e1705062decc264a154c94580a91b8bcf6c8e07e5161b8905a4dd1427d7faaf",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.abstract.recurrence",
+          "anchor.text.conclusion.va_min_recurrence",
+          "anchor.text.kh.magnitude_lower",
+          "anchor.text.ri_result",
+          "anchor.text.va.magnitude_event2"
+        ],
+        "source_id": "claim.long.recurrence"
+      },
+      {
+        "id": "claim:sha256:71e4832bea1136ec7a22f02bb7489a47606e44662fae31d629fa16144b091e70",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.abstract.rate_comparison",
+          "anchor.text.abstract.rates",
+          "anchor.text.conclusion.kh_volcano_rate",
+          "anchor.text.conclusion.kh_wall_rate",
+          "anchor.text.conclusion.va_rates"
+        ],
+        "source_id": "claim.slip.contrast"
+      },
+      {
+        "id": "claim:sha256:a138b6d00adc699ed0197d686968e66ba1c53cda36ae3e6ca8e8a306c4466d83",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.text.abstract.branching",
+          "anchor.text.conclusion.branch_explanation",
+          "anchor.text.conclusion.branch_fig2_number",
+          "anchor.text.fault.branch_geometry"
+        ],
+        "source_id": "claim.branch.mechanism"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.assumption.events.colluvial",
+        "kind": "edge",
+        "source_id": "assumption.colluvial.model",
+        "target_id": "reason.events.va",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.recurrence.kh",
+        "kind": "edge",
+        "source_id": "assumption.kh.recurrence",
+        "target_id": "reason.recurrence.kh",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.events.sag_event",
+        "kind": "edge",
+        "source_id": "anchor.text.trench3.sag_event",
+        "target_id": "obs.events.va.earlier",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.events.sag_unit",
+        "kind": "edge",
+        "source_id": "anchor.text.trench3.sag_unit",
+        "target_id": "obs.events.va.earlier",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.events.trench1",
+        "kind": "edge",
+        "source_id": "anchor.text.trench1.earlier_event",
+        "target_id": "obs.events.va.trenchI",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.events.trench5",
+        "kind": "edge",
+        "source_id": "anchor.text.trench5.single_event",
+        "target_id": "obs.events.kh.trenchV",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.events.wall_event",
+        "kind": "edge",
+        "source_id": "anchor.text.behoura.wall_last_event",
+        "target_id": "obs.events.kh.wall",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.events.wall_offset",
+        "kind": "edge",
+        "source_id": "anchor.text.behoura.wall_offset",
+        "target_id": "obs.events.kh.wall",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.events.wedge_units",
+        "kind": "edge",
+        "source_id": "anchor.text.trench3.wedge_units",
+        "target_id": "obs.events.va.wedges",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.events.wedges",
+        "kind": "edge",
+        "source_id": "anchor.text.trench3.colluvial_wedges",
+        "target_id": "obs.events.va.wedges",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.branching",
+        "kind": "edge",
+        "source_id": "anchor.text.fault.branch_geometry",
+        "target_id": "obs.mech.branching",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.kh_volcano_rate",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.kh_volcano_rate",
+        "target_id": "obs.mech.kh_rate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.kh_wall_rate",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.kh_wall_rate",
+        "target_id": "obs.mech.kh_rate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.proposal.abstract",
+        "kind": "edge",
+        "source_id": "anchor.text.abstract.branching",
+        "target_id": "obs.mech.proposal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.proposal.discussion",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.branch_explanation",
+        "target_id": "obs.mech.proposal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.proposal.figure",
+        "kind": "edge",
+        "source_id": "anchor.figure.2",
+        "target_id": "obs.mech.proposal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.proposal.figure_number",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.branch_fig2_number",
+        "target_id": "obs.mech.proposal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mech.va_rate",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.va_rates",
+        "target_id": "obs.mech.va_rate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.kh.magnitude1",
+        "kind": "edge",
+        "source_id": "anchor.text.kh.magnitude_lower",
+        "target_id": "obs.recurrence.kh.magnitude",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.kh.magnitude2",
+        "kind": "edge",
+        "source_id": "anchor.text.kh.magnitude_lower_cont",
+        "target_id": "obs.recurrence.kh.magnitude",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.kh.rate",
+        "kind": "edge",
+        "source_id": "anchor.text.ri_result",
+        "target_id": "obs.recurrence.kh.rate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.kh.ri.definition",
+        "kind": "edge",
+        "source_id": "anchor.text.ri_definition",
+        "target_id": "obs.recurrence.kh.ri",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.kh.ri.equation",
+        "kind": "edge",
+        "source_id": "anchor.text.ri_equation",
+        "target_id": "obs.recurrence.kh.ri",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.kh.ri.result",
+        "kind": "edge",
+        "source_id": "anchor.text.ri_result",
+        "target_id": "obs.recurrence.kh.ri",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.kh.ri.setup",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.ri_setup",
+        "target_id": "obs.recurrence.kh.ri",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.kh.wall",
+        "kind": "edge",
+        "source_id": "anchor.text.behoura.wall_offset",
+        "target_id": "obs.recurrence.kh.wall",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.va.date",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.trench_iv_date",
+        "target_id": "obs.recurrence.va.events",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.va.events",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.va_two_events",
+        "target_id": "obs.recurrence.va.events",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.va.magnitude1",
+        "kind": "edge",
+        "source_id": "anchor.text.va.magnitude_event2",
+        "target_id": "obs.recurrence.va.magnitude",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.va.magnitude2",
+        "kind": "edge",
+        "source_id": "anchor.text.va.magnitude_event2_cont",
+        "target_id": "obs.recurrence.va.magnitude",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.va.minimum",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.va_min_recurrence",
+        "target_id": "obs.recurrence.va.minimum",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.recurrence.va.timing",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.va_timing",
+        "target_id": "obs.recurrence.va.events",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.slip.kh.age",
+        "kind": "edge",
+        "source_id": "anchor.text.kh.volcano_age",
+        "target_id": "obs.slip.kh.volcano",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.slip.kh.offset",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.kh_volcano_offset",
+        "target_id": "obs.slip.kh.volcano",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.slip.kh.rate",
+        "kind": "edge",
+        "source_id": "anchor.text.kh.volcano_rate",
+        "target_id": "obs.slip.kh.volcano",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.slip.kh.wall_context",
+        "kind": "edge",
+        "source_id": "anchor.text.kh.wall_rate_context",
+        "target_id": "obs.slip.kh.wall",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.slip.kh.wall_offset",
+        "kind": "edge",
+        "source_id": "anchor.text.behoura.wall_offset",
+        "target_id": "obs.slip.kh.wall",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.slip.kh.wall_rate",
+        "kind": "edge",
+        "source_id": "anchor.text.kh.wall_rate",
+        "target_id": "obs.slip.kh.wall",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.slip.va.consistency",
+        "kind": "edge",
+        "source_id": "anchor.text.va.trench_consistency",
+        "target_id": "obs.slip.va.trench",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.slip.va.riss_age",
+        "kind": "edge",
+        "source_id": "anchor.text.va.riss_age",
+        "target_id": "obs.slip.va.river",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.slip.va.river_max",
+        "kind": "edge",
+        "source_id": "anchor.text.va.river_max",
+        "target_id": "obs.slip.va.river",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.slip.va.river_rate",
+        "kind": "edge",
+        "source_id": "anchor.text.va.river_rate",
+        "target_id": "obs.slip.va.river",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.slip.va.trench_rate",
+        "kind": "edge",
+        "source_id": "anchor.text.va.trench_rate",
+        "target_id": "obs.slip.va.trench",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.events.earlier",
+        "kind": "edge",
+        "source_id": "obs.events.va.earlier",
+        "target_id": "reason.events.va",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.events.kh",
+        "kind": "edge",
+        "source_id": "reason.events.kh",
+        "target_id": "reason.events.compare",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.events.trench1",
+        "kind": "edge",
+        "source_id": "obs.events.va.trenchI",
+        "target_id": "reason.events.va",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.events.trench5",
+        "kind": "edge",
+        "source_id": "obs.events.kh.trenchV",
+        "target_id": "reason.events.kh",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.events.va",
+        "kind": "edge",
+        "source_id": "reason.events.va",
+        "target_id": "reason.events.compare",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.events.wall",
+        "kind": "edge",
+        "source_id": "obs.events.kh.wall",
+        "target_id": "reason.events.kh",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.events.wedges",
+        "kind": "edge",
+        "source_id": "obs.events.va.wedges",
+        "target_id": "reason.events.va",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mech.branching",
+        "kind": "edge",
+        "source_id": "obs.mech.branching",
+        "target_id": "reason.mech.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mech.contrast",
+        "kind": "edge",
+        "source_id": "reason.mech.contrast",
+        "target_id": "reason.mech.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mech.kh_rate",
+        "kind": "edge",
+        "source_id": "obs.mech.kh_rate",
+        "target_id": "reason.mech.contrast",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mech.proposal",
+        "kind": "edge",
+        "source_id": "obs.mech.proposal",
+        "target_id": "reason.mech.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mech.va_rate",
+        "kind": "edge",
+        "source_id": "obs.mech.va_rate",
+        "target_id": "reason.mech.contrast",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.recurrence.kh",
+        "kind": "edge",
+        "source_id": "reason.recurrence.kh",
+        "target_id": "reason.recurrence.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.recurrence.kh.rate",
+        "kind": "edge",
+        "source_id": "obs.recurrence.kh.rate",
+        "target_id": "reason.recurrence.kh",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.recurrence.kh.ri",
+        "kind": "edge",
+        "source_id": "obs.recurrence.kh.ri",
+        "target_id": "reason.recurrence.kh",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.recurrence.kh.wall",
+        "kind": "edge",
+        "source_id": "obs.recurrence.kh.wall",
+        "target_id": "reason.recurrence.kh",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.recurrence.strong",
+        "kind": "edge",
+        "source_id": "reason.strong.events",
+        "target_id": "reason.recurrence.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.recurrence.va",
+        "kind": "edge",
+        "source_id": "reason.recurrence.va",
+        "target_id": "reason.recurrence.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.recurrence.va.events",
+        "kind": "edge",
+        "source_id": "obs.recurrence.va.events",
+        "target_id": "reason.recurrence.va",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.recurrence.va.minimum",
+        "kind": "edge",
+        "source_id": "obs.recurrence.va.minimum",
+        "target_id": "reason.recurrence.va",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.slip.kh",
+        "kind": "edge",
+        "source_id": "reason.slip.kh",
+        "target_id": "reason.slip.compare",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.slip.kh.volcano",
+        "kind": "edge",
+        "source_id": "obs.slip.kh.volcano",
+        "target_id": "reason.slip.kh",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.slip.kh.wall",
+        "kind": "edge",
+        "source_id": "obs.slip.kh.wall",
+        "target_id": "reason.slip.kh",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.slip.va",
+        "kind": "edge",
+        "source_id": "reason.slip.va",
+        "target_id": "reason.slip.compare",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.slip.va.river",
+        "kind": "edge",
+        "source_id": "obs.slip.va.river",
+        "target_id": "reason.slip.va",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.slip.va.trench",
+        "kind": "edge",
+        "source_id": "obs.slip.va.trench",
+        "target_id": "reason.slip.va",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.strong.kh",
+        "kind": "edge",
+        "source_id": "obs.recurrence.kh.magnitude",
+        "target_id": "reason.strong.events",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.strong.va",
+        "kind": "edge",
+        "source_id": "obs.recurrence.va.magnitude",
+        "target_id": "reason.strong.events",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.supports.events",
+        "kind": "edge",
+        "source_id": "reason.events.compare",
+        "target_id": "claim:sha256:5db73e2d5163982f3b9ef28d61f8fef248d639b65becf22bfb4c3cddadab3b67",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.mech",
+        "kind": "edge",
+        "source_id": "reason.mech.synthesis",
+        "target_id": "claim:sha256:a138b6d00adc699ed0197d686968e66ba1c53cda36ae3e6ca8e8a306c4466d83",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.recurrence",
+        "kind": "edge",
+        "source_id": "reason.recurrence.synthesis",
+        "target_id": "claim:sha256:5e1705062decc264a154c94580a91b8bcf6c8e07e5161b8905a4dd1427d7faaf",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.slip",
+        "kind": "edge",
+        "source_id": "reason.slip.compare",
+        "target_id": "claim:sha256:71e4832bea1136ec7a22f02bb7489a47606e44662fae31d629fa16144b091e70",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:052e0f5af3ed654fa4cbda6082850e2fd4591332245372dfd6362e89b624d7fd",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:a460a8f5761efb944f0f509df143d8aa58c6a7ae41451ad6a4f92dd41bab47fa",
+        "target_id": "obs.events.va.trenchI",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:2c789db85874c12ff7777a5155e44cecaaa73541d53045f2ecb0e493f4759efa",
+        "kind": "edge",
+        "source_id": "anchor.text.kh.volcano_offset",
+        "target_id": "obs.slip.kh.volcano",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:8d087e6bcf551b4861094be87583c3244f5aaec06be6bcd37e7363201e33cdee",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:be98218bb33fcb64071dfc86a217a049693e99166407dc8ca5710f32e659ed03",
+        "target_id": "obs.slip.va.river",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:a27f126c2e419aba230b5b01923cd45459bafb7444d16d96bc004626309e3f3c",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:c939e2bed7bae29de5dca59e4d78c979f3c5e0d5b1f0788c4c6163745ebc79f0",
+        "target_id": "obs.events.va.wedges",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

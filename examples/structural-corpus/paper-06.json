@@ -1,0 +1,1227 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+  "snapshot_id": "snapshot:sha256:0038eecb4b42cd3cf2a5014fd3a928ecd5244064635b165f79e78e3b953ffd72",
+  "original_graph_json_sha256": "0038eecb4b42cd3cf2a5014fd3a928ecd5244064635b165f79e78e3b953ffd72",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:9c3b0162-49c4-4c6c-871d-699fb5c27399",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:9c3b0162-49c4-4c6c-871d-699fb5c27399",
+        "sha256": "ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "a_DIP_access_ref1",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_DIP_access_ref2",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_DIP_access_shoaling",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_DIP_mass",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a_DIP_rise",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a_area_phase",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a_area_phase_ref",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a_area_relation",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a_area_relation_ref",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a_below_halocline",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a_budget_calc",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a_burial_equivalence",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_cp_data",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a_cp_figref",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a_cycle_conclusion",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a_depth_ratio_data",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a_depth_ratio_ref1",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a_excess_flux",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a_export_productivity",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_export_productivity_detail",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_fig3",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a_fig5",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a_fig6",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a_fig7",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a_fig8",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "a_fig8_ref1",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_fig8_ref2",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_group_class",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a_host_burial_interpret",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_host_parallel",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_lateral_FeP",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a_nh4_oxidation",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a_nh4_proxy",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a_no_fe_peaks",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a_np_data",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a_np_figref",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a_oxygen_trend",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_porg_hypoxia",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_porg_trend",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a_pref_interp",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a_redfield_implication",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a_shallow_redoxcline",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:f0607d3782959784904c364a1f86a72ea01cd3a1ff1ebe2f8e9eb7c66cb37849",
+        "artifact_version_id": "artifact-version:sha256:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "o_DIP_access",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_DIP_access_ref1",
+          "a_DIP_access_ref2",
+          "a_DIP_access_shoaling",
+          "a_fig8",
+          "a_shallow_redoxcline"
+        ]
+      },
+      {
+        "id": "o_budget_estimate",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_budget_calc"
+        ]
+      },
+      {
+        "id": "o_contraction_DIP",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_DIP_mass",
+          "a_DIP_rise",
+          "a_area_phase",
+          "a_area_phase_ref",
+          "a_fig6"
+        ]
+      },
+      {
+        "id": "o_cp_depth",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_cp_data",
+          "a_cp_figref",
+          "a_fig5"
+        ]
+      },
+      {
+        "id": "o_depth_ratio",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_depth_ratio_data",
+          "a_depth_ratio_ref1",
+          "a_fig3"
+        ]
+      },
+      {
+        "id": "o_excess_flux",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_excess_flux",
+          "anchor:compiler:visual:f0607d3782959784904c364a1f86a72ea01cd3a1ff1ebe2f8e9eb7c66cb37849"
+        ]
+      },
+      {
+        "id": "o_export_productivity",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_export_productivity",
+          "a_export_productivity_detail",
+          "a_fig7",
+          "a_fig8"
+        ]
+      },
+      {
+        "id": "o_fig8_model",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_fig8",
+          "a_fig8_ref1",
+          "a_fig8_ref2"
+        ]
+      },
+      {
+        "id": "o_group_class",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_group_class"
+        ]
+      },
+      {
+        "id": "o_host_interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_host_burial_interpret"
+        ]
+      },
+      {
+        "id": "o_host_parallel",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_fig7",
+          "a_host_parallel"
+        ]
+      },
+      {
+        "id": "o_no_fe_peaks",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_no_fe_peaks"
+        ]
+      },
+      {
+        "id": "o_np_depth",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_fig5",
+          "a_np_data",
+          "a_np_figref"
+        ]
+      },
+      {
+        "id": "o_oxygen_variation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_oxygen_trend"
+        ]
+      },
+      {
+        "id": "o_phase_relation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_area_relation",
+          "a_area_relation_ref",
+          "a_fig6"
+        ]
+      },
+      {
+        "id": "o_porg_variation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a_fig7",
+          "a_porg_hypoxia",
+          "a_porg_trend"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "r_DIP_mechanism",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a_below_halocline",
+          "a_lateral_FeP"
+        ]
+      },
+      {
+        "id": "r_budget_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a_budget_calc",
+          "a_excess_flux",
+          "a_redfield_implication",
+          "anchor:compiler:visual:f0607d3782959784904c364a1f86a72ea01cd3a1ff1ebe2f8e9eb7c66cb37849"
+        ]
+      },
+      {
+        "id": "r_burial_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a_DIP_access_shoaling",
+          "a_export_productivity_detail",
+          "a_fig8",
+          "a_fig8_ref1",
+          "a_fig8_ref2",
+          "a_host_parallel",
+          "a_porg_trend"
+        ]
+      },
+      {
+        "id": "r_cycle_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a_DIP_access_ref1",
+          "a_DIP_access_ref2",
+          "a_DIP_access_shoaling",
+          "a_cycle_conclusion",
+          "a_export_productivity_detail",
+          "a_fig8",
+          "a_fig8_ref1",
+          "a_fig8_ref2"
+        ]
+      },
+      {
+        "id": "r_flux_redox",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a_depth_ratio_data",
+          "a_depth_ratio_ref1",
+          "a_no_fe_peaks"
+        ]
+      },
+      {
+        "id": "r_host_burial",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a_host_burial_interpret",
+          "a_host_parallel"
+        ]
+      },
+      {
+        "id": "r_phase_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a_DIP_mass",
+          "a_DIP_rise",
+          "a_area_phase",
+          "a_area_relation"
+        ]
+      },
+      {
+        "id": "r_porg_pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a_oxygen_trend",
+          "a_porg_hypoxia",
+          "a_porg_trend"
+        ]
+      },
+      {
+        "id": "r_preferential_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a_no_fe_peaks",
+          "a_pref_interp"
+        ]
+      },
+      {
+        "id": "r_sediment_stoich",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a_cp_data",
+          "a_np_data",
+          "a_pref_interp"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.accumulation_as_burial",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a_burial_equivalence"
+        ]
+      },
+      {
+        "id": "assumption.nh4_proxy",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a_nh4_oxidation",
+          "a_nh4_proxy"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:2b3e23ac09c763aa64d5719f9f66c3844e6b87c05ae0be891d277780c629a195",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a_DIP_mass",
+          "a_DIP_rise",
+          "a_area_phase",
+          "a_area_phase_ref",
+          "a_area_relation",
+          "a_area_relation_ref",
+          "a_below_halocline",
+          "a_fig6",
+          "a_lateral_FeP"
+        ],
+        "source_id": "claim.contraction_DIP"
+      },
+      {
+        "id": "claim:sha256:46b8d9d0b88b221c345b25be4d2ef993c146602b788f7e2474dd61987d02df22",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a_cp_data",
+          "a_cp_figref",
+          "a_depth_ratio_data",
+          "a_depth_ratio_ref1",
+          "a_fig3",
+          "a_fig5",
+          "a_group_class",
+          "a_no_fe_peaks",
+          "a_np_data",
+          "a_np_figref",
+          "a_pref_interp"
+        ],
+        "source_id": "claim.preferential_remin"
+      },
+      {
+        "id": "claim:sha256:8470e7826e8bd0eb8a316350a8682a0320a525de0bd3ef42a1075f37ee121564",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a_budget_calc",
+          "a_excess_flux",
+          "a_redfield_implication",
+          "anchor:compiler:visual:f0607d3782959784904c364a1f86a72ea01cd3a1ff1ebe2f8e9eb7c66cb37849"
+        ],
+        "source_id": "claim.redfield_underestimate"
+      },
+      {
+        "id": "claim:sha256:893b27c9e81b0895b4d476e9785fd9108c54092997b410a50345aaa2b169cd92",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a_burial_equivalence",
+          "a_fig7",
+          "a_host_burial_interpret",
+          "a_host_parallel",
+          "a_oxygen_trend",
+          "a_porg_hypoxia",
+          "a_porg_trend"
+        ],
+        "source_id": "claim.organic_P_burial"
+      },
+      {
+        "id": "claim:sha256:ad4f4f77531b0a996559bdabc20425c1fde846d83fa564e5e50de852eb41e561",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a_DIP_access_ref1",
+          "a_DIP_access_ref2",
+          "a_DIP_access_shoaling",
+          "a_cycle_conclusion",
+          "a_export_productivity",
+          "a_export_productivity_detail",
+          "a_fig3",
+          "a_fig5",
+          "a_fig7",
+          "a_fig8",
+          "a_fig8_ref1",
+          "a_fig8_ref2",
+          "a_shallow_redoxcline"
+        ],
+        "source_id": "claim.accelerated_cycle"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "e_assume_burial",
+        "kind": "edge",
+        "source_id": "assumption.accumulation_as_burial",
+        "target_id": "r_burial_synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "e_assume_nh4",
+        "kind": "edge",
+        "source_id": "assumption.nh4_proxy",
+        "target_id": "r_flux_redox",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "e_g_DIP_mass",
+        "kind": "edge",
+        "source_id": "a_DIP_mass",
+        "target_id": "o_contraction_DIP",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_DIP_rise",
+        "kind": "edge",
+        "source_id": "a_DIP_rise",
+        "target_id": "o_contraction_DIP",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_access_ref1",
+        "kind": "edge",
+        "source_id": "a_DIP_access_ref1",
+        "target_id": "o_DIP_access",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_access_ref2",
+        "kind": "edge",
+        "source_id": "a_DIP_access_ref2",
+        "target_id": "o_DIP_access",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_access_shoaling",
+        "kind": "edge",
+        "source_id": "a_DIP_access_shoaling",
+        "target_id": "o_DIP_access",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_area_phase",
+        "kind": "edge",
+        "source_id": "a_area_phase",
+        "target_id": "o_contraction_DIP",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_area_phase_ref",
+        "kind": "edge",
+        "source_id": "a_area_phase_ref",
+        "target_id": "o_contraction_DIP",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_area_relation",
+        "kind": "edge",
+        "source_id": "a_area_relation",
+        "target_id": "o_phase_relation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_area_relation_ref",
+        "kind": "edge",
+        "source_id": "a_area_relation_ref",
+        "target_id": "o_phase_relation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_budget",
+        "kind": "edge",
+        "source_id": "a_budget_calc",
+        "target_id": "o_budget_estimate",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_cp",
+        "kind": "edge",
+        "source_id": "a_cp_data",
+        "target_id": "o_cp_depth",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_cp_fig",
+        "kind": "edge",
+        "source_id": "a_fig5",
+        "target_id": "o_cp_depth",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_cp_ref",
+        "kind": "edge",
+        "source_id": "a_cp_figref",
+        "target_id": "o_cp_depth",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_depthratio",
+        "kind": "edge",
+        "source_id": "a_depth_ratio_ref1",
+        "target_id": "o_depth_ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_depthratio2",
+        "kind": "edge",
+        "source_id": "a_depth_ratio_data",
+        "target_id": "o_depth_ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_depthratio_fig",
+        "kind": "edge",
+        "source_id": "a_fig3",
+        "target_id": "o_depth_ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_excess",
+        "kind": "edge",
+        "source_id": "a_excess_flux",
+        "target_id": "o_excess_flux",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_fig6_contraction",
+        "kind": "edge",
+        "source_id": "a_fig6",
+        "target_id": "o_contraction_DIP",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_fig6_relation",
+        "kind": "edge",
+        "source_id": "a_fig6",
+        "target_id": "o_phase_relation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_fig7_porg",
+        "kind": "edge",
+        "source_id": "a_fig7",
+        "target_id": "o_porg_variation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_fig8",
+        "kind": "edge",
+        "source_id": "a_fig8",
+        "target_id": "o_fig8_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_fig8_ref1",
+        "kind": "edge",
+        "source_id": "a_fig8_ref1",
+        "target_id": "o_fig8_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_fig8_ref2",
+        "kind": "edge",
+        "source_id": "a_fig8_ref2",
+        "target_id": "o_fig8_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_groupclass",
+        "kind": "edge",
+        "source_id": "a_group_class",
+        "target_id": "o_group_class",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_host_fig7",
+        "kind": "edge",
+        "source_id": "a_fig7",
+        "target_id": "o_host_parallel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_host_interpret",
+        "kind": "edge",
+        "source_id": "a_host_burial_interpret",
+        "target_id": "o_host_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_host_parallel",
+        "kind": "edge",
+        "source_id": "a_host_parallel",
+        "target_id": "o_host_parallel",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_noFe",
+        "kind": "edge",
+        "source_id": "a_no_fe_peaks",
+        "target_id": "o_no_fe_peaks",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_np",
+        "kind": "edge",
+        "source_id": "a_np_data",
+        "target_id": "o_np_depth",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_np_fig",
+        "kind": "edge",
+        "source_id": "a_fig5",
+        "target_id": "o_np_depth",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_np_ref",
+        "kind": "edge",
+        "source_id": "a_np_figref",
+        "target_id": "o_np_depth",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_oxygen",
+        "kind": "edge",
+        "source_id": "a_oxygen_trend",
+        "target_id": "o_oxygen_variation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_porg",
+        "kind": "edge",
+        "source_id": "a_porg_trend",
+        "target_id": "o_porg_variation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_porg_hypoxia",
+        "kind": "edge",
+        "source_id": "a_porg_hypoxia",
+        "target_id": "o_porg_variation",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_productivity",
+        "kind": "edge",
+        "source_id": "a_export_productivity",
+        "target_id": "o_export_productivity",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_productivity_detail",
+        "kind": "edge",
+        "source_id": "a_export_productivity_detail",
+        "target_id": "o_export_productivity",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_g_shallow_redoxcline",
+        "kind": "edge",
+        "source_id": "a_shallow_redoxcline",
+        "target_id": "o_DIP_access",
+        "relation": "grounds"
+      },
+      {
+        "id": "e_p_accessibility",
+        "kind": "edge",
+        "source_id": "o_DIP_access",
+        "target_id": "r_cycle_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_budget",
+        "kind": "edge",
+        "source_id": "o_budget_estimate",
+        "target_id": "r_budget_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_burial_cycle",
+        "kind": "edge",
+        "source_id": "r_burial_synthesis",
+        "target_id": "r_cycle_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_contraction",
+        "kind": "edge",
+        "source_id": "o_contraction_DIP",
+        "target_id": "r_phase_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_cp",
+        "kind": "edge",
+        "source_id": "o_cp_depth",
+        "target_id": "r_sediment_stoich",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_depthratio",
+        "kind": "edge",
+        "source_id": "o_depth_ratio",
+        "target_id": "r_flux_redox",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_excess",
+        "kind": "edge",
+        "source_id": "o_excess_flux",
+        "target_id": "r_budget_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_export",
+        "kind": "edge",
+        "source_id": "o_export_productivity",
+        "target_id": "r_cycle_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_flux_synth",
+        "kind": "edge",
+        "source_id": "r_flux_redox",
+        "target_id": "r_preferential_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_groupclass",
+        "kind": "edge",
+        "source_id": "o_group_class",
+        "target_id": "r_flux_redox",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_host_burial",
+        "kind": "edge",
+        "source_id": "r_host_burial",
+        "target_id": "r_burial_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_host_interpret",
+        "kind": "edge",
+        "source_id": "o_host_interpretation",
+        "target_id": "r_host_burial",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_host_parallel",
+        "kind": "edge",
+        "source_id": "o_host_parallel",
+        "target_id": "r_host_burial",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_model",
+        "kind": "edge",
+        "source_id": "o_fig8_model",
+        "target_id": "r_cycle_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_noFe",
+        "kind": "edge",
+        "source_id": "o_no_fe_peaks",
+        "target_id": "r_flux_redox",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_np",
+        "kind": "edge",
+        "source_id": "o_np_depth",
+        "target_id": "r_sediment_stoich",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_oxygen",
+        "kind": "edge",
+        "source_id": "o_oxygen_variation",
+        "target_id": "r_porg_pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_phase_mechanism",
+        "kind": "edge",
+        "source_id": "r_phase_synthesis",
+        "target_id": "r_DIP_mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_phase_relation",
+        "kind": "edge",
+        "source_id": "o_phase_relation",
+        "target_id": "r_phase_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_porg",
+        "kind": "edge",
+        "source_id": "o_porg_variation",
+        "target_id": "r_porg_pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_porg_burial",
+        "kind": "edge",
+        "source_id": "r_porg_pattern",
+        "target_id": "r_burial_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_pref_DIP",
+        "kind": "edge",
+        "source_id": "r_preferential_synthesis",
+        "target_id": "r_DIP_mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_pref_budget",
+        "kind": "edge",
+        "source_id": "r_preferential_synthesis",
+        "target_id": "r_budget_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_pref_burial",
+        "kind": "edge",
+        "source_id": "r_preferential_synthesis",
+        "target_id": "r_burial_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_pref_cycle",
+        "kind": "edge",
+        "source_id": "r_preferential_synthesis",
+        "target_id": "r_cycle_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_p_stoich_synth",
+        "kind": "edge",
+        "source_id": "r_sediment_stoich",
+        "target_id": "r_preferential_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e_s_burial",
+        "kind": "edge",
+        "source_id": "r_burial_synthesis",
+        "target_id": "claim:sha256:893b27c9e81b0895b4d476e9785fd9108c54092997b410a50345aaa2b169cd92",
+        "relation": "infers"
+      },
+      {
+        "id": "e_s_cycle",
+        "kind": "edge",
+        "source_id": "r_cycle_synthesis",
+        "target_id": "claim:sha256:ad4f4f77531b0a996559bdabc20425c1fde846d83fa564e5e50de852eb41e561",
+        "relation": "infers"
+      },
+      {
+        "id": "e_s_preferential",
+        "kind": "edge",
+        "source_id": "r_preferential_synthesis",
+        "target_id": "claim:sha256:46b8d9d0b88b221c345b25be4d2ef993c146602b788f7e2474dd61987d02df22",
+        "relation": "infers"
+      },
+      {
+        "id": "e_s_redfield",
+        "kind": "edge",
+        "source_id": "r_budget_synthesis",
+        "target_id": "claim:sha256:8470e7826e8bd0eb8a316350a8682a0320a525de0bd3ef42a1075f37ee121564",
+        "relation": "infers"
+      },
+      {
+        "id": "e_support_DIP",
+        "kind": "edge",
+        "source_id": "r_DIP_mechanism",
+        "target_id": "claim:sha256:2b3e23ac09c763aa64d5719f9f66c3844e6b87c05ae0be891d277780c629a195",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:047c668b220aacaa44f80b4520cba549d181b751939c2b4a3b726d3eb8e56501",
+        "kind": "edge",
+        "source_id": "a_fig8",
+        "target_id": "o_export_productivity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:7b56285a28a9f08aac78a392a67a6a1e7cae0bf0a313764f64e1db3f4dea607a",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:f0607d3782959784904c364a1f86a72ea01cd3a1ff1ebe2f8e9eb7c66cb37849",
+        "target_id": "o_excess_flux",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:84a530777ee249c685d02c6a9c315ed93c6a371b316b58b2441fca710e622bed",
+        "kind": "edge",
+        "source_id": "a_fig8",
+        "target_id": "o_DIP_access",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:d79d8e499f790d8fa80b764128bf4eaf7aa9f4c5acbc6684c55457394b8be6e3",
+        "kind": "edge",
+        "source_id": "a_fig7",
+        "target_id": "o_export_productivity",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-27T10:46:21.570Z",
+  "url": "https://deepshovel.iiot-shxt.xyz/",
+  "browser": "Chrome dedicated agent tab",
+  "query": "What was the Nd isotope fractionation estimate in the variable-ferrihydrite-loading experiments lasting 48–144 h?",
+  "submittedAt": "2026-10-27T10:44:55.639Z",
+  "observations": {
+    "quickPreviewBySeconds": 13.354,
+    "plannedPreviewBySeconds": 23.381,
+    "finalObservedBySeconds": 39.834,
+    "finalGroups": 6,
+    "supportGroups": 1,
+    "relatedGroups": 5,
+    "sourcePage": 8,
+    "sourcePages": 19,
+    "sourceLoadedVisually": true
+  },
+  "security": {
+    "captcha": false,
+    "login": false,
+    "securityPolicyChanged": false
+  },
+  "sourceUrl": "https://deepshovel.iiot-shxt.xyz/api/artifacts/0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c?disposition=inline#page=8&zoom=page-fit"
+}

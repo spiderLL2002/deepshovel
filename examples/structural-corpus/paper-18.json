@@ -1,0 +1,941 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+  "snapshot_id": "snapshot:sha256:006b8d261f30eff959c6a274525246b79dd6fc391d387232b3d9ea3e2e6692be",
+  "original_graph_json_sha256": "006b8d261f30eff959c6a274525246b79dd6fc391d387232b3d9ea3e2e6692be",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:fbff07e6-a0b2-45df-9b80-6224e68616c8",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:fbff07e6-a0b2-45df-9b80-6224e68616c8",
+        "sha256": "b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.abyssal_fauna_part1",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.abyssal_fauna_part2",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.abyssal_turbidites",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.barremian_albian",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.black_proxy",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.blackshale_basin",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.corb_abyssal",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.corb_proxy",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.dark_shales_corb",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.depth_decrease",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.early_carbonates",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.glauconite_currents",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.latest_albian_red",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.lower_slope_fauna",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.open_circulation",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.outer_units_onset",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.pelagic_to_turbidite",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.progressive_redox",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.red_shale_oxic",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.regional_timing",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.sequence1_lower",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.sequence1_upper",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.sequence2_lower",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.sequence2_upper",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.tectonic_circulation",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.turbidite_lobes",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.upper_slope_fauna",
+        "artifact_version_id": "artifact-version:sha256:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.abyssal_fauna",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.abyssal_fauna_part1",
+          "anchor.abyssal_fauna_part2"
+        ]
+      },
+      {
+        "id": "obs.abyssal_turbidites",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.abyssal_turbidites"
+        ]
+      },
+      {
+        "id": "obs.barremian_albian",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.barremian_albian"
+        ]
+      },
+      {
+        "id": "obs.blackshale_basin",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.blackshale_basin"
+        ]
+      },
+      {
+        "id": "obs.corb_abyssal",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.corb_abyssal"
+        ]
+      },
+      {
+        "id": "obs.dark_shales_corb",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.dark_shales_corb"
+        ]
+      },
+      {
+        "id": "obs.depth_decrease",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.depth_decrease"
+        ]
+      },
+      {
+        "id": "obs.early_carbonates",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.early_carbonates"
+        ]
+      },
+      {
+        "id": "obs.glauconite_currents",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.glauconite_currents"
+        ]
+      },
+      {
+        "id": "obs.latest_albian_red",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.latest_albian_red"
+        ]
+      },
+      {
+        "id": "obs.lower_slope_fauna",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.lower_slope_fauna"
+        ]
+      },
+      {
+        "id": "obs.open_circulation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.open_circulation"
+        ]
+      },
+      {
+        "id": "obs.outer_units_onset",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.outer_units_onset"
+        ]
+      },
+      {
+        "id": "obs.pelagic_to_turbidite",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.pelagic_to_turbidite"
+        ]
+      },
+      {
+        "id": "obs.progressive_redox",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.progressive_redox"
+        ]
+      },
+      {
+        "id": "obs.red_shale_oxic",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.red_shale_oxic"
+        ]
+      },
+      {
+        "id": "obs.regional_timing",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.regional_timing"
+        ]
+      },
+      {
+        "id": "obs.sequence1_lower",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.sequence1_lower"
+        ]
+      },
+      {
+        "id": "obs.sequence1_upper",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.sequence1_upper"
+        ]
+      },
+      {
+        "id": "obs.sequence2_lower",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.sequence2_lower"
+        ]
+      },
+      {
+        "id": "obs.sequence2_upper",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.sequence2_upper"
+        ]
+      },
+      {
+        "id": "obs.tectonic_circulation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.tectonic_circulation"
+        ]
+      },
+      {
+        "id": "obs.turbidite_lobes",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.turbidite_lobes"
+        ]
+      },
+      {
+        "id": "obs.upper_slope_fauna",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.upper_slope_fauna"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.blackshale_sequence",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.abyssal_turbidites",
+          "anchor.barremian_albian",
+          "anchor.early_carbonates",
+          "anchor.pelagic_to_turbidite",
+          "anchor.sequence1_lower",
+          "anchor.sequence1_upper"
+        ]
+      },
+      {
+        "id": "reason.corb_sequence",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.abyssal_fauna_part1",
+          "anchor.abyssal_fauna_part2",
+          "anchor.corb_abyssal",
+          "anchor.dark_shales_corb",
+          "anchor.depth_decrease",
+          "anchor.lower_slope_fauna",
+          "anchor.sequence2_lower",
+          "anchor.sequence2_upper",
+          "anchor.turbidite_lobes",
+          "anchor.upper_slope_fauna"
+        ]
+      },
+      {
+        "id": "reason.redox_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.blackshale_basin",
+          "anchor.latest_albian_red",
+          "anchor.open_circulation",
+          "anchor.progressive_redox",
+          "anchor.red_shale_oxic"
+        ]
+      },
+      {
+        "id": "reason.regional_control_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.glauconite_currents",
+          "anchor.outer_units_onset",
+          "anchor.regional_timing",
+          "anchor.tectonic_circulation"
+        ]
+      },
+      {
+        "id": "reason.regional_timing",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.outer_units_onset",
+          "anchor.regional_timing"
+        ]
+      },
+      {
+        "id": "reason.tectonic_pathway",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.glauconite_currents",
+          "anchor.tectonic_circulation"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.redox_indicators",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.black_proxy",
+          "anchor.corb_proxy"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:5bad4c1fcfded70fc13745d4e98017f21d0fa04ef6267eb2daf2de211225baeb",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.glauconite_currents",
+          "anchor.outer_units_onset",
+          "anchor.regional_timing",
+          "anchor.tectonic_circulation"
+        ],
+        "source_id": "claim.regional_corb_control"
+      },
+      {
+        "id": "claim:sha256:7a101d05f45313a88be708c8d1680542f4c7a2e7e7758f0ddc565907b714a87a",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.abyssal_fauna_part1",
+          "anchor.abyssal_fauna_part2",
+          "anchor.corb_abyssal",
+          "anchor.dark_shales_corb",
+          "anchor.depth_decrease",
+          "anchor.lower_slope_fauna",
+          "anchor.sequence2_lower",
+          "anchor.sequence2_upper",
+          "anchor.turbidite_lobes",
+          "anchor.upper_slope_fauna"
+        ],
+        "source_id": "claim.corb_sequence"
+      },
+      {
+        "id": "claim:sha256:a6c48109113294955d47622b3d1b740e1c0216cd19b2520e8a05a0688bb799ef",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.black_proxy",
+          "anchor.blackshale_basin",
+          "anchor.corb_proxy",
+          "anchor.latest_albian_red",
+          "anchor.open_circulation",
+          "anchor.progressive_redox",
+          "anchor.red_shale_oxic"
+        ],
+        "source_id": "claim.redox_transition"
+      },
+      {
+        "id": "claim:sha256:b16126c301a6d27044cf07c5b12004f84407fdcecc8b3e0231658fef5646fd00",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.abyssal_turbidites",
+          "anchor.barremian_albian",
+          "anchor.early_carbonates",
+          "anchor.pelagic_to_turbidite",
+          "anchor.sequence1_lower",
+          "anchor.sequence1_upper"
+        ],
+        "source_id": "claim.blackshale_sequence"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.assumption.redox",
+        "kind": "edge",
+        "source_id": "assumption.redox_indicators",
+        "target_id": "reason.redox_synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.o1",
+        "kind": "edge",
+        "source_id": "anchor.blackshale_basin",
+        "target_id": "obs.blackshale_basin",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o10",
+        "kind": "edge",
+        "source_id": "anchor.early_carbonates",
+        "target_id": "obs.early_carbonates",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o11",
+        "kind": "edge",
+        "source_id": "anchor.abyssal_turbidites",
+        "target_id": "obs.abyssal_turbidites",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o12",
+        "kind": "edge",
+        "source_id": "anchor.barremian_albian",
+        "target_id": "obs.barremian_albian",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o13",
+        "kind": "edge",
+        "source_id": "anchor.pelagic_to_turbidite",
+        "target_id": "obs.pelagic_to_turbidite",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o14",
+        "kind": "edge",
+        "source_id": "anchor.sequence1_lower",
+        "target_id": "obs.sequence1_lower",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o15",
+        "kind": "edge",
+        "source_id": "anchor.sequence1_upper",
+        "target_id": "obs.sequence1_upper",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o16",
+        "kind": "edge",
+        "source_id": "anchor.corb_abyssal",
+        "target_id": "obs.corb_abyssal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o17",
+        "kind": "edge",
+        "source_id": "anchor.dark_shales_corb",
+        "target_id": "obs.dark_shales_corb",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o18",
+        "kind": "edge",
+        "source_id": "anchor.depth_decrease",
+        "target_id": "obs.depth_decrease",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o19",
+        "kind": "edge",
+        "source_id": "anchor.turbidite_lobes",
+        "target_id": "obs.turbidite_lobes",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o2",
+        "kind": "edge",
+        "source_id": "anchor.open_circulation",
+        "target_id": "obs.open_circulation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o20a",
+        "kind": "edge",
+        "source_id": "anchor.abyssal_fauna_part1",
+        "target_id": "obs.abyssal_fauna",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o20b",
+        "kind": "edge",
+        "source_id": "anchor.abyssal_fauna_part2",
+        "target_id": "obs.abyssal_fauna",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o21",
+        "kind": "edge",
+        "source_id": "anchor.lower_slope_fauna",
+        "target_id": "obs.lower_slope_fauna",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o22",
+        "kind": "edge",
+        "source_id": "anchor.upper_slope_fauna",
+        "target_id": "obs.upper_slope_fauna",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o23",
+        "kind": "edge",
+        "source_id": "anchor.sequence2_lower",
+        "target_id": "obs.sequence2_lower",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o24",
+        "kind": "edge",
+        "source_id": "anchor.sequence2_upper",
+        "target_id": "obs.sequence2_upper",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o3",
+        "kind": "edge",
+        "source_id": "anchor.progressive_redox",
+        "target_id": "obs.progressive_redox",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o4",
+        "kind": "edge",
+        "source_id": "anchor.latest_albian_red",
+        "target_id": "obs.latest_albian_red",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o5",
+        "kind": "edge",
+        "source_id": "anchor.red_shale_oxic",
+        "target_id": "obs.red_shale_oxic",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o6",
+        "kind": "edge",
+        "source_id": "anchor.outer_units_onset",
+        "target_id": "obs.outer_units_onset",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o7",
+        "kind": "edge",
+        "source_id": "anchor.regional_timing",
+        "target_id": "obs.regional_timing",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o8",
+        "kind": "edge",
+        "source_id": "anchor.tectonic_circulation",
+        "target_id": "obs.tectonic_circulation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o9",
+        "kind": "edge",
+        "source_id": "anchor.glauconite_currents",
+        "target_id": "obs.glauconite_currents",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.redox.o1",
+        "kind": "edge",
+        "source_id": "obs.blackshale_basin",
+        "target_id": "reason.redox_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.redox.o2",
+        "kind": "edge",
+        "source_id": "obs.open_circulation",
+        "target_id": "reason.redox_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.redox.o3",
+        "kind": "edge",
+        "source_id": "obs.progressive_redox",
+        "target_id": "reason.redox_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.redox.o4",
+        "kind": "edge",
+        "source_id": "obs.latest_albian_red",
+        "target_id": "reason.redox_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.redox.o5",
+        "kind": "edge",
+        "source_id": "obs.red_shale_oxic",
+        "target_id": "reason.redox_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.regional.o6",
+        "kind": "edge",
+        "source_id": "obs.outer_units_onset",
+        "target_id": "reason.regional_timing",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.regional.o7",
+        "kind": "edge",
+        "source_id": "obs.regional_timing",
+        "target_id": "reason.regional_timing",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.regional_synthesis",
+        "kind": "edge",
+        "source_id": "reason.regional_timing",
+        "target_id": "reason.regional_control_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence1.o10",
+        "kind": "edge",
+        "source_id": "obs.early_carbonates",
+        "target_id": "reason.blackshale_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence1.o11",
+        "kind": "edge",
+        "source_id": "obs.abyssal_turbidites",
+        "target_id": "reason.blackshale_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence1.o12",
+        "kind": "edge",
+        "source_id": "obs.barremian_albian",
+        "target_id": "reason.blackshale_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence1.o13",
+        "kind": "edge",
+        "source_id": "obs.pelagic_to_turbidite",
+        "target_id": "reason.blackshale_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence1.o14",
+        "kind": "edge",
+        "source_id": "obs.sequence1_lower",
+        "target_id": "reason.blackshale_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence1.o15",
+        "kind": "edge",
+        "source_id": "obs.sequence1_upper",
+        "target_id": "reason.blackshale_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence2.o16",
+        "kind": "edge",
+        "source_id": "obs.corb_abyssal",
+        "target_id": "reason.corb_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence2.o17",
+        "kind": "edge",
+        "source_id": "obs.dark_shales_corb",
+        "target_id": "reason.corb_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence2.o18",
+        "kind": "edge",
+        "source_id": "obs.depth_decrease",
+        "target_id": "reason.corb_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence2.o19",
+        "kind": "edge",
+        "source_id": "obs.turbidite_lobes",
+        "target_id": "reason.corb_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence2.o20",
+        "kind": "edge",
+        "source_id": "obs.abyssal_fauna",
+        "target_id": "reason.corb_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence2.o21",
+        "kind": "edge",
+        "source_id": "obs.lower_slope_fauna",
+        "target_id": "reason.corb_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence2.o22",
+        "kind": "edge",
+        "source_id": "obs.upper_slope_fauna",
+        "target_id": "reason.corb_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence2.o23",
+        "kind": "edge",
+        "source_id": "obs.sequence2_lower",
+        "target_id": "reason.corb_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence2.o24",
+        "kind": "edge",
+        "source_id": "obs.sequence2_upper",
+        "target_id": "reason.corb_sequence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tectonic.o8",
+        "kind": "edge",
+        "source_id": "obs.tectonic_circulation",
+        "target_id": "reason.tectonic_pathway",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tectonic.o9",
+        "kind": "edge",
+        "source_id": "obs.glauconite_currents",
+        "target_id": "reason.tectonic_pathway",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tectonic_synthesis",
+        "kind": "edge",
+        "source_id": "reason.tectonic_pathway",
+        "target_id": "reason.regional_control_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.redox",
+        "kind": "edge",
+        "source_id": "reason.redox_synthesis",
+        "target_id": "claim:sha256:a6c48109113294955d47622b3d1b740e1c0216cd19b2520e8a05a0688bb799ef",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.regional",
+        "kind": "edge",
+        "source_id": "reason.regional_control_synthesis",
+        "target_id": "claim:sha256:5bad4c1fcfded70fc13745d4e98017f21d0fa04ef6267eb2daf2de211225baeb",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.sequence1",
+        "kind": "edge",
+        "source_id": "reason.blackshale_sequence",
+        "target_id": "claim:sha256:b16126c301a6d27044cf07c5b12004f84407fdcecc8b3e0231658fef5646fd00",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.sequence2",
+        "kind": "edge",
+        "source_id": "reason.corb_sequence",
+        "target_id": "claim:sha256:7a101d05f45313a88be708c8d1680542f4c7a2e7e7758f0ddc565907b714a87a",
+        "relation": "infers"
+      }
+    ]
+  }
+}

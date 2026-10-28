@@ -1,0 +1,152 @@
+- banner:
+  - strong: DeepShovel
+  - text: / Observation reuse
+  - generic: Local import · explicit user preparation
+- main:
+  - heading "Prepare an observation for reuse" [level=1]
+  - paragraph: Import a production retrieval result, inspect its source path, and record a scoped observation with your reading conclusion.
+  - generic: This creates an artifact-local, user-prepared observation record. The imported production result remains preserved alongside your fields. Files and decisions stay in this browser; the page sends no data to an external service.
+  - heading "1. Import a retrieval result" [level=2]
+  - text: Retrieval JSON file
+  - button "Retrieval JSON file"
+  - text: Or paste JSON
+  - textbox "Or paste JSON":
+    - /placeholder: "{\"result\":{\"paper_id\":\"…\",\"snapshot_id\":\"…\",\"claim_id\":\"…\",\"scope\":{},\"canonical_claim\":\"…\",\"shortest_evidence_path\":{\"nodes\":[],\"links\":[]}}}"
+  - button "Import pasted JSON"
+  - button "Load demo sample · recorded Nd result"
+  - status: Result imported. Choose a recorded observation and anchor.
+  - heading "Optional · build an observation branch" [level=2]
+  - paragraph: Choose a complete stored evidence graph for the imported result. The local adapter retains recorded grounds edges and deterministic reasoning routes; your scientific fields remain blank for preparation.
+  - text: Stored graph JSON file
+  - button "Stored graph JSON file"
+  - button "Build observation branch"
+  - status: "Built recorded observation branch: 33 nodes, 33 edges. Original shortest path and other result fields are preserved. Prepare scientific fields below."
+  - heading "2. Inspect the original context" [level=2]
+  - paragraph: For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.
+  - generic "Original composite scope"
+  - generic: "{ \"condition\": [ \"gas-injection pressure increase\" ], \"entities\": [ \"Asmari reservoir\", \"F1\", \"F2\", \"F3\", \"F4\", \"Gachsaran oilfield\" ], \"formation\": [ \"Asmari reservoir\" ], \"location\": [ \"Gachsaran oilfield, SW Iran\" ], \"measurement\": [ \"reactivation tendency and maximum sustainable pore pressure\" ], \"method\": [ \"3D Mohr diagrams, slip tendency, and modified slip tendency\" ], \"sample_type\": [ \"four faults F1, F2, F3, and F4\" ], \"time\": null, \"uncertainty\": null }"
+  - generic "Production references and complete path"
+  - group "3. Prepare your observation":
+    - generic: 3. Prepare your observation
+    - text: Inspection path
+    - combobox "Inspection path":
+      - option "Returned shortest path"
+      - option "Recorded full-graph observation branch" [selected]
+    - paragraph: Recorded full-graph observation branch. deterministic union of original grounds edges and one stable shortest directed reasoning route per anchored observation; recorded graph, not retrieval shortest path
+    - text: Recorded observation
+    - combobox "Recorded observation":
+      - option "Choose observation"
+      - option "obs.f2.assessed" [selected]
+      - option "obs.f2.methods"
+      - option "obs.moduli"
+      - option "obs.mohr.current"
+      - option "obs.orientation"
+      - option "obs.polygon.current"
+      - option "obs.polygon.transition"
+      - option "obs.regime"
+    - paragraph: F2 has the lowest Ts and Tsm values and can undergo an average maximum pore pressure of 55–57 MPa.
+    - text: Recorded source anchor
+    - combobox "Recorded source anchor":
+      - option "Choose a grounded source anchor"
+      - option "anchor.text.f2.stability" [selected]
+    - paragraph: "On the other hand, F2 is the most stable fault, because it has the lowest $T _ { \\mathrm { s } }$ and $T _ { \\mathrm { s m } }$ and can undergo an average maximum pore pressure of 55–57 MPa. · Selector: {\"char_end\":null,\"char_start\":null,\"column_names\":[],\"dataset_path\":null,\"figure\":null,\"page\":11,\"paragraph\":null,\"region\":{\"height\":0.11139240506329114,\"unit\":\"normalized\",\"width\":0.41008403361344536,\"x\":0.07899159663865546,\"y\":0.7987341772151899},\"region_label\":null,\"row_end\":null,\"row_range_label\":null,\"row_start\":null,\"section\":\"6 Slip tendency parameter\",\"series\":null,\"table\":null}"
+    - generic: "Graph link checked: anchor grounds observation; recorded reasoning relations reach the current claim. File identity is checked separately below."
+    - text: Experiment / context
+    - textbox "Experiment / context": F2 normal fault, Asmari reservoir, Gachsaran oilfield, SW Iran; analytical fault-reactivation assessment during gas injection
+    - text: Quantity
+    - textbox "Quantity": Estimated maximum sustainable pore pressure (total pore pressure; not pressure increase)
+    - text: Value as read
+    - textbox "Value as read":
+      - /placeholder: Preserve reported representation
+      - text: 55–57
+    - text: Unit
+    - textbox "Unit": MPa
+    - text: Uncertainty and interpretation
+    - textbox "Uncertainty and interpretation":
+      - /placeholder: Reported ± value and uncertainty type, or explicitly unknown
+      - text: Author-reported approximate cross-method summary; no statistical uncertainty or confidence level stated. Not a confidence interval. Tabulated method values extend above 57 MPa.
+    - text: Conditions
+    - textbox "Conditions": Normal faulting stress regime; cohesion C = 0 MPa and static friction coefficient mu = 0.6 assumed. F2 dip 80 degrees, dip direction 8 degrees, strike 278 degrees (Table 1). Principal stresses sampled within a specified interval (e.g. 10 m) in the middle of fault planes. 3D Mohr diagrams, slip tendency and modified slip tendency; elastic-modulus alternatives Eq. 3 (NISOC) and Eq. 5 (Seyed Sajadi and Aghighi). Analytical model result for F2; no general injection operating limit inferred.
+    - text: Page / figure / cell locator
+    - textbox "Page / figure / cell locator":
+      - /placeholder: Enter the locator you read in the source
+      - text: "PDF page 11 of 14, section 6, right-column continuation paragraph immediately above section 7: final sentence on F2 (55–57 MPa). Cross-check Table 3, PDF p10, F2 rows Eq.3/5, Ppmax column; Table 4, PDF p11, F2 rows. Recorded anchor rectangle is in the left lower column and does not cover the F2 sentence."
+    - text: Reuse purpose
+    - combobox "Reuse purpose":
+      - option "Choose purpose"
+      - option "Estimate"
+      - option "Interpretation" [selected]
+      - option "Further review"
+    - text: Reading conclusion
+    - combobox "Reading conclusion":
+      - option "Choose conclusion"
+      - option "Supports reuse within recorded conditions"
+      - option "Reuse with qualification" [selected]
+      - option "Requires further review"
+    - text: Your source-reading notes
+    - textbox "Your source-reading notes":
+      - /placeholder: Explain what you checked and any qualification
+      - text: Read source before importing graph. Preserve prose 55–57 MPa as an approximate model summary. Table 3 F2 Ppmax is 57.4/57.3 MPa (Eq.3/5), Ppi 22.04 MPa, delta Pp 35.4/35.3 MPa. Table 4 F2 Pc 55.03/55.31 and PCr 57.58/57.81 MPa. Therefore neither replace the summary by a single exact threshold nor treat 55–57 as statistical uncertainty. The graph anchor page and quote match, but its stored normalized rectangle points to the left lower column; actual F2 sentence is in the right column on PDF p11. Reuse requires this locator correction and model qualification. No independent validation of physical safety or model accuracy.
+  - heading "Imported and prepared fields" [level=2]
+  - paragraph: This comparison shows text differences. Prepared wording records the operator’s source reading; a text difference is not an automatic scientific error or compatibility judgment.
+  - article:
+    - heading "Uncertainty" [level=3]
+    - paragraph: Prepared uncertainty differs from imported context
+    - strong: Imported scope uncertainty
+    - generic: (not supplied)
+    - strong: Prepared uncertainty
+    - generic: Author-reported approximate cross-method summary; no statistical uncertainty or confidence level stated. Not a confidence interval. Tabulated method values extend above 57 MPa.
+  - article:
+    - heading "Time and conditions" [level=3]
+    - paragraph: Prepared conditions text differs from imported context
+    - strong: Imported scope time / condition
+    - generic: "{\"time\":null,\"condition\":[\"gas-injection pressure increase\"]}"
+    - strong: Prepared conditions
+    - generic: Normal faulting stress regime; cohesion C = 0 MPa and static friction coefficient mu = 0.6 assumed. F2 dip 80 degrees, dip direction 8 degrees, strike 278 degrees (Table 1). Principal stresses sampled within a specified interval (e.g. 10 m) in the middle of fault planes. 3D Mohr diagrams, slip tendency and modified slip tendency; elastic-modulus alternatives Eq. 3 (NISOC) and Eq. 5 (Seyed Sajadi and Aghighi). Analytical model result for F2; no general injection operating limit inferred.
+  - heading "4. Check the source file" [level=2]
+  - paragraph:
+    - strong: File identity state
+    - text: is independent of the recorded graph-link check. Either state describes provenance, not scientific support.
+  - paragraph: Choose the PDF you inspected. Its SHA-256 is compared with artifact-version hashes in the imported path. A saved decision preserves the observed hash and comparison state.
+  - text: Local source PDF
+  - button "Local source PDF"
+  - button "Check the demo sample PDF" [disabled]
+  - link "Open selected PDF":
+    - /url: blob:http://localhost:8137/f5c7a2ce-5272-4201-a486-2033bc690ae9
+  - status: "Verified file identity · selected PDF SHA-256 matches a recorded artifact-version hash. Observed SHA-256: f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99"
+  - heading "5. Save the reuse decision" [level=2]
+  - paragraph: The decision records the selected nodes, original scope, prepared scientific fields, source identity check, and your reading conclusion.
+  - button "Save reuse decision" [active]
+  - button "Download saved JSON"
+  - button "Reset this tool"
+  - status: Ready to save
+  - status: "Saved locally with source check state: verified. Download preserves this decision."
+  - article "Saved premise summary":
+    - heading "Saved premise" [level=3]
+    - paragraph: Last saved decision · separate from current draft
+    - paragraph:
+      - strong: F2 normal fault, Asmari reservoir, Gachsaran oilfield, SW Iran; analytical fault-reactivation assessment during gas injection
+    - paragraph: Estimated maximum sustainable pore pressure (total pore pressure; not pressure increase)
+    - paragraph: 55–57 MPa
+    - term: Graph link
+    - definition: Linked · recorded path
+    - term: File identity
+    - definition: Verified · hash matched
+    - term: Operator reading
+    - definition: Reuse with qualification
+    - paragraph: Graph and file checks describe provenance. The reading conclusion is entered by the operator.
+    - paragraph:
+      - code: derived-observation:sha256:…d5ec6f9d439e
+    - generic "Full record ID"
+    - button "Download saved JSON"
+  - generic "Saved JSON and reproducible hash"
+  - paragraph:
+    - link "Curated Nd case":
+      - /url: nd-case/index.html
+    - text: ·
+    - link "Recorded contract replay":
+      - /url: contract-replay.html
+    - text: ·
+    - link "Evaluation README":
+      - /url: evaluation/README.md
+  - paragraph: Decisions are stored under this tool’s localStorage key. Reset clears only that key. Download preserves the last saved decision; edits remain a draft until saved.

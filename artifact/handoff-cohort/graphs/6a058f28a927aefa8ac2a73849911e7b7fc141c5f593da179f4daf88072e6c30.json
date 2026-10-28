@@ -1,0 +1,1182 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "c5d8d8ebbe0ea6f578c768a289c89fcbb651de2ce4eeba54031bdcfee0f2460f",
+  "http_body_sha256": "2452b430fab258cadad7ab7b9997c43f51d8a6f86bf1732ad434102266b52cfe",
+  "snapshot": {
+    "id": "snapshot:sha256:6a058f28a927aefa8ac2a73849911e7b7fc141c5f593da179f4daf88072e6c30",
+    "rootArtifactVersionId": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "6a058f28a927aefa8ac2a73849911e7b7fc141c5f593da179f4daf88072e6c30"
+  },
+  "graph": {
+    "paper_id": "paper:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+    "anchors": [
+      {
+        "id": "anchor.abstract-impact",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.alt-acid",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.ballast-effect",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.bulk-saturation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.co2-eqs",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.co2-figref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.co2-limit",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.dissolution-above-one",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.extrapolation-limit",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.fig3",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.fig4",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.flow-high-a",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.flow-high-b",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.flow-high-c",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.flow-low-a",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.flow-low-b",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.heterogeneity",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.high-velocity",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.low-citrate",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.low-glucose",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.mid-velocity",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.model-eqref-a",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.model-eqref-b",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.model-equation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.model-fig-a",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.model-fig-b",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.optimum",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.oxygen",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.ph-change",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.ph-early",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.ph-figref",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.ph-later",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.rate-comparison",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.saturation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.water-estimate-a",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.water-estimate-b",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "selector": {
+          "page": 8
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.abstract-impact",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.abstract-impact"
+        ]
+      },
+      {
+        "id": "obs.ballast-effect",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.ballast-effect"
+        ]
+      },
+      {
+        "id": "obs.bulk-saturation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.bulk-saturation"
+        ]
+      },
+      {
+        "id": "obs.co2-insufficient",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.co2-eqs",
+          "anchor.co2-figref",
+          "anchor.co2-limit"
+        ]
+      },
+      {
+        "id": "obs.dissolution-above-one",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.dissolution-above-one"
+        ]
+      },
+      {
+        "id": "obs.extrapolation-limit",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.extrapolation-limit"
+        ]
+      },
+      {
+        "id": "obs.heterogeneity-inference",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.heterogeneity"
+        ]
+      },
+      {
+        "id": "obs.high-velocity",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.high-velocity"
+        ]
+      },
+      {
+        "id": "obs.low-citrate",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.low-citrate",
+          "anchor.low-glucose"
+        ]
+      },
+      {
+        "id": "obs.low-glucose",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.low-glucose"
+        ]
+      },
+      {
+        "id": "obs.mid-velocity",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.mid-velocity"
+        ]
+      },
+      {
+        "id": "obs.model-equation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig4",
+          "anchor.model-eqref-a",
+          "anchor.model-eqref-b",
+          "anchor.model-equation",
+          "anchor.model-fig-a",
+          "anchor.model-fig-b"
+        ]
+      },
+      {
+        "id": "obs.optimum-interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.optimum"
+        ]
+      },
+      {
+        "id": "obs.other-acidification",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.alt-acid"
+        ]
+      },
+      {
+        "id": "obs.oxygen-depletion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.oxygen"
+        ]
+      },
+      {
+        "id": "obs.ph-change",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.ph-change",
+          "anchor.ph-figref"
+        ]
+      },
+      {
+        "id": "obs.rate-comparison",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.rate-comparison"
+        ]
+      },
+      {
+        "id": "obs.saturation-decline",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.saturation"
+        ]
+      },
+      {
+        "id": "obs.temporal-decoupling",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.ph-early",
+          "anchor.ph-later"
+        ]
+      },
+      {
+        "id": "obs.transport-high",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig4",
+          "anchor.flow-high-a",
+          "anchor.flow-high-b",
+          "anchor.flow-high-c"
+        ]
+      },
+      {
+        "id": "obs.transport-low",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig4",
+          "anchor.flow-low-a",
+          "anchor.flow-low-b"
+        ]
+      },
+      {
+        "id": "obs.water-estimate",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig3",
+          "anchor.water-estimate-a",
+          "anchor.water-estimate-b"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.ballast-model",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.ballast-effect",
+          "anchor.fig4",
+          "anchor.model-eqref-a",
+          "anchor.model-eqref-b",
+          "anchor.model-equation",
+          "anchor.model-fig-a",
+          "anchor.model-fig-b"
+        ]
+      },
+      {
+        "id": "reason.microbial-synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.alt-acid",
+          "anchor.bulk-saturation",
+          "anchor.co2-limit",
+          "anchor.dissolution-above-one",
+          "anchor.heterogeneity",
+          "anchor.oxygen",
+          "anchor.ph-change",
+          "anchor.ph-early",
+          "anchor.ph-later",
+          "anchor.rate-comparison",
+          "anchor.saturation"
+        ]
+      },
+      {
+        "id": "reason.ocean-impact",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.abstract-impact",
+          "anchor.fig3",
+          "anchor.fig4"
+        ]
+      },
+      {
+        "id": "reason.transport-pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig4",
+          "anchor.flow-high-a",
+          "anchor.flow-high-b",
+          "anchor.flow-high-c",
+          "anchor.flow-low-a",
+          "anchor.flow-low-b"
+        ]
+      },
+      {
+        "id": "reason.velocity-pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.high-velocity",
+          "anchor.low-citrate",
+          "anchor.low-glucose",
+          "anchor.mid-velocity"
+        ]
+      },
+      {
+        "id": "reason.velocity-synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig4",
+          "anchor.optimum"
+        ]
+      },
+      {
+        "id": "reason.water-estimate",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.extrapolation-limit",
+          "anchor.fig3",
+          "anchor.water-estimate-a",
+          "anchor.water-estimate-b"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:3eda6e041b0d7932324936ba1dda4d301e903af65d2b2c1f9c6beb3b72527669",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.alt-acid",
+          "anchor.bulk-saturation",
+          "anchor.co2-eqs",
+          "anchor.co2-figref",
+          "anchor.co2-limit",
+          "anchor.dissolution-above-one",
+          "anchor.heterogeneity",
+          "anchor.oxygen",
+          "anchor.ph-change",
+          "anchor.ph-early",
+          "anchor.ph-figref",
+          "anchor.ph-later",
+          "anchor.rate-comparison",
+          "anchor.saturation"
+        ]
+      },
+      {
+        "id": "claim:sha256:88048994a2ba5df1ad99ba7244ca4995cffdf6425d71966641d9741228b0b366",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.abstract-impact",
+          "anchor.ballast-effect",
+          "anchor.extrapolation-limit",
+          "anchor.fig3",
+          "anchor.fig4",
+          "anchor.model-eqref-a",
+          "anchor.model-eqref-b",
+          "anchor.model-equation",
+          "anchor.model-fig-a",
+          "anchor.model-fig-b",
+          "anchor.water-estimate-a",
+          "anchor.water-estimate-b"
+        ]
+      },
+      {
+        "id": "claim:sha256:bb74e35ad2c2573594f28c4a4856d5744e9cdfa7a898efe356dc31ab45aa78a9",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig4",
+          "anchor.flow-high-a",
+          "anchor.flow-high-b",
+          "anchor.flow-high-c",
+          "anchor.flow-low-a",
+          "anchor.flow-low-b",
+          "anchor.high-velocity",
+          "anchor.low-citrate",
+          "anchor.low-glucose",
+          "anchor.mid-velocity",
+          "anchor.optimum"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:9e8f6a8b-a5a2-400f-aa3e-b4539c4c13c1",
+        "sha256": "b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.g.abstract-impact",
+        "source_id": "anchor.abstract-impact",
+        "target_id": "obs.abstract-impact",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.alt",
+        "source_id": "anchor.alt-acid",
+        "target_id": "obs.other-acidification",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.ballast",
+        "source_id": "anchor.ballast-effect",
+        "target_id": "obs.ballast-effect",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.bulk",
+        "source_id": "anchor.bulk-saturation",
+        "target_id": "obs.bulk-saturation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.co2",
+        "source_id": "anchor.co2-limit",
+        "target_id": "obs.co2-insufficient",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.co2eqs",
+        "source_id": "anchor.co2-eqs",
+        "target_id": "obs.co2-insufficient",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.co2ref",
+        "source_id": "anchor.co2-figref",
+        "target_id": "obs.co2-insufficient",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.dissolution",
+        "source_id": "anchor.dissolution-above-one",
+        "target_id": "obs.dissolution-above-one",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.eqrefa",
+        "source_id": "anchor.model-eqref-a",
+        "target_id": "obs.model-equation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.eqrefb",
+        "source_id": "anchor.model-eqref-b",
+        "target_id": "obs.model-equation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.extrap-limit",
+        "source_id": "anchor.extrapolation-limit",
+        "target_id": "obs.extrapolation-limit",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.fig3",
+        "source_id": "anchor.fig3",
+        "target_id": "obs.water-estimate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.flowfighigh",
+        "source_id": "anchor.fig4",
+        "target_id": "obs.transport-high",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.flowfiglow",
+        "source_id": "anchor.fig4",
+        "target_id": "obs.transport-low",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.flowhigha",
+        "source_id": "anchor.flow-high-a",
+        "target_id": "obs.transport-high",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.flowhighb",
+        "source_id": "anchor.flow-high-b",
+        "target_id": "obs.transport-high",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.flowhighc",
+        "source_id": "anchor.flow-high-c",
+        "target_id": "obs.transport-high",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.flowlowa",
+        "source_id": "anchor.flow-low-a",
+        "target_id": "obs.transport-low",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.flowlowb",
+        "source_id": "anchor.flow-low-b",
+        "target_id": "obs.transport-low",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.formula",
+        "source_id": "anchor.model-equation",
+        "target_id": "obs.model-equation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.heterogeneity",
+        "source_id": "anchor.heterogeneity",
+        "target_id": "obs.heterogeneity-inference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.high",
+        "source_id": "anchor.high-velocity",
+        "target_id": "obs.high-velocity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.lowcitrate",
+        "source_id": "anchor.low-citrate",
+        "target_id": "obs.low-citrate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.lowcontext",
+        "source_id": "anchor.low-glucose",
+        "target_id": "obs.low-citrate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.lowglucose",
+        "source_id": "anchor.low-glucose",
+        "target_id": "obs.low-glucose",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.mid",
+        "source_id": "anchor.mid-velocity",
+        "target_id": "obs.mid-velocity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.modelfig",
+        "source_id": "anchor.fig4",
+        "target_id": "obs.model-equation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.modelfiga",
+        "source_id": "anchor.model-fig-a",
+        "target_id": "obs.model-equation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.modelfigb",
+        "source_id": "anchor.model-fig-b",
+        "target_id": "obs.model-equation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.optimum",
+        "source_id": "anchor.optimum",
+        "target_id": "obs.optimum-interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.oxygen",
+        "source_id": "anchor.oxygen",
+        "target_id": "obs.oxygen-depletion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.ph",
+        "source_id": "anchor.ph-change",
+        "target_id": "obs.ph-change",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.phref",
+        "source_id": "anchor.ph-figref",
+        "target_id": "obs.ph-change",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.rate",
+        "source_id": "anchor.rate-comparison",
+        "target_id": "obs.rate-comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.saturation",
+        "source_id": "anchor.saturation",
+        "target_id": "obs.saturation-decline",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.time1",
+        "source_id": "anchor.ph-early",
+        "target_id": "obs.temporal-decoupling",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.time2",
+        "source_id": "anchor.ph-later",
+        "target_id": "obs.temporal-decoupling",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.watera",
+        "source_id": "anchor.water-estimate-a",
+        "target_id": "obs.water-estimate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.waterb",
+        "source_id": "anchor.water-estimate-b",
+        "target_id": "obs.water-estimate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.p.abstract",
+        "source_id": "obs.abstract-impact",
+        "target_id": "reason.ocean-impact",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.alt",
+        "source_id": "obs.other-acidification",
+        "target_id": "reason.microbial-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.ballast",
+        "source_id": "obs.ballast-effect",
+        "target_id": "reason.ballast-model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.ballast-result",
+        "source_id": "reason.ballast-model",
+        "target_id": "reason.ocean-impact",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.bulk",
+        "source_id": "obs.bulk-saturation",
+        "target_id": "reason.microbial-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.co2",
+        "source_id": "obs.co2-insufficient",
+        "target_id": "reason.microbial-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.dissolution",
+        "source_id": "obs.dissolution-above-one",
+        "target_id": "reason.microbial-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.heterogeneity",
+        "source_id": "obs.heterogeneity-inference",
+        "target_id": "reason.microbial-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.high",
+        "source_id": "obs.high-velocity",
+        "target_id": "reason.velocity-pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.lowcitrate",
+        "source_id": "obs.low-citrate",
+        "target_id": "reason.velocity-pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.lowglucose",
+        "source_id": "obs.low-glucose",
+        "target_id": "reason.velocity-pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.mid",
+        "source_id": "obs.mid-velocity",
+        "target_id": "reason.velocity-pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.model",
+        "source_id": "obs.model-equation",
+        "target_id": "reason.ballast-model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.optimum",
+        "source_id": "obs.optimum-interpretation",
+        "target_id": "reason.velocity-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.oxygen",
+        "source_id": "obs.oxygen-depletion",
+        "target_id": "reason.microbial-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.ph",
+        "source_id": "obs.ph-change",
+        "target_id": "reason.microbial-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.rate",
+        "source_id": "obs.rate-comparison",
+        "target_id": "reason.microbial-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.saturation",
+        "source_id": "obs.saturation-decline",
+        "target_id": "reason.microbial-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.time",
+        "source_id": "obs.temporal-decoupling",
+        "target_id": "reason.microbial-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.transport",
+        "source_id": "reason.transport-pattern",
+        "target_id": "reason.velocity-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.transporthigh",
+        "source_id": "obs.transport-high",
+        "target_id": "reason.transport-pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.transportlow",
+        "source_id": "obs.transport-low",
+        "target_id": "reason.transport-pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.uncertainty",
+        "source_id": "obs.extrapolation-limit",
+        "target_id": "reason.water-estimate",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.velocityresults",
+        "source_id": "reason.velocity-pattern",
+        "target_id": "reason.velocity-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.water",
+        "source_id": "obs.water-estimate",
+        "target_id": "reason.water-estimate",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.water-result",
+        "source_id": "reason.water-estimate",
+        "target_id": "reason.ocean-impact",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.s.core",
+        "source_id": "reason.microbial-synthesis",
+        "target_id": "claim:sha256:3eda6e041b0d7932324936ba1dda4d301e903af65d2b2c1f9c6beb3b72527669",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.impact",
+        "source_id": "reason.ocean-impact",
+        "target_id": "claim:sha256:88048994a2ba5df1ad99ba7244ca4995cffdf6425d71966641d9741228b0b366",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.velocity",
+        "source_id": "reason.velocity-synthesis",
+        "target_id": "claim:sha256:bb74e35ad2c2573594f28c4a4856d5744e9cdfa7a898efe356dc31ab45aa78a9",
+        "relation": "infers"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:34e03299acb5d99819c14be094c47ccb8cb868c6d4bc887c3bc012a353c7ac19",
+        "entity_ids": [
+          "anchor.abstract-impact",
+          "anchor.alt-acid",
+          "anchor.ballast-effect",
+          "anchor.bulk-saturation",
+          "anchor.co2-eqs",
+          "anchor.co2-figref",
+          "anchor.co2-limit",
+          "anchor.dissolution-above-one",
+          "anchor.extrapolation-limit",
+          "anchor.fig3",
+          "anchor.fig4",
+          "anchor.flow-high-a",
+          "anchor.flow-high-b",
+          "anchor.flow-high-c",
+          "anchor.flow-low-a",
+          "anchor.flow-low-b",
+          "anchor.heterogeneity",
+          "anchor.high-velocity",
+          "anchor.low-citrate",
+          "anchor.low-glucose",
+          "anchor.mid-velocity",
+          "anchor.model-eqref-a",
+          "anchor.model-eqref-b",
+          "anchor.model-equation",
+          "anchor.model-fig-a",
+          "anchor.model-fig-b",
+          "anchor.optimum",
+          "anchor.oxygen",
+          "anchor.ph-change",
+          "anchor.ph-early",
+          "anchor.ph-figref",
+          "anchor.ph-later",
+          "anchor.rate-comparison",
+          "anchor.saturation",
+          "anchor.water-estimate-a",
+          "anchor.water-estimate-b",
+          "artifact-version:sha256:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+          "artifact:9e8f6a8b-a5a2-400f-aa3e-b4539c4c13c1",
+          "claim:sha256:3eda6e041b0d7932324936ba1dda4d301e903af65d2b2c1f9c6beb3b72527669",
+          "claim:sha256:88048994a2ba5df1ad99ba7244ca4995cffdf6425d71966641d9741228b0b366",
+          "claim:sha256:bb74e35ad2c2573594f28c4a4856d5744e9cdfa7a898efe356dc31ab45aa78a9",
+          "obs.abstract-impact",
+          "obs.ballast-effect",
+          "obs.bulk-saturation",
+          "obs.co2-insufficient",
+          "obs.dissolution-above-one",
+          "obs.extrapolation-limit",
+          "obs.heterogeneity-inference",
+          "obs.high-velocity",
+          "obs.low-citrate",
+          "obs.low-glucose",
+          "obs.mid-velocity",
+          "obs.model-equation",
+          "obs.optimum-interpretation",
+          "obs.other-acidification",
+          "obs.oxygen-depletion",
+          "obs.ph-change",
+          "obs.rate-comparison",
+          "obs.saturation-decline",
+          "obs.temporal-decoupling",
+          "obs.transport-high",
+          "obs.transport-low",
+          "obs.water-estimate",
+          "reason.ballast-model",
+          "reason.microbial-synthesis",
+          "reason.ocean-impact",
+          "reason.transport-pattern",
+          "reason.velocity-pattern",
+          "reason.velocity-synthesis",
+          "reason.water-estimate"
+        ],
+        "edge_ids": [
+          "edge.g.abstract-impact",
+          "edge.g.alt",
+          "edge.g.ballast",
+          "edge.g.bulk",
+          "edge.g.co2",
+          "edge.g.co2eqs",
+          "edge.g.co2ref",
+          "edge.g.dissolution",
+          "edge.g.eqrefa",
+          "edge.g.eqrefb",
+          "edge.g.extrap-limit",
+          "edge.g.fig3",
+          "edge.g.flowfighigh",
+          "edge.g.flowfiglow",
+          "edge.g.flowhigha",
+          "edge.g.flowhighb",
+          "edge.g.flowhighc",
+          "edge.g.flowlowa",
+          "edge.g.flowlowb",
+          "edge.g.formula",
+          "edge.g.heterogeneity",
+          "edge.g.high",
+          "edge.g.lowcitrate",
+          "edge.g.lowcontext",
+          "edge.g.lowglucose",
+          "edge.g.mid",
+          "edge.g.modelfig",
+          "edge.g.modelfiga",
+          "edge.g.modelfigb",
+          "edge.g.optimum",
+          "edge.g.oxygen",
+          "edge.g.ph",
+          "edge.g.phref",
+          "edge.g.rate",
+          "edge.g.saturation",
+          "edge.g.time1",
+          "edge.g.time2",
+          "edge.g.watera",
+          "edge.g.waterb",
+          "edge.p.abstract",
+          "edge.p.alt",
+          "edge.p.ballast",
+          "edge.p.ballast-result",
+          "edge.p.bulk",
+          "edge.p.co2",
+          "edge.p.dissolution",
+          "edge.p.heterogeneity",
+          "edge.p.high",
+          "edge.p.lowcitrate",
+          "edge.p.lowglucose",
+          "edge.p.mid",
+          "edge.p.model",
+          "edge.p.optimum",
+          "edge.p.oxygen",
+          "edge.p.ph",
+          "edge.p.rate",
+          "edge.p.saturation",
+          "edge.p.time",
+          "edge.p.transport",
+          "edge.p.transporthigh",
+          "edge.p.transportlow",
+          "edge.p.uncertainty",
+          "edge.p.velocityresults",
+          "edge.p.water",
+          "edge.p.water-result",
+          "edge.s.core",
+          "edge.s.impact",
+          "edge.s.velocity"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "source_record": "../second-case/comparison-reuse-ui-export-v15.json",
+  "record_id": "derived-observation:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463",
+  "projection_columns": [
+    "prepared_value",
+    "unit",
+    "doi"
+  ],
+  "selection_fixed_before_recipient": true,
+  "manifest_written_after_execution": true,
+  "input_sha256": {
+    "protocol.md": "0a6547964bec36d3c9e877e6e9ca4f11224fd661e7a88f9182faa00c506302b6",
+    "value-citation-projection.csv": "af2916729d0a6d5749c2659feaba91e335876384066c80231171a17814ae3a6c",
+    "input-record.jsonld": "2ec791cc957e08d9f2d4b586abb6024612852d067166f65c0c500ba5352a3694"
+  },
+  "scope": "one defined format-retention illustration; no product or human performance comparison"
+}

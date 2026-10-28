@@ -1,0 +1,9 @@
+PREFIX ds: <urn:deepshovel:reuse:v1:>
+SELECT ?position ?sourceId ?sourceKind ?relation ?targetId ?targetKind
+WHERE {
+  ?record ds:selectedRoute ?route .
+  ?route ds:step ?edge .
+  ?edge ds:position ?position; ds:source ?source; ds:relation ?relation; ds:target ?target .
+  ?source ds:recordedNodeId ?sourceId; ds:nodeKind ?sourceKind .
+  ?target ds:recordedNodeId ?targetId; ds:nodeKind ?targetKind .
+} ORDER BY ?position

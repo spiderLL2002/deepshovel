@@ -1,0 +1,2 @@
+# Copy to root `.dev.vars`; Web and `npm run dev:compiler` both read it.
+COMPILER_SHARED_SECRET=replace-with-32-to-512-printable-ascii-characters

@@ -1,0 +1,18 @@
+{
+  "manual_entry_only": true,
+  "do_not_prefill_generic_ui": true,
+  "source_result_file": "result.json",
+  "source_pdf": "source.pdf",
+  "observation_id": "obs.f2.assessed",
+  "anchor_id": "anchor.text.f2.stability",
+  "experiment": "Modeled F2 fault reactivation during gas injection, Asmari reservoir",
+  "quantity": "Maximum sustainable pore pressure (author-reported modeled summary)",
+  "value": "55–57",
+  "unit": "MPa",
+  "uncertainty": "No uncertainty interval reported for this summary; range is not a confidence interval. Table4 contains formulation-specific Pc and PCr values.",
+  "conditions": "F2 fault, Asmari reservoir, Gachsaran oilfield, SW Iran; modeled gas-injection pressure increase; cohesionless fault C=0, assumed friction coefficient0.6; assessed by 3D Mohr diagrams, slip tendency and modified slip tendency.",
+  "locator": "PDF page11, Section6 text and Table4; PDF page13, Section8 Conclusions",
+  "purpose": "interpretation",
+  "conclusion": "qualified_reuse",
+  "notes": "Original PDF confirms the author summary55–57MPa and agreement that F2 is most stable among F1–F4. This is maximum pore pressure, not an additional55–57MPa pressure increase. Table4 F2 Pc=55.03/55.31MPa and PCr=57.58/57.81MPa; retain the reported summary alongside these detailed values. This is a source-specific modeled interpretation, not a certified injection operating limit."
+}

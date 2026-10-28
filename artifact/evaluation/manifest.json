@@ -1,0 +1,37 @@
+[
+  {
+    "file": "README.md",
+    "sha256": "7a4705c3f0704ea11709397093527420f557dd9e1006876f95a15cce74d78d38",
+    "bytes": 2504
+  },
+  {
+    "file": "evaluate.py",
+    "sha256": "38f3d303e4c81524b19e60d88622873a00de1fd20b5d95b75c81cc59a4da3bc8",
+    "bytes": 1988
+  },
+  {
+    "file": "expected_metrics.json",
+    "sha256": "eabf928d2a07b7325c80e2d7768f93cba0928989e91ff23e66c5b415f2572977",
+    "bytes": 788
+  },
+  {
+    "file": "pool_ids.json",
+    "sha256": "9e6640c8433cfc8c34d87e41676437fa48a57bc043ab5bdea5f1bd073af1c55d",
+    "bytes": 300507
+  },
+  {
+    "file": "qrels.json",
+    "sha256": "b8c8c6e5dc0679e4c174258d5871cff715828e3f7c9ad10c41d63c0da7eb47fc",
+    "bytes": 489512
+  },
+  {
+    "file": "queries.json",
+    "sha256": "e477c71c1a5684cb62db74caf674fdad98c669408d348647c287a42edffaf060",
+    "bytes": 26828
+  },
+  {
+    "file": "runs.json",
+    "sha256": "45ffc79f9a41f7fc55ca857f2759463264bd16afe575ed7b8651bf295cda20a3",
+    "bytes": 484886
+  }
+]

@@ -1,0 +1,995 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+  "snapshot_id": "snapshot:sha256:00824e13d412d8540ce67bb6b805c9fe2c124fb5490fae1c3d8437f732e6e581",
+  "original_graph_json_sha256": "00824e13d412d8540ce67bb6b805c9fe2c124fb5490fae1c3d8437f732e6e581",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:f9df6c28-01ca-4ce4-b312-af77c50550b9",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:f9df6c28-01ca-4ce4-b312-af77c50550b9",
+        "sha256": "307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.abstract.main",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.anoxia.abstract",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.anoxia.result",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.carbon.shift.1",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.carbon.shift.2",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.chemo.1",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.chemo.2",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.chemo.3",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.community.conclusion",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.deep.diazotroph.1",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.deep.diazotroph.2",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.delta.interpretation",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.fig.1",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.fig.2",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.fig.2.caption",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.fixation.low.nitrogen",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.hopanes",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.marine.origin",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.n.microbialite",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.n.persistence",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.n.shift.1",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.n.shift.2",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.n.transition",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.nfix.signature",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.nitrate.alternative",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.nitrogen.loss.pathways",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.shallow.diazotroph.1",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.shallow.diazotroph.2",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.zuodeng",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.zuodeng.figure.ref",
+        "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.anoxia.abstract",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.anoxia.abstract"
+        ]
+      },
+      {
+        "id": "obs.anoxia.result",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.anoxia.result"
+        ]
+      },
+      {
+        "id": "obs.carbon.isotope.difference",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.carbon.shift.1",
+          "anchor.carbon.shift.2",
+          "anchor.fig.2",
+          "anchor.fig.2.caption"
+        ]
+      },
+      {
+        "id": "obs.chemo.comparison",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.chemo.1",
+          "anchor.chemo.2",
+          "anchor.chemo.3",
+          "anchor.fig.1"
+        ]
+      },
+      {
+        "id": "obs.community.conclusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.community.conclusion"
+        ]
+      },
+      {
+        "id": "obs.deep.diazotrophs",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.deep.diazotroph.1",
+          "anchor.deep.diazotroph.2"
+        ]
+      },
+      {
+        "id": "obs.delta.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.delta.interpretation",
+          "anchor.fig.2"
+        ]
+      },
+      {
+        "id": "obs.fixation.low.nitrogen",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fixation.low.nitrogen"
+        ]
+      },
+      {
+        "id": "obs.hopanes",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.hopanes"
+        ]
+      },
+      {
+        "id": "obs.isotope.shifts",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig.1",
+          "anchor.n.shift.1",
+          "anchor.n.shift.2"
+        ]
+      },
+      {
+        "id": "obs.low.values.persist",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.n.persistence"
+        ]
+      },
+      {
+        "id": "obs.main.source.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.abstract.main"
+        ]
+      },
+      {
+        "id": "obs.marine.origin",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.marine.origin"
+        ]
+      },
+      {
+        "id": "obs.microbialite.values",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.n.microbialite"
+        ]
+      },
+      {
+        "id": "obs.nfix.signature",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.nfix.signature"
+        ]
+      },
+      {
+        "id": "obs.nitrate.alternative",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.nitrate.alternative"
+        ]
+      },
+      {
+        "id": "obs.nitrogen.loss.pathways",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.nitrogen.loss.pathways"
+        ]
+      },
+      {
+        "id": "obs.possible.shallow.diazotrophs",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.shallow.diazotroph.1",
+          "anchor.shallow.diazotroph.2"
+        ]
+      },
+      {
+        "id": "obs.taiping.transition",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig.1",
+          "anchor.n.transition"
+        ]
+      },
+      {
+        "id": "obs.zuodeng.profile",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig.1",
+          "anchor.zuodeng",
+          "anchor.zuodeng.figure.ref"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.anoxic.expansion",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.anoxia.abstract",
+          "anchor.anoxia.result",
+          "anchor.fixation.low.nitrogen",
+          "anchor.nitrogen.loss.pathways"
+        ]
+      },
+      {
+        "id": "reason.community.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.carbon.shift.1",
+          "anchor.community.conclusion",
+          "anchor.deep.diazotroph.1",
+          "anchor.fig.2",
+          "anchor.hopanes"
+        ]
+      },
+      {
+        "id": "reason.diazotroph.difference",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.deep.diazotroph.1",
+          "anchor.deep.diazotroph.2",
+          "anchor.hopanes",
+          "anchor.shallow.diazotroph.1",
+          "anchor.shallow.diazotroph.2"
+        ]
+      },
+      {
+        "id": "reason.isotope.pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig.1",
+          "anchor.n.microbialite",
+          "anchor.n.persistence",
+          "anchor.n.shift.1",
+          "anchor.n.shift.2",
+          "anchor.n.transition",
+          "anchor.zuodeng"
+        ]
+      },
+      {
+        "id": "reason.nfix.dominance",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.abstract.main",
+          "anchor.n.persistence",
+          "anchor.nfix.signature"
+        ]
+      },
+      {
+        "id": "reason.nfix.interpretation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.chemo.1",
+          "anchor.chemo.2",
+          "anchor.chemo.3",
+          "anchor.fig.1",
+          "anchor.marine.origin",
+          "anchor.nfix.signature",
+          "anchor.nitrate.alternative"
+        ]
+      },
+      {
+        "id": "reason.primary.producer.difference",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.carbon.shift.1",
+          "anchor.carbon.shift.2",
+          "anchor.delta.interpretation",
+          "anchor.fig.2",
+          "anchor.fig.2.caption"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:d53b32641c6ba958d18c1b9be1c18f4c23b2e059188eb27fb389d9cf7169897a",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.abstract.main",
+          "anchor.fig.1",
+          "anchor.n.microbialite",
+          "anchor.n.persistence",
+          "anchor.n.shift.1",
+          "anchor.n.shift.2",
+          "anchor.n.transition",
+          "anchor.nfix.signature",
+          "anchor.zuodeng"
+        ],
+        "source_id": "claim.nfix.main"
+      },
+      {
+        "id": "claim:sha256:d7e7e6a95584782052db42daa48de3091af4b200c9615816feba1aa5f650aece",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.anoxia.abstract",
+          "anchor.anoxia.result",
+          "anchor.fig.1",
+          "anchor.n.shift.1",
+          "anchor.n.shift.2",
+          "anchor.nfix.signature"
+        ],
+        "source_id": "claim.anoxia.expansion"
+      },
+      {
+        "id": "claim:sha256:fa5cda7da8a31b9bcdcb33a7e7a8417445e6e6c19374c0bd3b7bb548ae3f1853",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.carbon.shift.1",
+          "anchor.carbon.shift.2",
+          "anchor.community.conclusion",
+          "anchor.deep.diazotroph.1",
+          "anchor.deep.diazotroph.2",
+          "anchor.delta.interpretation",
+          "anchor.fig.2",
+          "anchor.fig.2.caption",
+          "anchor.hopanes",
+          "anchor.shallow.diazotroph.1",
+          "anchor.shallow.diazotroph.2"
+        ],
+        "source_id": "claim.community.difference"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.grounds.anoxia.abstract",
+        "kind": "edge",
+        "source_id": "anchor.anoxia.abstract",
+        "target_id": "obs.anoxia.abstract",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.anoxia.result",
+        "kind": "edge",
+        "source_id": "anchor.anoxia.result",
+        "target_id": "obs.anoxia.result",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.carbon.1",
+        "kind": "edge",
+        "source_id": "anchor.carbon.shift.1",
+        "target_id": "obs.carbon.isotope.difference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.carbon.2",
+        "kind": "edge",
+        "source_id": "anchor.carbon.shift.2",
+        "target_id": "obs.carbon.isotope.difference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.chemo.1",
+        "kind": "edge",
+        "source_id": "anchor.chemo.1",
+        "target_id": "obs.chemo.comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.chemo.2",
+        "kind": "edge",
+        "source_id": "anchor.chemo.2",
+        "target_id": "obs.chemo.comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.chemo.3",
+        "kind": "edge",
+        "source_id": "anchor.chemo.3",
+        "target_id": "obs.chemo.comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.community.conclusion",
+        "kind": "edge",
+        "source_id": "anchor.community.conclusion",
+        "target_id": "obs.community.conclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.deep.diazotroph.1",
+        "kind": "edge",
+        "source_id": "anchor.deep.diazotroph.1",
+        "target_id": "obs.deep.diazotrophs",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.deep.diazotroph.2",
+        "kind": "edge",
+        "source_id": "anchor.deep.diazotroph.2",
+        "target_id": "obs.deep.diazotrophs",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.delta.interpretation",
+        "kind": "edge",
+        "source_id": "anchor.delta.interpretation",
+        "target_id": "obs.delta.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fig.1.chemo",
+        "kind": "edge",
+        "source_id": "anchor.fig.1",
+        "target_id": "obs.chemo.comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fig.1.shift",
+        "kind": "edge",
+        "source_id": "anchor.fig.1",
+        "target_id": "obs.isotope.shifts",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fig.1.zuodeng",
+        "kind": "edge",
+        "source_id": "anchor.fig.1",
+        "target_id": "obs.zuodeng.profile",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fig.2",
+        "kind": "edge",
+        "source_id": "anchor.fig.2",
+        "target_id": "obs.carbon.isotope.difference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.fig.2.caption",
+        "kind": "edge",
+        "source_id": "anchor.fig.2.caption",
+        "target_id": "obs.carbon.isotope.difference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hopanes",
+        "kind": "edge",
+        "source_id": "anchor.hopanes",
+        "target_id": "obs.hopanes",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.loss.pathways",
+        "kind": "edge",
+        "source_id": "anchor.nitrogen.loss.pathways",
+        "target_id": "obs.nitrogen.loss.pathways",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.low.nitrogen",
+        "kind": "edge",
+        "source_id": "anchor.fixation.low.nitrogen",
+        "target_id": "obs.fixation.low.nitrogen",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.main.source",
+        "kind": "edge",
+        "source_id": "anchor.abstract.main",
+        "target_id": "obs.main.source.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.marine.origin",
+        "kind": "edge",
+        "source_id": "anchor.marine.origin",
+        "target_id": "obs.marine.origin",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.microbialite",
+        "kind": "edge",
+        "source_id": "anchor.n.microbialite",
+        "target_id": "obs.microbialite.values",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.n.shift.1",
+        "kind": "edge",
+        "source_id": "anchor.n.shift.1",
+        "target_id": "obs.isotope.shifts",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.n.shift.2",
+        "kind": "edge",
+        "source_id": "anchor.n.shift.2",
+        "target_id": "obs.isotope.shifts",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nfix.signature",
+        "kind": "edge",
+        "source_id": "anchor.nfix.signature",
+        "target_id": "obs.nfix.signature",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nitrate",
+        "kind": "edge",
+        "source_id": "anchor.nitrate.alternative",
+        "target_id": "obs.nitrate.alternative",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.persistence",
+        "kind": "edge",
+        "source_id": "anchor.n.persistence",
+        "target_id": "obs.low.values.persist",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shallow.1",
+        "kind": "edge",
+        "source_id": "anchor.shallow.diazotroph.1",
+        "target_id": "obs.possible.shallow.diazotrophs",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shallow.2",
+        "kind": "edge",
+        "source_id": "anchor.shallow.diazotroph.2",
+        "target_id": "obs.possible.shallow.diazotrophs",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.transition",
+        "kind": "edge",
+        "source_id": "anchor.n.transition",
+        "target_id": "obs.taiping.transition",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.zuodeng",
+        "kind": "edge",
+        "source_id": "anchor.zuodeng",
+        "target_id": "obs.zuodeng.profile",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.zuodeng.ref",
+        "kind": "edge",
+        "source_id": "anchor.zuodeng.figure.ref",
+        "target_id": "obs.zuodeng.profile",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.anoxia.abstract",
+        "kind": "edge",
+        "source_id": "obs.anoxia.abstract",
+        "target_id": "reason.anoxic.expansion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.anoxia.lowN",
+        "kind": "edge",
+        "source_id": "obs.fixation.low.nitrogen",
+        "target_id": "reason.anoxic.expansion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.anoxia.nfix",
+        "kind": "edge",
+        "source_id": "reason.nfix.interpretation",
+        "target_id": "reason.anoxic.expansion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.anoxia.pathways",
+        "kind": "edge",
+        "source_id": "obs.nitrogen.loss.pathways",
+        "target_id": "reason.anoxic.expansion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.anoxia.result",
+        "kind": "edge",
+        "source_id": "obs.anoxia.result",
+        "target_id": "reason.anoxic.expansion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.chemo",
+        "kind": "edge",
+        "source_id": "obs.chemo.comparison",
+        "target_id": "reason.nfix.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.community.author",
+        "kind": "edge",
+        "source_id": "obs.community.conclusion",
+        "target_id": "reason.community.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.community.diazotroph",
+        "kind": "edge",
+        "source_id": "reason.diazotroph.difference",
+        "target_id": "reason.community.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.community.producer",
+        "kind": "edge",
+        "source_id": "reason.primary.producer.difference",
+        "target_id": "reason.community.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.diazotroph.deep",
+        "kind": "edge",
+        "source_id": "obs.deep.diazotrophs",
+        "target_id": "reason.diazotroph.difference",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.diazotroph.hopanes",
+        "kind": "edge",
+        "source_id": "obs.hopanes",
+        "target_id": "reason.diazotroph.difference",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.diazotroph.shallow",
+        "kind": "edge",
+        "source_id": "obs.possible.shallow.diazotrophs",
+        "target_id": "reason.diazotroph.difference",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.dominance.author",
+        "kind": "edge",
+        "source_id": "obs.main.source.interpretation",
+        "target_id": "reason.nfix.dominance",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.dominance.nfix",
+        "kind": "edge",
+        "source_id": "reason.nfix.interpretation",
+        "target_id": "reason.nfix.dominance",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.dominance.pattern",
+        "kind": "edge",
+        "source_id": "reason.isotope.pattern",
+        "target_id": "reason.nfix.dominance",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.isotope.1",
+        "kind": "edge",
+        "source_id": "obs.isotope.shifts",
+        "target_id": "reason.isotope.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.isotope.2",
+        "kind": "edge",
+        "source_id": "obs.taiping.transition",
+        "target_id": "reason.isotope.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.isotope.3",
+        "kind": "edge",
+        "source_id": "obs.microbialite.values",
+        "target_id": "reason.isotope.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.isotope.4",
+        "kind": "edge",
+        "source_id": "obs.low.values.persist",
+        "target_id": "reason.isotope.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.isotope.5",
+        "kind": "edge",
+        "source_id": "obs.zuodeng.profile",
+        "target_id": "reason.isotope.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.marine",
+        "kind": "edge",
+        "source_id": "obs.marine.origin",
+        "target_id": "reason.nfix.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nfix.pattern",
+        "kind": "edge",
+        "source_id": "reason.isotope.pattern",
+        "target_id": "reason.nfix.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nfix.signature",
+        "kind": "edge",
+        "source_id": "obs.nfix.signature",
+        "target_id": "reason.nfix.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nitrate",
+        "kind": "edge",
+        "source_id": "obs.nitrate.alternative",
+        "target_id": "reason.nfix.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.producer.carbon",
+        "kind": "edge",
+        "source_id": "obs.carbon.isotope.difference",
+        "target_id": "reason.primary.producer.difference",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.producer.delta",
+        "kind": "edge",
+        "source_id": "obs.delta.interpretation",
+        "target_id": "reason.primary.producer.difference",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.anoxia",
+        "kind": "edge",
+        "source_id": "reason.anoxic.expansion",
+        "target_id": "claim:sha256:d7e7e6a95584782052db42daa48de3091af4b200c9615816feba1aa5f650aece",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.community",
+        "kind": "edge",
+        "source_id": "reason.community.synthesis",
+        "target_id": "claim:sha256:fa5cda7da8a31b9bcdcb33a7e7a8417445e6e6c19374c0bd3b7bb548ae3f1853",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.main",
+        "kind": "edge",
+        "source_id": "reason.nfix.dominance",
+        "target_id": "claim:sha256:d53b32641c6ba958d18c1b9be1c18f4c23b2e059188eb27fb389d9cf7169897a",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:2a2a959fa7f3b8662ad6a88f747093d8a67082c29e24a02fe79626002ba0a288",
+        "kind": "edge",
+        "source_id": "anchor.fig.2",
+        "target_id": "obs.delta.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:449c5102912ec02646617f878d50e9ba16e2f9f60be6f8f766ae1f0b27606141",
+        "kind": "edge",
+        "source_id": "anchor.fig.1",
+        "target_id": "obs.taiping.transition",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

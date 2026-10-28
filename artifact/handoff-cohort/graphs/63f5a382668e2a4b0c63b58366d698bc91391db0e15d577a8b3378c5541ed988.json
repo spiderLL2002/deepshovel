@@ -1,0 +1,498 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "cbfa21bfca3a45c3f213fca57a5528ece8dab63809a7f2e55050ccdcbaa96380",
+  "http_body_sha256": "57d7ab5f09660652041caeec039cde86244709b4a16a2307e63d9ab6fb873436",
+  "snapshot": {
+    "id": "snapshot:sha256:63f5a382668e2a4b0c63b58366d698bc91391db0e15d577a8b3378c5541ed988",
+    "rootArtifactVersionId": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "63f5a382668e2a4b0c63b58366d698bc91391db0e15d577a8b3378c5541ed988"
+  },
+  "graph": {
+    "paper_id": "paper:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+    "anchors": [
+      {
+        "id": "anchor.collapse.all",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.collapse.conclusion",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.collapse.wella",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.diff.all",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.diff.conclusion",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.diff.wellb.a",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.diff.wellb.b",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.direction.conclusion",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.direction.high",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.direction.low",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.direction.refs",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "selector": {
+          "page": 9
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.collapse.all",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.collapse.all"
+        ]
+      },
+      {
+        "id": "obs.collapse.conclusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.collapse.conclusion"
+        ]
+      },
+      {
+        "id": "obs.collapse.wella",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.collapse.wella"
+        ]
+      },
+      {
+        "id": "obs.diff.all",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.diff.all"
+        ]
+      },
+      {
+        "id": "obs.diff.conclusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.diff.conclusion"
+        ]
+      },
+      {
+        "id": "obs.diff.wellb",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.diff.wellb.a",
+          "anchor.diff.wellb.b"
+        ]
+      },
+      {
+        "id": "obs.direction.conclusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.direction.conclusion"
+        ]
+      },
+      {
+        "id": "obs.direction.high",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.direction.high",
+          "anchor.direction.refs"
+        ]
+      },
+      {
+        "id": "obs.direction.low",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.direction.low"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.collapse.pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.collapse.all",
+          "anchor.collapse.wella"
+        ]
+      },
+      {
+        "id": "reason.collapse.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.collapse.all",
+          "anchor.collapse.conclusion",
+          "anchor.collapse.wella"
+        ]
+      },
+      {
+        "id": "reason.diff.pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.diff.all",
+          "anchor.diff.wellb.a",
+          "anchor.diff.wellb.b"
+        ]
+      },
+      {
+        "id": "reason.diff.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.diff.all",
+          "anchor.diff.conclusion",
+          "anchor.diff.wellb.a",
+          "anchor.diff.wellb.b"
+        ]
+      },
+      {
+        "id": "reason.direction.pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.direction.high",
+          "anchor.direction.low",
+          "anchor.direction.refs"
+        ]
+      },
+      {
+        "id": "reason.direction.threshold",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.direction.conclusion",
+          "anchor.direction.high"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:b4419a06e25f2888a7c34033327b7ebdcac2b5e87f5c84ea8ac3c054797d7afb",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.diff.all",
+          "anchor.diff.conclusion",
+          "anchor.diff.wellb.a",
+          "anchor.diff.wellb.b"
+        ]
+      },
+      {
+        "id": "claim:sha256:d163183fd53ed7590895908b12c342b0e16a4949680c08c31e90498eac4223b3",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.direction.conclusion",
+          "anchor.direction.high",
+          "anchor.direction.low",
+          "anchor.direction.refs"
+        ]
+      },
+      {
+        "id": "claim:sha256:d46402cfeb7fc0e48a039ddfa39ddb2ef398fd255a8aac44d5f32887ff926bb7",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.collapse.all",
+          "anchor.collapse.conclusion",
+          "anchor.collapse.wella"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:cc65cce7-5080-43a3-8842-a0daf1b7a9ea",
+        "sha256": "154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.grounds.collapse.all",
+        "source_id": "anchor.collapse.all",
+        "target_id": "obs.collapse.all",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.collapse.conclusion",
+        "source_id": "anchor.collapse.conclusion",
+        "target_id": "obs.collapse.conclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.collapse.wella",
+        "source_id": "anchor.collapse.wella",
+        "target_id": "obs.collapse.wella",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.diff.all",
+        "source_id": "anchor.diff.all",
+        "target_id": "obs.diff.all",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.diff.conclusion",
+        "source_id": "anchor.diff.conclusion",
+        "target_id": "obs.diff.conclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.diff.wellb.a",
+        "source_id": "anchor.diff.wellb.a",
+        "target_id": "obs.diff.wellb",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.diff.wellb.b",
+        "source_id": "anchor.diff.wellb.b",
+        "target_id": "obs.diff.wellb",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.direction.conclusion",
+        "source_id": "anchor.direction.conclusion",
+        "target_id": "obs.direction.conclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.direction.high",
+        "source_id": "anchor.direction.high",
+        "target_id": "obs.direction.high",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.direction.low",
+        "source_id": "anchor.direction.low",
+        "target_id": "obs.direction.low",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.direction.refs",
+        "source_id": "anchor.direction.refs",
+        "target_id": "obs.direction.high",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.collapse.all",
+        "source_id": "obs.collapse.all",
+        "target_id": "reason.collapse.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.collapse.conclusion",
+        "source_id": "obs.collapse.conclusion",
+        "target_id": "reason.collapse.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.collapse.pattern",
+        "source_id": "reason.collapse.pattern",
+        "target_id": "reason.collapse.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.collapse.wella",
+        "source_id": "obs.collapse.wella",
+        "target_id": "reason.collapse.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.diff.all",
+        "source_id": "obs.diff.all",
+        "target_id": "reason.diff.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.diff.conclusion",
+        "source_id": "obs.diff.conclusion",
+        "target_id": "reason.diff.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.diff.pattern",
+        "source_id": "reason.diff.pattern",
+        "target_id": "reason.diff.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.diff.wellb",
+        "source_id": "obs.diff.wellb",
+        "target_id": "reason.diff.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.direction.conclusion",
+        "source_id": "obs.direction.conclusion",
+        "target_id": "reason.direction.threshold",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.direction.high",
+        "source_id": "obs.direction.high",
+        "target_id": "reason.direction.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.direction.low",
+        "source_id": "obs.direction.low",
+        "target_id": "reason.direction.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.direction.pattern",
+        "source_id": "reason.direction.pattern",
+        "target_id": "reason.direction.threshold",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.qualify.direction",
+        "source_id": "reason.direction.threshold",
+        "target_id": "claim:sha256:d163183fd53ed7590895908b12c342b0e16a4949680c08c31e90498eac4223b3",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.collapse",
+        "source_id": "reason.collapse.synthesis",
+        "target_id": "claim:sha256:d46402cfeb7fc0e48a039ddfa39ddb2ef398fd255a8aac44d5f32887ff926bb7",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.diff",
+        "source_id": "reason.diff.synthesis",
+        "target_id": "claim:sha256:b4419a06e25f2888a7c34033327b7ebdcac2b5e87f5c84ea8ac3c054797d7afb",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.direction",
+        "source_id": "reason.direction.pattern",
+        "target_id": "claim:sha256:d163183fd53ed7590895908b12c342b0e16a4949680c08c31e90498eac4223b3",
+        "relation": "infers"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:bdefe32baa7c3bfd49856a229e06634d023f0f943d0d0476285eee9108e7abb9",
+        "entity_ids": [
+          "anchor.collapse.all",
+          "anchor.collapse.conclusion",
+          "anchor.collapse.wella",
+          "anchor.diff.all",
+          "anchor.diff.conclusion",
+          "anchor.diff.wellb.a",
+          "anchor.diff.wellb.b",
+          "anchor.direction.conclusion",
+          "anchor.direction.high",
+          "anchor.direction.low",
+          "anchor.direction.refs",
+          "artifact-version:sha256:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+          "artifact:cc65cce7-5080-43a3-8842-a0daf1b7a9ea",
+          "claim:sha256:b4419a06e25f2888a7c34033327b7ebdcac2b5e87f5c84ea8ac3c054797d7afb",
+          "claim:sha256:d163183fd53ed7590895908b12c342b0e16a4949680c08c31e90498eac4223b3",
+          "claim:sha256:d46402cfeb7fc0e48a039ddfa39ddb2ef398fd255a8aac44d5f32887ff926bb7",
+          "obs.collapse.all",
+          "obs.collapse.conclusion",
+          "obs.collapse.wella",
+          "obs.diff.all",
+          "obs.diff.conclusion",
+          "obs.diff.wellb",
+          "obs.direction.conclusion",
+          "obs.direction.high",
+          "obs.direction.low",
+          "reason.collapse.pattern",
+          "reason.collapse.synthesis",
+          "reason.diff.pattern",
+          "reason.diff.synthesis",
+          "reason.direction.pattern",
+          "reason.direction.threshold"
+        ],
+        "edge_ids": [
+          "edge.grounds.collapse.all",
+          "edge.grounds.collapse.conclusion",
+          "edge.grounds.collapse.wella",
+          "edge.grounds.diff.all",
+          "edge.grounds.diff.conclusion",
+          "edge.grounds.diff.wellb.a",
+          "edge.grounds.diff.wellb.b",
+          "edge.grounds.direction.conclusion",
+          "edge.grounds.direction.high",
+          "edge.grounds.direction.low",
+          "edge.grounds.direction.refs",
+          "edge.premise.collapse.all",
+          "edge.premise.collapse.conclusion",
+          "edge.premise.collapse.pattern",
+          "edge.premise.collapse.wella",
+          "edge.premise.diff.all",
+          "edge.premise.diff.conclusion",
+          "edge.premise.diff.pattern",
+          "edge.premise.diff.wellb",
+          "edge.premise.direction.conclusion",
+          "edge.premise.direction.high",
+          "edge.premise.direction.low",
+          "edge.premise.direction.pattern",
+          "edge.qualify.direction",
+          "edge.support.collapse",
+          "edge.support.diff",
+          "edge.support.direction"
+        ]
+      }
+    ]
+  }
+}

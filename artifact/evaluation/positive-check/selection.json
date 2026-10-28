@@ -1,0 +1,12 @@
+{
+  "kind": "stratified AI development-label check, not representative prevalence or expert ground truth",
+  "seed": "positive-audit-20261027",
+  "pairs": 36,
+  "original_grade_counts": {
+    "3": 12,
+    "2": 12,
+    "1": 6,
+    "0": 6
+  },
+  "selection": "sort SHA256(seed|query|claim), at most one selected candidate per query within each grade; no original labels/ranks shown to assessor"
+}

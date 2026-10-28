@@ -1,0 +1,6 @@
+PREFIX ds: <urn:deepshovel:reuse:v1:>
+ SELECT ?anchor ?version ?hash ?recorded ?current WHERE {
+ ?record a ds:PreparedRecord; ds:selectedAnchor ?anchor;
+ ds:recordedFileCheck ?recorded; ds:currentFileCheck ?current.
+ ?anchor ds:sourceVersion ?version. ?version ds:sha256 ?hash.
+ }

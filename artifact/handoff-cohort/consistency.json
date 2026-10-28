@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "slots_compared": 20,
+  "raw_vs_projection_outcomes_equal_except_input_file_hash": true,
+  "projected_fields_equal_original_values": true,
+  "adapter_byte_identical_to_artifact_prepare_handoff": true,
+  "graph_GET_count": 13,
+  "new_model_queries": 0
+}

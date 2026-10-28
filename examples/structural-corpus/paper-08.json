@@ -1,0 +1,698 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+  "snapshot_id": "snapshot:sha256:003ff0f9a386828140c556270717bae229e5bc75c4f58b4f7176c5276f8d2e84",
+  "original_graph_json_sha256": "003ff0f9a386828140c556270717bae229e5bc75c4f58b4f7176c5276f8d2e84",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:a288292d-5a2a-429a-811e-74701ef1331f",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:a288292d-5a2a-429a-811e-74701ef1331f",
+        "sha256": "56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.allmix",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.climateprimary",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.coolingtrend",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.figure2",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.figure7",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.figure8",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.monsoonconclusion",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.orbitaltimes",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.reversible",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.sealevel",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.sourcechange",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.spectral",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.stable",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.tectonicspeed",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.temporal",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.warmcold",
+        "artifact_version_id": "artifact-version:sha256:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.climateprimary",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.climateprimary"
+        ]
+      },
+      {
+        "id": "obs.coolingvariability",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.coolingtrend",
+          "anchor.figure7"
+        ]
+      },
+      {
+        "id": "obs.endmembers",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.allmix"
+        ]
+      },
+      {
+        "id": "obs.monsoonconclusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.monsoonconclusion"
+        ]
+      },
+      {
+        "id": "obs.orbitaltimes",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure2",
+          "anchor.figure7",
+          "anchor.orbitaltimes"
+        ]
+      },
+      {
+        "id": "obs.reversible",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.reversible"
+        ]
+      },
+      {
+        "id": "obs.sealevel",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure8",
+          "anchor.sealevel"
+        ]
+      },
+      {
+        "id": "obs.shift",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure2",
+          "anchor.sourcechange"
+        ]
+      },
+      {
+        "id": "obs.spectral",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure8",
+          "anchor.spectral"
+        ]
+      },
+      {
+        "id": "obs.stable",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.stable"
+        ]
+      },
+      {
+        "id": "obs.tectonicrate",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.tectonicspeed"
+        ]
+      },
+      {
+        "id": "obs.temporal",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.coolingtrend",
+          "anchor.figure7",
+          "anchor.temporal"
+        ]
+      },
+      {
+        "id": "obs.warmcold",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.warmcold"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.coolingpattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.coolingtrend",
+          "anchor.warmcold"
+        ]
+      },
+      {
+        "id": "reason.coolingsynthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.climateprimary",
+          "anchor.coolingtrend",
+          "anchor.tectonicspeed",
+          "anchor.temporal",
+          "anchor.warmcold"
+        ]
+      },
+      {
+        "id": "reason.mix",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.allmix",
+          "anchor.stable"
+        ]
+      },
+      {
+        "id": "reason.monsoonsynthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure2",
+          "anchor.figure8",
+          "anchor.monsoonconclusion",
+          "anchor.orbitaltimes",
+          "anchor.reversible",
+          "anchor.spectral"
+        ]
+      },
+      {
+        "id": "reason.nontectonic",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.reversible"
+        ]
+      },
+      {
+        "id": "reason.periodicity",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure2",
+          "anchor.figure8",
+          "anchor.orbitaltimes",
+          "anchor.spectral"
+        ]
+      },
+      {
+        "id": "reason.provenancechange",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure2",
+          "anchor.sourcechange"
+        ]
+      },
+      {
+        "id": "reason.provenancefinal",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.allmix",
+          "anchor.figure2",
+          "anchor.sourcechange",
+          "anchor.stable"
+        ]
+      },
+      {
+        "id": "reason.sealevel",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure8",
+          "anchor.sealevel"
+        ]
+      },
+      {
+        "id": "reason.tempo",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.coolingtrend",
+          "anchor.tectonicspeed",
+          "anchor.temporal"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:09ad30c567871a739e3459f2da3e8debf56570b92b5e71c59450ec6718981615",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.climateprimary",
+          "anchor.coolingtrend",
+          "anchor.figure7",
+          "anchor.temporal",
+          "anchor.warmcold"
+        ],
+        "source_id": "claim.cooling"
+      },
+      {
+        "id": "claim:sha256:65632d91bb88a7492be08d38eb54b2ca71f2c3d5aae76da98f702081365101c0",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure2",
+          "anchor.figure8",
+          "anchor.monsoonconclusion",
+          "anchor.orbitaltimes",
+          "anchor.reversible",
+          "anchor.sealevel",
+          "anchor.spectral"
+        ],
+        "source_id": "claim.orbital"
+      },
+      {
+        "id": "claim:sha256:b0b48216ae7aea9b2071cfb658865c9f9b53b661ece1e0ff2754a521df5bb8d9",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.allmix",
+          "anchor.figure2",
+          "anchor.sourcechange",
+          "anchor.stable"
+        ],
+        "source_id": "claim.provenance"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.grounds.climateprimary",
+        "kind": "edge",
+        "source_id": "anchor.climateprimary",
+        "target_id": "obs.climateprimary",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.coolingfigure",
+        "kind": "edge",
+        "source_id": "anchor.figure7",
+        "target_id": "obs.coolingvariability",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.coolingtrend",
+        "kind": "edge",
+        "source_id": "anchor.coolingtrend",
+        "target_id": "obs.coolingvariability",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.endmembers",
+        "kind": "edge",
+        "source_id": "anchor.allmix",
+        "target_id": "obs.endmembers",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.monsoonconclusion",
+        "kind": "edge",
+        "source_id": "anchor.monsoonconclusion",
+        "target_id": "obs.monsoonconclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.orbitaltimes",
+        "kind": "edge",
+        "source_id": "anchor.orbitaltimes",
+        "target_id": "obs.orbitaltimes",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.reversible",
+        "kind": "edge",
+        "source_id": "anchor.reversible",
+        "target_id": "obs.reversible",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.sealevel",
+        "kind": "edge",
+        "source_id": "anchor.sealevel",
+        "target_id": "obs.sealevel",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shift.figure",
+        "kind": "edge",
+        "source_id": "anchor.figure2",
+        "target_id": "obs.shift",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shift.text",
+        "kind": "edge",
+        "source_id": "anchor.sourcechange",
+        "target_id": "obs.shift",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.spectral",
+        "kind": "edge",
+        "source_id": "anchor.spectral",
+        "target_id": "obs.spectral",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.spectralfigure",
+        "kind": "edge",
+        "source_id": "anchor.figure8",
+        "target_id": "obs.spectral",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.stable",
+        "kind": "edge",
+        "source_id": "anchor.stable",
+        "target_id": "obs.stable",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tectonicspeed",
+        "kind": "edge",
+        "source_id": "anchor.tectonicspeed",
+        "target_id": "obs.tectonicrate",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.temporal",
+        "kind": "edge",
+        "source_id": "anchor.temporal",
+        "target_id": "obs.temporal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.warmcold",
+        "kind": "edge",
+        "source_id": "anchor.warmcold",
+        "target_id": "obs.warmcold",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.changefinal",
+        "kind": "edge",
+        "source_id": "reason.provenancechange",
+        "target_id": "reason.provenancefinal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.climateprimary",
+        "kind": "edge",
+        "source_id": "obs.climateprimary",
+        "target_id": "reason.coolingsynthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.coolingtrend",
+        "kind": "edge",
+        "source_id": "obs.coolingvariability",
+        "target_id": "reason.coolingpattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.endmembers",
+        "kind": "edge",
+        "source_id": "obs.endmembers",
+        "target_id": "reason.mix",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mixfinal",
+        "kind": "edge",
+        "source_id": "reason.mix",
+        "target_id": "reason.provenancefinal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.monsoonconclusion",
+        "kind": "edge",
+        "source_id": "obs.monsoonconclusion",
+        "target_id": "reason.monsoonsynthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.nontectonic",
+        "kind": "edge",
+        "source_id": "reason.nontectonic",
+        "target_id": "reason.monsoonsynthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.orbitaltimes",
+        "kind": "edge",
+        "source_id": "obs.orbitaltimes",
+        "target_id": "reason.periodicity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.pattern",
+        "kind": "edge",
+        "source_id": "reason.coolingpattern",
+        "target_id": "reason.coolingsynthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.periodicity",
+        "kind": "edge",
+        "source_id": "reason.periodicity",
+        "target_id": "reason.monsoonsynthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.reversible",
+        "kind": "edge",
+        "source_id": "obs.reversible",
+        "target_id": "reason.nontectonic",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sealevel",
+        "kind": "edge",
+        "source_id": "obs.sealevel",
+        "target_id": "reason.sealevel",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.shift",
+        "kind": "edge",
+        "source_id": "obs.shift",
+        "target_id": "reason.provenancechange",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.spectral",
+        "kind": "edge",
+        "source_id": "obs.spectral",
+        "target_id": "reason.periodicity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.stable",
+        "kind": "edge",
+        "source_id": "obs.stable",
+        "target_id": "reason.mix",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tectonicspeed",
+        "kind": "edge",
+        "source_id": "obs.tectonicrate",
+        "target_id": "reason.tempo",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tempo",
+        "kind": "edge",
+        "source_id": "reason.tempo",
+        "target_id": "reason.coolingsynthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.temporal",
+        "kind": "edge",
+        "source_id": "obs.temporal",
+        "target_id": "reason.tempo",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.warmcold",
+        "kind": "edge",
+        "source_id": "obs.warmcold",
+        "target_id": "reason.coolingpattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.qualify.sealevel",
+        "kind": "edge",
+        "source_id": "reason.sealevel",
+        "target_id": "claim:sha256:65632d91bb88a7492be08d38eb54b2ca71f2c3d5aae76da98f702081365101c0",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.cooling",
+        "kind": "edge",
+        "source_id": "reason.coolingsynthesis",
+        "target_id": "claim:sha256:09ad30c567871a739e3459f2da3e8debf56570b92b5e71c59450ec6718981615",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.orbital",
+        "kind": "edge",
+        "source_id": "reason.monsoonsynthesis",
+        "target_id": "claim:sha256:65632d91bb88a7492be08d38eb54b2ca71f2c3d5aae76da98f702081365101c0",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.provenance",
+        "kind": "edge",
+        "source_id": "reason.provenancefinal",
+        "target_id": "claim:sha256:b0b48216ae7aea9b2071cfb658865c9f9b53b661ece1e0ff2754a521df5bb8d9",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:2d54e8c7043a7252c34e1079785f7cb445aa67bfa1d7b7ad0469eb2c288646e9",
+        "kind": "edge",
+        "source_id": "anchor.coolingtrend",
+        "target_id": "obs.temporal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:534c210172056a999d4abf2dd2081739aacbb71f3afbaa6352989de82b7d22c5",
+        "kind": "edge",
+        "source_id": "anchor.figure8",
+        "target_id": "obs.sealevel",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:9f8c93029b8bc3f35905af2078898d2d8be95ba4ed3ae89dbd0b0ffbc5edd251",
+        "kind": "edge",
+        "source_id": "anchor.figure2",
+        "target_id": "obs.orbitaltimes",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:b1b0d683f6b19012cb2dae5ebc5779c8f865cee53944a9baf70ef0f70cfed5f7",
+        "kind": "edge",
+        "source_id": "anchor.figure7",
+        "target_id": "obs.temporal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:d9327b93781a1ebeb97fd1c87ac5c8f4ddf7acf987faa2f7b2450cf88e3396c5",
+        "kind": "edge",
+        "source_id": "anchor.figure7",
+        "target_id": "obs.orbitaltimes",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

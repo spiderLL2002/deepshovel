@@ -1,0 +1,1233 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "937a9bd8106a8aea4a7cbd192f7bd15e68210a5a6d5d9f0957af2383738eb5c9",
+  "http_body_sha256": "744a810395c74c29999002983206eae9cf5c138899b5fa8b59839b013bb786f7",
+  "snapshot": {
+    "id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+    "rootArtifactVersionId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94"
+  },
+  "graph": {
+    "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+    "anchors": [
+      {
+        "id": "anchor.figure.fig7",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.cohesion",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.text.f2.stability",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.f3.comparison",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.f3.geometry",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.f3.geometry.detail",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.f3.geometry.detail.end",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.f3.slip",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.fig7",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.friction",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.text.image.logs",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.text.methods.all",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.moduli.agreement",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.moduli.method",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.mohr.result",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.orientation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.orientation.rule",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.polygon.current",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.polygon.transition.1",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.polygon.transition.2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.principal",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.recommendation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.regime",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.slip.application",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.spatial",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:16cbe676ce044dbbc0a715c00e1dcb4b5ee35114de2acd5feaa9f231562d141d",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:89ce84f5a0c8b0e7a721bd77e4d7d7698de7dd656ed9ec197bc9fa5c0d40d79f",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "selector": {
+          "page": 10
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.f2.assessed",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.f2.stability"
+        ]
+      },
+      {
+        "id": "obs.f2.methods",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.methods.all"
+        ]
+      },
+      {
+        "id": "obs.f3.slip",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.f3.slip"
+        ]
+      },
+      {
+        "id": "obs.f3.threshold",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.f3.comparison",
+          "anchor:compiler:visual:89ce84f5a0c8b0e7a721bd77e4d7d7698de7dd656ed9ec197bc9fa5c0d40d79f"
+        ]
+      },
+      {
+        "id": "obs.fig7",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.fig7",
+          "anchor.text.fig7"
+        ]
+      },
+      {
+        "id": "obs.geometry",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.f3.geometry",
+          "anchor.text.f3.geometry.detail",
+          "anchor.text.f3.geometry.detail.end",
+          "anchor:compiler:visual:16cbe676ce044dbbc0a715c00e1dcb4b5ee35114de2acd5feaa9f231562d141d"
+        ]
+      },
+      {
+        "id": "obs.image.orientation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.image.logs"
+        ]
+      },
+      {
+        "id": "obs.injection.location",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.recommendation"
+        ]
+      },
+      {
+        "id": "obs.moduli",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.moduli.agreement",
+          "anchor.text.moduli.method"
+        ]
+      },
+      {
+        "id": "obs.mohr.current",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.mohr.result",
+          "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9"
+        ]
+      },
+      {
+        "id": "obs.orientation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.orientation"
+        ]
+      },
+      {
+        "id": "obs.polygon.current",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.polygon.current",
+          "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107"
+        ]
+      },
+      {
+        "id": "obs.polygon.transition",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.polygon.transition.1",
+          "anchor.text.polygon.transition.2",
+          "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107"
+        ]
+      },
+      {
+        "id": "obs.regime",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.principal",
+          "anchor.text.regime",
+          "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f"
+        ]
+      },
+      {
+        "id": "obs.slip.application",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.slip.application"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.current.model",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.moduli.agreement",
+          "anchor.text.orientation",
+          "anchor.text.regime",
+          "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f"
+        ]
+      },
+      {
+        "id": "reason.current.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.mohr.result",
+          "anchor.text.polygon.current",
+          "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107",
+          "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9"
+        ]
+      },
+      {
+        "id": "reason.f2.evidence",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.f2.stability",
+          "anchor.text.methods.all"
+        ]
+      },
+      {
+        "id": "reason.f2.safety",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.f2.stability",
+          "anchor.text.methods.all"
+        ]
+      },
+      {
+        "id": "reason.f3.evidence",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.f3.comparison",
+          "anchor.text.f3.slip",
+          "anchor:compiler:visual:89ce84f5a0c8b0e7a721bd77e4d7d7698de7dd656ed9ec197bc9fa5c0d40d79f"
+        ]
+      },
+      {
+        "id": "reason.f3.mechanism",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.fig7",
+          "anchor.text.f3.geometry",
+          "anchor.text.f3.geometry.detail",
+          "anchor.text.f3.geometry.detail.end",
+          "anchor.text.fig7",
+          "anchor.text.orientation.rule",
+          "anchor:compiler:visual:16cbe676ce044dbbc0a715c00e1dcb4b5ee35114de2acd5feaa9f231562d141d"
+        ]
+      },
+      {
+        "id": "reason.f3.risk",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.f3.comparison",
+          "anchor.text.f3.slip",
+          "anchor:compiler:visual:89ce84f5a0c8b0e7a721bd77e4d7d7698de7dd656ed9ec197bc9fa5c0d40d79f"
+        ]
+      },
+      {
+        "id": "reason.location",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.f2.stability",
+          "anchor.text.recommendation"
+        ]
+      },
+      {
+        "id": "reason.method.concordance",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.f2.stability",
+          "anchor.text.f3.comparison",
+          "anchor.text.f3.slip",
+          "anchor.text.methods.all",
+          "anchor:compiler:visual:89ce84f5a0c8b0e7a721bd77e4d7d7698de7dd656ed9ec197bc9fa5c0d40d79f"
+        ]
+      },
+      {
+        "id": "reason.moduli.validation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.moduli.agreement",
+          "anchor.text.moduli.method"
+        ]
+      },
+      {
+        "id": "reason.mohr.interpretation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.mohr.result",
+          "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9"
+        ]
+      },
+      {
+        "id": "reason.orientation.input",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.orientation"
+        ]
+      },
+      {
+        "id": "reason.polygon.interpretation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.polygon.current",
+          "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107"
+        ]
+      },
+      {
+        "id": "reason.pressure.transition",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.polygon.transition.1",
+          "anchor.text.polygon.transition.2",
+          "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107"
+        ]
+      },
+      {
+        "id": "reason.regime.classification",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.principal",
+          "anchor.text.regime",
+          "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f"
+        ]
+      },
+      {
+        "id": "reason.slip.application",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.image.logs",
+          "anchor.text.methods.all",
+          "anchor.text.slip.application"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:59ff8db056e1697e771e7b5884ed7ba53890ed95d95ed58517e068fb035f3755",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.mohr.result",
+          "anchor.text.polygon.current",
+          "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107",
+          "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9"
+        ]
+      },
+      {
+        "id": "claim:sha256:6d6449f97fa8cb2d1e996cd10ac1f20f5af9af4fa88b113bb215ecde045b3951",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.f2.stability",
+          "anchor.text.f3.comparison",
+          "anchor.text.f3.slip",
+          "anchor.text.methods.all",
+          "anchor:compiler:visual:89ce84f5a0c8b0e7a721bd77e4d7d7698de7dd656ed9ec197bc9fa5c0d40d79f"
+        ]
+      },
+      {
+        "id": "claim:sha256:7410820e363cd0e2c258bb2d1a3acc503878b272bec5ceca690860ee2f06477a",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.image.logs",
+          "anchor.text.methods.all",
+          "anchor.text.slip.application"
+        ]
+      },
+      {
+        "id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.f2.stability",
+          "anchor.text.methods.all"
+        ]
+      },
+      {
+        "id": "claim:sha256:939083b72847a601b30d3a605c5b8c3778f1b3fb8deee724d8e2c557132014f9",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.f3.comparison",
+          "anchor.text.f3.slip",
+          "anchor:compiler:visual:89ce84f5a0c8b0e7a721bd77e4d7d7698de7dd656ed9ec197bc9fa5c0d40d79f"
+        ]
+      },
+      {
+        "id": "claim:sha256:d65fbbc564c1f8dd39b81cb938ddb5bc17ffbb822b45c57132ca5d9bdd517612",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.fig7",
+          "anchor.text.f3.geometry",
+          "anchor.text.f3.geometry.detail",
+          "anchor.text.f3.geometry.detail.end",
+          "anchor.text.fig7",
+          "anchor.text.orientation.rule",
+          "anchor:compiler:visual:16cbe676ce044dbbc0a715c00e1dcb4b5ee35114de2acd5feaa9f231562d141d"
+        ]
+      },
+      {
+        "id": "claim:sha256:e4666180b331d55287579b920bfb2a88a49aacd71aca63f7340b1de5aff0bbbb",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.text.f2.stability",
+          "anchor.text.recommendation"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.cohesion",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.cohesion"
+        ]
+      },
+      {
+        "id": "assumption.friction",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.friction"
+        ]
+      },
+      {
+        "id": "assumption.orientation.rule",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.orientation.rule"
+        ]
+      },
+      {
+        "id": "assumption.spatial",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.spatial"
+        ]
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+        "sha256": "f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.assumption.001",
+        "source_id": "assumption.cohesion",
+        "target_id": "reason.f2.evidence",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.002",
+        "source_id": "assumption.friction",
+        "target_id": "reason.f2.evidence",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.003",
+        "source_id": "assumption.spatial",
+        "target_id": "reason.f2.evidence",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.004",
+        "source_id": "assumption.cohesion",
+        "target_id": "reason.f3.evidence",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.005",
+        "source_id": "assumption.friction",
+        "target_id": "reason.f3.evidence",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.006",
+        "source_id": "assumption.spatial",
+        "target_id": "reason.f3.evidence",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.007",
+        "source_id": "assumption.orientation.rule",
+        "target_id": "reason.f3.mechanism",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.001",
+        "source_id": "anchor.text.moduli.method",
+        "target_id": "obs.moduli",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.002",
+        "source_id": "anchor.text.moduli.agreement",
+        "target_id": "obs.moduli",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.003",
+        "source_id": "anchor.text.orientation",
+        "target_id": "obs.orientation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.004",
+        "source_id": "anchor.text.principal",
+        "target_id": "obs.regime",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.005",
+        "source_id": "anchor.text.regime",
+        "target_id": "obs.regime",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.006",
+        "source_id": "anchor.text.mohr.result",
+        "target_id": "obs.mohr.current",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.007",
+        "source_id": "anchor.text.polygon.current",
+        "target_id": "obs.polygon.current",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.008",
+        "source_id": "anchor.text.polygon.transition.1",
+        "target_id": "obs.polygon.transition",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.009",
+        "source_id": "anchor.text.polygon.transition.2",
+        "target_id": "obs.polygon.transition",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.010",
+        "source_id": "anchor.text.f2.stability",
+        "target_id": "obs.f2.assessed",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.011",
+        "source_id": "anchor.text.methods.all",
+        "target_id": "obs.f2.methods",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.012",
+        "source_id": "anchor.text.f3.comparison",
+        "target_id": "obs.f3.threshold",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.013",
+        "source_id": "anchor.text.f3.slip",
+        "target_id": "obs.f3.slip",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.014",
+        "source_id": "anchor.text.f3.geometry",
+        "target_id": "obs.geometry",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.015",
+        "source_id": "anchor.text.f3.geometry.detail",
+        "target_id": "obs.geometry",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.016",
+        "source_id": "anchor.text.f3.geometry.detail.end",
+        "target_id": "obs.geometry",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.017",
+        "source_id": "anchor.text.fig7",
+        "target_id": "obs.fig7",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.018",
+        "source_id": "anchor.figure.fig7",
+        "target_id": "obs.fig7",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.019",
+        "source_id": "anchor.text.image.logs",
+        "target_id": "obs.image.orientation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.020",
+        "source_id": "anchor.text.slip.application",
+        "target_id": "obs.slip.application",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.021",
+        "source_id": "anchor.text.recommendation",
+        "target_id": "obs.injection.location",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.001",
+        "source_id": "obs.moduli",
+        "target_id": "reason.moduli.validation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.002",
+        "source_id": "obs.orientation",
+        "target_id": "reason.orientation.input",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.003",
+        "source_id": "obs.regime",
+        "target_id": "reason.regime.classification",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.004",
+        "source_id": "reason.moduli.validation",
+        "target_id": "reason.current.model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.005",
+        "source_id": "reason.orientation.input",
+        "target_id": "reason.current.model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.006",
+        "source_id": "reason.regime.classification",
+        "target_id": "reason.current.model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.007",
+        "source_id": "obs.mohr.current",
+        "target_id": "reason.mohr.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.008",
+        "source_id": "obs.polygon.current",
+        "target_id": "reason.polygon.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.009",
+        "source_id": "reason.current.model",
+        "target_id": "reason.current.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.010",
+        "source_id": "reason.mohr.interpretation",
+        "target_id": "reason.current.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.011",
+        "source_id": "reason.polygon.interpretation",
+        "target_id": "reason.current.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.012",
+        "source_id": "obs.polygon.transition",
+        "target_id": "reason.pressure.transition",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.013",
+        "source_id": "reason.current.synthesis",
+        "target_id": "reason.pressure.transition",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.014",
+        "source_id": "obs.f2.assessed",
+        "target_id": "reason.f2.evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.015",
+        "source_id": "obs.f2.methods",
+        "target_id": "reason.f2.evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.016",
+        "source_id": "obs.f3.threshold",
+        "target_id": "reason.f3.evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.017",
+        "source_id": "obs.f3.slip",
+        "target_id": "reason.f3.evidence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.018",
+        "source_id": "obs.geometry",
+        "target_id": "reason.f3.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.019",
+        "source_id": "obs.fig7",
+        "target_id": "reason.f3.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.020",
+        "source_id": "reason.regime.classification",
+        "target_id": "reason.f3.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.021",
+        "source_id": "reason.f2.evidence",
+        "target_id": "reason.f2.safety",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.022",
+        "source_id": "reason.current.synthesis",
+        "target_id": "reason.f2.safety",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.023",
+        "source_id": "reason.pressure.transition",
+        "target_id": "reason.f2.safety",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.024",
+        "source_id": "reason.f3.evidence",
+        "target_id": "reason.f3.risk",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.025",
+        "source_id": "reason.f3.mechanism",
+        "target_id": "reason.f3.risk",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.026",
+        "source_id": "reason.pressure.transition",
+        "target_id": "reason.f3.risk",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.027",
+        "source_id": "reason.f2.evidence",
+        "target_id": "reason.method.concordance",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.028",
+        "source_id": "reason.f3.evidence",
+        "target_id": "reason.method.concordance",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.029",
+        "source_id": "obs.image.orientation",
+        "target_id": "reason.slip.application",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.030",
+        "source_id": "reason.method.concordance",
+        "target_id": "reason.slip.application",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.031",
+        "source_id": "obs.slip.application",
+        "target_id": "reason.slip.application",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.032",
+        "source_id": "obs.injection.location",
+        "target_id": "reason.location",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.033",
+        "source_id": "reason.f2.safety",
+        "target_id": "reason.location",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.001",
+        "source_id": "reason.current.synthesis",
+        "target_id": "claim:sha256:59ff8db056e1697e771e7b5884ed7ba53890ed95d95ed58517e068fb035f3755",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.003",
+        "source_id": "reason.f2.safety",
+        "target_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.004",
+        "source_id": "reason.f3.risk",
+        "target_id": "claim:sha256:939083b72847a601b30d3a605c5b8c3778f1b3fb8deee724d8e2c557132014f9",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.005",
+        "source_id": "reason.f3.mechanism",
+        "target_id": "claim:sha256:d65fbbc564c1f8dd39b81cb938ddb5bc17ffbb822b45c57132ca5d9bdd517612",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.006",
+        "source_id": "reason.location",
+        "target_id": "claim:sha256:e4666180b331d55287579b920bfb2a88a49aacd71aca63f7340b1de5aff0bbbb",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.007",
+        "source_id": "reason.method.concordance",
+        "target_id": "claim:sha256:6d6449f97fa8cb2d1e996cd10ac1f20f5af9af4fa88b113bb215ecde045b3951",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.008",
+        "source_id": "reason.slip.application",
+        "target_id": "claim:sha256:7410820e363cd0e2c258bb2d1a3acc503878b272bec5ceca690860ee2f06477a",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:7dccaaec6eeacf0104d1bb8c0a77b079d91b0fdf87cf60b282f301354a626f66",
+        "source_id": "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107",
+        "target_id": "obs.polygon.current",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:9d70493179d2e5dacf6b395f19c8b52ec796760f92215971a41dc9c478418eac",
+        "source_id": "anchor:compiler:visual:16cbe676ce044dbbc0a715c00e1dcb4b5ee35114de2acd5feaa9f231562d141d",
+        "target_id": "obs.geometry",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:bd38352884405b60236422e6533e6f40131083b4b8ac1e3898807100aa791ff1",
+        "source_id": "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107",
+        "target_id": "obs.polygon.transition",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:bf2d4663f4d95fce1b9b9feb7236168374ed55b8dadaf554e92e41768c7fd85d",
+        "source_id": "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9",
+        "target_id": "obs.mohr.current",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:ca1c3ea7c0f871df55ad7fd0e745e5c6e0daa9b24ae7e984947179fbbf12626e",
+        "source_id": "anchor:compiler:visual:89ce84f5a0c8b0e7a721bd77e4d7d7698de7dd656ed9ec197bc9fa5c0d40d79f",
+        "target_id": "obs.f3.threshold",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:da00e5012d501570367819af5e399db7cbaf2f828aeab6486472b80f654069d9",
+        "source_id": "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f",
+        "target_id": "obs.regime",
+        "relation": "grounds"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:dff697e0ad1dc4de301a6adf770bc65c764e6ec418b3c34e83bb539f07794c48",
+        "entity_ids": [
+          "anchor.figure.fig7",
+          "anchor.text.cohesion",
+          "anchor.text.f2.stability",
+          "anchor.text.f3.comparison",
+          "anchor.text.f3.geometry",
+          "anchor.text.f3.geometry.detail",
+          "anchor.text.f3.geometry.detail.end",
+          "anchor.text.f3.slip",
+          "anchor.text.fig7",
+          "anchor.text.friction",
+          "anchor.text.image.logs",
+          "anchor.text.methods.all",
+          "anchor.text.moduli.agreement",
+          "anchor.text.moduli.method",
+          "anchor.text.mohr.result",
+          "anchor.text.orientation",
+          "anchor.text.orientation.rule",
+          "anchor.text.polygon.current",
+          "anchor.text.polygon.transition.1",
+          "anchor.text.polygon.transition.2",
+          "anchor.text.principal",
+          "anchor.text.recommendation",
+          "anchor.text.regime",
+          "anchor.text.slip.application",
+          "anchor.text.spatial",
+          "anchor:compiler:visual:16cbe676ce044dbbc0a715c00e1dcb4b5ee35114de2acd5feaa9f231562d141d",
+          "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107",
+          "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f",
+          "anchor:compiler:visual:89ce84f5a0c8b0e7a721bd77e4d7d7698de7dd656ed9ec197bc9fa5c0d40d79f",
+          "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9",
+          "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "assumption.cohesion",
+          "assumption.friction",
+          "assumption.orientation.rule",
+          "assumption.spatial",
+          "claim:sha256:59ff8db056e1697e771e7b5884ed7ba53890ed95d95ed58517e068fb035f3755",
+          "claim:sha256:6d6449f97fa8cb2d1e996cd10ac1f20f5af9af4fa88b113bb215ecde045b3951",
+          "claim:sha256:7410820e363cd0e2c258bb2d1a3acc503878b272bec5ceca690860ee2f06477a",
+          "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+          "claim:sha256:939083b72847a601b30d3a605c5b8c3778f1b3fb8deee724d8e2c557132014f9",
+          "claim:sha256:d65fbbc564c1f8dd39b81cb938ddb5bc17ffbb822b45c57132ca5d9bdd517612",
+          "claim:sha256:e4666180b331d55287579b920bfb2a88a49aacd71aca63f7340b1de5aff0bbbb",
+          "obs.f2.assessed",
+          "obs.f2.methods",
+          "obs.f3.slip",
+          "obs.f3.threshold",
+          "obs.fig7",
+          "obs.geometry",
+          "obs.image.orientation",
+          "obs.injection.location",
+          "obs.moduli",
+          "obs.mohr.current",
+          "obs.orientation",
+          "obs.polygon.current",
+          "obs.polygon.transition",
+          "obs.regime",
+          "obs.slip.application",
+          "reason.current.model",
+          "reason.current.synthesis",
+          "reason.f2.evidence",
+          "reason.f2.safety",
+          "reason.f3.evidence",
+          "reason.f3.mechanism",
+          "reason.f3.risk",
+          "reason.location",
+          "reason.method.concordance",
+          "reason.moduli.validation",
+          "reason.mohr.interpretation",
+          "reason.orientation.input",
+          "reason.polygon.interpretation",
+          "reason.pressure.transition",
+          "reason.regime.classification",
+          "reason.slip.application"
+        ],
+        "edge_ids": [
+          "edge.assumption.001",
+          "edge.assumption.002",
+          "edge.assumption.003",
+          "edge.assumption.004",
+          "edge.assumption.005",
+          "edge.assumption.006",
+          "edge.assumption.007",
+          "edge.grounds.001",
+          "edge.grounds.002",
+          "edge.grounds.003",
+          "edge.grounds.004",
+          "edge.grounds.005",
+          "edge.grounds.006",
+          "edge.grounds.007",
+          "edge.grounds.008",
+          "edge.grounds.009",
+          "edge.grounds.010",
+          "edge.grounds.011",
+          "edge.grounds.012",
+          "edge.grounds.013",
+          "edge.grounds.014",
+          "edge.grounds.015",
+          "edge.grounds.016",
+          "edge.grounds.017",
+          "edge.grounds.018",
+          "edge.grounds.019",
+          "edge.grounds.020",
+          "edge.grounds.021",
+          "edge.premise.001",
+          "edge.premise.002",
+          "edge.premise.003",
+          "edge.premise.004",
+          "edge.premise.005",
+          "edge.premise.006",
+          "edge.premise.007",
+          "edge.premise.008",
+          "edge.premise.009",
+          "edge.premise.010",
+          "edge.premise.011",
+          "edge.premise.012",
+          "edge.premise.013",
+          "edge.premise.014",
+          "edge.premise.015",
+          "edge.premise.016",
+          "edge.premise.017",
+          "edge.premise.018",
+          "edge.premise.019",
+          "edge.premise.020",
+          "edge.premise.021",
+          "edge.premise.022",
+          "edge.premise.023",
+          "edge.premise.024",
+          "edge.premise.025",
+          "edge.premise.026",
+          "edge.premise.027",
+          "edge.premise.028",
+          "edge.premise.029",
+          "edge.premise.030",
+          "edge.premise.031",
+          "edge.premise.032",
+          "edge.premise.033",
+          "edge.support.001",
+          "edge.support.003",
+          "edge.support.004",
+          "edge.support.005",
+          "edge.support.006",
+          "edge.support.007",
+          "edge.support.008",
+          "edge:compiler:7dccaaec6eeacf0104d1bb8c0a77b079d91b0fdf87cf60b282f301354a626f66",
+          "edge:compiler:9d70493179d2e5dacf6b395f19c8b52ec796760f92215971a41dc9c478418eac",
+          "edge:compiler:bd38352884405b60236422e6533e6f40131083b4b8ac1e3898807100aa791ff1",
+          "edge:compiler:bf2d4663f4d95fce1b9b9feb7236168374ed55b8dadaf554e92e41768c7fd85d",
+          "edge:compiler:ca1c3ea7c0f871df55ad7fd0e745e5c6e0daa9b24ae7e984947179fbbf12626e",
+          "edge:compiler:da00e5012d501570367819af5e399db7cbaf2f828aeab6486472b80f654069d9"
+        ]
+      }
+    ]
+  }
+}

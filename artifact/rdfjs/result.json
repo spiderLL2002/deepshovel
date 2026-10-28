@@ -1,0 +1,45 @@
+{
+  "library": {
+    "package": "jsonld",
+    "version": "9.0.0",
+    "node": "v26.3.0"
+  },
+  "input_sha256": "2ec791cc957e08d9f2d4b586abb6024612852d067166f65c0c500ba5352a3694",
+  "rdf_quads": 57,
+  "rdf_default_graph_quads": 57,
+  "rdf_subjects": 6,
+  "lineage": {
+    "record": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:record",
+    "preparation": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:preparation",
+    "derived_from": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:imported",
+    "used": [
+      "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:anchor",
+      "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:imported",
+      "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:observation"
+    ],
+    "selected_anchor": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:anchor",
+    "selected_observation": "urn:deepshovel:reuse:sha256:54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463:observation",
+    "source_version": "urn:deepshovel:artifact:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99"
+  },
+  "prepared": {
+    "value": "55–57",
+    "unit": "MPa",
+    "conditions": "F2; Asmari reservoir; Gachsaran oilfield, SW Iran; zero cohesion and friction coefficient 0.6; 3D Mohr diagrams, slip tendency and modified slip tendency.",
+    "conclusion": "qualified_reuse"
+  },
+  "source_reading": {
+    "conclusion": "qualified_reuse",
+    "notes": "Automated UI verification after independent AI source reading. Author summary is 55–57 MPa. Table 4 Pc: 55.03/55.31 MPa; PCr: 57.58/57.81 MPa. The stored numeric 55 is only the range lower bound. The source sentence is in the right lower column on PDF p.11; the imported left-column rectangle remains preserved for comparison. This run builds the observation branch in the local browser from separately supplied recorded graph data.",
+    "authorship": "local operator entry"
+  },
+  "source_sha256": "f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+  "recorded_file_check": "verified",
+  "current_file_check": "not_rechecked",
+  "recovered_utf8_bytes": 214323,
+  "recovered_sha256": "ea03972266cc720c7b52706f76bd1fed542fc17de88b31f438a034f36c54d26d",
+  "exact_utf8_literal_recovery": true,
+  "canonical_payload_sha256": "54ac83a1ddad95f7e179d64b636ce9e97da1c37fc4dd34173da3c29b79fa6463",
+  "record_id_hash_matches": true,
+  "canonical_payload_strict_json_types_match": true,
+  "scope": "Two implementations, ONE record when paired with prior Python RDFLib run. This JavaScript run alone is one independent library read; no external application adoption, generic semantic understanding, scientific validation or user benefit inferred. Domain path edges remain JSON literals; no new RDF domain edges were invented."
+}

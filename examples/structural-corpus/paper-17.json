@@ -1,0 +1,659 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+  "snapshot_id": "snapshot:sha256:0067ab8f0df2d9c4211722f7acb421245154c8167fc1435eae6aedb47ee47b82",
+  "original_graph_json_sha256": "0067ab8f0df2d9c4211722f7acb421245154c8167fc1435eae6aedb47ee47b82",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:2663fce6-8de8-441d-a4c6-72ccd1097203",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:2663fce6-8de8-441d-a4c6-72ccd1097203",
+        "sha256": "48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.fig13",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.fig14",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.fig15",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.fig15_caption",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.fig15_text",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.fig15_token",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.four_sequences",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "anchor.lb_fig13_token",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.lb_leaching",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.lb_threshold",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.lb_top_dissolution",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.log_fig14_text",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.log_fig14_token",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.meteoric_exposure",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.other_fig13_token",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.other_threshold",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.pore_origin",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "anchor.pore_types",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.porous_hst",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.sea_level_fall",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.sequence_exposures",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "anchor.sequence_meteoric",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "anchor.tight_tst",
+        "artifact_version_id": "artifact-version:sha256:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.fig15_model",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig15",
+          "anchor.fig15_caption",
+          "anchor.fig15_text",
+          "anchor.fig15_token"
+        ]
+      },
+      {
+        "id": "obs.lb_dissolution",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.lb_leaching",
+          "anchor.lb_top_dissolution",
+          "anchor.pore_types"
+        ]
+      },
+      {
+        "id": "obs.lb_poroperm",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig13",
+          "anchor.lb_fig13_token",
+          "anchor.lb_threshold"
+        ]
+      },
+      {
+        "id": "obs.log_zones",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig14",
+          "anchor.log_fig14_text",
+          "anchor.log_fig14_token"
+        ]
+      },
+      {
+        "id": "obs.meteoric_interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.meteoric_exposure",
+          "anchor.sea_level_fall"
+        ]
+      },
+      {
+        "id": "obs.other_poroperm",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig13",
+          "anchor.other_fig13_token",
+          "anchor.other_threshold"
+        ]
+      },
+      {
+        "id": "obs.pore_origin_assertion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.pore_origin"
+        ]
+      },
+      {
+        "id": "obs.sequence_count",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.four_sequences"
+        ]
+      },
+      {
+        "id": "obs.sequence_exposures",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.sequence_exposures"
+        ]
+      },
+      {
+        "id": "obs.zone_facies_tracts",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig14",
+          "anchor.porous_hst",
+          "anchor.tight_tst"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.highstand_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig14",
+          "anchor.fig15",
+          "anchor.fig15_caption",
+          "anchor.fig15_text",
+          "anchor.fig15_token",
+          "anchor.four_sequences",
+          "anchor.log_fig14_text",
+          "anchor.porous_hst",
+          "anchor.sequence_exposures",
+          "anchor.sequence_meteoric",
+          "anchor.tight_tst"
+        ]
+      },
+      {
+        "id": "reason.meteoric_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.lb_leaching",
+          "anchor.lb_top_dissolution",
+          "anchor.meteoric_exposure",
+          "anchor.pore_origin",
+          "anchor.pore_types"
+        ]
+      },
+      {
+        "id": "reason.poroperm_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.lb_threshold",
+          "anchor.other_threshold"
+        ]
+      },
+      {
+        "id": "reason.stratigraphic_mapping",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.fig14",
+          "anchor.log_fig14_text",
+          "anchor.porous_hst",
+          "anchor.tight_tst"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:39b305d0d0d04b3d645c6b8d920040e3c2bba78c78d8722629ea26e2b2d71925",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.lb_leaching",
+          "anchor.lb_top_dissolution",
+          "anchor.meteoric_exposure",
+          "anchor.pore_origin",
+          "anchor.pore_types",
+          "anchor.sea_level_fall"
+        ],
+        "source_id": "claim.meteoric_pore_generation"
+      },
+      {
+        "id": "claim:sha256:4334a5bb0f42fd85db8a0e13360a3e2250287cadc198489f3217bb83ab02eef4",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig13",
+          "anchor.lb_fig13_token",
+          "anchor.lb_threshold",
+          "anchor.other_fig13_token",
+          "anchor.other_threshold"
+        ],
+        "source_id": "claim.reservoir_quality"
+      },
+      {
+        "id": "claim:sha256:9922bdcdf6182d69eecbd3c2cc8688b2a99452b01dc792db81b964319e89e649",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig14",
+          "anchor.fig15",
+          "anchor.fig15_caption",
+          "anchor.fig15_text",
+          "anchor.fig15_token",
+          "anchor.four_sequences",
+          "anchor.log_fig14_text",
+          "anchor.log_fig14_token",
+          "anchor.porous_hst",
+          "anchor.sequence_exposures",
+          "anchor.sequence_meteoric",
+          "anchor.tight_tst"
+        ],
+        "source_id": "claim.highstand_distribution"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.ground.fig13.lb",
+        "kind": "edge",
+        "source_id": "anchor.fig13",
+        "target_id": "obs.lb_poroperm",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fig13.other",
+        "kind": "edge",
+        "source_id": "anchor.fig13",
+        "target_id": "obs.other_poroperm",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fig14",
+        "kind": "edge",
+        "source_id": "anchor.fig14",
+        "target_id": "obs.log_zones",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fig15",
+        "kind": "edge",
+        "source_id": "anchor.fig15",
+        "target_id": "obs.fig15_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fig15_caption",
+        "kind": "edge",
+        "source_id": "anchor.fig15_caption",
+        "target_id": "obs.fig15_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fig15_text",
+        "kind": "edge",
+        "source_id": "anchor.fig15_text",
+        "target_id": "obs.fig15_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.fig15_token",
+        "kind": "edge",
+        "source_id": "anchor.fig15_token",
+        "target_id": "obs.fig15_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.four_sequences",
+        "kind": "edge",
+        "source_id": "anchor.four_sequences",
+        "target_id": "obs.sequence_count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.lb_fig13_token",
+        "kind": "edge",
+        "source_id": "anchor.lb_fig13_token",
+        "target_id": "obs.lb_poroperm",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.lb_leaching",
+        "kind": "edge",
+        "source_id": "anchor.lb_leaching",
+        "target_id": "obs.lb_dissolution",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.lb_threshold",
+        "kind": "edge",
+        "source_id": "anchor.lb_threshold",
+        "target_id": "obs.lb_poroperm",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.lb_top_dissolution",
+        "kind": "edge",
+        "source_id": "anchor.lb_top_dissolution",
+        "target_id": "obs.lb_dissolution",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.log_text",
+        "kind": "edge",
+        "source_id": "anchor.log_fig14_text",
+        "target_id": "obs.log_zones",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.log_token",
+        "kind": "edge",
+        "source_id": "anchor.log_fig14_token",
+        "target_id": "obs.log_zones",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.meteoric_exposure",
+        "kind": "edge",
+        "source_id": "anchor.meteoric_exposure",
+        "target_id": "obs.meteoric_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.other_fig13_token",
+        "kind": "edge",
+        "source_id": "anchor.other_fig13_token",
+        "target_id": "obs.other_poroperm",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.other_threshold",
+        "kind": "edge",
+        "source_id": "anchor.other_threshold",
+        "target_id": "obs.other_poroperm",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.pore_origin",
+        "kind": "edge",
+        "source_id": "anchor.pore_origin",
+        "target_id": "obs.pore_origin_assertion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.pore_types",
+        "kind": "edge",
+        "source_id": "anchor.pore_types",
+        "target_id": "obs.lb_dissolution",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.porous_hst",
+        "kind": "edge",
+        "source_id": "anchor.porous_hst",
+        "target_id": "obs.zone_facies_tracts",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.sea_level_fall",
+        "kind": "edge",
+        "source_id": "anchor.sea_level_fall",
+        "target_id": "obs.meteoric_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.sequence_exposures",
+        "kind": "edge",
+        "source_id": "anchor.sequence_exposures",
+        "target_id": "obs.sequence_exposures",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.tight_tst",
+        "kind": "edge",
+        "source_id": "anchor.tight_tst",
+        "target_id": "obs.zone_facies_tracts",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.exposures",
+        "kind": "edge",
+        "source_id": "obs.sequence_exposures",
+        "target_id": "reason.highstand_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.lb",
+        "kind": "edge",
+        "source_id": "obs.lb_poroperm",
+        "target_id": "reason.poroperm_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.lb_dissolution",
+        "kind": "edge",
+        "source_id": "obs.lb_dissolution",
+        "target_id": "reason.meteoric_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.log_zones",
+        "kind": "edge",
+        "source_id": "obs.log_zones",
+        "target_id": "reason.stratigraphic_mapping",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.meteoric",
+        "kind": "edge",
+        "source_id": "obs.meteoric_interpretation",
+        "target_id": "reason.meteoric_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.model",
+        "kind": "edge",
+        "source_id": "obs.fig15_model",
+        "target_id": "reason.highstand_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.other",
+        "kind": "edge",
+        "source_id": "obs.other_poroperm",
+        "target_id": "reason.poroperm_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.pore_origin",
+        "kind": "edge",
+        "source_id": "obs.pore_origin_assertion",
+        "target_id": "reason.meteoric_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.sequence_count",
+        "kind": "edge",
+        "source_id": "obs.sequence_count",
+        "target_id": "reason.highstand_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.strat_mapping",
+        "kind": "edge",
+        "source_id": "reason.stratigraphic_mapping",
+        "target_id": "reason.highstand_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.zone_tracts",
+        "kind": "edge",
+        "source_id": "obs.zone_facies_tracts",
+        "target_id": "reason.stratigraphic_mapping",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.highstand",
+        "kind": "edge",
+        "source_id": "reason.highstand_synthesis",
+        "target_id": "claim:sha256:9922bdcdf6182d69eecbd3c2cc8688b2a99452b01dc792db81b964319e89e649",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.meteoric",
+        "kind": "edge",
+        "source_id": "reason.meteoric_synthesis",
+        "target_id": "claim:sha256:39b305d0d0d04b3d645c6b8d920040e3c2bba78c78d8722629ea26e2b2d71925",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.quality",
+        "kind": "edge",
+        "source_id": "reason.poroperm_synthesis",
+        "target_id": "claim:sha256:4334a5bb0f42fd85db8a0e13360a3e2250287cadc198489f3217bb83ab02eef4",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:f7bdbbd8c6b0dacd812c42b3d7cfea05bf17a6748c32bc15e203ea56395d5536",
+        "kind": "edge",
+        "source_id": "anchor.fig14",
+        "target_id": "obs.zone_facies_tracts",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

@@ -1,0 +1,386 @@
+[
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:0e4cd2f89fbb8ab8f5a501fd57208462b3f11eed7dce4b42a2f0b3c3ac18a946",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "Afar地壳过渡及熔体背景，无厚度均值和对比。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:a032658bd24e6cceb4df87a363357b8bb904500499d33a198d68d0130d8f0261",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "索马里兰—也门共轭边缘Moho结构，空间范围不同。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:4e224bc32e54812d99c1b35fc9118122d3f7ade270ee9c7bad738fb5bf8a36c2",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "埃及及北红海25–40 km是不同区域测厚。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:615207b3350b7e2f9f02790c5020be52d21739fa0b284d76ee97e01ab1b0ded9",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "地幔热流与通道化，不提供地壳厚度。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:1dc42a884e2b19507b3fa18677534795982cba42f75018b337cf48d15e2a005c",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "亚丁湾脆性层厚度不是目标Afar全地壳厚度。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:e47613107a5972b278c96329ff36e26c4e31480ed5a6020c88b0cf350ef1c8a8",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "阿曼碳酸盐沉积旋回，不是地壳测厚。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:a35bd0060db25607d51f8d5dbfdd1fe091bbf3964995652ebaa793e865c483f4",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "沙特阿拉伯地壳测厚，不能替代Afar剖面。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:569068d9e09af8dbba8d1f4eed2030de37d5f2521e54983a28219218dc25b4a3",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "目标剖面Vp/Vs梯度，不直接回答厚度估计。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:d28d18af77d8276bde3939bedfcc413a8c2d023d25fdf2de882ca9550a6c168e",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "伊朗岩浆来源，与目标无关。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:e9de8c665098eb5aeb08d7e268815ee12f228472980f0e90bc62394e2c170764",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "I/TOC氧化代理，与目标无关。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:798e57a1258d4c9fa33da736331722d23432cc26f375a05c457fd5d22996cabd",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "Emperor混合物源，不给请求关系。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:afef6f92a63d3f7fa09fcb7dbdc4293e5a188f5c5ea1156605191ed7bffb694a",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "Agulhas水团比例，不是粒度底流关系。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:d499a53d40b281186266938bf47a0450d27de438d89b0c6316437252256bf958",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "Atlantic同位素与生产力，不是目标。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:15be9f2b5604fac54eeaa0213b8c18da0a38e1e8d70df203a6d42f4f5ab21f44",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "Emperor风尘来源纬度分区，不给粒度深度或底流关系。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:af6129997391e1c136c2e5a853443366e1fba07b8aee6a8731e73478c1de7ce3",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "DSDP278古ACC流速记录，不是Emperor表层粒度深度关系。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:057c091445d9e7d0fd694d7ecce457ba896dc69b4d75f64ed4d101c7c2ae54ac",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "湖泊Mo/U氧化还原累积，不是目标粒度。",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:939083b72847a601b30d3a605c5b8c3778f1b3fb8deee724d8e2c557132014f9",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "F3最低再活化阈值不是F2最大孔压",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "Khuff裂缝渗流非F2阈值",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:5cdf009af0609c94a6604fa7b05be71fcabcf052c6b0e95ff0c98e1bc99b4d46",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "一般水库孔弹性响应背景无F2最大孔压",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:6d6449f97fa8cb2d1e996cd10ac1f20f5af9af4fa88b113bb215ecde045b3951",
+    "relevance": 3,
+    "scope_error": false,
+    "rationale": "原文完整给F2最大55至57MPa、三种方法一致最稳定及无黏聚力假设",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:f878b2ae2ec5beee2076c7db2a44d2b3260c12134275243dc55a750f9d07c37b",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "封闭断层与井距压力响应非F2阈值",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:a5f283b407e0158a7161d121b4588a4ac89c855fabfe9c833ba6193821b436ea",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "Mansourabad储层连通性非F2阈值",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+    "relevance": 3,
+    "scope_error": false,
+    "rationale": "原文给55至57MPa最大孔压及三方法F2最稳定，注明无黏聚力模型",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:7a274e7d60ac0860e4ebeaa22ea89fc28a0cd1ddb139654ba9257eafe64f977d",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "沉积氧化还原分带非断层压力",
+    "source_label_file": "judgments_q16_q50.json"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:ee4f0fca4cdfac6e5ddc72f76a0516c6ea8dfedba76b0fb0c7b3601d24f1ff68",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "埃迪卡拉海洋碱度",
+    "source_label_file": "judgments_q51_q85.json"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:60219d9d7d295f4b86020bac4e87f084de0a21aabdb38a311ca429f92acfca55",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "海滩硝酸盐损失",
+    "source_label_file": "judgments_q51_q85.json"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:e7e242049853df0333130b511d98d484f495c50c62b5643e46454326b98c7405",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "沉积物TA来源72%非NCA占TA",
+    "source_label_file": "judgments_q51_q85.json"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:bfb2b91e9efb5d8b399ac1c9ae70541657407ee6f26ec55ee13583b4bcb3708c",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "珊瑚碳酸盐REE保存，非NCA碱度",
+    "source_label_file": "judgments_q51_q85.json"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:a4e8ef2609deb0e67e3df6466752397b4fae906bcea8cad5ea9565ecc55d3403",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "缺氧湾TIC/TA生成背景",
+    "source_label_file": "judgments_q51_q85.json"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:4a6f741cb14d06ce13693d329c6ee05e3c4c42447dd2ee300e4a53b04bb9888b",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "Puck总碱度产生机制，非目标NCA份额",
+    "source_label_file": "judgments_q51_q85.json"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:992bc2b50361ac73f68f8da67f5edc040951759b0c04c04d4a1936c7048c1811",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "北钙质阿尔卑斯蒸发岩分布，与NCA碱度无关",
+    "source_label_file": "judgments_q51_q85.json"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:b5efd77b069a82da000ffd256c7c998bf898e8310c0dc0465feb85c0b55ea114",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "火山海水pH变化组分非NCA份额",
+    "source_label_file": "judgments_q51_q85.json"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:cea560ec24c844fdadd60a0d617d2c5830947363ebd252d394330377dabdc039",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "Werribee沉积实验非印度年度量",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:a51fa085c2d2fc87d3c2a9fd335f5b7a75a09b6ce840e086bb07bff2365846b1",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "蓝洞氮损失不是印度西岸陆架",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:9feb7c8b424e1dd30f9f4da19dcabd78452a7a93731c58f5f3ed601de6db85c0",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "同陆架0.05–0.38Tg为N2O排放，不是总反硝化N损失预算",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:81ee798848f2fec0963b686731ee038ac8a0d9313da4e163b489e45471d38e09",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "SBB氮汇非印度陆架",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:9dea7c53752b25e15434abb9d9e30e8c13246af2e7abb66bf3418b0ff942cd9c",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "智利氮损失非印度陆架",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:241a4de5fb255d7247daed6cd47fadbfce2f1d34bae5f97869c3fdfc768013f0",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "阿拉伯海季风OMZ机制无年度预算",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:73f1f06e6fa578fc30a3f9383138aaceb9b40497e075a6ab4fa8d062e4e0c79e",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "秘鲁年度anammox预算不是印度反硝化",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:dc94062bb6c97d09552cbb7e362b5c55054216b8a3da3ad81659979aac16a98a",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "Kimmeridgian年缺氧无现代预算",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:71d4daef37b0bb44010733c7cce126edde6e0c535e6c4e8cfcb6167691d1da48",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "灭绝恢复千万年不是崩溃持续时间",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:36454409020afe1f2a52391a7c349641216ffd2b54b4aa857e8961772875e10d",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "同区盐度温度偏差未给崩溃时长",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:04e9b1d782fd8654504bb203ae3689a09fcb6fc321c2482de549c8f76d72df49",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "同剖面径流缺氧机制无时长",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:730b6b5fdc1d2e11c9aca2923a2724487b10f613957849dfebd743f4771841f8",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "两幕灭绝模式未给目标估算",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:6d14186e542e3b6a4bc3e69e794a03d16fe15a407ac6e31e4feeb30da179449b",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "三叠纪恢复迟缓不是目标崩溃时长",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:02a3562bf5ca493ffe73d45b36ea2a5a90f35e6858b368546c9a712f853ed4ea",
+    "relevance": 1,
+    "scope_error": false,
+    "rationale": "同剖面缺氧发展未量化崩溃时间",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:c40a972769cfc5267784fe5ef142148f2e70d05497ce034d8a9eb1ff76001d3a",
+    "relevance": 0,
+    "scope_error": false,
+    "rationale": "海洋P停留时间无关",
+    "source_label_file": "judgments_q86_q120.json"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:8eb083a6149df96599a87442fafc705fbcb4c7c7bffd6579a9fd0dc690ebf129",
+    "relevance": 1,
+    "scope_error": true,
+    "rationale": "新疆陆地慢速演替不是Fiskegrav持续时间",
+    "source_label_file": "judgments_q86_q120.json"
+  }
+]

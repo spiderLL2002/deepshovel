@@ -1,0 +1,386 @@
+[
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:0e4cd2f89fbb8ab8f5a501fd57208462b3f11eed7dce4b42a2f0b3c3ac18a946",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.12将中Afar地壳解释为减薄大陆壳至新洋壳的过渡，并给Vp=5.1 km/s、约10%熔体；是厚度解释背景，未给所问厚度均值或空间对比，速度与熔体比例不是厚度替代值。"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:a032658bd24e6cceb4df87a363357b8bb904500499d33a198d68d0130d8f0261",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.8图7是Somaliland–Yemen共轭陆缘的重力/挠曲结构；5和25 km指弹性厚度假设，没有可用Afar剖面厚度。其定性不对称结构属于另一区域背景，不构成所问厚度的替代值。"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:4e224bc32e54812d99c1b35fc9118122d3f7ade270ee9c7bad738fb5bf8a36c2",
+    "relevance": 0,
+    "scope_error": true,
+    "scope_assessable": true,
+    "reason": "p.7给25–30 km地壳厚度，p.9图8将其限定于埃及、北红海及Suez/Aqaba陆缘；同为地壳厚度但地理支撑明确不符，用此回答会替代Afar阵列厚度。"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:615207b3350b7e2f9f02790c5020be52d21739fa0b284d76ee97e01ab1b0ded9",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.9给热流45及90 mW/m²，p.11解释裂谷导流岩浆；没有地壳厚度，属于不同物理量。"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:1dc42a884e2b19507b3fa18677534795982cba42f75018b337cf48d15e2a005c",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.13描述西亚丁湾6、11–16 km上部脆性层及130 km流变过渡，提供Afar邻区减薄地壳背景；脆性层厚度并非接收函数Moho地壳厚度，候选明确保留了该区别。"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:e47613107a5972b278c96329ff36e26c4e31480ed5a6020c88b0cf350ef1c8a8",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.12解释Oman Jiddat-Arkad晚渐新世裂陷末期沉降减缓及潮坪碳酸盐旋回，不涉及Afar地壳厚度。"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:a35bd0060db25607d51f8d5dbfdd1fe091bbf3964995652ebaa793e865c483f4",
+    "relevance": 0,
+    "scope_error": true,
+    "scope_assessable": true,
+    "reason": "p.17厚度32.5–45 km对应Aqaba、Midyan、Jeddah、Asir等Saudi Arabia地体，p.15是红海岸至Arabian shield剖面；同一厚度量的空间支撑不符，不能替代Afar轴部与重叠区值。"
+  },
+  {
+    "query_id": "q16",
+    "document_id": "claim:sha256:569068d9e09af8dbba8d1f4eed2030de37d5f2521e54983a28219218dc25b4a3",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.10明确较薄地壳对应较高κ和较低Vp，scope限定约200 km Afar接收函数剖面；提供厚度变化背景，但片段无厚度数值，p.1的2.40和1.85是Vp/Vs而非km。"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:d28d18af77d8276bde3939bedfcc413a8c2d023d25fdf2de882ca9550a6c168e",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.1、16讨论伊朗Kuh Panj中新世岩浆的角闪岩源及弧壳增厚，与海山沉积物可分选粉砂—水深关系无关。"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:e9de8c665098eb5aeb08d7e268815ee12f228472980f0e90bc62394e2c170764",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.1、6的I/TOC响应底水氧化还原状态，研究Landsort Deep缺氧—无氧转换；非粒径、水深与底流关系。"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:798e57a1258d4c9fa33da736331722d23432cc26f375a05c457fd5d22996cabd",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "虽是同一Emperor全新世表层沉积物，p.7的Al元素相关系数、CaO–CaCO3 R=0.99及p.12 Eu异常均为物源证据，没有sortable-silt–水深关系。"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:afef6f92a63d3f7fa09fcb7dbdc4293e5a188f5c5ea1156605191ed7bffb694a",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.7图3是Agulhas Ridge的Nd同位素水团混合比例，canonical claim的69%为NCW贡献；不是底流强度或粉砂—深度关系。"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:d499a53d40b281186266938bf47a0450d27de438d89b0c6316437252256bf958",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.5–6、9讨论GL-1248 Heinrich事件δ13C负偏与生产力；scope虽列sortable silt，给定实质证据未提供其粒径、深度关系或底流结果。"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:15be9f2b5604fac54eeaa0213b8c18da0a38e1e8d70df203a6d42f4f5ab21f44",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.13给33°N–44°N风尘贡献较高及REE端元混合，这是同一海山链的物源分带，不提供粒径—水深关系。"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:af6129997391e1c136c2e5a853443366e1fba07b8aee6a8731e73478c1de7ce3",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.3–4为DSDP 278的ACC流速重建，约10 cm/s与约10 Ma相关；虽采用sortable silt，却未给粒径对水深相关关系。流速时间序列是不同结果，不能据此称存在目标相关系数的范围错配。"
+  },
+  {
+    "query_id": "q30",
+    "document_id": "claim:sha256:057c091445d9e7d0fd694d7ecce457ba896dc69b4d75f64ed4d101c7c2ae54ac",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.2、18–19的深度变化是Malo Jezero岩芯Mo/U自生富集及氧化还原变化；沉积深度/金属富集不构成所问水深—粒径证据。"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:939083b72847a601b30d3a605c5b8c3778f1b3fb8deee724d8e2c557132014f9",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.11说明F3的ΔPp和Ppmax较低且滑动倾向最高，提供同一Asmari四断层比较背景；没有F2阈值。F3明确被标识，未把其结果替代为F2。"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.17图25及original claim说明Khuff天然裂缝的Mohr-Coulomb临界性、零内聚力假设；可作稳定性方法背景，但无Asmari F2阈值或三法结论。"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:5cdf009af0609c94a6604fa7b05be71fcabcf052c6b0e95ff0c98e1bc99b4d46",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.15描述湖库水位上升时有效水平应力正负取决于孔弹性参数；是压力影响稳定性的背景，不是F2最大孔压。"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:6d6449f97fa8cb2d1e996cd10ac1f20f5af9af4fa88b113bb215ecde045b3951",
+    "relevance": 3,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.3说明预存断层C=0；p.11给F2最稳定、最低Ts/Tsm及最大孔压55–57 MPa，p.13可读片段明确三种方法确认F2最稳定。候选证据共同覆盖条件、阈值及三法一致。"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:f878b2ae2ec5beee2076c7db2a44d2b3260c12134275243dc55a750f9d07c37b",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.6讨论封闭断层至井距离对流动模拟压力响应的影响，非断层再活化阈值；缺少location不妨碍识别其为不同结果。"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:a5f283b407e0158a7161d121b4588a4ac89c855fabfe9c833ba6193821b436ea",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.15是Mansourabad Asmari与Bangestan油藏流体/压力不连通，证据为油品成熟度和隔层；没有F2稳定性或孔压阈值。"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+    "relevance": 3,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.3明确C=0模型假设，p.11与13给F2可承受最大孔压55–57 MPa，并明确3D Mohr、slip tendency、modified slip tendency均认其最稳定。"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:7a274e7d60ac0860e4ebeaa22ea89fc28a0cd1ddb139654ba9257eafe64f977d",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.2、14讨论Argentine沉积物非稳态硫铁氧化还原带及SMT迁移；孔隙水化学剖面不是气注断层孔压阈值。"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:ee4f0fca4cdfac6e5ddc72f76a0516c6ea8dfedba76b0fb0c7b3601d24f1ff68",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.17图13是灯影组同位素/地层资料，canonical claim为晚埃迪卡拉海水高碱度推断；不涉及现代地下水NCA/TA份额或负NCA酸性解释。"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:60219d9d7d295f4b86020bac4e87f084de0a21aabdb38a311ca429f92acfca55",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.7、14是Cabretta地下水硝酸盐热点及垂向弥散损失，8.7 mmol m−1 d−1为硝化通量；非NCA。"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:e7e242049853df0333130b511d98d484f495c50c62b5643e46454326b98c7405",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.19的72±6%指Grevelingen培养T14净CaCO3溶解对TA生成的贡献，可作碱度来源背景；它是碳酸盐生产份额，非绝对NCA/TA，未将二者混写。"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:bfb2b91e9efb5d8b399ac1c9ae70541657407ee6f26ec55ee13583b4bcb3708c",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.8给Xisha碳酸盐REY及Ce/Ce*，图注Non-carb指非碳酸盐矿物；不是non-carbonate alkalinity。"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:a4e8ef2609deb0e67e3df6466752397b4fae906bcea8cad5ea9565ecc55d3403",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.9–10描述Whycocomagh无氧水体TA/TIC/H2S关系及硫酸盐还原解释，可作碱度过程背景；未给NCA份额或DOM供质子解释。"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:4a6f741cb14d06ce13693d329c6ee05e3c4c42447dd2ee300e4a53b04bb9888b",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.8–9图注及claim讨论Bay of Puck地下水混合中的AT/DIC与反硝化、硫酸盐还原；仅碱度来源背景，截断图注不足以重建NCA/TA或负NCA解释。"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:992bc2b50361ac73f68f8da67f5edc040951759b0c04c04d4a1936c7048c1811",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.6、9、11的NCA为Northern Calcareous Alps，内容是下三叠统蒸发岩分布和δ34S；与非碳酸盐碱度同缩写但不同实体。"
+  },
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:b5efd77b069a82da000ffd256c7c998bf898e8310c0dc0465feb85c0b55ea114",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "canonical claim的40%指El Hierro局部海水pH变化中碳酸盐碱度的贡献；p.5–6为盐度归一化CT、AT，是酸碱背景但不同分母/结果，未提供目标NCA/TA。"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:cea560ec24c844fdadd60a0d617d2c5830947363ebd252d394330377dabdc039",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.8、11说明Werribee无氧培养中反硝化主导，anammox占15%/1.4%；是氮去除途径背景，没有印度陆架年通量，比例不替代年预算。"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:a51fa085c2d2fc87d3c2a9fd335f5b7a75a09b6ce840e086bb07bff2365846b1",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.12在Sansha蓝洞90–100 m富集硫氧化反硝化菌，p.1基因提示氮损失；是机制背景，scope明确未直接测速率或氮损失通量。"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:9feb7c8b424e1dd30f9f4da19dcabd78452a7a93731c58f5f3ed601de6db85c0",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.63给同一西印度陆架N2O积累及0.05–0.38 Tg N2O/yr大气逸出，支持反硝化背景；N2O逸出不是所问反硝化总氮损失预算，不能换算作所问结果。"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:81ee798848f2fec0963b686731ee038ac8a0d9313da4e163b489e45471d38e09",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.5称SBB反硝化与anammox合占NO3还原70.4±16.4%，p.1、8为固定氮汇；是路径比例背景，没有西印度陆架年外推量。"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:9dea7c53752b25e15434abb9d9e30e8c13246af2e7abb66bf3418b0ff942cd9c",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.1、5为Chile EBUS的反硝化、N deficit/N*和缺氧水体相关分析；提供氮损失背景但未给所问外推年预算及假定体积/时长。"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:241a4de5fb255d7247daed6cd47fadbfce2f1d34bae5f97869c3fdfc768013f0",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.8–9说明Arabian Sea夏季季风对生产力及OMZ的较强影响，属于季节性低氧背景；未提供90天、还原水体体积或年反硝化通量。"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:73f1f06e6fa578fc30a3f9383138aaceb9b40497e075a6ab4fa8d062e4e0c79e",
+    "relevance": 1,
+    "scope_error": true,
+    "scope_assessable": true,
+    "reason": "p.7明确将Peruvian OMZ月速率外推为19 Tg N/yr，p.8限定anammox及2017年3–7月；同为区域年氮损失预算，但地点、途径及时间支撑都不符，若用于所问预算将替代印度陆架反硝化估计。"
+  },
+  {
+    "query_id": "q90",
+    "document_id": "claim:sha256:dc94062bb6c97d09552cbb7e362b5c55054216b8a3da3ad81659979aac16a98a",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.9、12为晚Kimmeridgian欧洲内陆海藻华与周期性缺氧，没有氮损失或现代西印度陆架量化背景。"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:71d4daef37b0bb44010733c7cce126edde6e0c535e6c4e8cfcb6167691d1da48",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.3的10 million years指灭绝后海洋恢复，而题目问Fiskegrav崩溃持续期；恢复是不同事件结果，属于相关背景而不是同一持续期的替代估计。"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:36454409020afe1f2a52391a7c349641216ffd2b54b4aa857e8961772875e10d",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.9–10讨论Fiskegrav盐度下降及恒定盐度假设可能高估早三叠世温度；同一危机背景但所给量为盐度/温度代理，没有崩溃持续期或沉积速率比较。"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:04e9b1d782fd8654504bb203ae3689a09fcb6fc321c2482de549c8f76d72df49",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.4通过高孢子/花粉比标示森林消失及灭绝区间，p.10解释径流导致分层；提供事件背景但无区间时长或修订沉积速率，不能从图注补出1.6–8 kyr。"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:730b6b5fdc1d2e11c9aca2923a2724487b10f613957849dfebd743f4771841f8",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.4–5描述不同海洋门类/沉积相的两幕式灭绝，未给Fiskegrav或持续时间；幕数是不同统计量，不直接构成时长范围错误。"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:6d14186e542e3b6a4bc3e69e794a03d16fe15a407ac6e31e4feeb30da179449b",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.14的4–5 million years指灭绝环境持续/复发及恢复阶段，p.12为低动物生物量；并非Fiskegrav初始生态崩溃持续期。"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:02a3562bf5ca493ffe73d45b36ea2a5a90f35e6858b368546c9a712f853ed4ea",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.6给Fiskegrav FeHR/FeT从<0.22到Interval 4才>0.38；scope标为灭绝后、PTB前的氧化还原演化，既无崩溃时长也无新旧年代比较，属于不同结果背景。"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:c40a972769cfc5267784fe5ef142148f2e70d05497ce034d8a9eb1ff76001d3a",
+    "relevance": 0,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.1与31的约10^5或8×10^4 yr是海洋磷驻留时间，非生态崩溃持续期，化学稳态预算与所问事件无关。"
+  },
+  {
+    "query_id": "q110",
+    "document_id": "claim:sha256:8eb083a6149df96599a87442fafc705fbcb4c7c7bffd6579a9fd0dc690ebf129",
+    "relevance": 1,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "p.3明确新疆准噶尔/吐哈陆地演替长期缓慢、植被贫乏期短，p.7描述恢复；是另一地区的生态背景，没有Fiskegrav崩溃时长或具体替代年数。"
+  }
+]

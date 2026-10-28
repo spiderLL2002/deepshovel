@@ -1,0 +1,901 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+  "snapshot_id": "snapshot:sha256:0051a54335e82e47046b1e77b37d740e07815d3d34dd6b3ec4e9277d9512742c",
+  "original_graph_json_sha256": "0051a54335e82e47046b1e77b37d740e07815d3d34dd6b3ec4e9277d9512742c",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:ec32f03c-3244-4d41-b7e0-fe179eea4f9a",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:ec32f03c-3244-4d41-b7e0-fe179eea4f9a",
+        "sha256": "e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "a.concl.common",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "a.concl.location",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "a.concl.p824.tail",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "a.core.location",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.disc.deep.uncertain",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.disc.extended",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.disc.incomplete",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.disc.location",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "a.disc.lower",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "a.iso.background",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.iso.contrast",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "a.iso.only.p824",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.iso.p771",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.iso.p824.dic",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.iso.p824.shift",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.iso.recycling",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "a.p771.aom",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.p771.srr",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.p771.tail",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.p806.aom",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.p806.srr",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.p806.tail",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.p824.aom",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.p824.tail",
+        "artifact_version_id": "artifact-version:sha256:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.concl.common",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.concl.common"
+        ]
+      },
+      {
+        "id": "obs.concl.location",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.concl.location"
+        ]
+      },
+      {
+        "id": "obs.concl.p824.tail",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.concl.p824.tail"
+        ]
+      },
+      {
+        "id": "obs.core.location",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.core.location"
+        ]
+      },
+      {
+        "id": "obs.disc.deep.uncertain",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.disc.deep.uncertain"
+        ]
+      },
+      {
+        "id": "obs.disc.extended",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.disc.extended"
+        ]
+      },
+      {
+        "id": "obs.disc.incomplete",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.disc.incomplete"
+        ]
+      },
+      {
+        "id": "obs.disc.location",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.disc.location"
+        ]
+      },
+      {
+        "id": "obs.disc.lower",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.disc.lower"
+        ]
+      },
+      {
+        "id": "obs.iso.contrast",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.iso.contrast"
+        ]
+      },
+      {
+        "id": "obs.iso.only.p824",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.iso.only.p824"
+        ]
+      },
+      {
+        "id": "obs.iso.p771",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.iso.p771"
+        ]
+      },
+      {
+        "id": "obs.iso.p824.dic",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.iso.p824.dic"
+        ]
+      },
+      {
+        "id": "obs.iso.p824.shift",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.iso.p824.shift"
+        ]
+      },
+      {
+        "id": "obs.iso.recycling",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.iso.recycling"
+        ]
+      },
+      {
+        "id": "obs.p771.aom",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.p771.aom"
+        ]
+      },
+      {
+        "id": "obs.p771.srr",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.p771.srr"
+        ]
+      },
+      {
+        "id": "obs.p771.tail",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.p771.tail"
+        ]
+      },
+      {
+        "id": "obs.p806.aom",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.p806.aom"
+        ]
+      },
+      {
+        "id": "obs.p806.srr",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.p806.srr"
+        ]
+      },
+      {
+        "id": "obs.p806.tail",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.p806.tail"
+        ]
+      },
+      {
+        "id": "obs.p824.aom",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.p824.aom"
+        ]
+      },
+      {
+        "id": "obs.p824.tail",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.p824.tail"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.incomplete.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.concl.common",
+          "a.disc.extended",
+          "a.disc.incomplete"
+        ]
+      },
+      {
+        "id": "reason.iso.contrast",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.iso.contrast",
+          "a.iso.p771",
+          "a.iso.p824.dic",
+          "a.iso.p824.shift"
+        ]
+      },
+      {
+        "id": "reason.iso.recycling",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.iso.background",
+          "a.iso.only.p824",
+          "a.iso.recycling"
+        ]
+      },
+      {
+        "id": "reason.location.comparison",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.concl.p824.tail",
+          "a.core.location",
+          "a.p824.tail"
+        ]
+      },
+      {
+        "id": "reason.location.interpretation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.concl.location",
+          "a.disc.location"
+        ]
+      },
+      {
+        "id": "reason.rate.distribution",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.disc.deep.uncertain",
+          "a.disc.lower",
+          "a.p771.aom",
+          "a.p771.srr",
+          "a.p806.aom",
+          "a.p806.srr",
+          "a.p824.aom"
+        ]
+      },
+      {
+        "id": "reason.tail.recurrence",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.p771.tail",
+          "a.p806.tail"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.iso.fractionation",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.iso.background"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:50a682e43fedec9810da74fa65fad96041c5eec1cb5fee69dad2edb300c3d35a",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.disc.deep.uncertain",
+          "a.disc.lower",
+          "a.p771.aom",
+          "a.p771.srr",
+          "a.p806.aom",
+          "a.p806.srr",
+          "a.p824.aom"
+        ],
+        "source_id": "claim.lower.smtz.activity"
+      },
+      {
+        "id": "claim:sha256:6539f78e641a8cea88b22b615220d0b24d7f6d888a1a16dfc446e1e840ed3b1b",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.iso.background",
+          "a.iso.contrast",
+          "a.iso.only.p824",
+          "a.iso.p771",
+          "a.iso.p824.dic",
+          "a.iso.p824.shift",
+          "a.iso.recycling"
+        ],
+        "source_id": "claim.aom.carbon.recycling"
+      },
+      {
+        "id": "claim:sha256:c1fe9c026433d0d20920fca0a7311b2aa719e72ebb84196fdb9d1de9acca1de9",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.concl.common",
+          "a.disc.extended",
+          "a.disc.incomplete",
+          "a.p771.tail",
+          "a.p806.tail"
+        ],
+        "source_id": "claim.incomplete.aom"
+      },
+      {
+        "id": "claim:sha256:ffcbb5a3a2bd69cf50eede5a07906e3457ae5bb5aa0db5c9bd310347fdb92b51",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.concl.location",
+          "a.concl.p824.tail",
+          "a.core.location",
+          "a.disc.location",
+          "a.p771.tail",
+          "a.p806.tail",
+          "a.p824.tail"
+        ],
+        "source_id": "claim.smtz.paleo.setting"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "e.ground.concl.common",
+        "kind": "edge",
+        "source_id": "a.concl.common",
+        "target_id": "obs.concl.common",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.concl.location",
+        "kind": "edge",
+        "source_id": "a.concl.location",
+        "target_id": "obs.concl.location",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.concl.p824.tail",
+        "kind": "edge",
+        "source_id": "a.concl.p824.tail",
+        "target_id": "obs.concl.p824.tail",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.core.location",
+        "kind": "edge",
+        "source_id": "a.core.location",
+        "target_id": "obs.core.location",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.disc.deep",
+        "kind": "edge",
+        "source_id": "a.disc.deep.uncertain",
+        "target_id": "obs.disc.deep.uncertain",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.disc.extended",
+        "kind": "edge",
+        "source_id": "a.disc.extended",
+        "target_id": "obs.disc.extended",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.disc.incomplete",
+        "kind": "edge",
+        "source_id": "a.disc.incomplete",
+        "target_id": "obs.disc.incomplete",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.disc.location",
+        "kind": "edge",
+        "source_id": "a.disc.location",
+        "target_id": "obs.disc.location",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.disc.lower",
+        "kind": "edge",
+        "source_id": "a.disc.lower",
+        "target_id": "obs.disc.lower",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.iso.background",
+        "kind": "edge",
+        "source_id": "assumption.iso.fractionation",
+        "target_id": "reason.iso.recycling",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "e.ground.iso.contrast",
+        "kind": "edge",
+        "source_id": "a.iso.contrast",
+        "target_id": "obs.iso.contrast",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.iso.only.p824",
+        "kind": "edge",
+        "source_id": "a.iso.only.p824",
+        "target_id": "obs.iso.only.p824",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.iso.p771",
+        "kind": "edge",
+        "source_id": "a.iso.p771",
+        "target_id": "obs.iso.p771",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.iso.p824.dic",
+        "kind": "edge",
+        "source_id": "a.iso.p824.dic",
+        "target_id": "obs.iso.p824.dic",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.iso.p824.shift",
+        "kind": "edge",
+        "source_id": "a.iso.p824.shift",
+        "target_id": "obs.iso.p824.shift",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.iso.recycling",
+        "kind": "edge",
+        "source_id": "a.iso.recycling",
+        "target_id": "obs.iso.recycling",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.p771.aom",
+        "kind": "edge",
+        "source_id": "a.p771.aom",
+        "target_id": "obs.p771.aom",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.p771.srr",
+        "kind": "edge",
+        "source_id": "a.p771.srr",
+        "target_id": "obs.p771.srr",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.p771.tail",
+        "kind": "edge",
+        "source_id": "a.p771.tail",
+        "target_id": "obs.p771.tail",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.p806.aom",
+        "kind": "edge",
+        "source_id": "a.p806.aom",
+        "target_id": "obs.p806.aom",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.p806.srr",
+        "kind": "edge",
+        "source_id": "a.p806.srr",
+        "target_id": "obs.p806.srr",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.p806.tail",
+        "kind": "edge",
+        "source_id": "a.p806.tail",
+        "target_id": "obs.p806.tail",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.p824.aom",
+        "kind": "edge",
+        "source_id": "a.p824.aom",
+        "target_id": "obs.p824.aom",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.p824.tail",
+        "kind": "edge",
+        "source_id": "a.p824.tail",
+        "target_id": "obs.p824.tail",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.premise.compare.conclusion",
+        "kind": "edge",
+        "source_id": "obs.concl.p824.tail",
+        "target_id": "reason.location.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.compare.location",
+        "kind": "edge",
+        "source_id": "obs.core.location",
+        "target_id": "reason.location.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.compare.p824",
+        "kind": "edge",
+        "source_id": "obs.p824.tail",
+        "target_id": "reason.location.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.compare.tail",
+        "kind": "edge",
+        "source_id": "reason.tail.recurrence",
+        "target_id": "reason.location.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.incomplete.conclusion",
+        "kind": "edge",
+        "source_id": "obs.concl.common",
+        "target_id": "reason.incomplete.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.incomplete.direct",
+        "kind": "edge",
+        "source_id": "obs.disc.incomplete",
+        "target_id": "reason.incomplete.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.incomplete.extended",
+        "kind": "edge",
+        "source_id": "obs.disc.extended",
+        "target_id": "reason.incomplete.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.incomplete.recurring",
+        "kind": "edge",
+        "source_id": "reason.tail.recurrence",
+        "target_id": "reason.incomplete.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.iso.conclusion",
+        "kind": "edge",
+        "source_id": "obs.iso.contrast",
+        "target_id": "reason.iso.contrast",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.iso.dic",
+        "kind": "edge",
+        "source_id": "obs.iso.p824.dic",
+        "target_id": "reason.iso.contrast",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.iso.interpretation",
+        "kind": "edge",
+        "source_id": "obs.iso.recycling",
+        "target_id": "reason.iso.recycling",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.iso.only.p824",
+        "kind": "edge",
+        "source_id": "obs.iso.only.p824",
+        "target_id": "reason.iso.recycling",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.iso.p771",
+        "kind": "edge",
+        "source_id": "obs.iso.p771",
+        "target_id": "reason.iso.contrast",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.iso.pattern",
+        "kind": "edge",
+        "source_id": "reason.iso.contrast",
+        "target_id": "reason.iso.recycling",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.iso.shift",
+        "kind": "edge",
+        "source_id": "obs.iso.p824.shift",
+        "target_id": "reason.iso.contrast",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.paleo.comparison",
+        "kind": "edge",
+        "source_id": "reason.location.comparison",
+        "target_id": "reason.location.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.paleo.conclusion",
+        "kind": "edge",
+        "source_id": "obs.concl.location",
+        "target_id": "reason.location.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.paleo.discussion",
+        "kind": "edge",
+        "source_id": "obs.disc.location",
+        "target_id": "reason.location.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.rate.deep",
+        "kind": "edge",
+        "source_id": "obs.disc.deep.uncertain",
+        "target_id": "reason.rate.distribution",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.rate.lower",
+        "kind": "edge",
+        "source_id": "obs.disc.lower",
+        "target_id": "reason.rate.distribution",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.rate.p771.aom",
+        "kind": "edge",
+        "source_id": "obs.p771.aom",
+        "target_id": "reason.rate.distribution",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.rate.p771.srr",
+        "kind": "edge",
+        "source_id": "obs.p771.srr",
+        "target_id": "reason.rate.distribution",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.rate.p806.aom",
+        "kind": "edge",
+        "source_id": "obs.p806.aom",
+        "target_id": "reason.rate.distribution",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.rate.p806.srr",
+        "kind": "edge",
+        "source_id": "obs.p806.srr",
+        "target_id": "reason.rate.distribution",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.rate.p824.aom",
+        "kind": "edge",
+        "source_id": "obs.p824.aom",
+        "target_id": "reason.rate.distribution",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.tail.p771",
+        "kind": "edge",
+        "source_id": "obs.p771.tail",
+        "target_id": "reason.tail.recurrence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.tail.p806",
+        "kind": "edge",
+        "source_id": "obs.p806.tail",
+        "target_id": "reason.tail.recurrence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.support.incomplete",
+        "kind": "edge",
+        "source_id": "reason.incomplete.synthesis",
+        "target_id": "claim:sha256:c1fe9c026433d0d20920fca0a7311b2aa719e72ebb84196fdb9d1de9acca1de9",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.iso",
+        "kind": "edge",
+        "source_id": "reason.iso.recycling",
+        "target_id": "claim:sha256:6539f78e641a8cea88b22b615220d0b24d7f6d888a1a16dfc446e1e840ed3b1b",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.lower",
+        "kind": "edge",
+        "source_id": "reason.rate.distribution",
+        "target_id": "claim:sha256:50a682e43fedec9810da74fa65fad96041c5eec1cb5fee69dad2edb300c3d35a",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.paleo",
+        "kind": "edge",
+        "source_id": "reason.location.interpretation",
+        "target_id": "claim:sha256:ffcbb5a3a2bd69cf50eede5a07906e3457ae5bb5aa0db5c9bd310347fdb92b51",
+        "relation": "infers"
+      }
+    ]
+  }
+}

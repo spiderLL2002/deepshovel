@@ -1,0 +1,2871 @@
+{
+  "query_id": "q90",
+  "query_text": "What annual denitrification nitrogen-loss range was extrapolated for the western Indian continental shelf during seasonal anoxia, and what reducing-season duration and water-volume range underpinned it?",
+  "expected_answer": "The shelf-wide denitrification loss was extrapolated as 3.70–11.1 Tg year−1, assuming a 90-day reducing season and 1.2–3.6 × 10^12 m³ of reducing water. The calculation applied a three-year mean isotope-pairing rate to the assumed volume and duration; it is not a direct annual inventory. The body text reports endpoint uncertainties of ±0.091 and ±2.72 Tg year−1, respectively. Those uncertainties and the optional 20-m layer thickness are not additional grade-3 requirements. No table-cell value or prose/table discrepancy is established by the caption-only table anchor. Grounded reference: claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c; 2020_Massive Nitrogen Loss Over the Western Indian Continental Shelf During Seasonal Anoxia_ Evidence From Isotope Pairing Technique_d2b52fa4.pdf.",
+  "original_query_rubric": {
+    "3": "The annual denitrification range together with 90 days and 1.2–3.6 × 10^12 m³, identified as an extrapolation.",
+    "2": "The compatible annual budget with one or both assumptions omitted, or correct assumptions with the numeric annual budget missing. No known scope conflict.",
+    "1": "A result explicitly misassigned as described in the scope trap, or useful background without the requested scoped result. A correctly labeled compatible partial result receives 2.",
+    "0": "Unrelated to the requested quantity and scientific setting."
+  },
+  "original_pool_sha256": "103fcbe7474e15d144fd8121bdca19c32ce18dec238df887cdf6c9cb802ef9b9",
+  "sample_type": "fixed-ID method inspection; not random, expert-reviewed, or reliability-estimation sample",
+  "candidate_count": 25,
+  "candidates": [
+    {
+      "candidate": 1,
+      "document_id": "claim:sha256:8fd07b5d890277ad11a5092c76c70d667538940ae843794be9dd36a5ae35b83a",
+      "paper_id": "paper:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720",
+      "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+      "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720",
+      "source_name": "2020_Massive Nitrogen Loss Over the Western Indian Continental Shelf During Seasonal Anoxia_ Evidence From Isotope Pairing Technique_d2b52fa4.pdf",
+      "canonical_claim": "Across the sampled western Indian continental shelf transects, denitrification was more active at the oxic-suboxic/anoxic interface than in deeper water.",
+      "original_claim": "Denitrification was found to be more active at the oxic-suboxic/anoxic interface compared to deeper water (Figures 3A,B).",
+      "scope": {
+        "condition": [
+          "oxygen-depleted suboxic/anoxic waters during seasonal anoxia"
+        ],
+        "entities": [
+          "anammox",
+          "denitrification",
+          "fixed nitrogen loss",
+          "western Indian continental shelf (WICS)"
+        ],
+        "formation": [],
+        "location": [
+          "western Indian continental shelf, eastern Arabian Sea"
+        ],
+        "measurement": [
+          "isotope-pairing N2 production rates"
+        ],
+        "method": [
+          "anaerobic incubations with 15N-labeled substrates"
+        ],
+        "sample_type": [
+          "water-column samples from inner and mid shelf"
+        ],
+        "time": {
+          "end": null,
+          "label": "seasonal anoxia; rates summarized across three years",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "spatial and intra-annual variability in measured rates"
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.depth.text",
+          "page": 7,
+          "section": "Spatial and Inter Annual Variability of Nitrogen Reduction Processes",
+          "figure": null,
+          "table": null,
+          "excerpt": "Denitrification was found to be more active at the oxic-suboxic/anoxic interface compared to deeper water (Figures 3A,B).",
+          "excerpt_original_characters": 121,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.figure3",
+          "page": 7,
+          "section": "Spatial and Inter Annual Variability of Nitrogen Reduction Processes",
+          "figure": "Figure 3",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.figure3.caption",
+          "page": 7,
+          "section": "Spatial and Inter Annual Variability of Nitrogen Reduction Processes",
+          "figure": null,
+          "table": null,
+          "excerpt": "FIGURE 3 | Depth wise variations in concentrations of dissolved oxygen, nitrate, nitrite and ammonium (connected vertical profiles) and $\\mathsf { N } _ { 2 }$ production rates measured by isotope pairing experiments (horizontal bars): (A) G5 inner shelf station off Goa $( \\mathrm { i } )$ 2009 and (ii) 2010 and (B) G6 mid shelf station off Goa during $( \\mathrm { j } )$ 2008, (ii) 2009, and (iii) 2010.",
+          "excerpt_original_characters": 406,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.lowrate.text",
+          "page": 7,
+          "section": "Spatial and Inter Annual Variability of Nitrogen Reduction Processes",
+          "figure": null,
+          "table": null,
+          "excerpt": "In 2009, low rates of denitrification were measured at the base of the oxycline at stations G6 (Figure 3B) and K3 where $\\mathrm { O } _ { 2 }$ concentrations were $> 3 0 \\mu \\mathrm { M }$ (Table 1).",
+          "excerpt_original_characters": 200,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.table1",
+          "page": 5,
+          "section": "Isotope Pairing Experiments",
+          "figure": null,
+          "table": "Table 1",
+          "excerpt": "TABLE 1 | Calculated rates (mean and stdev values) of different nitrogen ",
+          "excerpt_original_characters": 197,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.table1.caption",
+          "page": 5,
+          "section": "Isotope Pairing Experiments",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 196,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1120,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "反硝化空间分布背景未给年度量",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 2,
+      "document_id": "claim:sha256:a51fa085c2d2fc87d3c2a9fd335f5b7a75a09b6ce840e086bb07bff2365846b1",
+      "paper_id": "paper:dc368423857aa8ea35eaee8b90aafe25822e47ec175f71dd2ad2eccb231bf2d6",
+      "snapshot_id": "snapshot:sha256:20daf82d5918519692e21e3701dd4a6c350f00fa3451846ce18254ec55f42852",
+      "artifact_version_id": "artifact-version:sha256:dc368423857aa8ea35eaee8b90aafe25822e47ec175f71dd2ad2eccb231bf2d6",
+      "source_name": "PMCC_72822053d874f43bb69c.pdf",
+      "canonical_claim": "At the nitrate/nitrite–sulfide transition zone of the Sansha Yongle Blue Hole, sulfur-oxidizing denitrifiers likely couple sulfur oxidation to reductive nitrogen metabolism and contribute to nitrogen loss.",
+      "original_claim": "Moreover, $\\gamma$ -Proteobacterial clade SUP05, $\\varepsilon$ -Proteobacterial genera Sulfurimonas and Arcobacter, and Chlorobi harbored genes for sulfur-driven denitrifcation process that mediated nitrogen loss and sulfde removal.",
+      "scope": {
+        "condition": [
+          "Nitrate/nitrite–sulfide transition zone, approximately 90–100 m"
+        ],
+        "entities": [
+          "Chlorobiaceae",
+          "denitrification",
+          "hydrogen sulfide",
+          "nitrogen loss",
+          "sulfur oxidation",
+          "γ-Proteobacteria",
+          "ε-Proteobacteria"
+        ],
+        "formation": [],
+        "location": [
+          "Sansha Yongle Blue Hole"
+        ],
+        "measurement": [
+          "Sulfur-oxidizing and nitrate-reducing populations and genes; dissolved compounds"
+        ],
+        "method": [
+          "16S rRNA amplicon and metagenomic analyses with hydrochemical observations"
+        ],
+        "sample_type": [
+          "Water-column samples"
+        ],
+        "time": {
+          "end": null,
+          "label": "May 2017",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Metabolic rates and nitrogen-loss flux were not directly measured"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.sulfur.denitrification.interpretation",
+          "page": 12,
+          "section": "Results and Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "In the blue hole, sulfur-oxidizing denitrifers—such as $\\gamma \\mathrm { - }$ , ε- Proteobacteria, and Chlorobiaceae—were enriched at $9 0 \\mathrm { m }$ and $1 0 0 \\mathrm { m }$ , supporting sulfur oxidation that is coupled to reductive nitrogen metabolism.",
+          "excerpt_original_characters": 259,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.abstract.sulfur",
+          "page": 1,
+          "section": "Microbial Diversity and Metabolic Potential in the Stratifed Sansha Yongle Blue Hole in the South China Sea",
+          "figure": null,
+          "table": null,
+          "excerpt": "Moreover, $\\gamma$ -Proteobacterial clade SUP05, $\\varepsilon$ -Proteobacterial genera Sulfurimonas and Arcobacter, and Chlorobi harbored genes for sulfur-driven denitrifcation process that mediated nitrogen loss and sulfde removal.",
+          "excerpt_original_characters": 232,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.figure8",
+          "page": 11,
+          "section": "Results and Discussion",
+          "figure": "Figure 8",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.figure8.caption",
+          "page": 11,
+          "section": "Results and Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "Profle of the abundances of (a) representative $\\mathrm { S O } _ { 4 } \\mathrm { } ^ { 2 - }$ -reducing populations, (b) dsrA gene for sulfate reduction, (c) $\\mathrm { H } _ { 2 } \\mathrm { S }$ concentration, (d) fccB, (e) soxZ, and (f) sqr genes for sulfur oxidization, (g) representative sulfur-oxidizing",
+          "excerpt_original_characters": 460,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.figure8.title",
+          "page": 11,
+          "section": "Results and Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 9,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.transition.chemistry",
+          "page": 2,
+          "section": "Microbial Diversity and Metabolic Potential in the Stratifed Sansha Yongle Blue Hole in the South China Sea",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 511,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.transition.genes",
+          "page": 10,
+          "section": "Results and Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 372,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1843,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "蓝洞氮损失不是印度西岸陆架",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 3,
+      "document_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+      "paper_id": "paper:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720",
+      "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+      "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720",
+      "source_name": "2020_Massive Nitrogen Loss Over the Western Indian Continental Shelf During Seasonal Anoxia_ Evidence From Isotope Pairing Technique_d2b52fa4.pdf",
+      "canonical_claim": "Extrapolating isotope-pairing denitrification rates over the western Indian continental shelf estimates annual fixed-nitrogen removal via denitrification at 3.70–11.1 Tg year−1; Table 2 reports the upper endpoint as 11.11.",
+      "original_claim": "Applying our 3 years average N-loss rates to this volume and assuming the reducing condition to last for 90 days, the overall N-loss would range from $3 . 7 0 \\pm 0 . 0 9 1$ to $1 1 . 1 \\pm 2 . 7 2 \\mathrm { ~ T g ~ y e a r } ^ { - 1 }$ via denitrification, and from $0 . 0 9 \\pm 0 . 0 1$ to $0 . 2 7 \\pm 0 . 0 3$ Tg year−1 via anammox (Table 2).",
+      "scope": {
+        "condition": [
+          "seasonal anoxia"
+        ],
+        "entities": [
+          "annual fixed-nitrogen removal via denitrification",
+          "western Indian continental shelf (WICS)"
+        ],
+        "formation": [],
+        "location": [
+          "western Indian continental shelf, eastern Arabian Sea"
+        ],
+        "measurement": [
+          "annualized fixed-nitrogen removal"
+        ],
+        "method": [
+          "extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume"
+        ],
+        "sample_type": [
+          "estimated reducing-water volume over the shelf"
+        ],
+        "time": {
+          "end": null,
+          "label": "annualized from three-year sampling using an assumed 90-day reducing season",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty"
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.prior.compare",
+          "page": 11,
+          "section": "N-Removal Versus Uptake Over the Western Indian Continental Shelf During Seasonal Anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "Our estimate is also almost three times higher than the previous estimate derived from changes in nitrate concentrations over time (Naik, 2003).",
+          "excerpt_original_characters": 144,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.annual.prose",
+          "page": 8,
+          "section": "N-Loss Rates Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "Applying our 3 years average N-loss rates to this volume and assuming the reducing condition to last for 90 days, the overall N-loss would range from $3 . 7 0 \\pm 0 . 0 9 1$ to $1 1 . 1 \\pm 2 . 7 2 \\mathrm { ~ T g ~ y e a r } ^ { - 1 }$ via denitrification, and from $0 . 0 9 \\pm 0 . 0 1$ to $0 . 2 7 \\pm 0 . 0 3$ Tg year−1 via anammox (Table 2).",
+          "excerpt_original_characters": 346,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.area.functional",
+          "page": 8,
+          "section": "N-Loss Rates Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "However, $\\mathrm { O } _ { 2 }$ levels over this entire area are not low enough to support reductive N-loss, and as a lower limit about one third of the entire shelf, $6 0 , 0 0 0 ~ \\mathrm { k m } ^ { 2 }$ was assumed to functionally anoxic.",
+          "excerpt_original_characters": 243,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.area.hypoxic",
+          "page": 8,
+          "section": "N-Loss Rates Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "(2000) estimated the area of the hypoxic zone over the WCSI to be $",
+          "excerpt_original_characters": 109,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.denit.mean",
+          "page": 8,
+          "section": "N-Loss Rates Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 225,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.scale.volume",
+          "page": 8,
+          "section": "N-Loss Rates Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 208,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.table2",
+          "page": 9,
+          "section": "Regulation of Nitrogen Reduction Pathways Over the WICS",
+          "figure": null,
+          "table": "Table 2",
+          "excerpt": "",
+          "excerpt_original_characters": 221,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.table2.caption",
+          "page": 9,
+          "section": "Regulation of Nitrogen Reduction Pathways Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 212,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1708,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 3,
+        "scope_error": false,
+        "rationale": "原文给3.70–11.1 Tg每年、90天及1.2–3.6×10^12 m3体积，属外推",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 4,
+      "document_id": "claim:sha256:8a256333258039e790b695b23d5c5c8ea1e601d6b07e2caf10f89d61e983245d",
+      "paper_id": "paper:3af2741d0c700f70b5b30007af955eb1c9bce9377bd638480fe6b0ed1563a3a4",
+      "snapshot_id": "snapshot:sha256:32119130a86e841f94e1324d7ea4c862caa6624db59551acebf750dca91c95a9",
+      "artifact_version_id": "artifact-version:sha256:3af2741d0c700f70b5b30007af955eb1c9bce9377bd638480fe6b0ed1563a3a4",
+      "source_name": "W4409593495.pdf",
+      "canonical_claim": "Bioavailable nitrogen was lost anaerobically in the late Holocene water column of Filla Island inlet, with denitrification the major nitrogen-loss process after the early Holocene.",
+      "original_claim": "7) indicate the anammox contribution to N-loss was limited, as a BHT- $x$ ratio of 0.2 is considered the minimum threshold for Ca.",
+      "scope": {
+        "condition": [],
+        "entities": [
+          "BHPs",
+          "GDGTs",
+          "sediments",
+          "water column"
+        ],
+        "formation": [],
+        "location": [
+          "Filla Island inlet, eastern Prydz Bay, Antarctica"
+        ],
+        "measurement": [],
+        "method": [],
+        "sample_type": [
+          "Co1010 sediment record"
+        ],
+        "time": {
+          "end": null,
+          "label": "Late Holocene",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": null
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.bht.limit",
+          "page": 10,
+          "section": "4.2.1. Biogeochemical cycling during the late Holocene (\\~0–4 cal ka BP)",
+          "figure": null,
+          "table": null,
+          "excerpt": "7) indicate the anammox contribution to N-loss was limited, as a BHT- $x$ ratio of 0.2 is considered the minimum threshold for Ca.",
+          "excerpt_original_characters": 130,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.bht.low",
+          "page": 10,
+          "section": "4.2.1. Biogeochemical cycling during the late Holocene (\\~0–4 cal ka BP)",
+          "figure": null,
+          "table": null,
+          "excerpt": "Low BHT- $_ x$ ratios $( < 0 . 2 ;$ ;",
+          "excerpt_original_characters": 37,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.delta15n",
+          "page": 10,
+          "section": "4.2.1. Biogeochemical cycling during the late Holocene (\\~0–4 cal ka BP)",
+          "figure": null,
+          "table": null,
+          "excerpt": "Sedimentary $\\delta ^ { 1 5 } \\mathrm { N }$ values are enriched $( 5 - 1 6 \\text{‰}$ ) relative to the average isotopic signature of $\\mathrm { N O } _ { 3 } ^ { - }$ in the ocean $( \\sim 5 \\text{‰}$ throughout the record, and especially in the late Holocene sediments of unit III $( > 8 \\% _ { 0 } )$ between 0.21–2.60 cal ka BP (Fig.",
+          "excerpt_original_characters": 336,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig3",
+          "page": 7,
+          "section": null,
+          "figure": "Fig. 3",
+          "table": null,
+          "excerpt": "Fig. 3. Sedimentary composition of record Co1010 (unit II and III), with (from left to right): total organic carbon (TOC), total nitrogen (TN), bulk sedimentary $\\delta ^ { 1 5 } \\mathrm { { N } }$ values, the atomic carbon to nitrogen (C/N) ratio, total sulfur (TS) and isorenieratene concentrati",
+          "excerpt_original_characters": 403,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.fig7",
+          "page": 9,
+          "section": null,
+          "figure": "Fig. 7",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 743,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.nloss.conclusion",
+          "page": 15,
+          "section": "5. Conclusion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 219,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.nloss.interpret",
+          "page": 10,
+          "section": "4.2.1. Biogeochemical cycling during the late Holocene (\\~0–4 cal ka BP)",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 247,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 2115,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Filla岛氮损失非目标陆架",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 5,
+      "document_id": "claim:sha256:9feb7c8b424e1dd30f9f4da19dcabd78452a7a93731c58f5f3ed601de6db85c0",
+      "paper_id": "paper:b83a4159f4834099c5725a1db27ee47cf62d4fdd1d063867b623fcf6c9ee0f9d",
+      "snapshot_id": "snapshot:sha256:375fbdab9442fa193ab101422ba1409ed9ff74f2d4b0bc9ca223ec1d09a00a50",
+      "artifact_version_id": "artifact-version:sha256:b83a4159f4834099c5725a1db27ee47cf62d4fdd1d063867b623fcf6c9ee0f9d",
+      "source_name": "W4313289117.pdf",
+      "canonical_claim": "Seasonally anoxic waters over the western Indian shelf are a source of N₂O, with mid-depth accumulation and substantial atmospheric efflux, in contrast to net N₂O consumption within the open-ocean SNM.",
+      "original_claim": "The highest $_ { \\mathrm { N _ { 2 } O } }$ concentrations mostly occur at mid-depths in association with very high nitrite concentrations (reaching up to $1 6 ~ \\mathrm { \\mu M } )$ ) and very low nitrate concentrations (Naqvi et al., 2000, 2006a,b,c, 2009).",
+      "scope": {
+        "location": [
+          "Western Indian continental shelf and open-ocean Arabian Sea"
+        ],
+        "time": {
+          "label": "Seasonal shelf anoxia; open-ocean comparison",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Seasonal shelf ODZ and Arabian Sea SNM"
+        ],
+        "sample_type": [
+          "Shelf waters and compiled open-ocean observations"
+        ],
+        "method": [
+          "N₂O concentration profiles and atmospheric-flux estimates"
+        ],
+        "condition": [
+          "Anoxic or oxygen-deficient waters"
+        ],
+        "measurement": [
+          "N₂O concentration and atmospheric efflux"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Arabian Sea SNM",
+          "Indian shelf",
+          "N₂O"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.n2o1",
+          "page": 63,
+          "section": "SEASONAL ANOXIA OVER THE WESTERN 5 1 CONTINENTAL SHELF OF INDIA",
+          "figure": null,
+          "table": null,
+          "excerpt": "The highest $_ { \\mathrm { N _ { 2 } O } }$ concentrations mostly occur at mid-depths in association with very high nitrite concentrations (reaching up to $1 6 ~ \\mathrm { \\mu M } )$ ) and very low nitrate concentrations (Naqvi et al., 2000, 2006a,b,c, 2009).",
+          "excerpt_original_characters": 259,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.n2o2",
+          "page": 63,
+          "section": "SEASONAL ANOXIA OVER THE WESTERN 5 1 CONTINENTAL SHELF OF INDIA",
+          "figure": null,
+          "table": null,
+          "excerpt": "The large production of $_ { \\mathrm { N _ { 2 } O } }$ at shallow depths maintains high $_ { \\mathrm { N _ { 2 } O } }$ concentrations in the surface layer $( 5 { \\mathrm { - } } 4 3 6 \\ \\mathrm { n M } ,$ mean $3 7 . 3 \\mathrm { n M }$ ), in turn resulting in a large atmospheric efflux $( 0 . 0 5 { - } 0 . 3 8 \\mathrm { T g } \\mathrm { N } _ { 2 } \\mathrm { O } \\mathrm { y r } ^ { - 1 } )$ ) (Naqvi et al., 2006c).",
+          "excerpt_original_characters": 419,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.n2o3",
+          "page": 63,
+          "section": "SEASONAL ANOXIA OVER THE WESTERN 5 1 CONTINENTAL SHELF OF INDIA",
+          "figure": null,
+          "table": null,
+          "excerpt": "These results strongly point to $_ { \\mathrm { N _ { 2 } O } }$ production through denitrification over the Indian shelf, ",
+          "excerpt_original_characters": 210,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.n2o4",
+          "page": 8,
+          "section": "ABSTRACT",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 180,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1068,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "同陆架0.05–0.38Tg为N2O排放，不是总反硝化N损失预算",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 6,
+      "document_id": "claim:sha256:9fe798419a9b568bb48e2efcee7ce3b01b8da974cc25a2634e01eaa9221a0c19",
+      "paper_id": "paper:a92c1fb8dbba5e476084bc6b16fd7f9ee73b123a8214becaa3def7420e8a9afe",
+      "snapshot_id": "snapshot:sha256:482b734ab1f45e1762326e6ac9be3507ad9995595ac183bb15b878be90a9854c",
+      "artifact_version_id": "artifact-version:sha256:a92c1fb8dbba5e476084bc6b16fd7f9ee73b123a8214becaa3def7420e8a9afe",
+      "source_name": "ELS_99e828b02179c0e1878d.pdf",
+      "canonical_claim": "In seasonally hypoxic Bedford Basin sediment, benthic foraminiferal denitrification is an important nitrogen-loss pathway; experiments and modeling indicate it could account for up to 70% of total denitrification.",
+      "original_claim": "Experiments and modeling indicated that the foraminiferal denitrification rate in BB is among the highest globally and could contribute up to $7 0 \\%$ of the total denitrification in BB, indicating the potential importance of benthic foraminiferal denitrification in seasonally hypoxic environments.",
+      "scope": {
+        "condition": [
+          "seasonally hypoxic"
+        ],
+        "entities": [
+          "Bedford Basin sediment",
+          "Spiochaetopterus sp.",
+          "Stainforthia fusiformis",
+          "ammonium",
+          "benthic foraminifera",
+          "dissolved inorganic carbon",
+          "hydrogen sulfide",
+          "nitrate",
+          "oxygen"
+        ],
+        "formation": [],
+        "location": [
+          "Bedford Basin, Nova Scotia, western Atlantic"
+        ],
+        "measurement": [
+          "porewater profiles and benthic biogeochemical fluxes"
+        ],
+        "method": [
+          "field observations and steady-state reaction-transport modeling"
+        ],
+        "sample_type": [
+          "sediment"
+        ],
+        "time": {
+          "end": null,
+          "label": "yearly averaged sedimentary processes",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Steady-state model; foraminiferal denitrification rates for Stainforthia fusiformis were not directly measured."
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.model.assignment",
+          "page": 6,
+          "section": "2.6. Boundary conditions and model constraints",
+          "figure": null,
+          "table": null,
+          "excerpt": "Therefore, we assigned the entire non-local intracellular transport of nitrate to foraminiferal uptake performing benthic denitrification by adjusting γ in Eq.",
+          "excerpt_original_characters": 159,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.conclusion.fora",
+          "page": 13,
+          "section": "5. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "Experiments and modeling indicated that the foraminiferal denitrification rate in BB is among the highest globally and could contribute up to $7 0 \\%$ of the total denitrification in BB, indicating the potential importance of benthic foraminiferal denitrification in seasonally hypoxic environments.",
+          "excerpt_original_characters": 299,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.eukaryotic.loss",
+          "page": 13,
+          "section": "4.3. Significance of foraminiferal denitrification",
+          "figure": null,
+          "table": null,
+          "excerpt": "This suggests eukaryotic denitrification may be an important pathway of N-loss from marine sediments, which is in contrast to the traditional view that this is primarily mediated by prokaryotic microbes.",
+          "excerpt_original_characters": 203,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.first.evidence",
+          "page": 13,
+          "section": "4.3. Significance of foraminiferal denitrification",
+          "figure": null,
+          "table": null,
+          "excerpt": "We report the first evidence of benthic foraminiferal denitrification in the western Atlantic coastal sediments, which combined with observ",
+          "excerpt_original_characters": 250,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.fora.dominance",
+          "page": 1,
+          "section": "A B S T R A C T",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 202,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.model.fora.required",
+          "page": 13,
+          "section": "5. Conclusions",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 97,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.model.fora.share",
+          "page": 9,
+          "section": "4.1. Organic matter turnover and benthic fluxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 377,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.nitrate.influx",
+          "page": 6,
+          "section": "3.3. Benthic solute fluxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 124,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.nitrate.storage",
+          "page": 13,
+          "section": "4.3. Significance of foraminiferal denitrification",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 188,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.rate.limitation",
+          "page": 13,
+          "section": "4.3. Significance of foraminiferal denitrification",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 108,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:88fe8dcd0df840324a520556f54719da065fd9037961e015ec9d225fbb6b0a2b",
+          "page": 12,
+          "section": null,
+          "figure": null,
+          "table": "Table 4",
+          "excerpt": "",
+          "excerpt_original_characters": 138,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 2145,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Bedford贡献比例非印度年度量",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 7,
+      "document_id": "claim:sha256:81ee798848f2fec0963b686731ee038ac8a0d9313da4e163b489e45471d38e09",
+      "paper_id": "paper:d35d4a7994c7d6c8e0156df9615142599316d12f87072be6942648c01894ce3f",
+      "snapshot_id": "snapshot:sha256:ec1d5689bb4bc21bd4c0a116f145796baf29877ef3013e30b66aee0a9c171e21",
+      "artifact_version_id": "artifact-version:sha256:d35d4a7994c7d6c8e0156df9615142599316d12f87072be6942648c01894ce3f",
+      "source_name": "2024_The fate of fixed nitrogen in Santa Barbara Basin sediments during seasonal anoxia_4b6d3792.pdf",
+      "canonical_claim": "Under the sampled conditions, SBB sediments acted as a strong fixed-nitrogen sink overall, principally through N₂ production by denitrification and anammox.",
+      "original_claim": "Our results indicate that the SBB acts as a strong sink for fixed nitrogen and potentially a net source of ${ \\bf N } _ { 2 } { \\bf O }$ to the water column.",
+      "scope": {
+        "location": [
+          "Santa Barbara Basin, California"
+        ],
+        "time": {
+          "label": "November 2019; one seasonal survey",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "Sediments along the surveyed northern and southern transect"
+        ],
+        "method": [
+          "In situ benthic flux chamber incubations with ¹⁵NO₃⁻ addition"
+        ],
+        "condition": [
+          "Seasonal anoxia during the November 2019 survey; bottom-water oxygen conditions varied across stations, with depletion at the depocenter."
+        ],
+        "measurement": [
+          "Benthic nitrate uptake and relative contributions of nitrate-reduction pathways and N₂O production"
+        ],
+        "uncertainty": "Tracer nitrate amendment may stimulate uptake and alter the partition between nitrate storage and reduction; seasonal variability is not resolved.",
+        "entities": [
+          "DNRA",
+          "Santa Barbara Basin sediments",
+          "anammox",
+          "denitrification",
+          "nitrate",
+          "nitrous oxide"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.abs.sink",
+          "page": 1,
+          "section": "The fate of fixed nitrogen in Santa Barbara Basin sediments during seasonal anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "Our results indicate that the SBB acts as a strong sink for fixed nitrogen and potentially a net source of ${ \\bf N } _ { 2 } { \\bf O }$ to the water column.",
+          "excerpt_original_characters": 157,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.avg.n2.first",
+          "page": 5,
+          "section": "3.2 Denitrification was the dominant $\\mathbf { N O } _ { 3 } ^ { - }$ reduction pathway",
+          "figure": null,
+          "table": null,
+          "excerpt": "On average, ${ \\Nu } _ { 2 }$ production by denitrification and anammox was dominant over DNRA in this study, accounting for $7 0 . 4 \\pm 1 6 . 4 \\%$ of total $\\mathrm { N O } _ { 3 } ^ { - }$ reduction (Fig.",
+          "excerpt_original_characters": 208,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.avg.n2.second",
+          "page": 5,
+          "section": "3.2 Denitrification was the dominant $\\mathbf { N O } _ { 3 } ^ { - }$ reduction pathway",
+          "figure": null,
+          "table": null,
+          "excerpt": "2 and Table 2).",
+          "excerpt_original_characters": 15,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.summary.dnra",
+          "page": 8,
+          "section": "4 Summary",
+          "figure": null,
+          "table": null,
+          "excerpt": "DNRA accounted for less than half of $\\mathrm { N O } _ { 3 } ^ { - }$ reduction except at the deepest station $( 5 8 6 \\mathrm { m } )$ at the center of the SBB, where bottom water ${ \\bf O } _ { 2 }$ concentrations were zero.",
+          "excerpt_original_characters": 227,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.summary.sink",
+          "page": 8,
+          "section": "4 Summary",
+          "figure": null,
+          "table": null,
+          "excerpt": "Our results indicate the role of the SBB sediments as a strong sink for fixed N.",
+          "excerpt_original_characters": 80,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.t2.caption",
+          "page": 6,
+          "section": "3.2 Denitrification was the dominant $\\mathbf { N O } _ { 3 } ^ { - }$ reduction pathway",
+          "figure": null,
+          "table": "Table 2",
+          "excerpt": "The relative contribution of different processes (total $\\Nu _ { 2 }$ production, $\\Nu _ { 2 }$ from denitrificat",
+          "excerpt_original_characters": 492,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.t2.n2footnote",
+          "page": 6,
+          "section": "3.2 Denitrification was the dominant $\\mathbf { N O } _ { 3 } ^ { - }$ reduction pathway",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 109,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.t2.reductionfootnote",
+          "page": 6,
+          "section": "3.2 Denitrification was the dominant $\\mathbf { N O } _ { 3 } ^ { - }$ reduction pathway",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 184,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.table2",
+          "page": 6,
+          "section": null,
+          "figure": null,
+          "table": "Table 2",
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 1472,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "SBB氮汇非印度陆架",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 8,
+      "document_id": "claim:sha256:d7e7e6a95584782052db42daa48de3091af4b200c9615816feba1aa5f650aece",
+      "paper_id": "paper:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+      "snapshot_id": "snapshot:sha256:00824e13d412d8540ce67bb6b805c9fe2c124fb5490fae1c3d8437f732e6e581",
+      "artifact_version_id": "artifact-version:sha256:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+      "source_name": "W2318204809.pdf",
+      "canonical_claim": "Following the latest Permian extinction, the δ15N records from the shallow-marine study sections suggest an expansion of stratified anoxic water masses, likely involving intensified denitrification and/or anaerobic ammonium oxidation.",
+      "original_claim": "Enhanced N fi xation is probably indicative of the prevalence of stratifi ed anoxic water masses characterized by intense denitrifi cation and/or anaerobic ammonium oxidation at the time.",
+      "scope": {
+        "condition": [
+          "Post-extinction marine nitrogen-cycle perturbation"
+        ],
+        "entities": [
+          "anaerobic ammonium oxidation",
+          "denitrification",
+          "stratified anoxic water masses"
+        ],
+        "formation": [],
+        "location": [
+          "Nanpanjiang Basin, South China"
+        ],
+        "measurement": [
+          "δ15N"
+        ],
+        "method": [
+          "Inference from bulk-organic nitrogen-isotope records"
+        ],
+        "sample_type": [
+          "Shallow-marine Permian-Triassic sections containing microbialite"
+        ],
+        "time": {
+          "end": null,
+          "label": "Following the latest Permian extinction",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Water-column anoxia and nitrogen-loss pathways inferred rather than directly measured"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.anoxia.abstract",
+          "page": 1,
+          "section": "ABSTRACT",
+          "figure": null,
+          "table": null,
+          "excerpt": "Enhanced N fi xation is probably indicative of the prevalence of stratifi ed anoxic water masses characterized by intense denitrifi cation and/or anaerobic ammonium oxidation at the time.",
+          "excerpt_original_characters": 187,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.anoxia.result",
+          "page": 2,
+          "section": "MARINE NITROGEN CYCLE DURING THE P-TR TRANSITION",
+          "figure": null,
+          "table": null,
+          "excerpt": "Therefore, the $\\delta ^ { 1 5 } \\mathrm { { N } }$ records of the study sections suggest an expansion of anoxic water masses following the LPE.",
+          "excerpt_original_characters": 144,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig.1",
+          "page": 2,
+          "section": null,
+          "figure": "Figure 1",
+          "table": null,
+          "excerpt": "Figure 1. Profi les showing $\\mathfrak { S } ^ { 1 3 } \\mathbb { C } _ { \\mathrm { o r g } }$ and $\\delta ^ { 1 5 } \\mathsf { N }$ variations during Permian-Triassic transition in sections at Taiping (left), Zuodeng (middle), and Meishan (right). Base of microbialite represents latest Permian marine mass extinction horizon. Conodont biostratigraphy is from Lehrmann et al. (2003). The $\\delta ^ { 1 5 } \\mathsf { N }$ and $\\mathfrak { S } ^ { 1 3 } \\mathbb { C } _ { ",
+          "excerpt_original_characters": 773,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.n.shift.1",
+          "page": 1,
+          "section": "CARBON AND NITROGEN ISOTOPE PROFILES",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 209,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.n.shift.2",
+          "page": 1,
+          "section": "CARBON AND NITROGEN ISOTOPE PROFILES",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.nfix.signature",
+          "page": 2,
+          "section": "MARINE NITROGEN CYCLE DURING THE P-TR TRANSITION",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 274,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1590,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "二叠纪氮循环非现代陆架预算",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 9,
+      "document_id": "claim:sha256:241a4de5fb255d7247daed6cd47fadbfce2f1d34bae5f97869c3fdfc768013f0",
+      "paper_id": "paper:e23c715da4e85076eed4663beee2b9818f280b1f9ae14600cdfc919dd1a12879",
+      "snapshot_id": "snapshot:sha256:c71473808f3e021ad8fd47728b8eb42a1a252297526621e76be3e0430aeb6d23",
+      "artifact_version_id": "artifact-version:sha256:e23c715da4e85076eed4663beee2b9818f280b1f9ae14600cdfc919dd1a12879",
+      "source_name": "BULK_f16e3d3bf2820bb21134.pdf",
+      "canonical_claim": "The Arabian Sea productivity and OMZ responses are determined primarily by summer southwest monsoon perturbations; winter northeast monsoon wind changes play a smaller role.",
+      "original_claim": "This may explain the more limited increase in winter productivity ( $+ 3 8$ increase in response to $50 \\%$ increase in wind stress) in comparison to summer productivity ( $_ { + 5 2 }$ increase in response to $50 \\%$ increase in wind stress).",
+      "scope": {
+        "location": [
+          "Arabian Sea"
+        ],
+        "time": {
+          "label": "50-year perturbation simulations",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "Model simulations"
+        ],
+        "method": [
+          "Eddy-resolving ROMS coupled to a nitrogen-based NPZD ecosystem model"
+        ],
+        "condition": [
+          "Idealized monsoon wind-stress perturbations, including intensification and seasonal perturbation scenarios"
+        ],
+        "measurement": [
+          "Net primary production, OMZ hypoxic and suboxic volumes, oxygen budget, denitrification, and fixed-nitrogen loss"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "Arabian Sea ecosystem",
+          "denitrification",
+          "fixed nitrogen",
+          "net primary production",
+          "oxygen minimum zone"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.npp.season",
+          "page": 8,
+          "section": "3.1 Response of NPP",
+          "figure": null,
+          "table": null,
+          "excerpt": "This may explain the more limited increase in winter productivity ( $+ 3 8$ increase in response to $50 \\%$ increase in wind stress) in comparison to summer productivity ( $_ { + 5 2 }$ increase in response to $50 \\%$ increase in wind stress).",
+          "excerpt_original_characters": 243,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.omz.season",
+          "page": 9,
+          "section": "3.2 Response of OMZ and denitrification",
+          "figure": null,
+          "table": null,
+          "excerpt": "This can be partially explained by the larger summer productivity and its larger sensitivity to wind changes leading to stronger perturbation of the $\\mathrm { O } _ { 2 }$ demand.",
+          "excerpt_original_characters": 180,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.season.opposed",
+          "page": 8,
+          "section": "3.1 Response of NPP",
+          "figure": null,
+          "table": null,
+          "excerpt": "However, when the summer wind intensification (respectively, weakening) is concomitant with a decrease (respectively, increase) in the winter monsoon winds, the annual-mean NPP still shows an increase (respectively, decrease) but of a weaker amplitude.",
+          "excerpt_original_characters": 252,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:e1ad99ac448c7bc481b6e28a1d4926c9e4b96eb11a86b8832b76bd9a35dc2427",
+          "page": 9,
+          "section": null,
+          "figure": "Figure 5",
+          "table": null,
+          "excerpt": "Figure 5. Biogeochemical response to monsoon wind intensity changes. Relative changes in response to monsoon wind intensity p",
+          "excerpt_original_characters": 491,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1166,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "阿拉伯海季风OMZ机制无年度预算",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 10,
+      "document_id": "claim:sha256:8b5a223668a24fce5b71ac5f625801be51f99cf958af0478852d361be74002cc",
+      "paper_id": "paper:a24deeb31f9e44cb19f00d966e25d842750a83f9b5d2f2fdb5bdea9e3b263189",
+      "snapshot_id": "snapshot:sha256:e279a9e89f717942c0446983d6e5994f760a3d8017494d91efd3e4b21633176b",
+      "artifact_version_id": "artifact-version:sha256:a24deeb31f9e44cb19f00d966e25d842750a83f9b5d2f2fdb5bdea9e3b263189",
+      "source_name": "BULK_14fefacc26731305c80f.pdf",
+      "canonical_claim": "Compared with the open-ocean system, the seasonal coastal shelf system off India reaches more extreme reducing conditions, with greater nitrate consumption leading to complete anoxia.",
+      "original_claim": "The perennial open-ocean system occupies two orders of magnitude larger volume than the seasonal coastal system, however, the latter offers more extreme conditions (greater nitrate consumption leading to complete anoxia).",
+      "scope": {
+        "location": [
+          "Arabian Sea; coastal shelf off the west coast of India and open-ocean suboxic zone"
+        ],
+        "time": null,
+        "formation": [],
+        "sample_type": [
+          "suboxic water-column environments"
+        ],
+        "method": [
+          "synthesis of available observations"
+        ],
+        "condition": [
+          "suboxic or denitrifying conditions"
+        ],
+        "measurement": [
+          "seasonality, nitrate consumption and redox conditions"
+        ],
+        "uncertainty": "Available data differ in spatial and temporal coverage.",
+        "entities": [
+          "coastal suboxic zone",
+          "open-ocean suboxic zone"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.abstract_extreme",
+          "page": 1,
+          "section": "Coastal versus open-ocean denitrification in the Arabian Sea",
+          "figure": null,
+          "table": null,
+          "excerpt": "The perennial open-ocean system occupies two orders of magnitude larger volume than the seasonal coastal system, however, the latter offers more extreme conditions (greater nitrate consumption leading to complete anoxia).",
+          "excerpt_original_characters": 221,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.cross_shelf_figref",
+          "page": 5,
+          "section": "3 Seasonality of $\\mathbf { O } _ { 2 }$ deficiency",
+          "figure": null,
+          "table": null,
+          "excerpt": "Fig.",
+          "excerpt_original_characters": 4,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.cross_shelf_pattern",
+          "page": 5,
+          "section": "3 Seasonality of $\\mathbf { O } _ { 2 }$ deficiency",
+          "figure": null,
+          "table": null,
+          "excerpt": "3) show the classical sequence of utilization of electron acceptors: $\\mathrm { O } _ { 2 }$ over and beyond the outer shelf, $\\mathrm { N O } _ { 3 } ^ { - }$ over the mid-shelf and $\\mathrm { S O } _ { 4 } ^ { 2 - }$ over the inner shelf.",
+          "excerpt_original_characters": 240,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.cross_shelf_start",
+          "page": 5,
+          "section": "3 Seasonality of $\\mathbf { O } _ { 2 }$ deficiency",
+          "figure": null,
+          "table": null,
+          "excerpt": "When the reducing conditions are at their peak in September– October, the cross-shelf sections north of about $1 2 ^ { \\circ } \\mathbf { N }$ latitude (e.g.",
+          "excerpt_original_characters": 156,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig3",
+          "page": 5,
+          "section": null,
+          "figure": "Fig. 3",
+          "table": null,
+          "excerpt": "Fig. 3. Vertical sections of temperature, salinity, $\\mathrm { ~ O } _ { 2 }$ , inorganic nitrogen species and hydrogen sulphide off Goa during 9 to 10 October 1999. Station locat",
+          "excerpt_original_characters": 341,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.fig4",
+          "page": 6,
+          "section": null,
+          "figure": "Fig. 4",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 424,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.sulfate_sequence",
+          "page": 5,
+          "section": "3 Seasonality of $\\mathbf { O } _ { 2 }$ deficiency",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 133,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1519,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同陆架还原季背景，未给90天与水量预算",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 11,
+      "document_id": "claim:sha256:c58d335b0fc22aebbda80983ca7b1a0702053b50825bda7a29e6b14b4881c22c",
+      "paper_id": "paper:b83a4159f4834099c5725a1db27ee47cf62d4fdd1d063867b623fcf6c9ee0f9d",
+      "snapshot_id": "snapshot:sha256:375fbdab9442fa193ab101422ba1409ed9ff74f2d4b0bc9ca223ec1d09a00a50",
+      "artifact_version_id": "artifact-version:sha256:b83a4159f4834099c5725a1db27ee47cf62d4fdd1d063867b623fcf6c9ee0f9d",
+      "source_name": "W4313289117.pdf",
+      "canonical_claim": "In Indian freshwater reservoirs with methane-rich anoxic hypolimnia, denitrification coupled to methanotrophy is the dominant pathway of combined-nitrogen loss.",
+      "original_claim": "The nitrogen cycle (from Naqvi, 2006).",
+      "scope": {
+        "condition": [
+          "Anoxic hypolimnia with methane available"
+        ],
+        "entities": [
+          "N₂",
+          "denitrification",
+          "freshwater reservoirs",
+          "methane",
+          "methanotrophy"
+        ],
+        "formation": [
+          "Anoxic hypolimnia"
+        ],
+        "location": [
+          "Indian freshwater reservoirs"
+        ],
+        "measurement": [
+          "Combined-nitrogen loss to N₂ and methanotroph community"
+        ],
+        "method": [
+          "N₂/Ar observations, isotope-pairing experiments, and molecular analyses"
+        ],
+        "sample_type": [
+          "Reservoir water and microbial communities"
+        ],
+        "time": {
+          "end": null,
+          "label": "Summer and anoxic periods",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "The relative importance of methanotroph groups is interpreted from the available evidence."
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.cyclecaption",
+          "page": 24,
+          "section": "3.2 Nitrogen Cycle",
+          "figure": "Figure 3.1",
+          "table": null,
+          "excerpt": "The nitrogen cycle (from Naqvi, 2006).",
+          "excerpt_original_characters": 38,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.cyclech4",
+          "page": 24,
+          "section": "3.2 Nitrogen Cycle",
+          "figure": null,
+          "table": null,
+          "excerpt": "In addition to organic matter, oxidised nitrogen species can also oxidise reduced species like $\\mathsf { C H } _ { 4 }$ (not shown here but discussed in the text).",
+          "excerpt_original_characters": 164,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.cycleref",
+          "page": 25,
+          "section": "3.2 Nitrogen Cycle",
+          "figure": null,
+          "table": null,
+          "excerpt": "The activity of both enzymes is inhibited by oxygen, which obviously plays the key role in the nitrogen cycle as schematically shown in Figure 3.1.",
+          "excerpt_original_characters": 147,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig31",
+          "page": 24,
+          "section": "3.2 Nitrogen Cycle",
+          "figure": "Figure 3.1",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.res1",
+          "page": 94,
+          "section": "9. THE TERRESTRIAL CONNECTION",
+          "figure": null,
+          "table": null,
+          "excerpt": "Measurements of $\\Nu _ { 2 } / \\mathrm { A r }$ ratios in four reservoirs revealed high values within the anoxic hypolimnia, pointing to combined nitrogen loss to $\\Nu _ { 2 }$ (Naqvi et al., 2018).",
+          "excerpt_original_characters": 198,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.res2",
+          "page": 98,
+          "section": "9. THE TERRESTRIAL CONNECTION",
+          "figure": null,
+          "table": null,
+          "excerpt": "These results strongly indicated that denitrification coupled to methanotrophy was the dominant pathway of combined nitrogen loss from Indian freshwater reservoirs (Naqvi et al., 2018).",
+          "excerpt_original_characters": 185,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.res3",
+          "page": 100,
+          "section": "9. THE TERRESTRIAL CONNECTION",
+          "figure": null,
+          "table": null,
+          "excerpt": "From these observations we concluded that even though NC10 bacteria ",
+          "excerpt_original_characters": 268,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1000,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "印度淡水体系非西岸陆架",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 12,
+      "document_id": "claim:sha256:0faeafa06cca7d06d3f5f970a6fd9d51ebfe54936b3ff2e3538594235ab07f75",
+      "paper_id": "paper:a24deeb31f9e44cb19f00d966e25d842750a83f9b5d2f2fdb5bdea9e3b263189",
+      "snapshot_id": "snapshot:sha256:e279a9e89f717942c0446983d6e5994f760a3d8017494d91efd3e4b21633176b",
+      "artifact_version_id": "artifact-version:sha256:a24deeb31f9e44cb19f00d966e25d842750a83f9b5d2f2fdb5bdea9e3b263189",
+      "source_name": "BULK_14fefacc26731305c80f.pdf",
+      "canonical_claim": "The intensification of Indian shelf oxygen deficiency is most likely associated with increased nitrogen loading from land, although its cause cannot be identified with certainty.",
+      "original_claim": "It would be reasonable to assume that most of the aeolian and riverine inputs are of anthropogenic origin, which could account for a significant fraction of denitrification rate over the shelf estimated above, and the shift from natural suboxic to anthropogenic anoxic conditions.",
+      "scope": {
+        "location": [
+          "Indian west-coast shelf, including Karwar and CATS off Goa"
+        ],
+        "time": {
+          "label": "1971–1975 compared with 1997–2004; historical context through the 1980s",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "near-bottom shelf waters"
+        ],
+        "method": [
+          "comparison of historical hydrocasts with later observations and CATS monitoring"
+        ],
+        "condition": [
+          "August–October shelf reducing conditions"
+        ],
+        "measurement": [
+          "O₂, sulfate reduction and nitrogen loading"
+        ],
+        "uncertainty": "The cause of the change is not identified with certainty.",
+        "entities": [
+          "Indian shelf",
+          "nitrogen loading",
+          "subsurface oxygen deficiency"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.anthropogenic_input_assumption",
+          "page": 7,
+          "section": "4 Denitrification rates",
+          "figure": null,
+          "table": null,
+          "excerpt": "It would be reasonable to assume that most of the aeolian and riverine inputs are of anthropogenic origin, which could account for a significant fraction of denitrification rate over the shelf estimated above, and the shift from natural suboxic to anthropogenic anoxic conditions.",
+          "excerpt_original_characters": 280,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.atmospheric_input",
+          "page": 7,
+          "section": "4 Denitrification rates",
+          "figure": null,
+          "table": null,
+          "excerpt": "The deposition rate from the atmosphere is perhaps relatively more important.",
+          "excerpt_original_characters": 77,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.cause_uncertain",
+          "page": 7,
+          "section": "4 Denitrification rates",
+          "figure": null,
+          "table": null,
+          "excerpt": "Although the cause of this change cannot be pinpointed with absolute certainty, it is most likely related to an increased nitrogen loading from land (Naqvi et al., 2000).",
+          "excerpt_original_characters": 170,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.din_amplification",
+          "page": 7,
+          "section": "4 Denitrification rates",
+          "figure": null,
+          "table": null,
+          "excerpt": "That is, for each unit of DIN added to the surface waters up to 6 units of $\\mathrm { N O } _ { 3 } ^ { - }$ can be removed at depth if the additional organic matter produced is oxidized by $\\mathrm { N O } _ { 3 } ^ { - }$ , thereby making subsurface denitrification very ",
+          "excerpt_original_characters": 311,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.fertilizer_trend",
+          "page": 7,
+          "section": "4 Denitrification rates",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 168,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.riverine_input",
+          "page": 7,
+          "section": "4 Denitrification rates",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 215,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1221,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同陆架缺氧强化原因无年度量",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 13,
+      "document_id": "claim:sha256:274121eb2a3d4ec2895479ae3f6eab2665b6e1d68bc83d3c6458868f01918c65",
+      "paper_id": "paper:b83a4159f4834099c5725a1db27ee47cf62d4fdd1d063867b623fcf6c9ee0f9d",
+      "snapshot_id": "snapshot:sha256:375fbdab9442fa193ab101422ba1409ed9ff74f2d4b0bc9ca223ec1d09a00a50",
+      "artifact_version_id": "artifact-version:sha256:b83a4159f4834099c5725a1db27ee47cf62d4fdd1d063867b623fcf6c9ee0f9d",
+      "source_name": "W4313289117.pdf",
+      "canonical_claim": "During seasonal anoxia over the western Indian continental shelf, denitrification is the dominant pathway of combined-nitrogen loss, rather than anammox or DNRA.",
+      "original_claim": "Addition of $^ { 1 5 } \\mathrm { N } \\mathrm { H _ { 4 } } ^ { + }$ resulted in low to moderate production of $^ { 2 9 } \\mathrm { N } _ { 2 } ,$ indicating anammox in about half of the incubations of anoxic waters.",
+      "scope": {
+        "condition": [
+          "Seasonal anoxia"
+        ],
+        "entities": [
+          "DNRA",
+          "Indian shelf",
+          "anammox",
+          "combined nitrogen",
+          "denitrification"
+        ],
+        "formation": [
+          "Seasonal oxygen-deficient zone"
+        ],
+        "location": [
+          "Western continental shelf of India"
+        ],
+        "measurement": [
+          "Denitrification, anammox, and DNRA"
+        ],
+        "method": [
+          "Isotope-dilution and isotope-pairing incubations"
+        ],
+        "sample_type": [
+          "Anoxic shelf-water samples"
+        ],
+        "time": {
+          "end": null,
+          "label": "Late August to late September, 2008–2010",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Rates vary spatially and temporally."
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.shelf1",
+          "page": 64,
+          "section": "SEASONAL ANOXIA OVER THE WESTERN 5 1 CONTINENTAL SHELF OF INDIA",
+          "figure": null,
+          "table": null,
+          "excerpt": "Addition of $^ { 1 5 } \\mathrm { N } \\mathrm { H _ { 4 } } ^ { + }$ resulted in low to moderate production of $^ { 2 9 } \\mathrm { N } _ { 2 } ,$ indicating anammox in about half of the incubations of anoxic waters.",
+          "excerpt_original_characters": 215,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.shelf2",
+          "page": 64,
+          "section": "SEASONAL ANOXIA OVER THE WESTERN 5 1 CONTINENTAL SHELF OF INDIA",
+          "figure": null,
+          "table": null,
+          "excerpt": "When detected through production of $^ { 1 5 } \\mathrm { N } \\mathrm { H _ { 4 } } ^ { + }$ in incubations involving $^ { 1 5 } \\mathrm { N O } _ { 2 } ^ { - }$ , DNRA rates were much lower than denitrification rates.",
+          "excerpt_original_characters": 217,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.shelf3",
+          "page": 64,
+          "section": "SEASONAL ANOXIA OVER THE WESTERN 5 1 CONTINENTAL SHELF OF INDIA",
+          "figure": null,
+          "table": null,
+          "excerpt": "As stated earlier, the production of $^ { 3 0 } \\mathrm { N } _ { 2 }$ indicates denitrification by microbes.",
+          "excerpt_original_characters": 109,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.shelf4",
+          "page": 64,
+          "section": "SEASONAL ANOXIA OVER THE WESTERN 5 1 CONTINENTAL SHELF OF INDIA",
+          "figure": null,
+          "table": null,
+          "excerpt": "These results clearly show that denitrification is the dominant pathway of combined nitrogen loss in the seasonal ODZ over the Indian shelf.",
+          "excerpt_original_characters": 140,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 681,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "反硝化优于anammox但无年度外推量",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 14,
+      "document_id": "claim:sha256:837a5bb21f28481228188df5addea56eed71d23799ee516d050fbf7c5c0883d7",
+      "paper_id": "paper:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720",
+      "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+      "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720",
+      "source_name": "2020_Massive Nitrogen Loss Over the Western Indian Continental Shelf During Seasonal Anoxia_ Evidence From Isotope Pairing Technique_d2b52fa4.pdf",
+      "canonical_claim": "In oxygen-depleted waters over the western Indian continental shelf during seasonal anoxia, isotope-pairing incubations identify denitrification as the predominant fixed-nitrogen-loss pathway, with a substantially higher mean rate than 15NH4+-derived anammox.",
+      "original_claim": "Anammox activity was confirmed by results of $^ { 1 5 } \\mathrm { N } \\mathrm { H _ { 4 } } ^ { + }$ incubations that led to significant $^ { 2 9 } \\mathrm { N } _ { 2 }$ production in over half $( 6 0 \\% )$ of the all experiments (Table 1 and Supplementary Figure S5, 1 to 20).",
+      "scope": {
+        "condition": [
+          "oxygen-depleted suboxic/anoxic waters during seasonal anoxia"
+        ],
+        "entities": [
+          "anammox",
+          "denitrification",
+          "fixed nitrogen loss",
+          "western Indian continental shelf (WICS)"
+        ],
+        "formation": [],
+        "location": [
+          "western Indian continental shelf, eastern Arabian Sea"
+        ],
+        "measurement": [
+          "isotope-pairing N2 production rates"
+        ],
+        "method": [
+          "anaerobic incubations with 15N-labeled substrates"
+        ],
+        "sample_type": [
+          "water-column samples from inner and mid shelf"
+        ],
+        "time": {
+          "end": null,
+          "label": "seasonal anoxia; rates summarized across three years",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "spatial and intra-annual variability in measured rates"
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.anammox.detect",
+          "page": 6,
+          "section": "Nitrogen Reduction Pathways Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "Anammox activity was confirmed by results of $^ { 1 5 } \\mathrm { N } \\mathrm { H _ { 4 } } ^ { + }$ incubations that led to significant $^ { 2 9 } \\mathrm { N } _ { 2 }$ production in over half $( 6 0 \\% )$ of the all experiments (Table 1 and Supplementary Figure S5, 1 to 20).",
+          "excerpt_original_characters": 278,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.anammox.mean",
+          "page": 6,
+          "section": "Nitrogen Reduction Pathways Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "The average anammox rate derived from all our $^ { 1 5 } \\mathrm { N } \\mathrm { H _ { 4 } } ^ { + }$ incubations was ${ \\sim } 0 . 0 6 \\pm 0 . 0 0 4 \\mathrm { \\ \\mu m o l \\ N } _ { 2 } \\mathrm { \\ L } ^ { - 1 } \\mathrm { \\ d } ^ { - 1 }$ .",
+          "excerpt_original_characters": 240,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.denit.all",
+          "page": 6,
+          "section": "Nitrogen Reduction Pathways Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "Denitrification was detected in all samples, as indicated by significant $\\cdot r ^ { 2 } \\geq 0 . 7 )$ production of $\\mathrm { \\mathrm { } } ^ { 3 0 } \\mathrm { \\bar { N } } _ { 2 }$ in $^ { 1 5 } \\mathrm { N O } _ { 2 } \\mathrm { \\mathrm { ^ - } }$ -spiked incubations.",
+          "excerpt_original_characters": 272,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.denit.mean",
+          "page": 8,
+          "section": "N-Loss Rates Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "The mean v",
+          "excerpt_original_characters": 225,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.loss.pathway",
+          "page": 6,
+          "section": "Nitrogen Reduction Pathways Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 125,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.rate.contrast",
+          "page": 6,
+          "section": "Nitrogen Reduction Pathways Over the WICS",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 94,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.table1",
+          "page": 5,
+          "section": "Isotope Pairing Experiments",
+          "figure": null,
+          "table": "Table 1",
+          "excerpt": "",
+          "excerpt_original_characters": 197,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.table1.caption",
+          "page": 5,
+          "section": "Isotope Pairing Experiments",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 196,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1627,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 2,
+        "scope_error": false,
+        "rationale": "同区过程速率提供预算基础，未完整给年度量及体积",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 15,
+      "document_id": "claim:sha256:2b18c9cb9a45e6064c9331d48e666afdcd4e7c541bccbc1fe9245b436aba3236",
+      "paper_id": "paper:972830eb62c2fb2e4e1fd9c1a4084ecc5df888251a6bc9cd30a53f4576e0d358",
+      "snapshot_id": "snapshot:sha256:777429b3b7dd511194ded6cd9d9c32856f13af96cf5251afbbaf68a97d3077dc",
+      "artifact_version_id": "artifact-version:sha256:972830eb62c2fb2e4e1fd9c1a4084ecc5df888251a6bc9cd30a53f4576e0d358",
+      "source_name": "NSFP_10558060.pdf",
+      "canonical_claim": "The Western Indian continental shelf’s seasonal hypoxic-anoxic zone forms primarily through summer-monsoon upwelling of deoxygenated waters.",
+      "original_claim": "Figure 2. The Arabian Sea (AS) and the Bay of Bengal (BoB) both house low oxygen zones in the subsurface waters. The blue contour line demarcates $0 . 2 ~ \\mu \\mathrm { M }$ of secondary nitrite in the AS oxygen minimum zones (OMZs; Naqvi, 1991). The pink arrows show the seasonal changes in the AS OMZ as reported by Rixen et al. (2014) and Shenoy et al. (2020), whereas the red arrow indicates the northward expansion as reported by Lachkar et al. (2021). The shaded region shows the seasonal hypoxic zone in the Western Indian shelf (Naqvi et al., 2000) and Eastern Indian Shelf (Sarma et al., 2013a; Sarma et al., 2013b). The red star demarcates the station where secondary nitrite was detected by Bristow et al. (2017), and the blue squares are stations where Toyoda et al. (2023) observed high concentrations of ${ \\Nu } _ { 2 } { 0 }$ in the BoB OMZ. ",
+      "scope": {
+        "condition": [
+          "Seasonal hypoxia and anoxia"
+        ],
+        "entities": [
+          "seasonal hypoxic-anoxic zone",
+          "upwelling"
+        ],
+        "formation": [],
+        "location": [
+          "Western Indian continental shelf"
+        ],
+        "measurement": [
+          "Dissolved oxygen"
+        ],
+        "method": [
+          "Review synthesis of observational and modeling studies"
+        ],
+        "sample_type": [],
+        "time": {
+          "end": null,
+          "label": "Southwest monsoon",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Earlier studies proposed possible anthropogenic eutrophication-related intensification"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.fig2",
+          "page": 4,
+          "section": "2.2. Oxygen minimum zones",
+          "figure": "Figure 2",
+          "table": null,
+          "excerpt": "Figure 2. The Arabian Sea (AS) and the Bay of Bengal (BoB) both house low oxygen zones in the subsurface waters. The blue contour line demarcates $0 . 2 ~ \\mu \\mathrm { M }$ of secondary nitrite in the AS oxygen minimum zones (OMZs; Naqvi, 1991). The pink arrows show the seasonal changes in the AS OMZ as reported by Rixen et al. (2014) and Shenoy et al. (2020), whereas the red arrow indicates the northward expansion as reported by Lachkar et al. (2021). The shaded region shows the seasonal hypoxic zone in the Western Indian shelf (Naqvi et al., 2000) and Eastern Indian Shelf (Sarma et al., 2013a; Sarma et al., 2013b). The red star demarcates the station where secondary nitrite was detected by Bristow et al. (2017), and the blue squares are stations where Toyoda et al. (2023) observed high ",
+          "excerpt_original_characters": 858,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.wcsi.earlier",
+          "page": 4,
+          "section": "2.2. Oxygen minimum zones",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 169,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.wcsi.recent",
+          "page": 4,
+          "section": "2.2. Oxygen minimum zones",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 205,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.wcsi.summary",
+          "page": 11,
+          "section": "4. Summary",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 150,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1382,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": false,
+        "rationale": "同陆架季风上涌原因无年度预算",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 16,
+      "document_id": "claim:sha256:578c0e04885404605d6fe5d30202a211cccb76b8243804228206dcea1d3c1e47",
+      "paper_id": "paper:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+      "snapshot_id": "snapshot:sha256:045b813be329773731f8fec8293b26b5abf2b2e295dd6d1cb8c7282cdb46479e",
+      "artifact_version_id": "artifact-version:sha256:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+      "source_name": "BULK_bee0e34bb3dca7e28c65.pdf",
+      "canonical_claim": "For the whole Baltic Sea, annual sedimentary denitrification removal was estimated at 426–652 kt N a−1 across two sediment-map approaches, equivalent to about 48–73% of annual N inputs delivered by rivers, coastal point sources, and atmospheric deposition.",
+      "original_claim": "For the approaches by means of the sediment types (1, 2, and 3) which were performed for the entire Baltic Sea area, the highest $\\mathbf { N } .$ -removal was calculated from approach 1 with a mean of $6 5 2 \\mathrm { k t N a } ^ { - 1 }$ .",
+      "scope": {
+        "condition": [
+          "whole-sea approaches 1 and 2"
+        ],
+        "entities": [
+          "Baltic Sea",
+          "denitrification",
+          "riverine, coastal point-source, and atmospheric N inputs",
+          "sediments"
+        ],
+        "formation": [],
+        "location": [
+          "Baltic Sea"
+        ],
+        "measurement": [
+          "annual N removal via sedimentary denitrification"
+        ],
+        "method": [
+          "Extrapolation of sediment-specific rates using two sediment distribution maps"
+        ],
+        "sample_type": [
+          "mapped sediment classes"
+        ],
+        "time": null,
+        "uncertainty": "Map-dependent estimates; representativeness of sampled sediment-specific rates is uncertain"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.sink.load",
+          "page": 8,
+          "section": "4.2 Nitrogen removal calculated from different sediment maps",
+          "figure": null,
+          "table": null,
+          "excerpt": "This means that between $4 8 \\%$ to $7 3 \\%$ of the annual N-input delivered by rivers, coastal point sources, and atmospheric deposition to the Baltic Sea is removed via sedimentary denitrification.",
+          "excerpt_original_characters": 199,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.sink.approach1",
+          "page": 6,
+          "section": "3.2 Calculation of the annual N-removal",
+          "figure": null,
+          "table": null,
+          "excerpt": "For the approaches by means of the sediment types (1, 2, and 3) which were performed for the entire Baltic Sea area, the highest $\\mathbf { N } .$ -removal was calculated from approach 1 with a mean of $6 5 2 \\mathrm { k t N a } ^ { - 1 }$ .",
+          "excerpt_original_characters": 241,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.sink.approach2",
+          "page": 6,
+          "section": "3.2 Calculation of the annual N-removal",
+          "figure": null,
+          "table": null,
+          "excerpt": "For approach 2, the mean N-removal rate was $4 2 6 \\mathrm { k t N a } ^ { - 1 }$ (max: $6 1 8 \\mathrm { k t N a } ^ { - 1 }$ , min: $2 8 7 \\mathrm { k t N a } ^ { - 1 }$ ), which is $3 5 \\%$ lower compared to the mean rate calculated by approach 1.",
+          "excerpt_original_characters": 249,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.sink.mapmethod",
+          "page": 2,
+          "section": "1 Introduction",
+          "figure": null,
+          "table": null,
+          "excerpt": "Sediment-specific denitrification rates were calculated and extrapolated using two different sediment distribut",
+          "excerpt_original_characters": 120,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.sink.representativeness",
+          "page": 10,
+          "section": "4.3 Uncertainties",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 138,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:e07fe758edc1772abb2f817a721425d06a24a541fbb2562aee7a2bcb157a3717",
+          "page": 5,
+          "section": null,
+          "figure": null,
+          "table": "Table 3",
+          "excerpt": "",
+          "excerpt_original_characters": 127,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1074,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "波罗的海年度反硝化非印度陆架",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 17,
+      "document_id": "claim:sha256:dc94062bb6c97d09552cbb7e362b5c55054216b8a3da3ad81659979aac16a98a",
+      "paper_id": "paper:45346d3cc13f90d6d8c44cfbe74b20c85c575c378a0ba2867f8bbbc0e27ed5de",
+      "snapshot_id": "snapshot:sha256:ce756b816c09b65b4f170a9d1e29e2186e941f49c716d8ed7b0d05c2b0c90bb2",
+      "artifact_version_id": "artifact-version:sha256:45346d3cc13f90d6d8c44cfbe74b20c85c575c378a0ba2867f8bbbc0e27ed5de",
+      "source_name": "W2093978367.pdf",
+      "canonical_claim": "In the deeper internal Kimmeridgian epeiric basin, recurring plankton blooms and the resulting oxygen consumption best explain repeated oxygen depletion and annual anoxia.",
+      "original_claim": "This theoretical cross section through the Kimmeridgian epeiric sea (Figs 2& 3) clearly indicates that the marginal areas had been well oxygenated medium-to-high energy environments,with a rich benthos.Only the internal, deeper part of the sea were affected by poorly oxygenated or anoxic conditions resulting in the benthic fauna being absent or remarkably reduced.However,oxygen depletion was not a permanent feature even in these offshore waters.Analogous to modern shelf environments,the anoxia is best explained by regularly recurring plankton blooms and resulting oxygen consumption (see below).",
+      "scope": {
+        "location": [
+          "Western Europe"
+        ],
+        "time": {
+          "label": "Late Kimmeridgian",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Kimmeridge Clay"
+        ],
+        "sample_type": [
+          "Coccolith limestones, oil shales, and bituminous shales"
+        ],
+        "method": [
+          "Facies, microlamination, and macrobenthic interpretation"
+        ],
+        "condition": [
+          "Seasonal oxygen fluctuation in shelf and epeiric-basin settings"
+        ],
+        "measurement": [
+          "Bottom-water and upper-substrate oxygenation"
+        ],
+        "uncertainty": "Annual recurrence of oxygen-interface migration is described as probable.",
+        "entities": [
+          "Kimmeridge Clay",
+          "benthic fauna",
+          "oxygen conditions",
+          "plankton blooms",
+          "poikiloaerobic facies"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.crosssection",
+          "page": 9,
+          "section": "Channel fills",
+          "figure": null,
+          "table": null,
+          "excerpt": "This theoretical cross section through the Kimmeridgian epeiric sea (Figs 2& 3) clearly indicates that the marginal areas had been well oxygenated medium-to-high energy environments,with a rich benthos.Only the internal, deeper part of the sea were affected by poorly oxygenated or anoxic conditions resulting in the benthic fauna being absent or remarkably reduced.However,oxygen depletion was not a permanent feature even in these offshore waters.Analogous to modern shelf environments,the anoxia is best explained by regularly recurring plankton blooms and resulting oxygen consumption (see below).",
+          "excerpt_original_characters": 601,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "page": 3,
+          "section": null,
+          "figure": "Fig.2",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig3",
+          "page": 4,
+          "section": null,
+          "figure": "Fig.3",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.laminae",
+          "page": 12,
+          "section": "Dynamics of late Kimmeridgian anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "Occurrence of the coccoliths in very thin,but discrete layers,separated by very thinclay layers (Figs 4,5& 6) record regular recurrence of phytoplankton blooms.",
+          "excerpt_original_characters": 160,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.primary",
+          "page": 12,
+          "section": "Dynamics of late Kimmeridgian anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "Only small infaunal suspension-feeding ",
+          "excerpt_original_characters": 644,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1405,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "Kimmeridgian年缺氧无现代预算",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 18,
+      "document_id": "claim:sha256:b09e01601f2c894040ab7df6210b2f66f615df32efd66c3363d753d7c9528faf",
+      "paper_id": "paper:09076bc7fcc226227cae9e63756fce41b9be507ff67336a9c48711e6f38cb782",
+      "snapshot_id": "snapshot:sha256:90a8f8f3da37ce57d8524b9fdd9c0477c0f6f8729e3b194afc90d89995517556",
+      "artifact_version_id": "artifact-version:sha256:09076bc7fcc226227cae9e63756fce41b9be507ff67336a9c48711e6f38cb782",
+      "source_name": "W3005458221.pdf",
+      "canonical_claim": "Across two full-scale ASR cycles in Aldinga’s anoxic carbonate aquifer, nitrogen removal from treated wastewater was dominated by redox transformations, with ammonium nitrification followed by denitrification producing nitrogen gas.",
+      "original_claim": "Total nitrogen (TN) removal was dominated by redox processes, with median removal of 40 to $60 \\%$ for TN and nitrate (the dominant N species) and higher removal of ammonia $( 9 5 \\% )$ and total Kjeldahl nitrogen (TKN) $( 7 0 \\% )$ .",
+      "scope": {
+        "location": [
+          "Aldinga ASR scheme, South Australia"
+        ],
+        "time": {
+          "label": "23 June 2014 to 22 March 2016",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Tertiary Port Willunga Formation, T2 confined carbonate aquifer"
+        ],
+        "sample_type": [
+          "Treated wastewater injected into and recovered from ASR"
+        ],
+        "method": [
+          "Operational water-quality monitoring over two complete ASR cycles"
+        ],
+        "condition": [
+          "Anoxic carbonate aquifer; injected TWW treated by MLE"
+        ],
+        "measurement": [
+          "Nitrogen and phosphorus species"
+        ],
+        "uncertainty": "BDOC was not measured; TDS-based mixing estimates are approximate",
+        "entities": [
+          "Aldinga ASR",
+          "FRP",
+          "NH4-N",
+          "NOx-N",
+          "TKN",
+          "TN",
+          "TP",
+          "treated wastewater"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.n.mechanism",
+          "page": 11,
+          "section": "4 Conclusion",
+          "figure": null,
+          "table": null,
+          "excerpt": "The removal was attributed to nitrification of ammonium to form nitrate and subsequent denitrification to produce nitrogen gas.",
+          "excerpt_original_characters": 127,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.n.abstract",
+          "page": 1,
+          "section": "Nutrient Transformation and Removal from Treated Wastewater Recycled Via Aquifer Storage and Recovery (ASR) in a Carbonate Aquifer",
+          "figure": null,
+          "table": null,
+          "excerpt": "Total nitrogen (TN) removal was dominated by redox processes, with median removal of 40 to $60 \\%$ for TN and nitrate (the dominant N species) and higher removal of ammonia $( 9 5 \\% )$ and total Kjeldahl nitrogen (TKN) $( 7 0 \\% )$ .",
+          "excerpt_original_characters": 234,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.n.nox",
+          "page": 8,
+          "section": "3 Results and Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "This contrasts with 35 to $60 \\%$ removal of NOx-N.",
+          "excerpt_original_characters": 51,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.n.species",
+          "page": 8,
+          "section": "3 Results and Discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "Median removal of 66 to $85 \\%$ for TKN and $> 9 5 \\%$ for ammonia indicates that both organic nitrogen and ammonia are removed through mineralisation of organic nitrogen to ammonium and then subsequent oxidation.",
+          "excerpt_original_characters": 213,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 625,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "含水层氮去除非陆架",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 19,
+      "document_id": "claim:sha256:7d0ccce162f5388ad21efe1a2b7dc2ee37c3515a160edfa9df6a314b2b3592a9",
+      "paper_id": "paper:45346d3cc13f90d6d8c44cfbe74b20c85c575c378a0ba2867f8bbbc0e27ed5de",
+      "snapshot_id": "snapshot:sha256:ce756b816c09b65b4f170a9d1e29e2186e941f49c716d8ed7b0d05c2b0c90bb2",
+      "artifact_version_id": "artifact-version:sha256:45346d3cc13f90d6d8c44cfbe74b20c85c575c378a0ba2867f8bbbc0e27ed5de",
+      "source_name": "W2093978367.pdf",
+      "canonical_claim": "Kimmeridgian epeiric-basin anoxia was recurrent but not permanent: oxygen conditions in the bottom water and uppermost substrate changed from aerobic to anaerobic and back to normal within a year, with remarkable annual oxygen fluctuations.",
+      "original_claim": "Most probably,the migration of the $\\mathrm { O } _ { 2 } / \\mathrm { H } _ { 2 } \\mathrm { S }$ interface was an annually recurring feature.",
+      "scope": {
+        "location": [
+          "Western Europe"
+        ],
+        "time": {
+          "label": "Late Kimmeridgian",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [
+          "Kimmeridge Clay"
+        ],
+        "sample_type": [
+          "Coccolith limestones, oil shales, and bituminous shales"
+        ],
+        "method": [
+          "Facies, microlamination, and macrobenthic interpretation"
+        ],
+        "condition": [
+          "Seasonal oxygen fluctuation in shelf and epeiric-basin settings"
+        ],
+        "measurement": [
+          "Bottom-water and upper-substrate oxygenation"
+        ],
+        "uncertainty": "Annual recurrence of oxygen-interface migration is described as probable.",
+        "entities": [
+          "Kimmeridge Clay",
+          "benthic fauna",
+          "oxygen conditions",
+          "plankton blooms",
+          "poikiloaerobic facies"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.annual",
+          "page": 13,
+          "section": "Dynamics of late Kimmeridgian anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "Most probably,the migration of the $\\mathrm { O } _ { 2 } / \\mathrm { H } _ { 2 } \\mathrm { S }$ interface was an annually recurring feature.",
+          "excerpt_original_characters": 141,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.dynamic",
+          "page": 1,
+          "section": "Distribution, dynamics and palaeoecology of Kimmeridgian (Upper Jurassic) shelf anoxia in western Europe",
+          "figure": null,
+          "table": null,
+          "excerpt": "In contrast,anoxia inthe Kimmeridgian ismore dynamic and resembles modern anoxia occurringin eutrophic shelf and epeiric basins (e.g.the coastal areas of Mid-Atlantic Bight,North Sea and Baltic Sea) and exhibit remarkable annual oxygen fluctuations.",
+          "excerpt_original_characters": 249,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.fig2",
+          "page": 3,
+          "section": null,
+          "figure": "Fig.2",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 0,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.withinyear",
+          "page": 11,
+          "section": "Dynamics of modern shelf and epicontinental sea anoxia",
+          "figure": null,
+          "table": null,
+          "excerpt": "Autumn and winter cooling and storm mixing events destroy the temperature stratification in the water column.Oxygen conditions in the bottom water and the uppermost part of the substrate return to normal.Thus,within one year the environmental conditions in the surficial substrate and bottom water change from aerobic to anaerobic and back again to normal (e.g.Meier-Reil et al.1987).Environments with oxygen f",
+          "excerpt_original_characters": 578,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 968,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 0,
+        "scope_error": false,
+        "rationale": "古陆表海年度氧化无关",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 20,
+      "document_id": "claim:sha256:900f5fa1ced079a6149a17a05f55c6eb09dece1ae1c1917bab3941ee447617ff",
+      "paper_id": "paper:06b6dd8d2f65140276b4b34f8de35abfeca7b084c61f45224de7a441426a654d",
+      "snapshot_id": "snapshot:sha256:2088d764e6e0ffafba6e65778a3d30533cebbe45ed21bca60683cb5a1c69962b",
+      "artifact_version_id": "artifact-version:sha256:06b6dd8d2f65140276b4b34f8de35abfeca7b084c61f45224de7a441426a654d",
+      "source_name": "W2039919010.pdf",
+      "canonical_claim": "In the anoxic saturated-zone plume, denitrification was a minor nitrogen-loss pathway during the first 34 months: excess N₂ indicated that it removed only about 2% of the nitrogen recharged to the aquifer through December 1992.",
+      "original_claim": "The mass of excess ${ \\bf N } _ { 2 }$ in the plume $( 5 0 ~ \\mathrm { k g } )$ indicated that denitrification through December 1992 reduced only about $2 \\%$ of the TN recharged to the aquifer,or about $4 \\%$ of the nitrate available for denitrification in the anoxic zone (1400 kg,Table 3).",
+      "scope": {
+        "condition": [
+          "Anoxic and suboxic zones of the saturated plume"
+        ],
+        "entities": [
+          "ammonium sorption",
+          "aquifer sediments",
+          "denitrification",
+          "nitrogen"
+        ],
+        "formation": [],
+        "location": [
+          "Orleans, Cape Cod, Massachusetts"
+        ],
+        "measurement": [
+          "Denitrification and ammonium sorption"
+        ],
+        "method": [
+          "Sediment-core incubations, N₂ production, batch sorption tests, and mass balance"
+        ],
+        "sample_type": [
+          "Effluent-contaminated groundwater and aquifer sediments"
+        ],
+        "time": {
+          "end": null,
+          "label": "February 1990–December 1992",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Rates and mass estimates reported for the developing plume"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.denitrification-mass",
+          "page": 13,
+          "section": "5.2. Nitrogen Transformations in the Saturated Zone",
+          "figure": null,
+          "table": null,
+          "excerpt": "The mass of excess ${ \\bf N } _ { 2 }$ in the plume $( 5 0 ~ \\mathrm { k g } )$ indicated that denitrification through December 1992 reduced only about $2 \\%$ of the TN recharged to the aquifer,or about $4 \\%$ of the nitrate available for denitrification in the anoxic zone (1400 kg,Table 3).",
+          "excerpt_original_characters": 292,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.denitrification-rates",
+          "page": 9,
+          "section": "4.2. Nitrogen Transport and Transformations in the Saturated Zone",
+          "figure": null,
+          "table": null,
+          "excerpt": "The denitrification rate in intact sediment cores from the anoxic zone ranged from 0 to 33 $( \\mathbf { n g \\ N / c m ^ { 3 } } ) / \\mathsf { d }$ , with a mean of $9 . 6 \\pm 7 . 4$ （ng $\\mathbf { N } / \\mathbf { c m } ^ { 3 } ) / \\mathbf { d }$ $( \\pm 1 \\ \\mathrm { S D } , \\ n \\ = \\ 6 1 )$ .Rates were generally $\\mathbf { < 8 }$ (ng $\\mathbf { N } / \\mathbf { c m } ^ { 3 } ) / \\mathbf { d }$ in the suboxic zone, with a mean of $2 . 8 \\pm 3 . 2$ （ng $\\mathbf { N } / \\mathbf { c m } ^ { 3 } ) / \\mathbf {",
+          "excerpt_original_characters": 529,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.doc-limitation",
+          "page": 9,
+          "section": "4.2. Nitrogen Transport and Transformations in the Saturated Zone",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 616,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.n2-rates",
+          "page": 10,
+          "section": "4.2. Nitrogen Transport and Transformations in the Saturated Zone",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 711,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:ab62aa2c57eb5f517bb66df2d1fd062175b0c1d5f5dc431edc200ed9da9379a6",
+          "page": 10,
+          "section": null,
+          "figure": null,
+          "table": "Table 3",
+          "excerpt": "",
+          "excerpt_original_characters": 69,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 2217,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "含水层反硝化非陆架",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 21,
+      "document_id": "claim:sha256:e0c3e64ca0c5eb5c0e7a8ded2741a1775da4f64b26aa92aa349541eeeb74eac3",
+      "paper_id": "paper:b83a4159f4834099c5725a1db27ee47cf62d4fdd1d063867b623fcf6c9ee0f9d",
+      "snapshot_id": "snapshot:sha256:375fbdab9442fa193ab101422ba1409ed9ff74f2d4b0bc9ca223ec1d09a00a50",
+      "artifact_version_id": "artifact-version:sha256:b83a4159f4834099c5725a1db27ee47cf62d4fdd1d063867b623fcf6c9ee0f9d",
+      "source_name": "W4313289117.pdf",
+      "canonical_claim": "South Asian terrestrial aquatic ecosystems likely remove or retain a substantial share of anthropogenic combined nitrogen before it reaches coastal waters, with denitrification in groundwater and nitrogen loss in anoxic reservoirs among the proposed pathways.",
+      "original_claim": "Subsequent estimates utilising the growing data base have since confirmed that actual DIN inputs by Indian rivers are indeed quite modest (Naqvi, 2008;",
+      "scope": {
+        "condition": [
+          "Anthropogenic nitrogen loading; anoxic groundwater or reservoir hypolimnia"
+        ],
+        "entities": [
+          "Indian rivers",
+          "South Asian terrestrial ecosystems",
+          "combined nitrogen",
+          "freshwater reservoirs",
+          "groundwater"
+        ],
+        "formation": [
+          "Terrestrial aquatic environments"
+        ],
+        "location": [
+          "South Asia, including the Indo-Gangetic Plain and Indian reservoirs"
+        ],
+        "measurement": [
+          "Riverine DIN export and nitrogen conversion to N₂"
+        ],
+        "method": [
+          "Compiled nutrient estimates and reported nitrogen-loss observations"
+        ],
+        "sample_type": [
+          "River DIN estimates, reservoirs, and groundwater"
+        ],
+        "time": null,
+        "uncertainty": "Some groundwater evidence is unpublished; pathways and total removal require further study."
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.terr1",
+          "page": 92,
+          "section": "9. THE TERRESTRIAL CONNECTION",
+          "figure": null,
+          "table": null,
+          "excerpt": "Subsequent estimates utilising the growing data base have since confirmed that actual DIN inputs by Indian rivers are indeed quite modest (Naqvi, 2008;",
+          "excerpt_original_characters": 151,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.terr2",
+          "page": 92,
+          "section": "9. THE TERRESTRIAL CONNECTION",
+          "figure": null,
+          "table": null,
+          "excerpt": "Even though these reservoirs are located at low latitudes, we found that they experienced marked seasonal physico-chemical changes: in all cases, the water column became stratified in summer leading to anoxic conditions in late summer and autumn.",
+          "excerpt_original_characters": 246,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.terr3",
+          "page": 101,
+          "section": "9. THE TERRESTRIAL CONNECTION",
+          "figure": null,
+          "table": null,
+          "excerpt": "Most of the groundwater in the Indo-Gangetic Plain is anoxic beneath a thin upper stratum, supporting very high rates of denitrification (Naqvi et al., unpublished manuscript).",
+          "excerpt_original_characters": 176,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.terr4",
+          "page": 102,
+          "section": "9. THE TERRESTRIAL CONNECTION",
+          "figure": null,
+          "table": null,
+          "excerpt": "In conclusion, there are several possible pathways by which combined nitrogen may be efficiently converted to $\\Nu _ { 2 }$ in terrestrial aquatic ecosystems of South Asia, thereby accounting for its much smaller export to the ",
+          "excerpt_original_characters": 381,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:407356c978f4a7ac47a1f71ee0c91755195aaf8bc9cae1856f3f2224dbaae61d",
+          "page": 93,
+          "section": null,
+          "figure": "Figure 9.1",
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 211,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1165,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "南亚陆地水体氮滞留不是陆架损失",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 22,
+      "document_id": "claim:sha256:cea560ec24c844fdadd60a0d617d2c5830947363ebd252d394330377dabdc039",
+      "paper_id": "paper:b12fc38ee56dd85cb285b726c760d529980588d6b7e284ab816da84aba5cc96f",
+      "snapshot_id": "snapshot:sha256:0234eb56ee6c83de9ac06ad69b2ed18285d8538de8c38ce080500be09ece2a0d",
+      "artifact_version_id": "artifact-version:sha256:b12fc38ee56dd85cb285b726c760d529980588d6b7e284ab816da84aba5cc96f",
+      "source_name": "W3080458240.pdf",
+      "canonical_claim": "Under anoxic flow-through reactor incubations of Werribee sediment in summer and winter, denitrification was the dominant nitrate-removal pathway over dissimilatory nitrate reduction to ammonium (DNRA) and anammox.",
+      "original_claim": "The contribution of anammox to the total removal of $\\mathrm { N O _ { 3 } } ^ { - }$ was $1 5 \\%$ during summer and $1 . 4 \\%$ during winter.",
+      "scope": {
+        "condition": [
+          "Anoxic incubations with nitrate additions"
+        ],
+        "entities": [
+          "DNRA",
+          "anammox",
+          "denitrification",
+          "nitrate"
+        ],
+        "formation": [
+          "Subterranean estuary"
+        ],
+        "location": [
+          "Werribee Southern Beach, Port Phillip Bay, Victoria, Australia"
+        ],
+        "measurement": [
+          "Denitrification, DNRA and anammox rates and nitrate-removal contributions"
+        ],
+        "method": [
+          "15N-enriched nitrate isotope-pairing in anoxic flow-through reactors"
+        ],
+        "sample_type": [
+          "Intertidal sandy sediment cores"
+        ],
+        "time": {
+          "end": null,
+          "label": "Austral summer and winter 2018",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Potential rates under reactor conditions"
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.pathway.anammox_share",
+          "page": 8,
+          "section": "Rates of nitrogen processes",
+          "figure": null,
+          "table": null,
+          "excerpt": "The contribution of anammox to the total removal of $\\mathrm { N O _ { 3 } } ^ { - }$ was $1 5 \\%$ during summer and $1 . 4 \\%$ during winter.",
+          "excerpt_original_characters": 142,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.pathway.dnra_share",
+          "page": 8,
+          "section": "Rates of nitrogen processes",
+          "figure": null,
+          "table": null,
+          "excerpt": "Dissimilatory $\\mathrm { N O } _ { 3 } ^ { - }$ reduction to ammonium removed approximately $1 9 \\%$ and $1 . 5 \\%$ of the total $\\mathrm { N O _ { 3 } } ^ { - }$ removal within the sediments during winter and summer, respectively.",
+          "excerpt_original_characters": 231,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.pathway.dominance",
+          "page": 11,
+          "section": "Removal pathways of $\\mathrm { N O } _ { 3 } \\mathrm { ^ - }$ within the subterranean estuary",
+          "figure": null,
+          "table": null,
+          "excerpt": "Consistent with previous studies on nitrogen cycling in permeable sediments, denitrification is the major microbial process controlling the fate of $\\mathrm { N O } _ { 3 } ^ { - }$ in this system, dominating over dissimilatory $\\mathrm { N O _ { 3 } } ^ { - }$ reduction to ammonium and anammox during both summer and winter seasons.",
+          "excerpt_original_characters": 334,
+          "excerpt_truncated": false
+        }
+      ],
+      "total_excerpt_original_characters": 707,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": false,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "Werribee沉积实验非印度年度量",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 23,
+      "document_id": "claim:sha256:73f1f06e6fa578fc30a3f9383138aaceb9b40497e075a6ab4fa8d062e4e0c79e",
+      "paper_id": "paper:decf0ea7d34ecffd5b9373eae9ac51843172cfb554a23ff8dd1394509959d0a2",
+      "snapshot_id": "snapshot:sha256:f854a51d0c67a01edcd3261dfc9eec1f14ab0520b8750ed52d5c1564394ac71d",
+      "artifact_version_id": "artifact-version:sha256:decf0ea7d34ecffd5b9373eae9ac51843172cfb554a23ff8dd1394509959d0a2",
+      "source_name": "BULK_a0c937caecc991681c46.pdf",
+      "canonical_claim": "In the anoxic Peruvian OMZ, the distribution of small particles (128–256 μm) can support high-resolution regional estimates of anammox nitrogen loss.",
+      "original_claim": "If we extrapolate the monthly rates across an entire year, they would lead to an N-loss estimate of $1 9 \\mathrm { T g } \\ \\mathrm { N y r ^ { - 1 } }$ for the anoxic part of the Peruvian OMZ.",
+      "scope": {
+        "condition": [
+          "Anoxic water column of the Peruvian OMZ"
+        ],
+        "entities": [
+          "128–256 μm particles",
+          "anammox rates",
+          "regional nitrogen loss"
+        ],
+        "formation": [],
+        "location": [
+          "Inner and outer Peruvian OMZ"
+        ],
+        "measurement": [
+          "Anammox rates and nitrogen-loss estimates"
+        ],
+        "method": [
+          "Small-particle volume relationship applied to regional UVP observations"
+        ],
+        "sample_type": [
+          "Regional UVP dataset"
+        ],
+        "time": {
+          "end": null,
+          "label": "March–July 2017; annual extrapolation",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Other seasons, sulfidic events, and oxycline anammox activity were not included."
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.annual.estimate",
+          "page": 7,
+          "section": "Results and discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "If we extrapolate the monthly rates across an entire year, they would lead to an N-loss estimate of $1 9 \\mathrm { T g } \\ \\mathrm { N y r ^ { - 1 } }$ for the anoxic part of the Peruvian OMZ.",
+          "excerpt_original_characters": 192,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.annual.limitation",
+          "page": 7,
+          "section": "Results and discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "This annual extrapolation would be improved by additional data from the early winter to early summer seasons, sulfidic events and also by the inclusion of anammox activity from the oxycline, which we did not investigate in this study.",
+          "excerpt_original_characters": 234,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.figure6",
+          "page": 8,
+          "section": "Results and discussion",
+          "figure": "Figure 6",
+          "table": null,
+          "excerpt": "Fig. 6 Regional estimate of nitrogen (N)-loss via anammox based on the volume of small particles $( 1 2 8 - 2 5 6 ~ \\mu \\mathrm { m } )$ . Anammox rates in the anoxic water column of Peruvian oxygen minimum zone $( \\mathsf { O } _ { 2 } < 1 . 5 \\mu \\mathsf { M } )$ derived from UVP measurements carried out from March to July 2017 (black circles depict UVP casts during cru",
+          "excerpt_original_characters": 614,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.regional.apply",
+          "page": 7,
+          "section": "Results and discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 181,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.regional.estimates1",
+          "page": 7,
+          "section": "Results and discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 206,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.regional.estimates2",
+          "page": 7,
+          "section": "Results and discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.regional.partition",
+          "page": 7,
+          "section": "Results and discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 137,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.small.regression",
+          "page": 7,
+          "section": "Results and discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 182,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.small.regression.interpretation",
+          "page": 7,
+          "section": "Results and discussion",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 115,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1864,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "秘鲁年度anammox预算不是印度反硝化",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 24,
+      "document_id": "claim:sha256:48b75cee75ba2dc773501016c9a9386ad1418e8d77aceeba9b695ec13457b0d5",
+      "paper_id": "paper:c4690eab76636aac9e59f59b576c935c3db1aca7d7207ee7df834bcb248bcc3e",
+      "snapshot_id": "snapshot:sha256:d86c64bbb575fb4db5d982f00b2c9961d921055129914b4333ff36df1ff45ae1",
+      "artifact_version_id": "artifact-version:sha256:c4690eab76636aac9e59f59b576c935c3db1aca7d7207ee7df834bcb248bcc3e",
+      "source_name": "PMCC_ffaa89ae9a15cbabd6e0.pdf",
+      "canonical_claim": "Extrapolation of mean benthic N-loss rates measured at Pakistan-margin stations suggests that benthic N-loss could account for up to about half of total N-loss in the Arabian Sea.",
+      "original_claim": "Since we measured N-loss at four stations across the OMZ with bottom water $\\mathrm { O } _ { 2 }$ concentrations of $0 { - } 2 3 \\mu \\mathrm { m o l l } ^ { - 1 }$ , an extrapolation of average fluxes to the area estimated by Naqvi et al.",
+      "scope": {
+        "location": [
+          "Arabian Sea"
+        ],
+        "time": null,
+        "formation": [],
+        "sample_type": [
+          "Shelf and margin sediments and water column"
+        ],
+        "method": [
+          "Spatial extrapolation of measured Pakistan-margin fluxes and comparison with pelagic N-loss estimates"
+        ],
+        "condition": [
+          "Basin-scale estimate based on extrapolation of mean fluxes over seafloor area"
+        ],
+        "measurement": [
+          "Annual benthic and pelagic N-loss"
+        ],
+        "uncertainty": "Spatial extrapolation; seasonal contribution not evaluated across seasons",
+        "entities": [
+          "benthic sediments",
+          "nitrogen loss",
+          "water column"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "anchor.area_extrapolation",
+          "page": 13,
+          "section": "CONTRIBUTION OF BENTHIC N-LOSS TO THE N-DEFICIT IN THE ARABIAN SEA",
+          "figure": null,
+          "table": null,
+          "excerpt": "Since we measured N-loss at four stations across the OMZ with bottom water $\\mathrm { O } _ { 2 }$ concentrations of $0 { - } 2 3 \\mu \\mathrm { m o l l } ^ { - 1 }$ , an extrapolation of average fluxes to the area estimated by Naqvi et al.",
+          "excerpt_original_characters": 239,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.benthic_annual",
+          "page": 13,
+          "section": "CONTRIBUTION OF BENTHIC N-LOSS TO THE N-DEFICIT IN THE ARABIAN SEA",
+          "figure": null,
+          "table": null,
+          "excerpt": "The mean rates measured in the slurry incubations in this study would result in an annual N removal as high as $1 4 . 7 \\mathrm { T g } \\mathrm { N y e a r } ^ { - 1 }$ (range between 12.3 and $1 7 . 0 \\mathrm { T g } \\mathrm { N y e a r } ^ { - 1 }$ ).",
+          "excerpt_original_characters": 253,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.benthic_pelagic_comparison",
+          "page": 13,
+          "section": "CONTRIBUTION OF BENTHIC N-LOSS TO THE N-DEFICIT IN THE ARABIAN SEA",
+          "figure": null,
+          "table": null,
+          "excerpt": "Compared to the mean benthic N-loss calculated from our data $( 1 4 . 7 \\mathrm { T g } \\mathrm { N y e a r } ^ { - 1 } )$ with only the shelf sediments included, water column and the sediments might contribute more or less equally to the N-loss in the Arabian Sea.",
+          "excerpt_original_characters": 265,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "anchor.conclusion_limit",
+          "page": 14,
+          "section": "CONCLUSION",
+          "figure": null,
+          "table": null,
+          "excerpt": "half of the total N-loss in the Arabian Sea",
+          "excerpt_original_characters": 262,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor.pelagic_annual",
+          "page": 13,
+          "section": "CONTRIBUTION OF BENTHIC N-LOSS TO THE N-DEFICIT IN THE ARABIAN SEA",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 298,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1317,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "巴基斯坦底栖对整个阿拉伯海损失占比非印度季节水柱预算",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    },
+    {
+      "candidate": 25,
+      "document_id": "claim:sha256:9dea7c53752b25e15434abb9d9e30e8c13246af2e7abb66bf3418b0ff942cd9c",
+      "paper_id": "paper:39ec64a3f9204ce19b44dd18d5b56285526003c176ab9b0a8bec9c51335038d9",
+      "snapshot_id": "snapshot:sha256:8ca23d9de136b586aba6d5c8695a1db3f06bd8df87e2763d759956e8710b12ec",
+      "artifact_version_id": "artifact-version:sha256:39ec64a3f9204ce19b44dd18d5b56285526003c176ab9b0a8bec9c51335038d9",
+      "source_name": "PMCC_3e1f2276286098bbd50b.pdf",
+      "canonical_claim": "In the central Chile time series, reported nitrate removal from mid and bottom waters, together with N-deficit and N* indicators, supports a denitrification-related fixed-nitrogen-loss interpretation involving reduction to N2O/N2.",
+      "original_claim": "Denitrifcation is the dominant pathway for fxed N loss in the EBUS whereas anammox constitutes a minor fxed N loss pathway3,6 .",
+      "scope": {
+        "location": [
+          "TSS18 on the continental shelf of central Chile"
+        ],
+        "time": {
+          "label": "2002–2023",
+          "start": null,
+          "end": null,
+          "unit": null
+        },
+        "formation": [],
+        "sample_type": [
+          "water-column observations"
+        ],
+        "method": [
+          "observational time series, correlation and trend analysis"
+        ],
+        "condition": [],
+        "measurement": [
+          "nitrate, N deficit and N*"
+        ],
+        "uncertainty": null,
+        "entities": [
+          "N deficit",
+          "N*",
+          "fixed nitrogen",
+          "nitrate"
+        ]
+      },
+      "anchors": [
+        {
+          "anchor_id": "a.bg.denit",
+          "page": 1,
+          "section": "Understanding the impacts of coastal deoxygenation in nitrogen dynamics: an observational analysis",
+          "figure": null,
+          "table": null,
+          "excerpt": "Denitrifcation is the dominant pathway for fxed N loss in the EBUS whereas anammox constitutes a minor fxed N loss pathway3,6 .",
+          "excerpt_original_characters": 127,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.fig.2",
+          "page": 5,
+          "section": null,
+          "figure": "Figure 2",
+          "table": null,
+          "excerpt": "Figure 2. Heatmap of correlation matrix among biogeochemical variables that include surface and mid-bottom inventories of ${ \\mathrm { N } } _ { 2 } { \\mathrm { O } } ,$ , $\\mathrm { N O } _ { 3 } , \\mathrm { N O } _ { 2 }$ , DO, as well as estimates of N defcit, N:P, $\\mathrm { N ^ { * } }$ , $\\mathrm { N } _ { 2 } \\mathrm { O }$ fuxes, alongshore wind stress and Hypoxic Volumes at 4.4, 11.15, 22.3 and 89.3 $( \\mu \\mathrm { m o l } \\mathrm { L } ^ { - 1 } ,$ ) thresholds. Asterisk represents statistical signifcance. ",
+          "excerpt_original_characters": 523,
+          "excerpt_truncated": false
+        },
+        {
+          "anchor_id": "a.no3.corr1",
+          "page": 5,
+          "section": "Results and discussion Seasonal and interannual variability in nutrient and $\\aleph _ { 2 } O$ concentrations, N defcit and ${ \\sf N } _ { 2 } { \\sf O }$ fuxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "As expected, N defcit strongly and negatively correlates with $\\mathrm { N O } _ { 3 } ^ { - }$ content and the volume of hypoxic waters at various th",
+          "excerpt_original_characters": 170,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.no3.corr2",
+          "page": 5,
+          "section": "Results and discussion Seasonal and interannual variability in nutrient and $\\aleph _ { 2 } O$ concentrations, N defcit and ${ \\sf N } _ { 2 } { \\sf O }$ fuxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 3,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.no3.reduction",
+          "page": 9,
+          "section": "Interannual trends in nutrients (N defcit), ${ \\sf N } _ { 2 } { \\sf O }$ content and its air ‑sea fuxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 338,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "a.no3.trend",
+          "page": 9,
+          "section": "Interannual trends in nutrients (N defcit), ${ \\sf N } _ { 2 } { \\sf O }$ content and its air ‑sea fuxes",
+          "figure": null,
+          "table": null,
+          "excerpt": "",
+          "excerpt_original_characters": 268,
+          "excerpt_truncated": true
+        },
+        {
+          "anchor_id": "anchor:compiler:visual:d093772d1bfdbb58bf5ce3e8e7858a65973b954a9cfcdf00d4ac12b5194a6388",
+          "page": 10,
+          "section": null,
+          "figure": null,
+          "table": "Table 3",
+          "excerpt": "",
+          "excerpt_original_characters": 516,
+          "excerpt_truncated": true
+        }
+      ],
+      "total_excerpt_original_characters": 1945,
+      "excerpt_budget_characters": 800,
+      "any_excerpt_truncated": true,
+      "ai_judgment": {
+        "relevance": 1,
+        "scope_error": true,
+        "rationale": "智利氮损失非印度陆架",
+        "source_label_file": "judgments_q86_q120.json"
+      },
+      "annotation_model_id": "not recorded",
+      "full_annotation_prompt": "not recorded"
+    }
+  ]
+}

@@ -1,0 +1,1813 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "50edada6b46aed9643ce7add557a973f93ccc48b04ad2416bcd8cbd37f94fd17",
+  "http_body_sha256": "6900f19eb72ad3eb1cfa57ee55600e818463ddd91180352a3f3e391f30384178",
+  "snapshot": {
+    "id": "snapshot:sha256:9e4cabc7fc47f31b39e747dda60145faf71094bc8fb7a3744cc5631f6580680f",
+    "rootArtifactVersionId": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "9e4cabc7fc47f31b39e747dda60145faf71094bc8fb7a3744cc5631f6580680f"
+  },
+  "graph": {
+    "paper_id": "paper:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+    "anchors": [
+      {
+        "id": "anchor.figure.2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 53
+        }
+      },
+      {
+        "id": "anchor.figure.5a",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 56
+        }
+      },
+      {
+        "id": "anchor.figure.5b",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 56
+        }
+      },
+      {
+        "id": "anchor.figure.6b",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 57
+        }
+      },
+      {
+        "id": "anchor.figure.7",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 58
+        }
+      },
+      {
+        "id": "anchor.figure.8a",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 59
+        }
+      },
+      {
+        "id": "anchor.figure.8b",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 59
+        }
+      },
+      {
+        "id": "anchor.figure.9",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 60
+        }
+      },
+      {
+        "id": "anchor.text.beta.drop",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.text.beta.nu",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "anchor.text.beta.zero",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.text.cold.brittle",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.depth.invariant",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.dsf.applicable",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.text.dsf.deadsea.value",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.dsf.diffusion",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.text.dsf.lisan.value",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.dsf.recurrence",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.text.dsf.values",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 29
+        }
+      },
+      {
+        "id": "anchor.text.dsf.water.deadsea",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.text.dsf.water.lisan",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 23
+        }
+      },
+      {
+        "id": "anchor.text.eq12",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.eq13",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.failure",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.text.figure8.trend",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 24
+        }
+      },
+      {
+        "id": "anchor.text.friction.cohesion",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "anchor.text.history.conclusion",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 29
+        }
+      },
+      {
+        "id": "anchor.text.history.correlation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.text.history.count",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.text.history.excluded",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.text.history.figure",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.text.history.migration",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.text.history.other",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.text.history.outliers",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.text.history.record",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.text.history.regression",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.text.immediate.negative",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.text.immediate.positive",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.text.interval.drop",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.interval.reduced",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.model.caption.a",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 48
+        }
+      },
+      {
+        "id": "anchor.text.model.caption.b",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 48
+        }
+      },
+      {
+        "id": "anchor.text.model.coupled",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.model.geometry",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.model.load",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.model.method",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.mohr.shift",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.text.negative.destabilization",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "anchor.text.postdiff.condition",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.text.postdiff.dominance",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.text.postdiff.negative",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.property.interplay",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.text.strain.constant",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "selector": {
+          "page": 51
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.beta.drop",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.7",
+          "anchor.text.beta.drop"
+        ]
+      },
+      {
+        "id": "obs.beta.nu.sensitivity",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.beta.nu"
+        ]
+      },
+      {
+        "id": "obs.beta.zero",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5b",
+          "anchor.text.beta.zero",
+          "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d"
+        ]
+      },
+      {
+        "id": "obs.dsf.diffusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.dsf.diffusion",
+          "anchor.text.dsf.recurrence",
+          "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d"
+        ]
+      },
+      {
+        "id": "obs.dsf.drop.deadsea",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.dsf.deadsea.value",
+          "anchor.text.dsf.values"
+        ]
+      },
+      {
+        "id": "obs.dsf.drop.lisan",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.dsf.lisan.value"
+        ]
+      },
+      {
+        "id": "obs.dsf.model.applicability",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.text.cold.brittle",
+          "anchor.text.dsf.applicable"
+        ]
+      },
+      {
+        "id": "obs.dsf.water.deadsea",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.dsf.water.deadsea"
+        ]
+      },
+      {
+        "id": "obs.dsf.water.lisan",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.dsf.water.lisan"
+        ]
+      },
+      {
+        "id": "obs.failure.envelope",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.6b",
+          "anchor.text.failure"
+        ]
+      },
+      {
+        "id": "obs.friction.cohesion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.8a",
+          "anchor.figure.8b",
+          "anchor.text.figure8.trend",
+          "anchor.text.friction.cohesion"
+        ]
+      },
+      {
+        "id": "obs.history.correlation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.9",
+          "anchor.text.history.correlation",
+          "anchor.text.history.figure"
+        ]
+      },
+      {
+        "id": "obs.history.count",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.history.count",
+          "anchor.text.history.record"
+        ]
+      },
+      {
+        "id": "obs.history.other.mechanisms",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.9",
+          "anchor.text.history.migration",
+          "anchor.text.history.other"
+        ]
+      },
+      {
+        "id": "obs.history.outliers",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.9",
+          "anchor.text.history.excluded",
+          "anchor.text.history.outliers"
+        ]
+      },
+      {
+        "id": "obs.history.regression",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.history.regression"
+        ]
+      },
+      {
+        "id": "obs.immediate.negative",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5a",
+          "anchor.text.immediate.negative"
+        ]
+      },
+      {
+        "id": "obs.immediate.positive",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5a",
+          "anchor.text.immediate.positive"
+        ]
+      },
+      {
+        "id": "obs.model.setup",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.text.model.caption.a",
+          "anchor.text.model.caption.b",
+          "anchor.text.model.geometry",
+          "anchor.text.model.load"
+        ]
+      },
+      {
+        "id": "obs.mohr.shift",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5b",
+          "anchor.figure.6b",
+          "anchor.text.mohr.shift"
+        ]
+      },
+      {
+        "id": "obs.negative.destabilization",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.negative.destabilization"
+        ]
+      },
+      {
+        "id": "obs.postdiff.dominance",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5b",
+          "anchor.text.postdiff.dominance"
+        ]
+      },
+      {
+        "id": "obs.postdiff.negative",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5b",
+          "anchor.text.postdiff.negative"
+        ]
+      },
+      {
+        "id": "obs.property.interplay",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.property.interplay",
+          "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d"
+        ]
+      },
+      {
+        "id": "obs.recurrence.eq12",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.eq12"
+        ]
+      },
+      {
+        "id": "obs.recurrence.eq13.beta",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.eq13"
+        ]
+      },
+      {
+        "id": "obs.recurrence.eq13.friction",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.eq13"
+        ]
+      },
+      {
+        "id": "obs.recurrence.reduced",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.interval.drop",
+          "anchor.text.interval.reduced"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.beta.nu",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.beta.drop",
+          "anchor.text.beta.nu",
+          "anchor.text.eq13"
+        ]
+      },
+      {
+        "id": "reason.dsf",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.text.dsf.applicable",
+          "anchor.text.dsf.diffusion",
+          "anchor.text.dsf.values",
+          "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d"
+        ]
+      },
+      {
+        "id": "reason.friction.cohesion",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.eq13",
+          "anchor.text.figure8.trend",
+          "anchor.text.friction.cohesion"
+        ]
+      },
+      {
+        "id": "reason.history.pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.history.correlation",
+          "anchor.text.history.regression"
+        ]
+      },
+      {
+        "id": "reason.history.qualification",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.9",
+          "anchor.text.history.migration",
+          "anchor.text.history.other",
+          "anchor.text.history.outliers"
+        ]
+      },
+      {
+        "id": "reason.history.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.history.conclusion"
+        ]
+      },
+      {
+        "id": "reason.immediate",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.property.interplay",
+          "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d"
+        ]
+      },
+      {
+        "id": "reason.model",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.model.coupled",
+          "anchor.text.model.method"
+        ]
+      },
+      {
+        "id": "reason.postdiff",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.negative.destabilization",
+          "anchor.text.postdiff.dominance"
+        ]
+      },
+      {
+        "id": "reason.recurrence",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.eq12",
+          "anchor.text.failure",
+          "anchor.text.interval.drop",
+          "anchor.text.mohr.shift"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:151016b1dfaeb87db70df7959b076280ff15ad14c3f7a0411b8dd7201051883d",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.8a",
+          "anchor.figure.8b",
+          "anchor.text.eq13",
+          "anchor.text.figure8.trend",
+          "anchor.text.friction.cohesion"
+        ]
+      },
+      {
+        "id": "claim:sha256:4ba5b60bbf4e93e0854adc6a2c6c3b31bca618c2ae0b8b7dea6a488b3a8bdb8f",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.text.eq12",
+          "anchor.text.failure",
+          "anchor.text.interval.reduced",
+          "anchor.text.model.caption.a",
+          "anchor.text.model.method",
+          "anchor.text.mohr.shift"
+        ]
+      },
+      {
+        "id": "claim:sha256:5cdf009af0609c94a6604fa7b05be71fcabcf052c6b0e95ff0c98e1bc99b4d46",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.text.immediate.negative",
+          "anchor.text.immediate.positive",
+          "anchor.text.model.caption.a",
+          "anchor.text.property.interplay",
+          "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d"
+        ]
+      },
+      {
+        "id": "claim:sha256:9331beb60524efff4d2b6ce6255d9b14f89614585f9d2d9539a9f8bb3d1f9e23",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.9",
+          "anchor.text.history.conclusion",
+          "anchor.text.history.correlation",
+          "anchor.text.history.count",
+          "anchor.text.history.figure",
+          "anchor.text.history.outliers",
+          "anchor.text.history.record",
+          "anchor.text.history.regression"
+        ]
+      },
+      {
+        "id": "claim:sha256:a7ecce1e65df655c2976a781a46123d22e40f5e9eb857dd19951c4be5f865b06",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.7",
+          "anchor.text.beta.drop",
+          "anchor.text.beta.nu",
+          "anchor.text.beta.zero",
+          "anchor.text.eq13",
+          "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d"
+        ]
+      },
+      {
+        "id": "claim:sha256:dbf43775e7729f9dbcbdbe576e4bd9c6f4c44be53dc39888973bb32d3fe76ad1",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.text.model.caption.a",
+          "anchor.text.negative.destabilization",
+          "anchor.text.postdiff.dominance",
+          "anchor.text.postdiff.negative",
+          "anchor.text.property.interplay",
+          "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d"
+        ]
+      },
+      {
+        "id": "claim:sha256:e3bcd6c4c3c839968a34e67d343106728222329cc481b7b0174130d8a10743f6",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.text.dsf.applicable",
+          "anchor.text.dsf.deadsea.value",
+          "anchor.text.dsf.diffusion",
+          "anchor.text.dsf.lisan.value",
+          "anchor.text.dsf.values",
+          "anchor.text.dsf.water.deadsea",
+          "anchor.text.dsf.water.lisan",
+          "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.cold.brittle",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.cold.brittle",
+          "anchor.text.depth.invariant"
+        ]
+      },
+      {
+        "id": "assumption.history.regression",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.figure.9",
+          "anchor.text.history.excluded",
+          "anchor.text.history.regression"
+        ]
+      },
+      {
+        "id": "assumption.model.geometry",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.text.model.caption.a",
+          "anchor.text.model.caption.b",
+          "anchor.text.model.geometry",
+          "anchor.text.model.load"
+        ]
+      },
+      {
+        "id": "assumption.postdiff.condition",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.postdiff.condition"
+        ]
+      },
+      {
+        "id": "assumption.strain.constant",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.strain.constant"
+        ]
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:001c4e7b-dc03-4007-8721-8bf3c33ebaa9",
+        "sha256": "c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.assumption.brittle.dsf",
+        "source_id": "assumption.cold.brittle",
+        "target_id": "reason.dsf",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.brittle.recurrence",
+        "source_id": "assumption.cold.brittle",
+        "target_id": "reason.recurrence",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.geometry.model",
+        "source_id": "assumption.model.geometry",
+        "target_id": "reason.model",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.postdiff.beta",
+        "source_id": "assumption.postdiff.condition",
+        "target_id": "reason.beta.nu",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.postdiff.dsf",
+        "source_id": "assumption.postdiff.condition",
+        "target_id": "reason.dsf",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.postdiff.friction",
+        "source_id": "assumption.postdiff.condition",
+        "target_id": "reason.friction.cohesion",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.postdiff.recurrence",
+        "source_id": "assumption.postdiff.condition",
+        "target_id": "reason.recurrence",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.regression.history",
+        "source_id": "assumption.history.regression",
+        "target_id": "reason.history.synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.strain.recurrence",
+        "source_id": "assumption.strain.constant",
+        "target_id": "reason.recurrence",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.beta.drop",
+        "source_id": "anchor.text.beta.drop",
+        "target_id": "obs.beta.drop",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.beta.drop.figure",
+        "source_id": "anchor.figure.7",
+        "target_id": "obs.beta.drop",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.beta.nu",
+        "source_id": "anchor.text.beta.nu",
+        "target_id": "obs.beta.nu.sensitivity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.beta.zero",
+        "source_id": "anchor.text.beta.zero",
+        "target_id": "obs.beta.zero",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.beta.zero.figure",
+        "source_id": "anchor.figure.5b",
+        "target_id": "obs.beta.zero",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.destabilization",
+        "source_id": "anchor.text.negative.destabilization",
+        "target_id": "obs.negative.destabilization",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.dsf.applicable",
+        "source_id": "anchor.text.dsf.applicable",
+        "target_id": "obs.dsf.model.applicability",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.dsf.applicable.cold",
+        "source_id": "anchor.text.cold.brittle",
+        "target_id": "obs.dsf.model.applicability",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.dsf.applicable.figure",
+        "source_id": "anchor.figure.2",
+        "target_id": "obs.dsf.model.applicability",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.dsf.diffusion",
+        "source_id": "anchor.text.dsf.diffusion",
+        "target_id": "obs.dsf.diffusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.dsf.recurrence",
+        "source_id": "anchor.text.dsf.recurrence",
+        "target_id": "obs.dsf.diffusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.dsf.values.deadsea",
+        "source_id": "anchor.text.dsf.deadsea.value",
+        "target_id": "obs.dsf.drop.deadsea",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.dsf.values.deadsea.summary",
+        "source_id": "anchor.text.dsf.values",
+        "target_id": "obs.dsf.drop.deadsea",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.dsf.values.lisan",
+        "source_id": "anchor.text.dsf.lisan.value",
+        "target_id": "obs.dsf.drop.lisan",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.dsf.water.deadsea",
+        "source_id": "anchor.text.dsf.water.deadsea",
+        "target_id": "obs.dsf.water.deadsea",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.dsf.water.lisan",
+        "source_id": "anchor.text.dsf.water.lisan",
+        "target_id": "obs.dsf.water.lisan",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.eq12",
+        "source_id": "anchor.text.eq12",
+        "target_id": "obs.recurrence.eq12",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.eq13.beta",
+        "source_id": "anchor.text.eq13",
+        "target_id": "obs.recurrence.eq13.beta",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.eq13.friction",
+        "source_id": "anchor.text.eq13",
+        "target_id": "obs.recurrence.eq13.friction",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.failure",
+        "source_id": "anchor.text.failure",
+        "target_id": "obs.failure.envelope",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.failure.figure",
+        "source_id": "anchor.figure.6b",
+        "target_id": "obs.failure.envelope",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.figure8.trend",
+        "source_id": "anchor.text.figure8.trend",
+        "target_id": "obs.friction.cohesion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.figure8a",
+        "source_id": "anchor.figure.8a",
+        "target_id": "obs.friction.cohesion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.figure8b",
+        "source_id": "anchor.figure.8b",
+        "target_id": "obs.friction.cohesion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.friction",
+        "source_id": "anchor.text.friction.cohesion",
+        "target_id": "obs.friction.cohesion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.history.correlation",
+        "source_id": "anchor.text.history.correlation",
+        "target_id": "obs.history.correlation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.history.count",
+        "source_id": "anchor.text.history.count",
+        "target_id": "obs.history.count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.history.excluded",
+        "source_id": "anchor.text.history.excluded",
+        "target_id": "obs.history.outliers",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.history.figure",
+        "source_id": "anchor.figure.9",
+        "target_id": "obs.history.correlation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.history.figure.text",
+        "source_id": "anchor.text.history.figure",
+        "target_id": "obs.history.correlation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.history.migration",
+        "source_id": "anchor.text.history.migration",
+        "target_id": "obs.history.other.mechanisms",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.history.other",
+        "source_id": "anchor.text.history.other",
+        "target_id": "obs.history.other.mechanisms",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.history.outliers",
+        "source_id": "anchor.text.history.outliers",
+        "target_id": "obs.history.outliers",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.history.record",
+        "source_id": "anchor.text.history.record",
+        "target_id": "obs.history.count",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.history.regression",
+        "source_id": "anchor.text.history.regression",
+        "target_id": "obs.history.regression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.immediate.negative",
+        "source_id": "anchor.text.immediate.negative",
+        "target_id": "obs.immediate.negative",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.immediate.negative.figure",
+        "source_id": "anchor.figure.5a",
+        "target_id": "obs.immediate.negative",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.immediate.positive",
+        "source_id": "anchor.text.immediate.positive",
+        "target_id": "obs.immediate.positive",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.immediate.positive.figure",
+        "source_id": "anchor.figure.5a",
+        "target_id": "obs.immediate.positive",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.interval.drop",
+        "source_id": "anchor.text.interval.drop",
+        "target_id": "obs.recurrence.reduced",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.interval.reduced",
+        "source_id": "anchor.text.interval.reduced",
+        "target_id": "obs.recurrence.reduced",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.caption.a",
+        "source_id": "anchor.text.model.caption.a",
+        "target_id": "obs.model.setup",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.caption.b",
+        "source_id": "anchor.text.model.caption.b",
+        "target_id": "obs.model.setup",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.figure",
+        "source_id": "anchor.figure.2",
+        "target_id": "obs.model.setup",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.geometry",
+        "source_id": "anchor.text.model.geometry",
+        "target_id": "obs.model.setup",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.load",
+        "source_id": "anchor.text.model.load",
+        "target_id": "obs.model.setup",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mohr.shift",
+        "source_id": "anchor.text.mohr.shift",
+        "target_id": "obs.mohr.shift",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mohr.shift.figure5",
+        "source_id": "anchor.figure.5b",
+        "target_id": "obs.mohr.shift",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.mohr.shift.figure6",
+        "source_id": "anchor.figure.6b",
+        "target_id": "obs.mohr.shift",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.postdiff.dominance",
+        "source_id": "anchor.text.postdiff.dominance",
+        "target_id": "obs.postdiff.dominance",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.postdiff.dominance.figure",
+        "source_id": "anchor.figure.5b",
+        "target_id": "obs.postdiff.dominance",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.postdiff.negative",
+        "source_id": "anchor.text.postdiff.negative",
+        "target_id": "obs.postdiff.negative",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.postdiff.negative.figure",
+        "source_id": "anchor.figure.5b",
+        "target_id": "obs.postdiff.negative",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.property.interplay",
+        "source_id": "anchor.text.property.interplay",
+        "target_id": "obs.property.interplay",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.beta.drop",
+        "source_id": "obs.beta.drop",
+        "target_id": "reason.beta.nu",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.beta.nu",
+        "source_id": "obs.beta.nu.sensitivity",
+        "target_id": "reason.beta.nu",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.beta.zero",
+        "source_id": "obs.beta.zero",
+        "target_id": "reason.beta.nu",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.destabilization",
+        "source_id": "obs.negative.destabilization",
+        "target_id": "reason.postdiff",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.dsf.applicable",
+        "source_id": "obs.dsf.model.applicability",
+        "target_id": "reason.dsf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.dsf.diffusion",
+        "source_id": "obs.dsf.diffusion",
+        "target_id": "reason.dsf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.dsf.drop.deadsea",
+        "source_id": "obs.dsf.drop.deadsea",
+        "target_id": "reason.dsf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.dsf.drop.lisan",
+        "source_id": "obs.dsf.drop.lisan",
+        "target_id": "reason.dsf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.dsf.water.deadsea",
+        "source_id": "obs.dsf.water.deadsea",
+        "target_id": "reason.dsf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.dsf.water.lisan",
+        "source_id": "obs.dsf.water.lisan",
+        "target_id": "reason.dsf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.eq12",
+        "source_id": "obs.recurrence.eq12",
+        "target_id": "reason.recurrence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.eq13.beta",
+        "source_id": "obs.recurrence.eq13.beta",
+        "target_id": "reason.beta.nu",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.eq13.friction",
+        "source_id": "obs.recurrence.eq13.friction",
+        "target_id": "reason.friction.cohesion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.failure",
+        "source_id": "obs.failure.envelope",
+        "target_id": "reason.recurrence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.friction",
+        "source_id": "obs.friction.cohesion",
+        "target_id": "reason.friction.cohesion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.history.correlation",
+        "source_id": "obs.history.correlation",
+        "target_id": "reason.history.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.history.count",
+        "source_id": "obs.history.count",
+        "target_id": "reason.history.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.history.other",
+        "source_id": "obs.history.other.mechanisms",
+        "target_id": "reason.history.qualification",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.history.outliers",
+        "source_id": "obs.history.outliers",
+        "target_id": "reason.history.qualification",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.history.pattern",
+        "source_id": "reason.history.pattern",
+        "target_id": "reason.history.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.history.qualification",
+        "source_id": "reason.history.qualification",
+        "target_id": "reason.history.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.history.regression",
+        "source_id": "obs.history.regression",
+        "target_id": "reason.history.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.immediate.negative",
+        "source_id": "obs.immediate.negative",
+        "target_id": "reason.immediate",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.immediate.positive",
+        "source_id": "obs.immediate.positive",
+        "target_id": "reason.immediate",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.interval.reduced",
+        "source_id": "obs.recurrence.reduced",
+        "target_id": "reason.recurrence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.model",
+        "source_id": "obs.model.setup",
+        "target_id": "reason.model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.model.beta",
+        "source_id": "reason.model",
+        "target_id": "reason.beta.nu",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.model.dsf",
+        "source_id": "reason.model",
+        "target_id": "reason.dsf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.model.friction",
+        "source_id": "reason.model",
+        "target_id": "reason.friction.cohesion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.model.immediate",
+        "source_id": "reason.model",
+        "target_id": "reason.immediate",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.model.postdiff",
+        "source_id": "reason.model",
+        "target_id": "reason.postdiff",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.model.recurrence",
+        "source_id": "reason.model",
+        "target_id": "reason.recurrence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mohr.shift",
+        "source_id": "obs.mohr.shift",
+        "target_id": "reason.recurrence",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.postdiff.dominance",
+        "source_id": "obs.postdiff.dominance",
+        "target_id": "reason.postdiff",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.postdiff.negative",
+        "source_id": "obs.postdiff.negative",
+        "target_id": "reason.postdiff",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.property.interplay",
+        "source_id": "obs.property.interplay",
+        "target_id": "reason.immediate",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.recurrence.dsf",
+        "source_id": "reason.recurrence",
+        "target_id": "reason.dsf",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.beta.nu",
+        "source_id": "reason.beta.nu",
+        "target_id": "claim:sha256:a7ecce1e65df655c2976a781a46123d22e40f5e9eb857dd19951c4be5f865b06",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.dsf",
+        "source_id": "reason.dsf",
+        "target_id": "claim:sha256:e3bcd6c4c3c839968a34e67d343106728222329cc481b7b0174130d8a10743f6",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.friction.cohesion",
+        "source_id": "reason.friction.cohesion",
+        "target_id": "claim:sha256:151016b1dfaeb87db70df7959b076280ff15ad14c3f7a0411b8dd7201051883d",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.history",
+        "source_id": "reason.history.synthesis",
+        "target_id": "claim:sha256:9331beb60524efff4d2b6ce6255d9b14f89614585f9d2d9539a9f8bb3d1f9e23",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.immediate",
+        "source_id": "reason.immediate",
+        "target_id": "claim:sha256:5cdf009af0609c94a6604fa7b05be71fcabcf052c6b0e95ff0c98e1bc99b4d46",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.postdiff",
+        "source_id": "reason.postdiff",
+        "target_id": "claim:sha256:dbf43775e7729f9dbcbdbe576e4bd9c6f4c44be53dc39888973bb32d3fe76ad1",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.recurrence",
+        "source_id": "reason.recurrence",
+        "target_id": "claim:sha256:4ba5b60bbf4e93e0854adc6a2c6c3b31bca618c2ae0b8b7dea6a488b3a8bdb8f",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:0756cd0bc6ad7b1d1d6e9db2ffa68140e8f44001b422c32df7011fcd62b45e9f",
+        "source_id": "anchor.figure.9",
+        "target_id": "obs.history.outliers",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:3eaa8f9c705b48b9693a3f2310062798932e663d0b986a3e97aac421cdef7fc2",
+        "source_id": "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d",
+        "target_id": "obs.dsf.diffusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:90b300ec67b3d59856738ef398483b9dbf053abe89da4db70c0f7cbe1c7a13d3",
+        "source_id": "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d",
+        "target_id": "obs.beta.zero",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:be5c8b02d589ad126031e2dfd97f2a645fc9d0965bcd68674cd6cdd4cc461361",
+        "source_id": "anchor.figure.9",
+        "target_id": "obs.history.other.mechanisms",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:c617f2166a1cd4a5616b7531c2c4fb19388e05761000c0c64e6b6e2ed2ebb0c7",
+        "source_id": "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d",
+        "target_id": "obs.property.interplay",
+        "relation": "grounds"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:3ed3f9328bb518e5cc75698339939fbbf92ef38d30026eb6e2463933df90087a",
+        "entity_ids": [
+          "anchor.figure.2",
+          "anchor.figure.5a",
+          "anchor.figure.5b",
+          "anchor.figure.6b",
+          "anchor.figure.7",
+          "anchor.figure.8a",
+          "anchor.figure.8b",
+          "anchor.figure.9",
+          "anchor.text.beta.drop",
+          "anchor.text.beta.nu",
+          "anchor.text.beta.zero",
+          "anchor.text.cold.brittle",
+          "anchor.text.depth.invariant",
+          "anchor.text.dsf.applicable",
+          "anchor.text.dsf.deadsea.value",
+          "anchor.text.dsf.diffusion",
+          "anchor.text.dsf.lisan.value",
+          "anchor.text.dsf.recurrence",
+          "anchor.text.dsf.values",
+          "anchor.text.dsf.water.deadsea",
+          "anchor.text.dsf.water.lisan",
+          "anchor.text.eq12",
+          "anchor.text.eq13",
+          "anchor.text.failure",
+          "anchor.text.figure8.trend",
+          "anchor.text.friction.cohesion",
+          "anchor.text.history.conclusion",
+          "anchor.text.history.correlation",
+          "anchor.text.history.count",
+          "anchor.text.history.excluded",
+          "anchor.text.history.figure",
+          "anchor.text.history.migration",
+          "anchor.text.history.other",
+          "anchor.text.history.outliers",
+          "anchor.text.history.record",
+          "anchor.text.history.regression",
+          "anchor.text.immediate.negative",
+          "anchor.text.immediate.positive",
+          "anchor.text.interval.drop",
+          "anchor.text.interval.reduced",
+          "anchor.text.model.caption.a",
+          "anchor.text.model.caption.b",
+          "anchor.text.model.coupled",
+          "anchor.text.model.geometry",
+          "anchor.text.model.load",
+          "anchor.text.model.method",
+          "anchor.text.mohr.shift",
+          "anchor.text.negative.destabilization",
+          "anchor.text.postdiff.condition",
+          "anchor.text.postdiff.dominance",
+          "anchor.text.postdiff.negative",
+          "anchor.text.property.interplay",
+          "anchor.text.strain.constant",
+          "anchor:compiler:visual:587957e62ddf1f6969a113ed02051002983ffc1a0335b347e19a1bf0f26ee70d",
+          "artifact-version:sha256:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+          "artifact:001c4e7b-dc03-4007-8721-8bf3c33ebaa9",
+          "assumption.cold.brittle",
+          "assumption.history.regression",
+          "assumption.model.geometry",
+          "assumption.postdiff.condition",
+          "assumption.strain.constant",
+          "claim:sha256:151016b1dfaeb87db70df7959b076280ff15ad14c3f7a0411b8dd7201051883d",
+          "claim:sha256:4ba5b60bbf4e93e0854adc6a2c6c3b31bca618c2ae0b8b7dea6a488b3a8bdb8f",
+          "claim:sha256:5cdf009af0609c94a6604fa7b05be71fcabcf052c6b0e95ff0c98e1bc99b4d46",
+          "claim:sha256:9331beb60524efff4d2b6ce6255d9b14f89614585f9d2d9539a9f8bb3d1f9e23",
+          "claim:sha256:a7ecce1e65df655c2976a781a46123d22e40f5e9eb857dd19951c4be5f865b06",
+          "claim:sha256:dbf43775e7729f9dbcbdbe576e4bd9c6f4c44be53dc39888973bb32d3fe76ad1",
+          "claim:sha256:e3bcd6c4c3c839968a34e67d343106728222329cc481b7b0174130d8a10743f6",
+          "obs.beta.drop",
+          "obs.beta.nu.sensitivity",
+          "obs.beta.zero",
+          "obs.dsf.diffusion",
+          "obs.dsf.drop.deadsea",
+          "obs.dsf.drop.lisan",
+          "obs.dsf.model.applicability",
+          "obs.dsf.water.deadsea",
+          "obs.dsf.water.lisan",
+          "obs.failure.envelope",
+          "obs.friction.cohesion",
+          "obs.history.correlation",
+          "obs.history.count",
+          "obs.history.other.mechanisms",
+          "obs.history.outliers",
+          "obs.history.regression",
+          "obs.immediate.negative",
+          "obs.immediate.positive",
+          "obs.model.setup",
+          "obs.mohr.shift",
+          "obs.negative.destabilization",
+          "obs.postdiff.dominance",
+          "obs.postdiff.negative",
+          "obs.property.interplay",
+          "obs.recurrence.eq12",
+          "obs.recurrence.eq13.beta",
+          "obs.recurrence.eq13.friction",
+          "obs.recurrence.reduced",
+          "reason.beta.nu",
+          "reason.dsf",
+          "reason.friction.cohesion",
+          "reason.history.pattern",
+          "reason.history.qualification",
+          "reason.history.synthesis",
+          "reason.immediate",
+          "reason.model",
+          "reason.postdiff",
+          "reason.recurrence"
+        ],
+        "edge_ids": [
+          "edge.assumption.brittle.dsf",
+          "edge.assumption.brittle.recurrence",
+          "edge.assumption.geometry.model",
+          "edge.assumption.postdiff.beta",
+          "edge.assumption.postdiff.dsf",
+          "edge.assumption.postdiff.friction",
+          "edge.assumption.postdiff.recurrence",
+          "edge.assumption.regression.history",
+          "edge.assumption.strain.recurrence",
+          "edge.grounds.beta.drop",
+          "edge.grounds.beta.drop.figure",
+          "edge.grounds.beta.nu",
+          "edge.grounds.beta.zero",
+          "edge.grounds.beta.zero.figure",
+          "edge.grounds.destabilization",
+          "edge.grounds.dsf.applicable",
+          "edge.grounds.dsf.applicable.cold",
+          "edge.grounds.dsf.applicable.figure",
+          "edge.grounds.dsf.diffusion",
+          "edge.grounds.dsf.recurrence",
+          "edge.grounds.dsf.values.deadsea",
+          "edge.grounds.dsf.values.deadsea.summary",
+          "edge.grounds.dsf.values.lisan",
+          "edge.grounds.dsf.water.deadsea",
+          "edge.grounds.dsf.water.lisan",
+          "edge.grounds.eq12",
+          "edge.grounds.eq13.beta",
+          "edge.grounds.eq13.friction",
+          "edge.grounds.failure",
+          "edge.grounds.failure.figure",
+          "edge.grounds.figure8.trend",
+          "edge.grounds.figure8a",
+          "edge.grounds.figure8b",
+          "edge.grounds.friction",
+          "edge.grounds.history.correlation",
+          "edge.grounds.history.count",
+          "edge.grounds.history.excluded",
+          "edge.grounds.history.figure",
+          "edge.grounds.history.figure.text",
+          "edge.grounds.history.migration",
+          "edge.grounds.history.other",
+          "edge.grounds.history.outliers",
+          "edge.grounds.history.record",
+          "edge.grounds.history.regression",
+          "edge.grounds.immediate.negative",
+          "edge.grounds.immediate.negative.figure",
+          "edge.grounds.immediate.positive",
+          "edge.grounds.immediate.positive.figure",
+          "edge.grounds.interval.drop",
+          "edge.grounds.interval.reduced",
+          "edge.grounds.model.caption.a",
+          "edge.grounds.model.caption.b",
+          "edge.grounds.model.figure",
+          "edge.grounds.model.geometry",
+          "edge.grounds.model.load",
+          "edge.grounds.mohr.shift",
+          "edge.grounds.mohr.shift.figure5",
+          "edge.grounds.mohr.shift.figure6",
+          "edge.grounds.postdiff.dominance",
+          "edge.grounds.postdiff.dominance.figure",
+          "edge.grounds.postdiff.negative",
+          "edge.grounds.postdiff.negative.figure",
+          "edge.grounds.property.interplay",
+          "edge.premise.beta.drop",
+          "edge.premise.beta.nu",
+          "edge.premise.beta.zero",
+          "edge.premise.destabilization",
+          "edge.premise.dsf.applicable",
+          "edge.premise.dsf.diffusion",
+          "edge.premise.dsf.drop.deadsea",
+          "edge.premise.dsf.drop.lisan",
+          "edge.premise.dsf.water.deadsea",
+          "edge.premise.dsf.water.lisan",
+          "edge.premise.eq12",
+          "edge.premise.eq13.beta",
+          "edge.premise.eq13.friction",
+          "edge.premise.failure",
+          "edge.premise.friction",
+          "edge.premise.history.correlation",
+          "edge.premise.history.count",
+          "edge.premise.history.other",
+          "edge.premise.history.outliers",
+          "edge.premise.history.pattern",
+          "edge.premise.history.qualification",
+          "edge.premise.history.regression",
+          "edge.premise.immediate.negative",
+          "edge.premise.immediate.positive",
+          "edge.premise.interval.reduced",
+          "edge.premise.model",
+          "edge.premise.model.beta",
+          "edge.premise.model.dsf",
+          "edge.premise.model.friction",
+          "edge.premise.model.immediate",
+          "edge.premise.model.postdiff",
+          "edge.premise.model.recurrence",
+          "edge.premise.mohr.shift",
+          "edge.premise.postdiff.dominance",
+          "edge.premise.postdiff.negative",
+          "edge.premise.property.interplay",
+          "edge.premise.recurrence.dsf",
+          "edge.support.beta.nu",
+          "edge.support.dsf",
+          "edge.support.friction.cohesion",
+          "edge.support.history",
+          "edge.support.immediate",
+          "edge.support.postdiff",
+          "edge.support.recurrence",
+          "edge:compiler:0756cd0bc6ad7b1d1d6e9db2ffa68140e8f44001b422c32df7011fcd62b45e9f",
+          "edge:compiler:3eaa8f9c705b48b9693a3f2310062798932e663d0b986a3e97aac421cdef7fc2",
+          "edge:compiler:90b300ec67b3d59856738ef398483b9dbf053abe89da4db70c0f7cbe1c7a13d3",
+          "edge:compiler:be5c8b02d589ad126031e2dfd97f2a645fc9d0965bcd68674cd6cdd4cc461361",
+          "edge:compiler:c617f2166a1cd4a5616b7531c2c4fb19388e05761000c0c64e6b6e2ed2ebb0c7"
+        ]
+      }
+    ]
+  }
+}

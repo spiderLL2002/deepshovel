@@ -1,0 +1,7 @@
+PREFIX ds: <urn:deepshovel:reuse:v1:>
+ SELECT ?observation ?nodeId ?value ?unit ?qualification ?conditions ?uncertainty WHERE {
+ ?record a ds:PreparedRecord; ds:selectedObservation ?observation;
+ ds:preparedValue ?value; ds:preparedUnit ?unit; ds:preparedConclusion ?qualification;
+ ds:preparedConditions ?conditions; ds:preparedUncertainty ?uncertainty.
+ ?observation ds:recordedNodeId ?nodeId.
+ }

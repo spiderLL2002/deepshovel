@@ -1,0 +1,1063 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+  "snapshot_id": "snapshot:sha256:00a2fc02e4b175f8e489efc0676d8ca83e77524d459870ed3653f957e27e9eac",
+  "original_graph_json_sha256": "00a2fc02e4b175f8e489efc0676d8ca83e77524d459870ed3653f957e27e9eac",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:6562f473-c635-4a92-ae24-2a48233ec871",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:6562f473-c635-4a92-ae24-2a48233ec871",
+        "sha256": "5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "a.burial.interpretation",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.c.base",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.c.fall",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.c.late",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.c.peak",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.c.rise",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.compare.fall",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.compare.fig_token",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.compare.initial",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.compare.plateau",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.compare.statement",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.concl.burial",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.concl.global",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.concl.negative",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.concl.oxygen_altered",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.concl.synchronous",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.concl.warming",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.diagenetic.mechanism",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.fig7",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.fig7.caption",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.neg.pattern",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.neg.toc",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.oxy.cross_close",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.oxy.cross_open",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.oxy.diagenesis_assessment",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.oxy.diagenesis_discussion",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.oxy.drop",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.oxy.fluctuate",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.oxy.recover",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.oxy.start",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.oxy.susceptibility",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.petro.fig_close",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.petro.fig_open",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.regression",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.regression.quartz",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.regression.support",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.rockeval",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "a.rockeval.results",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.toc.peak",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.treatment",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:22c9ae4e5db05825a489d07ea2b812bb750c2118d4e2b7c8fbc0c1c6234d888d",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:6e52a98be1061405e6e78edbeb0a7b8e24bad5d62800e4e092d8454150f2afca",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:c336d4cfe00dae40609da98d06e8dc9d4f39b014683813a344433942989c2358",
+        "artifact_version_id": "artifact-version:sha256:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.carbon_burial",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.c.base",
+          "a.c.fall",
+          "a.c.late",
+          "a.c.peak",
+          "a.c.rise"
+        ]
+      },
+      {
+        "id": "obs.carbon_shape",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.c.base",
+          "a.c.fall",
+          "a.c.late",
+          "a.c.peak",
+          "a.c.rise"
+        ]
+      },
+      {
+        "id": "obs.diagenetic_mechanism",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.diagenetic.mechanism"
+        ]
+      },
+      {
+        "id": "obs.kerogen",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.rockeval",
+          "a.rockeval.results",
+          "anchor:compiler:visual:c336d4cfe00dae40609da98d06e8dc9d4f39b014683813a344433942989c2358"
+        ]
+      },
+      {
+        "id": "obs.negative_toc",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.neg.pattern",
+          "a.neg.toc",
+          "anchor:compiler:visual:22c9ae4e5db05825a489d07ea2b812bb750c2118d4e2b7c8fbc0c1c6234d888d"
+        ]
+      },
+      {
+        "id": "obs.oxygen_curve",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.oxy.drop",
+          "a.oxy.fluctuate",
+          "a.oxy.recover",
+          "a.oxy.start"
+        ]
+      },
+      {
+        "id": "obs.oxygen_diagenesis",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.oxy.cross_close",
+          "a.oxy.cross_open",
+          "a.oxy.susceptibility",
+          "anchor:compiler:visual:6e52a98be1061405e6e78edbeb0a7b8e24bad5d62800e4e092d8454150f2afca"
+        ]
+      },
+      {
+        "id": "obs.oxygen_interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.concl.oxygen_altered",
+          "a.concl.warming",
+          "a.oxy.diagenesis_assessment",
+          "a.oxy.diagenesis_discussion"
+        ]
+      },
+      {
+        "id": "obs.petrography",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.petro.fig_close",
+          "a.petro.fig_open"
+        ]
+      },
+      {
+        "id": "obs.profile_comparison",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.compare.fall",
+          "a.compare.fig_token",
+          "a.compare.initial",
+          "a.compare.plateau",
+          "a.compare.statement",
+          "a.fig7",
+          "a.fig7.caption"
+        ]
+      },
+      {
+        "id": "obs.regression",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.regression",
+          "a.regression.quartz",
+          "a.regression.support"
+        ]
+      },
+      {
+        "id": "obs.toc_burial",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.toc.peak"
+        ]
+      },
+      {
+        "id": "obs.treatment",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.treatment"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.diagenetic_context",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.diagenetic.mechanism",
+          "a.petro.fig_close",
+          "a.petro.fig_open",
+          "a.regression",
+          "a.regression.quartz"
+        ]
+      },
+      {
+        "id": "reason.exclude_contamination",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.neg.pattern",
+          "a.neg.toc",
+          "a.treatment",
+          "anchor:compiler:visual:22c9ae4e5db05825a489d07ea2b812bb750c2118d4e2b7c8fbc0c1c6234d888d"
+        ]
+      },
+      {
+        "id": "reason.global_correlation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.compare.fall",
+          "a.compare.initial",
+          "a.compare.plateau",
+          "a.compare.statement",
+          "a.fig7"
+        ]
+      },
+      {
+        "id": "reason.negative_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.diagenetic.mechanism",
+          "a.petro.fig_open",
+          "a.regression",
+          "a.treatment"
+        ]
+      },
+      {
+        "id": "reason.organic_burial",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.burial.interpretation",
+          "a.c.peak",
+          "a.rockeval",
+          "a.toc.peak"
+        ]
+      },
+      {
+        "id": "reason.oxygen_assessment",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.concl.oxygen_altered",
+          "a.concl.warming",
+          "a.oxy.cross_close",
+          "a.oxy.cross_open",
+          "a.oxy.diagenesis_assessment",
+          "a.oxy.drop",
+          "a.oxy.start",
+          "anchor:compiler:visual:6e52a98be1061405e6e78edbeb0a7b8e24bad5d62800e4e092d8454150f2afca"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:2c008b4bab63ad4339b99327531943be6a53f3c5fcb88ea9427edda182a20591",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.burial.interpretation",
+          "a.c.base",
+          "a.c.peak",
+          "a.c.rise",
+          "a.concl.burial",
+          "a.concl.synchronous",
+          "a.rockeval",
+          "a.toc.peak"
+        ],
+        "source_id": "claim.organic_burial"
+      },
+      {
+        "id": "claim:sha256:32a820f1748589671f119d7fbecccba0995501f83022b287650ae98ffcbb9b4b",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.concl.oxygen_altered",
+          "a.concl.warming",
+          "a.oxy.cross_close",
+          "a.oxy.cross_open",
+          "a.oxy.diagenesis_assessment",
+          "a.oxy.drop",
+          "a.oxy.fluctuate",
+          "a.oxy.recover",
+          "a.oxy.start",
+          "anchor:compiler:visual:6e52a98be1061405e6e78edbeb0a7b8e24bad5d62800e4e092d8454150f2afca"
+        ],
+        "source_id": "claim.oxygen_warming"
+      },
+      {
+        "id": "claim:sha256:6add70c9349f4d2314a592022e079ab60277da6c3577e4328c7af26146c716b0",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.compare.fall",
+          "a.compare.initial",
+          "a.compare.plateau",
+          "a.compare.statement",
+          "a.concl.global",
+          "a.fig7"
+        ],
+        "source_id": "claim.global_carbon"
+      },
+      {
+        "id": "claim:sha256:f1496e1bafe665c849f61aca5c63aa534c7c173960f9c919a2d4187c3b05130b",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.concl.negative",
+          "a.diagenetic.mechanism",
+          "a.neg.pattern",
+          "a.neg.toc",
+          "a.petro.fig_close",
+          "a.petro.fig_open",
+          "a.regression",
+          "a.regression.quartz",
+          "a.regression.support",
+          "a.treatment",
+          "anchor:compiler:visual:22c9ae4e5db05825a489d07ea2b812bb750c2118d4e2b7c8fbc0c1c6234d888d"
+        ],
+        "source_id": "claim.negative_excursions"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.ground.carbon.base",
+        "kind": "edge",
+        "source_id": "a.c.base",
+        "target_id": "obs.carbon_burial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.carbon.fall",
+        "kind": "edge",
+        "source_id": "a.c.fall",
+        "target_id": "obs.carbon_burial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.carbon.late",
+        "kind": "edge",
+        "source_id": "a.c.late",
+        "target_id": "obs.carbon_burial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.carbon.peak",
+        "kind": "edge",
+        "source_id": "a.c.peak",
+        "target_id": "obs.carbon_burial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.carbon.rise",
+        "kind": "edge",
+        "source_id": "a.c.rise",
+        "target_id": "obs.carbon_burial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.comparison.caption",
+        "kind": "edge",
+        "source_id": "a.fig7.caption",
+        "target_id": "obs.profile_comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.comparison.fall",
+        "kind": "edge",
+        "source_id": "a.compare.fall",
+        "target_id": "obs.profile_comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.comparison.figtoken",
+        "kind": "edge",
+        "source_id": "a.compare.fig_token",
+        "target_id": "obs.profile_comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.comparison.figure",
+        "kind": "edge",
+        "source_id": "a.fig7",
+        "target_id": "obs.profile_comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.comparison.initial",
+        "kind": "edge",
+        "source_id": "a.compare.initial",
+        "target_id": "obs.profile_comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.comparison.plateau",
+        "kind": "edge",
+        "source_id": "a.compare.plateau",
+        "target_id": "obs.profile_comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.comparison.text",
+        "kind": "edge",
+        "source_id": "a.compare.statement",
+        "target_id": "obs.profile_comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.diagenetic.mechanism",
+        "kind": "edge",
+        "source_id": "a.diagenetic.mechanism",
+        "target_id": "obs.diagenetic_mechanism",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.negative.pattern",
+        "kind": "edge",
+        "source_id": "a.neg.pattern",
+        "target_id": "obs.negative_toc",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.negative.toc",
+        "kind": "edge",
+        "source_id": "a.neg.toc",
+        "target_id": "obs.negative_toc",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.oxygen.altered",
+        "kind": "edge",
+        "source_id": "a.concl.oxygen_altered",
+        "target_id": "obs.oxygen_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.oxygen.cross.close",
+        "kind": "edge",
+        "source_id": "a.oxy.cross_close",
+        "target_id": "obs.oxygen_diagenesis",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.oxygen.cross.open",
+        "kind": "edge",
+        "source_id": "a.oxy.cross_open",
+        "target_id": "obs.oxygen_diagenesis",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.oxygen.diagassessment",
+        "kind": "edge",
+        "source_id": "a.oxy.diagenesis_assessment",
+        "target_id": "obs.oxygen_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.oxygen.diagdiscussion",
+        "kind": "edge",
+        "source_id": "a.oxy.diagenesis_discussion",
+        "target_id": "obs.oxygen_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.oxygen.drop",
+        "kind": "edge",
+        "source_id": "a.oxy.drop",
+        "target_id": "obs.oxygen_curve",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.oxygen.fluctuate",
+        "kind": "edge",
+        "source_id": "a.oxy.fluctuate",
+        "target_id": "obs.oxygen_curve",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.oxygen.recover",
+        "kind": "edge",
+        "source_id": "a.oxy.recover",
+        "target_id": "obs.oxygen_curve",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.oxygen.start",
+        "kind": "edge",
+        "source_id": "a.oxy.start",
+        "target_id": "obs.oxygen_curve",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.oxygen.susceptibility",
+        "kind": "edge",
+        "source_id": "a.oxy.susceptibility",
+        "target_id": "obs.oxygen_diagenesis",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.oxygen.warming",
+        "kind": "edge",
+        "source_id": "a.concl.warming",
+        "target_id": "obs.oxygen_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.petro.close",
+        "kind": "edge",
+        "source_id": "a.petro.fig_close",
+        "target_id": "obs.petrography",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.petro.open",
+        "kind": "edge",
+        "source_id": "a.petro.fig_open",
+        "target_id": "obs.petrography",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.quartz",
+        "kind": "edge",
+        "source_id": "a.regression.quartz",
+        "target_id": "obs.regression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.regression",
+        "kind": "edge",
+        "source_id": "a.regression",
+        "target_id": "obs.regression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.regression.support",
+        "kind": "edge",
+        "source_id": "a.regression.support",
+        "target_id": "obs.regression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.rock",
+        "kind": "edge",
+        "source_id": "a.rockeval",
+        "target_id": "obs.kerogen",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.rock.results",
+        "kind": "edge",
+        "source_id": "a.rockeval.results",
+        "target_id": "obs.kerogen",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.shape.base",
+        "kind": "edge",
+        "source_id": "a.c.base",
+        "target_id": "obs.carbon_shape",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.shape.fall",
+        "kind": "edge",
+        "source_id": "a.c.fall",
+        "target_id": "obs.carbon_shape",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.shape.late",
+        "kind": "edge",
+        "source_id": "a.c.late",
+        "target_id": "obs.carbon_shape",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.shape.peak",
+        "kind": "edge",
+        "source_id": "a.c.peak",
+        "target_id": "obs.carbon_shape",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.shape.rise",
+        "kind": "edge",
+        "source_id": "a.c.rise",
+        "target_id": "obs.carbon_shape",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.toc",
+        "kind": "edge",
+        "source_id": "a.toc.peak",
+        "target_id": "obs.toc_burial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.ground.treatment",
+        "kind": "edge",
+        "source_id": "a.treatment",
+        "target_id": "obs.treatment",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.carbon",
+        "kind": "edge",
+        "source_id": "obs.carbon_burial",
+        "target_id": "reason.organic_burial",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.comparison",
+        "kind": "edge",
+        "source_id": "obs.profile_comparison",
+        "target_id": "reason.global_correlation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.diag.synthesis",
+        "kind": "edge",
+        "source_id": "reason.diagenetic_context",
+        "target_id": "reason.negative_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.kerogen",
+        "kind": "edge",
+        "source_id": "obs.kerogen",
+        "target_id": "reason.organic_burial",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.mechanism",
+        "kind": "edge",
+        "source_id": "obs.diagenetic_mechanism",
+        "target_id": "reason.diagenetic_context",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.neg.synthesis",
+        "kind": "edge",
+        "source_id": "reason.exclude_contamination",
+        "target_id": "reason.negative_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.negative",
+        "kind": "edge",
+        "source_id": "obs.negative_toc",
+        "target_id": "reason.exclude_contamination",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.oxygen.curve",
+        "kind": "edge",
+        "source_id": "obs.oxygen_curve",
+        "target_id": "reason.oxygen_assessment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.oxygen.diagenesis",
+        "kind": "edge",
+        "source_id": "obs.oxygen_diagenesis",
+        "target_id": "reason.oxygen_assessment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.oxygen.interpretation",
+        "kind": "edge",
+        "source_id": "obs.oxygen_interpretation",
+        "target_id": "reason.oxygen_assessment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.petro",
+        "kind": "edge",
+        "source_id": "obs.petrography",
+        "target_id": "reason.diagenetic_context",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.regression",
+        "kind": "edge",
+        "source_id": "obs.regression",
+        "target_id": "reason.diagenetic_context",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.shape",
+        "kind": "edge",
+        "source_id": "obs.carbon_shape",
+        "target_id": "reason.global_correlation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.toc",
+        "kind": "edge",
+        "source_id": "obs.toc_burial",
+        "target_id": "reason.organic_burial",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.treatment",
+        "kind": "edge",
+        "source_id": "obs.treatment",
+        "target_id": "reason.exclude_contamination",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.global",
+        "kind": "edge",
+        "source_id": "reason.global_correlation",
+        "target_id": "claim:sha256:6add70c9349f4d2314a592022e079ab60277da6c3577e4328c7af26146c716b0",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.negative",
+        "kind": "edge",
+        "source_id": "reason.negative_synthesis",
+        "target_id": "claim:sha256:f1496e1bafe665c849f61aca5c63aa534c7c173960f9c919a2d4187c3b05130b",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.organic",
+        "kind": "edge",
+        "source_id": "reason.organic_burial",
+        "target_id": "claim:sha256:2c008b4bab63ad4339b99327531943be6a53f3c5fcb88ea9427edda182a20591",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.oxygen",
+        "kind": "edge",
+        "source_id": "reason.oxygen_assessment",
+        "target_id": "claim:sha256:32a820f1748589671f119d7fbecccba0995501f83022b287650ae98ffcbb9b4b",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:668e62b5e872423c676b2220402a745f391c99d535251a0e51ff3fd037e13931",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:6e52a98be1061405e6e78edbeb0a7b8e24bad5d62800e4e092d8454150f2afca",
+        "target_id": "obs.oxygen_diagenesis",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:a66226fa58bb6a0905e67aeea89677fd4236b12b2d879b3fbcafbc36bcb41950",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:22c9ae4e5db05825a489d07ea2b812bb750c2118d4e2b7c8fbc0c1c6234d888d",
+        "target_id": "obs.negative_toc",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:ef29bfbec6337f25532662abdabc41855f425aa41316da40ca135c7e02bf8fe6",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:c336d4cfe00dae40609da98d06e8dc9d4f39b014683813a344433942989c2358",
+        "target_id": "obs.kerogen",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

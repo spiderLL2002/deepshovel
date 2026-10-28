@@ -1,0 +1,17 @@
+[
+  {
+    "type": "text",
+    "text": "The treated sample reached 5 mg.",
+    "text_level": 1,
+    "bbox": [100, 200, 500, 300],
+    "page_idx": 0
+  },
+  {
+    "type": "table",
+    "table_caption": ["Table 1. Treated and control measurements."],
+    "table_body": "<table><tr><th>Group</th><th>Value</th></tr><tr><td>Treated</td><td>5 mg</td></tr></table>",
+    "table_footnote": [],
+    "bbox": [100, 400, 900, 800],
+    "page_idx": 0
+  }
+]

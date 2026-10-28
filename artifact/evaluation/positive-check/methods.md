@@ -1,0 +1,11 @@
+# 独立AI语义复核方法
+
+本轮仅以 `blind_packets.json` 为输入，逐条阅读36个query–candidate对的query、expected_answer、原rubric、canonical/original claim、scope及源引文。未读取同目录其他文件、原标签、论文全文或历史评分；未浏览外网、未调用其他模型。仅写出fresh_judgments.json与本文件。输出顺序与盲包一致，以query_id/document_id共同识别记录。
+
+逐对人工式AI阅读并依原rubric赋0–3级，评估整个候选包，不只评canonical。源引文含答案时可计入；expected_answer仅说明评分目标，不当成候选的源证据。保留单位、分母、对象、时段及方法差别，不将近义或相似数字当直接答案。片段跨行但可连贯恢复的句子可读作同一证据，不补造缺失原文。
+
+support_assessable=false表示给定片段不足以核验请求中的必要成分或范围；仍按明确可见部分给最佳等级，并在reason说明缺项。因此该标记不表示已证明候选错误，也不表示低相关性条目必然材料不足：明显无关、另一量或明确仅背景的完整片段仍可评估。材料不足共10条。部分证据的grade不升级为完整支持。
+
+scope_error采用窄义：只对同一quantity/result被明确不相容实验、空间、时间或对象条件的结果替代标true。单纯背景、另一quantity或缺少条件本身不算已证实冲突；不足以判断时scope_error=null且scope_assessable=false。false只表示盲包中未认定该窄义错误，不是全文范围正确的保证。relevance与scope_error独立：无关文献可以scope_error=false；数字不合rubric但目标样本组成未知时可scope_error=null。
+
+这是一轮独立AI复核，不是专家标注、人工科学真值或全文事实核验。所谓盲法仅指未见旧标签/历史评分；提供的expected_answer含参考claim ID，可能让参考身份可辨识，故并非对参考身份完全盲化。未据此强制一致；缺失全文及抽取片段的限制保留在逐条reason中。

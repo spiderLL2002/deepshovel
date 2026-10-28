@@ -1,0 +1,516 @@
+{
+  "selection_rule": "first 30 distinct active paper IDs with claims and observations, ordered by stored snapshot ID; fixed before structural checks",
+  "purpose": "additional small structural examples, not an accuracy cohort or full searchable corpus",
+  "items": [
+    {
+      "file": "paper-01.json",
+      "sha256": "4924360f43f3820d56e35f1e7e90b8dbf42b978d27732a8843df0fa7a979058b",
+      "paper_id": "paper:2fb188c7e4d0e7c564dd91067149981bd3dac9a6d3f0a3ccdc8784b72c2e9ed7",
+      "snapshot_id": "snapshot:sha256:0006c4b79ad880cd7ceac5fff3e75a141fbc652cc7f603e52320486ec8b8ed67",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 49,
+        "observations": 27,
+        "reasoning": 14,
+        "assumptions": 1,
+        "claims": 6,
+        "visual_evidence": 1,
+        "edges": 101
+      }
+    },
+    {
+      "file": "paper-02.json",
+      "sha256": "ee67a84f41c5c9670b722af8bcf75efc960ccf4115a1b504678153ba999ab38f",
+      "paper_id": "paper:beb46a82ec1bfce96d65931aae04d1257767d412deae58060a128fdf23e264ba",
+      "snapshot_id": "snapshot:sha256:001409a9ec258e6e1955ef72a33654a75a9e8a04c565d15e16f248df97179dfd",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 30,
+        "observations": 14,
+        "reasoning": 4,
+        "assumptions": 1,
+        "claims": 3,
+        "visual_evidence": 0,
+        "edges": 53
+      }
+    },
+    {
+      "file": "paper-03.json",
+      "sha256": "54b278df8eba5d599a21d675a1898d4b4b981ae474a7627e7de2063440e3f06d",
+      "paper_id": "paper:b41efb06f36f50dbe366e8791c8934e5b51cc2653073b13acf7ecb52c05414c7",
+      "snapshot_id": "snapshot:sha256:001831da46d73139d67ec9686df232e8a0e17c6f28f3eeb0b6f85decf184661f",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 20,
+        "observations": 14,
+        "reasoning": 7,
+        "assumptions": 0,
+        "claims": 5,
+        "visual_evidence": 0,
+        "edges": 47
+      }
+    },
+    {
+      "file": "paper-04.json",
+      "sha256": "d718159d24cff91217999e699019caa33e50ad5d629839cdb8a262da1f0a4709",
+      "paper_id": "paper:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+      "snapshot_id": "snapshot:sha256:002c5bf4cfe1195fcd39920fac243837b7741b9eab3833bd89c0d91b06171d5b",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 26,
+        "observations": 19,
+        "reasoning": 8,
+        "assumptions": 0,
+        "claims": 8,
+        "visual_evidence": 0,
+        "edges": 56
+      }
+    },
+    {
+      "file": "paper-05.json",
+      "sha256": "f83fd65b5762de16f0ebfbaa3962fbc154c221d3bbd774ad7245aca3189dbd31",
+      "paper_id": "paper:3ddbd7f21ee19ca4d2fe0784445953addb52d722044d62b6bdfa3bfa00cae929",
+      "snapshot_id": "snapshot:sha256:002ea7a7c1719bd688bf6e66bd6ba0d0bd0050af9637441bf2a3c393f1ab04f1",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 30,
+        "observations": 14,
+        "reasoning": 4,
+        "assumptions": 1,
+        "claims": 4,
+        "visual_evidence": 0,
+        "edges": 47
+      }
+    },
+    {
+      "file": "paper-06.json",
+      "sha256": "a07b380f26acff801c5afed842e2c76724292e149158694e8fad2a8b22e13434",
+      "paper_id": "paper:ddb194129a4fc825f0c05680645260339088020bed515919c07e68f008da3936",
+      "snapshot_id": "snapshot:sha256:0038eecb4b42cd3cf2a5014fd3a928ecd5244064635b165f79e78e3b953ffd72",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 43,
+        "observations": 16,
+        "reasoning": 10,
+        "assumptions": 2,
+        "claims": 5,
+        "visual_evidence": 0,
+        "edges": 74
+      }
+    },
+    {
+      "file": "paper-07.json",
+      "sha256": "e5ccdd84fdc6047d8add4f00ed9b4fe5c642f709bb5ea75d6bac2a02f8bfe4c3",
+      "paper_id": "paper:c0373a3ef67079e154f7102a6f482ebf24c5c37d31fb0fbe43441d988b500ca2",
+      "snapshot_id": "snapshot:sha256:003cfe070eb2983c23e5571ea7cf90a117d35649b6a1e59209f5bbe4063186cc",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 28,
+        "observations": 14,
+        "reasoning": 6,
+        "assumptions": 1,
+        "claims": 3,
+        "visual_evidence": 0,
+        "edges": 50
+      }
+    },
+    {
+      "file": "paper-08.json",
+      "sha256": "adc88c2ff3d207387da2f54a09c3f8e60f983e8c6dd7d270a632418474385392",
+      "paper_id": "paper:56c433b15596eedf9aab4e45c49c7b61c8227dd2311c167854f5010ed1471785",
+      "snapshot_id": "snapshot:sha256:003ff0f9a386828140c556270717bae229e5bc75c4f58b4f7176c5276f8d2e84",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 16,
+        "observations": 13,
+        "reasoning": 10,
+        "assumptions": 0,
+        "claims": 3,
+        "visual_evidence": 0,
+        "edges": 44
+      }
+    },
+    {
+      "file": "paper-09.json",
+      "sha256": "f8a993831c3c30487904eafe34e113cdd5165fe75d29187a3de0b01097be8a6d",
+      "paper_id": "paper:561c9493326f1fbaf8cc4b5d1b8d6ffe9b8580eb82f864d5e0179968c5f0d43d",
+      "snapshot_id": "snapshot:sha256:004031cc71feb4fe1c3a1800e1214b13ac6af44fe215b15c460224f5c3ffb21d",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 4,
+        "observations": 4,
+        "reasoning": 2,
+        "assumptions": 0,
+        "claims": 1,
+        "visual_evidence": 0,
+        "edges": 10
+      }
+    },
+    {
+      "file": "paper-10.json",
+      "sha256": "310b11478a218b93eb0ad1a5ea4fe9a91febd95e23cb7e357e78295a47940a2b",
+      "paper_id": "paper:6dd55af8fa2640566ed829c79c4dcdea98a87f2885f8e812d1d4ad45996058ba",
+      "snapshot_id": "snapshot:sha256:0041ed6e41b15e75d665632a5f3f1d0a27976b3215974967e312c1f602be9e56",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 55,
+        "observations": 20,
+        "reasoning": 12,
+        "assumptions": 2,
+        "claims": 4,
+        "visual_evidence": 0,
+        "edges": 79
+      }
+    },
+    {
+      "file": "paper-11.json",
+      "sha256": "184d8cc332302fd55cbc118357145803646fd5f0cce25e96d748c80b7a80da93",
+      "paper_id": "paper:505ede617b87faac17fe24e8032ba2234b65e00660c407e7d7171d8b4fcff532",
+      "snapshot_id": "snapshot:sha256:004bd13a50dfc547adf7775d3205fa3d44bad8864c8f1c86409c6f5516a53708",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 26,
+        "observations": 11,
+        "reasoning": 3,
+        "assumptions": 0,
+        "claims": 3,
+        "visual_evidence": 0,
+        "edges": 44
+      }
+    },
+    {
+      "file": "paper-12.json",
+      "sha256": "c32522902ae957e8a75ceec94e2872e9e95187e19fba6054a34a14ba204666c5",
+      "paper_id": "paper:928dd643af628e527e09b1ffa3a547d66b17afeedbaf50860cf3a07f18dfc9cf",
+      "snapshot_id": "snapshot:sha256:004db47a301f74bd6feb10670bfca0362ca4eda5eed7ecc26c38c335f8d7341f",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 36,
+        "observations": 19,
+        "reasoning": 5,
+        "assumptions": 2,
+        "claims": 5,
+        "visual_evidence": 0,
+        "edges": 63
+      }
+    },
+    {
+      "file": "paper-13.json",
+      "sha256": "6b59e71168cfee852f328f5fdbbd8e2903a5a64c545672e0507fff58621c82f8",
+      "paper_id": "paper:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+      "snapshot_id": "snapshot:sha256:0050fe69333fbf9dc28a07623da630cdf87e16960c130412ac128ef1e9d77815",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 86,
+        "observations": 23,
+        "reasoning": 10,
+        "assumptions": 5,
+        "claims": 5,
+        "visual_evidence": 0,
+        "edges": 122
+      }
+    },
+    {
+      "file": "paper-14.json",
+      "sha256": "41c5940617796f15074533a6633849b7bb2ec61b4b5ebb2319f74141b96832ed",
+      "paper_id": "paper:e73d35bbaa10d7800f658ab1230a9723324ebee910616d6dbbfa8914e1e1fb82",
+      "snapshot_id": "snapshot:sha256:0051a54335e82e47046b1e77b37d740e07815d3d34dd6b3ec4e9277d9512742c",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 24,
+        "observations": 23,
+        "reasoning": 7,
+        "assumptions": 1,
+        "claims": 4,
+        "visual_evidence": 0,
+        "edges": 55
+      }
+    },
+    {
+      "file": "paper-15.json",
+      "sha256": "63358cc2f057fc84c7ff5302e45cd51864190a07dd89bdeaa493fcca8a14d6df",
+      "paper_id": "paper:a7e63e5983afb5aa2486baca82159bf385e96f2e2a50610f5d99a920ca9d059e",
+      "snapshot_id": "snapshot:sha256:00527f50445572a6a50d6c56b77ad0caee3102e655a96fe188450a137615c240",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 17,
+        "observations": 10,
+        "reasoning": 5,
+        "assumptions": 0,
+        "claims": 2,
+        "visual_evidence": 0,
+        "edges": 38
+      }
+    },
+    {
+      "file": "paper-16.json",
+      "sha256": "bd4304e144abe27ab72360f7ec96c53db4c3a232b2fc12651dcd262e30e2b330",
+      "paper_id": "paper:a7c12b2a0a2c024bae6c58ec6ffb4303e69e959c14f347210afeca64c318b03b",
+      "snapshot_id": "snapshot:sha256:0058abac7bed207c897a6dff49953cb1f84d7dd59cf45f58917b163071ab6c6c",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 10,
+        "observations": 10,
+        "reasoning": 3,
+        "assumptions": 0,
+        "claims": 3,
+        "visual_evidence": 0,
+        "edges": 23
+      }
+    },
+    {
+      "file": "paper-17.json",
+      "sha256": "ddc9895b28d7a5fdcb5b936cfecf88c6c072920e5bb10937e4b1c642a8c32c33",
+      "paper_id": "paper:48339c11d33bf993839a12cef51c27507ea31a6ab74090e08e4d2c6cb5ef1dc9",
+      "snapshot_id": "snapshot:sha256:0067ab8f0df2d9c4211722f7acb421245154c8167fc1435eae6aedb47ee47b82",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 23,
+        "observations": 10,
+        "reasoning": 4,
+        "assumptions": 0,
+        "claims": 3,
+        "visual_evidence": 0,
+        "edges": 38
+      }
+    },
+    {
+      "file": "paper-18.json",
+      "sha256": "e7a99852ff9cf13bb939097f344f266bf48c45a73a59079c937e184b4ada89c6",
+      "paper_id": "paper:b42db56f23211f2ac2ca2fbd8a4683c9896e2ff477af2dd20efa3cd75f56359e",
+      "snapshot_id": "snapshot:sha256:006b8d261f30eff959c6a274525246b79dd6fc391d387232b3d9ea3e2e6692be",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 27,
+        "observations": 24,
+        "reasoning": 6,
+        "assumptions": 1,
+        "claims": 4,
+        "visual_evidence": 0,
+        "edges": 56
+      }
+    },
+    {
+      "file": "paper-19.json",
+      "sha256": "bd24e2530227a6a77cbacaaec60c73621da197b985ba666e643cf72b82320d52",
+      "paper_id": "paper:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+      "snapshot_id": "snapshot:sha256:0072da942b2431b13f13eeeac262533afd3d437d9be53561739cd776f51f54a3",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 34,
+        "observations": 28,
+        "reasoning": 12,
+        "assumptions": 0,
+        "claims": 7,
+        "visual_evidence": 0,
+        "edges": 84
+      }
+    },
+    {
+      "file": "paper-20.json",
+      "sha256": "f205d59fa050caf5b64f67b98b198af8c732a594af13c664b87b723d94a988aa",
+      "paper_id": "paper:75ff9e8b48a6520a36c38ad15958d04b767b7f1a7fa7829559b3fee195cfeaab",
+      "snapshot_id": "snapshot:sha256:0072e8eddfe7a2ebb3f0657096dd8d9ef118b5542d5fab5cfd7f2b0e889e8fc0",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 47,
+        "observations": 23,
+        "reasoning": 29,
+        "assumptions": 0,
+        "claims": 5,
+        "visual_evidence": 1,
+        "edges": 112
+      }
+    },
+    {
+      "file": "paper-21.json",
+      "sha256": "42e321be645ac010b016fd2d476f8b899bdb1a9de925093b0b466b6d4f09de85",
+      "paper_id": "paper:c0b4d68057a806b7687a8599179955ba50bbf8c2cee68518664b47b98ed17a16",
+      "snapshot_id": "snapshot:sha256:0072ed8ec1fdb70c6547ec18913984534790b6765e39a5fe69a083246065934a",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 7,
+        "observations": 5,
+        "reasoning": 2,
+        "assumptions": 0,
+        "claims": 2,
+        "visual_evidence": 0,
+        "edges": 14
+      }
+    },
+    {
+      "file": "paper-22.json",
+      "sha256": "2384f9431d0360561958a6bcf514b7e5ac886ee944f4ba20a20841f6ffc98fac",
+      "paper_id": "paper:e2451d96e4e065d5f9766dcb975c93934800cef84d264b3572b3bf3be4d93bd8",
+      "snapshot_id": "snapshot:sha256:0077fd94a383b5458d0b0583cafa29115d2c64d15f7bb2979ae6d505d9d5625e",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 41,
+        "observations": 22,
+        "reasoning": 7,
+        "assumptions": 0,
+        "claims": 5,
+        "visual_evidence": 1,
+        "edges": 69
+      }
+    },
+    {
+      "file": "paper-23.json",
+      "sha256": "a577158a209df3c2c123c643ef965b2b5719fb4677d1b4980dd9c63b2de78e7e",
+      "paper_id": "paper:a451c1c32fa36e00d708cd1a3c456a6b383ef9c9713fe976555ced63544a6d29",
+      "snapshot_id": "snapshot:sha256:0078ced5e616c72644fd547909f2af28dd752ad1cd8f20a6b2cd6d8b046b1591",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 23,
+        "observations": 21,
+        "reasoning": 10,
+        "assumptions": 0,
+        "claims": 4,
+        "visual_evidence": 0,
+        "edges": 54
+      }
+    },
+    {
+      "file": "paper-24.json",
+      "sha256": "5d324f07418ba108cca2f4f6a278c6cd9ed1299f36987c4ecec30cd12a83a925",
+      "paper_id": "paper:2a08f99d29b88a5c91be0d73c622d336a1793189b1b8349179d402d864ccc8c9",
+      "snapshot_id": "snapshot:sha256:007d7c0c8a45f478f6bcdae6924ffdea41ff15fbda8a61a458c6da1b45a763fb",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 67,
+        "observations": 44,
+        "reasoning": 18,
+        "assumptions": 3,
+        "claims": 11,
+        "visual_evidence": 0,
+        "edges": 146
+      }
+    },
+    {
+      "file": "paper-25.json",
+      "sha256": "5580a419fefa56ce2865bd15b5ed424567eca403838543dfba7fa01195828566",
+      "paper_id": "paper:307d1b246f282245bd12f19a7e95aefe4b3c896cf691b39f3a7384a2d3ccc10f",
+      "snapshot_id": "snapshot:sha256:00824e13d412d8540ce67bb6b805c9fe2c124fb5490fae1c3d8437f732e6e581",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 30,
+        "observations": 20,
+        "reasoning": 7,
+        "assumptions": 0,
+        "claims": 3,
+        "visual_evidence": 0,
+        "edges": 63
+      }
+    },
+    {
+      "file": "paper-26.json",
+      "sha256": "5a99991ccebb2099b9a5a9fc04295f37dceeb494278e3345ba6601bf64b5ca10",
+      "paper_id": "paper:97fc0fcb5bea2ee8480f490b0128b5803944edf6dc29495bd61e2694a229ea2e",
+      "snapshot_id": "snapshot:sha256:00885213eb98400a3c64d9349b278e8c67ba069a6c26c25749932202f8c39d6b",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 21,
+        "observations": 13,
+        "reasoning": 9,
+        "assumptions": 1,
+        "claims": 4,
+        "visual_evidence": 0,
+        "edges": 49
+      }
+    },
+    {
+      "file": "paper-27.json",
+      "sha256": "a5fde9983d431da41bf672cd85eeebe35d425dbb7238a0fbf1a570dd6e6998b0",
+      "paper_id": "paper:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+      "snapshot_id": "snapshot:sha256:008b181cd517f5e1e90db3a132460ecddd94c322fd68fed0cc587ba52cfccc8c",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 45,
+        "observations": 30,
+        "reasoning": 16,
+        "assumptions": 0,
+        "claims": 5,
+        "visual_evidence": 0,
+        "edges": 94
+      }
+    },
+    {
+      "file": "paper-28.json",
+      "sha256": "35e07b013381787ce6781b5b0bda777e2938489e79335e232a013ff229364961",
+      "paper_id": "paper:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+      "snapshot_id": "snapshot:sha256:0095ba1e8ff263587006000bd5fc95a791cd86d8f109f1937385343fb58e8228",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 18,
+        "observations": 10,
+        "reasoning": 8,
+        "assumptions": 0,
+        "claims": 3,
+        "visual_evidence": 0,
+        "edges": 39
+      }
+    },
+    {
+      "file": "paper-29.json",
+      "sha256": "4f4402e6252ce6fa0d426ed0e2bb6ccb5e54ca8d7267412a573c79ad17aea9c8",
+      "paper_id": "paper:5cfe05ae83e2c472fecf4f8d3323da9d7573f0fcb2c5dbc354b8bd9aecd3755e",
+      "snapshot_id": "snapshot:sha256:00a2fc02e4b175f8e489efc0676d8ca83e77524d459870ed3653f957e27e9eac",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 43,
+        "observations": 13,
+        "reasoning": 6,
+        "assumptions": 0,
+        "claims": 4,
+        "visual_evidence": 0,
+        "edges": 62
+      }
+    },
+    {
+      "file": "paper-30.json",
+      "sha256": "436dcc349fcd9d458be71fb475605b33cceb7638e14cd891baa0c0532a5d2eaa",
+      "paper_id": "paper:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+      "snapshot_id": "snapshot:sha256:00a7c788f689defe07f00f0a2037830a6c21cd33280a2914f37088450a142044",
+      "counts": {
+        "artifacts": 1,
+        "artifact_versions": 1,
+        "anchors": 27,
+        "observations": 14,
+        "reasoning": 6,
+        "assumptions": 2,
+        "claims": 2,
+        "visual_evidence": 0,
+        "edges": 53
+      }
+    }
+  ]
+}

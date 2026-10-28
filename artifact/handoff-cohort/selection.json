@@ -1,0 +1,177 @@
+{
+  "selection_rule": "Saved planned-preview original order first 10 per specified query; no filtering; duplicate slots retained; frozen before graph GETs",
+  "sources": [
+    {
+      "name": "Nd_loading",
+      "receipt_sha256": "8400b0ad889d455fa298d39cbb2f0c9573a6bc2cd47a3b99320556198bbe0c2e",
+      "query": "What was the Nd isotope fractionation estimate in the variable-ferrihydrite-loading experiments lasting 48–144 h?"
+    },
+    {
+      "name": "Asmari",
+      "receipt_sha256": "0d884f45ededd34eeae23384c7b3b7fd807757754009b6a80f2a1352ce4c54c6",
+      "query": "Under the modeled gas-injection conditions, what maximum pore pressure can fault F2 in the Asmari reservoir sustain, and how do the three fault-stability formulations characterize it?"
+    }
+  ],
+  "slots": [
+    {
+      "slot": 1,
+      "cohort": "Nd_loading",
+      "rank": 1,
+      "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+      "paper_id": "paper:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+      "claim_id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c"
+    },
+    {
+      "slot": 2,
+      "cohort": "Nd_loading",
+      "rank": 2,
+      "snapshot_id": "snapshot:sha256:f021edfe89c76206fb524ba24d83ff9132c77ed29684e9bb26b34af5029a137c",
+      "paper_id": "paper:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+      "claim_id": "claim:sha256:a08bd941478db80619f546cba83a5705b2a98ebfda11a4a76fe96048d389eaba"
+    },
+    {
+      "slot": 3,
+      "cohort": "Nd_loading",
+      "rank": 3,
+      "snapshot_id": "snapshot:sha256:f021edfe89c76206fb524ba24d83ff9132c77ed29684e9bb26b34af5029a137c",
+      "paper_id": "paper:c7a49acef9a1ec1bfa853e86b8b83c1805bc98fe66ea991759e99ebd515e2ad1",
+      "claim_id": "claim:sha256:c6eac5192756219b5830524be052180a81f08af54f45e2312efad36bdc00487c"
+    },
+    {
+      "slot": 4,
+      "cohort": "Nd_loading",
+      "rank": 4,
+      "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+      "paper_id": "paper:0bbc272cba062a9eb0131e24632ea6d8a48b86a8cdf3cda7cd44dfa9f2932e7c",
+      "claim_id": "claim:sha256:c01ca38b93b1a01a20017ae2e76e72763844715d033826ec13e5a2d6a8426d0f"
+    },
+    {
+      "slot": 5,
+      "cohort": "Nd_loading",
+      "rank": 5,
+      "snapshot_id": "snapshot:sha256:689b6136afcf9f437b485813a51265f00eeb3a79cebb74fdc6472f1068429e11",
+      "paper_id": "paper:9e55e29b79bd37e83312974ea5885ffac94d3bc7b750223630ecaa566957f1d1",
+      "claim_id": "claim:sha256:4637d7139f7e2ee72a8eb28b42a43749875104d81b531bad556fbc892d880193"
+    },
+    {
+      "slot": 6,
+      "cohort": "Nd_loading",
+      "rank": 6,
+      "snapshot_id": "snapshot:sha256:6a058f28a927aefa8ac2a73849911e7b7fc141c5f593da179f4daf88072e6c30",
+      "paper_id": "paper:b7d9e764c7f6f333758d0320dca6df1ee1ec09baff79a09473eb3cc76623daa0",
+      "claim_id": "claim:sha256:3eda6e041b0d7932324936ba1dda4d301e903af65d2b2c1f9c6beb3b72527669"
+    },
+    {
+      "slot": 7,
+      "cohort": "Nd_loading",
+      "rank": 7,
+      "snapshot_id": "snapshot:sha256:80da8b28ba87f7880474f47e5b08103e629f35ffbac25058e8e859dbe39b7927",
+      "paper_id": "paper:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+      "claim_id": "claim:sha256:4bdebfd501e5a472ea0de88c76246da06282fb14832761d6acabef0e40bbf5be"
+    },
+    {
+      "slot": 8,
+      "cohort": "Nd_loading",
+      "rank": 8,
+      "snapshot_id": "snapshot:sha256:a2aaaa9a3b70987a56085e142e1cf1990443c4e70d0948fe0902015231718a8a",
+      "paper_id": "paper:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+      "claim_id": "claim:sha256:8e13edc887550adbff434013ca9e68123a54fee17fc5bc39c9b831d0a711296b"
+    },
+    {
+      "slot": 9,
+      "cohort": "Nd_loading",
+      "rank": 9,
+      "snapshot_id": "snapshot:sha256:6eed8960f5989547888f77d4bd67a1e6462e2fc6c8041c36870e8fa1dabf99ca",
+      "paper_id": "paper:f2fa9041725f7fc9573ad7a6a78db6f792d5650a4c18020ba2a4afa96c1d36d1",
+      "claim_id": "claim:sha256:a211c8abde5ddadff14f5931989cb9d4831a8d54cebee1533e8eeb664657c70f"
+    },
+    {
+      "slot": 10,
+      "cohort": "Nd_loading",
+      "rank": 10,
+      "snapshot_id": "snapshot:sha256:045b813be329773731f8fec8293b26b5abf2b2e295dd6d1cb8c7282cdb46479e",
+      "paper_id": "paper:384057e0391eade745264a4a507b5c90b99f1381aa4fae9d6abcebe886d3bc81",
+      "claim_id": "claim:sha256:578c0e04885404605d6fe5d30202a211cccb76b8243804228206dcea1d3c1e47"
+    },
+    {
+      "slot": 11,
+      "cohort": "Asmari",
+      "rank": 1,
+      "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+      "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "claim_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+    },
+    {
+      "slot": 12,
+      "cohort": "Asmari",
+      "rank": 2,
+      "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+      "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "claim_id": "claim:sha256:939083b72847a601b30d3a605c5b8c3778f1b3fb8deee724d8e2c557132014f9"
+    },
+    {
+      "slot": 13,
+      "cohort": "Asmari",
+      "rank": 3,
+      "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+      "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "claim_id": "claim:sha256:6d6449f97fa8cb2d1e996cd10ac1f20f5af9af4fa88b113bb215ecde045b3951"
+    },
+    {
+      "slot": 14,
+      "cohort": "Asmari",
+      "rank": 4,
+      "snapshot_id": "snapshot:sha256:9e4cabc7fc47f31b39e747dda60145faf71094bc8fb7a3744cc5631f6580680f",
+      "paper_id": "paper:c4fb9596ec9a4aa78a324d6eaf545a4bdef8ac5a86158735b0d49c86378c0f4f",
+      "claim_id": "claim:sha256:dbf43775e7729f9dbcbdbe576e4bd9c6f4c44be53dc39888973bb32d3fe76ad1"
+    },
+    {
+      "slot": 15,
+      "cohort": "Asmari",
+      "rank": 5,
+      "snapshot_id": "snapshot:sha256:1116bfdeeb1a66370dc3107b965e5cd3b6b09158ce3e49eef26b89730c0c8921",
+      "paper_id": "paper:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+      "claim_id": "claim:sha256:82363d5d23d178a6cc76e07ac654c2262ab34d38e877515a99eb30bdbc269de0"
+    },
+    {
+      "slot": 16,
+      "cohort": "Asmari",
+      "rank": 6,
+      "snapshot_id": "snapshot:sha256:1116bfdeeb1a66370dc3107b965e5cd3b6b09158ce3e49eef26b89730c0c8921",
+      "paper_id": "paper:59ebfa0ba2764a69b66efe4abc9cad8aac4c0510f1f653239b732edc28d22155",
+      "claim_id": "claim:sha256:5384a03db5e97e2743a891f1b4cd991a5545cd18694c00e560244569864fc26f"
+    },
+    {
+      "slot": 17,
+      "cohort": "Asmari",
+      "rank": 7,
+      "snapshot_id": "snapshot:sha256:63f5a382668e2a4b0c63b58366d698bc91391db0e15d577a8b3378c5541ed988",
+      "paper_id": "paper:154345ec579051e1526290113ef5f94ae8d775b4a1fa49bf2b20538700f3ec48",
+      "claim_id": "claim:sha256:d46402cfeb7fc0e48a039ddfa39ddb2ef398fd255a8aac44d5f32887ff926bb7"
+    },
+    {
+      "slot": 18,
+      "cohort": "Asmari",
+      "rank": 8,
+      "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+      "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "claim_id": "claim:sha256:59ff8db056e1697e771e7b5884ed7ba53890ed95d95ed58517e068fb035f3755"
+    },
+    {
+      "slot": 19,
+      "cohort": "Asmari",
+      "rank": 9,
+      "snapshot_id": "snapshot:sha256:79acd1fdeae121f33e7362dcac51176945a1b8d7522d9c658f110780bfa08c84",
+      "paper_id": "paper:ff4668928203a764d82553c8fc18f1bf51a42574055b184adecf54847f807bcd",
+      "claim_id": "claim:sha256:d71be473e7815b433097ea3b579b67317881a3b9a516a07d11917cde99b1e991"
+    },
+    {
+      "slot": 20,
+      "cohort": "Asmari",
+      "rank": 10,
+      "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+      "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "claim_id": "claim:sha256:e4666180b331d55287579b920bfb2a88a49aacd71aca63f7340b1de5aff0bbbb"
+    }
+  ]
+}

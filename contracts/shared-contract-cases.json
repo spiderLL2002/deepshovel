@@ -1,0 +1,20 @@
+{
+  "$comment": "Golden cross-language cases. The Compiler (compiler/tests/test_shared_contract.py) and the Web (tests/shared-contract.test.mjs) must give the same verdict for every case.",
+  "normalized_regions": [
+    { "name": "full page", "region": [0, 0, 1, 1], "valid": true },
+    { "name": "edge-touching float sum", "region": [0.1, 0.7, 0.9, 0.30000000000000004], "valid": true },
+    { "name": "rounding within the shared tolerance", "region": [0.25, 0.25, 0.7500005, 0.5], "valid": true },
+    { "name": "extent beyond the tolerance", "region": [0.25, 0.25, 0.750002, 0.5], "valid": false },
+    { "name": "origin beyond the page", "region": [1.0000001, 0, 0.000001, 0.5], "valid": false },
+    { "name": "negative origin", "region": [-0.1, 0, 0.5, 0.5], "valid": false },
+    { "name": "zero width", "region": [0.1, 0.1, 0, 0.5], "valid": false }
+  ],
+  "retrieval_session_ids": [
+    { "value": "rs1.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "valid": true },
+    { "value": "rs1.abcdefghijklmnopqrstuvwxyz0123456789-_ABCDE", "valid": true },
+    { "value": "rs1.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "valid": false },
+    { "value": "rs2.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "valid": false },
+    { "value": "rs1.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=", "valid": false },
+    { "value": "v1.derived-auth-v1.e30.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "valid": false }
+  ]
+}

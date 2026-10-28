@@ -1,0 +1,781 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "d145259d2255a099152e45683b475f31b935db8a09196691dd959b1e9afa45c1",
+  "http_body_sha256": "756b3fc92b32f7451a3c2b4ddfdab36a9783a09d6e456e933caebf9664d126a9",
+  "snapshot": {
+    "id": "snapshot:sha256:80da8b28ba87f7880474f47e5b08103e629f35ffbac25058e8e859dbe39b7927",
+    "rootArtifactVersionId": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "80da8b28ba87f7880474f47e5b08103e629f35ffbac25058e8e859dbe39b7927"
+  },
+  "graph": {
+    "paper_id": "paper:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+    "anchors": [
+      {
+        "id": "a.figure.2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.figure.3",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.text.divergence",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "a.text.exchange.threshold",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.text.exchange.trajectory",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.text.interpretation.abstract",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "a.text.interpretation.closure",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "a.text.interpretation.weathering",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.text.isotope.mechanism",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "a.text.massbalance",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "a.text.nearcontinuous",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "a.text.osconcentrations",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.text.salinity.abstract",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "a.text.salinity.azolla",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.text.salinity.detailed",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.text.salinity.endmembers",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.text.salinity.isotopecomparison",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.text.salinity.scale",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.text.sensitivity.burial",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.text.sensitivity.endmembers",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "selector": {
+          "page": 4
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.exchange.threshold",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.text.exchange.threshold"
+        ]
+      },
+      {
+        "id": "obs.exchange.trajectory",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure.3",
+          "a.text.exchange.trajectory"
+        ]
+      },
+      {
+        "id": "obs.os.authorinterpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.text.interpretation.abstract",
+          "a.text.interpretation.closure",
+          "a.text.interpretation.weathering"
+        ]
+      },
+      {
+        "id": "obs.os.comparable",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.text.nearcontinuous"
+        ]
+      },
+      {
+        "id": "obs.os.divergence",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure.2",
+          "a.text.divergence"
+        ]
+      },
+      {
+        "id": "obs.os.restrictionmechanism",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.text.isotope.mechanism"
+        ]
+      },
+      {
+        "id": "obs.salinity.abstract",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.text.salinity.abstract"
+        ]
+      },
+      {
+        "id": "obs.salinity.azolla",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.text.salinity.azolla"
+        ]
+      },
+      {
+        "id": "obs.salinity.detailed",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.text.salinity.detailed"
+        ]
+      },
+      {
+        "id": "obs.salinity.isotopecomparison",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.text.salinity.isotopecomparison"
+        ]
+      },
+      {
+        "id": "obs.salinity.scale",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.text.salinity.scale"
+        ]
+      },
+      {
+        "id": "obs.sensitivity.burial",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.text.sensitivity.burial"
+        ]
+      },
+      {
+        "id": "obs.sensitivity.endmembers",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.text.sensitivity.endmembers"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.exchange.robustness",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.text.exchange.threshold",
+          "a.text.osconcentrations",
+          "a.text.sensitivity.burial",
+          "a.text.sensitivity.endmembers"
+        ]
+      },
+      {
+        "id": "reason.exchange.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.text.exchange.threshold",
+          "a.text.exchange.trajectory",
+          "a.text.massbalance"
+        ]
+      },
+      {
+        "id": "reason.exchange.trajectory",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.figure.3",
+          "a.text.exchange.trajectory"
+        ]
+      },
+      {
+        "id": "reason.os.mechanism",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.text.isotope.mechanism"
+        ]
+      },
+      {
+        "id": "reason.os.record",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.figure.2",
+          "a.text.divergence",
+          "a.text.nearcontinuous"
+        ]
+      },
+      {
+        "id": "reason.os.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.text.interpretation.abstract",
+          "a.text.interpretation.closure",
+          "a.text.interpretation.weathering"
+        ]
+      },
+      {
+        "id": "reason.salinity.comparison",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.text.salinity.azolla",
+          "a.text.salinity.isotopecomparison",
+          "a.text.salinity.scale"
+        ]
+      },
+      {
+        "id": "reason.salinity.range",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.text.salinity.detailed",
+          "a.text.salinity.endmembers"
+        ]
+      },
+      {
+        "id": "reason.salinity.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.text.salinity.abstract",
+          "a.text.salinity.detailed",
+          "a.text.salinity.isotopecomparison",
+          "a.text.salinity.scale"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:4bdebfd501e5a472ea0de88c76246da06282fb14832761d6acabef0e40bbf5be",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.text.salinity.abstract",
+          "a.text.salinity.azolla",
+          "a.text.salinity.detailed",
+          "a.text.salinity.endmembers",
+          "a.text.salinity.isotopecomparison",
+          "a.text.salinity.scale"
+        ]
+      },
+      {
+        "id": "claim:sha256:5a7298f36e528a08c3071ca8a4b334e3b32ae896e923aeeed8d88f4d082f6f2a",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.figure.3",
+          "a.text.exchange.threshold",
+          "a.text.exchange.trajectory",
+          "a.text.massbalance",
+          "a.text.osconcentrations",
+          "a.text.sensitivity.burial",
+          "a.text.sensitivity.endmembers"
+        ]
+      },
+      {
+        "id": "claim:sha256:f6b9c40d953d264d337fa0fe87e20e63b6e32de927f3ff4d2cd72b65acb1345c",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.figure.2",
+          "a.text.divergence",
+          "a.text.interpretation.abstract",
+          "a.text.interpretation.closure",
+          "a.text.interpretation.weathering",
+          "a.text.isotope.mechanism",
+          "a.text.nearcontinuous"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.massbalance",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.text.massbalance"
+        ]
+      },
+      {
+        "id": "assumption.osconcentrations",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.text.osconcentrations"
+        ]
+      },
+      {
+        "id": "assumption.salinity.endmembers",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.text.salinity.endmembers"
+        ]
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:9ddd1943-f718-4ab8-b1c0-daf38a76ecd2",
+        "sha256": "6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge.assumption.exchange.massbalance",
+        "source_id": "assumption.massbalance",
+        "target_id": "reason.exchange.trajectory",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.exchange.osconcentrations",
+        "source_id": "assumption.osconcentrations",
+        "target_id": "reason.exchange.robustness",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.salinity.endmembers",
+        "source_id": "assumption.salinity.endmembers",
+        "target_id": "reason.salinity.range",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.divergence.figure",
+        "source_id": "a.figure.2",
+        "target_id": "obs.os.divergence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.divergence.text",
+        "source_id": "a.text.divergence",
+        "target_id": "obs.os.divergence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.exchange.threshold",
+        "source_id": "a.text.exchange.threshold",
+        "target_id": "obs.exchange.threshold",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.exchange.trajectory.figure",
+        "source_id": "a.figure.3",
+        "target_id": "obs.exchange.trajectory",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.exchange.trajectory.text",
+        "source_id": "a.text.exchange.trajectory",
+        "target_id": "obs.exchange.trajectory",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.interpretation.abstract",
+        "source_id": "a.text.interpretation.abstract",
+        "target_id": "obs.os.authorinterpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.interpretation.closure",
+        "source_id": "a.text.interpretation.closure",
+        "target_id": "obs.os.authorinterpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.interpretation.weathering",
+        "source_id": "a.text.interpretation.weathering",
+        "target_id": "obs.os.authorinterpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.isotope.mechanism",
+        "source_id": "a.text.isotope.mechanism",
+        "target_id": "obs.os.restrictionmechanism",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nearcontinuous",
+        "source_id": "a.text.nearcontinuous",
+        "target_id": "obs.os.comparable",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.salinity.abstract",
+        "source_id": "a.text.salinity.abstract",
+        "target_id": "obs.salinity.abstract",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.salinity.azolla",
+        "source_id": "a.text.salinity.azolla",
+        "target_id": "obs.salinity.azolla",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.salinity.detailed",
+        "source_id": "a.text.salinity.detailed",
+        "target_id": "obs.salinity.detailed",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.salinity.isotopecomparison",
+        "source_id": "a.text.salinity.isotopecomparison",
+        "target_id": "obs.salinity.isotopecomparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.salinity.scale",
+        "source_id": "a.text.salinity.scale",
+        "target_id": "obs.salinity.scale",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.sensitivity.burial",
+        "source_id": "a.text.sensitivity.burial",
+        "target_id": "obs.sensitivity.burial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.sensitivity.endmembers",
+        "source_id": "a.text.sensitivity.endmembers",
+        "target_id": "obs.sensitivity.endmembers",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.exchange.robust.burial",
+        "source_id": "obs.sensitivity.burial",
+        "target_id": "reason.exchange.robustness",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.exchange.robust.endmembers",
+        "source_id": "obs.sensitivity.endmembers",
+        "target_id": "reason.exchange.robustness",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.exchange.robust.threshold",
+        "source_id": "obs.exchange.threshold",
+        "target_id": "reason.exchange.robustness",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.exchange.synthesis.robustness",
+        "source_id": "reason.exchange.robustness",
+        "target_id": "reason.exchange.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.exchange.synthesis.trajectory",
+        "source_id": "reason.exchange.trajectory",
+        "target_id": "reason.exchange.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.exchange.trajectory",
+        "source_id": "obs.exchange.trajectory",
+        "target_id": "reason.exchange.trajectory",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.os.mechanism",
+        "source_id": "obs.os.restrictionmechanism",
+        "target_id": "reason.os.mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.os.record.comparable",
+        "source_id": "obs.os.comparable",
+        "target_id": "reason.os.record",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.os.record.divergence",
+        "source_id": "obs.os.divergence",
+        "target_id": "reason.os.record",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.os.synthesis.interpretation",
+        "source_id": "obs.os.authorinterpretation",
+        "target_id": "reason.os.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.os.synthesis.mechanism",
+        "source_id": "reason.os.mechanism",
+        "target_id": "reason.os.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.os.synthesis.record",
+        "source_id": "reason.os.record",
+        "target_id": "reason.os.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.salinity.compare.azolla",
+        "source_id": "obs.salinity.azolla",
+        "target_id": "reason.salinity.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.salinity.compare.isotopes",
+        "source_id": "obs.salinity.isotopecomparison",
+        "target_id": "reason.salinity.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.salinity.compare.scale",
+        "source_id": "obs.salinity.scale",
+        "target_id": "reason.salinity.comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.salinity.range",
+        "source_id": "obs.salinity.detailed",
+        "target_id": "reason.salinity.range",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.salinity.synthesis.abstract",
+        "source_id": "obs.salinity.abstract",
+        "target_id": "reason.salinity.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.salinity.synthesis.comparison",
+        "source_id": "reason.salinity.comparison",
+        "target_id": "reason.salinity.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.salinity.synthesis.range",
+        "source_id": "reason.salinity.range",
+        "target_id": "reason.salinity.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.exchange",
+        "source_id": "reason.exchange.synthesis",
+        "target_id": "claim:sha256:5a7298f36e528a08c3071ca8a4b334e3b32ae896e923aeeed8d88f4d082f6f2a",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.os.interpretation",
+        "source_id": "reason.os.synthesis",
+        "target_id": "claim:sha256:f6b9c40d953d264d337fa0fe87e20e63b6e32de927f3ff4d2cd72b65acb1345c",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.salinity",
+        "source_id": "reason.salinity.synthesis",
+        "target_id": "claim:sha256:4bdebfd501e5a472ea0de88c76246da06282fb14832761d6acabef0e40bbf5be",
+        "relation": "infers"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:3d4608aa7021c14ff2fe02818e9452abad35588143195636fccf93c0f3d4b04a",
+        "entity_ids": [
+          "a.figure.2",
+          "a.figure.3",
+          "a.text.divergence",
+          "a.text.exchange.threshold",
+          "a.text.exchange.trajectory",
+          "a.text.interpretation.abstract",
+          "a.text.interpretation.closure",
+          "a.text.interpretation.weathering",
+          "a.text.isotope.mechanism",
+          "a.text.massbalance",
+          "a.text.nearcontinuous",
+          "a.text.osconcentrations",
+          "a.text.salinity.abstract",
+          "a.text.salinity.azolla",
+          "a.text.salinity.detailed",
+          "a.text.salinity.endmembers",
+          "a.text.salinity.isotopecomparison",
+          "a.text.salinity.scale",
+          "a.text.sensitivity.burial",
+          "a.text.sensitivity.endmembers",
+          "artifact-version:sha256:6d81a0bb10655dda25afae7e599e8157b65086957fbeb1e9d1aa57a61a22f320",
+          "artifact:9ddd1943-f718-4ab8-b1c0-daf38a76ecd2",
+          "assumption.massbalance",
+          "assumption.osconcentrations",
+          "assumption.salinity.endmembers",
+          "claim:sha256:4bdebfd501e5a472ea0de88c76246da06282fb14832761d6acabef0e40bbf5be",
+          "claim:sha256:5a7298f36e528a08c3071ca8a4b334e3b32ae896e923aeeed8d88f4d082f6f2a",
+          "claim:sha256:f6b9c40d953d264d337fa0fe87e20e63b6e32de927f3ff4d2cd72b65acb1345c",
+          "obs.exchange.threshold",
+          "obs.exchange.trajectory",
+          "obs.os.authorinterpretation",
+          "obs.os.comparable",
+          "obs.os.divergence",
+          "obs.os.restrictionmechanism",
+          "obs.salinity.abstract",
+          "obs.salinity.azolla",
+          "obs.salinity.detailed",
+          "obs.salinity.isotopecomparison",
+          "obs.salinity.scale",
+          "obs.sensitivity.burial",
+          "obs.sensitivity.endmembers",
+          "reason.exchange.robustness",
+          "reason.exchange.synthesis",
+          "reason.exchange.trajectory",
+          "reason.os.mechanism",
+          "reason.os.record",
+          "reason.os.synthesis",
+          "reason.salinity.comparison",
+          "reason.salinity.range",
+          "reason.salinity.synthesis"
+        ],
+        "edge_ids": [
+          "edge.assumption.exchange.massbalance",
+          "edge.assumption.exchange.osconcentrations",
+          "edge.assumption.salinity.endmembers",
+          "edge.grounds.divergence.figure",
+          "edge.grounds.divergence.text",
+          "edge.grounds.exchange.threshold",
+          "edge.grounds.exchange.trajectory.figure",
+          "edge.grounds.exchange.trajectory.text",
+          "edge.grounds.interpretation.abstract",
+          "edge.grounds.interpretation.closure",
+          "edge.grounds.interpretation.weathering",
+          "edge.grounds.isotope.mechanism",
+          "edge.grounds.nearcontinuous",
+          "edge.grounds.salinity.abstract",
+          "edge.grounds.salinity.azolla",
+          "edge.grounds.salinity.detailed",
+          "edge.grounds.salinity.isotopecomparison",
+          "edge.grounds.salinity.scale",
+          "edge.grounds.sensitivity.burial",
+          "edge.grounds.sensitivity.endmembers",
+          "edge.premise.exchange.robust.burial",
+          "edge.premise.exchange.robust.endmembers",
+          "edge.premise.exchange.robust.threshold",
+          "edge.premise.exchange.synthesis.robustness",
+          "edge.premise.exchange.synthesis.trajectory",
+          "edge.premise.exchange.trajectory",
+          "edge.premise.os.mechanism",
+          "edge.premise.os.record.comparable",
+          "edge.premise.os.record.divergence",
+          "edge.premise.os.synthesis.interpretation",
+          "edge.premise.os.synthesis.mechanism",
+          "edge.premise.os.synthesis.record",
+          "edge.premise.salinity.compare.azolla",
+          "edge.premise.salinity.compare.isotopes",
+          "edge.premise.salinity.compare.scale",
+          "edge.premise.salinity.range",
+          "edge.premise.salinity.synthesis.abstract",
+          "edge.premise.salinity.synthesis.comparison",
+          "edge.premise.salinity.synthesis.range",
+          "edge.support.exchange",
+          "edge.support.os.interpretation",
+          "edge.support.salinity"
+        ]
+      }
+    ]
+  }
+}

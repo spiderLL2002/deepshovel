@@ -1,0 +1,36 @@
+{
+  "scope": "20 consecutive saved planned-preview slots: first 10 Nd loading + first 10 Asmari; purposefully specified queries; no relevance filtering; no new model queries",
+  "slots": 20,
+  "unique_claim_snapshot_pairs": 20,
+  "unique_snapshots": 13,
+  "counts": {
+    "input_required_fields_present": 20,
+    "shortest_has_observation": 16,
+    "shortest_has_anchor": 20,
+    "shortest_has_both": 16,
+    "full_graph_anchored_path": 20,
+    "page_located_anchor": 20,
+    "artifact_version_identity": 20,
+    "success": 20
+  },
+  "full_graph_success_without_shortest_both": 4,
+  "failures": {},
+  "by_cohort": {
+    "Nd_loading": {
+      "shortest_has_both": 9,
+      "full_graph_anchored_path": 10,
+      "success": 10
+    },
+    "Asmari": {
+      "shortest_has_both": 7,
+      "full_graph_anchored_path": 10,
+      "success": 10
+    }
+  },
+  "limitations": [
+    "Structure only, not scientific correctness, random coverage, or user benefit.",
+    "Semantic text/values omitted from released projections; no PDF/source content copied.",
+    "No source PDF bytes checked in this cohort; artifact-version ID/hash metadata checked only.",
+    "Nd time-series and adsorption-stop live cases still returned related evidence; this cohort does not correct or supersede them."
+  ]
+}

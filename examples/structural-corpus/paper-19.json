@@ -1,0 +1,1250 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+  "snapshot_id": "snapshot:sha256:0072da942b2431b13f13eeeac262533afd3d437d9be53561739cd776f51f54a3",
+  "original_graph_json_sha256": "0072da942b2431b13f13eeeac262533afd3d437d9be53561739cd776f51f54a3",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:5fca1364-393e-4dd9-b827-ab2e0feca4e3",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:5fca1364-393e-4dd9-b827-ab2e0feca4e3",
+        "sha256": "aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.abstract-productivity",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.carbonate-change",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.cooling",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.fig10",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.fig10-caption",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.fig3",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.late-proxy-continuation",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.late-proxy-peak",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.microfauna",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.model-prose",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.model-prose-continuation",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.moderate-fertility",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.not-total-anoxia",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.older-selli",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.omz",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.organic-distal",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.oxygen-consumption",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.oxygen-requirement",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.plankton-change",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.plankton-change-continuation",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.proximal-absence",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.radiolarian-rise",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.selli-fauna",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.selli-foraminifera",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.selli-model-conclusion",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.selli-nanno",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.selli-nanno-continuation",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.selli-radiolaria",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.transgression",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.upwelling",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.vertical-circulation",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 15
+        }
+      },
+      {
+        "id": "anchor.warm-indicator",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.warm-indicator-continuation",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.younger-upper",
+        "artifact_version_id": "artifact-version:sha256:aad52e185f49e58af64a0d7f6304b878ea4bf04376e0b932730d261115eb99ab",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.abstract-productivity",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.abstract-productivity"
+        ]
+      },
+      {
+        "id": "obs.carbonate-change",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.carbonate-change"
+        ]
+      },
+      {
+        "id": "obs.cooling",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.cooling",
+          "anchor.fig10"
+        ]
+      },
+      {
+        "id": "obs.late-proxy-peak",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig3",
+          "anchor.late-proxy-continuation",
+          "anchor.late-proxy-peak"
+        ]
+      },
+      {
+        "id": "obs.late-proxy-peak-limit",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig3",
+          "anchor.late-proxy-continuation",
+          "anchor.late-proxy-peak"
+        ]
+      },
+      {
+        "id": "obs.microfauna",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.microfauna"
+        ]
+      },
+      {
+        "id": "obs.model-caption",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig10",
+          "anchor.fig10-caption"
+        ]
+      },
+      {
+        "id": "obs.model-reference",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig10",
+          "anchor.model-prose",
+          "anchor.model-prose-continuation"
+        ]
+      },
+      {
+        "id": "obs.moderate-fertility",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.moderate-fertility"
+        ]
+      },
+      {
+        "id": "obs.not-total-anoxia",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.not-total-anoxia"
+        ]
+      },
+      {
+        "id": "obs.older-selli",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.older-selli"
+        ]
+      },
+      {
+        "id": "obs.omz",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.omz"
+        ]
+      },
+      {
+        "id": "obs.organic-distal",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.organic-distal"
+        ]
+      },
+      {
+        "id": "obs.oxygen-consumption",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.oxygen-consumption"
+        ]
+      },
+      {
+        "id": "obs.oxygen-requirement",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fig3",
+          "anchor.oxygen-requirement"
+        ]
+      },
+      {
+        "id": "obs.plankton-change",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.plankton-change",
+          "anchor.plankton-change-continuation"
+        ]
+      },
+      {
+        "id": "obs.proximal-absence",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.proximal-absence"
+        ]
+      },
+      {
+        "id": "obs.radiolarian-rise",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.radiolarian-rise"
+        ]
+      },
+      {
+        "id": "obs.selli-fauna",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.selli-fauna"
+        ]
+      },
+      {
+        "id": "obs.selli-foraminifera",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.selli-foraminifera"
+        ]
+      },
+      {
+        "id": "obs.selli-model-conclusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.selli-model-conclusion"
+        ]
+      },
+      {
+        "id": "obs.selli-nanno",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.selli-nanno",
+          "anchor.selli-nanno-continuation"
+        ]
+      },
+      {
+        "id": "obs.selli-radiolaria",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.selli-radiolaria"
+        ]
+      },
+      {
+        "id": "obs.transgression",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.transgression"
+        ]
+      },
+      {
+        "id": "obs.upwelling",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.upwelling"
+        ]
+      },
+      {
+        "id": "obs.vertical-circulation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.vertical-circulation"
+        ]
+      },
+      {
+        "id": "obs.warm-indicator",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.warm-indicator",
+          "anchor.warm-indicator-continuation"
+        ]
+      },
+      {
+        "id": "obs.younger-upper",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.younger-upper"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.cooling",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.distal-dysoxia",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.distal-synthesis",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.fertility-limit",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.platform-retreat",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.selli-fauna",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.selli-fertility-synthesis",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.selli-mechanism",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.selli-proxies",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.shared-model",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.younger-mechanism",
+        "kind": "reasoning",
+        "anchor_ids": []
+      },
+      {
+        "id": "reason.younger-productivity",
+        "kind": "reasoning",
+        "anchor_ids": []
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:1ae9cb0d8760efff18367c732ab9b5a3ae95c96975eb1f2686840c1bde08a2f6",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig10",
+          "anchor.fig10-caption",
+          "anchor.model-prose",
+          "anchor.model-prose-continuation",
+          "anchor.oxygen-consumption",
+          "anchor.upwelling",
+          "anchor.vertical-circulation"
+        ],
+        "source_id": "claim.younger-circulation"
+      },
+      {
+        "id": "claim:sha256:1fa528d2961c9c038d0238a7cc1ef75a575f19b160d87350fd7e82999fa12c8a",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.moderate-fertility",
+          "anchor.not-total-anoxia",
+          "anchor.selli-fauna",
+          "anchor.selli-foraminifera",
+          "anchor.selli-nanno",
+          "anchor.selli-radiolaria"
+        ],
+        "source_id": "claim.selli-fertility"
+      },
+      {
+        "id": "claim:sha256:59ebc5e003af81cfe2f4f2711e2ceb811290593f3e04755bfdb83ba2c5f57130",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.carbonate-change",
+          "anchor.fig10",
+          "anchor.fig10-caption",
+          "anchor.microfauna",
+          "anchor.model-prose",
+          "anchor.model-prose-continuation",
+          "anchor.omz",
+          "anchor.selli-model-conclusion",
+          "anchor.transgression"
+        ],
+        "source_id": "claim.selli-stratification"
+      },
+      {
+        "id": "claim:sha256:8de7909071224b65525a4b1a864816e56301ab043c097bbfd20e4a5f30223aca",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.fig3",
+          "anchor.late-proxy-continuation",
+          "anchor.late-proxy-peak",
+          "anchor.oxygen-requirement"
+        ],
+        "source_id": "claim.productivity-insufficient"
+      },
+      {
+        "id": "claim:sha256:b570ab5f5b0ad3daeb47a73cfead2fcfd55d01ccae5c419f9126d1340521ab23",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.cooling",
+          "anchor.fig10",
+          "anchor.warm-indicator",
+          "anchor.warm-indicator-continuation"
+        ],
+        "source_id": "claim.younger-cooling"
+      },
+      {
+        "id": "claim:sha256:c0e12ef894413484958450bee9299845db77b3c0b0959f71a36af0b7636126f0",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.older-selli",
+          "anchor.organic-distal",
+          "anchor.proximal-absence",
+          "anchor.younger-upper"
+        ],
+        "source_id": "claim.distal-record"
+      },
+      {
+        "id": "claim:sha256:d30b7cbff2383ba6616f0105ee1c87873539bfe03ea98a2902880ebe8b9bf26a",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.abstract-productivity",
+          "anchor.plankton-change",
+          "anchor.plankton-change-continuation",
+          "anchor.radiolarian-rise"
+        ],
+        "source_id": "claim.younger-productivity"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.g1",
+        "kind": "edge",
+        "source_id": "anchor.organic-distal",
+        "target_id": "obs.organic-distal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g10",
+        "kind": "edge",
+        "source_id": "anchor.not-total-anoxia",
+        "target_id": "obs.not-total-anoxia",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g11",
+        "kind": "edge",
+        "source_id": "anchor.moderate-fertility",
+        "target_id": "obs.moderate-fertility",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g12",
+        "kind": "edge",
+        "source_id": "anchor.transgression",
+        "target_id": "obs.transgression",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g13",
+        "kind": "edge",
+        "source_id": "anchor.carbonate-change",
+        "target_id": "obs.carbonate-change",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g14",
+        "kind": "edge",
+        "source_id": "anchor.omz",
+        "target_id": "obs.omz",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g15",
+        "kind": "edge",
+        "source_id": "anchor.microfauna",
+        "target_id": "obs.microfauna",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g16",
+        "kind": "edge",
+        "source_id": "anchor.selli-model-conclusion",
+        "target_id": "obs.selli-model-conclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g17",
+        "kind": "edge",
+        "source_id": "anchor.model-prose",
+        "target_id": "obs.model-reference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g18",
+        "kind": "edge",
+        "source_id": "anchor.model-prose-continuation",
+        "target_id": "obs.model-reference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g19",
+        "kind": "edge",
+        "source_id": "anchor.fig10-caption",
+        "target_id": "obs.model-caption",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g2",
+        "kind": "edge",
+        "source_id": "anchor.older-selli",
+        "target_id": "obs.older-selli",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g20",
+        "kind": "edge",
+        "source_id": "anchor.fig10",
+        "target_id": "obs.model-caption",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g21",
+        "kind": "edge",
+        "source_id": "anchor.radiolarian-rise",
+        "target_id": "obs.radiolarian-rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g22",
+        "kind": "edge",
+        "source_id": "anchor.plankton-change",
+        "target_id": "obs.plankton-change",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g23",
+        "kind": "edge",
+        "source_id": "anchor.plankton-change-continuation",
+        "target_id": "obs.plankton-change",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g24",
+        "kind": "edge",
+        "source_id": "anchor.abstract-productivity",
+        "target_id": "obs.abstract-productivity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g25",
+        "kind": "edge",
+        "source_id": "anchor.cooling",
+        "target_id": "obs.cooling",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g26",
+        "kind": "edge",
+        "source_id": "anchor.warm-indicator",
+        "target_id": "obs.warm-indicator",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g27",
+        "kind": "edge",
+        "source_id": "anchor.warm-indicator-continuation",
+        "target_id": "obs.warm-indicator",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g28",
+        "kind": "edge",
+        "source_id": "anchor.vertical-circulation",
+        "target_id": "obs.vertical-circulation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g29",
+        "kind": "edge",
+        "source_id": "anchor.upwelling",
+        "target_id": "obs.upwelling",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g3",
+        "kind": "edge",
+        "source_id": "anchor.younger-upper",
+        "target_id": "obs.younger-upper",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g30",
+        "kind": "edge",
+        "source_id": "anchor.oxygen-consumption",
+        "target_id": "obs.oxygen-consumption",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g31",
+        "kind": "edge",
+        "source_id": "anchor.late-proxy-peak",
+        "target_id": "obs.late-proxy-peak",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g32",
+        "kind": "edge",
+        "source_id": "anchor.late-proxy-continuation",
+        "target_id": "obs.late-proxy-peak",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g33",
+        "kind": "edge",
+        "source_id": "anchor.fig3",
+        "target_id": "obs.late-proxy-peak",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g34",
+        "kind": "edge",
+        "source_id": "anchor.late-proxy-peak",
+        "target_id": "obs.late-proxy-peak-limit",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g35",
+        "kind": "edge",
+        "source_id": "anchor.late-proxy-continuation",
+        "target_id": "obs.late-proxy-peak-limit",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g36",
+        "kind": "edge",
+        "source_id": "anchor.oxygen-requirement",
+        "target_id": "obs.oxygen-requirement",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g4",
+        "kind": "edge",
+        "source_id": "anchor.proximal-absence",
+        "target_id": "obs.proximal-absence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g5",
+        "kind": "edge",
+        "source_id": "anchor.selli-foraminifera",
+        "target_id": "obs.selli-foraminifera",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g6",
+        "kind": "edge",
+        "source_id": "anchor.selli-nanno",
+        "target_id": "obs.selli-nanno",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g7",
+        "kind": "edge",
+        "source_id": "anchor.selli-nanno-continuation",
+        "target_id": "obs.selli-nanno",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g8",
+        "kind": "edge",
+        "source_id": "anchor.selli-radiolaria",
+        "target_id": "obs.selli-radiolaria",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g9",
+        "kind": "edge",
+        "source_id": "anchor.selli-fauna",
+        "target_id": "obs.selli-fauna",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.p1",
+        "kind": "edge",
+        "source_id": "obs.organic-distal",
+        "target_id": "reason.distal-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p10",
+        "kind": "edge",
+        "source_id": "obs.moderate-fertility",
+        "target_id": "reason.selli-fauna",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p11",
+        "kind": "edge",
+        "source_id": "reason.selli-proxies",
+        "target_id": "reason.selli-fertility-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p12",
+        "kind": "edge",
+        "source_id": "reason.selli-fauna",
+        "target_id": "reason.selli-fertility-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p13",
+        "kind": "edge",
+        "source_id": "obs.transgression",
+        "target_id": "reason.platform-retreat",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p14",
+        "kind": "edge",
+        "source_id": "obs.carbonate-change",
+        "target_id": "reason.platform-retreat",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p15",
+        "kind": "edge",
+        "source_id": "obs.omz",
+        "target_id": "reason.distal-dysoxia",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p16",
+        "kind": "edge",
+        "source_id": "obs.microfauna",
+        "target_id": "reason.distal-dysoxia",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p17",
+        "kind": "edge",
+        "source_id": "obs.model-reference",
+        "target_id": "reason.shared-model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p18",
+        "kind": "edge",
+        "source_id": "obs.model-caption",
+        "target_id": "reason.shared-model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p19",
+        "kind": "edge",
+        "source_id": "reason.platform-retreat",
+        "target_id": "reason.selli-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p2",
+        "kind": "edge",
+        "source_id": "obs.older-selli",
+        "target_id": "reason.distal-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p20",
+        "kind": "edge",
+        "source_id": "reason.distal-dysoxia",
+        "target_id": "reason.selli-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p21",
+        "kind": "edge",
+        "source_id": "reason.shared-model",
+        "target_id": "reason.selli-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p22",
+        "kind": "edge",
+        "source_id": "obs.selli-model-conclusion",
+        "target_id": "reason.selli-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p23",
+        "kind": "edge",
+        "source_id": "obs.radiolarian-rise",
+        "target_id": "reason.younger-productivity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p24",
+        "kind": "edge",
+        "source_id": "obs.plankton-change",
+        "target_id": "reason.younger-productivity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p25",
+        "kind": "edge",
+        "source_id": "obs.abstract-productivity",
+        "target_id": "reason.younger-productivity",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p26",
+        "kind": "edge",
+        "source_id": "obs.cooling",
+        "target_id": "reason.cooling",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p27",
+        "kind": "edge",
+        "source_id": "obs.warm-indicator",
+        "target_id": "reason.cooling",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p28",
+        "kind": "edge",
+        "source_id": "obs.vertical-circulation",
+        "target_id": "reason.younger-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p29",
+        "kind": "edge",
+        "source_id": "obs.upwelling",
+        "target_id": "reason.younger-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p3",
+        "kind": "edge",
+        "source_id": "obs.younger-upper",
+        "target_id": "reason.distal-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p30",
+        "kind": "edge",
+        "source_id": "obs.oxygen-consumption",
+        "target_id": "reason.younger-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p31",
+        "kind": "edge",
+        "source_id": "reason.shared-model",
+        "target_id": "reason.younger-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p32",
+        "kind": "edge",
+        "source_id": "reason.younger-productivity",
+        "target_id": "reason.younger-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p33",
+        "kind": "edge",
+        "source_id": "reason.cooling",
+        "target_id": "reason.younger-mechanism",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p34",
+        "kind": "edge",
+        "source_id": "obs.late-proxy-peak",
+        "target_id": "reason.fertility-limit",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p35",
+        "kind": "edge",
+        "source_id": "obs.late-proxy-peak-limit",
+        "target_id": "reason.fertility-limit",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p36",
+        "kind": "edge",
+        "source_id": "obs.oxygen-requirement",
+        "target_id": "reason.fertility-limit",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p4",
+        "kind": "edge",
+        "source_id": "obs.proximal-absence",
+        "target_id": "reason.distal-synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p5",
+        "kind": "edge",
+        "source_id": "obs.selli-foraminifera",
+        "target_id": "reason.selli-proxies",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p6",
+        "kind": "edge",
+        "source_id": "obs.selli-nanno",
+        "target_id": "reason.selli-proxies",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p7",
+        "kind": "edge",
+        "source_id": "obs.selli-radiolaria",
+        "target_id": "reason.selli-proxies",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p8",
+        "kind": "edge",
+        "source_id": "obs.selli-fauna",
+        "target_id": "reason.selli-fauna",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p9",
+        "kind": "edge",
+        "source_id": "obs.not-total-anoxia",
+        "target_id": "reason.selli-fauna",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.q1",
+        "kind": "edge",
+        "source_id": "reason.fertility-limit",
+        "target_id": "claim:sha256:d30b7cbff2383ba6616f0105ee1c87873539bfe03ea98a2902880ebe8b9bf26a",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s1",
+        "kind": "edge",
+        "source_id": "reason.distal-synthesis",
+        "target_id": "claim:sha256:c0e12ef894413484958450bee9299845db77b3c0b0959f71a36af0b7636126f0",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s2",
+        "kind": "edge",
+        "source_id": "reason.selli-fertility-synthesis",
+        "target_id": "claim:sha256:1fa528d2961c9c038d0238a7cc1ef75a575f19b160d87350fd7e82999fa12c8a",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s3",
+        "kind": "edge",
+        "source_id": "reason.selli-mechanism",
+        "target_id": "claim:sha256:59ebc5e003af81cfe2f4f2711e2ceb811290593f3e04755bfdb83ba2c5f57130",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s4",
+        "kind": "edge",
+        "source_id": "reason.younger-productivity",
+        "target_id": "claim:sha256:d30b7cbff2383ba6616f0105ee1c87873539bfe03ea98a2902880ebe8b9bf26a",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s5",
+        "kind": "edge",
+        "source_id": "reason.cooling",
+        "target_id": "claim:sha256:b570ab5f5b0ad3daeb47a73cfead2fcfd55d01ccae5c419f9126d1340521ab23",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s6",
+        "kind": "edge",
+        "source_id": "reason.younger-mechanism",
+        "target_id": "claim:sha256:1ae9cb0d8760efff18367c732ab9b5a3ae95c96975eb1f2686840c1bde08a2f6",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s7",
+        "kind": "edge",
+        "source_id": "reason.fertility-limit",
+        "target_id": "claim:sha256:8de7909071224b65525a4b1a864816e56301ab043c097bbfd20e4a5f30223aca",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:069edec40f3deb86a65f99152df2c8dab9b7756542c7f5d8a88365ff152dedfe",
+        "kind": "edge",
+        "source_id": "anchor.fig10",
+        "target_id": "obs.cooling",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:6338ae92abf06bd2713592332c78fd200f43fbb06f05d31de165bdafb7acc526",
+        "kind": "edge",
+        "source_id": "anchor.fig10",
+        "target_id": "obs.model-reference",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:cb4c567cb5a9f659f19917732ee111e29117cc65d156f6eee3d87a21bfa53717",
+        "kind": "edge",
+        "source_id": "anchor.fig3",
+        "target_id": "obs.late-proxy-peak-limit",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:ec36a1c9564817b0c0c4547d7bfd04dea484e714abb5acec9794e106277605a1",
+        "kind": "edge",
+        "source_id": "anchor.fig3",
+        "target_id": "obs.oxygen-requirement",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

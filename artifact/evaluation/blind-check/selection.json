@@ -1,0 +1,7 @@
+{
+  "rule": "fixed 6 query IDs; 8 smallest SHA256(blind-audit-20261027|query_id|document_id) per pool; no label/rank selection",
+  "pairs": 48,
+  "queries": 6,
+  "original_labels_withheld": true,
+  "kind": "AI-only blind development-label check, not expert ground truth or random corpus sample"
+}

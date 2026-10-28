@@ -1,0 +1,9 @@
+# Public browser case2 verification
+
+A new dedicated Chrome tab opened the public site normally, without CAPTCHA, login or security warnings. Only the public variable-loading Nd question was submitted once through the ordinary UI. No programmatic POST, Access change or challenge bypass was used. Previous Python Cloudflare403 attempts remain unchanged.
+
+At 13.354s an initial quick preview was visible; at 23.381s the model-planned preview placed the Nd claim first and showed analysis in progress. By 39.834s the UI had completed with six groups: one support group for the −0.113±0.030 per mille Nd claim and five related groups. These are observation upper bounds from browser polling, not exact network timings or a latency benchmark. This repeats case2 for UI verification, not a new independent benchmark sample. The number of related groups differs from the same-host run and should not be concealed.
+
+The support group was expanded to show source quotations and cited pages8,15,3. Clicking its representative-paper button opened W7165146192.pdf with Claim02 selected, five claims, eleven observations and33 anchors. The original-page button then opened and visibly rendered PDF page8 of19. Screenshots and accessibility text preserve each step. The displayed model evidence assessment91% is not a calibrated correctness probability. The claim scope still combines the time-series and variable-loading series; this UI success does not establish hard experimental-series exclusion.
+
+The browser URL remained https://deepshovel.iiot-shxt.xyz/ throughout the SPA navigation. The exact original-artifact link is in receipt.json. Files final.png, evidence_expanded.png, claim_page.png and source_page8.png are unedited screenshots. All actions were read/query/navigation only. No other user tabs were inspected.

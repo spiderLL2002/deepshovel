@@ -1,0 +1,248 @@
+/* Standalone atlas adapter for the shared DeepShovel foundation tokens.
+   Data colors (concentration, media, censoring and anomaly direction) retain
+   their scientific meaning; interface colors follow the host workbench. */
+:root {
+  --card: var(--bench-plane);
+  --line: var(--rule);
+  --teal: var(--accent);
+  --shadow: none;
+  background: transparent;
+}
+html, body { background: transparent; }
+body { font-size: var(--text-secondary); }
+.hero {
+  padding: var(--space-2) 0 var(--space-4);
+  margin-bottom: var(--space-3);
+  background: transparent;
+  color: var(--ink);
+  overflow: visible;
+}
+.hero::before, .hero::after, .eyebrow, .question-contract,
+.kpi::after, .deliverable-card::after { display: none; }
+.hero h1 {
+  margin: 0;
+  font-size: var(--text-display);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+.hero p { margin-top: 8px; max-width: 72ch; color: var(--muted); font-size: var(--text-body); }
+.shell { max-width: none; padding: 0; }
+.tabs {
+  top: 0;
+  gap: 4px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  background: var(--bench-sticky);
+  box-shadow: none;
+  backdrop-filter: none;
+}
+.tab { min-height: var(--control-height); padding: 8px 16px; border-radius: 4px; color: var(--muted); font-size: var(--text-secondary); font-weight: 500; }
+.tab.active { background: var(--surface-accent); color: var(--accent-dark); box-shadow: none; }
+.tab:hover { background: var(--surface-soft); color: var(--graphite); }
+.tab.active:hover { background: var(--surface-accent); }
+.kpis { display: flex; flex-wrap: wrap; gap: 0; margin-bottom: 16px; background: var(--bench-plane); border-block: 1px solid var(--rule); }
+.kpi { flex: 1 1 150px; padding: 12px 16px; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
+.kpi strong { font-size: var(--text-display); letter-spacing: 0; font-weight: 600; }
+.kpi .label { font-weight: 400; }
+.grid { grid-template-columns: minmax(0, 1fr) 320px; gap: 16px; }
+.side-stack { gap: 16px; }
+.card, .source-card, .chart-card, .research-editor, .source-detail,
+.anomaly-inspector, .analysis-card, .database-intro, .confidence-intro,
+.anomaly-density-card, .deliverable-dock, .density-quickview {
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--bench-plane);
+  color: var(--ink);
+  box-shadow: none;
+}
+.card-head, .card-body, .coverage-panel { padding: 16px; }
+.card-head { gap: 12px; flex-wrap: wrap; }
+.card-head h2, .card-head h3, .chart-card h3 { font-size: var(--text-heading); }
+.map-card .card-head, .map-card .card-body { background: var(--bench-plane); border-color: var(--rule); padding: 16px; }
+.controls, .combo-controls, .database-toolbar { gap: 12px; }
+.control, .research-editor label { min-width: 0; gap: 6px; color: var(--muted); font-weight: 500; }
+.control select, .control input, .research-editor :is(input, select, textarea),
+.map-card .control select, .map-card .control input {
+  max-width: 100%; min-height: var(--control-height); padding: 8px 12px;
+  border: 1px solid var(--rule-strong); border-radius: 4px;
+  background: var(--surface); color: var(--ink); color-scheme: light;
+  font-size: var(--text-secondary);
+}
+.control input::placeholder { color: var(--muted); }
+.map-card .control { color: var(--muted); }
+.button, .chip, .table-action, .file-link, .map-card .button, .map-card .chip,
+.deliverable-actions button, .deliverable-actions a {
+  min-height: var(--control-height); padding: 8px 12px; border: 1px solid var(--rule);
+  border-radius: 4px; background: var(--surface); color: var(--ink);
+  font-size: var(--text-secondary); font-weight: 500; box-shadow: none;
+}
+.button:hover, .chip:hover, .table-action:hover, .file-link:hover,
+.map-card .button:hover, .anomaly-record:hover, .platform-chip:hover,
+.deliverable-actions button:hover, .deliverable-actions a:hover {
+  border-color: var(--rule-strong); background: var(--surface-soft); color: var(--graphite);
+}
+.chip.active, .map-card .chip.active { border-color: var(--accent); background: var(--surface-accent); color: var(--accent-dark); }
+.task-context { border-color: var(--rule); color: var(--muted); font-size: var(--text-secondary); }
+.task-context b { color: var(--graphite); font-size: var(--text-secondary); }
+.task-context::before { background: var(--accent); box-shadow: none; }
+.advanced-controls { border-color: var(--rule); }
+.advanced-controls summary { min-height: var(--control-height); max-width: 100%; display: flex; align-items: center; color: var(--muted); }
+.advanced-controls summary::before { color: var(--accent); }
+.map-help, .boundary-note, .legend-labels, .legend-labels span:nth-child(2),
+.category-legend, .symbol-legend, .check { color: var(--muted); }
+.map-help { margin-left: 0; }
+.check input { accent-color: var(--accent); }
+.map-wrap { background: #edf2fa; height: 560px; }
+.map-wrap::after { display: none; }
+.map-note, .map-coordinates, .map-badge, .map-tools button, .tooltip, .density-tip, .map-empty {
+  background: var(--bench-sticky); color: var(--ink); border: 1px solid var(--rule-strong);
+  border-radius: 4px; box-shadow: none; backdrop-filter: none; font-family: var(--font-ui);
+}
+.map-note { max-width: calc(100% - 250px); }
+.map-badge { letter-spacing: 0; }
+.map-badge b { color: var(--accent-dark); }
+.map-badge i { background: var(--accent); box-shadow: none; }
+.map-credit { color: var(--muted); background: var(--bench-plane); padding: 2px 4px; }
+.map-tools button { width: 44px; height: 44px; }
+.map-tools button:hover { background: var(--surface-accent); border-color: var(--accent); }
+.map-empty strong { color: var(--graphite); }
+.map-empty span { color: var(--muted); }
+.value-legend, .category-legend i, .symbol-legend i { box-shadow: none; }
+.category-legend span, .symbol-legend span { border-color: var(--rule); background: var(--surface-soft); border-radius: 4px; }
+.coverage-count { font-size: var(--text-display); font-weight: 600; letter-spacing: 0; }
+#regionSummary { min-height: 0; }
+.kv { grid-template-columns: minmax(80px, .7fr) minmax(0, 1fr); }
+.source-link, .record-id-details summary { color: var(--accent-dark); }
+.section-title { font-size: var(--text-display); margin: 24px 0 8px; }
+.section-lead { font-size: var(--text-body); max-width: 72ch; }
+.source-card p, .database-intro p, .confidence-intro p { font-size: var(--text-body); line-height: 1.65; }
+.table-wrap { border-radius: 4px; border-color: var(--rule); }
+table { font-size: var(--text-secondary); }
+th, .database-table th, .anomaly-layout th, #statisticalRegionSection th { background: var(--surface-soft); color: var(--muted); border-bottom: 1px solid var(--rule-strong); font-weight: 500; padding: 12px 16px; }
+td { border-color: var(--rule); padding: 12px 16px; }
+tbody tr:nth-child(even) td { background: var(--surface); }
+tbody tr:hover td, .database-table tr:hover td, .clickable-row:hover td { background: var(--surface-accent); }
+.matrix td button { min-height: var(--control-height); color: var(--ink); background: var(--surface-soft); }
+.matrix td button.sparse { color: var(--muted); }
+.research-editor, .source-detail, .anomaly-inspector { top: 80px; padding: 16px; }
+.research-grid, .source-workbench, .anomaly-layout, .database-hero, .confidence-hero { gap: 16px; }
+.research-grid > *, .source-workbench > *, .anomaly-layout > *, .grid > *, .combo-grid > * { min-width: 0; }
+.gap, .callout, .confidence-note { border: 1px solid #e4d6af; border-radius: 4px; background: var(--surface-warning); color: var(--warning); padding: 12px 16px; }
+.semantic-note, .proposal-note, .terminology-note { border: 1px solid var(--rule); border-radius: 4px; background: var(--surface-soft); color: var(--muted); padding: 12px; }
+.semantic-note strong { color: var(--graphite); }
+.mini, .combo-stat, .coverage-stats span, .confidence-stat, .qc-category, .combo-quadrant, .iteration-card, .anomaly-stat, .confidence-component {
+  background: var(--surface-soft); border-color: var(--rule); border-radius: 4px; box-shadow: none;
+}
+.combo-stat b, .coverage-stats b, .confidence-overall b, .field-rates b, .overall-score b,
+.combo-quadrant b, .element-row b, .coverage-subtitle { color: var(--graphite); }
+.combo-stat span, .coverage-stats span, .field-rates span, .confidence-overall, .confidence-stack-labels,
+.platform-chip .platform-meta { color: var(--muted); }
+.badge, .coverage-tags span, .mini-chip, .scope-chips span, .patch-count, .component-weight {
+  background: var(--surface-soft); color: var(--muted); border-color: var(--rule); border-radius: 4px;
+}
+.platform-chip, .anomaly-record { min-height: var(--control-height); border-color: var(--rule); background: var(--surface); color: var(--ink); border-radius: 4px; }
+.element-row { min-height: var(--control-height); color: var(--ink); }
+.element-row:hover { background: var(--surface-accent); }
+.meter span, .completeness-row i, .rate-track i, .confidence-band i,
+.platform-chip .platform-bar i, .element-row .element-track i { background: var(--accent); }
+.deliverable-dock { margin-bottom: 16px; }
+.deliverable-dock > summary { min-height: 48px; font-weight: 500; color: var(--ink); }
+.deliverable-dock > summary strong { color: var(--graphite); }
+.deliverable-dock > summary::before { background: var(--surface-accent); color: var(--accent-dark); }
+.deliverable-card { grid-template-columns: minmax(0, 1fr); gap: 8px; padding: 16px; background: var(--surface); }
+.deliverable-index { display: none; }
+.deliverable-card h3, .deliverable-card strong, .deliverable-actions { grid-column: 1; grid-row: auto; }
+.deliverable-card h3 { white-space: normal; color: var(--muted); }
+.deliverable-actions { flex-wrap: wrap; }
+.deliverable-actions a { width: auto; font-size: var(--text-secondary); }
+.deliverable-actions a::after { margin-left: 4px; }
+.anomaly-density-card p { color: var(--muted); }
+.footer { padding: 24px 0; font-size: var(--text-secondary); }
+:where(button, select, input, textarea, summary, a):focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px; box-shadow: var(--focus-ring);
+}
+@media (max-width: 1180px) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .side-stack { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .side-stack > :last-child { grid-column: 1 / -1; }
+  .research-editor, .source-detail, .anomaly-inspector { position: static; }
+}
+@media (max-width: 760px) {
+  .hero h1 { font-size: var(--text-display); }
+  .tabs { flex-wrap: nowrap; overflow-x: auto; }
+  .tab { flex-shrink: 0; padding-inline: 12px; }
+  .side-stack, .confidence-components, .quality-grid, .combo-grid { grid-template-columns: minmax(0, 1fr); }
+  .map-card > .card-head > .controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .control { width: auto; }
+  .map-note { max-width: calc(100% - 28px); }
+  .map-coordinates { display: none; }
+  .map-wrap { height: 440px; }
+  .task-context { flex-wrap: wrap; }
+  .inline-control, .database-toolbar .control { min-width: 0; max-width: 100%; }
+  .database-toolbar input { min-width: 0; width: 100%; }
+  .coverage-row { grid-template-columns: 80px minmax(0, 1fr) 100px; }
+  .confidence-component { min-width: 0; }
+  .source-card p { overflow-wrap: anywhere; }
+}
+@media (max-width: 420px) {
+  .map-card > .card-head > .controls { grid-template-columns: minmax(0, 1fr); }
+  .confidence-components, .mini-grid { grid-template-columns: minmax(0, 1fr); }
+  .platform-chip { flex-wrap: wrap; }
+  .platform-chip .platform-meta { margin-left: 0; white-space: normal; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+.mode-explainer { background: var(--surface-soft); border-color: var(--rule); border-radius: 4px; color: var(--muted); }
+.mode-explainer b { color: var(--graphite); }
+.coverage-row .name { color: var(--ink) !important; }
+/* Use a colored swatch/bar, rather than low-contrast colored reading text. */
+.coverage-row b { font-size: var(--text-caption); }
+#atlasBootStatus { background: var(--paper); color: var(--ink); }
+.atlas-boot-card { border-color: var(--rule); background: var(--surface); border-radius: 4px; box-shadow: none; }
+.atlas-boot-card small { color: var(--muted); }
+#coordinate-mode-banner summary { cursor: pointer; min-height: 28px; line-height: 1.6; }
+#coordinate-mode-banner p { margin-top: 12px; max-width: 90ch; }
+
+/* Put the map before supporting controls, counts and downloads. */
+.shell { display: flex; flex-direction: column; }
+.tabs { order: 0; margin-bottom: 12px; }
+.shell > .view { order: 1; }
+.deliverable-dock { order: 2; margin-top: 16px; }
+.shell > .footer { order: 3; }
+#mapView.active { display: flex; flex-direction: column; }
+#mapView > .grid { order: 0; grid-template-columns: minmax(0, 1fr); }
+#mapView > .kpis { order: 1; margin-top: 16px; }
+.map-card { display: flex; flex-direction: column; }
+.map-card > .map-wrap { order: 0; height: clamp(260px, 52vh, 560px); min-height: 260px; }
+.map-card > .card-head { order: 1; }
+.map-card > .card-body { order: 2; }
+.hero { padding: 4px 0 12px; margin-bottom: 0; }
+.map-card > .card-head > .controls { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 600px) {
+  .map-card > .card-head > .controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* The host owns the permanent page heading and navigation. The embedded
+   document only renders the selected data view, including its loading state. */
+html[data-deepshovel-embedded] .hero,
+html[data-deepshovel-embedded] .shell > .tabs { display: none; }
+html[data-deepshovel-embedded] .shell { margin: 0; padding: 0; }
+html[data-deepshovel-embedded] .map-card > .map-wrap { height: var(--atlas-map-height); }
+html[data-deepshovel-embedded] { scrollbar-gutter: stable; }
+html[data-deepshovel-embedded] body { font-family: var(--font-ui); font-size: var(--text-body); }
+html[data-deepshovel-embedded] :is(.control, .button, .chip, .table-action, .file-link, .map-note, .map-badge, .tooltip, .density-tip, table, .kv, .section-lead, .source-card p, .chart-card p) {
+  font-family: var(--font-ui);
+  font-size: var(--text-body);
+}
+html[data-deepshovel-embedded] :is(.card-head, .card-body, .coverage-panel, .source-card, .chart-card) { padding: var(--panel-inset); }
+html[data-deepshovel-embedded] .control :is(input, select),
+html[data-deepshovel-embedded] :is(.button, .chip, .table-action, .file-link) {
+  min-height: var(--control-height);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-body);
+}

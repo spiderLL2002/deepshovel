@@ -1,0 +1,936 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+  "snapshot_id": "snapshot:sha256:002c5bf4cfe1195fcd39920fac243837b7741b9eab3833bd89c0d91b06171d5b",
+  "original_graph_json_sha256": "002c5bf4cfe1195fcd39920fac243837b7741b9eab3833bd89c0d91b06171d5b",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:3519926e-ad9f-43bd-ad06-bdb72e64d4b1",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:3519926e-ad9f-43bd-ad06-bdb72e64d4b1",
+        "sha256": "113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.altered.pattern",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.altered.reset",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.archive.isotope",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.archive.pattern",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.archive.screen",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.decoupling",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.eu.interpretation",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.eu.pattern",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.evolved",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.figure3",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.figure3.caption",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.figure6",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.figure6.caption",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.figure6.label1",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.figure6.label2",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.figure6.model",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.nd.radiogenic",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.nd.range",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.open.interpretation",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.open.pattern",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.redox.alternatives",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.redox.interpretation",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.shale",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.ttg",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.water.caption.comparison",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.water.overlap",
+        "artifact_version_id": "artifact-version:sha256:113971e0a297d6c5734315e07d62d1f063da43aa7195871cb75c661ba9b44805",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.altered.pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.altered.pattern"
+        ]
+      },
+      {
+        "id": "obs.altered.reset",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.altered.reset"
+        ]
+      },
+      {
+        "id": "obs.archive.isotope",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.archive.isotope"
+        ]
+      },
+      {
+        "id": "obs.archive.pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.archive.pattern"
+        ]
+      },
+      {
+        "id": "obs.archive.screen",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.archive.screen"
+        ]
+      },
+      {
+        "id": "obs.decoupling",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.decoupling"
+        ]
+      },
+      {
+        "id": "obs.eu.interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.eu.interpretation"
+        ]
+      },
+      {
+        "id": "obs.eu.pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.eu.pattern",
+          "anchor.figure3"
+        ]
+      },
+      {
+        "id": "obs.evolved",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.evolved"
+        ]
+      },
+      {
+        "id": "obs.nd.radiogenic",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.nd.radiogenic"
+        ]
+      },
+      {
+        "id": "obs.nd.range",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.nd.range"
+        ]
+      },
+      {
+        "id": "obs.open.caption",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure3",
+          "anchor.figure3.caption"
+        ]
+      },
+      {
+        "id": "obs.open.pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure3",
+          "anchor.open.interpretation",
+          "anchor.open.pattern"
+        ]
+      },
+      {
+        "id": "obs.redox.absence",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.redox.interpretation"
+        ]
+      },
+      {
+        "id": "obs.redox.alternatives",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.redox.alternatives"
+        ]
+      },
+      {
+        "id": "obs.shale",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.shale"
+        ]
+      },
+      {
+        "id": "obs.ttg",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.ttg",
+          "anchor.water.caption.comparison"
+        ]
+      },
+      {
+        "id": "obs.water.model",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure6",
+          "anchor.figure6.caption",
+          "anchor.figure6.label1",
+          "anchor.figure6.label2"
+        ]
+      },
+      {
+        "id": "obs.water.overlap",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.water.overlap"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.altered",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.altered.pattern",
+          "anchor.altered.reset"
+        ]
+      },
+      {
+        "id": "reason.archive",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.archive.isotope",
+          "anchor.archive.pattern",
+          "anchor.archive.screen"
+        ]
+      },
+      {
+        "id": "reason.decoupling",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.decoupling",
+          "anchor.nd.range",
+          "anchor.shale"
+        ]
+      },
+      {
+        "id": "reason.hydrothermal",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.eu.interpretation",
+          "anchor.eu.pattern",
+          "anchor.figure3.caption"
+        ]
+      },
+      {
+        "id": "reason.open",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure3.caption",
+          "anchor.open.interpretation",
+          "anchor.open.pattern"
+        ]
+      },
+      {
+        "id": "reason.redox",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.redox.alternatives",
+          "anchor.redox.interpretation"
+        ]
+      },
+      {
+        "id": "reason.source_mix",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.evolved",
+          "anchor.nd.radiogenic",
+          "anchor.nd.range",
+          "anchor.ttg",
+          "anchor.water.caption.comparison"
+        ]
+      },
+      {
+        "id": "reason.water_mix",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure6",
+          "anchor.figure6.caption",
+          "anchor.figure6.label1",
+          "anchor.figure6.label2",
+          "anchor.water.caption.comparison",
+          "anchor.water.overlap"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:0592154f158a9b53a4f62c9e9d2e18707b3bdd67abafea55a11b365e77cbc173",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure3",
+          "anchor.figure3.caption",
+          "anchor.open.interpretation",
+          "anchor.open.pattern"
+        ],
+        "source_id": "claim.open_marine"
+      },
+      {
+        "id": "claim:sha256:63d6977ac11d8a9e8cdc92ab960e195f697fdb87a41444fae1a1f9f38e26f217",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.archive.isotope",
+          "anchor.archive.pattern",
+          "anchor.archive.screen"
+        ],
+        "source_id": "claim.archive"
+      },
+      {
+        "id": "claim:sha256:8681735733dfe147f378cf1e844c75df1cfc74f1ee403bb2918642f34d923e7d",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.redox.alternatives",
+          "anchor.redox.interpretation"
+        ],
+        "source_id": "claim.redox"
+      },
+      {
+        "id": "claim:sha256:ae7622be0e35991c9627e40d53e5b0aa5cb9ade06ee6539a68b0a23c07db97a6",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.altered.pattern",
+          "anchor.altered.reset"
+        ],
+        "source_id": "claim.alteration"
+      },
+      {
+        "id": "claim:sha256:ae9d21d276ae75da049bd97be7a465b8f11de6253981acb6801047a630fdedc9",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.eu.interpretation",
+          "anchor.eu.pattern",
+          "anchor.figure3",
+          "anchor.figure3.caption"
+        ],
+        "source_id": "claim.hydrothermal"
+      },
+      {
+        "id": "claim:sha256:db54ab60bc7634c90fc776b00e1ebc4817eb33d6807cbd6af0f51d9cd592081b",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.evolved",
+          "anchor.nd.radiogenic",
+          "anchor.nd.range",
+          "anchor.ttg",
+          "anchor.water.caption.comparison"
+        ],
+        "source_id": "claim.source_mix"
+      },
+      {
+        "id": "claim:sha256:de675a2412313f9df8242d02dc3201100b3f8bf41578bbc569700dc92690e23a",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure6",
+          "anchor.figure6.caption",
+          "anchor.figure6.label1",
+          "anchor.figure6.label2",
+          "anchor.water.caption.comparison",
+          "anchor.water.overlap"
+        ],
+        "source_id": "claim.water_mix"
+      },
+      {
+        "id": "claim:sha256:e32b6012da08a76a94871cd0eaaf365c76cf1b934f330888626dc2ad505b7630",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.decoupling",
+          "anchor.nd.range",
+          "anchor.shale"
+        ],
+        "source_id": "claim.phase_decoupling"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.grounds.altered.pattern",
+        "kind": "edge",
+        "source_id": "anchor.altered.pattern",
+        "target_id": "obs.altered.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.altered.reset",
+        "kind": "edge",
+        "source_id": "anchor.altered.reset",
+        "target_id": "obs.altered.reset",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.archive.isotope",
+        "kind": "edge",
+        "source_id": "anchor.archive.isotope",
+        "target_id": "obs.archive.isotope",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.archive.pattern",
+        "kind": "edge",
+        "source_id": "anchor.archive.pattern",
+        "target_id": "obs.archive.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.archive.screen",
+        "kind": "edge",
+        "source_id": "anchor.archive.screen",
+        "target_id": "obs.archive.screen",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.decoupling",
+        "kind": "edge",
+        "source_id": "anchor.decoupling",
+        "target_id": "obs.decoupling",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.decoupling.nd",
+        "kind": "edge",
+        "source_id": "anchor.nd.range",
+        "target_id": "obs.shale",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.eu.figure",
+        "kind": "edge",
+        "source_id": "anchor.figure3",
+        "target_id": "obs.eu.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.eu.interpretation",
+        "kind": "edge",
+        "source_id": "anchor.eu.interpretation",
+        "target_id": "obs.eu.interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.eu.pattern",
+        "kind": "edge",
+        "source_id": "anchor.eu.pattern",
+        "target_id": "obs.eu.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.evolved",
+        "kind": "edge",
+        "source_id": "anchor.evolved",
+        "target_id": "obs.evolved",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nd.radiogenic",
+        "kind": "edge",
+        "source_id": "anchor.nd.radiogenic",
+        "target_id": "obs.nd.radiogenic",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.nd.range",
+        "kind": "edge",
+        "source_id": "anchor.nd.range",
+        "target_id": "obs.nd.range",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.open.caption",
+        "kind": "edge",
+        "source_id": "anchor.figure3.caption",
+        "target_id": "obs.open.caption",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.open.caption.figure",
+        "kind": "edge",
+        "source_id": "anchor.figure3",
+        "target_id": "obs.open.caption",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.open.figure",
+        "kind": "edge",
+        "source_id": "anchor.figure3",
+        "target_id": "obs.open.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.open.interpretation",
+        "kind": "edge",
+        "source_id": "anchor.open.interpretation",
+        "target_id": "obs.open.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.open.pattern",
+        "kind": "edge",
+        "source_id": "anchor.open.pattern",
+        "target_id": "obs.open.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.redox.absence",
+        "kind": "edge",
+        "source_id": "anchor.redox.interpretation",
+        "target_id": "obs.redox.absence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.redox.alternatives",
+        "kind": "edge",
+        "source_id": "anchor.redox.alternatives",
+        "target_id": "obs.redox.alternatives",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shale",
+        "kind": "edge",
+        "source_id": "anchor.shale",
+        "target_id": "obs.shale",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.ttg",
+        "kind": "edge",
+        "source_id": "anchor.ttg",
+        "target_id": "obs.ttg",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.water.model.caption",
+        "kind": "edge",
+        "source_id": "anchor.figure6.model",
+        "target_id": "obs.water.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.water.model.figure",
+        "kind": "edge",
+        "source_id": "anchor.figure6",
+        "target_id": "obs.water.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.water.model.text",
+        "kind": "edge",
+        "source_id": "anchor.figure6.caption",
+        "target_id": "obs.water.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.water.overlap",
+        "kind": "edge",
+        "source_id": "anchor.water.overlap",
+        "target_id": "obs.water.overlap",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.altered.pattern",
+        "kind": "edge",
+        "source_id": "obs.altered.pattern",
+        "target_id": "reason.altered",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.altered.reset",
+        "kind": "edge",
+        "source_id": "obs.altered.reset",
+        "target_id": "reason.altered",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.archive.isotope",
+        "kind": "edge",
+        "source_id": "obs.archive.isotope",
+        "target_id": "reason.archive",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.archive.pattern",
+        "kind": "edge",
+        "source_id": "obs.archive.pattern",
+        "target_id": "reason.archive",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.archive.screen",
+        "kind": "edge",
+        "source_id": "obs.archive.screen",
+        "target_id": "reason.archive",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.decoupling.interpretation",
+        "kind": "edge",
+        "source_id": "obs.decoupling",
+        "target_id": "reason.decoupling",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.decoupling.shale",
+        "kind": "edge",
+        "source_id": "obs.shale",
+        "target_id": "reason.decoupling",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.eu.interpretation",
+        "kind": "edge",
+        "source_id": "obs.eu.interpretation",
+        "target_id": "reason.hydrothermal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.eu.pattern",
+        "kind": "edge",
+        "source_id": "obs.eu.pattern",
+        "target_id": "reason.hydrothermal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.open.caption",
+        "kind": "edge",
+        "source_id": "obs.open.caption",
+        "target_id": "reason.open",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.open.pattern",
+        "kind": "edge",
+        "source_id": "obs.open.pattern",
+        "target_id": "reason.open",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.redox.absence",
+        "kind": "edge",
+        "source_id": "obs.redox.absence",
+        "target_id": "reason.redox",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.redox.alternatives",
+        "kind": "edge",
+        "source_id": "obs.redox.alternatives",
+        "target_id": "reason.redox",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.source.evolved",
+        "kind": "edge",
+        "source_id": "obs.evolved",
+        "target_id": "reason.source_mix",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.source.radiogenic",
+        "kind": "edge",
+        "source_id": "obs.nd.radiogenic",
+        "target_id": "reason.source_mix",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.source.range",
+        "kind": "edge",
+        "source_id": "obs.nd.range",
+        "target_id": "reason.source_mix",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.source.ttg",
+        "kind": "edge",
+        "source_id": "obs.ttg",
+        "target_id": "reason.source_mix",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.water.model",
+        "kind": "edge",
+        "source_id": "obs.water.model",
+        "target_id": "reason.water_mix",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.water.overlap",
+        "kind": "edge",
+        "source_id": "obs.water.overlap",
+        "target_id": "reason.water_mix",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.altered",
+        "kind": "edge",
+        "source_id": "reason.altered",
+        "target_id": "claim:sha256:ae7622be0e35991c9627e40d53e5b0aa5cb9ade06ee6539a68b0a23c07db97a6",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.archive",
+        "kind": "edge",
+        "source_id": "reason.archive",
+        "target_id": "claim:sha256:63d6977ac11d8a9e8cdc92ab960e195f697fdb87a41444fae1a1f9f38e26f217",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.decoupling",
+        "kind": "edge",
+        "source_id": "reason.decoupling",
+        "target_id": "claim:sha256:e32b6012da08a76a94871cd0eaaf365c76cf1b934f330888626dc2ad505b7630",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.hydrothermal",
+        "kind": "edge",
+        "source_id": "reason.hydrothermal",
+        "target_id": "claim:sha256:ae9d21d276ae75da049bd97be7a465b8f11de6253981acb6801047a630fdedc9",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.open",
+        "kind": "edge",
+        "source_id": "reason.open",
+        "target_id": "claim:sha256:0592154f158a9b53a4f62c9e9d2e18707b3bdd67abafea55a11b365e77cbc173",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.redox",
+        "kind": "edge",
+        "source_id": "reason.redox",
+        "target_id": "claim:sha256:8681735733dfe147f378cf1e844c75df1cfc74f1ee403bb2918642f34d923e7d",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.source_mix",
+        "kind": "edge",
+        "source_id": "reason.source_mix",
+        "target_id": "claim:sha256:db54ab60bc7634c90fc776b00e1ebc4817eb33d6807cbd6af0f51d9cd592081b",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.water_mix",
+        "kind": "edge",
+        "source_id": "reason.water_mix",
+        "target_id": "claim:sha256:de675a2412313f9df8242d02dc3201100b3f8bf41578bbc569700dc92690e23a",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:74ed887586acbd4cdb3847122fbea18a0a3f13434c588f5591eae5652bfb888c",
+        "kind": "edge",
+        "source_id": "anchor.figure6.label2",
+        "target_id": "obs.water.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:e36056b3857a00a30cb2abae529bdfd5b3a468b9d7822eb7a56ca6deb534b1d1",
+        "kind": "edge",
+        "source_id": "anchor.figure6.label1",
+        "target_id": "obs.water.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:e8dce5b9d2a4d4c3a6c4b9ff357865b6dae6001e63e84bfc7afaffcb83f19306",
+        "kind": "edge",
+        "source_id": "anchor.water.caption.comparison",
+        "target_id": "obs.ttg",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

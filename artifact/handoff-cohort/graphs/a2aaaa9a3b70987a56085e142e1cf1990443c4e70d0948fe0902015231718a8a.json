@@ -1,0 +1,1087 @@
+{
+  "projection_notice": "Semantic text/values omitted. File hash identifies this projection, not original graph bytes or production snapshot. Original field values retained for selected structural keys.",
+  "raw_receipt_sha256": "a580b9934538be55e2d280284919dcc2a6a69225aa355869a483af90a7ea2fc9",
+  "http_body_sha256": "390195a125b62d1f0036941780f0d33f800fca3ab1d5579d530fc0a84bd308e6",
+  "snapshot": {
+    "id": "snapshot:sha256:a2aaaa9a3b70987a56085e142e1cf1990443c4e70d0948fe0902015231718a8a",
+    "rootArtifactVersionId": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+    "schemaVersion": "scientific-evidence-graph/1.0",
+    "graphSha256": "a2aaaa9a3b70987a56085e142e1cf1990443c4e70d0948fe0902015231718a8a"
+  },
+  "graph": {
+    "paper_id": "paper:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+    "anchors": [
+      {
+        "id": "a.csv.figure3.caption",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.csv.figure3.text",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.figure1",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "a.figure1.caption",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "a.figure1.reference",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "a.figure3",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.figure6",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.figure6.caption.label",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.figure6.caption.ratio",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.figure6.caption.treatment",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.figure7",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.figure7.caption.deep",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.figure7.caption.label",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.figure7.caption.ratio",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.mechanism.caveat",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.redox.cycle.proposal",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.s279.25m",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.s279.50m",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.s279.below100",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.s279.upper.figure7",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.s279.upper.initial",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.solubility.exchange.assumption",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "a.soluble.decline",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.soluble.fit.continuation",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.soluble.fit.start",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "a.sots.figure6.result",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.sots.flux.decay",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.sots.flux.level",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "a.weak.complex.reactivity",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.weak.lifetime",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "a.weak.release.proposal",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "a.weak.short.term",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:468af0a4d75bd31052066ab85ba364336c51f93f63cacfbca38187d1a21ceab2",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:a506f8ca6ec54dff83eac0bf3f7cf7c498da0a32ebc5ce9f0f83f3221807a26b",
+        "kind": "source_anchor",
+        "artifact_version_id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "selector": {
+          "page": 7
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.csv.pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.csv.figure3.caption",
+          "a.csv.figure3.text",
+          "a.figure3"
+        ]
+      },
+      {
+        "id": "obs.mechanism.caveat",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.mechanism.caveat"
+        ]
+      },
+      {
+        "id": "obs.model.mechanism.schematic",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure1",
+          "a.figure1.caption",
+          "a.figure1.reference"
+        ]
+      },
+      {
+        "id": "obs.model.schematic",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure1",
+          "a.figure1.caption",
+          "a.figure1.reference"
+        ]
+      },
+      {
+        "id": "obs.redox.cycle.proposal",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.redox.cycle.proposal"
+        ]
+      },
+      {
+        "id": "obs.s279.below100",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure7",
+          "a.figure7.caption.deep",
+          "a.s279.below100"
+        ]
+      },
+      {
+        "id": "obs.s279.upper.pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure7",
+          "a.figure7.caption.label",
+          "a.figure7.caption.ratio",
+          "a.s279.25m",
+          "a.s279.50m",
+          "a.s279.upper.figure7",
+          "a.s279.upper.initial"
+        ]
+      },
+      {
+        "id": "obs.soluble.decline",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.soluble.decline"
+        ]
+      },
+      {
+        "id": "obs.soluble.fit",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.soluble.fit.continuation",
+          "a.soluble.fit.start",
+          "anchor:compiler:visual:a506f8ca6ec54dff83eac0bf3f7cf7c498da0a32ebc5ce9f0f83f3221807a26b"
+        ]
+      },
+      {
+        "id": "obs.sots.flux.decay",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure6",
+          "a.sots.flux.decay"
+        ]
+      },
+      {
+        "id": "obs.sots.flux.level",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.sots.flux.level"
+        ]
+      },
+      {
+        "id": "obs.sots.ratio",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.figure6",
+          "a.figure6.caption.label",
+          "a.figure6.caption.ratio",
+          "a.figure6.caption.treatment",
+          "a.sots.figure6.result"
+        ]
+      },
+      {
+        "id": "obs.weak.complex.reactivity",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.weak.complex.reactivity"
+        ]
+      },
+      {
+        "id": "obs.weak.release.proposal",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.weak.release.proposal"
+        ]
+      },
+      {
+        "id": "obs.weak.retention",
+        "kind": "observation",
+        "anchor_ids": [
+          "a.weak.lifetime",
+          "a.weak.short.term",
+          "anchor:compiler:visual:468af0a4d75bd31052066ab85ba364336c51f93f63cacfbca38187d1a21ceab2"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.mechanism.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.figure1",
+          "a.figure1.caption",
+          "a.figure1.reference",
+          "a.figure6",
+          "a.figure6.caption.ratio",
+          "a.mechanism.caveat",
+          "a.redox.cycle.proposal",
+          "a.sots.figure6.result",
+          "a.weak.complex.reactivity",
+          "a.weak.release.proposal"
+        ]
+      },
+      {
+        "id": "reason.soluble.final",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.figure1",
+          "a.figure1.caption",
+          "a.figure1.reference",
+          "a.solubility.exchange.assumption",
+          "a.weak.lifetime",
+          "a.weak.short.term",
+          "anchor:compiler:visual:468af0a4d75bd31052066ab85ba364336c51f93f63cacfbca38187d1a21ceab2"
+        ]
+      },
+      {
+        "id": "reason.soluble.local",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.soluble.decline",
+          "a.soluble.fit.continuation",
+          "a.soluble.fit.start",
+          "anchor:compiler:visual:a506f8ca6ec54dff83eac0bf3f7cf7c498da0a32ebc5ce9f0f83f3221807a26b"
+        ]
+      },
+      {
+        "id": "reason.soluble.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.csv.figure3.caption",
+          "a.csv.figure3.text",
+          "a.figure3",
+          "a.soluble.decline"
+        ]
+      },
+      {
+        "id": "reason.sots.depth",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.figure7",
+          "a.figure7.caption.ratio",
+          "a.s279.25m",
+          "a.s279.50m",
+          "a.s279.below100",
+          "a.s279.upper.figure7",
+          "a.s279.upper.initial"
+        ]
+      },
+      {
+        "id": "reason.sots.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.figure6",
+          "a.figure7",
+          "a.sots.flux.level"
+        ]
+      },
+      {
+        "id": "reason.sots.temporal",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "a.figure6",
+          "a.figure6.caption.ratio",
+          "a.sots.figure6.result",
+          "a.sots.flux.decay"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:6ee3e9f50fb02e7a1497d35c94618fae5399af9e5a7a4e82b3f33fe54ddf77f9",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.csv.figure3.caption",
+          "a.csv.figure3.text",
+          "a.figure1",
+          "a.figure1.caption",
+          "a.figure1.reference",
+          "a.figure3",
+          "a.solubility.exchange.assumption",
+          "a.soluble.decline",
+          "a.soluble.fit.continuation",
+          "a.soluble.fit.start",
+          "a.weak.lifetime",
+          "a.weak.short.term",
+          "anchor:compiler:visual:468af0a4d75bd31052066ab85ba364336c51f93f63cacfbca38187d1a21ceab2",
+          "anchor:compiler:visual:a506f8ca6ec54dff83eac0bf3f7cf7c498da0a32ebc5ce9f0f83f3221807a26b"
+        ]
+      },
+      {
+        "id": "claim:sha256:8e13edc887550adbff434013ca9e68123a54fee17fc5bc39c9b831d0a711296b",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.figure1",
+          "a.figure1.caption",
+          "a.figure1.reference",
+          "a.figure6",
+          "a.figure6.caption.ratio",
+          "a.mechanism.caveat",
+          "a.redox.cycle.proposal",
+          "a.sots.figure6.result",
+          "a.sots.flux.decay",
+          "a.weak.complex.reactivity",
+          "a.weak.release.proposal"
+        ]
+      },
+      {
+        "id": "claim:sha256:a9adc620db7080819ff51de090a854dd9a1973483b765d8bfe4769106f1b3cbb",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "a.figure6",
+          "a.figure6.caption.label",
+          "a.figure6.caption.ratio",
+          "a.figure6.caption.treatment",
+          "a.figure7",
+          "a.figure7.caption.deep",
+          "a.figure7.caption.label",
+          "a.figure7.caption.ratio",
+          "a.s279.25m",
+          "a.s279.50m",
+          "a.s279.below100",
+          "a.s279.upper.figure7",
+          "a.s279.upper.initial",
+          "a.sots.figure6.result",
+          "a.sots.flux.decay",
+          "a.sots.flux.level"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.phase.loss",
+        "kind": "assumption",
+        "anchor_ids": [
+          "a.solubility.exchange.assumption"
+        ]
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:c484a5a4-9ec8-40c7-add8-0b17c5c28ad5",
+        "sha256": "704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+        "media_type": "application/pdf"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e.assumption.soluble.phase",
+        "source_id": "assumption.phase.loss",
+        "target_id": "reason.soluble.final",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "e.ground.csv.caption",
+        "source_id": "a.csv.figure3.caption",
+        "target_id": "obs.csv.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.csv.figure",
+        "source_id": "a.figure3",
+        "target_id": "obs.csv.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.csv.text",
+        "source_id": "a.csv.figure3.text",
+        "target_id": "obs.csv.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.mechanism.caveat",
+        "source_id": "a.mechanism.caveat",
+        "target_id": "obs.mechanism.caveat",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.model.caption",
+        "source_id": "a.figure1.caption",
+        "target_id": "obs.model.schematic",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.model.figure",
+        "source_id": "a.figure1",
+        "target_id": "obs.model.schematic",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.model.mechanism.caption",
+        "source_id": "a.figure1.caption",
+        "target_id": "obs.model.mechanism.schematic",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.model.mechanism.figure",
+        "source_id": "a.figure1",
+        "target_id": "obs.model.mechanism.schematic",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.model.mechanism.ref",
+        "source_id": "a.figure1.reference",
+        "target_id": "obs.model.mechanism.schematic",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.model.ref",
+        "source_id": "a.figure1.reference",
+        "target_id": "obs.model.schematic",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.redox.proposal",
+        "source_id": "a.redox.cycle.proposal",
+        "target_id": "obs.redox.cycle.proposal",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.s279.25m",
+        "source_id": "a.s279.25m",
+        "target_id": "obs.s279.upper.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.s279.50m",
+        "source_id": "a.s279.50m",
+        "target_id": "obs.s279.upper.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.s279.below.figure",
+        "source_id": "a.figure7",
+        "target_id": "obs.s279.below100",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.s279.below.text",
+        "source_id": "a.s279.below100",
+        "target_id": "obs.s279.below100",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.s279.fig7",
+        "source_id": "a.figure7",
+        "target_id": "obs.s279.upper.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.s279.fig7.deep",
+        "source_id": "a.figure7.caption.deep",
+        "target_id": "obs.s279.below100",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.s279.fig7.label",
+        "source_id": "a.figure7.caption.label",
+        "target_id": "obs.s279.upper.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.s279.fig7.ratio",
+        "source_id": "a.figure7.caption.ratio",
+        "target_id": "obs.s279.upper.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.s279.initial",
+        "source_id": "a.s279.upper.initial",
+        "target_id": "obs.s279.upper.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.s279.upper.figure7",
+        "source_id": "a.s279.upper.figure7",
+        "target_id": "obs.s279.upper.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.soluble.decline",
+        "source_id": "a.soluble.decline",
+        "target_id": "obs.soluble.decline",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.soluble.fit.continuation",
+        "source_id": "a.soluble.fit.continuation",
+        "target_id": "obs.soluble.fit",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.soluble.fit.start",
+        "source_id": "a.soluble.fit.start",
+        "target_id": "obs.soluble.fit",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sots.decay",
+        "source_id": "a.sots.flux.decay",
+        "target_id": "obs.sots.flux.decay",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sots.fig6",
+        "source_id": "a.figure6",
+        "target_id": "obs.sots.ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sots.fig6.label",
+        "source_id": "a.figure6.caption.label",
+        "target_id": "obs.sots.ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sots.fig6.ratio",
+        "source_id": "a.figure6.caption.ratio",
+        "target_id": "obs.sots.ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sots.fig6.treatment",
+        "source_id": "a.figure6.caption.treatment",
+        "target_id": "obs.sots.ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sots.flux.level",
+        "source_id": "a.sots.flux.level",
+        "target_id": "obs.sots.flux.level",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.sots.result",
+        "source_id": "a.sots.figure6.result",
+        "target_id": "obs.sots.ratio",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.weak.lifetime",
+        "source_id": "a.weak.lifetime",
+        "target_id": "obs.weak.retention",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.weak.reactivity",
+        "source_id": "a.weak.complex.reactivity",
+        "target_id": "obs.weak.complex.reactivity",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.weak.release",
+        "source_id": "a.weak.release.proposal",
+        "target_id": "obs.weak.release.proposal",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.ground.weak.short",
+        "source_id": "a.weak.short.term",
+        "target_id": "obs.weak.retention",
+        "relation": "grounds"
+      },
+      {
+        "id": "e.premise.mechanism.caveat",
+        "source_id": "obs.mechanism.caveat",
+        "target_id": "reason.mechanism.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.mechanism.model",
+        "source_id": "obs.model.mechanism.schematic",
+        "target_id": "reason.mechanism.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.mechanism.reactivity",
+        "source_id": "obs.weak.complex.reactivity",
+        "target_id": "reason.mechanism.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.mechanism.redox",
+        "source_id": "obs.redox.cycle.proposal",
+        "target_id": "reason.mechanism.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.mechanism.release",
+        "source_id": "obs.weak.release.proposal",
+        "target_id": "reason.mechanism.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.mechanism.temporal",
+        "source_id": "reason.sots.temporal",
+        "target_id": "reason.mechanism.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.s279.below",
+        "source_id": "obs.s279.below100",
+        "target_id": "reason.sots.depth",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.s279.upper",
+        "source_id": "obs.s279.upper.pattern",
+        "target_id": "reason.sots.depth",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.soluble.csv",
+        "source_id": "obs.csv.pattern",
+        "target_id": "reason.soluble.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.soluble.decline",
+        "source_id": "obs.soluble.decline",
+        "target_id": "reason.soluble.local",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.soluble.fit",
+        "source_id": "obs.soluble.fit",
+        "target_id": "reason.soluble.local",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.soluble.local",
+        "source_id": "reason.soluble.local",
+        "target_id": "reason.soluble.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.soluble.model",
+        "source_id": "obs.model.schematic",
+        "target_id": "reason.soluble.final",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.soluble.retention",
+        "source_id": "obs.weak.retention",
+        "target_id": "reason.soluble.final",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.soluble.synthesis",
+        "source_id": "reason.soluble.synthesis",
+        "target_id": "reason.soluble.final",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sots.depth",
+        "source_id": "reason.sots.depth",
+        "target_id": "reason.sots.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sots.flux.decay",
+        "source_id": "obs.sots.flux.decay",
+        "target_id": "reason.sots.temporal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sots.flux.level",
+        "source_id": "obs.sots.flux.level",
+        "target_id": "reason.sots.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sots.ratio",
+        "source_id": "obs.sots.ratio",
+        "target_id": "reason.sots.temporal",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.premise.sots.temporal",
+        "source_id": "reason.sots.temporal",
+        "target_id": "reason.sots.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "e.support.mechanism.claim",
+        "source_id": "reason.mechanism.synthesis",
+        "target_id": "claim:sha256:8e13edc887550adbff434013ca9e68123a54fee17fc5bc39c9b831d0a711296b",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.sots.claim",
+        "source_id": "reason.sots.synthesis",
+        "target_id": "claim:sha256:a9adc620db7080819ff51de090a854dd9a1973483b765d8bfe4769106f1b3cbb",
+        "relation": "infers"
+      },
+      {
+        "id": "e.support.weak.ligand.claim",
+        "source_id": "reason.soluble.final",
+        "target_id": "claim:sha256:6ee3e9f50fb02e7a1497d35c94618fae5399af9e5a7a4e82b3f33fe54ddf77f9",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:7aa54402e41363ea92d1b00486ece147d1166d0d3ea2a81b8d225b7bf5432a86",
+        "source_id": "anchor:compiler:visual:a506f8ca6ec54dff83eac0bf3f7cf7c498da0a32ebc5ce9f0f83f3221807a26b",
+        "target_id": "obs.soluble.fit",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:d325399f8f9dedbb2de9a1159cb4dc94af31357ef9cee7ecc74636b0e5bcae1b",
+        "source_id": "anchor:compiler:visual:468af0a4d75bd31052066ab85ba364336c51f93f63cacfbca38187d1a21ceab2",
+        "target_id": "obs.weak.retention",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:ee6ab891eed10214fb154ea1d531dd3fcfbee074eebe6b493f78ba9aab52074f",
+        "source_id": "a.figure6",
+        "target_id": "obs.sots.flux.decay",
+        "relation": "grounds"
+      }
+    ],
+    "snapshots": [
+      {
+        "id": "snapshot:sha256:fad964ee0b85b5df39a6f3eec62479237531be144bfbd39ee100c96e32272ebc",
+        "entity_ids": [
+          "a.csv.figure3.caption",
+          "a.csv.figure3.text",
+          "a.figure1",
+          "a.figure1.caption",
+          "a.figure1.reference",
+          "a.figure3",
+          "a.figure6",
+          "a.figure6.caption.label",
+          "a.figure6.caption.ratio",
+          "a.figure6.caption.treatment",
+          "a.figure7",
+          "a.figure7.caption.deep",
+          "a.figure7.caption.label",
+          "a.figure7.caption.ratio",
+          "a.mechanism.caveat",
+          "a.redox.cycle.proposal",
+          "a.s279.25m",
+          "a.s279.50m",
+          "a.s279.below100",
+          "a.s279.upper.figure7",
+          "a.s279.upper.initial",
+          "a.solubility.exchange.assumption",
+          "a.soluble.decline",
+          "a.soluble.fit.continuation",
+          "a.soluble.fit.start",
+          "a.sots.figure6.result",
+          "a.sots.flux.decay",
+          "a.sots.flux.level",
+          "a.weak.complex.reactivity",
+          "a.weak.lifetime",
+          "a.weak.release.proposal",
+          "a.weak.short.term",
+          "anchor:compiler:visual:468af0a4d75bd31052066ab85ba364336c51f93f63cacfbca38187d1a21ceab2",
+          "anchor:compiler:visual:a506f8ca6ec54dff83eac0bf3f7cf7c498da0a32ebc5ce9f0f83f3221807a26b",
+          "artifact-version:sha256:704245eb59516c5e3f758107c02ebd2179b4c12e9f850311916dc46d7f7ee1da",
+          "artifact:c484a5a4-9ec8-40c7-add8-0b17c5c28ad5",
+          "assumption.phase.loss",
+          "claim:sha256:6ee3e9f50fb02e7a1497d35c94618fae5399af9e5a7a4e82b3f33fe54ddf77f9",
+          "claim:sha256:8e13edc887550adbff434013ca9e68123a54fee17fc5bc39c9b831d0a711296b",
+          "claim:sha256:a9adc620db7080819ff51de090a854dd9a1973483b765d8bfe4769106f1b3cbb",
+          "obs.csv.pattern",
+          "obs.mechanism.caveat",
+          "obs.model.mechanism.schematic",
+          "obs.model.schematic",
+          "obs.redox.cycle.proposal",
+          "obs.s279.below100",
+          "obs.s279.upper.pattern",
+          "obs.soluble.decline",
+          "obs.soluble.fit",
+          "obs.sots.flux.decay",
+          "obs.sots.flux.level",
+          "obs.sots.ratio",
+          "obs.weak.complex.reactivity",
+          "obs.weak.release.proposal",
+          "obs.weak.retention",
+          "reason.mechanism.synthesis",
+          "reason.soluble.final",
+          "reason.soluble.local",
+          "reason.soluble.synthesis",
+          "reason.sots.depth",
+          "reason.sots.synthesis",
+          "reason.sots.temporal"
+        ],
+        "edge_ids": [
+          "e.assumption.soluble.phase",
+          "e.ground.csv.caption",
+          "e.ground.csv.figure",
+          "e.ground.csv.text",
+          "e.ground.mechanism.caveat",
+          "e.ground.model.caption",
+          "e.ground.model.figure",
+          "e.ground.model.mechanism.caption",
+          "e.ground.model.mechanism.figure",
+          "e.ground.model.mechanism.ref",
+          "e.ground.model.ref",
+          "e.ground.redox.proposal",
+          "e.ground.s279.25m",
+          "e.ground.s279.50m",
+          "e.ground.s279.below.figure",
+          "e.ground.s279.below.text",
+          "e.ground.s279.fig7",
+          "e.ground.s279.fig7.deep",
+          "e.ground.s279.fig7.label",
+          "e.ground.s279.fig7.ratio",
+          "e.ground.s279.initial",
+          "e.ground.s279.upper.figure7",
+          "e.ground.soluble.decline",
+          "e.ground.soluble.fit.continuation",
+          "e.ground.soluble.fit.start",
+          "e.ground.sots.decay",
+          "e.ground.sots.fig6",
+          "e.ground.sots.fig6.label",
+          "e.ground.sots.fig6.ratio",
+          "e.ground.sots.fig6.treatment",
+          "e.ground.sots.flux.level",
+          "e.ground.sots.result",
+          "e.ground.weak.lifetime",
+          "e.ground.weak.reactivity",
+          "e.ground.weak.release",
+          "e.ground.weak.short",
+          "e.premise.mechanism.caveat",
+          "e.premise.mechanism.model",
+          "e.premise.mechanism.reactivity",
+          "e.premise.mechanism.redox",
+          "e.premise.mechanism.release",
+          "e.premise.mechanism.temporal",
+          "e.premise.s279.below",
+          "e.premise.s279.upper",
+          "e.premise.soluble.csv",
+          "e.premise.soluble.decline",
+          "e.premise.soluble.fit",
+          "e.premise.soluble.local",
+          "e.premise.soluble.model",
+          "e.premise.soluble.retention",
+          "e.premise.soluble.synthesis",
+          "e.premise.sots.depth",
+          "e.premise.sots.flux.decay",
+          "e.premise.sots.flux.level",
+          "e.premise.sots.ratio",
+          "e.premise.sots.temporal",
+          "e.support.mechanism.claim",
+          "e.support.sots.claim",
+          "e.support.weak.ligand.claim",
+          "edge:compiler:7aa54402e41363ea92d1b00486ece147d1166d0d3ea2a81b8d225b7bf5432a86",
+          "edge:compiler:d325399f8f9dedbb2de9a1159cb4dc94af31357ef9cee7ecc74636b0e5bcae1b",
+          "edge:compiler:ee6ab891eed10214fb154ea1d531dd3fcfbee074eebe6b493f78ba9aab52074f"
+        ]
+      }
+    ]
+  }
+}

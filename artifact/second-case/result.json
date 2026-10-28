@@ -1,0 +1,605 @@
+{
+  "selection": "Purposefully selected q50 before fresh run for clear numeric scope and independently verified CC BY license; not random or performance-selected",
+  "query": "Under the modeled gas-injection conditions, what maximum pore pressure can fault F2 in the Asmari reservoir sustain, and how do the three fault-stability formulations characterize it?",
+  "run": {
+    "transport": "existing same-host service, actual UI protocol preview/handoff/final",
+    "preview_seconds": 16.828072916,
+    "final_seconds": 21.065945749999997,
+    "total_seconds": 37.904009416,
+    "result_status": 200,
+    "preview_count": 30,
+    "final_cluster_count": 6,
+    "final_channels": {
+      "lexical": {
+        "attempted": false,
+        "status": "skipped",
+        "provider": "sqlite-fts5-bm25f",
+        "returned": 0
+      },
+      "dense": {
+        "attempted": false,
+        "status": "skipped",
+        "provider": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "returned": 0
+      },
+      "rerank": {
+        "attempted": false,
+        "status": "skipped",
+        "provider": "gpt-second-stage",
+        "returned": 0
+      },
+      "relation": {
+        "attempted": true,
+        "status": "ok",
+        "provider": "gpt",
+        "returned": 30
+      }
+    },
+    "query_plan_scope_constraints": null
+  },
+  "result": {
+    "paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+    "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+    "claim_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+    "canonical_claim": "For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.",
+    "scope": {
+      "condition": [
+        "gas-injection pressure increase"
+      ],
+      "entities": [
+        "Asmari reservoir",
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "Gachsaran oilfield"
+      ],
+      "formation": [
+        "Asmari reservoir"
+      ],
+      "location": [
+        "Gachsaran oilfield, SW Iran"
+      ],
+      "measurement": [
+        "reactivation tendency and maximum sustainable pore pressure"
+      ],
+      "method": [
+        "3D Mohr diagrams, slip tendency, and modified slip tendency"
+      ],
+      "sample_type": [
+        "four faults F1, F2, F3, and F4"
+      ],
+      "time": null,
+      "uncertainty": null
+    },
+    "relation": {
+      "relation": "supports",
+      "confidence": 0.99,
+      "direction": "result_to_query",
+      "scopeRelation": "overlap"
+    },
+    "source": {
+      "title": "Estimation of the current stress field and fault reactivation analysis in the Asmari reservoir, SW Iran",
+      "doi": "10.1007/s12182-019-0331-9",
+      "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "sha256": "f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+      "file": "source.pdf",
+      "license": "CC BY 4.0"
+    },
+    "shortest_evidence_path": {
+      "rootClaimId": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+      "nodes": [
+        {
+          "id": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "kind": "artifact",
+          "label": "10.1007_s12182-019-0331-9.pdf"
+        },
+        {
+          "id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "kind": "artifact_version",
+          "label": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99"
+        },
+        {
+          "id": "anchor.text.cohesion",
+          "kind": "source_anchor",
+          "label": "“Since the cohesion of the weakness (pre-existing fault) can be neglected, they were considered cohesionless (i.e., C = 0).” · 2 Geological setting · p.3"
+        },
+        {
+          "id": "assumption.cohesion",
+          "kind": "assumption",
+          "label": "The four pre-existing faults are treated as cohesionless (C = 0)."
+        },
+        {
+          "id": "reason.f2.evidence",
+          "kind": "reasoning",
+          "label": "F2's low slip tendencies, high reported pressure tolerance, and confirmation by all three analyses identify it as the resistant fault endpoint."
+        },
+        {
+          "id": "reason.f2.safety",
+          "kind": "reasoning",
+          "label": "The convergent stability results and the transition to critical pressure support F2's resistant status and its 55–57 MPa maximum-pressure estimate."
+        },
+        {
+          "id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+          "kind": "atomic_claim",
+          "label": "For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa."
+        }
+      ],
+      "links": [
+        {
+          "fromId": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+          "toId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "relation": "versions",
+          "linkType": "provenance",
+          "confidence": null
+        },
+        {
+          "fromId": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "toId": "anchor.text.cohesion",
+          "relation": "locates",
+          "linkType": "provenance",
+          "confidence": null
+        },
+        {
+          "fromId": "anchor.text.cohesion",
+          "toId": "assumption.cohesion",
+          "relation": "anchors",
+          "linkType": "provenance",
+          "confidence": null
+        },
+        {
+          "fromId": "assumption.cohesion",
+          "toId": "reason.f2.evidence",
+          "relation": "assumption_for",
+          "linkType": "edge",
+          "confidence": null
+        },
+        {
+          "fromId": "reason.f2.evidence",
+          "toId": "reason.f2.safety",
+          "relation": "premise_for",
+          "linkType": "edge",
+          "confidence": null
+        },
+        {
+          "fromId": "reason.f2.safety",
+          "toId": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+          "relation": "infers",
+          "linkType": "edge",
+          "confidence": null
+        }
+      ],
+      "depth": 6,
+      "meanEdgeConfidence": null,
+      "truncated": false
+    },
+    "evidence_anchors": [
+      {
+        "id": "anchor.text.cohesion",
+        "page": 3,
+        "section": "2 Geological setting",
+        "quote": "Since the cohesion of the weakness (pre-existing fault) can be neglected, they were considered cohesionless (i.e., C = 0).",
+        "figure": null,
+        "table": null,
+        "regionLabel": null
+      },
+      {
+        "id": "anchor.text.f2.stability",
+        "page": 11,
+        "section": "6 Slip tendency parameter",
+        "quote": "On the other hand, F2 is the most stable fault, because it has the lowest $T _ { \\mathrm { s } }$ and $T _ { \\mathrm { s m } }$ and can undergo an average maximum pore pressure of 55–57 MPa.",
+        "figure": null,
+        "table": null,
+        "regionLabel": null
+      },
+      {
+        "id": "anchor.text.methods.all",
+        "page": 13,
+        "section": "8 Conclusions",
+        "quote": "Results of all three methods of 3D Mohr diagrams, slip tendency and modifed slip tendency, confrmed that F2 is the most stable fault in the feld, and it can sustain a maximum pore pressure of 55–57 MPa.",
+        "figure": null,
+        "table": null,
+        "regionLabel": null
+      }
+    ],
+    "observation_evidence_path": {
+      "origin": "Additional path assembled exclusively from the GET full stored evidence graph; not the returned shortest path",
+      "nodes": [
+        {
+          "anchor_type": "text",
+          "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+          "id": "anchor.text.f2.stability",
+          "kind": "source_anchor",
+          "quote": "On the other hand, F2 is the most stable fault, because it has the lowest $T _ { \\mathrm { s } }$ and $T _ { \\mathrm { s m } }$ and can undergo an average maximum pore pressure of 55–57 MPa.",
+          "quote_sha256": "cc3008afc53954b0048e36085f41c582d35754d3f49a4cebec1906c41fc9079a",
+          "selector": {
+            "char_end": null,
+            "char_start": null,
+            "column_names": [],
+            "dataset_path": null,
+            "figure": null,
+            "page": 11,
+            "paragraph": null,
+            "region": {
+              "height": 0.11139240506329114,
+              "unit": "normalized",
+              "width": 0.41008403361344536,
+              "x": 0.07899159663865546,
+              "y": 0.7987341772151899
+            },
+            "region_label": null,
+            "row_end": null,
+            "row_range_label": null,
+            "row_start": null,
+            "section": "6 Slip tendency parameter",
+            "series": null,
+            "table": null
+          }
+        },
+        {
+          "anchor_ids": [
+            "anchor.text.f2.stability"
+          ],
+          "id": "obs.f2.assessed",
+          "kind": "observation",
+          "observation_type": "comparison",
+          "scope": {
+            "condition": [
+              "gas-injection pressure increase"
+            ],
+            "entities": [
+              "Asmari reservoir",
+              "F1",
+              "F2",
+              "F3",
+              "F4",
+              "Gachsaran oilfield"
+            ],
+            "formation": [
+              "Asmari reservoir"
+            ],
+            "location": [
+              "Gachsaran oilfield, SW Iran"
+            ],
+            "measurement": [
+              "reactivation tendency and maximum sustainable pore pressure"
+            ],
+            "method": [
+              "3D Mohr diagrams, slip tendency, and modified slip tendency"
+            ],
+            "sample_type": [
+              "four faults F1, F2, F3, and F4"
+            ],
+            "time": null,
+            "uncertainty": null
+          },
+          "statement": "F2 has the lowest Ts and Tsm values and can undergo an average maximum pore pressure of 55–57 MPa.",
+          "value": {
+            "comparator": null,
+            "numeric": 55,
+            "raw": "55–57 MPa",
+            "uncertainty": null,
+            "unit": "MPa"
+          }
+        },
+        {
+          "anchor_ids": [
+            "anchor.text.f2.stability",
+            "anchor.text.methods.all"
+          ],
+          "id": "reason.f2.evidence",
+          "kind": "reasoning",
+          "limitations": [],
+          "reasoning_type": "synthesis",
+          "scope": {
+            "condition": [],
+            "entities": [],
+            "formation": [],
+            "location": [],
+            "measurement": [],
+            "method": [],
+            "sample_type": [],
+            "time": null,
+            "uncertainty": null
+          },
+          "statement": "F2's low slip tendencies, high reported pressure tolerance, and confirmation by all three analyses identify it as the resistant fault endpoint."
+        },
+        {
+          "anchor_ids": [
+            "anchor.text.f2.stability",
+            "anchor.text.methods.all"
+          ],
+          "id": "reason.f2.safety",
+          "kind": "reasoning",
+          "limitations": [],
+          "reasoning_type": "synthesis",
+          "scope": {
+            "condition": [
+              "gas-injection pressure increase"
+            ],
+            "entities": [
+              "Asmari reservoir",
+              "F1",
+              "F2",
+              "F3",
+              "F4",
+              "Gachsaran oilfield"
+            ],
+            "formation": [
+              "Asmari reservoir"
+            ],
+            "location": [
+              "Gachsaran oilfield, SW Iran"
+            ],
+            "measurement": [
+              "reactivation tendency and maximum sustainable pore pressure"
+            ],
+            "method": [
+              "3D Mohr diagrams, slip tendency, and modified slip tendency"
+            ],
+            "sample_type": [
+              "four faults F1, F2, F3, and F4"
+            ],
+            "time": null,
+            "uncertainty": null
+          },
+          "statement": "The convergent stability results and the transition to critical pressure support F2's resistant status and its 55–57 MPa maximum-pressure estimate."
+        },
+        {
+          "anchor_ids": [
+            "anchor.text.f2.stability",
+            "anchor.text.methods.all"
+          ],
+          "claim_type": "predictive",
+          "id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+          "kind": "atomic_claim",
+          "modality": "asserted",
+          "polarity": "affirmed",
+          "proposition": "For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.",
+          "proposition_key": "proposition:sha256:e5e45e70793b2119b5c63da2968ac3123218e29a8ad7323a5f8a894f8cf316d1",
+          "qualifiers": [
+            "This is an analytical estimate for the assessed fault and stress state."
+          ],
+          "scope": {
+            "condition": [
+              "gas-injection pressure increase"
+            ],
+            "entities": [
+              "Asmari reservoir",
+              "F1",
+              "F2",
+              "F3",
+              "F4",
+              "Gachsaran oilfield"
+            ],
+            "formation": [
+              "Asmari reservoir"
+            ],
+            "location": [
+              "Gachsaran oilfield, SW Iran"
+            ],
+            "measurement": [
+              "reactivation tendency and maximum sustainable pore pressure"
+            ],
+            "method": [
+              "3D Mohr diagrams, slip tendency, and modified slip tendency"
+            ],
+            "sample_type": [
+              "four faults F1, F2, F3, and F4"
+            ],
+            "time": null,
+            "uncertainty": null
+          },
+          "scoped_claim_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+          "source_id": "claim.f2.pressure"
+        }
+      ],
+      "edges": [
+        {
+          "confidence": null,
+          "id": "edge.grounds.010",
+          "kind": "edge",
+          "rationale": null,
+          "relation": "grounds",
+          "scope_overlap": null,
+          "source_id": "anchor.text.f2.stability",
+          "target_id": "obs.f2.assessed"
+        },
+        {
+          "confidence": null,
+          "id": "edge.premise.014",
+          "kind": "edge",
+          "rationale": null,
+          "relation": "premise_for",
+          "scope_overlap": null,
+          "source_id": "obs.f2.assessed",
+          "target_id": "reason.f2.evidence"
+        },
+        {
+          "confidence": null,
+          "id": "edge.premise.021",
+          "kind": "edge",
+          "rationale": null,
+          "relation": "premise_for",
+          "scope_overlap": null,
+          "source_id": "reason.f2.evidence",
+          "target_id": "reason.f2.safety"
+        },
+        {
+          "confidence": null,
+          "id": "edge.support.003",
+          "kind": "edge",
+          "rationale": null,
+          "relation": "infers",
+          "scope_overlap": null,
+          "source_id": "reason.f2.safety",
+          "target_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+        }
+      ]
+    },
+    "recorded_observations": [
+      {
+        "anchor_ids": [
+          "anchor.text.f2.stability"
+        ],
+        "id": "obs.f2.assessed",
+        "kind": "observation",
+        "observation_type": "comparison",
+        "scope": {
+          "condition": [
+            "gas-injection pressure increase"
+          ],
+          "entities": [
+            "Asmari reservoir",
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "Gachsaran oilfield"
+          ],
+          "formation": [
+            "Asmari reservoir"
+          ],
+          "location": [
+            "Gachsaran oilfield, SW Iran"
+          ],
+          "measurement": [
+            "reactivation tendency and maximum sustainable pore pressure"
+          ],
+          "method": [
+            "3D Mohr diagrams, slip tendency, and modified slip tendency"
+          ],
+          "sample_type": [
+            "four faults F1, F2, F3, and F4"
+          ],
+          "time": null,
+          "uncertainty": null
+        },
+        "statement": "F2 has the lowest Ts and Tsm values and can undergo an average maximum pore pressure of 55–57 MPa.",
+        "value": {
+          "comparator": null,
+          "numeric": 55,
+          "raw": "55–57 MPa",
+          "uncertainty": null,
+          "unit": "MPa"
+        }
+      },
+      {
+        "anchor_ids": [
+          "anchor.text.methods.all"
+        ],
+        "id": "obs.f2.methods",
+        "kind": "observation",
+        "observation_type": "source_assertion",
+        "scope": {
+          "condition": [
+            "current and critical pore-pressure states"
+          ],
+          "entities": [
+            "Asmari reservoir",
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "Gachsaran oilfield"
+          ],
+          "formation": [
+            "Asmari reservoir"
+          ],
+          "location": [
+            "Gachsaran oilfield, SW Iran"
+          ],
+          "measurement": [
+            "fault-stability assessment"
+          ],
+          "method": [
+            "3D Mohr diagrams, slip tendency, and modified slip tendency"
+          ],
+          "sample_type": [
+            "four faults F1, F2, F3, and F4"
+          ],
+          "time": null,
+          "uncertainty": null
+        },
+        "statement": "The conclusion reports that the three analytical methods confirmed F2 as the most stable fault.",
+        "value": null
+      }
+    ],
+    "recorded_anchors": [
+      {
+        "anchor_type": "text",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "id": "anchor.text.f2.stability",
+        "kind": "source_anchor",
+        "quote": "On the other hand, F2 is the most stable fault, because it has the lowest $T _ { \\mathrm { s } }$ and $T _ { \\mathrm { s m } }$ and can undergo an average maximum pore pressure of 55–57 MPa.",
+        "quote_sha256": "cc3008afc53954b0048e36085f41c582d35754d3f49a4cebec1906c41fc9079a",
+        "selector": {
+          "char_end": null,
+          "char_start": null,
+          "column_names": [],
+          "dataset_path": null,
+          "figure": null,
+          "page": 11,
+          "paragraph": null,
+          "region": {
+            "height": 0.11139240506329114,
+            "unit": "normalized",
+            "width": 0.41008403361344536,
+            "x": 0.07899159663865546,
+            "y": 0.7987341772151899
+          },
+          "region_label": null,
+          "row_end": null,
+          "row_range_label": null,
+          "row_start": null,
+          "section": "6 Slip tendency parameter",
+          "series": null,
+          "table": null
+        }
+      },
+      {
+        "anchor_type": "text",
+        "artifact_version_id": "artifact-version:sha256:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "id": "anchor.text.methods.all",
+        "kind": "source_anchor",
+        "quote": "Results of all three methods of 3D Mohr diagrams, slip tendency and modifed slip tendency, confrmed that F2 is the most stable fault in the feld, and it can sustain a maximum pore pressure of 55–57 MPa.",
+        "quote_sha256": "16e3d142ee719a30f5468e7a9759f9ca3238485d1dd3e25112d8183a8818cfcd",
+        "selector": {
+          "char_end": null,
+          "char_start": null,
+          "column_names": [],
+          "dataset_path": null,
+          "figure": null,
+          "page": 13,
+          "paragraph": null,
+          "region": {
+            "height": 0.5392405063291139,
+            "unit": "normalized",
+            "width": 0.41008403361344536,
+            "x": 0.07899159663865546,
+            "y": 0.21139240506329113
+          },
+          "region_label": null,
+          "row_end": null,
+          "row_range_label": null,
+          "row_start": null,
+          "section": "8 Conclusions",
+          "series": null,
+          "table": null
+        }
+      }
+    ]
+  },
+  "source_check": {
+    "status": "numeric value and method characterization confirmed against original PDF pages11 and13; qualification retained",
+    "reported_value": "55–57 MPa",
+    "qualification": "Author summary, not an exact bound on every Table4 row: F2 Pc values55.03/55.31 and PCr57.58/57.81MPa. Preserve original summary without relabeling it a confidence interval or pore-pressure increment.",
+    "assumptions": [
+      "modeled F2 fault in Asmari reservoir, Gachsaran oilfield, SW Iran",
+      "gas-injection pressure increase",
+      "cohesionless fault C=0; friction coefficient0.6",
+      "3D Mohr, slip tendency and modified slip tendency formulations"
+    ],
+    "not_established": "Not an independently validated safe operating pressure, universal field threshold, or new expert judgment"
+  }
+}

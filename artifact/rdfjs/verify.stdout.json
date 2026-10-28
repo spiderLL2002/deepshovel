@@ -1,0 +1,30 @@
+{
+  "integrity": {
+    "status": "passed",
+    "errors": []
+  },
+  "structure": {
+    "status": "passed",
+    "errors": [],
+    "relation_policy": "adapter reasoning relations (1.5)"
+  },
+  "source_identity": {
+    "status": "passed",
+    "errors": [],
+    "current_file_check": "not_rechecked",
+    "resolution": "direct_anchor",
+    "expected_hashes": [
+      "f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99"
+    ],
+    "recorded_check_state": "verified"
+  },
+  "scientific_reading": {
+    "verification": "operator_entry_only; not scientifically certified",
+    "recorded_entry": {
+      "conclusion": "qualified_reuse",
+      "notes": "Automated UI verification after independent AI source reading. Author summary is 55–57 MPa. Table 4 Pc: 55.03/55.31 MPa; PCr: 57.58/57.81 MPa. The stored numeric 55 is only the range lower bound. The source sentence is in the right lower column on PDF p.11; the imported left-column rectangle remains preserved for comparison. This run builds the observation branch in the local browser from separately supplied recorded graph data.",
+      "authorship": "local operator entry"
+    }
+  },
+  "passed": true
+}

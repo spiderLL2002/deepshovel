@@ -1,0 +1,326 @@
+[
+  {
+    "query_id": "q70",
+    "document_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+    "relevance": 3,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文明确按绝对值计算NCA约占TA的32%，并把负NCA解释为DOM供质子造成酸性、与低pH一致；scope给出春季2015 Martinique地下水，完整回答。"
+  },
+  {
+    "query_id": "q17",
+    "document_id": "claim:sha256:9a7ce0aefa350eb2d8bf43066c6953b101e65f67ef2e9e27b750fa0c4782895b",
+    "relevance": 3,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文直接将Evrona晚更新世0.7±0.3 mm/yr与全新世2.3–3.4 mm/yr配对，水平左旋和时段均一致。"
+  },
+  {
+    "query_id": "q08",
+    "document_id": "claim:sha256:9589e2707fd633a9fc55a13a0eb653a912522005b3a4083ea617a28a76fed4ba",
+    "relevance": 3,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "TN/PH科马提岩地幔源的太古宙Pt–Os和Re–Os同位素参数及球粒陨石匹配有直接引文，满足主题查询。"
+  },
+  {
+    "query_id": "q10",
+    "document_id": "claim:sha256:e0418382682065eaa6814677bf087a64be850f2e93a70b77c9d62710e95ed033",
+    "relevance": 2,
+    "support_assessable": false,
+    "scope_error": null,
+    "scope_assessable": false,
+    "reason": "引文直接解释非氧化还原Cr循环也能分馏、正δ53Cr不必代表氧化风化，属于兼容的部分证据；但只笼统提早期地质历史，未给可核实的前寒武纪样品/时段，片段不足以确认完整时间范围。"
+  },
+  {
+    "query_id": "q89",
+    "document_id": "claim:sha256:297a63c9a7829b70b5235a31ce90248a937f24855a35247713d88d1e11a8c34e",
+    "relevance": 3,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文给Santa Barbara Basin沉积物anammox占总硝酸盐还原最高26.6%（摘要0–27%），并区分还原与摄取分母；scope披露2019年11月15NO3添加底栖箱测量情境，符合开放地点rubric。"
+  },
+  {
+    "query_id": "q06",
+    "document_id": "claim:sha256:7f9ec7fd466262560b026153da23e770e5e7c51b8726ca2ae5aeb02a3960dbcc",
+    "relevance": 3,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文把大陆风化、次生矿物形成、河流Li通量/δ7Li和海水记录联系起来，并给植物根系/风化模型解释；符合无特定数值门槛的主题查询，因果是模型解释而非独立证明。"
+  },
+  {
+    "query_id": "q66",
+    "document_id": "claim:sha256:4877da310be257268823d5e93a3f421a5364e2d40e04fb08355af5368b177fb5",
+    "relevance": 3,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "虽然canonical只有总体均值，引文同时给56.38 mg/L、Biyadh 36.57和Biyadh–Wasia 22.70 mg/L，单位及分组完整，两个子组均低于总体。"
+  },
+  {
+    "query_id": "q56",
+    "document_id": "claim:sha256:f1258da9734838fd5e51c693ce3d7c415b78ed63a7a2f85db51fd90ae2f59d25",
+    "relevance": 3,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文明确西域Pn均速8.0、东域8.1 km/s；scope为Moho校正Pn层析成像，数值与区域分配一致。"
+  },
+  {
+    "query_id": "q59",
+    "document_id": "claim:sha256:fc2009a8c5980613864df2fa0ac58047d0bb9415c3a3bc4d866cb1d9f5ba0f43",
+    "relevance": 3,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文直接给最大水平海沟法向偏应力实验7.2 Pa、自然尺度28.8 MPa；不是把2.4–3.6 MPa海沟吸力分量混作所问量。"
+  },
+  {
+    "query_id": "q25",
+    "document_id": "claim:sha256:c22f30c56bc5b60fce70f1dae26c80911533339b79f21fc49a2cfc8e2ca7d9d7",
+    "relevance": 3,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文给南极岩浆总持续349±49 kyr，且跨相邻片段完整指出Dawson Peak岩床到Storm Peak最上熔岩的边界并排除Mt. Falla不精确日期。"
+  },
+  {
+    "query_id": "q62",
+    "document_id": "claim:sha256:3dea5b52be9e5e51f045026e1b0d25cf03ad80b66358f4c2205702e1840c3474",
+    "relevance": 3,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "同一事件引文同时给破裂向西南传播与平均3 km/s，scope指2013-09-24 Hoshab；其起裂后西南传播的描述支持主要单向传播，虽canonical强调动力学机制仍能从引文直接回答方向/速度。"
+  },
+  {
+    "query_id": "q72",
+    "document_id": "claim:sha256:bcda220245e10442e54b3fdada68239e952d95127b8918c806fa0e67c6e439b1",
+    "relevance": 3,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文明确模型总量121±54 Tg N/yr，OMZ内57±21、次氧域外64±33；三个量及归属完整。"
+  },
+  {
+    "query_id": "q07",
+    "document_id": "claim:sha256:15e2e77109eeec6b6e4e10491f566b4dacbb910fb121e733a6b4fb3c93d90ea8",
+    "relevance": 2,
+    "support_assessable": false,
+    "scope_error": null,
+    "scope_assessable": false,
+    "reason": "引文支持生物碳酸盐δ11B推断古海水pH需约束海水δ11B，并以腕足类方程举例；但未见有孔虫对象，片段不足以确认该对象的直接适用证据，按兼容部分证据而非3。"
+  },
+  {
+    "query_id": "q10",
+    "document_id": "claim:sha256:ad4f7a5cc0a0bf2609b29d26da9bba00965720660aaceb4638e7208555ca5f7b",
+    "relevance": 1,
+    "support_assessable": true,
+    "scope_error": true,
+    "scope_assessable": true,
+    "reason": "这是2017–2020现代Lake Cadagno沉积物Cr同位素结果，能作为氧化风化代理局限的背景，但不能充当前寒武纪观测；同一Cr同位素记录的时间/样品范围明确不同。"
+  },
+  {
+    "query_id": "q114",
+    "document_id": "claim:sha256:87c5fad49266fbc9075586331922a66209a652fb44d7351a30d3b85cbab9f03d",
+    "relevance": 2,
+    "support_assessable": false,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文正确给同一岩芯上部3 m约0.30 mm/kyr及下降解释；未给下部10 m约2.0 mm/kyr，片段不足以完成对比。已给部分有来源，不能从expected_answer补下部值。"
+  },
+  {
+    "query_id": "q61",
+    "document_id": "claim:sha256:387e07dc0c34a6cf996ef4bd93328d5af4faf9fa3073a0d783e3ab1636b907a0",
+    "relevance": 2,
+    "support_assessable": false,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文直接给西阿拉伯盾LVZ的Vs=4.0–4.2 km/s，但没有60–180 km深度区间，片段不足以给完整答案；有支持的速度部分符合2。"
+  },
+  {
+    "query_id": "q03",
+    "document_id": "claim:sha256:6d07985db63d914a200944a11ced749b9482fe0d9df47749139f3741d8412d26",
+    "relevance": 2,
+    "support_assessable": false,
+    "scope_error": null,
+    "scope_assessable": false,
+    "reason": "引文支持REE从海水共沉淀/吸附进入富金属沉积物，属于相容部分证据；未明确矿物为ferrihydrite，片段不足以核验指定吸附相，不能把所有低结晶富金属相当成水铁矿。"
+  },
+  {
+    "query_id": "q103",
+    "document_id": "claim:sha256:0a5c5d83491e55dd11aff842a18eef7f6ce9ec4211aef4cca65464ebdc9f64f1",
+    "relevance": 2,
+    "support_assessable": false,
+    "scope_error": null,
+    "scope_assessable": false,
+    "reason": "引文给与Plenus Cold Event可比的短期海表降温解释，提供有用部分信息；没有降温幅度、CO2下降或明确中纬度，片段不足以确认所问幅度与范围，也未出现明确相反条件。"
+  },
+  {
+    "query_id": "q38",
+    "document_id": "claim:sha256:fd43f147d5630e18cfa808734a18ac9a836b2eedc32beeac7f86a0712c19bf9c",
+    "relevance": 2,
+    "support_assessable": false,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "同一M40/4_SL71的grain-size EM2负载变化被直接解释为AHP期间河流输入增强，保留岩芯/输运过程；但片段没有粒径mode的数值，无法评3。按部分粒度端元测量证据评2；缺失mode属材料不足，不能借用KL11的4.5 µm。"
+  },
+  {
+    "query_id": "q74",
+    "document_id": "claim:sha256:218b897a12009f186181e5a4c25d0b4664236de3b6abedbb5d9de5d4f02f0c3d",
+    "relevance": 1,
+    "support_assessable": false,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "片段只给初始硫酸盐减少76%、剩余比例0.24（sample 141），未给重建消耗浓度48.5 mg/L及先硫化物氧化后第二次硫酸盐还原顺序。材料不足以回答所问；76%是比例而非所问浓度，按背景1，不把不同quantity自动标scope冲突。"
+  },
+  {
+    "query_id": "q51",
+    "document_id": "claim:sha256:5a2a5f61696421373406ebebd556c53131bcbd3353c2b8c290c01b87d1ed9118",
+    "relevance": 1,
+    "support_assessable": true,
+    "scope_error": null,
+    "scope_assessable": false,
+    "reason": "引文有Jericho Valley至北段的区域滑速下降，但未给Jordan Valley内南北约0.7 mm/yr差值。0.7±0.45是Carmel绝对左旋率，4.9与3.8亦不能冒作所问差值。仅背景1；目标南北分段与引文分段不能完全对齐，scope冲突不作确定判断。"
+  },
+  {
+    "query_id": "q28",
+    "document_id": "claim:sha256:a7b26669ac07d0dc2884f63e0caba8b8dc4698ab88e272ae04a647020997725a",
+    "relevance": 2,
+    "support_assessable": false,
+    "scope_error": null,
+    "scope_assessable": false,
+    "reason": "引文直接给Minamitorishima富REY层位于海床下10 m以内，具体有8.29、2.97 mbsf；未给T-type、南/东南区或缺L-type覆盖，片段不足以完成范围确认，符合兼容局部深度证据2。"
+  },
+  {
+    "query_id": "q79",
+    "document_id": "claim:sha256:9a3a382a7178a9a2865491bf560b25fe0e1164af0ca75357b6e1cb89dac9c1dd",
+    "relevance": 2,
+    "support_assessable": false,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文是同一17站EPM比较，5站Halon年龄显著更高，图注给±1 SD误差条；这提供兼容比较证据，但不能仅以17−5断言其余12站满足约1 SD判据，也不能把误差条等同一致性阈值。片段不足以证实完整count/criterion，评2。"
+  },
+  {
+    "query_id": "q60",
+    "document_id": "claim:sha256:83daf8ea03816f79d90f8227916d4f579c93fa737bf60394ebe2798c2f344ee8",
+    "relevance": 1,
+    "support_assessable": true,
+    "scope_error": null,
+    "scope_assessable": false,
+    "reason": "引文明确1999年10月11日序列余震0.7–4 bar，即0.07–0.4 MPa，并非rubric要求的小地震总体0.2–4.9 MPa。数值与总体范围均不满足3/2，只能背景1。盲包未给目标总体的时间/成员，无法证实两总体明确不相容，scope_error留null而非凭不同paper_id推断。"
+  },
+  {
+    "query_id": "q04",
+    "document_id": "claim:sha256:55735a9042f202e1adb42f577c911c1c83afbdc19d3acb10b480db0b9808c4ee",
+    "relevance": 1,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "有直接Fe同位素及Fe(II)氧化/Fe(III)氧羟化物沉淀证据，但不涉及低温黄铁矿形成；是铁同位素背景，非指定矿物反应的直接或部分回答。另一矿物形成机制本身不等于同一结果的scope替代。"
+  },
+  {
+    "query_id": "q69",
+    "document_id": "claim:sha256:cf257a1bf0c79376e8ff6ef2f02499c683c96562fbcc496c47d321bd27ad420b",
+    "relevance": 1,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "同一沿海区域地下水的硝酸盐来源背景，未给SFGW海水混合比例或氯质量平衡。PGW硝酸盐来源是另一quantity，不把PGW/SFGW差别单独算作所问海水分数的已证实冲突。"
+  },
+  {
+    "query_id": "q119",
+    "document_id": "claim:sha256:363a81afca419b3a5683442c98b4ef7085feceb68d642be49f4f98171f11ca08",
+    "relevance": 1,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "Khuff岩性、低渗透与封盖作用属于储层背景，没有全层与SSF分区孔渗相关系数。不存在同一相关系数被不相容条件替代的明确证据。"
+  },
+  {
+    "query_id": "q50",
+    "document_id": "claim:sha256:dbf43775e7729f9dbcbdbe576e4bd9c6f4c44be53dc39888973bb32d3fe76ad1",
+    "relevance": 1,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "水库水位上升后有效法向应力变化与断层稳定性可作背景，但没有Asmari F2气注最大孔压或三种公式比较；应力变化并非最大孔压阈值，故不凭条件不同自动标scope_error。"
+  },
+  {
+    "query_id": "q108",
+    "document_id": "claim:sha256:c43a35d73a48b698e1bf2621c3190e3ad3f844f62432581bc0e774c16084e835",
+    "relevance": 1,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文讨论OAE1a全球降温事件及不同记录形状，属于温度代理背景；没有Site 511两代理约14°C系统偏差或深栖/温跃层解释。时间趋势与代理间温差是不同结果，不能自动判为同一量的scope冲突。"
+  },
+  {
+    "query_id": "q58",
+    "document_id": "claim:sha256:2fde655dad43a19764c130e948cf99e4baea0a742aee747fa1652c8eeeec5b46",
+    "relevance": 0,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "Elat/Aqaba全新世垂向正断层滑速不提供东Düzce右旋水平滑速或其地质定年资格，按无关0。分量和对象均不同，未出现同一右旋量的明确替代，窄义scope_error=false。"
+  },
+  {
+    "query_id": "q113",
+    "document_id": "claim:sha256:06c13d69637558c1f2bb0c5b893a96d1bcd8321e39f3f9d46cee85777c17ebf9",
+    "relevance": 0,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "Baltic矿物溶解速率常数与Romanian海岸Bruun退缩速度、海平面情景无关；不同quantity，scope_error=false。"
+  },
+  {
+    "query_id": "q14",
+    "document_id": "claim:sha256:d69bc9914d3a5d564ffd14a3c2e00304d0833912426edafe79c208a06c513254",
+    "relevance": 0,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "织金伊利石的碎屑/海水Si来源及成岩蚀变不是硅藻生物硅分馏证据；共享Si同位素术语不足以构成所问过程的背景答案，评0。没有把同一硅藻分馏量用于不相容条件。"
+  },
+  {
+    "query_id": "q05",
+    "document_id": "claim:sha256:db116b7c04842e2c76ed43cec8994eb5e3381c9f3f46f5833654361d3066d2d6",
+    "relevance": 0,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "引文全部是Zn同位素海洋沉积过程，不是Mo同位素/黑色页岩euxinia证据，按0；另一元素量不是窄义scope错误。"
+  },
+  {
+    "query_id": "q82",
+    "document_id": "claim:sha256:59cc23b51f757b6263ff8a1e64d923e51ce9364fb7dd4f2349431f106824f8bf",
+    "relevance": 0,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "Tanzania硝酸盐与井深关系不是美国1990基线Mn暴露人数/比例，无相应量或人口证据；不同污染物/统计量，scope_error=false。"
+  },
+  {
+    "query_id": "q79",
+    "document_id": "claim:sha256:358e39f8fd6483805a23ec80e19d8f7c4f580f268c653144071c41e5d2cfd9e7",
+    "relevance": 0,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "Permian Phosphoria盆地水交换停留时间不是Wellington地下水Halon与tritium/SF6年龄一致的站点数或判据；共享residence time词语不足，评0。所给年数非所问比较统计量，窄义scope_error=false。"
+  },
+  {
+    "query_id": "q67",
+    "document_id": "claim:sha256:87b85bfd1582f907ad801e8c591c002fd6c91d4230299dfee511ab8b1ef509f2",
+    "relevance": 1,
+    "support_assessable": true,
+    "scope_error": false,
+    "scope_assessable": true,
+    "reason": "Fishermans Cove地下水硝酸盐去除30–40%是氮迁移背景，不是El Kef-Sers样品超过50 mg/L比例。去除份额与样品超标率分母/quantity不同，不能凭地点差异就自动作同一结果scope冲突。"
+  }
+]

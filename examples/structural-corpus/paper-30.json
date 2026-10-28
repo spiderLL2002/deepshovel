@@ -1,0 +1,838 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+  "snapshot_id": "snapshot:sha256:00a7c788f689defe07f00f0a2037830a6c21cd33280a2914f37088450a142044",
+  "original_graph_json_sha256": "00a7c788f689defe07f00f0a2037830a6c21cd33280a2914f37088450a142044",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:7d93bae4-878a-4558-b1b1-c3ce1ef1f102",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:7d93bae4-878a-4558-b1b1-c3ce1ef1f102",
+        "sha256": "503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.abstract.interpret",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.crosssite",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.figure.2",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.figure.3",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.figure.4",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.proxy.constraint",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 2
+        }
+      },
+      {
+        "id": "anchor.proxy.formation",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.proxy.tl",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.redox.biotic",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.redox.combined",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.redox.earlyvent",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.redox.extent",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.redox.extent.continuation",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.redox.factors",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.redox.fig4.sentence",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.redox.fig4.token",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.redox.initial",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.redox.second",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.redox.survival",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.results.duration",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.results.fig2.ab",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.results.late",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.results.late.context",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.results.late.fig",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.results.return",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.results.return.fig",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      },
+      {
+        "id": "anchor.results.rise",
+        "artifact_version_id": "artifact-version:sha256:503724df19c9fd72ac8bcd31977f5684346d458fde1d3959d9ab5b81516fe520",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 3
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.abstract_interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.abstract.interpret"
+        ]
+      },
+      {
+        "id": "obs.cross_section_interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.crosssite"
+        ]
+      },
+      {
+        "id": "obs.early_ventilation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.redox.earlyvent"
+        ]
+      },
+      {
+        "id": "obs.fluctuation_vs_extent",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.redox.extent",
+          "anchor.redox.extent.continuation"
+        ]
+      },
+      {
+        "id": "obs.initial_biodiversity_timing",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.redox.biotic"
+        ]
+      },
+      {
+        "id": "obs.initial_omz_expansion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.redox.initial"
+        ]
+      },
+      {
+        "id": "obs.multifactor_extinction",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.redox.factors"
+        ]
+      },
+      {
+        "id": "obs.redox_and_habitat",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.redox.combined"
+        ]
+      },
+      {
+        "id": "obs.second_pulse_model",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.4",
+          "anchor.redox.fig4.sentence",
+          "anchor.redox.fig4.token"
+        ]
+      },
+      {
+        "id": "obs.second_redox_reversal",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.redox.second"
+        ]
+      },
+      {
+        "id": "obs.survival_fauna",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.redox.survival"
+        ]
+      },
+      {
+        "id": "obs.tl.late_rise",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.results.late",
+          "anchor.results.late.context",
+          "anchor.results.late.fig"
+        ]
+      },
+      {
+        "id": "obs.tl.return",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.results.return",
+          "anchor.results.return.fig"
+        ]
+      },
+      {
+        "id": "obs.tl.rise",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.2",
+          "anchor.results.duration",
+          "anchor.results.fig2.ab",
+          "anchor.results.rise"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.extinction_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.redox.combined",
+          "anchor.redox.extent",
+          "anchor.redox.factors",
+          "anchor.redox.initial",
+          "anchor.redox.second"
+        ]
+      },
+      {
+        "id": "reason.first_excursion",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.results.return",
+          "anchor.results.rise"
+        ]
+      },
+      {
+        "id": "reason.first_pulse",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.redox.biotic",
+          "anchor.redox.earlyvent",
+          "anchor.redox.initial"
+        ]
+      },
+      {
+        "id": "reason.global_redox_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.abstract.interpret",
+          "anchor.crosssite",
+          "anchor.proxy.constraint",
+          "anchor.proxy.formation",
+          "anchor.proxy.tl"
+        ]
+      },
+      {
+        "id": "reason.recurrent_excursions",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.results.late"
+        ]
+      },
+      {
+        "id": "reason.second_pulse",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.redox.fig4.sentence",
+          "anchor.redox.fig4.token",
+          "anchor.redox.second",
+          "anchor.redox.survival"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.local_screening",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.proxy.constraint"
+        ]
+      },
+      {
+        "id": "assumption.tl_mn_proxy",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.proxy.formation",
+          "anchor.proxy.tl"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:0d19a17f51b3899c15f0ea2854042490027224268b58d1d64ff0f306ab45b7e1",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.abstract.interpret",
+          "anchor.crosssite",
+          "anchor.figure.2",
+          "anchor.results.late",
+          "anchor.results.return",
+          "anchor.results.rise"
+        ],
+        "source_id": "claim.redox_variability"
+      },
+      {
+        "id": "claim:sha256:707c2336c74fb4220b16d5ec265454e2dadc8020499be71be9f839268487b26d",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.figure.4",
+          "anchor.redox.biotic",
+          "anchor.redox.combined",
+          "anchor.redox.earlyvent",
+          "anchor.redox.extent",
+          "anchor.redox.factors",
+          "anchor.redox.fig4.sentence",
+          "anchor.redox.fig4.token",
+          "anchor.redox.initial",
+          "anchor.redox.second",
+          "anchor.redox.survival"
+        ],
+        "source_id": "claim.extinction_driver"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.assumption.proxy.r3",
+        "kind": "edge",
+        "source_id": "assumption.tl_mn_proxy",
+        "target_id": "reason.global_redox_synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.proxy.r4",
+        "kind": "edge",
+        "source_id": "assumption.tl_mn_proxy",
+        "target_id": "reason.first_pulse",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.proxy.r5",
+        "kind": "edge",
+        "source_id": "assumption.tl_mn_proxy",
+        "target_id": "reason.second_pulse",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.screen.r3",
+        "kind": "edge",
+        "source_id": "assumption.local_screening",
+        "target_id": "reason.global_redox_synthesis",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.screen.r4",
+        "kind": "edge",
+        "source_id": "assumption.local_screening",
+        "target_id": "reason.first_pulse",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.o1.duration",
+        "kind": "edge",
+        "source_id": "anchor.results.duration",
+        "target_id": "obs.tl.rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o1.fig",
+        "kind": "edge",
+        "source_id": "anchor.figure.2",
+        "target_id": "obs.tl.rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o1.figtext",
+        "kind": "edge",
+        "source_id": "anchor.results.fig2.ab",
+        "target_id": "obs.tl.rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o1.rise",
+        "kind": "edge",
+        "source_id": "anchor.results.rise",
+        "target_id": "obs.tl.rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o10",
+        "kind": "edge",
+        "source_id": "anchor.redox.survival",
+        "target_id": "obs.survival_fauna",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o11.fig",
+        "kind": "edge",
+        "source_id": "anchor.figure.4",
+        "target_id": "obs.second_pulse_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o11.text",
+        "kind": "edge",
+        "source_id": "anchor.redox.fig4.sentence",
+        "target_id": "obs.second_pulse_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o11.token",
+        "kind": "edge",
+        "source_id": "anchor.redox.fig4.token",
+        "target_id": "obs.second_pulse_model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o12",
+        "kind": "edge",
+        "source_id": "anchor.redox.combined",
+        "target_id": "obs.redox_and_habitat",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o13",
+        "kind": "edge",
+        "source_id": "anchor.redox.factors",
+        "target_id": "obs.multifactor_extinction",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o14.a",
+        "kind": "edge",
+        "source_id": "anchor.redox.extent",
+        "target_id": "obs.fluctuation_vs_extent",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o14.b",
+        "kind": "edge",
+        "source_id": "anchor.redox.extent.continuation",
+        "target_id": "obs.fluctuation_vs_extent",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o2.fig",
+        "kind": "edge",
+        "source_id": "anchor.figure.2",
+        "target_id": "obs.tl.return",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o2.figtext",
+        "kind": "edge",
+        "source_id": "anchor.results.return.fig",
+        "target_id": "obs.tl.return",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o2.return",
+        "kind": "edge",
+        "source_id": "anchor.results.return",
+        "target_id": "obs.tl.return",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o3.context",
+        "kind": "edge",
+        "source_id": "anchor.results.late.context",
+        "target_id": "obs.tl.late_rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o3.fig",
+        "kind": "edge",
+        "source_id": "anchor.figure.2",
+        "target_id": "obs.tl.late_rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o3.figtext",
+        "kind": "edge",
+        "source_id": "anchor.results.late.fig",
+        "target_id": "obs.tl.late_rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o3.late",
+        "kind": "edge",
+        "source_id": "anchor.results.late",
+        "target_id": "obs.tl.late_rise",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o4",
+        "kind": "edge",
+        "source_id": "anchor.crosssite",
+        "target_id": "obs.cross_section_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o5",
+        "kind": "edge",
+        "source_id": "anchor.abstract.interpret",
+        "target_id": "obs.abstract_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o6.fig",
+        "kind": "edge",
+        "source_id": "anchor.figure.3",
+        "target_id": "obs.initial_omz_expansion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o6.text",
+        "kind": "edge",
+        "source_id": "anchor.redox.initial",
+        "target_id": "obs.initial_omz_expansion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o7.fig",
+        "kind": "edge",
+        "source_id": "anchor.figure.3",
+        "target_id": "obs.initial_biodiversity_timing",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o7.text",
+        "kind": "edge",
+        "source_id": "anchor.redox.biotic",
+        "target_id": "obs.initial_biodiversity_timing",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o8",
+        "kind": "edge",
+        "source_id": "anchor.redox.earlyvent",
+        "target_id": "obs.early_ventilation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o9.fig",
+        "kind": "edge",
+        "source_id": "anchor.figure.3",
+        "target_id": "obs.second_redox_reversal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.o9.text",
+        "kind": "edge",
+        "source_id": "anchor.redox.second",
+        "target_id": "obs.second_redox_reversal",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.r1.o1",
+        "kind": "edge",
+        "source_id": "obs.tl.rise",
+        "target_id": "reason.first_excursion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r1.o2",
+        "kind": "edge",
+        "source_id": "obs.tl.return",
+        "target_id": "reason.first_excursion",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r2.o3",
+        "kind": "edge",
+        "source_id": "obs.tl.late_rise",
+        "target_id": "reason.recurrent_excursions",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r3.o4",
+        "kind": "edge",
+        "source_id": "obs.cross_section_interpretation",
+        "target_id": "reason.global_redox_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r3.o5",
+        "kind": "edge",
+        "source_id": "obs.abstract_interpretation",
+        "target_id": "reason.global_redox_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r3.r1",
+        "kind": "edge",
+        "source_id": "reason.first_excursion",
+        "target_id": "reason.global_redox_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r3.r2",
+        "kind": "edge",
+        "source_id": "reason.recurrent_excursions",
+        "target_id": "reason.global_redox_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r4.o5",
+        "kind": "edge",
+        "source_id": "obs.initial_omz_expansion",
+        "target_id": "reason.first_pulse",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r4.o6",
+        "kind": "edge",
+        "source_id": "obs.initial_biodiversity_timing",
+        "target_id": "reason.first_pulse",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r4.o7",
+        "kind": "edge",
+        "source_id": "obs.early_ventilation",
+        "target_id": "reason.first_pulse",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r5.o10",
+        "kind": "edge",
+        "source_id": "obs.second_pulse_model",
+        "target_id": "reason.second_pulse",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r5.o8",
+        "kind": "edge",
+        "source_id": "obs.second_redox_reversal",
+        "target_id": "reason.second_pulse",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r5.o9",
+        "kind": "edge",
+        "source_id": "obs.survival_fauna",
+        "target_id": "reason.second_pulse",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r6.o11",
+        "kind": "edge",
+        "source_id": "obs.redox_and_habitat",
+        "target_id": "reason.extinction_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r6.o12",
+        "kind": "edge",
+        "source_id": "obs.multifactor_extinction",
+        "target_id": "reason.extinction_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r6.o13",
+        "kind": "edge",
+        "source_id": "obs.fluctuation_vs_extent",
+        "target_id": "reason.extinction_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r6.r4",
+        "kind": "edge",
+        "source_id": "reason.first_pulse",
+        "target_id": "reason.extinction_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.r6.r5",
+        "kind": "edge",
+        "source_id": "reason.second_pulse",
+        "target_id": "reason.extinction_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.support.c1",
+        "kind": "edge",
+        "source_id": "reason.global_redox_synthesis",
+        "target_id": "claim:sha256:0d19a17f51b3899c15f0ea2854042490027224268b58d1d64ff0f306ab45b7e1",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.c2",
+        "kind": "edge",
+        "source_id": "reason.extinction_synthesis",
+        "target_id": "claim:sha256:707c2336c74fb4220b16d5ec265454e2dadc8020499be71be9f839268487b26d",
+        "relation": "infers"
+      }
+    ]
+  }
+}

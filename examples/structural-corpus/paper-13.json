@@ -1,0 +1,1989 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+  "snapshot_id": "snapshot:sha256:0050fe69333fbf9dc28a07623da630cdf87e16960c130412ac128ef1e9d77815",
+  "original_graph_json_sha256": "0050fe69333fbf9dc28a07623da630cdf87e16960c130412ac128ef1e9d77815",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:8d896c44-0390-4d8d-8bdc-a64bf40b74ed",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:8d896c44-0390-4d8d-8bdc-a64bf40b74ed",
+        "sha256": "8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.figure.15",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 42
+        }
+      },
+      {
+        "id": "anchor.figure.3",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "anchor.figure.4",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 29
+        }
+      },
+      {
+        "id": "anchor.figure.5",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 30
+        }
+      },
+      {
+        "id": "anchor.figure.6",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 31
+        }
+      },
+      {
+        "id": "anchor.figure.8",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 33
+        }
+      },
+      {
+        "id": "anchor.figure.9",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 34
+        }
+      },
+      {
+        "id": "anchor.text.aruma.onlap",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.text.aruma.wedge",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.text.backstrip.allwells",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.backstrip.constraint",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.backstrip.continuous",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.backstrip.method",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 9
+        }
+      },
+      {
+        "id": "anchor.text.backstrip.representatives",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.backstrip.twoevents",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.lateC",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.lateC.mechanism",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.megasequences",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.repetition",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.rift1",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.rift1.details",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "anchor.text.conclusion.rift2",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "anchor.text.crosssection.construct",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.crosssection.extrapolation",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 8
+        }
+      },
+      {
+        "id": "anchor.text.crosssection.restored",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.fars.geometry",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.figure15.caption",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 42
+        }
+      },
+      {
+        "id": "anchor.text.figure15.fit",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 42
+        }
+      },
+      {
+        "id": "anchor.text.figure15.label",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 42
+        }
+      },
+      {
+        "id": "anchor.text.figure3.deformation",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "anchor.text.figure3.label",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "anchor.text.figure3.main",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "anchor.text.figure3.repeat",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "anchor.text.figure3.stack",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 28
+        }
+      },
+      {
+        "id": "anchor.text.figure4.label",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 29
+        }
+      },
+      {
+        "id": "anchor.text.figure8.caption",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 33
+        }
+      },
+      {
+        "id": "anchor.text.figure8.label",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 33
+        }
+      },
+      {
+        "id": "anchor.text.figure9.caption",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 34
+        }
+      },
+      {
+        "id": "anchor.text.figure9.label",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 34
+        }
+      },
+      {
+        "id": "anchor.text.lateC.attribute",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.text.lateC.correspondence",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.text.lateC.distal",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.lateC.distaldelay",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.lateC.distalload",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.text.lateC.distalnames",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.text.lateC.model.failure",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.text.lateC.model.no",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.text.lateC.proximalload",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.text.lateC.subsidence",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.lateC.uplift",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.model.compare",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.model.rms",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.model.startages",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.model.twoevents",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.model.used",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.obduction.loading",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 4
+        }
+      },
+      {
+        "id": "anchor.text.pabdeh.onlap",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.text.pabdeh.syn",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.pabdeh.syntectonic",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 6
+        }
+      },
+      {
+        "id": "anchor.text.plio.onlap",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.plio.reflectors",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.text.rift.firstrates",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.rift.firststart",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.rift.modelstage",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.text.rift.second",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.rift.separation",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.rift.shape",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.rift.summary",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.text.rift.wells",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.text.sealevel.correction",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.text.seismic.difficult",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.text.seismic.quality",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.text.shortening",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.stratigraphy.map",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 5
+        }
+      },
+      {
+        "id": "anchor.text.subsidence.uncertainty",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.thickskinned",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.thrust.hagil.place",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.thrust.hagil.two",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.thrust.hagilrepeat",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.thrust.offset",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.text.thrust.seismic",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.text.thrust.welltops",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.text.tiplines.conclusion",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 20
+        }
+      },
+      {
+        "id": "anchor.text.tiplines.section",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:1eb048b8263f57339c5571304dcffb0550080c8b89fc98dd285c5094e92211c3",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 32
+        }
+      },
+      {
+        "id": "anchor:compiler:visual:981ab4134d8f50e313adfc0c4e30c3721f5c946f180509e8aa41058c460d5524",
+        "artifact_version_id": "artifact-version:sha256:8fda40aad373ef30de3792fd18e96ad5b839fda0ae2628b03dbd0f7eca80e02a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 46
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.backstrip.coverage",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.backstrip.allwells",
+          "anchor.text.backstrip.continuous",
+          "anchor.text.backstrip.representatives",
+          "anchor.text.backstrip.twoevents"
+        ]
+      },
+      {
+        "id": "obs.cretaceous.aruma",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.4",
+          "anchor.text.aruma.onlap",
+          "anchor.text.aruma.wedge",
+          "anchor.text.figure4.label",
+          "anchor.text.obduction.loading"
+        ]
+      },
+      {
+        "id": "obs.cretaceous.model",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.lateC.correspondence",
+          "anchor.text.lateC.model.failure",
+          "anchor.text.lateC.model.no"
+        ]
+      },
+      {
+        "id": "obs.cretaceous.spatial",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.lateC.distalload",
+          "anchor.text.lateC.distalnames",
+          "anchor.text.lateC.proximalload"
+        ]
+      },
+      {
+        "id": "obs.cretaceous.subsidence",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.lateC.subsidence"
+        ]
+      },
+      {
+        "id": "obs.cretaceous.uplift",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.lateC.distal",
+          "anchor.text.lateC.distaldelay",
+          "anchor.text.lateC.uplift"
+        ]
+      },
+      {
+        "id": "obs.hagab.basement",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.8",
+          "anchor.figure.9",
+          "anchor.text.figure8.caption",
+          "anchor.text.figure9.caption",
+          "anchor.text.thickskinned"
+        ]
+      },
+      {
+        "id": "obs.hagab.correlation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.text.figure3.deformation",
+          "anchor.text.figure3.repeat",
+          "anchor.text.figure3.stack"
+        ]
+      },
+      {
+        "id": "obs.hagab.crosssection",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.figure.8",
+          "anchor.figure.9",
+          "anchor.text.crosssection.construct",
+          "anchor.text.crosssection.restored",
+          "anchor.text.figure8.caption",
+          "anchor.text.figure9.caption"
+        ]
+      },
+      {
+        "id": "obs.hagab.hagil",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.thrust.hagil.place",
+          "anchor.text.thrust.hagil.two",
+          "anchor:compiler:visual:1eb048b8263f57339c5571304dcffb0550080c8b89fc98dd285c5094e92211c3"
+        ]
+      },
+      {
+        "id": "obs.hagab.seismic",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.thrust.offset",
+          "anchor.text.thrust.seismic"
+        ]
+      },
+      {
+        "id": "obs.hagab.shortening",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.shortening"
+        ]
+      },
+      {
+        "id": "obs.hagab.tiplines",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.figure4.label",
+          "anchor.text.tiplines.conclusion",
+          "anchor.text.tiplines.section"
+        ]
+      },
+      {
+        "id": "obs.hagab.wellrepetition",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.thrust.hagilrepeat",
+          "anchor.text.thrust.welltops",
+          "anchor:compiler:visual:1eb048b8263f57339c5571304dcffb0550080c8b89fc98dd285c5094e92211c3"
+        ]
+      },
+      {
+        "id": "obs.rift.first",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.rift.firstrates",
+          "anchor.text.rift.firststart"
+        ]
+      },
+      {
+        "id": "obs.rift.model",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.15",
+          "anchor.text.figure15.caption",
+          "anchor.text.figure15.fit",
+          "anchor.text.figure15.label",
+          "anchor.text.model.compare",
+          "anchor.text.model.rms",
+          "anchor.text.model.used",
+          "anchor:compiler:visual:981ab4134d8f50e313adfc0c4e30c3721f5c946f180509e8aa41058c460d5524"
+        ]
+      },
+      {
+        "id": "obs.rift.modelstage",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.rift.modelstage"
+        ]
+      },
+      {
+        "id": "obs.rift.pattern",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.rift.separation",
+          "anchor.text.rift.shape",
+          "anchor.text.rift.wells"
+        ]
+      },
+      {
+        "id": "obs.rift.second",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.rift.second"
+        ]
+      },
+      {
+        "id": "obs.strat.aruma",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.4",
+          "anchor.text.aruma.onlap",
+          "anchor.text.aruma.wedge",
+          "anchor.text.figure4.label"
+        ]
+      },
+      {
+        "id": "obs.strat.map",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.text.conclusion.megasequences",
+          "anchor.text.figure3.main",
+          "anchor.text.stratigraphy.map"
+        ]
+      },
+      {
+        "id": "obs.strat.pabdeh",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure.5",
+          "anchor.figure.6",
+          "anchor.text.pabdeh.onlap",
+          "anchor.text.pabdeh.syn",
+          "anchor.text.pabdeh.syntectonic"
+        ]
+      },
+      {
+        "id": "obs.strat.younger",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.text.fars.geometry",
+          "anchor.text.plio.onlap",
+          "anchor.text.plio.reflectors"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.cretaceous.loading",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.lateC.correspondence",
+          "anchor.text.lateC.model.failure",
+          "anchor.text.obduction.loading"
+        ]
+      },
+      {
+        "id": "reason.cretaceous.pattern",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.lateC.proximalload",
+          "anchor.text.lateC.uplift"
+        ]
+      },
+      {
+        "id": "reason.hagab.geometry",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.8",
+          "anchor.text.shortening",
+          "anchor.text.thickskinned"
+        ]
+      },
+      {
+        "id": "reason.hagab.repetition",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.figure3.stack",
+          "anchor.text.thrust.seismic",
+          "anchor.text.thrust.welltops"
+        ]
+      },
+      {
+        "id": "reason.hagab.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure.8",
+          "anchor.text.figure4.label",
+          "anchor.text.thickskinned",
+          "anchor.text.tiplines.section"
+        ]
+      },
+      {
+        "id": "reason.hagab.timing",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.figure4.label",
+          "anchor.text.tiplines.section"
+        ]
+      },
+      {
+        "id": "reason.rift.history",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.rift.firststart",
+          "anchor.text.rift.second",
+          "anchor.text.rift.separation",
+          "anchor.text.rift.shape"
+        ]
+      },
+      {
+        "id": "reason.rift.model",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.model.compare",
+          "anchor.text.model.rms"
+        ]
+      },
+      {
+        "id": "reason.rift.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.model.used",
+          "anchor.text.rift.summary",
+          "anchor:compiler:visual:981ab4134d8f50e313adfc0c4e30c3721f5c946f180509e8aa41058c460d5524"
+        ]
+      },
+      {
+        "id": "reason.stratigraphy",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.text.aruma.onlap",
+          "anchor.text.pabdeh.syntectonic",
+          "anchor.text.plio.onlap",
+          "anchor.text.stratigraphy.map"
+        ]
+      }
+    ],
+    "assumptions": [
+      {
+        "id": "assumption.backstripping",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.backstrip.constraint",
+          "anchor.text.backstrip.method"
+        ]
+      },
+      {
+        "id": "assumption.crosssection.extrapolation",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.crosssection.extrapolation"
+        ]
+      },
+      {
+        "id": "assumption.riftmodel",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.model.startages",
+          "anchor.text.model.twoevents"
+        ]
+      },
+      {
+        "id": "assumption.seismic.quality",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.seismic.difficult",
+          "anchor.text.seismic.quality"
+        ]
+      },
+      {
+        "id": "assumption.subsidence.uncertainty",
+        "kind": "assumption",
+        "anchor_ids": [
+          "anchor.text.sealevel.correction",
+          "anchor.text.subsidence.uncertainty"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:sha256:4ceb36fd2f6d3492526f66cc501c02088e74c489b51647a22c5d6df820cf6465",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.4",
+          "anchor.text.conclusion.lateC",
+          "anchor.text.conclusion.lateC.mechanism",
+          "anchor.text.figure4.label",
+          "anchor.text.lateC.attribute",
+          "anchor.text.obduction.loading"
+        ],
+        "source_id": "claim.cretaceous.loading"
+      },
+      {
+        "id": "claim:sha256:52bfe975443ae0c99b6301389e6de55ebb1fbd899f05a6ad2067d698daaa30ea",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.15",
+          "anchor.text.conclusion.rift1",
+          "anchor.text.conclusion.rift1.details",
+          "anchor.text.conclusion.rift2",
+          "anchor.text.figure15.caption",
+          "anchor.text.figure15.fit",
+          "anchor.text.figure15.label",
+          "anchor.text.rift.modelstage",
+          "anchor.text.rift.summary"
+        ],
+        "source_id": "claim.rifting"
+      },
+      {
+        "id": "claim:sha256:b4a95d50845907fdb307d438b45b3af1d37454f6e4c027820bbf360143d41b86",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.8",
+          "anchor.figure.9",
+          "anchor.text.figure8.caption",
+          "anchor.text.figure8.label",
+          "anchor.text.figure9.caption",
+          "anchor.text.figure9.label",
+          "anchor.text.thickskinned",
+          "anchor.text.tiplines.conclusion"
+        ],
+        "source_id": "claim.hagab.thickskinned"
+      },
+      {
+        "id": "claim:sha256:e113a0c148e478232f229027645c159ef1f64ac88322f1c12103405dc5e21f87",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.text.conclusion.megasequences",
+          "anchor.text.figure3.label",
+          "anchor.text.stratigraphy.map"
+        ],
+        "source_id": "claim.stratigraphy"
+      },
+      {
+        "id": "claim:sha256:fd40900c037659e567e17136ef70c224626f825ab79c260ab861e2059e992e97",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.figure.3",
+          "anchor.text.conclusion.repetition",
+          "anchor.text.figure3.label",
+          "anchor.text.thrust.welltops"
+        ],
+        "source_id": "claim.hagab.repetition"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.assumption.cretaceous.backstrip",
+        "kind": "edge",
+        "source_id": "assumption.backstripping",
+        "target_id": "reason.cretaceous.pattern",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.cretaceous.uncertainty",
+        "kind": "edge",
+        "source_id": "assumption.subsidence.uncertainty",
+        "target_id": "reason.cretaceous.pattern",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.hagab.extrapolation",
+        "kind": "edge",
+        "source_id": "assumption.crosssection.extrapolation",
+        "target_id": "reason.hagab.geometry",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.hagab.quality",
+        "kind": "edge",
+        "source_id": "assumption.seismic.quality",
+        "target_id": "reason.hagab.repetition",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.hagab.quality.geometry",
+        "kind": "edge",
+        "source_id": "assumption.seismic.quality",
+        "target_id": "reason.hagab.geometry",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.rift.backstrip",
+        "kind": "edge",
+        "source_id": "assumption.backstripping",
+        "target_id": "reason.rift.history",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.rift.model",
+        "kind": "edge",
+        "source_id": "assumption.riftmodel",
+        "target_id": "reason.rift.model",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.rift.uncertainty",
+        "kind": "edge",
+        "source_id": "assumption.subsidence.uncertainty",
+        "target_id": "reason.rift.history",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.assumption.strat.quality",
+        "kind": "edge",
+        "source_id": "assumption.seismic.quality",
+        "target_id": "reason.stratigraphy",
+        "relation": "assumption_for"
+      },
+      {
+        "id": "edge.grounds.aruma.figure",
+        "kind": "edge",
+        "source_id": "anchor.figure.4",
+        "target_id": "obs.strat.aruma",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.aruma.onlap",
+        "kind": "edge",
+        "source_id": "anchor.text.aruma.onlap",
+        "target_id": "obs.strat.aruma",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.aruma.wedge",
+        "kind": "edge",
+        "source_id": "anchor.text.aruma.wedge",
+        "target_id": "obs.strat.aruma",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.backstrip.allwells",
+        "kind": "edge",
+        "source_id": "anchor.text.backstrip.allwells",
+        "target_id": "obs.backstrip.coverage",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.backstrip.continuous",
+        "kind": "edge",
+        "source_id": "anchor.text.backstrip.continuous",
+        "target_id": "obs.backstrip.coverage",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.backstrip.representatives",
+        "kind": "edge",
+        "source_id": "anchor.text.backstrip.representatives",
+        "target_id": "obs.backstrip.coverage",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.backstrip.twoevents",
+        "kind": "edge",
+        "source_id": "anchor.text.backstrip.twoevents",
+        "target_id": "obs.backstrip.coverage",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.basement",
+        "kind": "edge",
+        "source_id": "anchor.text.thickskinned",
+        "target_id": "obs.hagab.basement",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.basement.figure8",
+        "kind": "edge",
+        "source_id": "anchor.figure.8",
+        "target_id": "obs.hagab.basement",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.basement.figure9",
+        "kind": "edge",
+        "source_id": "anchor.figure.9",
+        "target_id": "obs.hagab.basement",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.aruma.figure",
+        "kind": "edge",
+        "source_id": "anchor.figure.4",
+        "target_id": "obs.cretaceous.aruma",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.aruma.figurelabel",
+        "kind": "edge",
+        "source_id": "anchor.text.figure4.label",
+        "target_id": "obs.cretaceous.aruma",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.aruma.onlap",
+        "kind": "edge",
+        "source_id": "anchor.text.aruma.onlap",
+        "target_id": "obs.cretaceous.aruma",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.aruma.wedge",
+        "kind": "edge",
+        "source_id": "anchor.text.aruma.wedge",
+        "target_id": "obs.cretaceous.aruma",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.attribute",
+        "kind": "edge",
+        "source_id": "anchor.text.lateC.attribute",
+        "target_id": "obs.cretaceous.aruma",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.correspondence",
+        "kind": "edge",
+        "source_id": "anchor.text.lateC.correspondence",
+        "target_id": "obs.cretaceous.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.delay",
+        "kind": "edge",
+        "source_id": "anchor.text.lateC.distaldelay",
+        "target_id": "obs.cretaceous.uplift",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.distal",
+        "kind": "edge",
+        "source_id": "anchor.text.lateC.distal",
+        "target_id": "obs.cretaceous.uplift",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.distalload",
+        "kind": "edge",
+        "source_id": "anchor.text.lateC.distalload",
+        "target_id": "obs.cretaceous.spatial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.distalnames",
+        "kind": "edge",
+        "source_id": "anchor.text.lateC.distalnames",
+        "target_id": "obs.cretaceous.spatial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.failure",
+        "kind": "edge",
+        "source_id": "anchor.text.lateC.model.failure",
+        "target_id": "obs.cretaceous.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.no",
+        "kind": "edge",
+        "source_id": "anchor.text.lateC.model.no",
+        "target_id": "obs.cretaceous.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.obduction",
+        "kind": "edge",
+        "source_id": "anchor.text.obduction.loading",
+        "target_id": "obs.cretaceous.aruma",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.proximal",
+        "kind": "edge",
+        "source_id": "anchor.text.lateC.proximalload",
+        "target_id": "obs.cretaceous.spatial",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.subsidence",
+        "kind": "edge",
+        "source_id": "anchor.text.lateC.subsidence",
+        "target_id": "obs.cretaceous.subsidence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.cretaceous.uplift",
+        "kind": "edge",
+        "source_id": "anchor.text.lateC.uplift",
+        "target_id": "obs.cretaceous.uplift",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.crosssection.construct",
+        "kind": "edge",
+        "source_id": "anchor.text.crosssection.construct",
+        "target_id": "obs.hagab.crosssection",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.crosssection.figure8",
+        "kind": "edge",
+        "source_id": "anchor.figure.8",
+        "target_id": "obs.hagab.crosssection",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.crosssection.figure8caption",
+        "kind": "edge",
+        "source_id": "anchor.text.figure8.caption",
+        "target_id": "obs.hagab.crosssection",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.crosssection.figure9",
+        "kind": "edge",
+        "source_id": "anchor.figure.9",
+        "target_id": "obs.hagab.crosssection",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.crosssection.figure9caption",
+        "kind": "edge",
+        "source_id": "anchor.text.figure9.caption",
+        "target_id": "obs.hagab.crosssection",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.crosssection.restored",
+        "kind": "edge",
+        "source_id": "anchor.text.crosssection.restored",
+        "target_id": "obs.hagab.crosssection",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hagab.correlation.deformation",
+        "kind": "edge",
+        "source_id": "anchor.text.figure3.deformation",
+        "target_id": "obs.hagab.correlation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hagab.correlation.figure",
+        "kind": "edge",
+        "source_id": "anchor.figure.3",
+        "target_id": "obs.hagab.correlation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hagab.correlation.repeat",
+        "kind": "edge",
+        "source_id": "anchor.text.figure3.repeat",
+        "target_id": "obs.hagab.correlation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hagab.correlation.stack",
+        "kind": "edge",
+        "source_id": "anchor.text.figure3.stack",
+        "target_id": "obs.hagab.correlation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hagab.offset",
+        "kind": "edge",
+        "source_id": "anchor.text.thrust.offset",
+        "target_id": "obs.hagab.seismic",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hagab.place",
+        "kind": "edge",
+        "source_id": "anchor.text.thrust.hagil.place",
+        "target_id": "obs.hagab.hagil",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hagab.repeat",
+        "kind": "edge",
+        "source_id": "anchor.text.thrust.hagilrepeat",
+        "target_id": "obs.hagab.wellrepetition",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hagab.seismic",
+        "kind": "edge",
+        "source_id": "anchor.text.thrust.seismic",
+        "target_id": "obs.hagab.seismic",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hagab.two",
+        "kind": "edge",
+        "source_id": "anchor.text.thrust.hagil.two",
+        "target_id": "obs.hagab.hagil",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.hagab.welltops",
+        "kind": "edge",
+        "source_id": "anchor.text.thrust.welltops",
+        "target_id": "obs.hagab.wellrepetition",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.compare",
+        "kind": "edge",
+        "source_id": "anchor.text.model.compare",
+        "target_id": "obs.rift.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.figure",
+        "kind": "edge",
+        "source_id": "anchor.figure.15",
+        "target_id": "obs.rift.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.figurecaption",
+        "kind": "edge",
+        "source_id": "anchor.text.figure15.caption",
+        "target_id": "obs.rift.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.figurefit",
+        "kind": "edge",
+        "source_id": "anchor.text.figure15.fit",
+        "target_id": "obs.rift.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.figurelabel",
+        "kind": "edge",
+        "source_id": "anchor.text.figure15.label",
+        "target_id": "obs.rift.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.rms",
+        "kind": "edge",
+        "source_id": "anchor.text.model.rms",
+        "target_id": "obs.rift.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.model.used",
+        "kind": "edge",
+        "source_id": "anchor.text.model.used",
+        "target_id": "obs.rift.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pabdeh.figure5",
+        "kind": "edge",
+        "source_id": "anchor.figure.5",
+        "target_id": "obs.strat.pabdeh",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pabdeh.figure6",
+        "kind": "edge",
+        "source_id": "anchor.figure.6",
+        "target_id": "obs.strat.pabdeh",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pabdeh.figurerefs",
+        "kind": "edge",
+        "source_id": "anchor.text.pabdeh.syn",
+        "target_id": "obs.strat.pabdeh",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pabdeh.onlap",
+        "kind": "edge",
+        "source_id": "anchor.text.pabdeh.onlap",
+        "target_id": "obs.strat.pabdeh",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.pabdeh.syntectonic",
+        "kind": "edge",
+        "source_id": "anchor.text.pabdeh.syntectonic",
+        "target_id": "obs.strat.pabdeh",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.rift.firstrates",
+        "kind": "edge",
+        "source_id": "anchor.text.rift.firstrates",
+        "target_id": "obs.rift.first",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.rift.firststart",
+        "kind": "edge",
+        "source_id": "anchor.text.rift.firststart",
+        "target_id": "obs.rift.first",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.rift.modelstage",
+        "kind": "edge",
+        "source_id": "anchor.text.rift.modelstage",
+        "target_id": "obs.rift.modelstage",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.rift.second",
+        "kind": "edge",
+        "source_id": "anchor.text.rift.second",
+        "target_id": "obs.rift.second",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.rift.separation",
+        "kind": "edge",
+        "source_id": "anchor.text.rift.separation",
+        "target_id": "obs.rift.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.rift.shape",
+        "kind": "edge",
+        "source_id": "anchor.text.rift.shape",
+        "target_id": "obs.rift.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.rift.wells",
+        "kind": "edge",
+        "source_id": "anchor.text.rift.wells",
+        "target_id": "obs.rift.pattern",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.shortening",
+        "kind": "edge",
+        "source_id": "anchor.text.shortening",
+        "target_id": "obs.hagab.shortening",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.strat.figure",
+        "kind": "edge",
+        "source_id": "anchor.figure.3",
+        "target_id": "obs.strat.map",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.strat.figurelabel",
+        "kind": "edge",
+        "source_id": "anchor.text.figure3.label",
+        "target_id": "obs.strat.map",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.strat.map",
+        "kind": "edge",
+        "source_id": "anchor.text.stratigraphy.map",
+        "target_id": "obs.strat.map",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tiplines.conclusion",
+        "kind": "edge",
+        "source_id": "anchor.text.tiplines.conclusion",
+        "target_id": "obs.hagab.tiplines",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tiplines.section",
+        "kind": "edge",
+        "source_id": "anchor.text.tiplines.section",
+        "target_id": "obs.hagab.tiplines",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.younger.fars",
+        "kind": "edge",
+        "source_id": "anchor.text.fars.geometry",
+        "target_id": "obs.strat.younger",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.younger.plio",
+        "kind": "edge",
+        "source_id": "anchor.text.plio.onlap",
+        "target_id": "obs.strat.younger",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.younger.reflectors",
+        "kind": "edge",
+        "source_id": "anchor.text.plio.reflectors",
+        "target_id": "obs.strat.younger",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.backstrip.coverage",
+        "kind": "edge",
+        "source_id": "obs.backstrip.coverage",
+        "target_id": "reason.rift.history",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.cretaceous.aruma",
+        "kind": "edge",
+        "source_id": "obs.cretaceous.aruma",
+        "target_id": "reason.cretaceous.loading",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.cretaceous.model",
+        "kind": "edge",
+        "source_id": "obs.cretaceous.model",
+        "target_id": "reason.cretaceous.loading",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.cretaceous.pattern",
+        "kind": "edge",
+        "source_id": "reason.cretaceous.pattern",
+        "target_id": "reason.cretaceous.loading",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.cretaceous.spatial",
+        "kind": "edge",
+        "source_id": "obs.cretaceous.spatial",
+        "target_id": "reason.cretaceous.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.cretaceous.subsidence",
+        "kind": "edge",
+        "source_id": "obs.cretaceous.subsidence",
+        "target_id": "reason.cretaceous.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.cretaceous.uplift",
+        "kind": "edge",
+        "source_id": "obs.cretaceous.uplift",
+        "target_id": "reason.cretaceous.pattern",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hagab.basement",
+        "kind": "edge",
+        "source_id": "obs.hagab.basement",
+        "target_id": "reason.hagab.geometry",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hagab.correlation",
+        "kind": "edge",
+        "source_id": "obs.hagab.correlation",
+        "target_id": "reason.hagab.repetition",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hagab.crosssection",
+        "kind": "edge",
+        "source_id": "obs.hagab.crosssection",
+        "target_id": "reason.hagab.geometry",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hagab.geometry",
+        "kind": "edge",
+        "source_id": "reason.hagab.geometry",
+        "target_id": "reason.hagab.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hagab.hagil",
+        "kind": "edge",
+        "source_id": "obs.hagab.hagil",
+        "target_id": "reason.hagab.repetition",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hagab.seismic",
+        "kind": "edge",
+        "source_id": "obs.hagab.seismic",
+        "target_id": "reason.hagab.repetition",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hagab.shortening",
+        "kind": "edge",
+        "source_id": "obs.hagab.shortening",
+        "target_id": "reason.hagab.geometry",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hagab.timing",
+        "kind": "edge",
+        "source_id": "reason.hagab.timing",
+        "target_id": "reason.hagab.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hagab.tiplines",
+        "kind": "edge",
+        "source_id": "obs.hagab.tiplines",
+        "target_id": "reason.hagab.timing",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.hagab.wellrepetition",
+        "kind": "edge",
+        "source_id": "obs.hagab.wellrepetition",
+        "target_id": "reason.hagab.repetition",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.rift.first",
+        "kind": "edge",
+        "source_id": "obs.rift.first",
+        "target_id": "reason.rift.history",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.rift.history",
+        "kind": "edge",
+        "source_id": "reason.rift.history",
+        "target_id": "reason.rift.model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.rift.model",
+        "kind": "edge",
+        "source_id": "obs.rift.model",
+        "target_id": "reason.rift.model",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.rift.modelstage",
+        "kind": "edge",
+        "source_id": "obs.rift.modelstage",
+        "target_id": "reason.rift.history",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.rift.pattern",
+        "kind": "edge",
+        "source_id": "obs.rift.pattern",
+        "target_id": "reason.rift.history",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.rift.second",
+        "kind": "edge",
+        "source_id": "obs.rift.second",
+        "target_id": "reason.rift.history",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.rift.synthesis",
+        "kind": "edge",
+        "source_id": "reason.rift.model",
+        "target_id": "reason.rift.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.strat.aruma",
+        "kind": "edge",
+        "source_id": "obs.strat.aruma",
+        "target_id": "reason.stratigraphy",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.strat.map",
+        "kind": "edge",
+        "source_id": "obs.strat.map",
+        "target_id": "reason.stratigraphy",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.strat.pabdeh",
+        "kind": "edge",
+        "source_id": "obs.strat.pabdeh",
+        "target_id": "reason.stratigraphy",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.strat.younger",
+        "kind": "edge",
+        "source_id": "obs.strat.younger",
+        "target_id": "reason.stratigraphy",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.supports.cretaceous.loading",
+        "kind": "edge",
+        "source_id": "reason.cretaceous.loading",
+        "target_id": "claim:sha256:4ceb36fd2f6d3492526f66cc501c02088e74c489b51647a22c5d6df820cf6465",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.hagab.repetition",
+        "kind": "edge",
+        "source_id": "reason.hagab.repetition",
+        "target_id": "claim:sha256:fd40900c037659e567e17136ef70c224626f825ab79c260ab861e2059e992e97",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.hagab.thickskinned",
+        "kind": "edge",
+        "source_id": "reason.hagab.synthesis",
+        "target_id": "claim:sha256:b4a95d50845907fdb307d438b45b3af1d37454f6e4c027820bbf360143d41b86",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.rifting",
+        "kind": "edge",
+        "source_id": "reason.rift.synthesis",
+        "target_id": "claim:sha256:52bfe975443ae0c99b6301389e6de55ebb1fbd899f05a6ad2067d698daaa30ea",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.supports.stratigraphy",
+        "kind": "edge",
+        "source_id": "reason.stratigraphy",
+        "target_id": "claim:sha256:e113a0c148e478232f229027645c159ef1f64ac88322f1c12103405dc5e21f87",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:205f7386c06c40e76b64f5cd2ae45e8a6ba4bddb95cf0d390dbb940768155f7d",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:1eb048b8263f57339c5571304dcffb0550080c8b89fc98dd285c5094e92211c3",
+        "target_id": "obs.hagab.hagil",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:27e1db89bcec4081c04483e057a3a008cdaa3098237326661a3440310c4ee69f",
+        "kind": "edge",
+        "source_id": "anchor.text.figure9.caption",
+        "target_id": "obs.hagab.basement",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:2b43162c2dc46a31f63ae500b300d292d5cbe14219680861d2a978f325ab85b4",
+        "kind": "edge",
+        "source_id": "anchor.figure.3",
+        "target_id": "obs.hagab.crosssection",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:2b53947f68e836a9e116cb27862c40f076048de8f3dcc93f9733ff222deb5fe9",
+        "kind": "edge",
+        "source_id": "anchor.text.conclusion.megasequences",
+        "target_id": "obs.strat.map",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:43e4e6de95915327bc3e003bfcbb60d92411518fd9fa5d175127ca0f0070d7f4",
+        "kind": "edge",
+        "source_id": "anchor.text.figure4.label",
+        "target_id": "obs.hagab.tiplines",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:46ef742fb691fe39d342e02e31fdcf77e44b0068998f5ddf470a684caafcc5b6",
+        "kind": "edge",
+        "source_id": "anchor.text.figure8.caption",
+        "target_id": "obs.hagab.basement",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:4d39b71cb240a1cf4712b4b097c7cd1978d02d3968be09ab79fc3fbfdf03fe1b",
+        "kind": "edge",
+        "source_id": "anchor.text.figure3.main",
+        "target_id": "obs.strat.map",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:6c1efbda92a8d5aa684b3cd095ddcae814c6f37c3eac76e20c01da882be9f34e",
+        "kind": "edge",
+        "source_id": "anchor.text.figure4.label",
+        "target_id": "obs.strat.aruma",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:976577889e87c6ac28df9dc5cedd658625df4806522a87fa1a92e877616fb2e4",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:981ab4134d8f50e313adfc0c4e30c3721f5c946f180509e8aa41058c460d5524",
+        "target_id": "obs.rift.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:a9b5130e59c61da8a4eb65cf4347fe429bf987d6f1f105c4ac60ee73ebb63b6f",
+        "kind": "edge",
+        "source_id": "anchor:compiler:visual:1eb048b8263f57339c5571304dcffb0550080c8b89fc98dd285c5094e92211c3",
+        "target_id": "obs.hagab.wellrepetition",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

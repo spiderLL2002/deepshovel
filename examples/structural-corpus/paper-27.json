@@ -1,0 +1,1506 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+  "snapshot_id": "snapshot:sha256:008b181cd517f5e1e90db3a132460ecddd94c322fd68fed0cc587ba52cfccc8c",
+  "original_graph_json_sha256": "008b181cd517f5e1e90db3a132460ecddd94c322fd68fed0cc587ba52cfccc8c",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:f96fb921-3dc2-4da5-bc9e-03ee91e39823",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:f96fb921-3dc2-4da5-bc9e-03ee91e39823",
+        "sha256": "6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.age_conflict",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.age_unresolved",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.ammonoid_age",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 11
+        }
+      },
+      {
+        "id": "anchor.benthic_absence",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.carnian_conclusion",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 31
+        }
+      },
+      {
+        "id": "anchor.census",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.colony_attachment",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.condensation",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.conodont_age",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.crinoid_uncertainty",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 31
+        }
+      },
+      {
+        "id": "anchor.current_concentration",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.deep_interval",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.depressions",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 31
+        }
+      },
+      {
+        "id": "anchor.drowned_platform",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 31
+        }
+      },
+      {
+        "id": "anchor.early_age_preferred",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.environment_conclusion",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 31
+        }
+      },
+      {
+        "id": "anchor.estimate",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 19
+        }
+      },
+      {
+        "id": "anchor.faunal_diversity",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 30
+        }
+      },
+      {
+        "id": "anchor.favored_hypothesis",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 30
+        }
+      },
+      {
+        "id": "anchor.figure11",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.figure4",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.figure9",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 14
+        }
+      },
+      {
+        "id": "anchor.first_strategy",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 16
+        }
+      },
+      {
+        "id": "anchor.fish_scarcity",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 30
+        }
+      },
+      {
+        "id": "anchor.gamma_end",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.gamma_readings",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 7
+        }
+      },
+      {
+        "id": "anchor.invertebrate_modes",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.lamination",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.mfi_candidate",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 10
+        }
+      },
+      {
+        "id": "anchor.no_bioturbation",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.ontogenetic_stages",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 30
+        }
+      },
+      {
+        "id": "anchor.plant_age",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.platform_margin",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 31
+        }
+      },
+      {
+        "id": "anchor.postmortem",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 31
+        }
+      },
+      {
+        "id": "anchor.preliminary",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 30
+        }
+      },
+      {
+        "id": "anchor.preservation_comparison",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      },
+      {
+        "id": "anchor.rootlet_morphology",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.rootlets",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.sequence_conclusion",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 31
+        }
+      },
+      {
+        "id": "anchor.skeleton_integrity",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 30
+        }
+      },
+      {
+        "id": "anchor.skeletons",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 26
+        }
+      },
+      {
+        "id": "anchor.stem_figure_token",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.stem_variation",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 12
+        }
+      },
+      {
+        "id": "anchor.trap_prediction",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 30
+        }
+      },
+      {
+        "id": "anchor.unique_comparison",
+        "artifact_version_id": "artifact-version:sha256:6f959f989dd5b35b7d59357de5f0bd5c7f703b6b03efb31b8ef9fa47572ef91a",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 1
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.ammonoid_age",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.ammonoid_age"
+        ]
+      },
+      {
+        "id": "obs.benthic_absence",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.benthic_absence",
+          "anchor.invertebrate_modes",
+          "anchor.no_bioturbation"
+        ]
+      },
+      {
+        "id": "obs.carnian_conclusion",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.age_conflict",
+          "anchor.carnian_conclusion"
+        ]
+      },
+      {
+        "id": "obs.census",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.census"
+        ]
+      },
+      {
+        "id": "obs.complete_skeletons",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.preservation_comparison",
+          "anchor.skeletons"
+        ]
+      },
+      {
+        "id": "obs.condensation_evidence",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.condensation"
+        ]
+      },
+      {
+        "id": "obs.conodont_age_conflict",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.age_conflict",
+          "anchor.age_unresolved",
+          "anchor.conodont_age"
+        ]
+      },
+      {
+        "id": "obs.crinoid_attachment",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.colony_attachment",
+          "anchor.figure9"
+        ]
+      },
+      {
+        "id": "obs.crinoid_origin_uncertain",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.crinoid_uncertainty"
+        ]
+      },
+      {
+        "id": "obs.crinoid_rootlets",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.rootlet_morphology",
+          "anchor.rootlets"
+        ]
+      },
+      {
+        "id": "obs.current_concentration_possible",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.current_concentration"
+        ]
+      },
+      {
+        "id": "obs.deep_interval",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.deep_interval"
+        ]
+      },
+      {
+        "id": "obs.depressions",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.depressions"
+        ]
+      },
+      {
+        "id": "obs.drowned_margin",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.drowned_platform",
+          "anchor.platform_margin"
+        ]
+      },
+      {
+        "id": "obs.estimated_total",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.estimate"
+        ]
+      },
+      {
+        "id": "obs.first_strategy",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.first_strategy"
+        ]
+      },
+      {
+        "id": "obs.fish_scarcity",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.fish_scarcity"
+        ]
+      },
+      {
+        "id": "obs.fossil_trap_prediction",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.trap_prediction"
+        ]
+      },
+      {
+        "id": "obs.gamma_readings",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure4",
+          "anchor.gamma_end",
+          "anchor.gamma_readings"
+        ]
+      },
+      {
+        "id": "obs.invertebrate_modes",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.benthic_absence",
+          "anchor.invertebrate_modes"
+        ]
+      },
+      {
+        "id": "obs.limited_diversity",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.faunal_diversity"
+        ]
+      },
+      {
+        "id": "obs.mfi_interpretation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.mfi_candidate",
+          "anchor.sequence_conclusion"
+        ]
+      },
+      {
+        "id": "obs.ontogenetic_stages",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.ontogenetic_stages"
+        ]
+      },
+      {
+        "id": "obs.organic_lamination",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.lamination"
+        ]
+      },
+      {
+        "id": "obs.plant_age",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.plant_age"
+        ]
+      },
+      {
+        "id": "obs.postmortem_preservation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.postmortem"
+        ]
+      },
+      {
+        "id": "obs.preferred_environment",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.depressions",
+          "anchor.environment_conclusion",
+          "anchor.preliminary"
+        ]
+      },
+      {
+        "id": "obs.skeleton_integrity",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.skeleton_integrity"
+        ]
+      },
+      {
+        "id": "obs.stem_variation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.figure11",
+          "anchor.stem_figure_token",
+          "anchor.stem_variation"
+        ]
+      },
+      {
+        "id": "obs.unique_comparison",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.unique_comparison"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.age_conflict",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.age_conflict",
+          "anchor.age_unresolved",
+          "anchor.conodont_age"
+        ]
+      },
+      {
+        "id": "reason.bottom_oxygen",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.benthic_absence",
+          "anchor.invertebrate_modes",
+          "anchor.lamination",
+          "anchor.no_bioturbation"
+        ]
+      },
+      {
+        "id": "reason.carnian_assignment",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.age_unresolved",
+          "anchor.carnian_conclusion",
+          "anchor.early_age_preferred"
+        ]
+      },
+      {
+        "id": "reason.concentration",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.census",
+          "anchor.estimate"
+        ]
+      },
+      {
+        "id": "reason.condensation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.condensation",
+          "anchor.gamma_end",
+          "anchor.gamma_readings"
+        ]
+      },
+      {
+        "id": "reason.crinoid_lifestyle",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.colony_attachment",
+          "anchor.first_strategy",
+          "anchor.rootlets",
+          "anchor.stem_variation"
+        ]
+      },
+      {
+        "id": "reason.early_carnian",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.ammonoid_age",
+          "anchor.plant_age"
+        ]
+      },
+      {
+        "id": "reason.environment_synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.crinoid_uncertainty",
+          "anchor.current_concentration",
+          "anchor.depressions",
+          "anchor.environment_conclusion",
+          "anchor.postmortem",
+          "anchor.preliminary"
+        ]
+      },
+      {
+        "id": "reason.maximum_flooding",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.condensation",
+          "anchor.deep_interval",
+          "anchor.mfi_candidate",
+          "anchor.sequence_conclusion"
+        ]
+      },
+      {
+        "id": "reason.preservation_comparison",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.preservation_comparison",
+          "anchor.skeletons",
+          "anchor.unique_comparison"
+        ]
+      },
+      {
+        "id": "reason.raft_attachment",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.colony_attachment",
+          "anchor.rootlet_morphology",
+          "anchor.rootlets"
+        ]
+      },
+      {
+        "id": "reason.sequence_context",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.deep_interval",
+          "anchor.drowned_platform",
+          "anchor.platform_margin"
+        ]
+      },
+      {
+        "id": "reason.surface_fauna",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.faunal_diversity",
+          "anchor.fish_scarcity"
+        ]
+      },
+      {
+        "id": "reason.taphonomy",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.ontogenetic_stages",
+          "anchor.skeleton_integrity",
+          "anchor.trap_prediction"
+        ]
+      },
+      {
+        "id": "reason.unique_lagerstatte",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.census",
+          "anchor.preservation_comparison",
+          "anchor.unique_comparison"
+        ]
+      },
+      {
+        "id": "reason.vertical_filtering",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.figure11",
+          "anchor.stem_figure_token",
+          "anchor.stem_variation"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:4d2712fe733139804b5bca11118ed55da44c5e8016f5c8e0ff6b72ce36e51884",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.census",
+          "anchor.estimate",
+          "anchor.preservation_comparison",
+          "anchor.skeletons",
+          "anchor.unique_comparison"
+        ],
+        "source_id": "claim.unique_lagerstatte"
+      },
+      {
+        "id": "claim:sha256:5e4b9d8bc8663b1a783541fdfed3f14c6b85aa75a54a460fbd5173a8495b8284",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.condensation",
+          "anchor.deep_interval",
+          "anchor.drowned_platform",
+          "anchor.figure4",
+          "anchor.gamma_end",
+          "anchor.gamma_readings",
+          "anchor.mfi_candidate",
+          "anchor.sequence_conclusion"
+        ],
+        "source_id": "claim.maximum_flooding"
+      },
+      {
+        "id": "claim:sha256:9465d9e647736d48a74b34fffb6e61d72e20dc42a0c2106b28336b65ce233811",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.age_conflict",
+          "anchor.age_unresolved",
+          "anchor.ammonoid_age",
+          "anchor.carnian_conclusion",
+          "anchor.conodont_age",
+          "anchor.early_age_preferred",
+          "anchor.plant_age"
+        ],
+        "source_id": "claim.carnian_age"
+      },
+      {
+        "id": "claim:sha256:a128246b71793c54e4e0b660975538a421874e3039d4557b7425655b3bacc625",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.benthic_absence",
+          "anchor.crinoid_uncertainty",
+          "anchor.current_concentration",
+          "anchor.depressions",
+          "anchor.environment_conclusion",
+          "anchor.faunal_diversity",
+          "anchor.favored_hypothesis",
+          "anchor.fish_scarcity",
+          "anchor.invertebrate_modes",
+          "anchor.lamination",
+          "anchor.no_bioturbation",
+          "anchor.ontogenetic_stages",
+          "anchor.postmortem",
+          "anchor.preliminary",
+          "anchor.skeleton_integrity",
+          "anchor.trap_prediction"
+        ],
+        "source_id": "claim.low_oxygen_ecosystem"
+      },
+      {
+        "id": "claim:sha256:f388380d5c5ab7902a294c119b1471400b83322f5065b1da5c5d66d201574d2f",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.colony_attachment",
+          "anchor.figure11",
+          "anchor.figure9",
+          "anchor.first_strategy",
+          "anchor.rootlet_morphology",
+          "anchor.rootlets",
+          "anchor.stem_figure_token",
+          "anchor.stem_variation"
+        ],
+        "source_id": "claim.traumatocrinus_pseudoplanktonic"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.g.ammonoid",
+        "kind": "edge",
+        "source_id": "anchor.ammonoid_age",
+        "target_id": "obs.ammonoid_age",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.attach",
+        "kind": "edge",
+        "source_id": "anchor.colony_attachment",
+        "target_id": "obs.crinoid_attachment",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.benthic",
+        "kind": "edge",
+        "source_id": "anchor.benthic_absence",
+        "target_id": "obs.benthic_absence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.carnian",
+        "kind": "edge",
+        "source_id": "anchor.carnian_conclusion",
+        "target_id": "obs.carnian_conclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.census",
+        "kind": "edge",
+        "source_id": "anchor.census",
+        "target_id": "obs.census",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.conclconflict",
+        "kind": "edge",
+        "source_id": "anchor.age_conflict",
+        "target_id": "obs.carnian_conclusion",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.condensation",
+        "kind": "edge",
+        "source_id": "anchor.condensation",
+        "target_id": "obs.condensation_evidence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.conflict",
+        "kind": "edge",
+        "source_id": "anchor.age_conflict",
+        "target_id": "obs.conodont_age_conflict",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.conodont",
+        "kind": "edge",
+        "source_id": "anchor.conodont_age",
+        "target_id": "obs.conodont_age_conflict",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.crinoid_uncertain",
+        "kind": "edge",
+        "source_id": "anchor.crinoid_uncertainty",
+        "target_id": "obs.crinoid_origin_uncertain",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.currents",
+        "kind": "edge",
+        "source_id": "anchor.current_concentration",
+        "target_id": "obs.current_concentration_possible",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.deep",
+        "kind": "edge",
+        "source_id": "anchor.deep_interval",
+        "target_id": "obs.deep_interval",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.depression",
+        "kind": "edge",
+        "source_id": "anchor.depressions",
+        "target_id": "obs.depressions",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.depressions",
+        "kind": "edge",
+        "source_id": "anchor.depressions",
+        "target_id": "obs.preferred_environment",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.diversity",
+        "kind": "edge",
+        "source_id": "anchor.faunal_diversity",
+        "target_id": "obs.limited_diversity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.drowned",
+        "kind": "edge",
+        "source_id": "anchor.drowned_platform",
+        "target_id": "obs.drowned_margin",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.environment",
+        "kind": "edge",
+        "source_id": "anchor.environment_conclusion",
+        "target_id": "obs.preferred_environment",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.estimate",
+        "kind": "edge",
+        "source_id": "anchor.estimate",
+        "target_id": "obs.estimated_total",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.fig11",
+        "kind": "edge",
+        "source_id": "anchor.figure11",
+        "target_id": "obs.stem_variation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.fig9",
+        "kind": "edge",
+        "source_id": "anchor.figure9",
+        "target_id": "obs.crinoid_attachment",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.figure4",
+        "kind": "edge",
+        "source_id": "anchor.figure4",
+        "target_id": "obs.gamma_readings",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.first",
+        "kind": "edge",
+        "source_id": "anchor.first_strategy",
+        "target_id": "obs.first_strategy",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.fish",
+        "kind": "edge",
+        "source_id": "anchor.fish_scarcity",
+        "target_id": "obs.fish_scarcity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.gamma",
+        "kind": "edge",
+        "source_id": "anchor.gamma_readings",
+        "target_id": "obs.gamma_readings",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.gamma_end",
+        "kind": "edge",
+        "source_id": "anchor.gamma_end",
+        "target_id": "obs.gamma_readings",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.integrity",
+        "kind": "edge",
+        "source_id": "anchor.skeleton_integrity",
+        "target_id": "obs.skeleton_integrity",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.lamination",
+        "kind": "edge",
+        "source_id": "anchor.lamination",
+        "target_id": "obs.organic_lamination",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.margin",
+        "kind": "edge",
+        "source_id": "anchor.platform_margin",
+        "target_id": "obs.drowned_margin",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.mfi",
+        "kind": "edge",
+        "source_id": "anchor.mfi_candidate",
+        "target_id": "obs.mfi_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.modes",
+        "kind": "edge",
+        "source_id": "anchor.invertebrate_modes",
+        "target_id": "obs.invertebrate_modes",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.nobioturb",
+        "kind": "edge",
+        "source_id": "anchor.no_bioturbation",
+        "target_id": "obs.benthic_absence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.ontogeny",
+        "kind": "edge",
+        "source_id": "anchor.ontogenetic_stages",
+        "target_id": "obs.ontogenetic_stages",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.plant",
+        "kind": "edge",
+        "source_id": "anchor.plant_age",
+        "target_id": "obs.plant_age",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.postmortem",
+        "kind": "edge",
+        "source_id": "anchor.postmortem",
+        "target_id": "obs.postmortem_preservation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.preliminary",
+        "kind": "edge",
+        "source_id": "anchor.preliminary",
+        "target_id": "obs.preferred_environment",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.preservation",
+        "kind": "edge",
+        "source_id": "anchor.preservation_comparison",
+        "target_id": "obs.complete_skeletons",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.rootmorph",
+        "kind": "edge",
+        "source_id": "anchor.rootlet_morphology",
+        "target_id": "obs.crinoid_rootlets",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.roots",
+        "kind": "edge",
+        "source_id": "anchor.rootlets",
+        "target_id": "obs.crinoid_rootlets",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.sequence",
+        "kind": "edge",
+        "source_id": "anchor.sequence_conclusion",
+        "target_id": "obs.mfi_interpretation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.skeletons",
+        "kind": "edge",
+        "source_id": "anchor.skeletons",
+        "target_id": "obs.complete_skeletons",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.stem",
+        "kind": "edge",
+        "source_id": "anchor.stem_variation",
+        "target_id": "obs.stem_variation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.stemtoken",
+        "kind": "edge",
+        "source_id": "anchor.stem_figure_token",
+        "target_id": "obs.stem_variation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.trappred",
+        "kind": "edge",
+        "source_id": "anchor.trap_prediction",
+        "target_id": "obs.fossil_trap_prediction",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.unique",
+        "kind": "edge",
+        "source_id": "anchor.unique_comparison",
+        "target_id": "obs.unique_comparison",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.g.unresolved",
+        "kind": "edge",
+        "source_id": "anchor.age_unresolved",
+        "target_id": "obs.conodont_age_conflict",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.p.abundance",
+        "kind": "edge",
+        "source_id": "reason.concentration",
+        "target_id": "reason.unique_lagerstatte",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.ammonoid",
+        "kind": "edge",
+        "source_id": "obs.ammonoid_age",
+        "target_id": "reason.early_carnian",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.attach",
+        "kind": "edge",
+        "source_id": "obs.crinoid_attachment",
+        "target_id": "reason.raft_attachment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.benthic",
+        "kind": "edge",
+        "source_id": "obs.benthic_absence",
+        "target_id": "reason.bottom_oxygen",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.bottom",
+        "kind": "edge",
+        "source_id": "reason.bottom_oxygen",
+        "target_id": "reason.environment_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.broadassign",
+        "kind": "edge",
+        "source_id": "obs.carnian_conclusion",
+        "target_id": "reason.carnian_assignment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.census",
+        "kind": "edge",
+        "source_id": "obs.census",
+        "target_id": "reason.concentration",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.complete",
+        "kind": "edge",
+        "source_id": "obs.complete_skeletons",
+        "target_id": "reason.preservation_comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.condensation",
+        "kind": "edge",
+        "source_id": "reason.condensation",
+        "target_id": "reason.maximum_flooding",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.condense",
+        "kind": "edge",
+        "source_id": "obs.condensation_evidence",
+        "target_id": "reason.condensation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.conflictassign",
+        "kind": "edge",
+        "source_id": "reason.age_conflict",
+        "target_id": "reason.carnian_assignment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.conodont",
+        "kind": "edge",
+        "source_id": "obs.conodont_age_conflict",
+        "target_id": "reason.age_conflict",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.crinoid_uncertain",
+        "kind": "edge",
+        "source_id": "obs.crinoid_origin_uncertain",
+        "target_id": "reason.environment_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.currents",
+        "kind": "edge",
+        "source_id": "obs.current_concentration_possible",
+        "target_id": "reason.environment_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.deep",
+        "kind": "edge",
+        "source_id": "obs.deep_interval",
+        "target_id": "reason.sequence_context",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.depressions",
+        "kind": "edge",
+        "source_id": "obs.depressions",
+        "target_id": "reason.environment_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.diversity",
+        "kind": "edge",
+        "source_id": "obs.limited_diversity",
+        "target_id": "reason.surface_fauna",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.drowned",
+        "kind": "edge",
+        "source_id": "obs.drowned_margin",
+        "target_id": "reason.sequence_context",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.earlyassign",
+        "kind": "edge",
+        "source_id": "reason.early_carnian",
+        "target_id": "reason.carnian_assignment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.earlyconflict",
+        "kind": "edge",
+        "source_id": "reason.early_carnian",
+        "target_id": "reason.age_conflict",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.estimate",
+        "kind": "edge",
+        "source_id": "obs.estimated_total",
+        "target_id": "reason.concentration",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.filter",
+        "kind": "edge",
+        "source_id": "reason.vertical_filtering",
+        "target_id": "reason.crinoid_lifestyle",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.fish",
+        "kind": "edge",
+        "source_id": "obs.fish_scarcity",
+        "target_id": "reason.surface_fauna",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.gamma",
+        "kind": "edge",
+        "source_id": "obs.gamma_readings",
+        "target_id": "reason.condensation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.integrity",
+        "kind": "edge",
+        "source_id": "obs.skeleton_integrity",
+        "target_id": "reason.taphonomy",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.lamination",
+        "kind": "edge",
+        "source_id": "obs.organic_lamination",
+        "target_id": "reason.bottom_oxygen",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.mfi",
+        "kind": "edge",
+        "source_id": "obs.mfi_interpretation",
+        "target_id": "reason.maximum_flooding",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.modes",
+        "kind": "edge",
+        "source_id": "obs.invertebrate_modes",
+        "target_id": "reason.bottom_oxygen",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.ontogeny",
+        "kind": "edge",
+        "source_id": "obs.ontogenetic_stages",
+        "target_id": "reason.taphonomy",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.plant",
+        "kind": "edge",
+        "source_id": "obs.plant_age",
+        "target_id": "reason.early_carnian",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.postmortem",
+        "kind": "edge",
+        "source_id": "obs.postmortem_preservation",
+        "target_id": "reason.environment_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.preferred",
+        "kind": "edge",
+        "source_id": "obs.preferred_environment",
+        "target_id": "reason.environment_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.preservation",
+        "kind": "edge",
+        "source_id": "reason.preservation_comparison",
+        "target_id": "reason.unique_lagerstatte",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.raft",
+        "kind": "edge",
+        "source_id": "reason.raft_attachment",
+        "target_id": "reason.crinoid_lifestyle",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.roots",
+        "kind": "edge",
+        "source_id": "obs.crinoid_rootlets",
+        "target_id": "reason.raft_attachment",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.sequence",
+        "kind": "edge",
+        "source_id": "reason.sequence_context",
+        "target_id": "reason.maximum_flooding",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.stem",
+        "kind": "edge",
+        "source_id": "obs.stem_variation",
+        "target_id": "reason.vertical_filtering",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.strategy",
+        "kind": "edge",
+        "source_id": "obs.first_strategy",
+        "target_id": "reason.crinoid_lifestyle",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.surface",
+        "kind": "edge",
+        "source_id": "reason.surface_fauna",
+        "target_id": "reason.environment_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.taphonomy",
+        "kind": "edge",
+        "source_id": "reason.taphonomy",
+        "target_id": "reason.environment_synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.trap",
+        "kind": "edge",
+        "source_id": "obs.fossil_trap_prediction",
+        "target_id": "reason.taphonomy",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.p.unique",
+        "kind": "edge",
+        "source_id": "obs.unique_comparison",
+        "target_id": "reason.preservation_comparison",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.s.age",
+        "kind": "edge",
+        "source_id": "reason.carnian_assignment",
+        "target_id": "claim:sha256:9465d9e647736d48a74b34fffb6e61d72e20dc42a0c2106b28336b65ce233811",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.crinoid",
+        "kind": "edge",
+        "source_id": "reason.crinoid_lifestyle",
+        "target_id": "claim:sha256:f388380d5c5ab7902a294c119b1471400b83322f5065b1da5c5d66d201574d2f",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.environment",
+        "kind": "edge",
+        "source_id": "reason.environment_synthesis",
+        "target_id": "claim:sha256:a128246b71793c54e4e0b660975538a421874e3039d4557b7425655b3bacc625",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.mfi",
+        "kind": "edge",
+        "source_id": "reason.maximum_flooding",
+        "target_id": "claim:sha256:5e4b9d8bc8663b1a783541fdfed3f14c6b85aa75a54a460fbd5173a8495b8284",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.s.unique",
+        "kind": "edge",
+        "source_id": "reason.unique_lagerstatte",
+        "target_id": "claim:sha256:4d2712fe733139804b5bca11118ed55da44c5e8016f5c8e0ff6b72ce36e51884",
+        "relation": "infers"
+      },
+      {
+        "id": "edge:compiler:0a13d13f9ca5f3b41be6aabe3dfa6af542367d4948c3468507091b23b5e333cb",
+        "kind": "edge",
+        "source_id": "anchor.invertebrate_modes",
+        "target_id": "obs.benthic_absence",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge:compiler:3ae341ea66ec56b92beab44d317c34cb3b04284ca99758b4882cc9e4670ea6ce",
+        "kind": "edge",
+        "source_id": "anchor.benthic_absence",
+        "target_id": "obs.invertebrate_modes",
+        "relation": "grounds"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pdf_info": [
+    {
+      "page_idx": 0,
+      "page_size": [600, 800],
+      "preproc_blocks": [],
+      "discarded_blocks": [],
+      "para_blocks": [
+        {
+          "type": "title",
+          "bbox": [60, 160, 300, 240],
+          "lines": []
+        },
+        {
+          "type": "table",
+          "bbox": [60, 320, 540, 640],
+          "blocks": []
+        }
+      ]
+    }
+  ],
+  "_backend": "pipeline",
+  "_version_name": "3.1.15"
+}

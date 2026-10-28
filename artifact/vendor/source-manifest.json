@@ -1,0 +1,203 @@
+{
+  "description": "Recorded production source excerpt for internal submission reproduction; no open-source license assertion. Exact source bytes retained.",
+  "python_modules": 35,
+  "external_import_names": [
+    "__future__",
+    "argparse",
+    "asyncio",
+    "base64",
+    "binascii",
+    "bisect",
+    "collections",
+    "concurrent",
+    "contextlib",
+    "contextvars",
+    "copy",
+    "dataclasses",
+    "datetime",
+    "decimal",
+    "enum",
+    "fastapi",
+    "fastembed",
+    "functools",
+    "hashlib",
+    "hmac",
+    "html",
+    "httpx",
+    "importlib",
+    "io",
+    "json",
+    "logging",
+    "math",
+    "numpy",
+    "openai",
+    "os",
+    "pathlib",
+    "pydantic",
+    "pydantic_core",
+    "qdrant_client",
+    "re",
+    "shutil",
+    "sqlite3",
+    "starlette",
+    "string",
+    "sys",
+    "tempfile",
+    "threading",
+    "time",
+    "transformers",
+    "types",
+    "typing",
+    "unicodedata",
+    "urllib",
+    "uuid",
+    "zipfile"
+  ],
+  "files": {
+    "compiler/compiler_service/structured_source.py": {
+      "sha256": "d28fca49c4eb55250ac51fb06950d8c505444292543b75c4d08edfb90d3e1e5f",
+      "bytes": 54124
+    },
+    "compiler/compiler_service/json_boundary.py": {
+      "sha256": "63da5770e774432dda370785e1e628e4a239e5c5390b1994a7fe6fb3a51097bb",
+      "bytes": 1060
+    },
+    "compiler/compiler_service/interactive_model_stream.py": {
+      "sha256": "e90034afc971ac1a0fca9f328c0f5771505eddf65494e1dc823d6d316a33591a",
+      "bytes": 1262
+    },
+    "compiler/compiler_service/retrieval_task_contract.py": {
+      "sha256": "dd88158dd1b00f361f3bd357ad64efa0f5d366a6c641687fc7319f139e403428",
+      "bytes": 22917
+    },
+    "compiler/compiler_service/config.py": {
+      "sha256": "94e033a2129d51f8866c74541245a84b20b284a94ab617afcc9fbb1499ee0766",
+      "bytes": 12880
+    },
+    "compiler/compiler_service/shared_contract.py": {
+      "sha256": "8e5e3ca2a9e2ce2dffccbf2a81e7e3db6c31a235728109a8d0d31319707f403d",
+      "bytes": 2242
+    },
+    "compiler/compiler_service/compiler.py": {
+      "sha256": "3a1d1591da589cc75390f41e7054fda7bbce2d0ac4fb3e789b7dc46bf2ce747b",
+      "bytes": 39864
+    },
+    "compiler/compiler_service/retrieval_ontology.py": {
+      "sha256": "948735a5588cee9ac9b21f499db8b572223a6c161f20b229fcbd376e9e13388f",
+      "bytes": 12824
+    },
+    "compiler/compiler_service/models.py": {
+      "sha256": "d58e6c99ce0fe11c934b1bcad125bd8009cd4541411b96bdd12a34707be4fdaa",
+      "bytes": 9189
+    },
+    "compiler/compiler_service/source_catalog.py": {
+      "sha256": "18ca0754f0871eb8c1b8ee3be880f6cd209b29a76ac91665784b7405ba869693",
+      "bytes": 39789
+    },
+    "compiler/compiler_service/qdrant_local_compat.py": {
+      "sha256": "5fcf9f731de250bb5ecf6b675c1c8fb9d0dbbe6cc80c8fe6f8c0375520a0bf72",
+      "bytes": 9405
+    },
+    "compiler/compiler_service/retrieval_text.py": {
+      "sha256": "536baa6af4cf36e4906b1f7b7309e687dc50eedf8e0d2fac75bd25a0b4b72e76",
+      "bytes": 12418
+    },
+    "compiler/compiler_service/citation_source.py": {
+      "sha256": "a6d7daff362524a3150412125a5935da4227a3d1677bd32adec8164e3401c303",
+      "bytes": 45455
+    },
+    "compiler/compiler_service/retrieval_contract.py": {
+      "sha256": "8f10506bba6aac8544ecc3148648db1b7999c9bf58e6d1da57b0a5a34c91a889",
+      "bytes": 58340
+    },
+    "compiler/compiler_service/model_client.py": {
+      "sha256": "054ee4c9f2be9839daff9f2e815a5f9d98ae66214cf6686cfe7de82d1b3e098a",
+      "bytes": 65487
+    },
+    "compiler/compiler_service/compiler_audit.py": {
+      "sha256": "903b76b9e9baae1fa6bfcd72617d8b492aae748499cf9ed556a49ac3c837b138",
+      "bytes": 4604
+    },
+    "compiler/compiler_service/graph_contract.py": {
+      "sha256": "2db8451ad78756c0894810780d9359e7253a1d675a56ade9e1f11ece1aa2eaef",
+      "bytes": 36738
+    },
+    "compiler/compiler_service/scientific_mentions.py": {
+      "sha256": "9e8c3b3f7c681684273f0447ceb3018c92a2384832eae75fb6c96214b705ab79",
+      "bytes": 46238
+    },
+    "compiler/compiler_service/__init__.py": {
+      "sha256": "d909a0f03f2277f5aa452fb106a66fb37eeaa09c091470854b6022cd5d726f8c",
+      "bytes": 618
+    },
+    "compiler/compiler_service/number_normalization.py": {
+      "sha256": "e2604862f88901e45d056888136a0d8747d309b6c3212b6c11dbf63879a75ecf",
+      "bytes": 4870
+    },
+    "compiler/compiler_service/prompts.py": {
+      "sha256": "d18a98018c9e2ce001067baba420edd35fe39e47dcc889910ad5bfb696d5fd40",
+      "bytes": 36626
+    },
+    "compiler/compiler_service/openalex_topics.py": {
+      "sha256": "1a6d4025f7a65aac01c393a69001aee20e4ae2974faa8d60fe6e0aec5592ff4f",
+      "bytes": 17103
+    },
+    "compiler/compiler_service/retrieval_ranking_features.py": {
+      "sha256": "8239ca32a9ed3bfa8cf80923482c2b89b5dbaa7cfaca68a437e28b60480b3868",
+      "bytes": 10090
+    },
+    "compiler/compiler_service/claim_tolerance.py": {
+      "sha256": "cd05fbb0c13338d7fa6352cb8cf73645f51f7a2d27fe2006adf9b462407bd58c",
+      "bytes": 15810
+    },
+    "compiler/compiler_service/retrieval_ontology.json": {
+      "sha256": "f7bc6e59d451061cb213d98447dcac6c0756e4093297342596cab77a487cf98f",
+      "bytes": 16362
+    },
+    "compiler/compiler_service/canonical.py": {
+      "sha256": "e69e5ccc8298ab11285a2d3234590a50dfa1f0af375d48c15b6f6bf79f38738f",
+      "bytes": 23353
+    },
+    "compiler/compiler_service/errors.py": {
+      "sha256": "c1c184518be50547f320cbba5aeb69043071a27a812d876175464aa2abaccd69",
+      "bytes": 15857
+    },
+    "compiler/compiler_service/job_control.py": {
+      "sha256": "eb8828770edf6071ba8622a066516e14c2d0569017d7c5822c31bebe051d6d11",
+      "bytes": 7221
+    },
+    "compiler/compiler_service/source_links.py": {
+      "sha256": "43512d817d0696e33a170474aeffd85b63935c2fba09b4a7c28a7bd59c81b539",
+      "bytes": 24113
+    },
+    "compiler/compiler_service/visual_provenance.py": {
+      "sha256": "48c3dd37fa06cef62b31af3ee67b920bfedefad89b76da3ac9396c17a0e0a366",
+      "bytes": 13445
+    },
+    "compiler/compiler_service/retrieval_service.py": {
+      "sha256": "2f55a39a2122326fb9e1e62a4e4b118092d0e7ec3a0ac4136ab138360e707472",
+      "bytes": 188611
+    },
+    "compiler/compiler_service/gpt_responses.py": {
+      "sha256": "bc6bf9db6adb6668354f70ab1d3564bc70e8436ba3e1b64616ab28f52606360c",
+      "bytes": 18656
+    },
+    "compiler/compiler_service/retrieval_providers.py": {
+      "sha256": "2ef00ada931f9c08fa58d789691e9116f8ebe32d78c966d4c1e4dfb85d0dd719",
+      "bytes": 85978
+    },
+    "compiler/compiler_service/retrieval_store.py": {
+      "sha256": "e2e6377f9b7a4e9ee628b362a794c67f03cc642560e0593ddb1108481c44c3e8",
+      "bytes": 103530
+    },
+    "compiler/compiler_service/retrieval_vectors.py": {
+      "sha256": "182731ffdcda24084c2c50a6ebf023040720720a2060ce4aedcc3aa5047ebe82",
+      "bytes": 18362
+    },
+    "compiler/compiler_service/verification_stage.py": {
+      "sha256": "c40ca9d74fe3aaffcb8b3dc941ea9c5c7bd767685c81ede08478540fd7aa703c",
+      "bytes": 11230
+    }
+  },
+  "closure_note": "AST discovery followed by pruning to union of actual imported modules for the two offline replays. Optional server/model branches are outside this excerpt and unsupported."
+}

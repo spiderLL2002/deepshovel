@@ -1,0 +1,652 @@
+{
+  "format": "deepshovel-text-free-graph/1",
+  "paper_id": "paper:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+  "snapshot_id": "snapshot:sha256:0095ba1e8ff263587006000bd5fc95a791cd86d8f109f1937385343fb58e8228",
+  "original_graph_json_sha256": "0095ba1e8ff263587006000bd5fc95a791cd86d8f109f1937385343fb58e8228",
+  "graph": {
+    "artifacts": [
+      {
+        "id": "artifact:7ac072c1-aa8f-4b0e-8c0e-c8391a188d3f",
+        "kind": "artifact"
+      }
+    ],
+    "artifact_versions": [
+      {
+        "id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "artifact_version",
+        "artifact_id": "artifact:7ac072c1-aa8f-4b0e-8c0e-c8391a188d3f",
+        "sha256": "d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "media_type": "application/pdf"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "anchor.geo.conclusion",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.geo.fig8",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 21
+        }
+      },
+      {
+        "id": "anchor.geo.limit",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.geo.louis.name",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.geo.louis.occ",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.geo.pd.occ1",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.geo.pd.occ2",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.geo.pd.title",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.geo.route.a",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.geo.route.b",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.geo.septo.occ",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 13
+        }
+      },
+      {
+        "id": "anchor.tx.biozone",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 22
+        }
+      },
+      {
+        "id": "anchor.tx.description.continuation",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.tx.description.start",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      },
+      {
+        "id": "anchor.tx.noancestry",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.tx.paradagmaritopsis.short",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.tx.paradagmaritopsis.uncoiled",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 18
+        }
+      },
+      {
+        "id": "anchor.tx.subfamily",
+        "artifact_version_id": "artifact-version:sha256:d79689cfeba85f6b685dc0dbe13344fe62282bd6cf6ff46fa524a0efdbdc31f4",
+        "kind": "source_anchor",
+        "selector": {
+          "page": 17
+        }
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs.author.biozonation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.tx.biozone"
+        ]
+      },
+      {
+        "id": "obs.author.paleobiogeography",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.geo.conclusion"
+        ]
+      },
+      {
+        "id": "obs.louisettita.distribution",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.geo.louis.name",
+          "anchor.geo.louis.occ"
+        ]
+      },
+      {
+        "id": "obs.migration.limitation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.geo.limit"
+        ]
+      },
+      {
+        "id": "obs.no.dagmarita.filiation",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.tx.noancestry"
+        ]
+      },
+      {
+        "id": "obs.paleogeographic.model",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.geo.fig8",
+          "anchor.geo.route.a",
+          "anchor.geo.route.b"
+        ]
+      },
+      {
+        "id": "obs.paradagmaritinae.description",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.tx.description.continuation",
+          "anchor.tx.description.start",
+          "anchor.tx.subfamily"
+        ]
+      },
+      {
+        "id": "obs.paradagmaritopsis.distribution",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.geo.pd.occ1",
+          "anchor.geo.pd.occ2",
+          "anchor.geo.pd.title"
+        ]
+      },
+      {
+        "id": "obs.paradagmaritopsis.morphology",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.geo.pd.title",
+          "anchor.tx.paradagmaritopsis.short",
+          "anchor.tx.paradagmaritopsis.uncoiled"
+        ]
+      },
+      {
+        "id": "obs.septoglobivalvulina.distribution",
+        "kind": "observation",
+        "anchor_ids": [
+          "anchor.geo.septo.occ"
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "id": "reason.ancestry.caution",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.tx.noancestry"
+        ]
+      },
+      {
+        "id": "reason.biozonation.synthesis",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.tx.biozone",
+          "anchor.tx.description.continuation",
+          "anchor.tx.description.start",
+          "anchor.tx.noancestry",
+          "anchor.tx.paradagmaritopsis.short",
+          "anchor.tx.paradagmaritopsis.uncoiled",
+          "anchor.tx.subfamily"
+        ]
+      },
+      {
+        "id": "reason.connectivity.limits",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.geo.limit"
+        ]
+      },
+      {
+        "id": "reason.morphological.grouping",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.tx.description.continuation",
+          "anchor.tx.description.start",
+          "anchor.tx.paradagmaritopsis.short",
+          "anchor.tx.paradagmaritopsis.uncoiled",
+          "anchor.tx.subfamily"
+        ]
+      },
+      {
+        "id": "reason.other.taxon.ranges",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.geo.louis.occ",
+          "anchor.geo.septo.occ"
+        ]
+      },
+      {
+        "id": "reason.paleobiogeographic.interpretation",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.geo.conclusion",
+          "anchor.geo.fig8",
+          "anchor.geo.route.a",
+          "anchor.geo.route.b"
+        ]
+      },
+      {
+        "id": "reason.paradagmaritopsis.range",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.geo.pd.occ1",
+          "anchor.geo.pd.occ2"
+        ]
+      },
+      {
+        "id": "reason.regional.overlap",
+        "kind": "reasoning",
+        "anchor_ids": [
+          "anchor.geo.louis.occ",
+          "anchor.geo.pd.occ1",
+          "anchor.geo.pd.occ2",
+          "anchor.geo.septo.occ"
+        ]
+      }
+    ],
+    "assumptions": [],
+    "claims": [
+      {
+        "id": "claim:sha256:21874631f049f90ffb18022daf355dd8081c367bc3dafd2d73f4f46aecd80ecb",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.geo.conclusion",
+          "anchor.geo.fig8",
+          "anchor.geo.limit",
+          "anchor.geo.louis.name",
+          "anchor.geo.louis.occ",
+          "anchor.geo.pd.occ1",
+          "anchor.geo.pd.occ2",
+          "anchor.geo.pd.title",
+          "anchor.geo.route.a",
+          "anchor.geo.route.b",
+          "anchor.geo.septo.occ"
+        ],
+        "source_id": "claim.interconnection"
+      },
+      {
+        "id": "claim:sha256:ce03da52f0775717c4bd6247cb9fea09d22ec054cb4fd039c088703db20cff84",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.geo.pd.title",
+          "anchor.tx.biozone",
+          "anchor.tx.description.continuation",
+          "anchor.tx.description.start",
+          "anchor.tx.noancestry",
+          "anchor.tx.paradagmaritopsis.short",
+          "anchor.tx.paradagmaritopsis.uncoiled",
+          "anchor.tx.subfamily"
+        ],
+        "source_id": "claim.biozonation.framework"
+      },
+      {
+        "id": "claim:sha256:d981984475a798758b95a882c301d99e0bd03f3abc0eef34adddad00247ec36e",
+        "kind": "atomic_claim",
+        "anchor_ids": [
+          "anchor.geo.conclusion",
+          "anchor.geo.louis.name",
+          "anchor.geo.louis.occ",
+          "anchor.geo.pd.occ1",
+          "anchor.geo.pd.occ2",
+          "anchor.geo.pd.title",
+          "anchor.geo.septo.occ"
+        ],
+        "source_id": "claim.similar.assemblages"
+      }
+    ],
+    "visual_evidence": [],
+    "edges": [
+      {
+        "id": "edge.grounds.geo1a",
+        "kind": "edge",
+        "source_id": "anchor.geo.pd.title",
+        "target_id": "obs.paradagmaritopsis.distribution",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.geo1b",
+        "kind": "edge",
+        "source_id": "anchor.geo.pd.occ1",
+        "target_id": "obs.paradagmaritopsis.distribution",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.geo1c",
+        "kind": "edge",
+        "source_id": "anchor.geo.pd.occ2",
+        "target_id": "obs.paradagmaritopsis.distribution",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.geo2a",
+        "kind": "edge",
+        "source_id": "anchor.geo.louis.name",
+        "target_id": "obs.louisettita.distribution",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.geo2b",
+        "kind": "edge",
+        "source_id": "anchor.geo.louis.occ",
+        "target_id": "obs.louisettita.distribution",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.geo3",
+        "kind": "edge",
+        "source_id": "anchor.geo.septo.occ",
+        "target_id": "obs.septoglobivalvulina.distribution",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.geo4",
+        "kind": "edge",
+        "source_id": "anchor.geo.conclusion",
+        "target_id": "obs.author.paleobiogeography",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.geo5a",
+        "kind": "edge",
+        "source_id": "anchor.geo.route.a",
+        "target_id": "obs.paleogeographic.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.geo5b",
+        "kind": "edge",
+        "source_id": "anchor.geo.route.b",
+        "target_id": "obs.paleogeographic.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.geo5c",
+        "kind": "edge",
+        "source_id": "anchor.geo.fig8",
+        "target_id": "obs.paleogeographic.model",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.geo6",
+        "kind": "edge",
+        "source_id": "anchor.geo.limit",
+        "target_id": "obs.migration.limitation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tx1a",
+        "kind": "edge",
+        "source_id": "anchor.tx.subfamily",
+        "target_id": "obs.paradagmaritinae.description",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tx1b",
+        "kind": "edge",
+        "source_id": "anchor.tx.description.start",
+        "target_id": "obs.paradagmaritinae.description",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tx1c",
+        "kind": "edge",
+        "source_id": "anchor.tx.description.continuation",
+        "target_id": "obs.paradagmaritinae.description",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tx2a",
+        "kind": "edge",
+        "source_id": "anchor.geo.pd.title",
+        "target_id": "obs.paradagmaritopsis.morphology",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tx2b",
+        "kind": "edge",
+        "source_id": "anchor.tx.paradagmaritopsis.short",
+        "target_id": "obs.paradagmaritopsis.morphology",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tx2c",
+        "kind": "edge",
+        "source_id": "anchor.tx.paradagmaritopsis.uncoiled",
+        "target_id": "obs.paradagmaritopsis.morphology",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tx3",
+        "kind": "edge",
+        "source_id": "anchor.tx.noancestry",
+        "target_id": "obs.no.dagmarita.filiation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.grounds.tx4",
+        "kind": "edge",
+        "source_id": "anchor.tx.biozone",
+        "target_id": "obs.author.biozonation",
+        "relation": "grounds"
+      },
+      {
+        "id": "edge.premise.geo1",
+        "kind": "edge",
+        "source_id": "obs.paradagmaritopsis.distribution",
+        "target_id": "reason.paradagmaritopsis.range",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.geo2a",
+        "kind": "edge",
+        "source_id": "obs.louisettita.distribution",
+        "target_id": "reason.other.taxon.ranges",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.geo2b",
+        "kind": "edge",
+        "source_id": "obs.septoglobivalvulina.distribution",
+        "target_id": "reason.other.taxon.ranges",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.geo3a",
+        "kind": "edge",
+        "source_id": "reason.paradagmaritopsis.range",
+        "target_id": "reason.regional.overlap",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.geo3b",
+        "kind": "edge",
+        "source_id": "reason.other.taxon.ranges",
+        "target_id": "reason.regional.overlap",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.geo4a",
+        "kind": "edge",
+        "source_id": "reason.regional.overlap",
+        "target_id": "reason.paleobiogeographic.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.geo4b",
+        "kind": "edge",
+        "source_id": "obs.author.paleobiogeography",
+        "target_id": "reason.paleobiogeographic.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.geo4c",
+        "kind": "edge",
+        "source_id": "obs.paleogeographic.model",
+        "target_id": "reason.paleobiogeographic.interpretation",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.geo5",
+        "kind": "edge",
+        "source_id": "obs.migration.limitation",
+        "target_id": "reason.connectivity.limits",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tx1a",
+        "kind": "edge",
+        "source_id": "obs.paradagmaritinae.description",
+        "target_id": "reason.morphological.grouping",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tx1b",
+        "kind": "edge",
+        "source_id": "obs.paradagmaritopsis.morphology",
+        "target_id": "reason.morphological.grouping",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tx2",
+        "kind": "edge",
+        "source_id": "obs.no.dagmarita.filiation",
+        "target_id": "reason.ancestry.caution",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tx3a",
+        "kind": "edge",
+        "source_id": "reason.morphological.grouping",
+        "target_id": "reason.biozonation.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tx3b",
+        "kind": "edge",
+        "source_id": "reason.ancestry.caution",
+        "target_id": "reason.biozonation.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.premise.tx3c",
+        "kind": "edge",
+        "source_id": "obs.author.biozonation",
+        "target_id": "reason.biozonation.synthesis",
+        "relation": "premise_for"
+      },
+      {
+        "id": "edge.qualifies.geo",
+        "kind": "edge",
+        "source_id": "reason.connectivity.limits",
+        "target_id": "claim:sha256:21874631f049f90ffb18022daf355dd8081c367bc3dafd2d73f4f46aecd80ecb",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.qualifies.tx",
+        "kind": "edge",
+        "source_id": "reason.ancestry.caution",
+        "target_id": "claim:sha256:ce03da52f0775717c4bd6247cb9fea09d22ec054cb4fd039c088703db20cff84",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.geo1",
+        "kind": "edge",
+        "source_id": "reason.paleobiogeographic.interpretation",
+        "target_id": "claim:sha256:d981984475a798758b95a882c301d99e0bd03f3abc0eef34adddad00247ec36e",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.geo2",
+        "kind": "edge",
+        "source_id": "reason.paleobiogeographic.interpretation",
+        "target_id": "claim:sha256:21874631f049f90ffb18022daf355dd8081c367bc3dafd2d73f4f46aecd80ecb",
+        "relation": "infers"
+      },
+      {
+        "id": "edge.support.tx",
+        "kind": "edge",
+        "source_id": "reason.biozonation.synthesis",
+        "target_id": "claim:sha256:ce03da52f0775717c4bd6247cb9fea09d22ec054cb4fd039c088703db20cff84",
+        "relation": "infers"
+      }
+    ]
+  }
+}
