@@ -47,6 +47,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Python dependencies for the offline cross-language fixture
+        run: |
+          python -m venv compiler/.venv
+          compiler/.venv/bin/python -m pip install -r repro/requirements.lock pytest==8.4.2
       - run: npm run install:ci
       - run: npm run contract:check
       - run: npm run build

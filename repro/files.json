@@ -7,8 +7,8 @@
       "bytes": 146
     },
     ".github/workflows/reproduce.yml": {
-      "sha256": "93c7ed7175ef5b47dfa954dc37f439038f4e5554645a38e6d226dd107ad39d13",
-      "bytes": 1389
+      "sha256": "545d650a00196f5dbcdb5aa5295c2dab40de08337e35592a60b806ec0206b7fc",
+      "bytes": 1702
     },
     ".gitignore": {
       "sha256": "004b501c24ad235484a02ecef44fdcf1132f87e47b3cd4e10ae9b20724fcaf7e",
@@ -2659,8 +2659,8 @@
       "bytes": 14038
     },
     "docs/source-snapshot.json": {
-      "sha256": "5bf124575e1fabe14c8995598c6aebebcb5c1368e59bf0f08cb23b8a83010455",
-      "bytes": 126978
+      "sha256": "73d937ce9ed12e0331bed957b56e4f560289c89308b42df39d9cd87da22ef33d",
+      "bytes": 126977
     },
     "drizzle.config.ts": {
       "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b",
@@ -3222,6 +3222,10 @@
       "sha256": "42d3c867821878c7305096241ce54f04e1998725f29584bda172750c41a5afc0",
       "bytes": 1726
     },
+    "scripts/refresh-manifest.py": {
+      "sha256": "9246a83b1fb8ae6742a266f963cc5c3e41c8aa66c8ac4199343baa1ba2d9e4ad",
+      "bytes": 1194
+    },
     "scripts/reproduce.py": {
       "sha256": "eda771635c389923beab329009a3b8b8d482428faa0e29a2b98b1663ec1bbf65",
       "bytes": 8036
@@ -3319,8 +3323,8 @@
       "bytes": 17397
     },
     "tests/backend-compile-route.test.mjs": {
-      "sha256": "261b82fbe69a1a0a90e3b59802ff1065fbf408d25ccde42e34a9390aea7ffbb1",
-      "bytes": 67115
+      "sha256": "ed4cb2b296123fdb32927e3087493be43363fd8586919f11ab28122f672dd23c",
+      "bytes": 67357
     },
     "tests/backend-compiler-client.test.mjs": {
       "sha256": "7bd0c01c1f791a5ea74fdbfb52a7772f115c3a8b3390deee8f3042be4a81eeee",

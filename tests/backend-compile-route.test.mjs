@@ -492,6 +492,16 @@ function cancelRequest(body, actor = "alice@example.test") {
   });
 }
 
+// Wait for the tested state rather than a CPU-dependent number of event-loop
+// turns. Hashing uses the worker pool and may finish later on a loaded CI host.
+async function waitForFixtureState(predicate, label) {
+  const deadline = Date.now() + 10_000;
+  while (!predicate()) {
+    assert.ok(Date.now() < deadline, label);
+    await new Promise((resolve) => setTimeout(resolve, 1));
+  }
+}
+
 function installFixture(fixtureValue, fetchImpl, bytes = fixtureValue.bytes) {
   bindings.DB = new MemoryD1(fixtureValue.context);
   bindings.BUCKET = new MemoryR2(fixtureValue.context.objectKey, bytes);
@@ -1380,9 +1390,7 @@ test("a late submission response cannot resurrect an expired reservation", async
     "alice@example.test",
     "compile-late-submit",
   ));
-  for (let index = 0; index < 2000 && db.compileJobs.size === 0; index += 1) {
-    await new Promise((resolve) => setImmediate(resolve));
-  }
+  await waitForFixtureState(() => db.compileJobs.size > 0, "submission must reserve its local job");
   assert.equal(db.compileJobs.size, 1);
   const reservation = [...db.compileJobs.values()][0];
   reservation.expiresAt = "2000-01-01T00:00:00.000Z";
@@ -1418,9 +1426,7 @@ test("a Compiler response arriving after Artifact deletion purges its unowned up
     "alice@example.test",
     "compile-deleted-during-submit",
   ));
-  for (let index = 0; index < 2000 && db.compileJobs.size === 0; index += 1) {
-    await new Promise((resolve) => setImmediate(resolve));
-  }
+  await waitForFixtureState(() => db.compileJobs.size > 0, "submission must reserve its local job");
   assert.equal(db.compileJobs.size, 1);
   db.compileJobs.clear(); // Simulates the final atomic whole-Artifact purge.
 
@@ -1439,16 +1445,12 @@ test("same-timestamp concurrent polls cannot regress a Compiler stage", async ()
     if (init.method === "POST") return jsonResponse(jobEnvelope("queued"));
     statusCalls += 1;
     if (statusCalls === 1) {
-      for (let index = 0; index < 2000 && statusCalls < 2; index += 1) {
-        await new Promise((resolve) => setImmediate(resolve));
-      }
+      await waitForFixtureState(() => statusCalls >= 2, "both polls must reach the upstream fixture");
       const validating = jobEnvelope("validating");
       validating.job.updated_at = "2026-08-15T05:00:01Z";
       return jsonResponse(validating);
     }
-    for (let index = 0; index < 2000 && [...db.compileJobs.values()][0]?.stage !== "validating"; index += 1) {
-      await new Promise((resolve) => setImmediate(resolve));
-    }
+    await waitForFixtureState(() => [...db.compileJobs.values()][0]?.stage === "validating", "validating must be committed before the stale response");
     const extracting = jobEnvelope("extracting");
     extracting.job.updated_at = "2026-08-15T05:00:01Z";
     return jsonResponse(extracting);
