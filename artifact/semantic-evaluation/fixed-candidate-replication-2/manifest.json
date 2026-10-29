@@ -1,0 +1,43 @@
+{
+  "experiment": "fixed-candidate argument context ablation",
+  "created_at": "2026-10-29T13:18:34.044823+00:00",
+  "cases_sha256": "d8268bc3ac672315036da4f704b66927d6f3c41947b32b8bb6241b3f29942d7f",
+  "logical_concurrency": 2,
+  "model": "gpt-6-luna",
+  "base_url": "https://api.iiot-shxt.xyz/v1",
+  "reasoning_effort": "medium",
+  "interactive": true,
+  "timeout": null,
+  "hedge_start_seconds": [
+    0,
+    10,
+    20
+  ],
+  "fallback_model": "deepseek-v4-flash",
+  "fallback_configured": true,
+  "profile": {
+    "max_attempts": 3,
+    "interactive": true,
+    "fallback_attempts": 3
+  },
+  "prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "schema_sha256": "80d94a5ff19dd08749fcf0b54ba454b735de1443c819ac532e753bd34150434b",
+  "production_source_sha256": {
+    "compiler/compiler_service/retrieval_providers.py": "71dd94dc0bdbe5bd851cdbe82573dc2767b19a33168613413228d7ede5a944bc",
+    "compiler/compiler_service/retrieval_contract.py": "940b05865c373b4003475d0b32e68207402574032a38e18db675e517ab6c91f4",
+    "compiler/compiler_service/model_client.py": "054ee4c9f2be9839daff9f2e815a5f9d98ae66214cf6686cfe7de82d1b3e098a",
+    "compiler/compiler_service/gpt_responses.py": "bc6bf9db6adb6668354f70ab1d3564bc70e8436ba3e1b64616ab28f52606360c",
+    "compiler/compiler_service/config.py": "94e033a2129d51f8866c74541245a84b20b284a94ab617afcc9fbb1499ee0766",
+    "lib/evidence-retrieval/arguments.ts": "3b72c554cfbfbcb65fa042d92b8faf087f1512e3c78c0474ffd7b2b62569f0bc"
+  },
+  "public_graph_sha256": {
+    "q16": "fd2844102f95bcb9f87450a0bcaf456ee80403d8c11e3e2f63af1b03ebddac5b",
+    "q30": "954cd3b02d7a6585065a0e4f4241f9789e18bc15cd47c819d013d72cee37a3d1",
+    "q70": "1fba9f0c6a5dd1765c79ef9175c46b71fdf533716697451ff97486bcaa9cf4b1",
+    "q90": "f325bb14fc8b244e244443592ff6308a6075028988a1302914bd503b287ad805",
+    "q110": "5cd001477f1bf3ba907e43aeb17de2881a19f11e419fa39a4905b0cdc14f6d06"
+  },
+  "design": "one designated candidate per query; identical claim/scope/model/prompt/schema; only argument field differs",
+  "limits": "single production invocation per condition; production hedged attempts retained; no experiment retry; no application timeout; no retrieval/query-planning confound",
+  "scoring": "frozen accepted relation membership; direction scored separately; no label edits"
+}

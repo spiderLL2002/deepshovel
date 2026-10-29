@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "live": true,
+  "steps": [
+    {
+      "name": "release-files",
+      "exit_code": 0,
+      "seconds": 0.2983088340006361
+    },
+    {
+      "name": "dependencies",
+      "exit_code": 0,
+      "seconds": 10.477379000001747
+    },
+    {
+      "name": "retrieval-metrics",
+      "exit_code": 0,
+      "seconds": 0.06127470899991749
+    },
+    {
+      "name": "argument-expansion",
+      "exit_code": 0,
+      "seconds": 0.30613850000008824
+    },
+    {
+      "name": "semantic-metrics",
+      "exit_code": 0,
+      "seconds": 0.06633191699984309
+    },
+    {
+      "name": "semantic-inputs",
+      "exit_code": 0,
+      "seconds": 1.0495955829992454
+    },
+    {
+      "name": "research-sources",
+      "exit_code": 0,
+      "seconds": 0.05221295800038206
+    },
+    {
+      "name": "research-claims",
+      "exit_code": 0,
+      "seconds": 0.47140924999985145
+    },
+    {
+      "name": "research-trace",
+      "exit_code": 0,
+      "seconds": 0.04487529200014251
+    },
+    {
+      "name": "research-computation",
+      "exit_code": 0,
+      "seconds": 9.453051750000668
+    },
+    {
+      "name": "fresh-model-comparisons",
+      "exit_code": 0,
+      "seconds": 111.97992766700008
+    },
+    {
+      "name": "fresh-source-passages",
+      "exit_code": 0,
+      "seconds": 66.77967329100102
+    },
+    {
+      "name": "fresh-public-queries",
+      "exit_code": 0,
+      "seconds": 525.1471999999994
+    }
+  ]
+}

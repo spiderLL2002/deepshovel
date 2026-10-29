@@ -22,5 +22,20 @@
     "token_matched": false
   },
   "research_stages": 10,
-  "research_files_byte_identical": 76
+  "research_files_byte_identical": 76,
+  "complete_command_repeat": {
+    "public_commit": "2f1621f",
+    "command": "python3.12 scripts/reproduce_paper.py --out runs/paper-live-complete --live",
+    "passed": true,
+    "fresh_model_calls": 90,
+    "public_queries": 30,
+    "public_completed": 30,
+    "public_accepted_target_relation": 30,
+    "public_query_median_seconds": 33.24701618749987,
+    "public_query_range_seconds": [
+      28.4730338749996,
+      58.454045415999644
+    ],
+    "record": "../../repro/paper-live-complete-execution.json"
+  }
 }

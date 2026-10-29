@@ -1,0 +1,90 @@
+{
+  "id": "q90-3",
+  "condition": "source_passages",
+  "started_at": "2026-10-29T13:21:07.165247+00:00",
+  "query": "Using the same rates and reducing-water volumes but only 45 reducing days per year, western Indian shelf denitrification removes 3.70–11.1 Tg per year.",
+  "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+  "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+  "user_content": "{\"candidates\":[{\"argument\":{\"source_passages\":[{\"source_anchor_id\":\"a.annual.prose\",\"text\":\"Applying our 3 years average N-loss rates to this volume and assuming the reducing condition to last for 90 days, the overall N-loss would range from $3 . 7 0 \\\\pm 0 . 0 9 1$ to $1 1 . 1 \\\\pm 2 . 7 2 \\\\mathrm { ~ T g ~ y e a r } ^ { - 1 }$ via denitrification, and from $0 . 0 9 \\\\pm 0 . 0 1$ to $0 . 2 7 \\\\pm 0 . 0 3$ Tg year−1 via anammox (Table 2).\"},{\"source_anchor_id\":\"a.area.functional\",\"text\":\"However, $\\\\mathrm { O } _ { 2 }$ levels over this entire area are not low enough to support reductive N-loss, and as a lower limit about one third of the entire shelf, $6 0 , 0 0 0 ~ \\\\mathrm { k m } ^ { 2 }$ was assumed to functionally anoxic.\"},{\"source_anchor_id\":\"a.area.hypoxic\",\"text\":\"(2000) estimated the area of the hypoxic zone over the WCSI to be $1 8 0 , 0 0 0 ~ \\\\mathrm { k m } ^ { 2 }$ .\"},{\"source_anchor_id\":\"a.denit.mean\",\"text\":\"The mean values of our 3- year N-loss rates through denitrification and anammox were $2 . 4 5 \\\\pm 0 . 6$ and $0 . 0 6 \\\\pm \\\\mathrm { { \\\\bar { 0 } } . 0 0 4 ~ \\\\mu m o l ~ N _ { 2 } ~ L ^ { - 1 } ~ d ^ { - 1 } }$ , respectively.\"},{\"source_anchor_id\":\"a.prior.compare\",\"text\":\"Our estimate is also almost three times higher than the previous estimate derived from changes in nitrate concentrations over time (Naik, 2003).\"},{\"source_anchor_id\":\"a.scale.volume\",\"text\":\"The total volume of reducing water was estimated to range between 1.2 and $3 . 6 \\\\times 1 0 ^ { 1 2 } \\\\mathrm { ~ m } ^ { \\\\bar { 3 } }$ taking the thickness of the reducing layer to be $2 0 ~ \\\\mathrm { m }$ .\"},{\"source_anchor_id\":\"a.table2\",\"text\":\"TABLE 2 | Total nitrogen loss (mean and standard deviation values) from eastern Arabian Sea from present study and comparison with earlier data extrapolated to the OMZ area and thickness adopted from Naqvi et al. (2000). \"},{\"source_anchor_id\":\"a.table2.caption\",\"text\":\"TABLE 2 | Total nitrogen loss (mean and standard deviation values) from eastern Arabian Sea from present study and comparison with earlier data extrapolated to the OMZ area and thickness adopted from Naqvi et al.\"}]},\"claim\":\"Extrapolating isotope-pairing denitrification rates over the western Indian continental shelf estimates annual fixed-nitrogen removal via denitrification at 3.70–11.1 Tg year−1; Table 2 reports the upper endpoint as 11.11.\",\"id\":1,\"scope\":{\"condition\":[\"seasonal anoxia\"],\"entities\":[\"annual fixed-nitrogen removal via denitrification\",\"western Indian continental shelf (WICS)\"],\"formation\":[],\"location\":[\"western Indian continental shelf, eastern Arabian Sea\"],\"measurement\":[\"annualized fixed-nitrogen removal\"],\"method\":[\"extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume\"],\"sample_type\":[\"estimated reducing-water volume over the shelf\"],\"time\":{\"label\":\"annualized from three-year sampling using an assumed 90-day reducing season\"},\"uncertainty\":\"shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty\"}}],\"query\":\"Using the same rates and reducing-water volumes but only 45 reducing days per year, western Indian shelf denitrification removes 3.70–11.1 Tg per year.\"}",
+  "user_content_sha256": "c2c926a8469443e2cda255e8621335bc32119b1aa509b277280553f9027ed87e",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T13:21:07.187257+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "c2c926a8469443e2cda255e8621335bc32119b1aa509b277280553f9027ed87e",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291321073623025348268d9d6PyZKnK9u"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 154
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_08c35b7e7713364f016ae34843f9ac819199cebbe32f16342d",
+        "output_bytes": 108,
+        "output_sha256": "110abdba5afa30aeb60182c32a4e0c0d73af03fa48194ca2b4be82c7a81e1efb",
+        "usage": {
+          "prompt_tokens": 1482,
+          "completion_tokens": 198,
+          "total_tokens": 1680
+        },
+        "elapsed_seconds": 4.014,
+        "finished_at": "2026-10-29T13:21:11.201521+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"qualifies\",\"direction\":\"result_to_query\",\"scope\":\"overlap\",\"score\":0.97}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.97
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "110abdba5afa30aeb60182c32a4e0c0d73af03fa48194ca2b4be82c7a81e1efb",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 108,
+      "content_sha256": "110abdba5afa30aeb60182c32a4e0c0d73af03fa48194ca2b4be82c7a81e1efb",
+      "usage": {
+        "prompt_tokens": 1482,
+        "completion_tokens": 198,
+        "total_tokens": 1680,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 4.016084124999907,
+  "finished_at": "2026-10-29T13:21:11.202934+00:00"
+}

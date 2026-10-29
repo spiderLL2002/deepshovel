@@ -8,7 +8,9 @@ ROOT = Path(__file__).resolve().parent
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--run', default='fixed-candidate-ablation-v2')
-RUN = ROOT / parser.parse_args().run
+parser.add_argument('--passages-run', default='source-passages-baseline')
+args = parser.parse_args()
+RUN = ROOT / args.run
 sha = lambda value: hashlib.sha256(value if isinstance(value, bytes) else value.encode()).hexdigest()
 cases = json.loads((ROOT / 'semantic-cases.frozen.json').read_text())['cases']
 manifest = json.loads((RUN / 'manifest.json').read_text())
@@ -46,7 +48,7 @@ for case in cases:
 print(json.dumps({key: {'accepted_relation': sum(relation_scores[key]), 'accepted_relation_and_direction': sum(scores[key]), 'total': len(scores[key]),
                        'mean_seconds': mean(latencies[key])} for key in scores}, indent=2))
 
-passages_run = ROOT / 'source-passages-baseline'
+passages_run = ROOT / args.passages_run
 passages_manifest = json.loads((passages_run / 'manifest.json').read_text())
 assert passages_manifest['cases_sha256'] == manifest['cases_sha256']
 passages_correct = 0

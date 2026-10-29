@@ -1,0 +1,90 @@
+{
+  "id": "q16-3",
+  "condition": "source_passages",
+  "started_at": "2026-10-29T13:20:30.677684+00:00",
+  "query": "Throughout all of Africa, crustal thickness averages 22 ± 4 km.",
+  "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+  "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+  "user_content": "{\"candidates\":[{\"argument\":{\"source_passages\":[{\"source_anchor_id\":\"anchor.text.h_abs\",\"text\":\"Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\\\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.\"},{\"source_anchor_id\":\"anchor.text.h_asym\",\"text\":\"The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E.\"}]},\"claim\":\"Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.\",\"id\":1,\"scope\":{\"condition\":[\"along ~200 km profile; station-specific Vp\"],\"entities\":[\"Red Sea rift\",\"Tendaho graben\",\"crustal thickness\",\"overlap zone\"],\"formation\":[\"Red Sea rift, Tendaho graben, Dobi graben, overlap zone\"],\"location\":[\"Afar Depression, Ethiopia\"],\"measurement\":[\"crustal thickness H\"],\"method\":[\"receiver function H-κ stacking\"],\"sample_type\":[\"broadband seismic stations\"],\"time\":{\"label\":\"2010–2011 ALIE array plus early-2000 to mid-2012 data\"},\"uncertainty\":\"bootstrap standard errors\"}}],\"query\":\"Throughout all of Africa, crustal thickness averages 22 ± 4 km.\"}",
+  "user_content_sha256": "ad0438c6c2e9543c7f2a1a4de40236410baca278f0b8e0b94d2108d28503a57a",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T13:20:30.698813+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "ad0438c6c2e9543c7f2a1a4de40236410baca278f0b8e0b94d2108d28503a57a",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291320308590437988268d9d69Ak7euM3"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 106
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_03f5522e30b71861016ae3481f83ec8191944a5cddd17ed7a2",
+        "output_bytes": 121,
+        "output_sha256": "de0b332857f30fb71ef302700ebbd287a519fcde67cc82c137aa579f585d4ecb",
+        "usage": {
+          "prompt_tokens": 981,
+          "completion_tokens": 151,
+          "total_tokens": 1132
+        },
+        "elapsed_seconds": 3.726,
+        "finished_at": "2026-10-29T13:20:34.424709+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"related\",\"direction\":\"result_to_query\",\"scope\":\"candidate_within_query\",\"score\":0.98}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.98
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "de0b332857f30fb71ef302700ebbd287a519fcde67cc82c137aa579f585d4ecb",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 121,
+      "content_sha256": "de0b332857f30fb71ef302700ebbd287a519fcde67cc82c137aa579f585d4ecb",
+      "usage": {
+        "prompt_tokens": 981,
+        "completion_tokens": 151,
+        "total_tokens": 1132,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 3.7278176250001707,
+  "finished_at": "2026-10-29T13:20:34.426202+00:00"
+}

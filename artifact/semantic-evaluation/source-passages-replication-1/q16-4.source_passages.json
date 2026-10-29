@@ -1,0 +1,90 @@
+{
+  "id": "q16-4",
+  "condition": "source_passages",
+  "started_at": "2026-10-29T13:12:46.521653+00:00",
+  "query": "In this Afar study, the reported average crustal thickness of 22 ± 4 km was obtained from direct drilling rather than receiver-function stacking.",
+  "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+  "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+  "user_content": "{\"candidates\":[{\"argument\":{\"source_passages\":[{\"source_anchor_id\":\"anchor.text.h_abs\",\"text\":\"Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\\\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.\"},{\"source_anchor_id\":\"anchor.text.h_asym\",\"text\":\"The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E.\"}]},\"claim\":\"Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.\",\"id\":1,\"scope\":{\"condition\":[\"along ~200 km profile; station-specific Vp\"],\"entities\":[\"Red Sea rift\",\"Tendaho graben\",\"crustal thickness\",\"overlap zone\"],\"formation\":[\"Red Sea rift, Tendaho graben, Dobi graben, overlap zone\"],\"location\":[\"Afar Depression, Ethiopia\"],\"measurement\":[\"crustal thickness H\"],\"method\":[\"receiver function H-κ stacking\"],\"sample_type\":[\"broadband seismic stations\"],\"time\":{\"label\":\"2010–2011 ALIE array plus early-2000 to mid-2012 data\"},\"uncertainty\":\"bootstrap standard errors\"}}],\"query\":\"In this Afar study, the reported average crustal thickness of 22 ± 4 km was obtained from direct drilling rather than receiver-function stacking.\"}",
+  "user_content_sha256": "6f0012ef61f77fceb06b19d8a883471b14f4fca8995665de2082c1ecc3901a76",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T13:12:46.543474+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "6f0012ef61f77fceb06b19d8a883471b14f4fca8995665de2082c1ecc3901a76",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291312473506370938268d9d6YRgT0xcF"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 73
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_09069072a12921c5016ae34650051481918af565ff614b61a9",
+        "output_bytes": 110,
+        "output_sha256": "6fcfe5e124170b5c1375b1c04ba235f663f7f140479750257228280d4e36af35",
+        "usage": {
+          "prompt_tokens": 995,
+          "completion_tokens": 118,
+          "total_tokens": 1113
+        },
+        "elapsed_seconds": 4.285,
+        "finished_at": "2026-10-29T13:12:50.828507+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"contradicts\",\"direction\":\"result_to_query\",\"scope\":\"overlap\",\"score\":0.99}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "6fcfe5e124170b5c1375b1c04ba235f663f7f140479750257228280d4e36af35",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 110,
+      "content_sha256": "6fcfe5e124170b5c1375b1c04ba235f663f7f140479750257228280d4e36af35",
+      "usage": {
+        "prompt_tokens": 995,
+        "completion_tokens": 118,
+        "total_tokens": 1113,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 4.286323584001366,
+  "finished_at": "2026-10-29T13:12:50.829383+00:00"
+}

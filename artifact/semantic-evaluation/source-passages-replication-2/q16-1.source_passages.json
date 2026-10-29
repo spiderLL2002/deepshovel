@@ -1,0 +1,90 @@
+{
+  "id": "q16-1",
+  "condition": "source_passages",
+  "started_at": "2026-10-29T13:20:26.145754+00:00",
+  "query": "Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.",
+  "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+  "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+  "user_content": "{\"candidates\":[{\"argument\":{\"source_passages\":[{\"source_anchor_id\":\"anchor.text.h_abs\",\"text\":\"Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\\\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.\"},{\"source_anchor_id\":\"anchor.text.h_asym\",\"text\":\"The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E.\"}]},\"claim\":\"Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.\",\"id\":1,\"scope\":{\"condition\":[\"along ~200 km profile; station-specific Vp\"],\"entities\":[\"Red Sea rift\",\"Tendaho graben\",\"crustal thickness\",\"overlap zone\"],\"formation\":[\"Red Sea rift, Tendaho graben, Dobi graben, overlap zone\"],\"location\":[\"Afar Depression, Ethiopia\"],\"measurement\":[\"crustal thickness H\"],\"method\":[\"receiver function H-κ stacking\"],\"sample_type\":[\"broadband seismic stations\"],\"time\":{\"label\":\"2010–2011 ALIE array plus early-2000 to mid-2012 data\"},\"uncertainty\":\"bootstrap standard errors\"}}],\"query\":\"Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.\"}",
+  "user_content_sha256": "0f48b29823148f0429a686795d362151f9be515af373bf3d5268a2ac9231b702",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T13:20:26.176220+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "0f48b29823148f0429a686795d362151f9be515af373bf3d5268a2ac9231b702",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291320266558150608268d9d6Fq2OF6Cp"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 87
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_064ebc3aab0f24a5016ae3481bd7a08191ad30e2e5ddff4461",
+        "output_bytes": 112,
+        "output_sha256": "06b6bdc86c45bba6b92ef6a76b4fec619cb9ae8c60b4b41ed8e51eeacfc47f27",
+        "usage": {
+          "prompt_tokens": 1045,
+          "completion_tokens": 131,
+          "total_tokens": 1176
+        },
+        "elapsed_seconds": 5.793,
+        "finished_at": "2026-10-29T13:20:31.968841+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"equivalent\",\"direction\":\"result_to_query\",\"scope\":\"equivalent\",\"score\":0.99}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.99
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "06b6bdc86c45bba6b92ef6a76b4fec619cb9ae8c60b4b41ed8e51eeacfc47f27",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 112,
+      "content_sha256": "06b6bdc86c45bba6b92ef6a76b4fec619cb9ae8c60b4b41ed8e51eeacfc47f27",
+      "usage": {
+        "prompt_tokens": 1045,
+        "completion_tokens": 131,
+        "total_tokens": 1176,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 5.795034582999506,
+  "finished_at": "2026-10-29T13:20:31.970714+00:00"
+}

@@ -4,15 +4,17 @@ Thirty fixed comparisons from five papers test matching conclusions, contradicti
 
 | Model input | Reference relation matches |
 |---|---:|
-| Claim and scope, two runs | 28/30; 28/30 |
-| Full recorded argument, two runs | 29/30; 30/30 |
-| Original source passages, one run | 29/30 |
+| Claim and scope, three runs | 28/30; 28/30; 29/30 |
+| Full recorded argument, three runs | 29/30; 30/30; 30/30 |
+| Original source passages, three runs | 29/30; 29/30; 30/30 |
 
-The passage control uses only the source-anchor quotations already present in each expanded argument, without its reasoning statements or dependency links. It uses the same query, claim, scope, prompt and model configuration; token counts are not matched. The two repeated conditions use the same 30 cases.
+The passage control uses only the source-anchor quotations already present in each expanded argument, without its reasoning statements or dependency links. It uses the same query, claim, scope, prompt and model configuration; token counts are not matched. All repetitions use the same 30 frozen cases.
 
 A fresh public clone ran `scripts/reproduce_paper.py --live` successfully: all ten research stages, 60 new model calls and 30 public queries completed. Every designated claim appeared in the search preview; 29/30 received an accepted relation in the final output. Median full-query time was 36.1 seconds. [Execution report](../../repro/paper-live-execution.json) and [summary](replication-summary.json) record the run.
 
-All earlier runs remain available: `fixed-candidate-ablation/` uses the first prompt; `fixed-candidate-ablation-v2/` and `fixed-candidate-replication/` use the current relation prompt. Complete public query outputs are stored as compressed JSON, with expiring handoff tokens omitted. `source-passages-baseline/` contains its frozen inputs and original outputs.
+The expanded one-command run at commit `2f1621f` also completed all stages, including 90 fresh model calls and 30 public queries. All 30 public queries returned an accepted target relation; median time was 33.2 seconds (range 28.5–58.5 seconds). The [complete execution report](../../repro/paper-live-complete-execution.json) and `public-reproduction-queries-2/` preserve this repetition.
+
+All earlier runs remain available: `fixed-candidate-ablation/` uses the first prompt; `fixed-candidate-ablation-v2/`, `fixed-candidate-replication/` and `fixed-candidate-replication-2/` use the current relation prompt. Complete public query outputs are stored as compressed JSON, with expiring handoff tokens omitted. `source-passages-baseline/`, `source-passages-replication-1/` and `source-passages-replication-2/` contain the three passage-control runs.
 
 From the repository root, recompute the preserved scores:
 

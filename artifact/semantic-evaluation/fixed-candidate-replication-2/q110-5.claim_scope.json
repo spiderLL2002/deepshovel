@@ -1,0 +1,90 @@
+{
+  "id": "q110-5",
+  "condition": "claim_scope",
+  "started_at": "2026-10-29T13:20:13.958762+00:00",
+  "query": "The revised Fiskegrav chronology establishes collapse lasting more than 100 kyr.",
+  "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+  "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+  "user_content": "{\"candidates\":[{\"claim\":\"At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.\",\"id\":1,\"scope\":{\"condition\":[\"Shallow-marine shelf setting\"],\"entities\":[\"AOM\",\"Fiskegrav section\",\"Micrhystridium breve\",\"acritarchs\",\"freshwater run-off\",\"marine and terrestrial ecosystems\"],\"formation\":[\"Schuchert Dal and Wordie Creek formations\"],\"location\":[\"Fiskegrav, central Jameson Land, East Greenland\"],\"measurement\":[\"Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context\"],\"method\":[\"High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses\"],\"sample_type\":[\"Stratigraphic palynological samples\"],\"time\":{\"label\":\"Late Permian extinction and Permian–Triassic boundary\"},\"uncertainty\":\"Salinity is proxy-inferred; duration estimates depend on sedimentation rates.\"}}],\"query\":\"The revised Fiskegrav chronology establishes collapse lasting more than 100 kyr.\"}",
+  "user_content_sha256": "5af6dd3f30ba439243696367d6414b210d9cdd7974ca1d56eee3ba724f9fec17",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T13:20:13.979326+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "5af6dd3f30ba439243696367d6414b210d9cdd7974ca1d56eee3ba724f9fec17",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291320141752744868268d9d6CB3WYM17"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 87
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_047f08d531ee31a7016ae3480ea3e0819192f321c6018dd740",
+        "output_bytes": 111,
+        "output_sha256": "91836901c745142f110920080f8497ff03f93d0f6e65dcde8e13b44fcbf436be",
+        "usage": {
+          "prompt_tokens": 841,
+          "completion_tokens": 132,
+          "total_tokens": 973
+        },
+        "elapsed_seconds": 4.129,
+        "finished_at": "2026-10-29T13:20:18.108281+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"contradicts\",\"direction\":\"result_to_query\",\"scope\":\"disjoint\",\"score\":0.99}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.99
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "91836901c745142f110920080f8497ff03f93d0f6e65dcde8e13b44fcbf436be",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 111,
+      "content_sha256": "91836901c745142f110920080f8497ff03f93d0f6e65dcde8e13b44fcbf436be",
+      "usage": {
+        "prompt_tokens": 841,
+        "completion_tokens": 132,
+        "total_tokens": 973,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 4.132787750000716,
+  "finished_at": "2026-10-29T13:20:18.111702+00:00"
+}
