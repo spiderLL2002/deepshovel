@@ -19,7 +19,7 @@ All earlier runs remain available: `fixed-candidate-ablation/` uses the first pr
 From the repository root, recompute the preserved scores:
 
 ```sh
-python3 artifact/semantic-evaluation/verify_results.py
+python3 artifact/semantic-evaluation/verify_results.py --all
 ```
 
 To run new model comparisons, install the Compiler dependencies, provide `GPT_API_KEY` through your environment, and run:

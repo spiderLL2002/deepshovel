@@ -43,7 +43,7 @@ def main():
         run('dependencies', [python, '-m', 'pip', 'install', '-r', ROOT / 'repro/requirements-paper.lock'])
         run('retrieval-metrics', [python, ROOT / 'artifact/evaluation/evaluate.py'])
         run('argument-expansion', ['node', '--experimental-strip-types', '--no-warnings', ROOT / 'artifact/arguments/verify.mjs', '--out', output / 'arguments'])
-        run('semantic-metrics', [python, ROOT / 'artifact/semantic-evaluation/verify_results.py'])
+        run('semantic-metrics', [python, ROOT / 'artifact/semantic-evaluation/verify_results.py', '--all'])
         run('semantic-inputs', [python, ROOT / 'artifact/semantic-evaluation/run_fixed_candidate_ablation.py', '--prepare-only', '--out', output / 'prepared-model-inputs'])
         run('research-sources', [python, ROOT / 'artifact/gp15/fetch_external_sources.py'])
         run('research-claims', [python, ROOT / 'artifact/gp15/verify_demo.py'])

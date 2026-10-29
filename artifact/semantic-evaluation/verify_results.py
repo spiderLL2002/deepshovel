@@ -6,10 +6,22 @@ from statistics import mean
 
 ROOT = Path(__file__).resolve().parent
 import argparse
+import subprocess
+import sys
 parser = argparse.ArgumentParser()
+parser.add_argument('--all', action='store_true', help='Verify all three published repetitions')
 parser.add_argument('--run', default='fixed-candidate-ablation-v2')
 parser.add_argument('--passages-run', default='source-passages-baseline')
 args = parser.parse_args()
+if args.all:
+    runs = [('fixed-candidate-ablation-v2', 'source-passages-baseline'),
+            ('fixed-candidate-replication', 'source-passages-replication-1'),
+            ('fixed-candidate-replication-2', 'source-passages-replication-2')]
+    for number, (run, passages) in enumerate(runs, 1):
+        print(f'Repetition {number}', flush=True)
+        subprocess.run([sys.executable, str(Path(__file__).resolve()), '--run', run,
+                        '--passages-run', passages], check=True)
+    raise SystemExit(0)
 RUN = ROOT / args.run
 sha = lambda value: hashlib.sha256(value if isinstance(value, bytes) else value.encode()).hexdigest()
 cases = json.loads((ROOT / 'semantic-cases.frozen.json').read_text())['cases']
