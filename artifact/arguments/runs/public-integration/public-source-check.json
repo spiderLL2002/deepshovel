@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-10-29T03:13:16.453631+00:00",
+  "public_source_commit": "c880c22bf0facd6b0b79c2e934bad5063aa70a86",
+  "files": [
+    {
+      "source_path": "lib/evidence-graph/paths.ts",
+      "vendored_path": "vendor/lib/evidence-graph/paths.ts",
+      "sha256": "41dede039de099f2fdc9d5dc22dd563f85ff186f81e0bdf769332bcc67dabfd7",
+      "byte_identical": true
+    },
+    {
+      "source_path": "lib/evidence-graph/validation.ts",
+      "vendored_path": "vendor/lib/evidence-graph/validation.ts",
+      "sha256": "01030976d46e3951682190dcc3f3e5d4e15d365203db60becbead8cefe34ae93",
+      "byte_identical": true
+    },
+    {
+      "source_path": "lib/evidence-graph/canonical.ts",
+      "vendored_path": "vendor/lib/evidence-graph/canonical.ts",
+      "sha256": "3ddc7b8f36c3951bf4ec221c97df6624b3ce547c0e43b9970453028cddc9400e",
+      "byte_identical": true
+    },
+    {
+      "source_path": "lib/evidence-graph/types.ts",
+      "vendored_path": "vendor/lib/evidence-graph/types.ts",
+      "sha256": "ce456900f5f0070eb3a22627d0a16e1f2db9d8ffac9c6802258a78883ceb44ee",
+      "byte_identical": true
+    },
+    {
+      "source_path": "lib/shared-contract.generated.ts",
+      "vendored_path": "vendor/lib/shared-contract.generated.ts",
+      "sha256": "29b1b8ba5a35ef406bd7a2c719c9a3b27f7e5cf3b8d457da069a756842b98177",
+      "byte_identical": true
+    }
+  ],
+  "license_byte_identical": true,
+  "original_fixture_copies_byte_identical": true,
+  "copied_files": 16,
+  "copied_temporary_files": []
+}

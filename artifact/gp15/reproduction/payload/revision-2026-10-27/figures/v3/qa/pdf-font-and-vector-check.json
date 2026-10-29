@@ -1,0 +1,54 @@
+[
+  {
+    "path": "fig01_sampling_support.pdf",
+    "sha256": "734b69a23315ac20c1675564007d852dabf132480f36517d4fd5b02a5c857aa3",
+    "one_page": true,
+    "embedded_fonts": [
+      "yes",
+      "yes"
+    ],
+    "raster_image_xobjects": [],
+    "pdffonts_stdout": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     15  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     22  0\n"
+  },
+  {
+    "path": "fig02_sampled_layer_means.pdf",
+    "sha256": "581f03b1fea767be441a9837bfedf37d8e7db7838caf79f78c33c20c64af7f15",
+    "one_page": true,
+    "embedded_fonts": [
+      "yes",
+      "yes"
+    ],
+    "raster_image_xobjects": [],
+    "pdffonts_stdout": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nEVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     21  0\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     28  0\n"
+  },
+  {
+    "path": "fig03_error_decomposition.pdf",
+    "sha256": "ccf7efcf95789f53de721f0925a4a65ef6810b939204b9df48b7c816ba4f14fb",
+    "one_page": true,
+    "embedded_fonts": [
+      "yes"
+    ],
+    "raster_image_xobjects": [],
+    "pdffonts_stdout": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     15  0\n"
+  },
+  {
+    "path": "figS01_fixed_sensitivity.pdf",
+    "sha256": "3d3415ad481f4d39a909526d28c0078ac34b0783a5e06302234212c28ef10a50",
+    "one_page": true,
+    "embedded_fonts": [
+      "yes"
+    ],
+    "raster_image_xobjects": [],
+    "pdffonts_stdout": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     15  0\n"
+  },
+  {
+    "path": "figS02_calibration_domain.pdf",
+    "sha256": "dcb70b9e196aedb418b5aa3be58aba5b71fb53fb9535aa9f8146912a03f0c2d2",
+    "one_page": true,
+    "embedded_fonts": [
+      "yes"
+    ],
+    "raster_image_xobjects": [],
+    "pdffonts_stdout": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     16  0\n"
+  }
+]

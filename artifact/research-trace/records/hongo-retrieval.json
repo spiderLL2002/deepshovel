@@ -1,0 +1,222 @@
+{
+  "record_type": "selected saved retrieval and source-graph fields; not a new service response",
+  "source_doi": "https://doi.org/10.2343/geochemj.41.1",
+  "request": {
+    "search_protocol": "evidence-retrieval/2.3",
+    "stage": "preview",
+    "query": "Research question and source screening, not a finding: GDR985 DOI10.15121/1419773 contains raw rare-earth concentrations from Alarcon, Cleft and Pescadero hydrothermal fluids; Paduan2018 DOI10.1029/2018GC007771 has associated bottle-level major-fluid chemistry. Can matched independent Mg/Cl and bottom-water measurements distinguish conservative seawater entrainment from REY-selective loss within the same vent orifice, rather than confounded cross-site pH/source or temporal differences? Retrieve original sampling/method support and closest prior studies of within-orifice REE mixing/precipitation, including already performed zero-Mg correction and limitations. Ten bottle records are not ten independent vents.",
+    "intent": "claim_search",
+    "corpus": "cross_paper",
+    "limit": 12
+  },
+  "retrieval": {
+    "ok": true,
+    "stage": "ai_rerank",
+    "resultStatus": "matches",
+    "cluster_id": "cluster:sha256:865c81808c2efb07c55b1bc63d251f027fa0a1f5e384596bbebb405fa1cd4475",
+    "cluster_relation": "supports",
+    "distinctPaperFamilies": 1,
+    "representative": {
+      "snapshotId": "snapshot:sha256:17b8178b87989fc0e7bc521755326b5edcaf772a83b0f27fed67008816cf3278",
+      "paperId": "paper:5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+      "paperFamilyId": "artifact:1ef7c970-df6a-4023-8404-74d951abe708",
+      "source": {
+        "artifactId": "artifact:1ef7c970-df6a-4023-8404-74d951abe708",
+        "artifactName": "013_2007_Yayoi Hongo_Rare Earth Elements in the hydrothermal system at Okinawa Trough back-arc basin.pdf",
+        "artifactVersionId": "artifact-version:sha256:5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+        "versionNumber": 1,
+        "mediaType": "application/pdf"
+      },
+      "claim": {
+        "id": "claim:sha256:85d6b5e498cdef46a7bd5f66a68f6d63d887ff3c0447a8a9c546b199c45e5c75",
+        "canonicalClaim": "At the Yonaguni Knoll IV vent site, fractionation during hydrothermal-fluid mixing with seawater is predominantly explained by co-precipitation with hydrothermal minerals, including carbonate and sulfide deposits, rather than adhesive removal by Fe and/or Mn oxide particles: LREE are preferentially reduced, Eu is separately fractionated, and Ce depletion is negligible.",
+        "claimType": "mechanistic",
+        "attribution": "authors_conclusion",
+        "rhetoricalRole": "terminal_conclusion",
+        "scope": {
+          "condition": [
+            "fluid mixed with ambient seawater within the vent site"
+          ],
+          "entities": [
+            "Ce",
+            "Eu",
+            "Fe and Mn oxide particles",
+            "HREE",
+            "LREE",
+            "REE",
+            "carbonate",
+            "hydrothermal deposits",
+            "hydrothermal fluid",
+            "seawater",
+            "sulfide"
+          ],
+          "formation": [],
+          "location": [
+            "Yonaguni Knoll IV hydrothermal site"
+          ],
+          "measurement": [
+            "REE fractionation during dilution"
+          ],
+          "method": [
+            "comparison of REE concentrations with Mg concentrations and simple dilution model"
+          ],
+          "sample_type": [
+            "hydrothermal fluid samples"
+          ],
+          "time": null,
+          "uncertainty": null
+        }
+      },
+      "queryRelation": {
+        "relation": "supports",
+        "confidence": 0.95,
+        "direction": "result_to_query",
+        "scopeRelation": "overlap"
+      },
+      "shortestEvidencePath": {
+        "rootClaimId": "claim:sha256:85d6b5e498cdef46a7bd5f66a68f6d63d887ff3c0447a8a9c546b199c45e5c75",
+        "truncated": false,
+        "depth": 5,
+        "nodes": [
+          {
+            "id": "artifact:1ef7c970-df6a-4023-8404-74d951abe708",
+            "kind": "artifact"
+          },
+          {
+            "id": "artifact-version:sha256:5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+            "kind": "artifact_version"
+          },
+          {
+            "id": "anchor.text.mix.ce.support",
+            "kind": "source_anchor"
+          },
+          {
+            "id": "obs.mix.ce.conflict.discussion",
+            "kind": "observation"
+          },
+          {
+            "id": "reason.mix.conflict",
+            "kind": "reasoning"
+          },
+          {
+            "id": "claim:sha256:85d6b5e498cdef46a7bd5f66a68f6d63d887ff3c0447a8a9c546b199c45e5c75",
+            "kind": "atomic_claim"
+          }
+        ],
+        "links": [
+          {
+            "fromId": "artifact:1ef7c970-df6a-4023-8404-74d951abe708",
+            "toId": "artifact-version:sha256:5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+            "relation": "versions",
+            "linkType": "provenance"
+          },
+          {
+            "fromId": "artifact-version:sha256:5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+            "toId": "anchor.text.mix.ce.support",
+            "relation": "locates",
+            "linkType": "provenance"
+          },
+          {
+            "fromId": "anchor.text.mix.ce.support",
+            "toId": "obs.mix.ce.conflict.discussion",
+            "relation": "grounds",
+            "linkType": "edge"
+          },
+          {
+            "fromId": "obs.mix.ce.conflict.discussion",
+            "toId": "reason.mix.conflict",
+            "relation": "premise_for",
+            "linkType": "edge"
+          },
+          {
+            "fromId": "reason.mix.conflict",
+            "toId": "claim:sha256:85d6b5e498cdef46a7bd5f66a68f6d63d887ff3c0447a8a9c546b199c45e5c75",
+            "relation": "infers",
+            "linkType": "edge"
+          }
+        ]
+      }
+    }
+  },
+  "source_binding": {
+    "artifact_id": "artifact:1ef7c970-df6a-4023-8404-74d951abe708",
+    "artifact_version_id": "artifact-version:sha256:5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+    "original_sha256": "5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+    "snapshot_id": "snapshot:sha256:17b8178b87989fc0e7bc521755326b5edcaf772a83b0f27fed67008816cf3278",
+    "graph_sha256": "17b8178b87989fc0e7bc521755326b5edcaf772a83b0f27fed67008816cf3278"
+  },
+  "source_claim": {
+    "id": "claim:sha256:85d6b5e498cdef46a7bd5f66a68f6d63d887ff3c0447a8a9c546b199c45e5c75",
+    "source_id": "claim.mix.vent.fractionation",
+    "proposition": "At the Yonaguni Knoll IV vent site, fractionation during hydrothermal-fluid mixing with seawater is predominantly explained by co-precipitation with hydrothermal minerals, including carbonate and sulfide deposits, rather than adhesive removal by Fe and/or Mn oxide particles: LREE are preferentially reduced, Eu is separately fractionated, and Ce depletion is negligible.",
+    "qualifiers": [
+      "The conclusion also states that carbonate and sulfide precipitates seem to cause non-selective Ce removal, which conflicts with the discussion's report that Ce deficiency was negligible during fluid–seawater mixing."
+    ],
+    "scope": {
+      "condition": [
+        "fluid mixed with ambient seawater within the vent site"
+      ],
+      "entities": [
+        "Ce",
+        "Eu",
+        "Fe and Mn oxide particles",
+        "HREE",
+        "LREE",
+        "REE",
+        "carbonate",
+        "hydrothermal deposits",
+        "hydrothermal fluid",
+        "seawater",
+        "sulfide"
+      ],
+      "formation": [],
+      "location": [
+        "Yonaguni Knoll IV hydrothermal site"
+      ],
+      "measurement": [
+        "REE fractionation during dilution"
+      ],
+      "method": [
+        "comparison of REE concentrations with Mg concentrations and simple dilution model"
+      ],
+      "sample_type": [
+        "hydrothermal fluid samples"
+      ],
+      "time": null,
+      "uncertainty": null
+    }
+  },
+  "selected_anchors_without_quotations": [
+    {
+      "id": "anchor.figure.12",
+      "artifact_version_id": "artifact-version:sha256:5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+      "anchor_type": "figure",
+      "selector": {
+        "page": 13,
+        "figure": "Fig. 12",
+        "section": "Fluid dilution through mixing with ambient seawater"
+      }
+    },
+    {
+      "id": "anchor.text.mix.mechanism",
+      "artifact_version_id": "artifact-version:sha256:5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+      "anchor_type": "text",
+      "selector": {
+        "page": 13,
+        "figure": null,
+        "section": "Fluid dilution through mixing with ambient seawater"
+      }
+    },
+    {
+      "id": "anchor.text.mix.model.mg",
+      "artifact_version_id": "artifact-version:sha256:5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+      "anchor_type": "text",
+      "selector": {
+        "page": 12,
+        "figure": null,
+        "section": "Fluid dilution through mixing with ambient seawater"
+      }
+    }
+  ],
+  "interpretation_boundary": "The returned supports/overlap label concerns a source-screening question. It does not establish a new result, causal identification, or calibrated correctness. The original-source check did not adopt the model-generated Ce-conflict claim as a scientific discovery."
+}

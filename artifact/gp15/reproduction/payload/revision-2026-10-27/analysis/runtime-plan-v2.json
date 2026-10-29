@@ -1,0 +1,70 @@
+{
+  "id": "ree-ph-major-review-diagnostics-v2",
+  "candidate_id": "REE-R8-01",
+  "purpose": "exploratory",
+  "inputs": [
+    "ree-r8-leg1-ree",
+    "ree-r8-leg1-ph",
+    "ree-r8-leg2-ree",
+    "ree-r8-leg2-ph",
+    "ree-r8-paas",
+    "ree-r8-molar-mass",
+    "ree-r8-author-model-code",
+    "ree-r8-author-notebook",
+    "ree-revision-training-output",
+    "ree-revision-original-layers",
+    "ree-revision-original-samples"
+  ],
+  "script": "revision-2026-10-27/analysis/run_diagnostic_plan_v2.py",
+  "code_dependencies": [
+    "revision-2026-10-27/analysis/reviewer_diagnostics_v2.py",
+    "revision-2026-10-27/analysis/protocol-frozen-v2.json",
+    "ree/round8/protocol-frozen-v1.json"
+  ],
+  "outputs": [
+    "revision-2026-10-27/analysis/results-v2/pair_identity_audit.csv",
+    "revision-2026-10-27/analysis/results-v2/depth_conflicts.csv",
+    "revision-2026-10-27/analysis/results-v2/station_layer_support.csv",
+    "revision-2026-10-27/analysis/results-v2/station_layer_support_long.csv",
+    "revision-2026-10-27/analysis/results-v2/station_geometry.json",
+    "revision-2026-10-27/analysis/results-v2/reconstructed_primary_layers.csv",
+    "revision-2026-10-27/analysis/results-v2/mse_decomposition.csv",
+    "revision-2026-10-27/analysis/results-v2/common_station_layers.csv",
+    "revision-2026-10-27/analysis/results-v2/common_station_summary.json",
+    "revision-2026-10-27/analysis/results-v2/abundance_shape_bottles.csv",
+    "revision-2026-10-27/analysis/results-v2/abundance_shape_layers.csv",
+    "revision-2026-10-27/analysis/results-v2/training_common_multiplier.csv",
+    "revision-2026-10-27/analysis/results-v2/summary.json",
+    "revision-2026-10-27/analysis/results-v2/run_manifest.json"
+  ],
+  "config": {
+    "protocol": "revision-2026-10-27/analysis/protocol-frozen-v2.json",
+    "out_dir": "revision-2026-10-27/analysis/results-v2"
+  },
+  "estimand": [
+    "Actual sampled-layer station membership and geographic composition",
+    "Six equal-layer errors: MSE=bias²+centeredMSE for bothfixedpredictors",
+    "Post-review all-six-layer common-station equal-weight diagnostic",
+    "Raw depth metadata conflict and matched identity/time/flags",
+    "Exact alpha=A*s algebra and original-training10%concentration sensitivity"
+  ],
+  "baseline": "Unchanged original six depth pH means; no target fit or bias correction",
+  "exclusions": "Exactly original flags, IDs anddepthunion; no newresponse-basedexclusions. Common-stationintersection is explicitly post-review diagnostics only.",
+  "uncertainty": "No newpvalues,CIs,validationorcontinuous-boxbounds. Centering and common-stationrestriction are descriptive only.",
+  "robustness": "Original14outputfinite diagnostics withall6layers retained; source/input/code/SHA checks, originalmeanmatch1e-12, algebraidentities and timestampcounts.",
+  "stopping_rules": [
+    "Stop any source/code mismatch or originalmean reconstruction mismatch",
+    "No retuning elements, model,baseline,depthconvention or support to obtain a favorable result",
+    "If no commonstationcoversall6layers reportunavailable; never silentlychange denominator",
+    "All new GP15response work remains post-review exploratory"
+  ],
+  "validation": {
+    "source_ids": [],
+    "limitations": [
+      "Alltargetresponses alreadyexposed beforethisfreeze",
+      "Samecruise/labs; no independent-study replication",
+      "Commonstationtwo-per-leg doesnot establish regionalrepresentativeness",
+      "Centering observederrors isnot validatedbiascorrection"
+    ]
+  }
+}

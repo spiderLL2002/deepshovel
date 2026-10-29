@@ -1,0 +1,137 @@
+{
+  "schema": "gp15-public-deepshovel-coverage-summary/v1",
+  "source_assessment_created_utc": "2026-10-27T07:26:33.182297+00:00",
+  "source_assessment_local_only": {
+    "path": "iteration-2026-10-27/deepshovel/refresh-assessment.json",
+    "sha256": "5c435eeb046f30fe679372392d5ad1a9f3eb18eca01127066b3491fb92fd9a95"
+  },
+  "source_scope": "Bounded itemwise literature/source critique of p15 core claims during manuscript development. Later p20 manuscript/caption identity is recorded separately; this summary is not approval of any complete manuscript.",
+  "comparisons": [
+    {
+      "item_index": 1,
+      "original_comparison_record_sha256": "7a96e680d0600daa8fa1b216b71ca9897021d5e5a0124a1fe619187e65092172",
+      "coverage_complete": false,
+      "accepted_relations": 0,
+      "retrieved_candidates": 12,
+      "compared_candidates": 2,
+      "retrieval_limit": 12,
+      "as_of_utc": "2026-10-27T07:20:53.264Z",
+      "relation_group_counts": {
+        "support": 0,
+        "contradict": 0,
+        "qualify": 0,
+        "context": 0
+      }
+    },
+    {
+      "item_index": 2,
+      "original_comparison_record_sha256": "4c834edfe15d7692ff79698acf4fc5d567d3c1c0dba5f3bfff705f4173ca558d",
+      "coverage_complete": false,
+      "accepted_relations": 0,
+      "retrieved_candidates": 12,
+      "compared_candidates": 3,
+      "retrieval_limit": 12,
+      "as_of_utc": "2026-10-27T07:23:03.987Z",
+      "relation_group_counts": {
+        "support": 0,
+        "contradict": 0,
+        "qualify": 0,
+        "context": 0
+      }
+    },
+    {
+      "item_index": 3,
+      "original_comparison_record_sha256": "984f12fcdd78e4f233e5c6c57cfeb78bda489caaebbfe0f79f7030e870f53ee1",
+      "coverage_complete": false,
+      "accepted_relations": 0,
+      "retrieved_candidates": 12,
+      "compared_candidates": 0,
+      "retrieval_limit": 12,
+      "as_of_utc": "2026-10-27T07:20:25.017Z",
+      "relation_group_counts": {
+        "support": 0,
+        "contradict": 0,
+        "qualify": 0,
+        "context": 0
+      }
+    },
+    {
+      "item_index": 4,
+      "original_comparison_record_sha256": "7526b977c6286b879f33c86a8b6006cee79e808d7bdcede224fa51a703107c48",
+      "coverage_complete": false,
+      "accepted_relations": 0,
+      "retrieved_candidates": 12,
+      "compared_candidates": 0,
+      "retrieval_limit": 12,
+      "as_of_utc": "2026-10-27T07:21:08.348Z",
+      "relation_group_counts": {
+        "support": 0,
+        "contradict": 0,
+        "qualify": 0,
+        "context": 0
+      }
+    },
+    {
+      "item_index": 5,
+      "original_comparison_record_sha256": "cbb5047b4450a9d45d8deb91e9f6a5bdcdc1c48ea2b7324ccec03a8f341ccdcc",
+      "coverage_complete": false,
+      "accepted_relations": 0,
+      "retrieved_candidates": 12,
+      "compared_candidates": 0,
+      "retrieval_limit": 12,
+      "as_of_utc": "2026-10-27T07:21:02.100Z",
+      "relation_group_counts": {
+        "support": 0,
+        "contradict": 0,
+        "qualify": 0,
+        "context": 0
+      }
+    },
+    {
+      "item_index": 6,
+      "original_comparison_record_sha256": "f3e3886a7183ab596fcd82c90e7adde59dcb278855432064e7c5bc339d460f80",
+      "coverage_complete": false,
+      "accepted_relations": 0,
+      "retrieved_candidates": 12,
+      "compared_candidates": 1,
+      "retrieval_limit": 12,
+      "as_of_utc": "2026-10-27T07:21:36.681Z",
+      "relation_group_counts": {
+        "support": 0,
+        "contradict": 0,
+        "qualify": 0,
+        "context": 0
+      }
+    },
+    {
+      "item_index": 7,
+      "original_comparison_record_sha256": "3f424507e8172b9873e826193e559efa9694a707a4e8dba9e6829a036afbb4e3",
+      "coverage_complete": false,
+      "accepted_relations": 0,
+      "retrieved_candidates": 12,
+      "compared_candidates": 1,
+      "retrieval_limit": 12,
+      "as_of_utc": "2026-10-27T07:21:53.377Z",
+      "relation_group_counts": {
+        "support": 0,
+        "contradict": 0,
+        "qualify": 0,
+        "context": 0
+      }
+    }
+  ],
+  "all_seven_incomplete": true,
+  "accepted_relations_across_seven": 0,
+  "interpretation": "No accepted comparable literature relation was produced in these bounded comparisons. Empty groups neither certify the derived claims nor prove novelty; numerical statements rely on frozen original outputs and independent deterministic/algebraic checks.",
+  "limitations": [
+    "Returned claims/anchors are a bounded subset; external index/publisher screening is separate.",
+    "Long preview queries were truncated; short-query resolution remained bounded.",
+    "Non-Lin papers were screened through extracted propositions/anchors rather than all original full texts.",
+    "No independent field study, regional representation, real-error distribution, causal mechanism or journal-acceptance assurance follows."
+  ],
+  "scientific_certification": false,
+  "acceptance_guarantee": false,
+  "raw_service_sessions_endpoints_credentials_and_publisher_bodies_included": false,
+  "offline_reproduction_requires_service_calls": false,
+  "manuscript_or_review_iteration_count_delta": 0
+}

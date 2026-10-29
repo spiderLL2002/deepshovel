@@ -1,0 +1,50 @@
+{
+  "schema": "gp15-publication-projections/v1",
+  "projections": [
+    {
+      "file": "reproduction/payload/reviews/round8-leg2-blind-acquisition.json",
+      "historical_source_sha256": "65a0a0d88314e564bb0a4e8211654b679009f1074e1ef51a81b6d009e3964460",
+      "public_projection_sha256": "137d1d63e1bf78e6c258728e71058d1b03d1b905eba648779778c0f6a9015a35",
+      "historical_source_bytes": 42956,
+      "public_projection_bytes": 42155,
+      "historical_source_availability": "Original acquisition receipt is retained locally and is not distributed or offered for download. Its SHA is an identity record only.",
+      "changes": [
+        {
+          "pointer": [
+            "receipts",
+            0,
+            "resolved_url"
+          ],
+          "operation": "Remove the entire temporary signed query string; retain scheme, host, path and fragment",
+          "public_value": "https://s3.amazonaws.com/bcodmo-files-prod/N7nE78vTMq9N6r/932559_v1_gp15_dissolved_rees_leg2.csv"
+        },
+        {
+          "pointer": [
+            "receipts",
+            1,
+            "resolved_url"
+          ],
+          "operation": "Remove the entire temporary signed query string; retain scheme, host, path and fragment",
+          "public_value": "https://s3.amazonaws.com/bcodmo-files-prod/EK7ZKP5H3VJmJW/0000-0002-2068-7909-RR1815-multiple-param-intercal-report_rev.pdf"
+        },
+        {
+          "pointer": [
+            "receipts",
+            2,
+            "resolved_url"
+          ],
+          "operation": "Remove the entire temporary signed query string; retain scheme, host, path and fragment",
+          "public_value": "https://s3.amazonaws.com/bcodmo-files-prod/k66gkBvFr9YLJl/pH_Leg2.csv"
+        }
+      ],
+      "unchanged_historical_references": [
+        "reproduction/export-plan.json:source_inventory[47].sha256",
+        "reproduction/payload/ree/round8/protocol-frozen-v1.json:blind_source_acquisition.sha256",
+        "reproduction/payload/ree/round8/transfer-source-input.json:blind_acquisition"
+      ],
+      "source_data_downloads": "Use the stable original public BCO-DMO URLs in transfer-source-input.json; no signed acquisition URL is needed."
+    }
+  ],
+  "scientific_inputs_protocols_programs_and_outputs_modified": false,
+  "earlier_verification_receipts": "Preserved earlier receipts bind the earlier unprojected package manifest; they are historical execution records. New executions verify the current public package manifest."
+}

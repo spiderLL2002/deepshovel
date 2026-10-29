@@ -1,0 +1,533 @@
+{
+  "scope": "source identities, flags and depths only; no chemical values or response statistics",
+  "original_code_imported_or_executed": false,
+  "leg2_downloaded_or_read": false,
+  "sources": [
+    {
+      "path": "ree/round8/raw/Lin2024.pdf",
+      "sha256": "c9c70cef730755baddfaab1a7a21f0c2581c55e5695b7881cd441faf12bd6c2a"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-REE_pH_proxy.py",
+      "sha256": "cc68185191ad1801dbcfe4152d4943785b450c3f7b00b929ad319bd1bd436566"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-REE_pH_estimates.py",
+      "sha256": "c695ff3ffea39f905ef02797567497465f0f989bdbbc6aa2bb4807c5608e84f4"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-REE_pH_proxy.ipynb",
+      "sha256": "0c6b1aa80b7ac9a527ea8f835b19adb4a675a7d53402d13f903daaaa8c79fea9"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-paas.csv",
+      "sha256": "b04fcb55324673832cef85a8e75c7580eb52448a11120421fd1bb711237ce0cb"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-molar_mass_mgmol.csv",
+      "sha256": "58f67c7cdd4f2357afb37c20587f2e6210a221d06e33451e1eb58305ca1632c0"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-REE_seawater_all_pmol.csv",
+      "sha256": "464b8764c855680aa4a622e9b511664943bd1e565653c4092a1fc992293b83e5"
+    },
+    {
+      "path": "ree/round8/raw/GLODAPv2.2022-Dataset_DOIs.csv",
+      "sha256": "32357c3089a6a83b474bd0c4564a408088dadecb46386ef87b34d0cb0ee23ad8"
+    },
+    {
+      "path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9"
+    },
+    {
+      "path": "ree/round8/raw/GP15-leg1-pH.csv",
+      "sha256": "eddd66f7043437b56dd7d527d8fbb48331535f810a659e02254416c45e436d3b"
+    },
+    {
+      "path": "ree/round8/raw/GP15-leg1-REE-intercal-source.docx",
+      "sha256": "1f7aad4f60ef171c784f755a56bd516a3087a44f6978dc179d7994cd51a4f29d"
+    },
+    {
+      "path": "ree/round8/raw/GP15-leg1-pH-intercal.pdf",
+      "sha256": "438dfb7a25e8eea537787bbdb4cca4dbec2598e4293b2e2d1a2f323525cf7397"
+    }
+  ],
+  "glodap_n_cruise_records": 1085,
+  "glodap_33RR2018_matches": [],
+  "author_n_ree_records": 1755,
+  "author_cruises": {
+    "GA03": 690,
+    "GA06": 67,
+    "GA08": 33,
+    "GA10": 196,
+    "GAc01": 118,
+    "GIPY04": 57,
+    "GIPY05": 17,
+    "GN01": 103,
+    "GP12": 132,
+    "GPc05": 137,
+    "GPpr04": 159,
+    "GPpr05": 46
+  },
+  "author_years": {
+    "2010": 298,
+    "2011": 574,
+    "2015": 273,
+    "2012": 418,
+    "2007": 118,
+    "2008": 74
+  },
+  "leg1_counts": {
+    "ree": 372,
+    "ph": 157,
+    "matched_ids": 83,
+    "all_identity_agree": true
+  },
+  "layer_support_no_responses": {
+    "ree_depth_inclusive": [
+      {
+        "lower_m": 200,
+        "upper_m": 300,
+        "n": 8,
+        "stations": {
+          "5": 1,
+          "10": 2,
+          "12": 1,
+          "16": 1,
+          "18": 2,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "12333",
+          "13087",
+          "13089",
+          "13196",
+          "13647",
+          "13795",
+          "13797",
+          "13912"
+        ]
+      },
+      {
+        "lower_m": 300,
+        "upper_m": 400,
+        "n": 8,
+        "stations": {
+          "5": 1,
+          "10": 2,
+          "12": 1,
+          "16": 2,
+          "18": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "12333",
+          "13085",
+          "13087",
+          "13194",
+          "13645",
+          "13647",
+          "13795",
+          "13912"
+        ]
+      },
+      {
+        "lower_m": 400,
+        "upper_m": 500,
+        "n": 7,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "12": 2,
+          "16": 1,
+          "18": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "12331",
+          "13085",
+          "13192",
+          "13336",
+          "13645",
+          "13793",
+          "13910"
+        ]
+      },
+      {
+        "lower_m": 500,
+        "upper_m": 600,
+        "n": 6,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "16": 2,
+          "18": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "12329",
+          "13083",
+          "13641",
+          "13643",
+          "13791",
+          "13910"
+        ]
+      },
+      {
+        "lower_m": 600,
+        "upper_m": 700,
+        "n": 6,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "16": 2,
+          "18": 2
+        },
+        "sample_ids": [
+          "12329",
+          "13083",
+          "13639",
+          "13641",
+          "13789",
+          "13791"
+        ]
+      },
+      {
+        "lower_m": 700,
+        "upper_m": 800,
+        "n": 5,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "16": 1,
+          "18": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "12327",
+          "13081",
+          "13639",
+          "13789",
+          "13908"
+        ]
+      }
+    ],
+    "ree_depth_half_open_final_closed": [
+      {
+        "lower_m": 200,
+        "upper_m": 300,
+        "n": 3,
+        "stations": {
+          "10": 1,
+          "12": 1,
+          "18": 1
+        },
+        "sample_ids": [
+          "13089",
+          "13196",
+          "13797"
+        ]
+      },
+      {
+        "lower_m": 300,
+        "upper_m": 400,
+        "n": 6,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "12": 1,
+          "16": 1,
+          "18": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "12333",
+          "13087",
+          "13194",
+          "13647",
+          "13795",
+          "13912"
+        ]
+      },
+      {
+        "lower_m": 400,
+        "upper_m": 500,
+        "n": 6,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "12": 2,
+          "16": 1,
+          "18": 1
+        },
+        "sample_ids": [
+          "12331",
+          "13085",
+          "13192",
+          "13336",
+          "13645",
+          "13793"
+        ]
+      },
+      {
+        "lower_m": 500,
+        "upper_m": 600,
+        "n": 2,
+        "stations": {
+          "16": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "13643",
+          "13910"
+        ]
+      },
+      {
+        "lower_m": 600,
+        "upper_m": 700,
+        "n": 4,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "16": 1,
+          "18": 1
+        },
+        "sample_ids": [
+          "12329",
+          "13083",
+          "13641",
+          "13791"
+        ]
+      },
+      {
+        "lower_m": 700,
+        "upper_m": 800,
+        "n": 5,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "16": 1,
+          "18": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "12327",
+          "13081",
+          "13639",
+          "13789",
+          "13908"
+        ]
+      }
+    ],
+    "ph_depth_inclusive": [
+      {
+        "lower_m": 200,
+        "upper_m": 300,
+        "n": 5,
+        "stations": {
+          "10": 2,
+          "12": 1,
+          "16": 1,
+          "18": 1
+        },
+        "sample_ids": [
+          "13087",
+          "13089",
+          "13196",
+          "13647",
+          "13797"
+        ]
+      },
+      {
+        "lower_m": 300,
+        "upper_m": 400,
+        "n": 6,
+        "stations": {
+          "5": 1,
+          "12": 1,
+          "16": 2,
+          "18": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "12333",
+          "13194",
+          "13645",
+          "13647",
+          "13795",
+          "13912"
+        ]
+      },
+      {
+        "lower_m": 400,
+        "upper_m": 500,
+        "n": 6,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "12": 2,
+          "16": 1,
+          "18": 1
+        },
+        "sample_ids": [
+          "12331",
+          "13085",
+          "13192",
+          "13336",
+          "13645",
+          "13793"
+        ]
+      },
+      {
+        "lower_m": 500,
+        "upper_m": 600,
+        "n": 3,
+        "stations": {
+          "16": 1,
+          "18": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "13643",
+          "13791",
+          "13910"
+        ]
+      },
+      {
+        "lower_m": 600,
+        "upper_m": 700,
+        "n": 5,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "16": 2,
+          "18": 1
+        },
+        "sample_ids": [
+          "12329",
+          "13083",
+          "13639",
+          "13641",
+          "13791"
+        ]
+      },
+      {
+        "lower_m": 700,
+        "upper_m": 800,
+        "n": 3,
+        "stations": {
+          "16": 1,
+          "18": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "13639",
+          "13789",
+          "13908"
+        ]
+      }
+    ],
+    "ph_depth_half_open_final_closed": [
+      {
+        "lower_m": 200,
+        "upper_m": 300,
+        "n": 4,
+        "stations": {
+          "10": 2,
+          "12": 1,
+          "18": 1
+        },
+        "sample_ids": [
+          "13087",
+          "13089",
+          "13196",
+          "13797"
+        ]
+      },
+      {
+        "lower_m": 300,
+        "upper_m": 400,
+        "n": 5,
+        "stations": {
+          "5": 1,
+          "12": 1,
+          "16": 1,
+          "18": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "12333",
+          "13194",
+          "13647",
+          "13795",
+          "13912"
+        ]
+      },
+      {
+        "lower_m": 400,
+        "upper_m": 500,
+        "n": 6,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "12": 2,
+          "16": 1,
+          "18": 1
+        },
+        "sample_ids": [
+          "12331",
+          "13085",
+          "13192",
+          "13336",
+          "13645",
+          "13793"
+        ]
+      },
+      {
+        "lower_m": 500,
+        "upper_m": 600,
+        "n": 2,
+        "stations": {
+          "16": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "13643",
+          "13910"
+        ]
+      },
+      {
+        "lower_m": 600,
+        "upper_m": 700,
+        "n": 4,
+        "stations": {
+          "5": 1,
+          "10": 1,
+          "16": 1,
+          "18": 1
+        },
+        "sample_ids": [
+          "12329",
+          "13083",
+          "13641",
+          "13791"
+        ]
+      },
+      {
+        "lower_m": 700,
+        "upper_m": 800,
+        "n": 3,
+        "stations": {
+          "16": 1,
+          "18": 1,
+          "18.3": 1
+        },
+        "sample_ids": [
+          "13639",
+          "13789",
+          "13908"
+        ]
+      }
+    ]
+  }
+}

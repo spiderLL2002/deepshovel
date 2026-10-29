@@ -1,0 +1,315 @@
+Browser tab: 1, Title: "DeepShovel · Evidence Bench", URL: "https://deepshovel.iiot-shxt.xyz/".
+0 AXWebArea DeepShovel · Evidence Bench, URL: deepshovel.iiot-shxt.xyz/
+	1 container main-content
+		2 link Description: 跳到主要内容, Value: deepshovel.iiot-shxt.xyz/#view-content
+		3 container
+			4 button Description: DeepShovel 观点校验首页, Help: DeepShovel 首页
+				5 text DeepShovel
+				6 text 论文证据分析平台
+			7 container 主要功能
+				8 button 观点校验：输入观点并核对论文证据
+					9 text 观点校验
+				10 button 论文校验：核对整篇论文的推理与数据
+					11 text 论文校验
+				12 button 文献库：上传与版本管理
+					13 text 文献库
+				14 button 证据图谱：浏览主题与 Claim 关系
+					15 text 证据图谱
+				16 button 数据图表库：查看论文的元数据、正文与图表
+					17 text 数据图表库
+				18 button 元素图谱：浏览全球地球化学元素分布
+					19 text 元素图谱
+			20 container 质量控制
+				21 button 人工复核：复核证据并记录结论
+					22 text 人工复核
+				23 button 当前任务，没有进行中的任务
+					24 text 当前任务
+		25 container 10.1007_s12182-019-0331-9.pdf
+			26 container
+				27 button 观点校验
+				28 text 论文证据
+				29 heading 10.1007_s12182-019-0331-9.pdf, Value: 1, ID: paper-title
+					30 text 10.1007_s12182-019-0331-9.pdf
+				31 text 7  条观点 ·  15  项观察结果 ·  30  处原文位置 证据评估完成 · 19 项需核对
+			32 tab group 论文详情视图
+				33 tab (selected, settable, boolean) 观点与证据, Value: 1, ID: paper-tab-claims
+				34 tab (selectable, settable, boolean) 原件与定位, Value: 0, ID: paper-tab-source
+				35 tab (selectable, settable, boolean) 人工复核记录, Value: 0, ID: paper-tab-run
+			36 container Description: 观点与证据, ID: paper-panel-claims
+				37 container 论文 Claim 列表
+					38 container
+						39 text Claim docket 7  条可核验观点
+					40 button CLAIM 01 Under the present-day stress state and pore pressure modeled for the Gachsaran oilfield, all four analyzed Asmari-reservoir faults (F1–F4) are stable and not critically stressed. 证据支持
+						41 text CLAIM 
+						42 text 01
+						43 text Under the present-day stress state and pore pressure modeled for the Gachsaran oilfield, all four analyzed Asmari-reservoir faults (F1–F4) are stable and not critically stressed.
+						44 text 证据支持
+					45 button CLAIM 02 For the four Asmari-reservoir faults, the 3D Mohr-diagram, slip-tendency, and modified slip-tendency analyses give concordant fault-stability assessments. 有条件支持
+						46 text CLAIM 
+						47 text 02
+						48 text For the four Asmari-reservoir faults, the 3D Mohr-diagram, slip-tendency, and modified slip-tendency analyses give concordant fault-stability assessments.
+						49 text 有条件支持
+					50 button CLAIM 03 When stress-orientation image logs are unavailable, slip-tendency analysis is a practical, more cost-effective alternative for estimating critical pore pressure in the Asmari-reservoir fault assessment. 有条件支持
+						51 text CLAIM 
+						52 text 03
+						53 text When stress-orientation image logs are unavailable, slip-tendency analysis is a practical, more cost-effective alternative for estimating critical pore pressure in the Asmari-reservoir fault assessment.
+						54 text 有条件支持
+					55 button CLAIM 04 For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa. 有条件支持
+						56 text CLAIM 
+						57 text 04
+						58 text For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.
+						59 text 有条件支持
+					60 button CLAIM 05 Among F1–F4 in the Asmari reservoir, F3 is the most prone to reactivation under the assessed gas-injection conditions. 证据支持
+						61 text CLAIM 
+						62 text 05
+						63 text Among F1–F4 in the Asmari reservoir, F3 is the most prone to reactivation under the assessed gas-injection conditions.
+						64 text 证据支持
+					65 button CLAIM 06 Within the normal-faulting regime of the Gachsaran oilfield, F3's strike sub-parallel to σHmax and dip of 59° provide the orientation conditions associated with its higher reactivation tendency. 证据不足
+						66 text CLAIM 
+						67 text 06
+						68 text Within the normal-faulting regime of the Gachsaran oilfield, F3's strike sub-parallel to σHmax and dip of 59° provide the orientation conditions associated with its higher reactivation tendency.
+						69 text 证据不足
+					70 button CLAIM 07 For EOR and geosequestration injection planning in this part of the Gachsaran field, the NW side of F2 is the preferred location for a new injection well because it is associated with the lower modeled reactivation risk. 证据支持
+						71 text CLAIM 
+						72 text 07
+						73 text For EOR and geosequestration injection planning in this part of the Gachsaran field, the NW side of F2 is the preferred location for a new injection well because it is associated with the lower modeled reactivation risk.
+						74 text 证据支持
+				75 container
+					76 text CLAIM  04
+					77 heading Value: 2, For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.
+						78 text For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.
+					79 text Asmari reservoir · F1 · F2 · F3 · F4 · Gachsaran oilfield · Gachsaran oilfield, SW Iran · Asmari reservoir · four faults F1, F2, F3, and F4 · 3D Mohr diagrams, slip tendency, and modified slip tendency · gas-injection pressure increase · reactivation tendency and maximum sustainable pore pressure
+					80 text 有条件支持 论文内证据评估 有条件支持  ·  76 % 相关原文、观察结果与推理过程列于下方。
+					81 container 原文证据
+						82 container 观察结果与原文依据
+							83 heading 观察结果与原文依据, Value: 3, ID: observations-claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43
+								84 text 观察结果与原文依据
+							85 container F2 has the lowest Ts and Tsm values and can undergo an average maximum pore pressure of 55–57 MPa.
+								86 container
+									87 text 观察结果  1
+									88 heading F2 has the lowest Ts and Tsm values and can undergo an average maximum pore pressure of 55–57 MPa., Value: 4
+										89 text F2 has the lowest Ts and Tsm values and can undergo an average maximum pore pressure of 55–57 MPa.
+								90 container 这项观察对应的原文依据
+									91 text 第 11 页 · 6 Slip tendency parameter
+									92 button 打开原始页
+									93 container
+										94 text On the other hand, F2 is the most stable fault, because it has the lowest 
+										95 container
+											96 text 𝑇 s
+										97 text  and 
+										98 container
+											99 text 𝑇
+											100 text s
+											101 text m
+										102 text  and can undergo an average maximum pore pressure of 55–57 MPa.
+							103 container The conclusion reports that the three analytical methods confirmed F2 as the most stable fault.
+								104 container
+									105 text 观察结果  2
+									106 heading The conclusion reports that the three analytical methods confirmed F2 as the most stable fault., Value: 4
+										107 text The conclusion reports that the three analytical methods confirmed F2 as the most stable fault.
+								108 container 这项观察对应的原文依据
+									109 text 第 13 页 · 8 Conclusions
+									110 button 打开原始页
+									111 text Results of all three methods of 3D Mohr diagrams, slip tendency and modifed slip tendency, confrmed that F2 is the most stable fault in the feld, and it can sustain a maximum pore pressure of 55–57 MPa.
+							112 container The NISOC and Seyed Sajadi and Aghighi (2015) equations were used as alternative static-modulus estimates, and the reported results were in accordance.
+								113 container
+									114 text 观察结果  3
+									115 heading Value: 4, The NISOC and Seyed Sajadi and Aghighi (2015) equations were used as alternative static-modulus estimates, and the reported results were in accordance.
+										116 text The NISOC and Seyed Sajadi and Aghighi (2015) equations were used as alternative static-modulus estimates, and the reported results were in accordance.
+								117 container 这项观察对应的原文依据
+									118 text 第 13 页 · 8 Conclusions
+									119 button 打开原始页
+									120 text Results demonstrated that both equations are in accordance with each other.
+									121 text 第 13 页 · 8 Conclusions
+									122 button 打开原始页
+									123 text For this purpose, by using the equation derived in the NISOC laboratory, static elastic moduli were calculated to estimate the current stress regime of the feld, and then the accuracy of the results was examined by the Seyed Sajadi and Aghighi (2015) equation.
+							124 container The 3D Mohr diagrams show that none of the faults is critically stressed in the current stress field.
+								125 container
+									126 text 观察结果  4
+									127 heading Value: 4, The 3D Mohr diagrams show that none of the faults is critically stressed in the current stress field.
+										128 text The 3D Mohr diagrams show that none of the faults is critically stressed in the current stress field.
+								129 container 这项观察对应的原文依据
+									130 text 第 9 页 · 5 Three‑dimensional Mohr diagrams
+									131 button 打开原始页
+									132 text 10 shows, none of the faults is critically stressed in the current stress feld.
+									133 text 第 10 页 · Figure 10
+									134 button 打开原始页
+									135 text Fig. 10 3D Mohr diagrams of four faults F1, F2, F3, and F4 (using the NISOC equation). As can be seen, none of the faults is critically stressed, and all of them are stable in the current stress feld and pore pressure
+									136 container
+										137 container Figure 10 的原件区域
+											138 text 正在读取原件区域…
+											139 image Figure 10，截取自原 PDF 第 10 页
+										140 text 原 PDF 第  10  页的定位区域。点击“打开原始页”可放大核对上下文。
+							141 container A total of 32 drilling-induced fractures in the studied well had a prevailing azimuth of 52°.
+								142 container
+									143 text 观察结果  5
+									144 heading A total of 32 drilling-induced fractures in the studied well had a prevailing azimuth of 52°., Value: 4
+										145 text A total of 32 drilling-induced fractures in the studied well had a prevailing azimuth of 52°.
+								146 container 这项观察对应的原文依据
+									147 text 第 7 页 · 4.2 In situ stresses magnitudes and orientations
+									148 button 打开原始页
+									149 container
+										150 text A total number of 32 fractures were observed in the studied well, with a prevailing azimuth of 
+										151 container
+											152 text 52 ∘
+										153 text  (the existence of drillinginduced tensile fractures is 
+										154 container
+											155 text 90 ∘
+										156 text  from the breakouts).
+							157 container The stress-polygon results show all faults inactive at the present stress state, with the estimated horizontal stresses inside the normal-faulting triangle.
+								158 container
+									159 text 观察结果  6
+									160 heading Value: 4, The stress-polygon results show all faults inactive at the present stress state, with the estimated horizontal stresses inside the normal-faulting triangle.
+										161 text The stress-polygon results show all faults inactive at the present stress state, with the estimated horizontal stresses inside the normal-faulting triangle.
+								162 container 这项观察对应的原文依据
+									163 text 第 12 页 · 7 Stress polygon
+									164 button 打开原始页
+									165 text 13 shows, all the faults are inactive at the present stress state, and the estimated horizontal stresses fall within the normal faulting triangle (triangle with solid lines).
+									166 text 第 12 页 · Figure 13
+									167 button 打开原始页
+									168 text Fig. 13 Stress polygons plotted for the four faults. Three triangles NF, SS, and RF represent the normal, strike-slip and reverse faulting regimes, respectively. The blue solid lines represent the current stress feld and pore pressure. Black dashed lines represent the stress feld in critical pore pressure obtained by 3D Mohr diagrams. Circle and diamond shaped points represent the NISOC and Seyed Sajadi and Aghighi (2015) equations for obtaining elastic moduli used for estimating the horizontal stresses magnitudes
+									169 container
+										170 container Figure 13 的原件区域
+											171 text 正在读取原件区域…
+											172 image Figure 13，截取自原 PDF 第 12 页
+										173 text 原 PDF 第  12  页的定位区域。点击“打开原始页”可放大核对上下文。
+							174 container Increasing pore pressure to its critical value positions the horizontal stresses on the left edge of the smaller triangle, indicating reactivation risk.
+								175 container
+									176 text 观察结果  7
+									177 heading Value: 4, Increasing pore pressure to its critical value positions the horizontal stresses on the left edge of the smaller triangle, indicating reactivation risk.
+										178 text Increasing pore pressure to its critical value positions the horizontal stresses on the left edge of the smaller triangle, indicating reactivation risk.
+								179 container 这项观察对应的原文依据
+									180 text 第 12 页 · 7 Stress polygon
+									181 button 打开原始页
+									182 text By increasing pore pressure to its critical value, horizontal stresses will be positioned on the left edge of the smaller
+									183 text 第 13 页 · 7 Stress polygon
+									184 button 打开原始页
+									185 text triangle (triangle with dashed lines) showing the risk of reactivation.
+									186 text 第 12 页 · Figure 13
+									187 button 打开原始页
+									188 text Fig. 13 Stress polygons plotted for the four faults. Three triangles NF, SS, and RF represent the normal, strike-slip and reverse faulting regimes, respectively. The blue solid lines represent the current stress feld and pore pressure. Black dashed lines represent the stress feld in critical pore pressure obtained by 3D Mohr diagrams. Circle and diamond shaped points represent the NISOC and Seyed Sajadi and Aghighi (2015) equations for obtaining elastic moduli used for estimating the horizontal stresses magnitudes
+									189 container
+										190 container Figure 13 的原件区域
+											191 text 正在读取原件区域…
+											192 image Figure 13，截取自原 PDF 第 12 页
+										193 text 原 PDF 第  12  页的定位区域。点击“打开原始页”可放大核对上下文。
+							194 container The field has σ1 = σV, σ2 = σHmax, and σ3 = σhmin, with a normal-faulting ordering σ1 > σ2 > σ3.
+								195 container
+									196 text 观察结果  8
+									197 heading The field has σ1 = σV, σ2 = σHmax, and σ3 = σhmin, with a normal-faulting ordering σ1 > σ2 > σ3., Value: 4
+										198 text The field has σ1 = σV, σ2 = σHmax, and σ3 = σhmin, with a normal-faulting ordering σ1 > σ2 > σ3.
+								199 container 这项观察对应的原文依据
+									200 text 第 8 页 · 4.3 Pore pressure
+									201 button 打开原始页
+									202 container
+										203 text 8, in this feld the maximum principal stress 
+										204 container
+											205 text (
+											206 text 𝜎
+											207 text 1
+											208 text )
+										209 text  is 
+										210 container
+											211 text 𝜎
+											212 text V
+											213 text ,
+										214 text  and the intermediate and minimum principal stresses 
+										215 container
+											216 text (
+											217 text 𝜎
+											218 text 2
+										219 text  and 
+										220 container
+											221 text 𝜎
+											222 text 3
+											223 text )
+										224 text  are 
+										225 container
+											226 text 𝜎
+											227 text H
+											228 text m
+											229 text a
+											230 text x
+										231 text  and 
+										232 container
+											233 text 𝜎
+											234 container
+												235 text h m i n
+											236 text ,
+										237 text  respectively.
+									238 text 第 8 页 · 4.3 Pore pressure
+									239 button 打开原始页
+									240 container
+										241 container
+											242 text S
+											243 text o
+											244 text ,
+										245 text  according to Anderson’s faulting theory (Anderson 1951), this feld is in a normal faulting regime (i.e., 
+										246 container
+											247 text 𝜎
+											248 text 1
+											249 text >
+											250 text 𝜎
+											251 text 2
+											252 text >
+											253 text 𝜎
+											254 text 3
+											255 text )
+										256 text  .
+									257 text 第 8 页 · Figure 8
+									258 button 打开原始页
+									259 text Fig. 8 Stress-depth plots showing the stress state in the Gachsaran oilfeld (with the line of best ft) (left), and a well faulted by F2 (right). The gray points represent the formation fuid pressures (RFT), and triangles indicate FIT pressure (the stresses are calculated using the elastic moduli estimated by the NISOC equation)
+									260 container
+										261 container Figure 8 的原件区域
+											262 text 正在读取原件区域…
+											263 image Figure 8，截取自原 PDF 第 8 页
+										264 text 原 PDF 第  8  页的定位区域。点击“打开原始页”可放大核对上下文。
+						265 container 从观察结果到论文观点
+							266 heading 从观察结果到论文观点, Value: 3, ID: reasoning-claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43
+								267 text 从观察结果到论文观点
+							268 content list
+								269 container
+									270 text 推理  1 Together, the modulus check, stress orientation, and stress ordering define the modeled present-day stress state used in the fault analysis.
+								271 container
+									272 text 推理  2 The calibrated stress inputs and the two stability representations converge on a noncritical present-day state for all four faults.
+								273 container
+									274 text 推理  3 F2's low slip tendencies, high reported pressure tolerance, and confirmation by all three analyses identify it as the resistant fault endpoint.
+								275 container
+									276 text 推理  4 The convergent stability results and the transition to critical pressure support F2's resistant status and its 55–57 MPa maximum-pressure estimate.
+								277 container
+									278 text 推理  5 The agreement between the two modulus estimates supports using consistent elastic-property inputs for the field stress calculation.
+								279 container
+									280 text 推理  6 The Mohr-diagram positions place every analyzed fault below the modeled failure condition at present pressure.
+								281 container
+									282 text 推理  7 The fracture azimuth supplies the image-log basis for the modeled σHmax orientation.
+								283 container
+									284 text 推理  8 The polygon locations independently place the analyzed faults in the inactive normal-faulting region at present pressure.
+								285 container
+									286 text 推理  9 The stress polygons link the present inactive state to a failure-edge state only when pore pressure reaches each modeled critical value, making those thresholds relevant to injection safety.
+								287 container
+									288 text 推理  10 The mapped principal-stress ordering establishes a normal-faulting regime for evaluating the four fault planes.
+						301 container
+							302 button (expanded) 3 项前提或测量假设, Secondary Actions: Collapse
+								303 text 3
+								304 text  项前提或测量假设
+							305 content list
+								306 container
+									307 AXListMarker • 
+									308 text The four pre-existing faults are treated as cohesionless (C = 0).
+								309 container
+									310 AXListMarker • 
+									311 text The static friction coefficient is set to μ = 0.6 for the fault calculations.
+								312 container
+									313 AXListMarker • 
+									314 text The principal stresses are evaluated within a specified range, such as 10 m, of the middle of the fault planes.
+					292 container 后续文献的引用与验证
+						293 container
+							294 heading 后续文献的引用与验证, Value: 3
+								295 text 后续文献的引用与验证
+							296 text 已分析 0 / 0 篇已入库论文 · 截至 2026年10月29日 10:54
+						297 text 暂无可核实的后续引用结论
+						298 text 已分析的入库论文中暂未发现引用记录。
+					299 button 查找支持与反例
+					300 button 记录人工复核
+
+The focused UI element is 302 button (expanded) 3 项前提或测量假设, Secondary Actions: Collapse

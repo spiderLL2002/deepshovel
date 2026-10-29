@@ -1,0 +1,76 @@
+{
+  "source": "Existing saved serial same-host runs, 2026-10-27; source summary.json and REPORT.md",
+  "source_summary_sha256": "9732b770d077d1fad6269b387080bf4a23cadd3315f5df9cce26dafa01b9bdfb",
+  "source_report_sha256": "3c331721a1f79aa10c5e05dd5f140669aad25be368114a347dc5440499639a96",
+  "records": [
+    {
+      "case": 1,
+      "question_description": "Time-series isotope offset after 24 h",
+      "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+      "claim_id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+      "query_relation": {
+        "relation": "related",
+        "confidence": 0.88,
+        "direction": "result_to_query",
+        "scopeRelation": "overlap"
+      },
+      "scope_constraints": null,
+      "recorded_time_scope": {
+        "end": null,
+        "label": "Experiments lasting 24–168 h for the time series; variable-adsorption experiments ran at least 48 h.",
+        "start": null,
+        "unit": null
+      },
+      "http_status": 200,
+      "result_status": 200,
+      "application_status": "matches"
+    },
+    {
+      "case": 2,
+      "question_description": "Variable-loading isotope estimate in experiments lasting 48–144 h",
+      "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+      "claim_id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+      "query_relation": {
+        "relation": "supports",
+        "confidence": 0.88,
+        "direction": "result_to_query",
+        "scopeRelation": "overlap"
+      },
+      "scope_constraints": null,
+      "recorded_time_scope": {
+        "end": null,
+        "label": "Experiments lasting 24–168 h for the time series; variable-adsorption experiments ran at least 48 h.",
+        "start": null,
+        "unit": null
+      },
+      "http_status": 200,
+      "result_status": 200,
+      "application_status": "matches"
+    },
+    {
+      "case": 3,
+      "question_description": "Whether stable isotopic offset implies adsorption has stopped",
+      "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+      "claim_id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+      "query_relation": {
+        "relation": "related",
+        "confidence": 0.91,
+        "direction": "result_to_query",
+        "scopeRelation": "overlap"
+      },
+      "scope_constraints": null,
+      "recorded_time_scope": {
+        "end": null,
+        "label": "Experiments lasting 24–168 h for the time series; variable-adsorption experiments ran at least 48 h.",
+        "start": null,
+        "unit": null
+      },
+      "http_status": 200,
+      "result_status": 200,
+      "application_status": "matches"
+    }
+  ],
+  "interpretation": "One candidate is related for a time-series question and supporting for the loading-series question; the uptake question yields related evidence only. This is query-relative relation presentation, not hard experimental-series exclusion or three successful scientific answers.",
+  "question_description_note": "Descriptions paraphrase the saved report; they are not presented as byte-identical request texts.",
+  "quotes_included": false
+}

@@ -1,0 +1,858 @@
+{
+  "scope": "Post-result descriptive source-identity/geographic QA, no new model, exclusions or performance subgroup",
+  "primary_stations": [
+    {
+      "leg": "leg1",
+      "station": "5",
+      "latitude_range": [
+        53.677,
+        53.677
+      ],
+      "longitude_range": [
+        -153.797,
+        -153.797
+      ],
+      "time_range": [
+        "2018-09-24T08:56:00Z",
+        "2018-09-24T08:56:00Z"
+      ],
+      "n_unique_primary_bottles": 3,
+      "source_path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "source_sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9",
+      "source_rows": [
+        {
+          "line": 75,
+          "sample": "12333",
+          "lat": 53.677,
+          "lon": -153.797,
+          "time": "2018-09-24T08:56:00Z"
+        },
+        {
+          "line": 76,
+          "sample": "12331",
+          "lat": 53.677,
+          "lon": -153.797,
+          "time": "2018-09-24T08:56:00Z"
+        },
+        {
+          "line": 77,
+          "sample": "12329",
+          "lat": 53.677,
+          "lon": -153.797,
+          "time": "2018-09-24T08:56:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg1",
+      "station": "10",
+      "latitude_range": [
+        42.0,
+        42.0
+      ],
+      "longitude_range": [
+        -152.0,
+        -152.0
+      ],
+      "time_range": [
+        "2018-10-07T22:58:00Z",
+        "2018-10-07T22:58:00Z"
+      ],
+      "n_unique_primary_bottles": 4,
+      "source_path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "source_sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9",
+      "source_rows": [
+        {
+          "line": 182,
+          "sample": "13089",
+          "lat": 42.0,
+          "lon": -152.0,
+          "time": "2018-10-07T22:58:00Z"
+        },
+        {
+          "line": 183,
+          "sample": "13087",
+          "lat": 42.0,
+          "lon": -152.0,
+          "time": "2018-10-07T22:58:00Z"
+        },
+        {
+          "line": 184,
+          "sample": "13085",
+          "lat": 42.0,
+          "lon": -152.0,
+          "time": "2018-10-07T22:58:00Z"
+        },
+        {
+          "line": 185,
+          "sample": "13083",
+          "lat": 42.0,
+          "lon": -152.0,
+          "time": "2018-10-07T22:58:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg1",
+      "station": "12",
+      "latitude_range": [
+        37.0,
+        37.0
+      ],
+      "longitude_range": [
+        -152.0,
+        -152.0
+      ],
+      "time_range": [
+        "2018-10-10T15:37:00Z",
+        "2018-10-11T11:02:00Z"
+      ],
+      "n_unique_primary_bottles": 4,
+      "source_path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "source_sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9",
+      "source_rows": [
+        {
+          "line": 211,
+          "sample": "13196",
+          "lat": 37.0,
+          "lon": -152.0,
+          "time": "2018-10-10T15:37:00Z"
+        },
+        {
+          "line": 212,
+          "sample": "13194",
+          "lat": 37.0,
+          "lon": -152.0,
+          "time": "2018-10-10T15:37:00Z"
+        },
+        {
+          "line": 213,
+          "sample": "13192",
+          "lat": 37.0,
+          "lon": -152.0,
+          "time": "2018-10-10T15:37:00Z"
+        },
+        {
+          "line": 214,
+          "sample": "13336",
+          "lat": 37.0,
+          "lon": -152.0,
+          "time": "2018-10-11T11:02:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg1",
+      "station": "16",
+      "latitude_range": [
+        27.0,
+        27.0
+      ],
+      "longitude_range": [
+        -152.0,
+        -152.0
+      ],
+      "time_range": [
+        "2018-10-16T16:02:00Z",
+        "2018-10-16T16:02:00Z"
+      ],
+      "n_unique_primary_bottles": 5,
+      "source_path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "source_sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9",
+      "source_rows": [
+        {
+          "line": 305,
+          "sample": "13647",
+          "lat": 27.0,
+          "lon": -152.0,
+          "time": "2018-10-16T16:02:00Z"
+        },
+        {
+          "line": 306,
+          "sample": "13645",
+          "lat": 27.0,
+          "lon": -152.0,
+          "time": "2018-10-16T16:02:00Z"
+        },
+        {
+          "line": 307,
+          "sample": "13643",
+          "lat": 27.0,
+          "lon": -152.0,
+          "time": "2018-10-16T16:02:00Z"
+        },
+        {
+          "line": 308,
+          "sample": "13641",
+          "lat": 27.0,
+          "lon": -152.0,
+          "time": "2018-10-16T16:02:00Z"
+        },
+        {
+          "line": 309,
+          "sample": "13639",
+          "lat": 27.0,
+          "lon": -152.0,
+          "time": "2018-10-16T16:02:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg1",
+      "station": "18",
+      "latitude_range": [
+        22.0,
+        22.0
+      ],
+      "longitude_range": [
+        -152.0,
+        -152.0
+      ],
+      "time_range": [
+        "2018-10-19T07:38:00Z",
+        "2018-10-19T07:38:00Z"
+      ],
+      "n_unique_primary_bottles": 5,
+      "source_path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "source_sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9",
+      "source_rows": [
+        {
+          "line": 344,
+          "sample": "13797",
+          "lat": 22.0,
+          "lon": -152.0,
+          "time": "2018-10-19T07:38:00Z"
+        },
+        {
+          "line": 345,
+          "sample": "13795",
+          "lat": 22.0,
+          "lon": -152.0,
+          "time": "2018-10-19T07:38:00Z"
+        },
+        {
+          "line": 346,
+          "sample": "13793",
+          "lat": 22.0,
+          "lon": -152.0,
+          "time": "2018-10-19T07:38:00Z"
+        },
+        {
+          "line": 347,
+          "sample": "13791",
+          "lat": 22.0,
+          "lon": -152.0,
+          "time": "2018-10-19T07:38:00Z"
+        },
+        {
+          "line": 348,
+          "sample": "13789",
+          "lat": 22.0,
+          "lon": -152.0,
+          "time": "2018-10-19T07:38:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg1",
+      "station": "18.3",
+      "latitude_range": [
+        19.681,
+        19.681
+      ],
+      "longitude_range": [
+        -154.513,
+        -154.513
+      ],
+      "time_range": [
+        "2018-10-21T12:21:00Z",
+        "2018-10-21T12:21:00Z"
+      ],
+      "n_unique_primary_bottles": 3,
+      "source_path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "source_sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9",
+      "source_rows": [
+        {
+          "line": 364,
+          "sample": "13912",
+          "lat": 19.681,
+          "lon": -154.513,
+          "time": "2018-10-21T12:21:00Z"
+        },
+        {
+          "line": 365,
+          "sample": "13910",
+          "lat": 19.681,
+          "lon": -154.513,
+          "time": "2018-10-21T12:21:00Z"
+        },
+        {
+          "line": 366,
+          "sample": "13908",
+          "lat": 19.681,
+          "lon": -154.513,
+          "time": "2018-10-21T12:21:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg2",
+      "station": "18.6",
+      "latitude_range": [
+        18.906,
+        18.906
+      ],
+      "longitude_range": [
+        -155.258,
+        -155.258
+      ],
+      "time_range": [
+        "2018-10-25T14:10:00Z",
+        "2018-10-25T14:10:00Z"
+      ],
+      "n_unique_primary_bottles": 1,
+      "source_path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "source_sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809",
+      "source_rows": [
+        {
+          "line": 3,
+          "sample": "13930",
+          "lat": 18.906,
+          "lon": -155.258,
+          "time": "2018-10-25T14:10:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg2",
+      "station": "19",
+      "latitude_range": [
+        17.5,
+        17.5
+      ],
+      "longitude_range": [
+        -152.0,
+        -152.0
+      ],
+      "time_range": [
+        "2018-10-27T00:00:00Z",
+        "2018-10-28T10:40:00Z"
+      ],
+      "n_unique_primary_bottles": 7,
+      "source_path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "source_sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809",
+      "source_rows": [
+        {
+          "line": 17,
+          "sample": "13976",
+          "lat": 17.5,
+          "lon": -152.0,
+          "time": "2018-10-27T00:00:00Z"
+        },
+        {
+          "line": 18,
+          "sample": "13974",
+          "lat": 17.5,
+          "lon": -152.0,
+          "time": "2018-10-27T00:00:00Z"
+        },
+        {
+          "line": 19,
+          "sample": "13972",
+          "lat": 17.5,
+          "lon": -152.0,
+          "time": "2018-10-27T00:00:00Z"
+        },
+        {
+          "line": 20,
+          "sample": "13970",
+          "lat": 17.5,
+          "lon": -152.0,
+          "time": "2018-10-27T00:00:00Z"
+        },
+        {
+          "line": 21,
+          "sample": "13968",
+          "lat": 17.5,
+          "lon": -152.0,
+          "time": "2018-10-27T00:00:00Z"
+        },
+        {
+          "line": 23,
+          "sample": "13966",
+          "lat": 17.5,
+          "lon": -152.0,
+          "time": "2018-10-27T00:00:00Z"
+        },
+        {
+          "line": 24,
+          "sample": "14084",
+          "lat": 17.5,
+          "lon": -152.0,
+          "time": "2018-10-28T10:40:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg2",
+      "station": "21",
+      "latitude_range": [
+        11.0,
+        11.0
+      ],
+      "longitude_range": [
+        -152.0,
+        -152.0
+      ],
+      "time_range": [
+        "2018-10-30T02:55:00Z",
+        "2018-10-30T02:55:00Z"
+      ],
+      "n_unique_primary_bottles": 4,
+      "source_path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "source_sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809",
+      "source_rows": [
+        {
+          "line": 70,
+          "sample": "14146",
+          "lat": 11.0,
+          "lon": -152.0,
+          "time": "2018-10-30T02:55:00Z"
+        },
+        {
+          "line": 71,
+          "sample": "14144",
+          "lat": 11.0,
+          "lon": -152.0,
+          "time": "2018-10-30T02:55:00Z"
+        },
+        {
+          "line": 72,
+          "sample": "14142",
+          "lat": 11.0,
+          "lon": -152.0,
+          "time": "2018-10-30T02:55:00Z"
+        },
+        {
+          "line": 74,
+          "sample": "14140",
+          "lat": 11.0,
+          "lon": -152.0,
+          "time": "2018-10-30T02:55:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg2",
+      "station": "25",
+      "latitude_range": [
+        5.0,
+        5.0
+      ],
+      "longitude_range": [
+        -151.996,
+        -151.996
+      ],
+      "time_range": [
+        "2018-11-04T05:23:00Z",
+        "2018-11-04T05:23:00Z"
+      ],
+      "n_unique_primary_bottles": 6,
+      "source_path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "source_sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809",
+      "source_rows": [
+        {
+          "line": 152,
+          "sample": "14524",
+          "lat": 5.0,
+          "lon": -151.996,
+          "time": "2018-11-04T05:23:00Z"
+        },
+        {
+          "line": 153,
+          "sample": "14522",
+          "lat": 5.0,
+          "lon": -151.996,
+          "time": "2018-11-04T05:23:00Z"
+        },
+        {
+          "line": 154,
+          "sample": "14520",
+          "lat": 5.0,
+          "lon": -151.996,
+          "time": "2018-11-04T05:23:00Z"
+        },
+        {
+          "line": 155,
+          "sample": "14518",
+          "lat": 5.0,
+          "lon": -151.996,
+          "time": "2018-11-04T05:23:00Z"
+        },
+        {
+          "line": 156,
+          "sample": "14516",
+          "lat": 5.0,
+          "lon": -151.996,
+          "time": "2018-11-04T05:23:00Z"
+        },
+        {
+          "line": 157,
+          "sample": "14514",
+          "lat": 5.0,
+          "lon": -151.996,
+          "time": "2018-11-04T05:23:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg2",
+      "station": "31",
+      "latitude_range": [
+        -2.5,
+        -2.499
+      ],
+      "longitude_range": [
+        -152.0,
+        -152.0
+      ],
+      "time_range": [
+        "2018-11-11T02:07:00Z",
+        "2018-11-11T22:02:00Z"
+      ],
+      "n_unique_primary_bottles": 11,
+      "source_path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "source_sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809",
+      "source_rows": [
+        {
+          "line": 262,
+          "sample": "14986",
+          "lat": -2.5,
+          "lon": -152.0,
+          "time": "2018-11-11T02:07:00Z"
+        },
+        {
+          "line": 263,
+          "sample": "14982",
+          "lat": -2.5,
+          "lon": -152.0,
+          "time": "2018-11-11T02:07:00Z"
+        },
+        {
+          "line": 264,
+          "sample": "14980",
+          "lat": -2.5,
+          "lon": -152.0,
+          "time": "2018-11-11T02:07:00Z"
+        },
+        {
+          "line": 265,
+          "sample": "14984",
+          "lat": -2.5,
+          "lon": -152.0,
+          "time": "2018-11-11T02:07:00Z"
+        },
+        {
+          "line": 266,
+          "sample": "14978",
+          "lat": -2.5,
+          "lon": -152.0,
+          "time": "2018-11-11T02:07:00Z"
+        },
+        {
+          "line": 267,
+          "sample": "15094",
+          "lat": -2.499,
+          "lon": -152.0,
+          "time": "2018-11-11T22:02:00Z"
+        },
+        {
+          "line": 268,
+          "sample": "15092",
+          "lat": -2.499,
+          "lon": -152.0,
+          "time": "2018-11-11T22:02:00Z"
+        },
+        {
+          "line": 269,
+          "sample": "15090",
+          "lat": -2.499,
+          "lon": -152.0,
+          "time": "2018-11-11T22:02:00Z"
+        },
+        {
+          "line": 270,
+          "sample": "15088",
+          "lat": -2.499,
+          "lon": -152.0,
+          "time": "2018-11-11T22:02:00Z"
+        },
+        {
+          "line": 271,
+          "sample": "15086",
+          "lat": -2.499,
+          "lon": -152.0,
+          "time": "2018-11-11T22:02:00Z"
+        },
+        {
+          "line": 272,
+          "sample": "15084",
+          "lat": -2.499,
+          "lon": -152.0,
+          "time": "2018-11-11T22:02:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg2",
+      "station": "33",
+      "latitude_range": [
+        -5.0,
+        -5.0
+      ],
+      "longitude_range": [
+        -152.003,
+        -152.001
+      ],
+      "time_range": [
+        "2018-11-13T02:20:00Z",
+        "2018-11-13T22:21:00Z"
+      ],
+      "n_unique_primary_bottles": 10,
+      "source_path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "source_sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809",
+      "source_rows": [
+        {
+          "line": 299,
+          "sample": "15140",
+          "lat": -5.0,
+          "lon": -152.001,
+          "time": "2018-11-13T02:20:00Z"
+        },
+        {
+          "line": 300,
+          "sample": "15138",
+          "lat": -5.0,
+          "lon": -152.001,
+          "time": "2018-11-13T02:20:00Z"
+        },
+        {
+          "line": 301,
+          "sample": "15136",
+          "lat": -5.0,
+          "lon": -152.001,
+          "time": "2018-11-13T02:20:00Z"
+        },
+        {
+          "line": 302,
+          "sample": "15134",
+          "lat": -5.0,
+          "lon": -152.001,
+          "time": "2018-11-13T02:20:00Z"
+        },
+        {
+          "line": 303,
+          "sample": "15132",
+          "lat": -5.0,
+          "lon": -152.001,
+          "time": "2018-11-13T02:20:00Z"
+        },
+        {
+          "line": 304,
+          "sample": "15240",
+          "lat": -5.0,
+          "lon": -152.003,
+          "time": "2018-11-13T22:21:00Z"
+        },
+        {
+          "line": 305,
+          "sample": "15238",
+          "lat": -5.0,
+          "lon": -152.003,
+          "time": "2018-11-13T22:21:00Z"
+        },
+        {
+          "line": 306,
+          "sample": "15236",
+          "lat": -5.0,
+          "lon": -152.003,
+          "time": "2018-11-13T22:21:00Z"
+        },
+        {
+          "line": 307,
+          "sample": "15234",
+          "lat": -5.0,
+          "lon": -152.003,
+          "time": "2018-11-13T22:21:00Z"
+        },
+        {
+          "line": 308,
+          "sample": "15232",
+          "lat": -5.0,
+          "lon": -152.003,
+          "time": "2018-11-13T22:21:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg2",
+      "station": "37",
+      "latitude_range": [
+        -15.0,
+        -15.0
+      ],
+      "longitude_range": [
+        -152.0,
+        -152.0
+      ],
+      "time_range": [
+        "2018-11-18T21:20:00Z",
+        "2018-11-19T17:11:00Z"
+      ],
+      "n_unique_primary_bottles": 9,
+      "source_path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "source_sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809",
+      "source_rows": [
+        {
+          "line": 396,
+          "sample": "15531",
+          "lat": -15.0,
+          "lon": -152.0,
+          "time": "2018-11-18T21:20:00Z"
+        },
+        {
+          "line": 397,
+          "sample": "15529",
+          "lat": -15.0,
+          "lon": -152.0,
+          "time": "2018-11-18T21:20:00Z"
+        },
+        {
+          "line": 398,
+          "sample": "15527",
+          "lat": -15.0,
+          "lon": -152.0,
+          "time": "2018-11-18T21:20:00Z"
+        },
+        {
+          "line": 399,
+          "sample": "15525",
+          "lat": -15.0,
+          "lon": -152.0,
+          "time": "2018-11-18T21:20:00Z"
+        },
+        {
+          "line": 400,
+          "sample": "15523",
+          "lat": -15.0,
+          "lon": -152.0,
+          "time": "2018-11-18T21:20:00Z"
+        },
+        {
+          "line": 402,
+          "sample": "15639",
+          "lat": -15.0,
+          "lon": -152.0,
+          "time": "2018-11-19T17:11:00Z"
+        },
+        {
+          "line": 403,
+          "sample": "15637",
+          "lat": -15.0,
+          "lon": -152.0,
+          "time": "2018-11-19T17:11:00Z"
+        },
+        {
+          "line": 404,
+          "sample": "15635",
+          "lat": -15.0,
+          "lon": -152.0,
+          "time": "2018-11-19T17:11:00Z"
+        },
+        {
+          "line": 405,
+          "sample": "15631",
+          "lat": -15.0,
+          "lon": -152.0,
+          "time": "2018-11-19T17:11:00Z"
+        }
+      ]
+    },
+    {
+      "leg": "leg2",
+      "station": "39",
+      "latitude_range": [
+        -20.0,
+        -20.0
+      ],
+      "longitude_range": [
+        -152.0,
+        -152.0
+      ],
+      "time_range": [
+        "2018-11-21T16:08:00Z",
+        "2018-11-21T16:08:00Z"
+      ],
+      "n_unique_primary_bottles": 7,
+      "source_path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "source_sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809",
+      "source_rows": [
+        {
+          "line": 444,
+          "sample": "15732",
+          "lat": -20.0,
+          "lon": -152.0,
+          "time": "2018-11-21T16:08:00Z"
+        },
+        {
+          "line": 445,
+          "sample": "15730",
+          "lat": -20.0,
+          "lon": -152.0,
+          "time": "2018-11-21T16:08:00Z"
+        },
+        {
+          "line": 446,
+          "sample": "15728",
+          "lat": -20.0,
+          "lon": -152.0,
+          "time": "2018-11-21T16:08:00Z"
+        },
+        {
+          "line": 447,
+          "sample": "15726",
+          "lat": -20.0,
+          "lon": -152.0,
+          "time": "2018-11-21T16:08:00Z"
+        },
+        {
+          "line": 448,
+          "sample": "15724",
+          "lat": -20.0,
+          "lon": -152.0,
+          "time": "2018-11-21T16:08:00Z"
+        },
+        {
+          "line": 449,
+          "sample": "15722",
+          "lat": -20.0,
+          "lon": -152.0,
+          "time": "2018-11-21T16:08:00Z"
+        },
+        {
+          "line": 451,
+          "sample": "15720",
+          "lat": -20.0,
+          "lon": -152.0,
+          "time": "2018-11-21T16:08:00Z"
+        }
+      ]
+    }
+  ],
+  "nearest_between_leg_station_pair": {
+    "leg1_station": "18.3",
+    "leg2_station": "18.6",
+    "centroid_distance_km": 116.35938929763977
+  },
+  "interpretation": "Distinct station labels and coordinates do not prove statistical independence or independent laboratory/study replication. Spatially adjacent stations can share water masses."
+}

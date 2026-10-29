@@ -1,0 +1,53 @@
+{
+  "scope": "Already-exposed original inputs: deterministic SI display and reviewer QC. No new validation, fitting, sample exclusion, score replacement, measurement uncertainty model, geographical weighting or causal inference.",
+  "outputs": [
+    {
+      "path": "audit_status_provenance.csv",
+      "sha256": "92e6b6cae13eb7bfa0fa75356e3f088f1065c12cd334c63be84df4bbdf0be5bd",
+      "bytes": 64617
+    },
+    {
+      "path": "eligibility_flow.csv",
+      "sha256": "b4901024678f9b5c41b3f1023fb8a561f95f8fec9ca5dec2448e6a68eb13eb38",
+      "bytes": 65586
+    },
+    {
+      "path": "eligibility_flow.md",
+      "sha256": "b7c4e499904e2b0dcc0b518a84fa3505493750ce1a9d3cbfb9e5d6dcac2279b4",
+      "bytes": 3059
+    },
+    {
+      "path": "input_manifest.json",
+      "sha256": "d4286d513d7be9bd649f3199d8b86082efc67d0423cab9c360850ca399b19ab4",
+      "bytes": 4543
+    },
+    {
+      "path": "joint_domain.md",
+      "sha256": "426059afecbd90cf1dd5e318c51c0186f899229a590777e60db17e80ffa01b5a",
+      "bytes": 1645
+    },
+    {
+      "path": "joint_domain_counts.csv",
+      "sha256": "d3b01373156b6d7d1b57ed78c0824344ad2aedc21da5ae1366d2f35d9436d21c",
+      "bytes": 344
+    },
+    {
+      "path": "joint_domain_labels.csv",
+      "sha256": "27d97ba1fa7b4a1d265dda19209f0cab495781e6168332247d9ae4626811e24d",
+      "bytes": 2731
+    },
+    {
+      "path": "layer_squared_error_difference.csv",
+      "sha256": "f8e5d75d397107e51a2854a05dc29713d5f82d77b6906e1b4a20ed70928c0928",
+      "bytes": 4300
+    },
+    {
+      "path": "layer_squared_error_difference.md",
+      "sha256": "1d8e96f60d7a6a1b89d81a7fc00eb89e75740427a5de6049b693ca68ad252a1e",
+      "bytes": 1937
+    }
+  ],
+  "self_hash_omitted": "output_manifest.json cannot contain its own SHA",
+  "original_inputs_mutated": false,
+  "cycle_count_delta": 0
+}

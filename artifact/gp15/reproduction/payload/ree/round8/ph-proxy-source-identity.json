@@ -1,0 +1,28 @@
+{
+  "n_rows": 1755,
+  "cruises": {
+    "GA03": 690,
+    "GA06": 67,
+    "GA08": 33,
+    "GA10": 196,
+    "GAc01": 118,
+    "GIPY04": 57,
+    "GIPY05": 17,
+    "GN01": 103,
+    "GP12": 132,
+    "GPc05": 137,
+    "GPpr04": 159,
+    "GPpr05": 46
+  },
+  "years": {
+    "2010": 298,
+    "2011": 574,
+    "2015": 273,
+    "2012": 418,
+    "2007": 118,
+    "2008": 74
+  },
+  "original_file_role": "author calibration compilation, discovery-exposed; not independent validation",
+  "code_method": "Global pH and REE means separately in 100m layers200-800m; pH GLODAP G2phts25p0, not same-bottle match; no script run",
+  "response_effects_calculated": false
+}

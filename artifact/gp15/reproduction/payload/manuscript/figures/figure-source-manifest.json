@@ -1,0 +1,264 @@
+{
+  "schema": "geoscience-research.manuscript-figures/v1",
+  "render_only": true,
+  "new_model_fit": false,
+  "source_sha256": [
+    {
+      "path": "plans/ree-ph-fixed-transfer-v1.json",
+      "sha256": "6f5defd55abc658c961b7a8396fbe490aa2f38dcda84e8ded1bd9287e4c22820"
+    },
+    {
+      "path": "ree/round8/protocol-frozen-v1.json",
+      "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79"
+    },
+    {
+      "path": "ree/round8/transfer-source-input.json",
+      "sha256": "9fd91d413e03e069afe0fc65d4b622449308a38c81d3d458285e42a1514e2455"
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321"
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/aggregate_summary.json",
+      "sha256": "13d6831201d631d6ce39ef99ba5ef35be057a20f58795214956b02157a9b1b18"
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/leave_one_station_out.json",
+      "sha256": "2ca019a6363c308bfee33509315375cb760ff959c04ba1e43ecb6ffc6caeaeff"
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/sample_predictions.csv",
+      "sha256": "75e79395b1db84626911efccefc922005dddc0c896fe86621dcdd9fb5fab963e"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-REE_pH_proxy.ipynb",
+      "sha256": "0c6b1aa80b7ac9a527ea8f835b19adb4a675a7d53402d13f903daaaa8c79fea9"
+    }
+  ],
+  "field_mappings": [
+    {
+      "figure": "fig01",
+      "source": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "filter": "variant == primary; each leg; ascending bin_index",
+      "x_fields": [
+        "observed_ph",
+        "predicted_ph",
+        "baseline_ph"
+      ],
+      "y": "(low_m+high_m)/2",
+      "counts": "unique JSON sample_ids / stations; membership n_records"
+    },
+    {
+      "figure": "fig02",
+      "source": "results/ree_ph_fixed_transfer_v1/aggregate_summary.json",
+      "filter": "all summaries, both legs, all 4 prespecified variants",
+      "x_field": "summaries[*].delta_rmse_model_minus_baseline",
+      "sensitivity_range_source": "results/ree_ph_fixed_transfer_v1/leave_one_station_out.json",
+      "sensitivity_range": "min/max of each leg cases[*].aggregate_on_same_layer_support.delta_rmse_model_minus_baseline, primary only; all cases retained"
+    },
+    {
+      "figure": "fig03",
+      "original_calibration_source": "ree/round8/raw/Lin2024-REE_pH_proxy.ipynb",
+      "locator": "saved output text: average REE_slope of each 200–800m layer and Average pH of depth lines; notebook never executed",
+      "gp15_sources": [
+        "results/ree_ph_fixed_transfer_v1/sample_predictions.csv",
+        "results/ree_ph_fixed_transfer_v1/layer_summary.csv"
+      ],
+      "gp15_x": "mean alpha for exactly each primary layer sample_ids",
+      "gp15_y": "primary observed_ph",
+      "line": "pH=(alpha-intercept)/beta from frozen protocol",
+      "status": "post-result descriptive domain annotation; no new subgroup score or selection"
+    }
+  ],
+  "original_measurement_sources": [
+    {
+      "role": "leg1_ree",
+      "path": "raw/GP15-leg1-REE.csv",
+      "sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9",
+      "source_id": "ree-r8-leg1-ree",
+      "url": "https://datadocs.bco-dmo.org/dataset/932161/file/4WDkzxLIl9wj9O/932161_v1_gp15_dissolved_rees_leg1.csv",
+      "locator": "Raw sample identity, depths, Sm/Gd/Dy/Er BOTTLE concentrations and flags; CSV line and field mapping retained in analysis"
+    },
+    {
+      "role": "leg1_ph",
+      "path": "raw/GP15-leg1-pH.csv",
+      "sha256": "eddd66f7043437b56dd7d527d8fbb48331535f810a659e02254416c45e436d3b",
+      "source_id": "ree-r8-leg1-ph",
+      "url": "https://datadocs.bco-dmo.org/dataset/838157/file/GwwAJzmi1lq7zx/pH_Leg1.csv",
+      "locator": "Corrected-v2 sample identity, depth, PH_TOT_BOTTLE and flag; total scale25C"
+    },
+    {
+      "role": "leg2_ree",
+      "path": "raw/GP15-leg2-REE.csv",
+      "sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809",
+      "source_id": "ree-r8-leg2-ree",
+      "url": "https://datadocs.bco-dmo.org/dataset/932559/file/N7nE78vTMq9N6r/932559_v1_gp15_dissolved_rees_leg2.csv",
+      "locator": "Prospective joint-response station block; exact IDs and bottle flags; no prefreeze chemical response inspection"
+    },
+    {
+      "role": "leg2_ph",
+      "path": "raw/GP15-leg2-pH.csv",
+      "sha256": "936a04097ccd61b8ff8d62f60fcbbfc01b4cf0a46346815c7f9474ab4595365d",
+      "source_id": "ree-r8-leg2-ph",
+      "url": "https://datadocs.bco-dmo.org/dataset/838173/file/k66gkBvFr9YLJl/pH_Leg2.csv",
+      "locator": "Prospective joint-response station block; corrected-v2 identities, total-scale pH25C; no prefreeze chemical response inspection"
+    },
+    {
+      "role": "leg1_ree_intercal",
+      "path": "raw/GP15-leg1-REE-intercal-source.docx",
+      "sha256": "1f7aad4f60ef171c784f755a56bd516a3087a44f6978dc179d7994cd51a4f29d",
+      "source_id": "ree-r8-leg1-ree-intercal",
+      "url": "https://datadocs.bco-dmo.org/dataset/932161/file/B178PBnHDDlmJ/0000-0002-2068-7909-RR1814-multiple-param-intercal-report_rev.docx",
+      "locator": "Sampling/analytical methods, Tables1–3, reference repeatability"
+    },
+    {
+      "role": "leg1_ph_intercal",
+      "path": "raw/GP15-leg1-pH-intercal.pdf",
+      "sha256": "438dfb7a25e8eea537787bbdb4cca4dbec2598e4293b2e2d1a2f323525cf7397",
+      "source_id": "ree-r8-leg1-ph-intercal",
+      "url": "https://datadocs.bco-dmo.org/docs/302/geotraces/GEOTRACES_PMT/cutter/data_docs/RR1814-pH_TOT-multiple-param-intercal-report.pdf",
+      "locator": "PDF2–3 methods,12station5replicates and twoCRM observations"
+    },
+    {
+      "role": "leg2_ree_intercal",
+      "path": "raw/GP15-leg2-REE-intercal.pdf",
+      "sha256": "e154dc98945132b2de382c5730385f55010010835f4186016fc93dd9df606393",
+      "source_id": "ree-r8-leg2-ree-intercal",
+      "url": "https://datadocs.bco-dmo.org/dataset/932559/file/EK7ZKP5H3VJmJW/0000-0002-2068-7909-RR1815-multiple-param-intercal-report_rev.pdf",
+      "locator": "PDF4methods,PDF8–9 Tables2–3 reference-water RSD; conditionally motivated error box, not sample CI"
+    },
+    {
+      "role": "leg2_ph_intercal",
+      "path": "raw/GP15-leg2-pH-intercal.pdf",
+      "sha256": "0f7f13bdd945b5ac6cc7b3a411f685f0c3d17e7c91120a09481bcccd0a15ceaf",
+      "source_id": "ree-r8-leg2-ph-intercal",
+      "url": "https://datadocs.bco-dmo.org/docs/302/geotraces/GEOTRACES_PMT/cutter/data_docs/RR1815-pH_TOT-multiple-param-intercal-report.pdf",
+      "locator": "PDF2noLeg2duplicates, methods25C;PDF3CRMs and noLeg2pHcrossover"
+    },
+    {
+      "role": "paas",
+      "path": "raw/Lin2024-paas.csv",
+      "sha256": "b04fcb55324673832cef85a8e75c7580eb52448a11120421fd1bb711237ce0cb",
+      "source_id": "ree-r8-paas",
+      "url": "https://github.com/PingChunLin/REE_pH/blob/99ebf142d6787361c7720b7a3e7c213fd213eddb/coeff/paas.csv",
+      "locator": "Single row Sm/Gd/Dy/Er ug/g"
+    },
+    {
+      "role": "molar_mass",
+      "path": "raw/Lin2024-molar_mass_mgmol.csv",
+      "sha256": "58f67c7cdd4f2357afb37c20587f2e6210a221d06e33451e1eb58305ca1632c0",
+      "source_id": "ree-r8-molar-mass",
+      "url": "https://github.com/PingChunLin/REE_pH/blob/99ebf142d6787361c7720b7a3e7c213fd213eddb/coeff/molar_mass_mgmol.csv",
+      "locator": "Single row Sm/Gd/Dy/Er mg/mol"
+    },
+    {
+      "role": "atomic_numbers",
+      "path": "raw/Lin2024-atomic_number.csv",
+      "sha256": "0b4291f7e06109da3d4a570766342beb3834066c15e486915b2304b9c0607e1b",
+      "source_id": "ree-r8-atomic-numbers",
+      "url": "https://github.com/PingChunLin/REE_pH/blob/99ebf142d6787361c7720b7a3e7c213fd213eddb/coeff/atomic_number.csv",
+      "locator": "Single row Sm/Gd/Dy/Er atomic numbers"
+    },
+    {
+      "role": "author_model_code",
+      "path": "raw/Lin2024-REE_pH_estimates.py",
+      "sha256": "c695ff3ffea39f905ef02797567497465f0f989bdbbc6aa2bb4807c5608e84f4",
+      "source_id": "ree-r8-author-model-code",
+      "url": "https://github.com/PingChunLin/REE_pH/blob/99ebf142d6787361c7720b7a3e7c213fd213eddb/REE_pH_estimates.py",
+      "locator": "fixed_proxy coefficients; not executed"
+    },
+    {
+      "role": "author_proxy_code",
+      "path": "raw/Lin2024-REE_pH_proxy.py",
+      "sha256": "cc68185191ad1801dbcfe4152d4943785b450c3f7b00b929ad319bd1bd436566",
+      "source_id": "ree-r8-author-proxy-code",
+      "url": "https://github.com/PingChunLin/REE_pH/blob/99ebf142d6787361c7720b7a3e7c213fd213eddb/REE_pH_proxy.py",
+      "locator": "Separate global six inclusive100m means; normalization and regression; not executed"
+    },
+    {
+      "role": "author_notebook",
+      "path": "raw/Lin2024-REE_pH_proxy.ipynb",
+      "sha256": "0c6b1aa80b7ac9a527ea8f835b19adb4a675a7d53402d13f903daaaa8c79fea9",
+      "source_id": "ree-r8-author-notebook",
+      "url": "https://github.com/PingChunLin/REE_pH/blob/99ebf142d6787361c7720b7a3e7c213fd213eddb/REE_pH_proxy.ipynb",
+      "locator": "Saved original six pH means; notebook not executed"
+    },
+    {
+      "role": "author_training_ree",
+      "path": "raw/Lin2024-REE_seawater_all_pmol.csv",
+      "sha256": "464b8764c855680aa4a622e9b511664943bd1e565653c4092a1fc992293b83e5",
+      "source_id": "ree-r8-author-training-ree",
+      "url": "https://github.com/PingChunLin/REE_pH/blob/99ebf142d6787361c7720b7a3e7c213fd213eddb/REE_data/REE_seawater_all_pmol.csv",
+      "locator": "1755original compiled rows; cruise/time identity only for overlap check"
+    },
+    {
+      "role": "author_paper",
+      "path": "raw/Lin2024.pdf",
+      "sha256": "c9c70cef730755baddfaab1a7a21f0c2581c55e5695b7881cd441faf12bd6c2a",
+      "source_id": "ree-r8-author-paper",
+      "url": "https://ajsonline.org/api/v1/articles/118215-the-rare-earth-element-distribution-in-marine-carbonates-as-a-potential-proxy-for-seawater-ph-on-early-earth.pdf",
+      "locator": "Sections2.1,3.2,4.2;Fig3 original domain and caveats"
+    },
+    {
+      "role": "training_catalog",
+      "path": "raw/GLODAPv2.2022-Dataset_DOIs.csv",
+      "sha256": "32357c3089a6a83b474bd0c4564a408088dadecb46386ef87b34d0cb0ee23ad8",
+      "source_id": "ree-r8-training-catalog",
+      "url": "https://www.nodc.noaa.gov/archive/arc0206/0257247/1.1/data/0-data/Dataset_DOIs.csv",
+      "locator": "1085expocodes; no33RR20180918 or33RR2018; release-specific catalogue evidence"
+    }
+  ],
+  "script": {
+    "path": "manuscript/figures/make_figures.py",
+    "sha256": "3728edc7fe9ef3c98f0032b5fc1967c02aab369fd14041a7c260ea8045aa78f1"
+  },
+  "environment": {
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "matplotlib": "3.10.7",
+    "numpy": "2.5.4"
+  },
+  "outputs": [
+    {
+      "path": "manuscript/figures/fig01_matched_depth_profiles.png",
+      "sha256": "3cefd1ec547cd6963b83b32d7778e0eedc29260dee3a549749c4e2289c85999c"
+    },
+    {
+      "path": "manuscript/figures/fig01_matched_depth_profiles.svg",
+      "sha256": "2b425790494331eff8ce3774b244c06f5df400190001661c90929edc38c1c07c"
+    },
+    {
+      "path": "manuscript/figures/fig02_fixed_sensitivity_comparison.png",
+      "sha256": "8b3cbbd1bbc5ba52c226e6a6da12ede85e22fe3e307d09d38ad3901359536745"
+    },
+    {
+      "path": "manuscript/figures/fig02_fixed_sensitivity_comparison.svg",
+      "sha256": "4b241d74e090fbee51b8ea128b7ee7771cf8e5b4ebda11d882eded2ce3652b36"
+    },
+    {
+      "path": "manuscript/figures/fig03_calibration_feature_domain.png",
+      "sha256": "a38dc7d50a0f8b7da567c2ea78d57792e5a07736352e2e82cb7e66f0b64c8ebf"
+    },
+    {
+      "path": "manuscript/figures/fig03_calibration_feature_domain.svg",
+      "sha256": "23633dee970fcf219aecf4a7cea54a312e3635335feffcbffd41b2bfa5503106"
+    },
+    {
+      "path": "manuscript/figures/fig01_source_values.csv",
+      "sha256": "9b7897063b601493e3aa39a113fb9b19ea8d8919add5a2165491be5da609d6ba"
+    },
+    {
+      "path": "manuscript/figures/fig02_source_values.csv",
+      "sha256": "0526e9bf5fda34ae521e94b70f4f1ef7d4bc06b53b0047d1e128440bca6b5e94"
+    },
+    {
+      "path": "manuscript/figures/fig03_source_values.csv",
+      "sha256": "7a537623074af88509b390ef850c4ea2e548af913ba1386dd201283f60d34e4e"
+    },
+    {
+      "path": "manuscript/figures/CAPTIONS.md",
+      "sha256": "897e3aa7d38b7e6bd2c4e89da65ef31512ba8f29d52b730f86695b839228a0fd"
+    }
+  ],
+  "uncertainty_display": "No confidence interval is displayed. Figure2 ranges are fixed leave-one-station-out sensitivity ranges; Figure3 shading is training alpha support."
+}

@@ -1,0 +1,15 @@
+{
+  "recorded_utc": "2026-10-25T16:19:05.634224+00:00",
+  "scope": "Only new manuscript figures; no frozen modifications",
+  "numeric_plot_checks": 84,
+  "numeric_mismatches": 0,
+  "all_source_and_output_hashes_verified": true,
+  "visual_inspection": [
+    "Figure1: identical axes, complete profiles, unique bottle/station counts legible",
+    "Figure2: all variants, correct zero sign; primary deletion ranges explicitly not confidence intervals",
+    "Figure3: all18points, all12GP15depthlabels, unclipped axes; annotation leaders resolve close labels, source range distinctly not confidence band"
+  ],
+  "formats": "450dpi PNG and editable-text SVG",
+  "manifest_sha256": "48339679eecd438a19547ad480430c641eb4965436b2d1ac8f6ca09cd3954d23",
+  "portability_note": "Figure script resolves __file__ before constructing relative manifest path, supporting /var -> /private/var temporary aliases; plotted coordinates unchanged."
+}

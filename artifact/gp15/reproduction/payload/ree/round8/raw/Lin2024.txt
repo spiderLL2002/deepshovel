@@ -1,0 +1,1854 @@
+
+--- PDF PAGE 1 ---
+Science Paper 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for              
+Seawater pH on Early Earth      
+Ping-Chun Lin1 a
+, David C. Catling1
+1 Department of Earth and Space Sciences, University of Washington 
+Keywords: Rare earth elements, pH proxy, Marine carbonates, Seawater pH, Precambrian 
+https://doi.org/10.2475/001c.118215 
+American Journal of Science 
+Vol. 324, 2024 
+Understanding the marine environment of early Earth is crucial for understanding the 
+evolution of climate and early life. However, the master variable of Archean and 
+Proterozoic seawater, the pH, is poorly constrained, and published ideas about the pH 
+range encompass ~7 pH units from mildly acidic to hyperalkaline. To better infer ancient 
+seawater pH, we examine the possibility of a seawater pH proxy using rare earth elements 
+(REEs) in marine carbonates. The principle is based on increasing concentrations of 
+heavy rare earth elements in solution relative to the light REEs with decreasing pH due to 
+REE complexation and scavenging. We calibrated such an REE pH proxy using pH 
+variability in modern seawater and tested the proxy with ~100 REE measurements from 
+13 separate carbonate formations. We compared our pH estimates derived from the REE 
+proxy to published pH estimates of Cenozoic and Neoproterozoic seawater that use the 
+established pH proxy of boron isotopes (δ11B). REE-pH estimates agree with the 
+Cenozoic and the Ediacaran δ11B-pH proxy based on the type of carbonate and boron 
+isotopic composition at corresponding times. The uncertainty in our REE-pH proxy can 
+probably be explained by model assumptions, noise from freshwater influence, 
+siliciclastic input, and diagenesis. This proof-of-concept study demonstrates that the 
+REE-pH method provides pH estimates comparable to boron isotope pH estimates within 
+uncertainties, which potentially could constrain changes in Precambrian seawater pH to 
+better understand the coevolution of life and early Earth’s environment. 
+1. INTRODUCTION 
+Seawater pH is one crucial yet unconstrained environmen-
+tal parameter relevant to the early climate and evolution of 
+life. Marine pH is important because it is directly connected 
+to the partial pressure of CO2 in the atmosphere (pCO2), 
+which was likely a key greenhouse gas in the Precambrian 
+that controlled Earth’s surface temperature (Catling & 
+Zahnle, 2020; Sleep & Zahnle, 2001; Walker et al., 1981). 
+In aquatic chemistry, pH is a “master variable” because it 
+commonly defines whether chemical reactions are favored 
+and provides biogeochemical context (Konhauser & Riding, 
+2012; Meador, 1991). Additionally, seawater pH is an essen-
+tial parameter for the origin of life, e.g., in trans-membrane 
+proton gradients (Lane et al., 2010). 
+Constraints on Precambrian seawater pH are very sparse 
+and debated (see summary in Krissansen-Totton et al., 
+2018). For example, Grotzinger and Kasting (1993) esti-
+mated that Precambrian seawater had a slightly acidic to 
+alkaline range of pH 5.7–8.6 based on the absence of cal-
+cium sulfate minerals. Pinti (2005) argued for a pH as low 
+as 4.8 in the Hadean because of higher atmospheric CO2, 
+although Kadoya et al. (2020) constructed a global carbon 
+cycle model where the Hadean ocean was quasi-neutral or 
+slightly alkaline. In contrast, some have argued that the 
+Archean ocean was highly alkaline with a pH of 9–11, simi-
+lar to modern soda lakes (Kempe & Degens, 1985; Kempe & 
+Kazmierczak, 2011). 
+Evolving seawater chemistry models have estimated the 
+evolution of pH rising from slightly acidic to quasi-neutral 
+over 4.0 billion years. Halevy and Bachan (2017) modeled 
+the dissolved ion changes in seawater under an assumed 
+stable climate showing that the average pH has likely risen 
+(on average) over time since the Archean. Krissansen-Tot-
+ton et al. (2018) estimated pH using a self-consistent car-
+bon cycle climate model different from Halevy and Bachan 
+(2017), but reached similar conclusions reflecting a secular 
+decrease in atmospheric pCO2. However, lower pCO2 levels 
+from acid weathering of impact ejecta can also create a 
+slightly alkaline ocean in the early Archean and Hadean 
+(Kadoya et al., 2020). 
+Consistent seawater pH proxies would constrain the 
+wide range of pH estimates of early Earth. A rough proxy of 
+Corresponding author: pcl1225@uw.edu a 
+Lin, P.-C., & Catling, D. C. (2024). The Rare Earth Element Distribution in Marine
+Carbonates as a Potential Proxy for Seawater pH on Early Earth. American Journal of
+Science, 324, 10. https://doi.org/10.2475/001c.118215
+
+--- PDF PAGE 2 ---
+1–2 pH units would be sufficient for telling the difference 
+between acidic, neutral, or alkaline seawater. 
+One candidate for a seawater pH proxy is the rare earth 
+element (REE) distribution. REEs include the 15 lanthanide 
+elements (La - Lu), Scandium (Sc) and Yttrium (Y). The 
+REEs we discuss in this paper are the 15 lanthanide ele-
+ments that have similar chemical properties. Rare earth el-
+ements exist in modern seawater at part per trillion con-
+centration and are divided into two groups, Light REEs 
+(La-Sm, LREEs) and Heavy REEs (Gd-Lu, HREEs), based on 
+their atomic number and chemical behavior (Elderfield & 
+Greaves, 1982; McLennan & Ross Taylor, 2012). Some also 
+define Sm-Ho as the Middle REEs (MREEs; Rollinson, 1993; 
+Y. Zhao et al., 2022). Besides the 15 lanthanides, Y is com-
+monly included in the analysis because of its similarity to 
+the lanthanides (Bau, 1999). 
+When analyzing REEs in seawater and marine sediments, 
+we normalize REE concentrations by shale, typically the 
+Post Archean Australian Shale (PAAS, see Pourmand et al. 
+(2012)). 
+Here, mi is the concentration of REE with an atomic number 
+i normalized by shale (unitless), Mi is the molal concentra-
+tion of measured REE i in seawater or marine sediments 
+(mol/g), and ki is the molal concentration of the REE in 
+the shale (mol/g). Shale-normalization removes the Oddo-
+Harkins effect, a result of cosmic nucleosynthesis, in which 
+elements with even atomic numbers are usually more abun-
+dant because elements with odd atomic numbers capture 
+protons more easily, creating a zigzag pattern when unnor-
+malized REE abundance is plotted against atomic number 
+(Cornell, 1993; McLennan & Taylor, 2012). 
+REE concentrations increase when pH decreases. A 
+shale-normalized REE concentration record of modern sea-
+water measurements typically has certain characteristics, 
+including (1) HREE enrichment and (2) a redox-sensitive 
+Ce anomaly (Y. Zhao et al., 2022). Our proposed REE-pH 
+proxy relies on pH-dependent HREE enrichment through 
+REE scavenging and the fact that stability constants for REE 
+complexes (mainly carbonates) increase with atomic num-
+ber in the pH range 7.3–8.2 (Byrne & Kim, 1990; Schijf et 
+al., 2015). Signatures (1) and (2) of seawater will be dis-
+cussed in subsequent sections. 
+REE scavenging is the removal of REEs in seawater by 
+sorption onto particulate “scavengers” such as organic 
+matter, silicates, and other phases (reviewed by Y. Zhao et 
+al., 2021). Scavengers pick up HREEs and LREEs unevenly, 
+causing HREE enrichment and LREE depletion in seawa-
+ter. The chief reason why LREEs are preferentially removed 
+from solution is because free metal of LREEs is more abun-
+dant than the same species for a corresponding MREE or 
+HREE. The free metal ion is more chemically reactive and, 
+hence, is more available to complex onto the surfaces of Fe/
+Mn oxide/oxyhydroxide, organic matter particulates and be 
+removed from the solution (Byrne & Kim, 1990; Cantrell & 
+Byrne, 1987; Johannesson et al., 2006; Koeppenkastrop & 
+De Carlo, 1992, 1993; Quinn et al., 2004; Schijf et al., 2015). 
+The result is a positive relative trend when shale-normal-
+ized REE concentrations in modern seawater are plotted as 
+a function of REE atomic number (Akagi, 2013; Byrne & 
+Kim, 1990; Nishino et al., 2022; Nishino & Akagi, 2019; 
+Schijf et al., 2015). 
+Marine limestones take up and preserve REY concentra-
+tions in seawater through accommodation of REY3+ at Ca2+ 
+sites with a concentration distribution that depends on sea-
+water pH (Byrne & Kim, 1990; Schijf et al., 2015; Y. Zhao et 
+al., 2021). Therefore, we postulate that ancient marine car-
+bonates should preserve a record of seawater pH via their 
+relative concentration of REEs. 
+We assume shale-normalized REE concentrations in-
+crease linearly with atomic number (McLennan, 1989). An 
+REE anomaly indicates that the measured concentration of 
+an REE differs from the value based on linear projections of 
+the neighboring element concentrations (Rollinson, 1993). 
+We use an REE concentration ratio to express REE anom-
+alies, for example, the La anomaly and Ce anomaly 
+(Lawrence & Kamber, 2006; Tostevin et al., 2016; See Sup-
+plementary Data for derivation): 
+The numerator REE is the measured REE concentration, 
+[REE], whereas the denominator REE* is the linear projec-
+tion of the REE concentrations with similar atomic num-
+bers. The REEs in the projection are not always adjacent. 
+When the ratio is less than 1, the anomaly is a “negative” 
+anomaly. 
+REE anomalies are extremely important to identify car-
+bonate samples that show inadvertent extraction of non-
+carbonate fractions, diagenetic exchange, and non-marine 
+depositional settings. (see also table 4 in Sec. 4.4). In mod-
+ern seawater, large La anomalies (La/La*> 3, mole ratio) 
+indicate open ocean settings (K.-J. Zhang et al., 2017), 
+whereas a negative Ce anomaly normally indicates an oxi-
+dized ocean (Tostevin et al., 2016). 
+Although not an REE anomaly, Y/Ho ratios also indicate 
+depositional environments. Lower Y/Ho ratios (Y/Ho < 44, 
+mole ratio) indicate continental input and possible fresh-
+water sources (Bau & Dulski, 1999; Satish-Kumar et al., 
+2021; Y. Zhao et al., 2022). 
+We demonstrate a proof-of-concept for a marine carbon-
+ate REE-seawater pH proxy using modern seawater and val-
+idate with published pH estimates derived from boron iso-
+topes. Then we provide direct seawater pH estimates for 
+some Neoproterozoic environments with REE concentra-
+tion records from Precambrian marine carbonates. By look-
+ing at REE anomalies and trends, we discuss how accuracy 
+of the REE-pH proxy can be affected by freshwater influ-
+ence, siliciclastic input, and diagenesis, which suggests how 
+marine carbonates might be screened to only select those 
+that preserve the best pH proxy signal. 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 2
+
+--- PDF PAGE 3 ---
+2. METHODS 
+2.1. REE scavenging and speciation 
+We first considered REE speciation in seawater based on 
+how REEs are scavenged (Schijf et al., 2015). Concentra-
+tions of trivalent REE ions and carbonate complexes, which 
+are the dominant species in seawater, depend on pH (Luo 
+& Byrne, 2004). Hence, REE concentration in seawater be-
+comes a function of pH. 
+We used PHREEQC, a USGS aquatic chemistry software 
+(Parkhurst & Appelo, 2013), to compute REE speciation 
+over a range of pH values. The speciation model includes 
+the complexation reactions of major ion concentrations in 
+a fixed total dissolved REE concentration (1 pmol/kg). The 
+major dissolved species include cations (REE3+) and ligands 
+formed with anions (especially CO32-) at different seawater 
+pH values. To model complexation reactions and speciation 
+in seawater, we used the ion pairing constants and ther-
+modynamic stability constants given in the REE scavenging 
+model of Schijf et al. (2015). The code for the PHREEQC 
+model is provided at the end of this paper (see Data Avail-
+ability). 
+To estimate the REE enrichment trend of samples of 
+modern seawater and records in the marine carbonate 
+rocks, we define the REE-pH proxy as the pH-dependent 
+slope of the best fit line of shale-normalized REE concen-
+tration in a sample as a function of REE atomic number. 
+There are two advantages when using the slope of multiple 
+REEs in the pH estimation: (1) The slope of multiple REEs 
+is a quantitative value that shows the enrichment trend re-
+gardless of the absolute REE concentration. (2) Some REEs 
+have anomalies so that these REEs are best omitted (e.g., 
+Ce and Eu). Also, literature reports sometimes have missing 
+values of some REEs that were not quantified, so using the 
+slope of multiple but select REE values instead of individual 
+REE measurements or two-element ratios ensures that the 
+proxy can still consistently produce reasonable estimates of 
+seawater pH without all REEs being measured. 
+We choose the seawater pH proxy to be a linear regres-
+sion line of the concentration of four elements, Sm, Gd, Dy, 
+and Er, omitting other elements, as we will explain shortly. 
+We define the slope of this subset of elements versus atomic 
+number (which includes the lightest MREE (Sm), heavier 
+MREEs (Gd and Dy), and HREE (Er)) as the “REE slope.” We 
+can derive the REE slope from an equation: 
+Here, i is the corresponding atomic number of REEs (Sm, 
+Gd, Dy, Er) (a.m.u);  is the REE concentration slope 
+(a.m.u-1);  is the shale normalized REE concentration for 
+the atomic number i (unitless) like in equation (1). Here, 
+is the vertical axis intercept of the regression best fit line 
+(unitless, same unit as ). We solve for both  and  in 
+the regression but focus on the slope . 
+We omit the other REEs because the REE patterns can be 
+affected by anomalies from other mechanisms besides pH, 
+such as Ce that is affected by redox in modern seawater (El-
+derfield et al., 1988). Table 1 shows the REEs and the rea-
+sons for filtering out certain elements. All REEs are affected 
+by terrigenous sources as the continents are the primary 
+source of REEs to the ocean. However, for ancient carbon-
+ates, some argue that local terrigenous sources affect LREE 
+concentrations, and hydrothermal vents affect Eu concen-
+trations, in particular (Bau & Dulski, 1999; German et al., 
+1990; Y. Zhao et al., 2022). Deep ocean water mass mixing 
+can affect REE concentration systematically, as LREE de-
+pletion becomes less obvious in deep waters (Deng et al., 
+2017; Elderfield & Greaves, 1982). We also remove HREEs 
+with an atomic number larger than Er (which includes Tm, 
+Yb, and Lu) from our pH proxy because they are prone to 
+be affected by water depth and show a negative concentra-
+tion trend with increasing atomic number compared to the 
+Er concentration (Piepgras & Jacobsen, 1992). 
+To examine how the REE slope changes with seawater 
+pH, albeit over a limited pH range, we use the empirical 
+depth-dependent pH changes of modern seawater and as-
+sociated changes in the distribution of REE concentrations. 
+We use dissolved REE concentration measurements from 
+modern seawater in the GEOTRACES database, which in-
+cludes a wide range of measurements in the Pacific and 
+Atlantic oceans (GEOTRACES Intermediate Data Product 
+Group, 2021). Because surface inputs and deep-water 
+masses affect the REE concentrations, we chose subsurface 
+seawater (200–800m) with monotonic pH and REE concen-
+tration change to filter out any aeolian or deep seawater 
+REE input (Elderfield & Greaves, 1982). 
+We created a linear regression model using seawater pH 
+from the Global Ocean Data Analysis Project (GLODAPv2), 
+a NOAA database (Key et al., 2015; Olsen et al., 2016): 
+Here, Y is the corresponding pH of seawater;  is the slope 
+of the best fit line in the linear regression model 
+(a.m.u-1pH-1);  is the REE concentration slope (a.m.u-1) 
+like in equation (4) but explicitly for seawater. Here,  is 
+the vertical axis intercept of the REE slope (a.m.u-1, same 
+unit as ). We solve for both  and  in the regression but 
+focus on the slope . Our goal is to use , slope of the lin-
+ear regression line for REE slope and pH to predict seawater 
+pH, given the REE slope . 
+2.2. REE partition coefficients for limestone 
+The pH-dependent REE concentrations in seawater will be 
+reflected by uptake in sedimentary marine carbonates and 
+may be altered in their relative levels by partitioning be-
+tween the carbonate and seawater. If we know the partition 
+coefficients, we can estimate seawater REE/Ca from REE 
+concentration records in marine carbonates, and thus de-
+rive the REE concentrations in rocks with the Ca concentra-
+tion known in rocks and assumed for ambient seawater. The 
+standard way to quantify REE partitioning between seawa-
+ter and marine sediments is to use empirical partition co-
+efficients. The definition of the trace metal partition coeffi-
+cient follows Henderson and Kracek (1927): 
+Here, m is the molality (mol/kg) of the element concentra-
+tion in seawater, either the dissolved REE (mREE) or aque-
+ous calcium cation (mCa), and X is the molar ratio of the el-
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 3
+
+--- PDF PAGE 4 ---
+Table 1. The list of REEs, their atomic number, and the reasons why the element was excluded from REE-slope                  
+calculation. REEs in the bolded text are included in the REE-pH proxy. Toyama and Terakado                (2019)  is used as a     
+key reference for the calibration of the proxy.         
+REE Atomic 
+number 
+Group Reason why REE is excluded from the REE slope Reference 
+La 57 LREE Different from positive REE slope trend 
+Terrigenous input sensitive 
+Deep-water enrichment 
+Y. Zhao et al. (2021) 
+Y. Zhao et al. (2022) 
+Elderfield and Greaves 
+(1982) 
+Ce 58 LREE Redox-sensitive anomaly 
+Terrigenous input sensitive 
+Deep-water enrichment 
+Tostevin et al. (2016) 
+Y. Zhao et al. (2022) 
+Pr 59 LREE Missing concentration measurements in key 
+reference 
+Terrigenous input sensitive 
+Deep-water enrichment 
+Toyama and Terakado 
+(2019) 
+Y. Zhao et al. (2022) 
+Elderfield and Greaves 
+(1982) 
+Nd 60 LREE Terrigenous input sensitive 
+Deep-water enrichment 
+Y. Zhao et al. (2022) 
+Elderfield and Greaves 
+(1982) 
+Pm 61 LREE Unstable in nature Pilson (2012) 
+Sm 62 MREE 
+Eu 63 MREE Hydrothermal-sensitive anomaly German et al. (1990) 
+Gd 64 MREE 
+Tb 65 MREE Missing concentration measurements in key 
+reference 
+Toyama and Terakado 
+(2019) 
+Dy 66 MREE 
+Ho 67 MREE Missing concentration measurements in key 
+reference 
+Toyama and Terakado 
+(2019) 
+Er 68 HREE 
+Tm 69 HREE Different from positive REE slope trend Piepgras and Jacobsen 
+(1992) 
+Yb 70 HREE Different from positive REE slope trend Piepgras and Jacobsen 
+(1992) 
+Lu 71 HREE Different from positive REE slope trend Piepgras and Jacobsen 
+(1992) 
+ement concentration in carbonate rock samples, i.e., XREE = 
+mol REE/total moles in the rock. DREE is the partition coef-
+ficient of REEs in an aqueous solution (unitless). 
+Partition coefficients range from 10-1 to 103 (Smrzka 
+et al., 2019). This wide spread corresponds to the initial 
+setup of measurement experiments and comes from differ-
+ent experiment settings and REE incorporation processes 
+(Möller & De Lucia, 2020; Morse et al., 2007). However, 
+the relative partition coefficients between different REEs 
+mostly remain constant for a given setup, which shows a 
+flat pattern when plotted against atomic numbers (Nishino 
+et al., 2022; Toyama & Terakado, 2019). Hence, the REE 
+slope should still be useful for estimating the pH from 
+limestone REE concentrations. Table 2 shows the variables 
+XREE, DREE, and mCa⁄XCa that we used from the literature to 
+derive mREE, which resembles the estimated seawater REE 
+concentration (Toyama & Terakado, 2019). We calculate the 
+REE slope  for estimated seawater from marine carbonate 
+REE records using equation (4) and their corresponding pH 
+by applying the  values to equation (5) with the  cali-
+brated from seawater. 
+Petrographic, mineralogical, and geochemical screening 
+of potential samples is critical for the marine carbonate 
+selection used to estimate seawater pH. We estimated pH 
+values for five Phanerozoic samples mentioned in Toyama 
+and Terakado (2019), where they mainly consist of calcite 
+and come from reefal depositional environments (Kawa-
+mura, 1989; Kobayashi, 2002; Nakamori et al., 1991; Ota 
+& Isozaki, 2006; Ujiié, 1994). The five samples have low 
+Al, Mn, and Fe concentration, when compared to primary 
+signals of dissolved bulk carbonates (Toyama & Terakado, 
+2019; K. Zhang et al., 2015). We excluded the two samples 
+(YK-1 & FJ-1 in Toyama & Terakado, 2019) possibly af-
+fected by Fe-Mn oxides and filtered out KD-1 because it 
+consists of dolomite. 
+Modern seawater has a limited but variable pH range. To 
+test if the REE-pH seawater proxy works on a wider range of 
+pH values, we also compared REE-pH proxy estimates with 
+pH estimates from boron isotopes in the geologic record 
+(Foster & Rae, 2016). The 𝛿11B isotope seawater pH proxy 
+gives pH estimates across the Cenozoic, 66 Ma-present (Rae 
+et al., 2021). 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 4
+
+--- PDF PAGE 5 ---
+Table 2. List of the known variables used in equation (6).          
+Variable Value Reference 
+XREE Derived from REE measurements in marine 
+carbonates. See Data Availability for the source 
+code. 
+See table 3 
+DREE Table 4 in Toyama and Terakado (2019) Toyama and Terakado (2019) 
+mCa⁄XCa 0.01 mol/kg Modern seawater value from J. Zhang and Nozaki (1996). 
+Molar fraction XCa is 1 (Toyama & Terakado, 2019). 
+Equations (1), (4), (5), and (6) are a system of four equa-
+tions with four unknowns: the shale-normalized REE con-
+centration  in carbonate rocks, REE slope , REE-seawa-
+ter pH linear regression slope  and the REE concentration 
+in ancient seawater, . We solve this system of equa-
+tions to estimate seawater pH using REE concentrations 
+from marine carbonates. 
+3. RESULTS 
+3.1. REE speciation and pH 
+Figure 1 shows the dominant species of Sm, Gd, Dy, and 
+Er in modern seawater over a range of pH on either side 
+of neutral (pH 5.7–8.7) according to our PHREEQC model. 
+This range covers the quasi-neutral pH estimates from 
+Grotzinger and Kasting (1993) and Krissansen-Totton et al. 
+(2018). The dissolved REE molal concentration of trivalent 
+ions (REE3+), monocarbonato complex (REECO3+), and di-
+carbonato complex (REE(CO3)2
+-), is divided by the fixed to-
+tal dissolved REE concentration (1 pmol/kg) in seawater 
+to give a unitless ratio. Clearly, the dissolved REE species 
+change considerably as a function of pH from acidic to alka-
+line. Supplementary table 1 shows the complete REE con-
+centration speciation. 
+To evaluate the HREE enrichment change of REE con-
+centrations, we focus on the relative REE enrichment trend 
+instead of individual REEs. Specifically, the HREE enrich-
+ment and LREE depletion change with pH. As mentioned 
+in the Introduction, HREE/LREE ratios indicate HREE en-
+richment. Figure 2 shows that HREE enrichment in seawa-
+ter depends on pH in the REE speciation model within the 
+pH range of 5.7–8.7. In particular, although the dicarbonato 
+ligand begins to dominate in alkaline conditions for both 
+HREE and LREEs, the ratio of most HREE/LREE monoton-
+ically decreases when seawater pH increases, so we should 
+expect the slope of REE concentrations versus atomic num-
+ber to decrease with increasing pH. Which dissolved species 
+(ligands) are incorporated into depositional carbonates is 
+debated, but our results show that all three major species 
+in seawater (trivalent ions, monocarbonato complex, and 
+dicarbonato complex) change as pH changes (Curti et al., 
+2005; Elderfield et al., 1990; Goldstein & Jacobsen, 1987, 
+1988a, 1988b; Voigt et al., 2017). The Er/Sm ratio starts to 
+plateau at highly alkaline or highly acidic conditions, albeit 
+still monotonic. 
+3.2. Calibration of the pH proxy using seawater 
+We calibrated the seawater pH proxy using shale normal-
+ized REE concentrations in the GEOTRACES database. Be-
+cause the depth of the REE concentration measurements 
+vary at different locations, we calculated the average sea-
+water pH and REE slopes ( ) in each vertical profile by 100 
+m intervals from 200 m to 800 m over which the pH de-
+creases from ~7.75 to ~7.6. Figure 3A shows a subset of data 
+from GEOTRACES and how the REE slope changes. In fig. 
+3B, when considering the REE concentrations over global 
+averages, pH affects the slope of MREEs (Sm, Gd, Dy), the 
+slope is dominated by HREE (Er) versus MREE sensitivity to 
+pH. 
+We calculate the REE-seawater pH proxy 
+ (2σ) from equation (5). The linear 
+regression model (with slope ) in figure 3c indicates a 
+negative relationship between REE slope and seawater pH, 
+which is similar to HREE enrichment in the speciation 
+model (fig. 2). 
+In this study, we focused exclusively on contemporary 
+seawater values. However, variations in alkalinity, dissolved 
+inorganic carbon (DIC), turbidity, and ionic strength across 
+different oceanic systems during historical periods and 
+among distinct water masses may alter the relationship be-
+tween REE concentrations and pH levels derived from equa-
+tion (5) (see also the terrestrial water references mentioned 
+in Section 4.4). 
+3.3. Estimates of pH from Phanerozoic limestone 
+Using our proposed REE pH proxy of the slope of shale-nor-
+malized Sm, Gd, Dy, and Er concentrations, we computed 
+five pH estimates ranging from 7.4 to 8.2 for limestone sam-
+ples published by Toyama and Terakado (2019), where the 
+empirical calcite partition coefficients are from. Toyama 
+and Terakado (2019) also measured the same samples using 
+different analytical techniques, which can cause differences 
+in the REE concentrations measured in the analysis (See 
+Section 4.3). In future studies, one could utilize a more 
+extensive dataset encompassing published records span-
+ning Precambrian periods (K. Zhang & Shields, 2022). The 
+five limestones are located near the Pacific coast of Japan 
+and range in age from Carboniferous to Quaternary. Our 
+estimated seawater pH from the Quaternary sample is 
+8.03±0.06 (±2σ), roughly matching modern seawater with 
+pH=8.1 (fig. 4). The Ce anomaly, LREE depletion, and HREE 
+enrichment resemble modern seawater REE patterns in the 
+REE concentration plot (Toyama & Terakado, 2019). The 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 5
+
+--- PDF PAGE 6 ---
+Figure 1. The concentration of three dominant species of the four REEs (Sm, Gd, Dy, Er) used in the pH proxy in                     
+seawater. The dominant species of REEs in seawater, trivalent ions, monocarbonato-complexes, and             
+dicarbonato-complexes, change as seawater pH changes. Other REE complexes with ligands such as chloride (Cl              -)  
+and sulfate (SO  42-) exist in seawater but have less quantity in pH range above 6 so they are not included in the                     
+figures. The values were calculated using PHREEQC and REE speciation constants from Schijf et al.                (2015).  
+REE slope and corresponding pH estimate for all the lime-
+stone samples are shown in figure 5. The most acidic pH 
+estimate with pH=7.38±0.07 (2σ) is from the Middle-Late 
+Permian limestone sample MA-1, at the time of the 
+Guadalupian–Lopingian Boundary (Ota & Isozaki, 2006). 
+The lower pH possibly reflects the increase in pCO2 at the 
+Guadalupian–Lopingian Boundary, a time of increased vol-
+canic activity (Foster et al., 2017; W. W.-Q. Wang et al., 
+2023). 
+3.4. Validation of the REE-pH proxy using 
+independent pH estimates from boron isotopes 
+To test if the REE-pH seawater proxy produces comparable 
+results to other paleo seawater pH estimates, we compared 
+pH estimates of the REE-pH proxy with pH estimates from 
+the boron isotope seawater pH proxy (Rae et al., 2021). 
+The Cenozoic boron isotope pH estimates span from 66–0 
+Ma, but some epochs within the Cenozoic era, such as 
+Oligocene and Paleocene, lack data (Rae et al., 2021). 
+We estimated the pH of six marine carbonate formations 
+from the literature with samples that overlap the time-
+stamps of 𝛿11B-pH estimates. figure 6 shows REE-pH es-
+timates for Holocene, Quaternary, and Eocene carbonates 
+with corresponding 2σ uncertainty. Table 3 lists the sam-
+ples from the marine carbonate formations, including lime-
+stone and dolostone. The highest pH estimate is from the 
+Holocene Heron Reef, with pH = 8.08±0.13, and the lowest 
+is from the Eocene Khuiala formation, with pH = 7.73±0.35. 
+All pH estimates match the 𝛿11B-pH estimates within 2σ 
+uncertainty, although the pH estimate from the Pliocene 
+Pedro Castle formation has a large uncertainty (±0.62). 
+We next selected REE concentrations from four of the six 
+limestone formations (Heron Reef, Minatogawa, Fulra, and 
+Khuiala formations (see table 3)) to examine the correlation 
+of pH inferred from REEs and boron isotopes. The Pliocene 
+and Middle Miocene carbonates from H. Zhao and Jones 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 6
+
+--- PDF PAGE 7 ---
+Figure 2. Er/Sm, an example of HREE enrichment that decreases as seawater pH increases (See Supplementary               
+figure 1 for all REE HREE/LREE ratios). The Er and Sm ligand and trivalent ion concentrations are calculated                   
+using PHREEQC and REE speciation constants, which are the same as            figure 1   (Schijf et al.  ,  2015). The trivalent    
+ion and dominant REE complexes in seawater show concentration slopes that change as pH increases from                 
+5.7–8.7. (A) monocarbonato complex concentrations between Er and Sm (B) dicarbonato complex concentration              
+comparison between Er and Sm; the vertical axis is a log scale to show the contrast between the concentrations                    
+around pH=6. (C) Trivalent ion concentration comparison between Er and Sm. (D) The total Er/Sm ratio                 
+comparison of the three ions in (A), (B), and (C), and the sum of the combined Er/Sm ratio of (A), (B), and (C).                        
+The curve of the sum is in Supplementary data (Supplementary fig. 4)             
+(2013) were excluded because the majority of these sam-
+ples from formations in the Cayman Islands are mixtures 
+of limestones and dolostones and also may have a riverine 
+influence (see Sec. 4.4). The dolostones might not produce 
+accurate pH estimates because we are using limestone REE 
+partition coefficients in the pH proxy. We then compared 
+the REE-pH estimates with the 𝛿11B-pH estimates of the 
+same timestamps in the Holocene, Quaternary, and Eocene. 
+The pH inferred from the REEs in the four limestone forma-
+tions moderately correlates with 𝛿11B-pH estimates with a 
+linear regression slope of 1.6±1.3 (2σ) and R2 of 0.75 (fig. 
+7). The confidence interval (blue region) 2σ indicates the 
+uncertainty of the correlation of the four samples. We note 
+that the lower pH range is limited to the one Eocene sam-
+ple and clearly the relationship would be more robust were 
+there more data to compare. Given the lack of accurate age 
+estimates for individual samples, we assume that average 
+pH values represent the average time window for a forma-
+tion (e.g. Ypresian). The correlation of the pH values might 
+change if more precise age estimates were known. 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 7
+
+--- PDF PAGE 8 ---
+Figure 3. The REE-pH seawater pH proxy calibrated using modern seawater pH and REE concentrations. (A)               
+Shale-normalized REE concentration measurements from individual seawater profiles with depths closest to 200              
+m and 800 m. The profiles are from the GeoB17 Stations 3, 4 and 5 from the GEOTRACES database                    (Behrens et al.  ,  
+2018). (B) Average global shale normalized REE concentrations (Sm, Gd, Dy, Er) from GEOTRACES at different                 
+depths (443 measurements) where pH typically decreases with increasing depth. (C) REE slope              ( )  versus pH   
+derived from modern seawater. The solid line is the linear regression model (with slope               )  
+based on the REE slopes        calculated from figure 3B with equation (4) (R-squared = 0.97). The blue area is the 2σ                 
+confidence interval, which indicates the range of REE slopes that could fit existing pH values. The error bars are                    
+the 2σ standard error of the mean pH and mean REE slope values (Supplementary fig. 5).                 
+3.5. Preliminary Application to Precambrian samples 
+Next, we demonstrate that the REE-pH proxy could provide 
+rough estimates from carbonates that demonstrate a post-
+glacial open-ocean setting deposited in the early Ediacaran 
+periods (Rodler et al., 2016). The REE-pH estimates for 
+the Neoproterozoic Snowball Earth carbonates are from the 
+same carbonate formation group (Otavi Group, Namibia) 
+that Kasemann et al. (2010) assessed with boron isotopes. 
+The age of the Otavi Group is from 770 Ma to 580 Ma 
+(Halverson et al., 2005). Here, we use the REE concentration 
+data from the Keilberg and Maiberg formations at the 
+Fransfontein sampling profile at the Otavi Group (Rodler et 
+al., 2016). 
+Figure 8 shows 11 pH estimates of the Keilberg and 
+Maieberg formations and the corresponding 𝛿11B values 
+(Kasemann et al., 2010; Rodler et al., 2016; See Supplemen-
+tary table 2 for the complete list of carbonate samples used 
+for REE-pH estimates). We filtered out one sample FSF-25 
+with a large error bar (ΔpH>7). The Keilberg and Maieberg 
+formations indicate shallow marine depositional settings 
+(Hoffman, 2011; Rodler et al., 2016). Both REE-pH esti-
+mates and 𝛿11B-pH estimates start with higher than neutral 
+pH values at the Keilberg formation samples and decrease 
+in the following Maieberg formation samples. 
+4. DISCUSSION 
+4.1. REE-pH estimate uncertainty 
+The accuracy of the REE-pH estimates relies on preserving 
+the seawater REE signatures in marine carbonates, and the 
+size of the error bars in figure 6–8 are not small. Diagenetic 
+processes, including freshwater and siliciclastic input, can 
+alter the REE distribution, potentially spreading the pH es-
+timate (Azmy et al., 2011; Srivastava & Singh, 2019; Y. 
+Zhao et al., 2022). The quality of the pH estimates relies 
+heavily on the extent to which marine carbonate samples 
+retain primary REE signatures of seawater only. Here, we 
+discuss factors that possibly influence the REE-pH proxy 
+and the prediction results. The potential factors of uncer-
+tainty are model calibration, acid treatment to extract REE 
+from carbonate samples, freshwater sources, siliciclastic in-
+put, and diagenesis. 
+4.2. The uncertainty from model calibration 
+The REE-seawater pH proxy is calibrated from modern sea-
+water only over a range of ~7.58 to ~7.73 (Sec. 3.2). This pH 
+range is derived from subsurface seawater, which is likely 
+different from the surface where most Precambrian ma-
+rine carbonates are deposited. However, we assume that the 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 8
+
+--- PDF PAGE 9 ---
+Figure 4. Calculated REE concentrations in Quaternary seawater vs. directly measured REE concentrations in             
+modern seawater normalized to the Post Archean Australian Shale          (Pourmand et al.  ,  2012). We used the REE      
+partition coefficient equation (eq 6) defined by Henderson and Kracek           (1927)  to calculate REE concentrations in      
+seawater using quaternary limestone and calcite partition coefficients as input (blue line; sample RK-1 of                
+Toyama and Terakado    (2019)). The circled dots are the elements Sm, Gd, Dy, and Er used in the REE-pH                 
+estimation (See Methods section). The orange line shows REE concentrations in modern seawater with pH = 8.02                  
+at 198 m (REE data from GeoB17003 in         Behrens et al.  ,  2018; pH measurements from GLODAPv2 at the same         
+location).  
+REE-pH proxy extrapolates linearly over the weakly acid to 
+the weakly alkaline range of pH given the changes in car-
+bonate complexation predicted by the PHREEQC model re-
+sults (fig. 2). This assumption is supported by the matches 
+to pH estimates from 𝛿11B isotopes. The linear correlation 
+between REE-pH estimates and 𝛿11B isotopes is driven by 
+the Eocene Khuiala sample, which has a lower REE-pH es-
+timate value of 7.73 (fig. 7), Therefore, the inclusion of pH 
+estimates in between the range of 7.73 to 7.90 for REE-pH 
+proxy that overlaps the age of 𝛿11B isotope pH estimates 
+would make the positive relationship more statistically ro-
+bust. The assumption of the linear correlation outside of 
+the modern seawater pH range remains as an uncertainty 
+for the paleo-seawater pH estimates. 
+Z.-L. Wang et al. (2013) proposed a three-stage linear re-
+lationship model for freshwater between REE concentration 
+(La) and pH where the linear relationship flattens out above 
+pH 7.5. It is possible that the slight REE concentration in-
+crease after pH 7.5 skews the linear relationship between 
+REE slope and pH (fig. 2D, where the Er/Sm curve is flatter 
+above pH 7.5 compared to lower pH). 
+It is possible that other factors, such as degrees of ocean 
+mixing, affect REE patterns at the subsurface. We examined 
+the correlation between the Ce anomaly and the Y/Ho ratio 
+and the REE slope at different depths (Supplementary fig. 
+6). Y/Ho shows a low correlation, whereas Ce anomalies 
+correlate with the REE slope and dissolved oxygen at dif-
+ferent depths. In anoxic and suboxic conditions, the most 
+dominant control on Ce anomalies is likely dissolved oxy-
+gen, but in oxic open oceans, the Ce anomaly is likely to re-
+flect the REE adsorption chemistry (Cao et al., 2022). The 
+high correlation between the Ce anomaly and oxygen from 
+the global average seawater data, mostly from open oceans, 
+could be a mixed result of pH, dissolved oxygen, and other 
+factors influencing the Ce anomaly. 
+4.3. The difference in analytical protocols 
+The REE data from marine carbonate are likely robust 
+against different measurement techniques. Different ana-
+lytic protocols for the REE concentration analysis in marine 
+carbonates, such as using HCl or acetic acid to dissolve the 
+samples, can cause differences in the REE concentrations. 
+However, the samples we analyzed have no significant dif-
+ference in the REE slope (fig. 9). 
+4.4. Freshwater influence and siliciclastic input 
+The location of carbonate deposition matters for providing 
+reliable primary seawater REE signals. The REE concen-
+tration plots should typically show the signatures such as 
+a Ce anomaly for oxygenated waters, LREE depletion, and 
+HREE enrichment that resemble modern seawater. A flatter, 
+MREE-enriched REE concentration plot can occur in places 
+with freshwater inputs, such as river deltas and estuaries 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 9
+
+--- PDF PAGE 10 ---
+Figure 5. The pH estimates using REE concentration slope. The ages of the limestone samples range from                
+Carboniferous to Quaternary    (Toyama & Terakado  ,  2019). The gray line is the linear prediction model based on            
+modern seawater measurements (same as the regression line from          fig. 3C ). The blue dots are the pH estimates for          
+the marine carbonates based on the regression of modern seawater measurements. The labels represent the REE                 
+records in Toyama and Terakado      (2019). MA-1 is Middle-Late Permian, RK-1 is Quaternary, OM-1 is           
+Carboniferous, KK-1 is Middle Permian, and MK-1 is Neogene. The uncertainty comes from slope calculation for                 
+linear regression. The error bars for each data point are 2σ.            
+Figure 6. The comparison between pH estimates from 𝛿      𝛿11B isotopes. The blue dots are the B isotope pH           
+estimations from Rae et al.      (2021). The error bar shown in the blue shading for the 𝛿           𝛿11B-seawater pH estimates is     
+2σ. The orange squares are the pH estimates for limestone formations. The error bar for the pH estimates is 2σ.                     
+(Alibo & Nozaki, 1999). Marine carbonate samples with La/
+La*<2 indicate possible freshwater influence (Lawrence & 
+Kamber, 2006; Y. Zhao et al., 2022). Table 4 shows a list of 
+seawater REE anomalies from the literature. 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 10
+
+--- PDF PAGE 11 ---
+Table 3. List of limestone samples used in       figure 6   and inferred pH from the REE distribution. In the number of            
+samples column, the number of samples used in this paper from a specific formation is written in parentheses.                   
+The reference column gives the source of the carbonate formation data. *Average value of Middle Eocene                 
+(Bartonian)  (Rai et al.  ,  2014). **Average of Early Eocene (Ypresian)       (Kumar et al.  ,  2007; Westerhold et al.   ,  2017)  
+Epoch or 
+Period 
+Age (Ma) Inferred 
+pH 
+(±2σ) 
+Location Formation Rock Type # of 
+samples 
+(# of 
+samples 
+used in 
+this 
+paper) 
+Reference 
+Holocene 0.003–0.006 8.08 
+±0.13 
+Pacific Heron Limestone 59 Webb and 
+Kamber 
+(2000) 
+Quaternary 
+(Pleistocene) 
+0.01–2.58 8.03 
+±0.06 
+Japan Minatogawa Limestone 1 Ujiié 
+(1994) 
+Toyama 
+and 
+Terakado 
+(2019) 
+Pliocene 5.33–4.465 7.90 
+±0.62 
+Cayman 
+Is. 
+Pedro 
+Castle 
+Limestone, 
+Dolostone 
+4 (2) H. Zhao 
+and Jones 
+(2013) 
+Middle 
+Miocene 
+15.97–11.63 8.09 
+±0.07 
+Cayman 
+Is. 
+Cayman Limestone, 
+Dolostone 
+64 (2) H. Zhao 
+and Jones 
+(2013) 
+Middle 
+Eocene 
+41.3–37* 7.99 
+±0.30 
+India Fulra Limestone 12 Srivastava 
+and Singh 
+(2019) 
+Early Eocene 56–47.8** 7.73 
+±0.35 
+India Khuiala Limestone 12 Patra and 
+Singh 
+(2017) 
+Patra and 
+Singh 
+(2015) 
+In REE concentration records from H. Zhao and Jones 
+(2013), which we listed in table 3 but excluded from figure 
+7 analyses, the marine carbonate formations are in the 
+Caribbean Sea, a region close to freshwater REE input from 
+river deltas (Osborne et al., 2015; H. Zhao & Jones, 2013). 
+The freshwater input and water body mixtures at estuaries 
+increase the uncertainty of the pH estimates from the car-
+bonate formations in this region. The Sahara dust brings in 
+aeolian REE input into the surface seawater, which could 
+also cause MREE enrichment, but not affect HREE/LREE en-
+richment (Elderfield & Greaves, 1982; Osborne et al., 2015). 
+Li et al. (2017) pointed out that LREE enrichment in marine 
+carbonates could indicate freshwater influence. However, 
+terrestrial waters are commonly enriched in the HREEs over 
+the LREEs when compared to shale composites for the very 
+same biogeochemical reasons that seawater is, which is ex-
+plained by the competition between aqueous complexation 
+and surface complexation (e.g., Adebayo et al., 2018; Jo-
+hannesson et al., 1999, 2000, 2005, 2006; Tang & Johan-
+nesson, 2006). HREE-enriched patterns develop in rivers 
+and estuaries, including subterranean estuaries, where the 
+freshwater endmembers are commonly highly enriched in 
+the HREEs compared to the LREE when normalized to shale 
+composites (Adebayo et al., 2020; Chevis et al., 2015, 2021; 
+Davranche et al., 2015; Elderfield et al., 1990; Hoyle et al., 
+1984; Johannesson et al., 2011, 2017; Sholkovitz, 1995). It 
+would be challenging to identify the depositional environ-
+ment based on only the REE patterns. 
+In the Silurian to Quaternary carbonates that we ana-
+lyzed in figure 5, some of the REE concentration records 
+lack Pr data, which is the neighboring element (alongside 
+Ce) required to calculate the La anomaly (see eq. 2). Hence, 
+although the La anomalies are positive, the magnitudes of 
+La anomalies are uncertain. The lower Y/Ho values of the 
+Eocene samples suggest possible freshwater influence (Sri-
+vastava & Singh, 2019). 
+The Eocene marine carbonate samples from Patra and 
+Singh (2017) and Srivastava and Singh (2019) in table 3 
+both show modern seawater REE signatures despite the to-
+tal REE concentration being systematically higher than the 
+total REE concentration of modern seawater (fig. 10). There 
+is also less LREE depletion in the Eocene marine carbonate 
+samples compared to the modern seawater measurements 
+of the same pH. 
+The two sets of Eocene samples show REE anomalies 
+that increased the uncertainty of the pH estimates (fig. 
+11; See the Introduction section for the definition of REE 
+anomalies). The Sm anomaly (Sm/Sm*, See Supplementary 
+Data for calculation) in the early Eocene Khuiala formation 
+samples are from 0.85 to 1.10, similar to the Sm/Sm* values 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 11
+
+--- PDF PAGE 12 ---
+Figure 7. Preliminary pH estimates from REE in carbonates compared to pH estimates inferred from B isotopes.                
+The solid line indicates the correlation between REE-pH and 𝛿         𝛿11B pH estimations. The blue area is the 2σ          
+confidence interval, which indicates the range of slopes that could be fit to existing pH estimates. The R-squared                   
+value for the data is 0.75.       
+of the mid-Eocene Fulra formation samples. Sm anomalies 
+are not prominent signatures of specific geochemical 
+processes in modern seawater. 
+Positive Dy and negative Er anomalies are also found 
+in Fulra formation samples. When considering relative en-
+richment compared to other REEs, Dy, and Er anomalies 
+can signify freshwater influence or detrital input (MREE 
+enrichment, fig. 11). The sensitivity of REE patterns to-
+wards detrital content in carbonates is high, with 0.1 to 
+1% of detrital components capable of masking parent fluid 
+REE distribution in carbonates (Schier et al., 2021). Hence, 
+phase-specific sampling of marine carbonate cement may 
+be a safer way to circumvent detrital influence. Here, Gd, 
+Dy, and Er anomalies may increase the uncertainty of the 
+pH estimation, but because most of the records still show 
+seawater signatures and consistency, the measurements 
+and pH estimates should still be a rough estimate for 
+Eocene seawater (Patra & Singh, 2015, 2017; Srivastava & 
+Singh, 2019). 
+Our pH estimation is based on the average REE slopes of 
+each marine carbonate formation. Therefore, a small sam-
+ple size of some formations affects the pH estimates. Be-
+cause of the variance in the carbonate samples in each for-
+mation, outliers can skew the pH estimates and increase 
+the uncertainty of the pH estimates. However, even with 
+a limited sample size from a carbonate formation, the un-
+certainty is constrained by filtering out REEs with known 
+anomalies when calculating the REE slope, as described in 
+table 1. 
+Another limitation is that we are estimating pH using 
+empirical calcite partition coefficients. In many sedimen-
+tary formations, the samples can be mixtures of different 
+marine carbonates such as limestone, dolostone, and arag-
+onite. The calcite partition coefficients from limestone 
+show similar patterns and are in the same order of mag-
+nitude (102), whereas partition coefficients derived from 
+coral show a similar flat pattern but have much lower values 
+than the ones from limestone and microbiolite (Johannes-
+son et al., 2014; Toyama & Terakado, 2019; Webb & Kam-
+ber, 2000). This suggests the pH proxy is most accurate 
+where samples are phase specific, and the mixture of differ-
+ent materials will increase the pH uncertainty and possibly 
+require different partition coefficients. 
+4.5. Diagenetic alteration 
+The effect of diagenesis on REE concentrations in marine 
+carbonates can vary. Multiple studies point out that REEs 
+are relatively immobile during diagenetic alteration, as the 
+ΣREE does not significantly change in the same formations 
+that consist of different types of marine carbonates (A. v. S. 
+Hood et al., 2018; Srivastava & Singh, 2019; Webb & Kam-
+ber, 2000; H. Zhao & Jones, 2013). However, diagenesis in 
+the early deposition stage can alter the primary REE seawa-
+ter signatures of marine carbonates (Y. Zhao et al., 2022). 
+Depending on the openness of the diagenetic system REE 
+patterns may be entirely replaced by circulating diagenetic 
+fluids (Higgins et al., 2018; Zwicker et al., 2018). Because of 
+diagenesis, petrographic screening for sample selection, as 
+suggested by the work of Hood and Wallace (2012), for ex-
+ample, is a prerequisite for geochemical analyses. 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 12
+
+--- PDF PAGE 13 ---
+Figure 8. Comparison between pH estimates from REEs and 𝛿       𝛿11B in early Ediacaran carbonates in the Keilberg         
+and Maieberg formations at the Fransfontein profile, Namibia         (Kasemann et al.  ,  2010; Rodler et al.   ,  2016). The   
+vertical axis is the sample height in meters. We adjusted the sample heights from their references so both REE-                  
+pH estimates and 𝛿   𝛿11B records start where the Ghaub formation ends. The Keilberg and Maieberg formations are               
+from post-glacial environments after the Marinoan glaciation. The first data point of the REE-pH estimates and                 
+the samples with 0-4.6m depths are the Keilberg formation. For REE-pH estimates, the data points highlighted in                  
+orange are limestone, while the remaining samples are dolostones. The uncertainty is 2σ for each REE pH                  
+estimate and 𝛿  𝛿11B data point, and the 2σ uncertainty for 𝛿        𝛿11B-pH estimates are inferred from the calibration for         
+𝛿𝛿11B isotope (see Data Repository from Kasemann et al.          (2010)  and Ohnemueller et al.     (2014)).  
+Figure 9. The Pearson’s R correlation between REEs in limestone and dolostone dissolved in HCl and acetic acid                 
+solutions during experimental analysis to derive REE distributions. The pH estimates are highly correlated (R              2  =  
+0.96), showing that the different reagents have minimal impact on the REE slopes and the pH estimates                  (Toyama  
+& Terakado ,  2019).  
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 13
+
+--- PDF PAGE 14 ---
+Table 4. Known seawater REE anomalies mentioned in this paper:         
+Anomaly, 
+ratio, or trend 
+Interpretation Reference 
+La/La* La/La* > 3: open ocean environment. 
+La/La* < 2: possible freshwater input. 
+K.-J. Zhang et al. (2017) 
+Y. Zhao et al. (2022) 
+Ce/Ce* Ce/Ce* < 1: negative Ce anomaly, 
+oxidized ocean. 
+Tostevin et al. (2016) 
+Eu/Eu* Eu/Eu* > 1: negative Eu anomaly, 
+hydrothermal input. 
+Y. Zhao et al. (2022) 
+Y/Ho Y/Ho < 44: continental input and 
+possible freshwater sources 
+Y. Zhao et al. (2022) Satish-Kumar et al. (2021) Bau and Dulski 
+(1999) 
+MREE MREE anomalies: possible freshwater, 
+pore water influence 
+Y. Zhao et al. (2022) Y. Zhao et al. (2021) Elderfield et al. (1990) 
+Johannesson and Lyons (1995) 
+Figure 10. Comparing REE concentrations of marine carbonates samples and modern seawater with similar pH in               
+the North Pacific. REE concentrations from TPS 24 271-1 (184m and 640m;             Piepgras & Jacobsen  ,  1988). Seawater   
+pH values for the corresponding depths are interpolated from GLODAPv2 at 24.29 °N, 150.463 °E, close to TPS 24                    
+271-1. (pH 7.97 at 184 m and pH 7.56 at 640 m depth from GLODAPv2). The average REE concentrations are from                      
+the two Eocene carbonate formations with larger uncertainties in          figure 6   (Patra & Singh  ,  2017; Srivastava &    
+Singh,  2019). We interpolated the missing values for seawater REE concentrations. The depletion in some HREE                
+concentrations (Tm, Yb, Lu) is a common pattern seen in shallow seawater (e.g.,              fig. 4 ).  
+Possible diagenetic alterations for limestones include 
+neomorphism (i.e., aragonite to calcite) and dolomitiza-
+tion. Neomorphism (meteoric) retains most of the seawater 
+REE signatures with slight LREE depletion that will be fil-
+tered out by our selection of REEs to use for calculating the 
+slope of the REE distribution, giving minimal effect on the 
+derivation of pH (Webb et al., 2009). 
+Dolomitization can change the total abundance of the 
+REE concentrations, but they still retain the REE concentra-
+tion patterns in the marine carbonates (Banner et al., 1988; 
+Y. Zhao et al., 2022). The reason is that dolomitization 
+and recrystallization do not alter REE concentrations and 
+REE signatures when dolomitization happens under seawa-
+ter without hydrothermal influence (L. Wang et al., 2014; 
+H. Zhao & Jones, 2013). Hence, some dolostones can pre-
+serve the REE signature in the precursor limestones (Miura 
+& Kawabe, 2000). 
+Our results show that dolomitization has little to no cor-
+relation with REE concentration and REE slopes. We fil-
+tered out most of the REE anomalies in the REE slope 
+model, so the REE slope itself should remain relatively un-
+affected by changes of individual REE changes for dolomi-
+tization such as La, Ce, Eu, Y/Ho anomalies (Y. Zhao et al., 
+2022). As a result, the REE-pH estimates should remain rel-
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 14
+
+--- PDF PAGE 15 ---
+Figure 11. (A) The REE concentrations of 12 carbonate samples of the Khuiala formation from early Eocene                
+represented by each colored line. Patra and Singh         (2017)  suggest that Khuiala formation limestones in the        
+Jaisalmer Basin are affected by siliciclastic sediments. In general, REE samples with higher REE concentrations                
+are likely to have more siliciclastic input. (B) The REE concentrations of the 12 carbonate samples of the Fulra                    
+formation from the Middle Eocene are represented by each colored line. Middle REE enrichment (or flat REE                  
+patterns) could indicate freshwater influence or estuary environments. However, the reason behind the negative               
+Er anomaly in these limestone samples is unclear         (Srivastava & Singh  ,  2019).  
+atively robust. Although dolomitization has a low correla-
+tion to REE-pH estimates, we used empirical calcite parti-
+tion coefficients for our REE-pH estimates. The immobility 
+of REE concentration would benefit REE slope estimation 
+but would require another set of empirical dolomite par-
+tition coefficients likely representative of an open ocean 
+water setting. Therefore, we did not include the dolostone 
+containing Cayman Island carbonates from H. Zhao and 
+Jones (2013) in Figure 7 because we focus on samples with 
+marine carbonates with known empirical partition coeffi-
+cients. 
+4.6. Estimates of pH for Precambrian marine 
+environments 
+The goal of this paper has been to demonstrate a proof-
+of-concept REE-pH proxy capable of estimating Precam-
+brian seawater pH to within 1 to 2 pH units. Relatively 
+high uncertainty of the pH is expected given the complexity 
+of depositional environments in Precambrian seawater and 
+the scarcity of marine carbonates that indicate a shallow 
+and open ocean environment (Cantine et al., 2020; Also 
+see REE-pH estimate uncertainty in the Discussion). There-
+fore, carbonate sample selection and identifying diagenesis 
+is important. However, to constrain the current range of 
+Archean seawater pH estimated with a range from the 
+boundary conditions pH = 4 to pH >10, a crude pH proxy 
+with an uncertainty of ΔpH ~ 1.5 is sufficient. 
+In this paper, we assume a fixed alkalinity value for mod-
+ern seawater because the carbonate samples we analyze 
+are relatively modern. The alkalinity was possibly higher in 
+Archean based on [Ca2+] abundance (Cantine et al., 2020; 
+Grotzinger & Kasting, 1993; Kempe & Degens, 1985; 
+Ronov, 1964, 1968). For Archean pH estimates, the alkalin-
+ity of seawater could be better constrained by modeling the 
+alkalinity as a function of [Ca2+] (Krissansen-Totton et al., 
+2018). For example, in the nominal model of Krissansen-
+Totton et al. (2018), median [Ca2+] increases monotonically 
+by a factor of ~2.5 going backwards in time from the pre-
+sent value (0.01 mol/kg) to 4 Ga. 
+In validating REE-pH estimates versus those derived 
+from 𝛿11B in the Cenozoic, the ages of 𝛿11B-pH were inter-
+polated. Exact overlapping ages are scarce, so the difference 
+between the REE-pH estimates and the 𝛿11B-pH estimates 
+is also affected by the paucity of suitable samples and mis-
+match in the ages of the carbonate formations from which 
+REE distributions are known (fig. 6). 
+In figure 8, the REE-pH estimate shows a negative ex-
+cursion similar to the 𝛿11B-pH estimates at the start of 
+the Maieberg Formation, with the minimum pH at sample 
+height 58.5m and 48.2m, respectively. However, the pH de-
+crease from the REE-pH estimates is larger than the pH de-
+crease indicated by 𝛿11B-pH estimates. 
+For the 𝛿11B-pH estimates, there may have been chang-
+ing boron isotope composition in the cap carbonates due 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 15
+
+--- PDF PAGE 16 ---
+Figure 12. The Fransfontein marine carbonate samples      
+show unexpected Er anomalies, suggesting possible       
+influence by freshwater or hydrothermal input, which        
+creates larger uncertainty for the pH estimates        
+(German et al.  ,  1990; McLennan & Taylor, 2012).      
+to the mixing of meltwater and syn-glacial seawater, which 
+adds uncertainty that the boron isotope is not only reflect-
+ing the change in pH (Ohnemueller et al., 2014; Shields, 
+2005; Yu et al., 2020). 
+The mixture of the materials in the Fransfontein site 
+samples between the glaciation episodes may have in-
+creased the uncertainty and accuracy of the pH estimates 
+(Rodler et al., 2016). Positive Eu anomalies suggest hy-
+drothermal influence. Like the REE concentrations of the 
+Fulra formation from Mid Eocene in figure 11, Er anomalies 
+can be a sign of freshwater influence (fig. 12). When the 
+magnitude of the anomaly is significant, the uncertainty 
+of the pH estimates will increase, for example, FSF-26, the 
+largest uncertainty from the Fransfontein profile has a ΔpH 
+~3. 
+The uncertainty that freshwater creates for the seawater 
+pH proxy depends on the REE patterns and anomalies from 
+the freshwater. An enrichment in LREE/MREE decreases the 
+REE slope and may lead to the REE-pH proxy underestimat-
+ing the pH, whereas a depletion in HREE (e.g., negative Er 
+anomaly in fig. 12) may lead to the REE seawater pH proxy 
+overestimating the pH. 
+5. CONCLUSION 
+Our results suggest that the REE concentrations in most 
+limestones can be a seawater pH proxy with a 2σ uncer-
+tainty ranging over 1 to 1.5 pH units. We defined a REE-
+seawater pH proxy based on a pH-dependent “REE slope,” 
+which is the relative HREE/LREE enrichment trend of shale-
+normalized REE concentrations in marine carbonates. We 
+use the elements of Sm, Gd, Dy, and Er to define the slope, 
+which generally avoids REEs strongly affected by factors 
+other than pH. With the REE slope method, we estimated 
+the pH values of 13 limestone formations, including those 
+from Toyama and Terakado (2019). The REE-seawater pH 
+proxy agrees with most pH estimates derived from δ11B 
+data in the Cenozoic and Ediacaran to ~1.5 units of pH. 
+Hence, the REE-seawater pH proxy is likely sufficient to 
+distinguish competing hypotheses about whether early 
+Earth’s oceans were moderately acidic (pH = 4) or highly al-
+kaline (pH > 10). 
+The primary concern about the REE slope concept is 
+the uncertainty of pH estimates caused by noise in the 
+REE slope introduced by freshwater input, siliciclastic in-
+put, and diagenesis, such as dolomitization. The uncer-
+tainty could be constrained better with more understanding 
+of the factors that can alter the REE concentration and the 
+depositional history of the carbonate samples. 
+We did not extensively explore dolomite as a pH proxy 
+in this paper. However, many Precambrian carbonates are 
+dolostones, so the proxy needs to be further investigated to 
+assess how it might apply to predominantly dolomitic min-
+eralogy (Cantine et al., 2020; A. V. S. Hood & Wallace, 2012; 
+Smrzka et al., 2019). Besides marine carbonates, banded 
+iron formations (BIFs) are also commonly used as a reliable 
+Precambrian environmental proxy (Konhauser et al., 2017; 
+Planavsky et al., 2010). However, the BIFs are not as widely 
+distributed in space and time as marine carbonates through 
+the Precambrian (e.g., missing the mid-Proterozoic) and 
+likely require a different approach for calibration when 
+compared with modern seawater. 
+The REE slope concept is a promising candidate for a 
+seawater pH and would complement existing proxies such 
+as boron isotopes to give more context to the Precambrian 
+environment. Future work includes identifying diagenetic 
+alteration in Proterozoic and Archean marine carbonate 
+samples and developing a refined screening protocol for 
+sample sets to produce a time series of seawater pH esti-
+mates. 
+DATA AVAILABILITY 
+The source code is available at https://github.com/
+PingChunLin/REE_pH.git. 
+AUTHOR CONTRIBUTIONS 
+Ping-Chun Lin: Data Collection, Data Analysis, Writing - 
+Original Draft. David Catling: Research Proposal, Supervi-
+sion, Writing - Review & Editing. 
+ACKNOWLEDGMENTS 
+The authors acknowledge funding from Simons Foundation 
+grants 511570 and 511570FY20 to DCC. We thank Karen Jo-
+hannesson, Graham Shields, one anonymous reviewer, and 
+Associate Editor Timothy Lyons for knowledgeable, con-
+structive comments that greatly improved the manuscript. 
+The authors thank Jonathan Toner for help in setting up the 
+PHREEQC model. P-CL also thanks Nicholas Wogan, Joshua 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 16
+
+--- PDF PAGE 17 ---
+Krissansen-Totton, and Marjorie Cantine for helpful discus-
+sions and comments on the paper. 
+DATA AND SUPPLEMENTARY INFORMATION 
+Please see the data, supplementary figures, tables, and doc-
+uments at: https://doi.org/10.5061/dryad.69p8cz99r 
+Editor: C. Page Chamberlain, Associate Editor: Timothy        
+Lyons  
+Submitted: May 25, 2023 EST, Accepted: May 07, 2024 EST 
+This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International License 
+(CCBY-4.0). View this license’s legal deed at http://creativecommons.org/licenses/by/4.0 and legal code at http://creativecom-
+mons.org/licenses/by/4.0/legalcode for more information. 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 17
+
+--- PDF PAGE 18 ---
+REFERENCES 
+Adebayo, S. B., Cui, M., Hong, T., Akintomide, O., 
+Kelly, R. P., & Johannesson, K. H. (2020). Rare earth 
+element cycling and reaction path modeling across 
+the chemocline of the Pettaquamscutt River estuary, 
+Rhode Island. Geochimica et Cosmochimica Acta, 284, 
+21–42. https://doi.org/10.1016/j.gca.2020.06.001 
+Adebayo, S. B., Cui, M., Hong, T., White, C. D., 
+Martin, E. E., & Johannesson, K. H. (2018). Rare Earth 
+Elements Geochemistry and Nd Isotopes in the 
+Mississippi River and Gulf of Mexico Mixing Zone. 
+Frontiers in Marine Science, 5. https://doi.org/10.3389/
+fmars.2018.00166 
+Akagi, T. (2013). Rare earth element (REE)–silicic 
+acid complexes in seawater to explain the 
+incorporation of REEs in opal and the “leftover” REEs 
+in surface water: New interpretation of dissolved REE 
+distribution profiles. Geochimica et Cosmochimica 
+Acta, 113, 174–192. https://doi.org/10.1016/
+j.gca.2013.03.014 
+Alibo, D. S., & Nozaki, Y. (1999). Rare earth elements 
+in seawater: Particle association, shale-
+normalization, and Ce oxidation. Geochimica et 
+Cosmochimica Acta, 63(3–4), 363–372. 
+https://doi.org/10.1016/s0016-7037(98)00279-8 
+Azmy, K., Brand, U., Sylvester, P., Gleeson, S. A., 
+Logan, A., & Bitner, M. A. (2011). Biogenic and 
+abiogenic low-Mg calcite (bLMC and aLMC): 
+Evaluation of seawater-REE composition, water 
+masses and carbonate diagenesis. Chemical Geology, 
+280(1–2), 180–190. https://doi.org/10.1016/
+j.chemgeo.2010.11.007 
+Banner, J. L., Hanson, G. N., & Meyers, W. J. (1988). 
+Rare earth element and Nd isotopic variations in 
+regionally extensive dolomites from the Burlington-
+Keokuk Formation (Mississippian); implications for 
+REE mobility during carbonate diagenesis. Journal of 
+Sedimentary Research, 58(3), 415–432. https://doi.org/
+10.1306/212F8DAA-2B24-11D7-8648000102C1865D 
+Bau, M. (1999). Scavenging of dissolved yttrium and 
+rare earths by precipitating iron oxyhydroxide: 
+Experimental evidence for Ce oxidation, Y-Ho 
+fractionation, and lanthanide tetrad effect. 
+Geochimica et Cosmochimica Acta, 63(1), 67–77. 
+https://doi.org/10.1016/s0016-7037(99)00014-9 
+Bau, M., & Dulski, P. (1999). Comparing yttrium and 
+rare earths in hydrothermal fluids from the Mid-
+Atlantic Ridge: implications for Y and REE behaviour 
+during near-vent mixing and for the Y/Ho ratio of 
+Proterozoic seawater. Chemical Geology, 155(1–2), 
+77–90. https://doi.org/10.1016/
+s0009-2541(98)00142-9 
+Behrens, M. K., Pahnke, K., Paffrath, R., Schnetger, 
+B., & Brumsack, H.-J. (2018). Rare earth element 
+distributions in the West Pacific: Trace element 
+sources and conservative vs. non-conservative 
+behavior. Earth and Planetary Science Letters, 486, 
+166–177. https://doi.org/10.1016/j.epsl.2018.01.016 
+Byrne, R. H., & Kim, K.-H. (1990). Rare earth element 
+scavenging in seawater. Geochimica et Cosmochimica 
+Acta, 54(10), 2645–2656. https://doi.org/10.1016/
+0016-7037(90)90002-3 
+Cantine, M. D., Knoll, A. H., & Bergmann, K. D. 
+(2020). Carbonates before skeletons: A database 
+approach. Earth-Science Reviews, 201, 103065. 
+https://doi.org/10.1016/j.earscirev.2019.103065 
+Cantrell, K. J., & Byrne, R. H. (1987). Rare earth 
+element complexation by carbonate and oxalate ions. 
+Geochimica et Cosmochimica Acta, 51(3), 597–605. 
+https://doi.org/10.1016/0016-7037(87)90072-x 
+Cao, C., Liu, X.-M., & Chen, J. (2022). Cerium 
+anomaly as a tracer for paleo-oceanic redox 
+conditions: A thermodynamics-based Ce oxidation 
+modeling approach. Frontiers in Earth Science, 10. 
+https://doi.org/10.3389/feart.2022.927826 
+Catling, D. C., & Zahnle, K. J. (2020). The Archean 
+atmosphere. Science Advances, 6(9). https://doi.org/
+10.1126/sciadv.aax1420 
+Chevis, D. A., Johannesson, K. H., Burdige, D. J., 
+Cable, J. E., Martin, J. B., & Roy, M. (2015). Rare earth 
+element cycling in a sandy subterranean estuary in 
+Florida, USA. Marine Chemistry, 176, 34–50. 
+https://doi.org/10.1016/j.marchem.2015.07.003 
+Chevis, D. A., Mohajerin, T. J., Yang, N., Cable, J. E., 
+Rasbury, E. T., Hemming, S. R., Burdige, D. J., Martin, 
+J. B., White, C. D., & Johannesson, K. H. (2021). 
+Neodymium Isotope Geochemistry of a Subterranean 
+Estuary. Frontiers in Water, 3. https://doi.org/10.3389/
+frwa.2021.778344 
+Cornell, D. H. (1993). Rare earths from supernova to 
+superconductor. Pure and Applied Chemistry, 65(12), 
+2453–2464. https://doi.org/10.1351/
+pac199365122453 
+Curti, E., Kulik, D. A., & Tits, J. (2005). Solid 
+solutions of trace Eu(III) in calcite: Thermodynamic 
+evaluation of experimental data over a wide range of 
+pH and pCO2. Geochimica et Cosmochimica Acta, 
+69(7), 1721–1737. https://doi.org/10.1016/
+j.gca.2004.06.027 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 18
+
+--- PDF PAGE 19 ---
+Davranche, M., Gruau, G., Dia, A., Marsac, R., Pédrot, 
+M., & Pourret, O. (2015). Biogeochemical Factors 
+Affecting Rare Earth Element Distribution in Shallow 
+Wetland Groundwater. Aquatic Geochemistry, 21(2–4), 
+197–215. https://doi.org/10.1007/s10498-014-9247-6 
+Deng, Y., Ren, J., Guo, Q., Cao, J., Wang, H., & Liu, C. 
+(2017). Rare earth element geochemistry 
+characteristics of seawater and porewater from deep 
+sea in western Pacific. Scientific Reports, 7(1). 
+https://doi.org/10.1038/s41598-017-16379-1 
+Elderfield, H., & Greaves, M. J. (1982). The rare earth 
+elements in seawater. Nature, 296(5854), 214–219. 
+https://doi.org/10.1038/296214a0 
+Elderfield, H., Upstill-Goddard, R., & Sholkovitz, E. R. 
+(1990). The rare earth elements in rivers, estuaries, 
+and coastal seas and their significance to the 
+composition of ocean waters. Geochimica et 
+Cosmochimica Acta, 54(4), 971–991. https://doi.org/
+10.1016/0016-7037(90)90432-k 
+Elderfield, H., Whitfield, M., Burton, J. D., Bacon, M. 
+P., Liss, P. S., Charnock, H., Lovelock, J. E., Liss, P. S., 
+& Whitfield, M. (1988). The oceanic chemistry of the 
+rare-earth elements. Philosophical Transactions of the 
+Royal Society of London. Series A, Mathematical and 
+Physical Sciences, 325(1583), 105–126. https://doi.org/
+10.1098/rsta.1988.0046 
+Foster, G. L., & Rae, J. W. B. (2016). Reconstructing 
+Ocean pH with Boron Isotopes in Foraminifera. 
+Annual Review of Earth and Planetary Sciences, 44(1), 
+207–237. https://doi.org/10.1146/annurev-
+earth-060115-012226 
+Foster, G. L., Royer, D. L., & Lunt, D. J. (2017). Future 
+climate forcing potentially without precedent in the 
+last 420 million years. Nature Communications, 8(1). 
+https://doi.org/10.1038/ncomms14845 
+GEOTRACES Intermediate Data Product Group. 
+(2021). The GEOTRACES intermediate data product 
+2021 (IDP2021). NERC EDS British Oceanographic 
+Data Centre NOC. 
+German, C. R., Klinkhammer, G. P., Edmond, J. M., 
+Mura, A., & Elderfield, H. (1990). Hydrothermal 
+scavenging of rare-earth elements in the ocean. 
+Nature, 345(6275), 516–518. https://doi.org/10.1038/
+345516a0 
+Goldstein, S. J., & Jacobsen, S. B. (1987). The Nd and 
+Sr isotopic systematics of river-water dissolved 
+material: Implications for the sources of Nd and Sr in 
+seawater. Chemical Geology: Isotope Geoscience 
+Section, 66(3–4), 245–272. https://doi.org/10.1016/
+0168-9622(87)90045-5 
+Goldstein, S. J., & Jacobsen, S. B. (1988a). Rare earth 
+elements in river waters. Earth and Planetary Science 
+Letters, 89(1), 35–47. https://doi.org/10.1016/
+0012-821x(88)90031-3 
+Goldstein, S. J., & Jacobsen, S. B. (1988b). REE in the 
+Great Whale River estuary, northwest Quebec. Earth 
+and Planetary Science Letters, 88(3–4), 241–252. 
+https://doi.org/10.1016/0012-821x(88)90081-7 
+Grotzinger, J. P., & Kasting, J. F. (1993). New 
+Constraints on Precambrian Ocean Composition. The 
+Journal of Geology, 101(2), 235–243. https://doi.org/
+10.1086/648218 
+Halevy, I., & Bachan, A. (2017). The geologic history 
+of seawater pH. Science, 355(6329), 1069–1071. 
+https://doi.org/10.1126/science.aal4151 
+Halverson, G. P., Hoffman, P. F., Schrag, D. P., Maloof, 
+A. C., & Rice, A. H. N. (2005). Toward a 
+Neoproterozoic composite carbon-isotope record. 
+Geological Society of America Bulletin, 117(9), 
+1181–1207. https://doi.org/10.1130/b25630.1 
+Henderson, L. M., & Kracek, F. C. (1927). THE 
+FRACTIONAL PRECIPITATION OF BARIUM AND 
+RADIUM CHROMATES1. Journal of the American 
+Chemical Society, 49(3), 738–749. https://doi.org/
+10.1021/ja01402a017 
+Higgins, J. A., Blättler, C. L., Lundstrom, E. A., 
+Santiago-Ramos, D. P., Akhtar, A. A., Crüger Ahm, A.-
+S., Bialik, O., Holmden, C., Bradbury, H., Murray, S. 
+T., & Swart, P. K. (2018). Mineralogy, early marine 
+diagenesis, and the chemistry of shallow-water 
+carbonate sediments. Geochimica et Cosmochimica 
+Acta, 220, 512–534. https://doi.org/10.1016/
+j.gca.2017.09.046 
+Hoffman, P. F. (2011). Strange bedfellows: Glacial 
+diamictite and cap carbonate from the Marinoan (635 
+Ma) glaciation in Namibia. Sedimentology, 58(1), 
+57–119. https://doi.org/10.1111/
+j.1365-3091.2010.01206.x 
+Hood, A. v. S., Planavsky, N. J., Wallace, M. W., & 
+Wang, X. (2018). The effects of diagenesis on 
+geochemical paleoredox proxies in sedimentary 
+carbonates. Geochimica et Cosmochimica Acta, 232, 
+265–287. https://doi.org/10.1016/j.gca.2018.04.022 
+Hood, A. V. S., & Wallace, M. W. (2012). 
+Synsedimentary diagenesis in a Cryogenian reef 
+complex: Ubiquitous marine dolomite precipitation. 
+Sedimentary Geology, 255–256, 56–71. https://doi.org/
+10.1016/j.sedgeo.2012.02.004 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 19
+
+--- PDF PAGE 20 ---
+Hoyle, J., Elderfield, H., Gledhill, A., & Greaves, M. 
+(1984). The behaviour of the rare earth elements 
+during mixing of river and sea waters. Geochimica et 
+Cosmochimica Acta, 48(1), 143–149. https://doi.org/
+10.1016/0016-7037(84)90356-9 
+Johannesson, K. H., Chevis, D. A., Burdige, D. J., 
+Cable, J. E., Martin, J. B., & Roy, M. (2011). 
+Submarine groundwater discharge is an important 
+net source of light and middle REEs to coastal waters 
+of the Indian River Lagoon, Florida, USA. Geochimica 
+et Cosmochimica Acta, 75(3), 825–843. https://doi.org/
+10.1016/j.gca.2010.11.005 
+Johannesson, K. H., Cortés, A., Ramos Leal, J. A., 
+Ramírez, A. G., & Durazo, J. (2005). Geochemistry of 
+rare earth elements in groundwaters from a rhyolite 
+aquifer, central México. In Rare Earth Elements in 
+Groundwater Flow Systems (pp. 187–222). 
+https://doi.org/10.1007/1-4020-3234-x_8 
+Johannesson, K. H., Farnham, I. M., Guo, C., & 
+Stetzenbach, K. J. (1999). Rare earth element 
+fractionation and concentration variations along a 
+groundwater flow path within a shallow, basin-fill 
+aquifer, southern Nevada, USA. Geochimica et 
+Cosmochimica Acta, 63(18), 2697–2708. 
+https://doi.org/10.1016/s0016-7037(99)00184-2 
+Johannesson, K. H., Hawkins, D. L., Jr., & Cortés, A. 
+(2006). Do Archean chemical sediments record 
+ancient seawater rare earth element patterns? 
+Geochimica et Cosmochimica Acta, 70(4), 871–890. 
+https://doi.org/10.1016/j.gca.2005.10.013 
+Johannesson, K. H., & Lyons, W. B. (1995). Rare-earth 
+element geochemistry of Colour Lake, an acidic 
+freshwater lake on Axel Heiberg Island, Northwest 
+Territories, Canada. Chemical Geology, 119(1–4), 
+209–223. https://doi.org/10.1016/
+0009-2541(94)00099-t 
+Johannesson, K. H., Palmore, C. D., Fackrell, J., 
+Prouty, N. G., Swarzenski, P. W., Chevis, D. A., 
+Telfeyan, K., White, C. D., & Burdige, D. J. (2017). 
+Rare earth element behavior during 
+groundwater–seawater mixing along the Kona Coast 
+of Hawaii. Geochimica et Cosmochimica Acta, 198, 
+229–258. https://doi.org/10.1016/j.gca.2016.11.009 
+Johannesson, K. H., Telfeyan, K., Chevis, D. A., 
+Rosenheim, B. E., & Leybourne, M. I. (2014). Rare 
+Earth Elements in Stromatolites—1. Evidence that 
+Modern Terrestrial Stromatolites Fractionate Rare 
+Earth Elements During Incorporation from Ambient 
+Waters. In Evolution of Archean crust and early life (pp. 
+385–411). https://doi.org/10.1007/
+978-94-007-7615-9_14 
+Johannesson, K. H., Zhou, X., Guo, C., Stetzenbach, 
+K. J., & Hodge, V. F. (2000). Origin of rare earth 
+element signatures in groundwaters of circumneutral 
+pH from southern Nevada and eastern California, 
+USA. Chemical Geology, 164(3–4), 239–257. 
+https://doi.org/10.1016/s0009-2541(99)00152-7 
+Kadoya, S., Krissansen-Totton, J., & Catling, D. C. 
+(2020). Probable Cold and Alkaline Surface 
+Environment of the Hadean Earth Caused by Impact 
+Ejecta Weathering. Geochemistry, Geophysics, 
+Geosystems, 21(1). https://doi.org/10.1029/
+2019gc008734 
+Kasemann, S. A., Prave, A. R., Fallick, A. E., 
+Hawkesworth, C. J., & Hoffmann, K. H. (2010). 
+Neoproterozoic ice ages, boron isotopes, and ocean 
+acidification: Implications for a snowball Earth. 
+Geology, 38(9), 775–778. https://doi.org/10.1130/
+g30851.1 
+Kawamura, T. (1989). Depositional Facies of the 
+Yisean (Carboniferous) limestones in the south 
+Kitakami terrane, Northeast Japan. In A. Taira & F. 
+Masuda (Eds.), Sedimentary Facies in the Active Plate 
+Margin (pp. 377–391). Terra Scientific Publishing. 
+Kempe, S., & Degens, E. T. (1985). An early soda 
+ocean? Chemical Geology, 53(1–2), 95–108. 
+https://doi.org/10.1016/0009-2541(85)90023-3 
+Kempe, S., & Kazmierczak, J. (2011). Soda Ocean 
+Hypothesis. In Encyclopedia of Geobiology (pp. 
+829–833). https://doi.org/10.1007/
+978-1-4020-9212-1_192 
+Key, R. M., Olsen, A., van Heuven, S., Lauvset, S. K., 
+Velo, A., Lin, X., Schirnick, C., Kozyr, A., Tanhua, T., 
+Hoppema, M., Jutterström, S., Steinfeldt, R., 
+Jeansson, E., Ishii, M., Perez, F. F., & Suzuki, T. 
+(2015). Global Ocean Data Analysis Project, Version 2 
+(GLODAPv2). 
+Kobayashi, F. (2002). Lithology and foraminiferal 
+fauna of allochthonous limestones (Changhsingian) 
+in the upper part of the Toyoma Formation in the 
+South Kitakami Belt, Northeast Japan. Paleontological 
+Research, 6(4), 331–342. https://doi.org/10.2517/
+prpsj.6.331 
+Koeppenkastrop, D., & De Carlo, E. H. (1992). 
+Sorption of rare-earth elements from seawater onto 
+synthetic mineral particles: An experimental 
+approach. Chemical Geology, 95(3–4), 251–263. 
+https://doi.org/10.1016/0009-2541(92)90015-w 
+Koeppenkastrop, D., & De Carlo, E. H. (1993). Uptake 
+of rare earth elements from solution by metal oxides. 
+Environmental Science & Technology, 27(9), 
+1796–1802. https://doi.org/10.1021/es00046a006 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 20
+
+--- PDF PAGE 21 ---
+Konhauser, K. O., Planavsky, N. J., Hardisty, D. S., 
+Robbins, L. J., Warchola, T. J., Haugaard, R., Lalonde, 
+S. V., Partin, C. A., Oonk, P. B. H., Tsikos, H., Lyons, 
+T. W., Bekker, A., & Johnson, C. M. (2017). Iron 
+formations: A global record of Neoarchaean to 
+Palaeoproterozoic environmental history. Earth-
+Science Reviews, 172, 140–177. https://doi.org/
+10.1016/j.earscirev.2017.06.012 
+Konhauser, K. O., & Riding, R. (2012). Bacterial 
+Biomineralization. In Fundamentals of Geobiology. 
+https://doi.org/10.1002/9781118280874.ch8 
+Krissansen-Totton, J., Arney, G. N., & Catling, D. C. 
+(2018). Constraining the climate and ocean pH of the 
+early Earth with a geological carbon cycle model. 
+Proceedings of the National Academy of Sciences, 
+115(16), 4105–4110. https://doi.org/10.1073/
+pnas.1721296115 
+Kumar, K., Rana, R. S., & Singh, H. (2007). Fishes of 
+the Khuiala Formation (Early Eocene) of the 
+Jaisalmer Basin, Western Rajasthan, India. Current 
+Science, 93(4), 553–559. https://www.jstor.org/stable/
+24099224 
+Lane, N., Allen, J. F., & Martin, W. (2010). How did 
+LUCA make a living? Chemiosmosis in the origin of 
+life. BioEssays, 32(4), 271–280. https://doi.org/
+10.1002/bies.200900131 
+Lawrence, M. G., & Kamber, B. S. (2006). The 
+behaviour of the rare earth elements during estuarine 
+mixing—Revisited. Marine Chemistry, 100(1–2), 
+147–161. https://doi.org/10.1016/
+j.marchem.2005.11.007 
+Li, F., Yan, J., Burne, R. V., Chen, Z.-Q., Algeo, T. J., 
+Zhang, W., Tian, L., Gan, Y., Liu, K., & Xie, S. (2017). 
+Paleo-seawater REE compositions and microbial 
+signatures preserved in laminae of Lower Triassic 
+ooids. Palaeogeography, Palaeoclimatology, 
+Palaeoecology, 486, 96–107. https://doi.org/10.1016/
+j.palaeo.2017.04.005 
+Luo, Y.-R., & Byrne, R. H. (2004). Carbonate 
+complexation of yttrium and the rare earth elements 
+in natural waters. Geochimica et Cosmochimica Acta, 
+68(4), 691–699. https://doi.org/10.1016/
+s0016-7037(03)00495-2 
+McLennan, S. M. (1989). Chapter 7. Rare Earth 
+Elements In Sedimentary Rocks: Influence Of 
+Provenance And Sedimentary Processes. In 
+Geochemistry and Mineralogy of Rare Earth Elements 
+(pp. 169–200). https://doi.org/10.1515/
+9781501509032-010 
+McLennan, S. M., & Ross Taylor, S. (2012). Geology, 
+Geochemistry and Natural Abundances. In 
+Encyclopedia of Inorganic and Bioinorganic Chemistry. 
+https://doi.org/10.1002/9781119951438.eibc2004 
+Meador, J. P. (1991). The interaction of pH, dissolved 
+organic carbon, and total copper in the determination 
+of ionic copper and toxicity. Aquatic Toxicology, 19(1), 
+13–31. https://doi.org/10.1016/
+0166-445x(91)90025-5 
+Miura, N., & Kawabe, I. (2000). Dolomitization of 
+linrestone with MgCl2 solution at 150.DEG.C.. 
+Preserved original signatures of rare earth elements 
+and yttrium as marine limestone. Geochemical 
+Journal, 34(3), 223–227. https://doi.org/10.2343/
+geochemj.34.223 
+Möller, P., & De Lucia, M. (2020). Incorporation of 
+Rare Earths and Yttrium in Calcite: A Critical Re-
+evaluation. Aquatic Geochemistry, 26(2), 89–117. 
+https://doi.org/10.1007/s10498-020-09369-9 
+Morse, J. W., Arvidson, R. S., & Lüttge, A. (2007). 
+Calcium Carbonate Formation and Dissolution. 
+Chemical Reviews, 107(2), 342–381. https://doi.org/
+10.1021/cr050358j 
+Nakamori, T., Iryu, Y., Sasazawa, K., & Mori, K. 
+(1991). Origin of allochthonous limestone bodies of 
+the Miocene Megami Formation, Kakegawa district, 
+Shizuoka Prefecture. The Journal of the Geological 
+Society of Japan, 97(12), 987-1000_2. https://doi.org/
+10.5575/geosoc.97.987 
+Nishino, H., & Akagi, T. (2019). Double scavenging 
+processes explain the vertical distribution of rare 
+earth elements in the oceans: Importance of surface 
+plankton as a primary scavenger and carbonate/oxide 
+as a secondary scavenger. Geochemical Journal, 53(2), 
+119–137. https://doi.org/10.2343/geochemj.2.0547 
+Nishino, H., Fujimori, K., & Akagi, T. (2022). A new 
+experimental method to determine partitioning 
+coefficients of rare earth elements on carbonate 
+(calcite and aragonite) in seawater: Identification of 
+two major factors causing variation: Fe hydroxide 
+adsorption and growth/dissolution inhibition of 
+carbonate. Geochemical Journal, 56(4), 112–128. 
+https://doi.org/10.2343/geochemj.gj22009 
+Ohnemueller, F., Prave, A. R., Fallick, A. E., & 
+Kasemann, S. A. (2014). Ocean acidification in the 
+aftermath of the Marinoan glaciation. Geology, 
+42(12), 1103–1106. https://doi.org/10.1130/g35937.1 
+Olsen, A., Key, R. M., van Heuven, S., Lauvset, S. K., 
+Velo, A., Lin, X., Schirnick, C., Kozyr, A., Tanhua, T., 
+Hoppema, M., Jutterström, S., Steinfeldt, R., 
+Jeansson, E., Ishii, M., Pérez, F. F., & Suzuki, T. 
+(2016). The Global Ocean Data Analysis Project 
+version 2 (GLODAPv2) - an internally consistent data 
+product for the world ocean. Earth System Science 
+Data, 8(2), 297–323. https://doi.org/10.5194/
+essd-8-297-2016 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 21
+
+--- PDF PAGE 22 ---
+Osborne, A. H., Haley, B. A., Hathorne, E. C., 
+Plancherel, Y., & Frank, M. (2015). Rare earth 
+element distribution in Caribbean seawater: 
+Continental inputs versus lateral transport of distinct 
+REE compositions in subsurface water masses. Marine 
+Chemistry, 177, 172–183. https://doi.org/10.1016/
+j.marchem.2015.03.013 
+Ota, A., & Isozaki, Y. (2006). Fusuline biotic turnover 
+across the Guadalupian–Lopingian (Middle–Upper 
+Permian) boundary in mid-oceanic carbonate 
+buildups: Biostratigraphy of accreted limestone in 
+Japan. Journal of Asian Earth Sciences, 26(3–4), 
+353–368. https://doi.org/10.1016/j.jseaes.2005.04.001 
+Parkhurst, D. L., & Appelo, C. A. J. (2013). Description 
+of input and examples for PHREEQC version 3: a 
+computer program for speciation, batch-reaction, one-
+dimensional transport, and inverse geochemical 
+calculations. Techniques and Methods. 6-A43. 
+https://doi.org/10.3133/tm6a43 
+Patra, A., & Singh, B. P. (2015). Facies characteristics 
+and depositional environments of the 
+Paleocene–Eocene strata of the Jaisalmer basin, 
+western India. Carbonates and Evaporites, 30(3), 
+331–346. https://doi.org/10.1007/s13146-014-0229-y 
+Patra, A., & Singh, B. P. (2017). Geochemistry of the 
+Eocene limestones of the Jaisalmer basin, Rajasthan, 
+India: Implications on depositional conditions and 
+sources of rare earth elements. Geochemistry 
+International, 55(12), 1180–1192. https://doi.org/
+10.1134/s0016702917120023 
+Piepgras, D. J., & Jacobsen, S. B. (1988). The isotopic 
+composition of neodymium in the North Pacific. 
+Geochimica et Cosmochimica Acta, 52(6), 1373–1381. 
+https://doi.org/10.1016/0016-7037(88)90208-6 
+Piepgras, D. J., & Jacobsen, S. B. (1992). The behavior 
+of rare earth elements in seawater: Precise 
+determination of variations in the North Pacific water 
+column. Geochimica et Cosmochimica Acta, 56(5), 
+1851–1862. https://doi.org/10.1016/
+0016-7037(92)90315-a 
+Pilson, M. E. Q. (2012). An Introduction to the 
+Chemistry of the Sea. https://doi.org/10.1017/
+cbo9781139047203 
+Pinti, D. L. (2005). The Origin and Evolution of the 
+Oceans. In Lectures in Astrobiology (pp. 83–112). 
+https://doi.org/10.1007/10913406_4 
+Planavsky, N., Bekker, A., Rouxel, O. J., Kamber, B., 
+Hofmann, A., Knudsen, A., & Lyons, T. W. (2010). 
+Rare Earth Element and yttrium compositions of 
+Archean and Paleoproterozoic Fe formations 
+revisited: New perspectives on the significance and 
+mechanisms of deposition. Geochimica et 
+Cosmochimica Acta, 74(22), 6387–6405. 
+https://doi.org/10.1016/j.gca.2010.07.021 
+Pourmand, A., Dauphas, N., & Ireland, T. J. (2012). A 
+novel extraction chromatography and MC-ICP-MS 
+technique for rapid analysis of REE, Sc and Y: 
+Revising CI-chondrite and Post-Archean Australian 
+Shale (PAAS) abundances. Chemical Geology, 291, 
+38–54. https://doi.org/10.1016/
+j.chemgeo.2011.08.011 
+Quinn, K. A., Byrne, R. H., & Schijf, J. (2004). 
+Comparative Scavenging of Yttrium and the Rare 
+Earth Elements in Seawater: Competitive Influences 
+of Solution and Surface Chemistry. Aquatic 
+Geochemistry, 10(1/2), 59–80. https://doi.org/10.1023/
+b:aqua.0000038959.03886.60 
+Rae, J. W. B., Zhang, Y. G., Liu, X., Foster, G. L., Stoll, 
+H. M., & Whiteford, R. D. M. (2021). Atmospheric 
+CO2 over the Past 66 Million Years from Marine 
+Archives. Annual Review of Earth and Planetary 
+Sciences, 49(1), 609–641. https://doi.org/10.1146/
+annurev-earth-082420-063026 
+Rai, J., Singh, A., & Gulati, D. (2014). Bartonian age 
+calcareous nannofossil biostratigraphy of tanot 
+well-1, Jaisalmer Basin and its implications. Journal of 
+the Palaeontological Society of India, 59, 29–44. 
+Rodler, A. S., Frei, R., Gaucher, C., & Germs, G. J. B. 
+(2016). Chromium isotope, REE and redox-sensitive 
+trace element chemostratigraphy across the late 
+Neoproterozoic Ghaub glaciation, Otavi Group, 
+Namibia. Precambrian Research, 286, 234–249. 
+https://doi.org/10.1016/j.precamres.2016.10.007 
+Rollinson, H. R. (1993). Using geochemical data : 
+evaluation, presentation, interpretation. Routledge. 
+https://doi.org/10.4324/9781315845548 
+Ronov, A. B. (1964). Common tendencies in the 
+chemical evolution of the earth’s crust, ocean and 
+atmosphere. Geokhimiya, 1964, 715–743. 
+Ronov, A. B. (1968). Probable Changes in the 
+Composition of Sea Water During the Course of 
+Geological Time E1. Sedimentology, 10(1), 25–43. 
+https://doi.org/10.1111/j.1365-3091.1968.tb01909.x 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 22
+
+--- PDF PAGE 23 ---
+Satish-Kumar, M., Shirakawa, M., Imura, A., Otsuji-
+Makino, N., Imanaka-Nohara, R., Malaviarachchi, S. 
+P. K., Fitzsimons, I. C. W., Sajeev, K., Grantham, G. 
+H., Windley, B. F., Hokada, T., Takahashi, T., 
+Shimoda, G., & Goto, K. T. (2021). A geochemical and 
+isotopic perspective on tectonic setting and 
+depositional environment of Precambrian meta-
+carbonate rocks in collisional orogenic belts. 
+Gondwana Research, 96, 163–204. https://doi.org/
+10.1016/j.gr.2021.03.013 
+Schier, K., Himmler, T., Lepland, A., Kraemer, D., 
+Schönenberger, J., & Bau, M. (2021). Insights into the 
+REY inventory of seep carbonates from the Northern 
+Norwegian margin using geochemical screening. 
+Chemical Geology, 559, 119857. https://doi.org/
+10.1016/j.chemgeo.2020.119857 
+Schijf, J., Christenson, E. A., & Byrne, R. H. (2015). 
+YREE scavenging in seawater: A new look at an old 
+model. Marine Chemistry, 177, 460–471. 
+https://doi.org/10.1016/j.marchem.2015.06.010 
+Shields, G. A. (2005). Neoproterozoic cap carbonates: 
+A critical appraisal of existing models and the 
+plumeworld hypothesis. Terra Nova, 17(4), 299–310. 
+https://doi.org/10.1111/j.1365-3121.2005.00638.x 
+Sholkovitz, E. R. (1995). The aquatic chemistry of rare 
+earth elements in rivers and estuaries. Aquatic 
+Geochemistry, 1(1), 1–34. https://doi.org/10.1007/
+bf01025229 
+Sleep, N. H., & Zahnle, K. (2001). Carbon dioxide 
+cycling and implications for climate on ancient Earth. 
+Journal of Geophysical Research: Planets, 106(E1), 
+1373–1399. https://doi.org/10.1029/2000je001247 
+Smrzka, D., Zwicker, J., Bach, W., Feng, D., Himmler, 
+T., Chen, D., & Peckmann, J. (2019). The behavior of 
+trace elements in seawater, sedimentary pore water, 
+and their incorporation into carbonate minerals: a 
+review. Facies, 65(4). https://doi.org/10.1007/
+s10347-019-0581-4 
+Srivastava, V. K., & Singh, B. P. (2019). Depositional 
+environments and sources for the middle Eocene 
+Fulra Limestone Formation, Kachchh Basin, western 
+India: Evidences from facies analysis, mineralogy, 
+and geochemistry. Geological Journal, 54(1), 62–82. 
+https://doi.org/10.1002/gj.3154 
+Tang, J., & Johannesson, K. H. (2006). Controls on 
+the geochemistry of rare earth elements along a 
+groundwater flow path in the Carrizo Sand aquifer, 
+Texas, USA. Chemical Geology, 225(1–2), 156–171. 
+https://doi.org/10.1016/j.chemgeo.2005.09.007 
+Tostevin, R., Shields, G. A., Tarbuck, G. M., He, T., 
+Clarkson, M. O., & Wood, R. A. (2016). Effective use 
+of cerium anomalies as a redox proxy in carbonate-
+dominated marine settings. Chemical Geology, 438, 
+146–162. https://doi.org/10.1016/
+j.chemgeo.2016.06.027 
+Toyama, K., & Terakado, Y. (2019). Estimation of the 
+practical partition coefficients of rare earth elements 
+between limestone and seawater: Discussion and 
+application. Geochemical Journal, 53(2), 139–150. 
+https://doi.org/10.2343/geochemj.2.0550 
+Ujiié, H. (1994). Early Pleistocene birth of the 
+Okinawa Trough and Ryukyu Island Arc at the 
+northwestern margin of the Pacific: Evidence from 
+Late Cenozoic planktonic foraminiferal zonation. 
+Palaeogeography, Palaeoclimatology, Palaeoecology, 
+108(3–4), 457–474. https://doi.org/10.1016/
+0031-0182(94)90246-1 
+Voigt, M., Mavromatis, V., & Oelkers, E. H. (2017). 
+The experimental determination of REE partition 
+coefficients in the water-calcite system. Chemical 
+Geology, 462, 30–43. https://doi.org/10.1016/
+j.chemgeo.2017.04.024 
+Walker, J. C. G., Hays, P. B., & Kasting, J. F. (1981). A 
+negative feedback mechanism for the long-term 
+stabilization of Earth’s surface temperature. Journal 
+of Geophysical Research: Oceans, 86(C10), 9776–9782. 
+https://doi.org/10.1029/jc086ic10p09776 
+Wang, L., Hu, W., Wang, X., Cao, J., & Chen, Q. 
+(2014). Seawater normalized REE patterns of 
+dolomites in Geshan and Panlongdong sections, 
+China: Implications for tracing dolomitization and 
+diagenetic fluids. Marine and Petroleum Geology, 56, 
+63–73. https://doi.org/10.1016/
+j.marpetgeo.2014.02.018 
+Wang, W.-Q., Zhang, F., Zhang, S., Cui, Y., Zheng, Q.-
+F., Zhang, Y.-C., Yuan, D.-X., Zhang, H., Xu, Y.-G., & 
+Shen, S.-Z. (2023). Ecosystem responses of two 
+Permian biocrises modulated by CO2 emission rates. 
+Earth and Planetary Science Letters, 602, 117940. 
+https://doi.org/10.1016/j.epsl.2022.117940 
+Wang, Z.-L., Liu, C.-Q., & Zhu, Z.-Z. (2013). Rare 
+earth element geochemistry of waters and suspended 
+particles in alkaline lakes using extraction and 
+sequential chemical methods. Geochemical Journal, 
+47(6), 639–649. https://doi.org/10.2343/
+geochemj.2.0290 
+Webb, G. E., & Kamber, B. S. (2000). Rare earth 
+elements in Holocene reefal microbialites: a new 
+shallow seawater proxy. Geochimica et Cosmochimica 
+Acta, 64(9), 1557–1565. https://doi.org/10.1016/
+s0016-7037(99)00400-7 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 23
+
+--- PDF PAGE 24 ---
+Webb, G. E., Nothdurft, L. D., Kamber, B. S., 
+Kloprogge, J. T., & Zhao, J.-X. (2009). Rare earth 
+element geochemistry of scleractinian coral skeleton 
+during meteoric diagenesis: a sequence through 
+neomorphism of aragonite to calcite. Sedimentology, 
+56(5), 1433–1463. https://doi.org/10.1111/
+j.1365-3091.2008.01041.x 
+Westerhold, T., Röhl, U., Frederichs, T., Agnini, C., 
+Raffi, I., Zachos, J. C., & Wilkens, R. H. (2017). 
+Astronomical calibration of the Ypresian timescale: 
+Implications for seafloor spreading rates and the 
+chaotic behavior of the solar system? Climate of the 
+Past, 13(9), 1129–1152. https://doi.org/10.5194/
+cp-13-1129-2017 
+Yu, W., Algeo, T. J., Zhou, Q., Du, Y., & Wang, P. 
+(2020). Cryogenian cap carbonate models: A review 
+and critical assessment. Palaeogeography, 
+Palaeoclimatology, Palaeoecology, 552, 109727. 
+https://doi.org/10.1016/j.palaeo.2020.109727 
+Zhang, J., & Nozaki, Y. (1996). Rare earth elements 
+and yttrium in seawater: ICP-MS determinations in 
+the East Caroline, Coral Sea, and South Fiji basins of 
+the western South Pacific Ocean. Geochimica et 
+Cosmochimica Acta, 60(23), 4631–4644. 
+https://doi.org/10.1016/s0016-7037(96)00276-1 
+Zhang, K., & Shields, G. A. (2022). Sedimentary Ce 
+anomalies: Secular change and implications for 
+paleoenvironmental evolution. Earth-Science Reviews, 
+229, 104015. https://doi.org/10.1016/
+j.earscirev.2022.104015 
+Zhang, K., Zhu, X.-K., & Yan, B. (2015). A refined 
+dissolution method for rare earth element studies of 
+bulk carbonate rocks. Chemical Geology, 412, 82–91. 
+https://doi.org/10.1016/j.chemgeo.2015.07.027 
+Zhang, K.-J., Li, Q.-H., Yan, L.-L., Zeng, L., Lu, L., 
+Zhang, Y.-X., Hui, J., Jin, X., & Tang, X.-C. (2017). 
+Geochemistry of limestones deposited in various 
+plate tectonic settings. Earth-Science Reviews, 167, 
+27–46. https://doi.org/10.1016/j.earscirev.2017.02.003 
+Zhao, H., & Jones, B. (2013). Distribution and 
+interpretation of rare earth elements and yttrium in 
+Cenozoic dolostones and limestones on Cayman Brac, 
+British West Indies. Sedimentary Geology, 284–285, 
+26–38. https://doi.org/10.1016/j.sedgeo.2012.10.009 
+Zhao, Y., Wei, W., Li, S., Yang, T., Zhang, R., 
+Somerville, I., Santosh, M., Wei, H., Wu, J., Yang, J., 
+Chen, W., & Tang, Z. (2021). Rare earth element 
+geochemistry of carbonates as a proxy for deep-time 
+environmental reconstruction. Palaeogeography, 
+Palaeoclimatology, Palaeoecology, 574, 110443. 
+https://doi.org/10.1016/j.palaeo.2021.110443 
+Zhao, Y., Wei, W., Santosh, M., Hu, J., Wei, H., Yang, 
+J., Liu, S., Zhang, G., Yang, D., & Li, S. (2022). A 
+review of retrieving pristine rare earth element 
+signatures from carbonates. Palaeogeography, 
+Palaeoclimatology, Palaeoecology, 586, 110765. 
+https://doi.org/10.1016/j.palaeo.2021.110765 
+Zwicker, J., Smrzka, D., Himmler, T., Monien, P., Gier, 
+S., Goedert, J. L., & Peckmann, J. (2018). Rare earth 
+elements as tracers for microbial activity and early 
+diagenesis: A new perspective from carbonate 
+cements of ancient methane-seep deposits. Chemical 
+Geology, 501, 77–85. https://doi.org/10.1016/
+j.chemgeo.2018.10.010 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 24
+
+--- PDF PAGE 25 ---
+SUPPLEMENTARY MATERIALS 
+Data and Supplementary Information     
+Download: https://ajsonline.org/article/118215-the-rare-earth-element-distribution-in-marine-carbonates-as-a-
+potential-proxy-for-seawater-ph-on-early-earth/attachment/228735.docx 
+The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early E…
+American Journal of Science 25

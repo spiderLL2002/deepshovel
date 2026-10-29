@@ -1,0 +1,440 @@
+{
+  "schema": "selection-weight-domain-independent-review/v1",
+  "status": "PASS",
+  "scope": "Independent QC of C-authored selection/weight/domain displays only; all targets already exposed; not a new review cycle, new validation or manuscript approval.",
+  "checker_path": "iteration-2026-10-27/reviews/check_selection_weight_domain_B.py",
+  "checker_sha256": "b6164c7b56caaac2ef66ff3dcc49928b9a538b8e3a66b2d70dee853bcf6743c3",
+  "runtime": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "source_and_plan_hashes": [
+    {
+      "path": "iteration-2026-10-27/analysis/selection-weight-domain-plan-v1.frozen.json",
+      "sha256": "ef2af25c9c0e0ad91a51caa37fd5373a3e66473509230a269269e3ce72dd5a4f"
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/export_selection_weight_domain_v1.py",
+      "sha256": "cf2c284faf2d8ea207003f704abc24946e31191b6c8ab9bb3453df548544af00"
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/pairing_audit.csv",
+      "sha256": "5d6e2e4ec14c2f50ca85ef988a220bc674acfa5a8f1b72de48a2972899862c75"
+    },
+    {
+      "path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9"
+    },
+    {
+      "path": "ree/round8/raw/GP15-leg1-pH.csv",
+      "sha256": "eddd66f7043437b56dd7d527d8fbb48331535f810a659e02254416c45e436d3b"
+    },
+    {
+      "path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809"
+    },
+    {
+      "path": "ree/round8/raw/GP15-leg2-pH.csv",
+      "sha256": "936a04097ccd61b8ff8d62f60fcbbfc01b4cf0a46346815c7f9474ab4595365d"
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321"
+    },
+    {
+      "path": "ree/round8/training-domain-annotation.csv",
+      "sha256": "1ae0728458112b3f086a1a0148bafc9f5fcd088aab73ccaf0bed5cb285ac4be8"
+    },
+    {
+      "path": "ree/round8/training-domain-annotation.json",
+      "sha256": "42e53e25d592dc45456d7b1bdae2081fb38c124bbacd8350f98f5fb17e7d0779"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-notebook-published-output.txt",
+      "sha256": "4a820bc045cb25987c24e3f626f4ca429374a041f1ec1e70ad00d9b44982bd27"
+    },
+    {
+      "path": "ree/round8/analyze_ree_ph_transfer.py",
+      "sha256": "af466ab78796d559e83d5610ab72168f42de960b6b8e3085c01092398207baeb"
+    }
+  ],
+  "target_output_hashes": [
+    {
+      "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/audit_status_provenance.csv",
+      "sha256": "92e6b6cae13eb7bfa0fa75356e3f088f1065c12cd334c63be84df4bbdf0be5bd"
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/eligibility_flow.csv",
+      "sha256": "b4901024678f9b5c41b3f1023fb8a561f95f8fec9ca5dec2448e6a68eb13eb38"
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/eligibility_flow.md",
+      "sha256": "b7c4e499904e2b0dcc0b518a84fa3505493750ce1a9d3cbfb9e5d6dcac2279b4"
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/input_manifest.json",
+      "sha256": "d4286d513d7be9bd649f3199d8b86082efc67d0423cab9c360850ca399b19ab4"
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/joint_domain.md",
+      "sha256": "426059afecbd90cf1dd5e318c51c0186f899229a590777e60db17e80ffa01b5a"
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/joint_domain_counts.csv",
+      "sha256": "d3b01373156b6d7d1b57ed78c0824344ad2aedc21da5ae1366d2f35d9436d21c"
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/joint_domain_labels.csv",
+      "sha256": "27d97ba1fa7b4a1d265dda19209f0cab495781e6168332247d9ae4626811e24d"
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/layer_squared_error_difference.csv",
+      "sha256": "f8e5d75d397107e51a2854a05dc29713d5f82d77b6906e1b4a20ed70928c0928"
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/layer_squared_error_difference.md",
+      "sha256": "1d8e96f60d7a6a1b89d81a7fc00eb89e75740427a5de6049b693ca68ad252a1e"
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/output_manifest.json",
+      "sha256": "b02fa307ded5eca7fa32c8eee6fd1f1cd3e3c16c71afb3871196c26d74c8a2f6"
+    }
+  ],
+  "comparison_counts": {
+    "plan_binding": 3,
+    "input_sha": 8,
+    "script_identity_only": 1,
+    "output_sha": 9,
+    "output_bytes": 9,
+    "output_coverage": 1,
+    "audit_universe": 2,
+    "provenance_universe": 2,
+    "terminal_status_vs_original": 962,
+    "terminal_status_vs_C": 962,
+    "C_provenance": 9620,
+    "original_raw_line": 458,
+    "primary_layer_membership": 12,
+    "primary_layer_count": 12,
+    "ordered_entering": 16,
+    "ordered_unassigned": 16,
+    "flow_count": 38,
+    "flow_ID_set": 36,
+    "contrast_source_and_sign": 36,
+    "contrast_exact_decimal": 36,
+    "contrast_exact_fraction": 12,
+    "contrast_source_record": 12,
+    "contrast_membership": 12,
+    "domain_training_source": 4,
+    "domain_source_coverage": 4,
+    "domain_output_label_or_token": 84,
+    "domain_original_label": 24,
+    "domain_original_primary_fields": 72,
+    "domain_primary_membership": 12,
+    "domain_source_record": 36,
+    "domain_output_coverage": 3,
+    "domain_count_cell": 12
+  },
+  "n_differences": 0,
+  "differences": [],
+  "independently_reconstructed_flow": {
+    "leg1": {
+      "raw_ree_data_records": 372,
+      "raw_ph_data_records": 157,
+      "raw_ree_unique_sample_IDs": 372,
+      "raw_ph_unique_sample_IDs": 157,
+      "raw_sample_ID_union": 446,
+      "raw_shared_sample_IDs": 83,
+      "raw_ree_only_sample_IDs": 289,
+      "raw_ph_only_sample_IDs": 74,
+      "not_shared_sample_id": 363,
+      "station_or_event_mismatch": 0,
+      "leg2_station_or_sample_seen_in_leg1": 0,
+      "missing_finite_depth": 0,
+      "outside_predeclared_depth_union": 57,
+      "bottle_flag_not_allowed": 0,
+      "missing_or_invalid_response": 0,
+      "eligible_in_at_least_one_depth_definition": 26,
+      "eligible_depth_union_unique_bottles": 26,
+      "primary_unique_bottles": 24,
+      "primary_layer_memberships": 28
+    },
+    "leg2": {
+      "raw_ree_data_records": 472,
+      "raw_ph_data_records": 190,
+      "raw_ree_unique_sample_IDs": 472,
+      "raw_ph_unique_sample_IDs": 190,
+      "raw_sample_ID_union": 516,
+      "raw_shared_sample_IDs": 146,
+      "raw_ree_only_sample_IDs": 326,
+      "raw_ph_only_sample_IDs": 44,
+      "not_shared_sample_id": 370,
+      "station_or_event_mismatch": 0,
+      "leg2_station_or_sample_seen_in_leg1": 0,
+      "missing_finite_depth": 0,
+      "outside_predeclared_depth_union": 83,
+      "bottle_flag_not_allowed": 5,
+      "missing_or_invalid_response": 0,
+      "eligible_in_at_least_one_depth_definition": 58,
+      "eligible_depth_union_unique_bottles": 58,
+      "primary_unique_bottles": 55,
+      "primary_layer_memberships": 63
+    }
+  },
+  "n_terminal_statuses_reconstructed": 962,
+  "exact_layer_error_differences": [
+    {
+      "leg": "leg1",
+      "bin_index": 0,
+      "difference_exact": "531117076675580857215759845061/320000000000000000000000000000000",
+      "sign": "positive"
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 1,
+      "difference_exact": "2655083338143238548593451451074311/1000000000000000000000000000000000000",
+      "sign": "positive"
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 2,
+      "difference_exact": "-4017168708171979542827936437053/250000000000000000000000000000000",
+      "sign": "negative"
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 3,
+      "difference_exact": "-3039720518083034607552058853499/100000000000000000000000000000000",
+      "sign": "negative"
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 4,
+      "difference_exact": "-140909405463102352167048469782519/2500000000000000000000000000000000",
+      "sign": "negative"
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 5,
+      "difference_exact": "-454765351006924584836021155575063/10000000000000000000000000000000000",
+      "sign": "negative"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 0,
+      "difference_exact": "728460396346943100239359212041071/10000000000000000000000000000000000",
+      "sign": "positive"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 1,
+      "difference_exact": "134187759192432813514889608493829/2500000000000000000000000000000000",
+      "sign": "positive"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 2,
+      "difference_exact": "531967538084486773430766795348249/10000000000000000000000000000000000",
+      "sign": "positive"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 3,
+      "difference_exact": "41529075386916225090051309069269/2000000000000000000000000000000000",
+      "sign": "positive"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 4,
+      "difference_exact": "17337519022806376123905131459753/2500000000000000000000000000000000",
+      "sign": "positive"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 5,
+      "difference_exact": "54465731458961729693241394135647/10000000000000000000000000000000000",
+      "sign": "positive"
+    }
+  ],
+  "signs_by_leg": {
+    "leg1": [
+      "positive",
+      "positive",
+      "negative",
+      "negative",
+      "negative",
+      "negative"
+    ],
+    "leg2": [
+      "positive",
+      "positive",
+      "positive",
+      "positive",
+      "positive",
+      "positive"
+    ]
+  },
+  "depth_weight_argument": "For each leg, fixed six-layer errors imply MSE_model(w)-MSE_reference(w)=sum_k w_k*d_k. If every d_k>0 and w_k>=0,sum(w)=1, the difference is at least min(d)>0; monotonic square root gives the same strict RMSE ordering. Leg2 has six positive d. Leg1 has two positive/four negative; admissible one-hot weights can attain either sign, so no invariant ordering. No new weights or weighted score is selected/calculated. This concerns stored primary point errors only, not RSD scenarios, intra-layer weighting or geographical representativeness.",
+  "primary_domain_labels": [
+    {
+      "leg": "leg1",
+      "bin_index": 0,
+      "alpha_label": "below",
+      "observed_ph_label": "above"
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 1,
+      "alpha_label": "within",
+      "observed_ph_label": "within"
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 2,
+      "alpha_label": "above",
+      "observed_ph_label": "below"
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 3,
+      "alpha_label": "above",
+      "observed_ph_label": "below"
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 4,
+      "alpha_label": "above",
+      "observed_ph_label": "below"
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 5,
+      "alpha_label": "above",
+      "observed_ph_label": "below"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 0,
+      "alpha_label": "below",
+      "observed_ph_label": "within"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 1,
+      "alpha_label": "below",
+      "observed_ph_label": "within"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 2,
+      "alpha_label": "below",
+      "observed_ph_label": "below"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 3,
+      "alpha_label": "within",
+      "observed_ph_label": "below"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 4,
+      "alpha_label": "within",
+      "observed_ph_label": "below"
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 5,
+      "alpha_label": "within",
+      "observed_ph_label": "below"
+    }
+  ],
+  "domain_count_cells": [
+    {
+      "leg": "leg1",
+      "alpha_within": true,
+      "observed_ph_within": true,
+      "n": 1
+    },
+    {
+      "leg": "leg1",
+      "alpha_within": true,
+      "observed_ph_within": false,
+      "n": 0
+    },
+    {
+      "leg": "leg1",
+      "alpha_within": false,
+      "observed_ph_within": true,
+      "n": 0
+    },
+    {
+      "leg": "leg1",
+      "alpha_within": false,
+      "observed_ph_within": false,
+      "n": 5
+    },
+    {
+      "leg": "leg2",
+      "alpha_within": true,
+      "observed_ph_within": true,
+      "n": 0
+    },
+    {
+      "leg": "leg2",
+      "alpha_within": true,
+      "observed_ph_within": false,
+      "n": 3
+    },
+    {
+      "leg": "leg2",
+      "alpha_within": false,
+      "observed_ph_within": true,
+      "n": 2
+    },
+    {
+      "leg": "leg2",
+      "alpha_within": false,
+      "observed_ph_within": false,
+      "n": 1
+    },
+    {
+      "leg": "all_primary_rows",
+      "alpha_within": true,
+      "observed_ph_within": true,
+      "n": 1
+    },
+    {
+      "leg": "all_primary_rows",
+      "alpha_within": true,
+      "observed_ph_within": false,
+      "n": 3
+    },
+    {
+      "leg": "all_primary_rows",
+      "alpha_within": false,
+      "observed_ph_within": true,
+      "n": 2
+    },
+    {
+      "leg": "all_primary_rows",
+      "alpha_within": false,
+      "observed_ph_within": false,
+      "n": 6
+    }
+  ],
+  "domain_reference": {
+    "n_alpha_means": 6,
+    "n_observed_ph_means": 6,
+    "alpha_min": "2.564942791181893E-8",
+    "alpha_max": "3.2035971215737773E-8",
+    "observed_ph_min": "7.584325607003087",
+    "observed_ph_max": "7.73087871249336",
+    "interpretation": "Extrema of six global calibration-layer means, endpoints included; not the full range of1755 source-compilation rows. Observed target pH, not predicted pH, defines axis2. No joint validity or advance suitability criterion/subset score follows."
+  },
+  "actual_work": [
+    "Read original prepare_pairs lines155-212 and C plan/output definitions; did not consult, import or copy C exporter implementation (its file bytes were hashed for identity only).",
+    "Independently parsed four raw tables with Decimal finite-value handling and rebuilt first-failure terminal classes, including all zero categories, primary IDs and inclusive memberships.",
+    "Compared original audit statuses/raw lines and every C provenance row, all flow counts/ID sets/stage counts, twelve exact Fraction contrasts, twelve primary two-axis labels and twelve 2x2 count cells.",
+    "Checked training metadata arrays against preserved six saved notebook means. Read all three Markdown explanations for scientific interpretation.",
+    "No bootstrap, model fitting, new weighted score, continuous-box calculation or manuscript/state modification."
+  ],
+  "independence_boundary": "B authored continuous_box_v1.py. This check is independent of C selection/weight/domain exporter only; it is NOT independent validation of B's own continuous-box code or results.",
+  "new_material_scientific_findings": []
+}

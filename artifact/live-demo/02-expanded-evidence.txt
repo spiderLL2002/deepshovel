@@ -1,0 +1,187 @@
+Browser tab: 1, Title: "DeepShovel · Evidence Bench", URL: "https://deepshovel.iiot-shxt.xyz/".
+0 AXWebArea DeepShovel · Evidence Bench, URL: deepshovel.iiot-shxt.xyz/
+	1 container main-content
+		2 link Description: 跳到主要内容, Value: deepshovel.iiot-shxt.xyz/#view-content
+		3 container
+			4 button Description: DeepShovel 观点校验首页, Help: DeepShovel 首页
+				5 text DeepShovel
+				6 text 论文证据分析平台
+			7 container 主要功能
+				8 button 观点校验：输入观点并核对论文证据
+					9 text 观点校验
+				10 button 论文校验：核对整篇论文的推理与数据
+					11 text 论文校验
+				12 button 文献库：上传与版本管理
+					13 text 文献库
+				14 button 证据图谱：浏览主题与 Claim 关系
+					15 text 证据图谱
+				16 button 数据图表库：查看论文的元数据、正文与图表
+					17 text 数据图表库
+				18 button 元素图谱：浏览全球地球化学元素分布
+					19 text 元素图谱
+			20 container 质量控制
+				21 button 人工复核：复核证据并记录结论
+					22 text 人工复核
+				23 button 当前任务，没有进行中的任务
+					24 text 当前任务
+		25 container 输入观点
+			26 heading 输入观点, Value: 1, ID: evidence-search-title
+				27 text 输入观点
+			28 container
+				29 text entry area (settable) Description: 待核对观点, Value: For fault F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa under the assessed stress state, assuming zero cohesion and a friction coefficient of 0.6.
+				30 button (collapsed) 对话历史（可选）, Secondary Actions: Expand
+					31 text 对话历史（可选）
+				32 text 检索意图
+				33 pop up button (collapsed, settable) 检索意图, Value: 全部相关观点, Secondary Actions: Expand
+					34 menu
+						35 (selected) 全部相关观点
+						36 优先支持证据
+						37 优先相反证据
+				38 button 检索证据
+			39 button (collapsed) 检索理解, Secondary Actions: Expand
+				40 text 检索理解
+			41 container 初步结果
+				42 container
+					43 heading 初步结果, Value: 3, ID: preview-results-title
+						44 text 初步结果
+					45 text 30  条
+				46 container
+					47 container 初排第 1 名
+						48 text 1
+					49 text 10.1007_s12182-019-0331-9.pdf For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.
+					50 button (collapsed) 范围与关键词, Secondary Actions: Expand
+						51 text 范围与关键词
+					52 button 查看论文证据
+				53 container
+					54 container 初排第 2 名
+						55 text 2
+					56 text 10.1007_s12182-019-0331-9.pdf For the four Asmari-reservoir faults, the 3D Mohr-diagram, slip-tendency, and modified slip-tendency analyses give concordant fault-stability assessments.
+					57 button (collapsed) 范围与关键词, Secondary Actions: Expand
+						58 text 范围与关键词
+					59 button 查看论文证据
+				60 container
+					61 container 初排第 3 名
+						62 text 3
+					63 text 10.1007_s12182-019-0331-9.pdf For EOR and geosequestration injection planning in this part of the Gachsaran field, the NW side of F2 is the preferred location for a new injection well because it is associated with the lower modeled reactivation risk.
+					64 button (collapsed) 范围与关键词, Secondary Actions: Expand
+						65 text 范围与关键词
+					66 button 查看论文证据
+				67 button (collapsed) 查看其余 27 条 Claim, Secondary Actions: Expand
+			68 container 关系分析
+				69 container
+					70 heading 关系分析, Value: 3, ID: ai-results-title
+						71 text 关系分析
+					72 text 9  组
+				73 container 等价观点
+					74 container
+						75 heading 等价观点, Value: 3, ID: relation-equivalent
+							76 text 等价观点
+						77 text 1  组
+					78 container
+						79 text 与检索观点等价 1  篇独立论文
+						80 text For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.
+						81 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							82 text 范围与关键词
+						83 container 10.1007_s12182-019-0331-9.pdf
+							84 text 代表证据 ·  10.1007_s12182-019-0331-9.pdf
+						85 text 这条观点只在有限条件下成立 可信度  76 %
+						86 button (expanded) 展开原文与证据链, Secondary Actions: Collapse
+							87 text 展开原文与证据链
+						155 text 论文原始表达
+						156 container
+							157 text On the other hand, F2 is the most stable fault, because it has the lowest 
+							158 container
+								159 text 𝑇 s
+							160 text  and 
+							161 container
+								162 text 𝑇
+								163 text s
+								164 text m
+							165 text  and can undergo an average maximum pore pressure of 55–57 MPa.
+						166 content list
+							167 container
+								168 AXListMarker 1. 
+								169 text 第 3 页 · 2 Geological setting Since the cohesion of the weakness (pre-existing fault) can be neglected, they were considered cohesionless (i.e., C = 0).
+							170 container
+								171 AXListMarker 2. 
+								172 text 第 11 页 · 6 Slip tendency parameter On the other hand, F2 is the most stable fault, because it has the lowest 
+								173 container
+									174 text 𝑇 s
+								175 text  and 
+								176 container
+									177 text 𝑇
+									178 text s
+									179 text m
+								180 text  and can undergo an average maximum pore pressure of 55–57 MPa.
+							181 container
+								182 AXListMarker 3. 
+								183 text 第 13 页 · 8 Conclusions Results of all three methods of 3D Mohr diagrams, slip tendency and modifed slip tendency, confrmed that F2 is the most stable fault in the feld, and it can sustain a maximum pore pressure of 55–57 MPa.
+						88 button 查看代表论文
+				89 container 补充证据
+					90 container
+						91 heading 补充证据, Value: 3, ID: relation-supplement
+							92 text 补充证据
+						93 text 2  组
+					94 container
+						95 text 提供补充材料 1  篇独立论文
+						96 text When stress-orientation image logs are unavailable, slip-tendency analysis is a practical, more cost-effective alternative for estimating critical pore pressure in the Asmari-reservoir fault assessment.
+						97 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							98 text 范围与关键词
+						99 container 10.1007_s12182-019-0331-9.pdf
+							100 text 代表证据 ·  10.1007_s12182-019-0331-9.pdf
+						101 text 这条观点只在有限条件下成立 可信度  70 %
+						102 button (collapsed) 展开原文与证据链, Secondary Actions: Expand
+							103 text 展开原文与证据链
+						104 button 查看代表论文
+					105 container
+						106 text 提供补充材料 1  篇独立论文
+						107 text For the four Asmari-reservoir faults, the 3D Mohr-diagram, slip-tendency, and modified slip-tendency analyses give concordant fault-stability assessments.
+						108 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							109 text 范围与关键词
+						110 container 10.1007_s12182-019-0331-9.pdf
+							111 text 代表证据 ·  10.1007_s12182-019-0331-9.pdf
+						112 text 这条观点只在有限条件下成立 可信度  62 %
+						113 button (collapsed) 展开原文与证据链, Secondary Actions: Expand
+							114 text 展开原文与证据链
+						115 button 查看代表论文
+				116 container 主题相关
+					117 container
+						118 heading 主题相关, Value: 3, ID: relation-related
+							119 text 主题相关
+						120 text 6  组
+					121 container
+						122 text 1  篇独立论文
+						123 text After pore-pressure diffusion in the modeled strike-slip fault system, a water-level increase produces a negative effective horizontal normal stress change across the modeled poroelastic range except at β=1, thereby tending to destabilize the fault.
+						124 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							125 text 范围与关键词
+						126 container 10.1016_j.tecto.2018.06.004.pdf
+							127 text 代表证据 ·  10.1016_j.tecto.2018.06.004.pdf
+						128 text 这条观点只在有限条件下成立 可信度  80 %
+						129 button (collapsed) 展开原文与证据链, Secondary Actions: Expand
+							130 text 展开原文与证据链
+						131 button 查看代表论文
+					132 container
+						133 text 1  篇独立论文
+						134 text For the approximately 20° low-angle segment of the Gediz Graben master bounding fault at approximately 6 km depth, the projected stress model suggests that brittle shear reactivation likely requires elevated pore pressure together with fault-zone weakening; overpressure alone may be insufficient.
+						135 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							136 text 范围与关键词
+						137 container 10.1016_j.jog.2012.03.006.pdf
+							138 text 代表证据 ·  10.1016_j.jog.2012.03.006.pdf
+						139 text 这条观点只在有限条件下成立 可信度  83 %
+						140 button (collapsed) 展开原文与证据链, Secondary Actions: Expand
+							141 text 展开原文与证据链
+						142 button 查看代表论文
+					143 container
+						144 text 1  篇独立论文
+						145 text Among F1–F4 in the Asmari reservoir, F3 is the most prone to reactivation under the assessed gas-injection conditions.
+						146 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							147 text 范围与关键词
+						148 container 10.1007_s12182-019-0331-9.pdf
+							149 text 代表证据 ·  10.1007_s12182-019-0331-9.pdf
+						150 text 本篇证据支持这条观点 可信度  86 %
+						151 button (collapsed) 展开原文与证据链, Secondary Actions: Expand
+							152 text 展开原文与证据链
+						153 button 查看代表论文
+					154 button (collapsed) 查看其余 3 条 Claim, Secondary Actions: Expand
+
+The focused UI element is 86 button (expanded) 展开原文与证据链, Secondary Actions: Collapse

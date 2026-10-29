@@ -1,0 +1,23 @@
+Browser tab: 2, Title: "DeepShovel · Evidence Bench", URL: "https://deepshovel.iiot-shxt.xyz/".
+1 AXWebArea DeepShovel · Evidence Bench, URL: deepshovel.iiot-shxt.xyz/
+	2 container 10.1007_s12182-019-0331-9.pdf
+		3 container
+			4 heading 10.1007_s12182-019-0331-9.pdf, Value: 2
+				5 text 10.1007_s12182-019-0331-9.pdf
+			6 text 已定位至第  11  页 · 可缩放、翻页和旋转原件
+			7 link Description: 打开完整原件, Value: deepshovel.iiot-shxt.xyz/api/artifacts/f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99?disposition=inline#page=11&zoom=page-fit
+			8 button 关闭 PDF 预览
+		9 toolbar PDF 页面工具
+			10 button 上一页
+			11 container
+				12 text 第  11  /  14  页
+			13 button 下一页
+			14 button 缩小
+			15 text 100 %
+			16 button 放大
+			17 button 适合页面
+			18 button 旋转 90°
+		19 container PDF 页面，可滚动查看
+			20 image 10.1007_s12182-019-0331-9.pdf，第 11 页，旋转 0°
+
+The focused UI element is 8 button 关闭 PDF 预览

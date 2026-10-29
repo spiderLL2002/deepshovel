@@ -1,0 +1,1155 @@
+[
+  {
+    "leg": "leg1",
+    "station": "5",
+    "n_unique_primary_bottles": 3,
+    "all_six_layers": false,
+    "latitude_range": [
+      53.677,
+      53.677
+    ],
+    "longitude_range": [
+      -153.797,
+      -153.797
+    ],
+    "recorded_ree_coordinates": [
+      [
+        53.677,
+        -153.797
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        53.68,
+        -153.8
+      ]
+    ],
+    "representative_latitude_for_map": 53.677,
+    "representative_longitude_for_map": -153.797,
+    "bottles": [
+      {
+        "sample_id": "12329",
+        "event": "6519",
+        "ree_csv_line": 77,
+        "ph_csv_line": 37,
+        "ree_latitude": 53.677,
+        "ree_longitude": -153.797,
+        "ree_time": "2018-09-24T08:56:00Z"
+      },
+      {
+        "sample_id": "12331",
+        "event": "6519",
+        "ree_csv_line": 76,
+        "ph_csv_line": 36,
+        "ree_latitude": 53.677,
+        "ree_longitude": -153.797,
+        "ree_time": "2018-09-24T08:56:00Z"
+      },
+      {
+        "sample_id": "12333",
+        "event": "6519",
+        "ree_csv_line": 75,
+        "ph_csv_line": 35,
+        "ree_latitude": 53.677,
+        "ree_longitude": -153.797,
+        "ree_time": "2018-09-24T08:56:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg1",
+    "station": "10",
+    "n_unique_primary_bottles": 4,
+    "all_six_layers": false,
+    "latitude_range": [
+      42.0,
+      42.0
+    ],
+    "longitude_range": [
+      -152.0,
+      -152.0
+    ],
+    "recorded_ree_coordinates": [
+      [
+        42.0,
+        -152.0
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        42.0,
+        -152.0
+      ]
+    ],
+    "representative_latitude_for_map": 42.0,
+    "representative_longitude_for_map": -152.0,
+    "bottles": [
+      {
+        "sample_id": "13083",
+        "event": "6625",
+        "ree_csv_line": 185,
+        "ph_csv_line": 77,
+        "ree_latitude": 42.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-07T22:58:00Z"
+      },
+      {
+        "sample_id": "13085",
+        "event": "6625",
+        "ree_csv_line": 184,
+        "ph_csv_line": 76,
+        "ree_latitude": 42.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-07T22:58:00Z"
+      },
+      {
+        "sample_id": "13087",
+        "event": "6625",
+        "ree_csv_line": 183,
+        "ph_csv_line": 75,
+        "ree_latitude": 42.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-07T22:58:00Z"
+      },
+      {
+        "sample_id": "13089",
+        "event": "6625",
+        "ree_csv_line": 182,
+        "ph_csv_line": 74,
+        "ree_latitude": 42.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-07T22:58:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg1",
+    "station": "12",
+    "n_unique_primary_bottles": 4,
+    "all_six_layers": false,
+    "latitude_range": [
+      37.0,
+      37.0
+    ],
+    "longitude_range": [
+      -152.0,
+      -152.0
+    ],
+    "recorded_ree_coordinates": [
+      [
+        37.0,
+        -152.0
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        37.0,
+        -152.0
+      ]
+    ],
+    "representative_latitude_for_map": 37.0,
+    "representative_longitude_for_map": -152.0,
+    "bottles": [
+      {
+        "sample_id": "13192",
+        "event": "6655",
+        "ree_csv_line": 213,
+        "ph_csv_line": 93,
+        "ree_latitude": 37.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-10T15:37:00Z"
+      },
+      {
+        "sample_id": "13194",
+        "event": "6655",
+        "ree_csv_line": 212,
+        "ph_csv_line": 92,
+        "ree_latitude": 37.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-10T15:37:00Z"
+      },
+      {
+        "sample_id": "13196",
+        "event": "6655",
+        "ree_csv_line": 211,
+        "ph_csv_line": 91,
+        "ree_latitude": 37.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-10T15:37:00Z"
+      },
+      {
+        "sample_id": "13336",
+        "event": "6663",
+        "ree_csv_line": 214,
+        "ph_csv_line": 94,
+        "ree_latitude": 37.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-11T11:02:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg1",
+    "station": "16",
+    "n_unique_primary_bottles": 5,
+    "all_six_layers": true,
+    "latitude_range": [
+      27.0,
+      27.0
+    ],
+    "longitude_range": [
+      -152.0,
+      -152.0
+    ],
+    "recorded_ree_coordinates": [
+      [
+        27.0,
+        -152.0
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        27.0,
+        -152.0
+      ]
+    ],
+    "representative_latitude_for_map": 27.0,
+    "representative_longitude_for_map": -152.0,
+    "bottles": [
+      {
+        "sample_id": "13639",
+        "event": "6718",
+        "ree_csv_line": 309,
+        "ph_csv_line": 132,
+        "ree_latitude": 27.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-16T16:02:00Z"
+      },
+      {
+        "sample_id": "13641",
+        "event": "6718",
+        "ree_csv_line": 308,
+        "ph_csv_line": 131,
+        "ree_latitude": 27.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-16T16:02:00Z"
+      },
+      {
+        "sample_id": "13643",
+        "event": "6718",
+        "ree_csv_line": 307,
+        "ph_csv_line": 130,
+        "ree_latitude": 27.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-16T16:02:00Z"
+      },
+      {
+        "sample_id": "13645",
+        "event": "6718",
+        "ree_csv_line": 306,
+        "ph_csv_line": 129,
+        "ree_latitude": 27.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-16T16:02:00Z"
+      },
+      {
+        "sample_id": "13647",
+        "event": "6718",
+        "ree_csv_line": 305,
+        "ph_csv_line": 128,
+        "ree_latitude": 27.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-16T16:02:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg1",
+    "station": "18",
+    "n_unique_primary_bottles": 5,
+    "all_six_layers": true,
+    "latitude_range": [
+      22.0,
+      22.0
+    ],
+    "longitude_range": [
+      -152.0,
+      -152.0
+    ],
+    "recorded_ree_coordinates": [
+      [
+        22.0,
+        -152.0
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        22.0,
+        -152.0
+      ]
+    ],
+    "representative_latitude_for_map": 22.0,
+    "representative_longitude_for_map": -152.0,
+    "bottles": [
+      {
+        "sample_id": "13789",
+        "event": "6753",
+        "ree_csv_line": 348,
+        "ph_csv_line": 144,
+        "ree_latitude": 22.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-19T07:38:00Z"
+      },
+      {
+        "sample_id": "13791",
+        "event": "6753",
+        "ree_csv_line": 347,
+        "ph_csv_line": 143,
+        "ree_latitude": 22.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-19T07:38:00Z"
+      },
+      {
+        "sample_id": "13793",
+        "event": "6753",
+        "ree_csv_line": 346,
+        "ph_csv_line": 142,
+        "ree_latitude": 22.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-19T07:38:00Z"
+      },
+      {
+        "sample_id": "13795",
+        "event": "6753",
+        "ree_csv_line": 345,
+        "ph_csv_line": 141,
+        "ree_latitude": 22.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-19T07:38:00Z"
+      },
+      {
+        "sample_id": "13797",
+        "event": "6753",
+        "ree_csv_line": 344,
+        "ph_csv_line": 140,
+        "ree_latitude": 22.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-19T07:38:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg1",
+    "station": "18.3",
+    "n_unique_primary_bottles": 3,
+    "all_six_layers": false,
+    "latitude_range": [
+      19.681,
+      19.681
+    ],
+    "longitude_range": [
+      -154.513,
+      -154.513
+    ],
+    "recorded_ree_coordinates": [
+      [
+        19.681,
+        -154.513
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        19.68,
+        -154.51
+      ]
+    ],
+    "representative_latitude_for_map": 19.681,
+    "representative_longitude_for_map": -154.513,
+    "bottles": [
+      {
+        "sample_id": "13908",
+        "event": "6770",
+        "ree_csv_line": 366,
+        "ph_csv_line": 151,
+        "ree_latitude": 19.681,
+        "ree_longitude": -154.513,
+        "ree_time": "2018-10-21T12:21:00Z"
+      },
+      {
+        "sample_id": "13910",
+        "event": "6770",
+        "ree_csv_line": 365,
+        "ph_csv_line": 150,
+        "ree_latitude": 19.681,
+        "ree_longitude": -154.513,
+        "ree_time": "2018-10-21T12:21:00Z"
+      },
+      {
+        "sample_id": "13912",
+        "event": "6770",
+        "ree_csv_line": 364,
+        "ph_csv_line": 149,
+        "ree_latitude": 19.681,
+        "ree_longitude": -154.513,
+        "ree_time": "2018-10-21T12:21:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg2",
+    "station": "18.6",
+    "n_unique_primary_bottles": 1,
+    "all_six_layers": false,
+    "latitude_range": [
+      18.906,
+      18.906
+    ],
+    "longitude_range": [
+      -155.258,
+      -155.258
+    ],
+    "recorded_ree_coordinates": [
+      [
+        18.906,
+        -155.258
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        18.91,
+        -155.26
+      ]
+    ],
+    "representative_latitude_for_map": 18.906,
+    "representative_longitude_for_map": -155.258,
+    "bottles": [
+      {
+        "sample_id": "13930",
+        "event": "6774",
+        "ree_csv_line": 3,
+        "ph_csv_line": 3,
+        "ree_latitude": 18.906,
+        "ree_longitude": -155.258,
+        "ree_time": "2018-10-25T14:10:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg2",
+    "station": "19",
+    "n_unique_primary_bottles": 7,
+    "all_six_layers": false,
+    "latitude_range": [
+      17.5,
+      17.5
+    ],
+    "longitude_range": [
+      -152.0,
+      -152.0
+    ],
+    "recorded_ree_coordinates": [
+      [
+        17.5,
+        -152.0
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        17.5,
+        -152.0
+      ]
+    ],
+    "representative_latitude_for_map": 17.5,
+    "representative_longitude_for_map": -152.0,
+    "bottles": [
+      {
+        "sample_id": "13966",
+        "event": "6784",
+        "ree_csv_line": 23,
+        "ph_csv_line": 22,
+        "ree_latitude": 17.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-27T00:00:00Z"
+      },
+      {
+        "sample_id": "13968",
+        "event": "6784",
+        "ree_csv_line": 21,
+        "ph_csv_line": 21,
+        "ree_latitude": 17.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-27T00:00:00Z"
+      },
+      {
+        "sample_id": "13970",
+        "event": "6784",
+        "ree_csv_line": 20,
+        "ph_csv_line": 20,
+        "ree_latitude": 17.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-27T00:00:00Z"
+      },
+      {
+        "sample_id": "13972",
+        "event": "6784",
+        "ree_csv_line": 19,
+        "ph_csv_line": 19,
+        "ree_latitude": 17.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-27T00:00:00Z"
+      },
+      {
+        "sample_id": "13974",
+        "event": "6784",
+        "ree_csv_line": 18,
+        "ph_csv_line": 18,
+        "ree_latitude": 17.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-27T00:00:00Z"
+      },
+      {
+        "sample_id": "13976",
+        "event": "6784",
+        "ree_csv_line": 17,
+        "ph_csv_line": 17,
+        "ree_latitude": 17.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-27T00:00:00Z"
+      },
+      {
+        "sample_id": "14084",
+        "event": "6795",
+        "ree_csv_line": 24,
+        "ph_csv_line": 23,
+        "ree_latitude": 17.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-28T10:40:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg2",
+    "station": "21",
+    "n_unique_primary_bottles": 4,
+    "all_six_layers": false,
+    "latitude_range": [
+      11.0,
+      11.0
+    ],
+    "longitude_range": [
+      -152.0,
+      -152.0
+    ],
+    "recorded_ree_coordinates": [
+      [
+        11.0,
+        -152.0
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        11.0,
+        -152.0
+      ]
+    ],
+    "representative_latitude_for_map": 11.0,
+    "representative_longitude_for_map": -152.0,
+    "bottles": [
+      {
+        "sample_id": "14140",
+        "event": "6810",
+        "ree_csv_line": 74,
+        "ph_csv_line": 47,
+        "ree_latitude": 11.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-30T02:55:00Z"
+      },
+      {
+        "sample_id": "14142",
+        "event": "6810",
+        "ree_csv_line": 72,
+        "ph_csv_line": 46,
+        "ree_latitude": 11.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-30T02:55:00Z"
+      },
+      {
+        "sample_id": "14144",
+        "event": "6810",
+        "ree_csv_line": 71,
+        "ph_csv_line": 45,
+        "ree_latitude": 11.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-30T02:55:00Z"
+      },
+      {
+        "sample_id": "14146",
+        "event": "6810",
+        "ree_csv_line": 70,
+        "ph_csv_line": 44,
+        "ree_latitude": 11.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-10-30T02:55:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg2",
+    "station": "25",
+    "n_unique_primary_bottles": 6,
+    "all_six_layers": false,
+    "latitude_range": [
+      5.0,
+      5.0
+    ],
+    "longitude_range": [
+      -151.996,
+      -151.996
+    ],
+    "recorded_ree_coordinates": [
+      [
+        5.0,
+        -151.996
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        5.0,
+        -152.0
+      ]
+    ],
+    "representative_latitude_for_map": 5.0,
+    "representative_longitude_for_map": -151.996,
+    "bottles": [
+      {
+        "sample_id": "14514",
+        "event": "6852",
+        "ree_csv_line": 157,
+        "ph_csv_line": 78,
+        "ree_latitude": 5.0,
+        "ree_longitude": -151.996,
+        "ree_time": "2018-11-04T05:23:00Z"
+      },
+      {
+        "sample_id": "14516",
+        "event": "6852",
+        "ree_csv_line": 156,
+        "ph_csv_line": 77,
+        "ree_latitude": 5.0,
+        "ree_longitude": -151.996,
+        "ree_time": "2018-11-04T05:23:00Z"
+      },
+      {
+        "sample_id": "14518",
+        "event": "6852",
+        "ree_csv_line": 155,
+        "ph_csv_line": 76,
+        "ree_latitude": 5.0,
+        "ree_longitude": -151.996,
+        "ree_time": "2018-11-04T05:23:00Z"
+      },
+      {
+        "sample_id": "14520",
+        "event": "6852",
+        "ree_csv_line": 154,
+        "ph_csv_line": 75,
+        "ree_latitude": 5.0,
+        "ree_longitude": -151.996,
+        "ree_time": "2018-11-04T05:23:00Z"
+      },
+      {
+        "sample_id": "14522",
+        "event": "6852",
+        "ree_csv_line": 153,
+        "ph_csv_line": 74,
+        "ree_latitude": 5.0,
+        "ree_longitude": -151.996,
+        "ree_time": "2018-11-04T05:23:00Z"
+      },
+      {
+        "sample_id": "14524",
+        "event": "6852",
+        "ree_csv_line": 152,
+        "ph_csv_line": 73,
+        "ree_latitude": 5.0,
+        "ree_longitude": -151.996,
+        "ree_time": "2018-11-04T05:23:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg2",
+    "station": "31",
+    "n_unique_primary_bottles": 11,
+    "all_six_layers": true,
+    "latitude_range": [
+      -2.5,
+      -2.499
+    ],
+    "longitude_range": [
+      -152.0,
+      -152.0
+    ],
+    "recorded_ree_coordinates": [
+      [
+        -2.5,
+        -152.0
+      ],
+      [
+        -2.499,
+        -152.0
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        -2.5,
+        -152.0
+      ]
+    ],
+    "representative_latitude_for_map": -2.499,
+    "representative_longitude_for_map": -152.0,
+    "bottles": [
+      {
+        "sample_id": "14978",
+        "event": "6912",
+        "ree_csv_line": 266,
+        "ph_csv_line": 119,
+        "ree_latitude": -2.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-11T02:07:00Z"
+      },
+      {
+        "sample_id": "14980",
+        "event": "6912",
+        "ree_csv_line": 264,
+        "ph_csv_line": 118,
+        "ree_latitude": -2.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-11T02:07:00Z"
+      },
+      {
+        "sample_id": "14982",
+        "event": "6912",
+        "ree_csv_line": 263,
+        "ph_csv_line": 117,
+        "ree_latitude": -2.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-11T02:07:00Z"
+      },
+      {
+        "sample_id": "14984",
+        "event": "6912",
+        "ree_csv_line": 265,
+        "ph_csv_line": 116,
+        "ree_latitude": -2.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-11T02:07:00Z"
+      },
+      {
+        "sample_id": "14986",
+        "event": "6912",
+        "ree_csv_line": 262,
+        "ph_csv_line": 115,
+        "ree_latitude": -2.5,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-11T02:07:00Z"
+      },
+      {
+        "sample_id": "15084",
+        "event": "6922",
+        "ree_csv_line": 272,
+        "ph_csv_line": 125,
+        "ree_latitude": -2.499,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-11T22:02:00Z"
+      },
+      {
+        "sample_id": "15086",
+        "event": "6922",
+        "ree_csv_line": 271,
+        "ph_csv_line": 124,
+        "ree_latitude": -2.499,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-11T22:02:00Z"
+      },
+      {
+        "sample_id": "15088",
+        "event": "6922",
+        "ree_csv_line": 270,
+        "ph_csv_line": 123,
+        "ree_latitude": -2.499,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-11T22:02:00Z"
+      },
+      {
+        "sample_id": "15090",
+        "event": "6922",
+        "ree_csv_line": 269,
+        "ph_csv_line": 122,
+        "ree_latitude": -2.499,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-11T22:02:00Z"
+      },
+      {
+        "sample_id": "15092",
+        "event": "6922",
+        "ree_csv_line": 268,
+        "ph_csv_line": 121,
+        "ree_latitude": -2.499,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-11T22:02:00Z"
+      },
+      {
+        "sample_id": "15094",
+        "event": "6922",
+        "ree_csv_line": 267,
+        "ph_csv_line": 120,
+        "ree_latitude": -2.499,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-11T22:02:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg2",
+    "station": "33",
+    "n_unique_primary_bottles": 10,
+    "all_six_layers": true,
+    "latitude_range": [
+      -5.0,
+      -5.0
+    ],
+    "longitude_range": [
+      -152.003,
+      -152.001
+    ],
+    "recorded_ree_coordinates": [
+      [
+        -5.0,
+        -152.003
+      ],
+      [
+        -5.0,
+        -152.001
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        -5.0,
+        -152.0
+      ]
+    ],
+    "representative_latitude_for_map": -5.0,
+    "representative_longitude_for_map": -152.002,
+    "bottles": [
+      {
+        "sample_id": "15132",
+        "event": "6931",
+        "ree_csv_line": 303,
+        "ph_csv_line": 138,
+        "ree_latitude": -5.0,
+        "ree_longitude": -152.001,
+        "ree_time": "2018-11-13T02:20:00Z"
+      },
+      {
+        "sample_id": "15134",
+        "event": "6931",
+        "ree_csv_line": 302,
+        "ph_csv_line": 137,
+        "ree_latitude": -5.0,
+        "ree_longitude": -152.001,
+        "ree_time": "2018-11-13T02:20:00Z"
+      },
+      {
+        "sample_id": "15136",
+        "event": "6931",
+        "ree_csv_line": 301,
+        "ph_csv_line": 136,
+        "ree_latitude": -5.0,
+        "ree_longitude": -152.001,
+        "ree_time": "2018-11-13T02:20:00Z"
+      },
+      {
+        "sample_id": "15138",
+        "event": "6931",
+        "ree_csv_line": 300,
+        "ph_csv_line": 135,
+        "ree_latitude": -5.0,
+        "ree_longitude": -152.001,
+        "ree_time": "2018-11-13T02:20:00Z"
+      },
+      {
+        "sample_id": "15140",
+        "event": "6931",
+        "ree_csv_line": 299,
+        "ph_csv_line": 134,
+        "ree_latitude": -5.0,
+        "ree_longitude": -152.001,
+        "ree_time": "2018-11-13T02:20:00Z"
+      },
+      {
+        "sample_id": "15232",
+        "event": "6940",
+        "ree_csv_line": 308,
+        "ph_csv_line": 143,
+        "ree_latitude": -5.0,
+        "ree_longitude": -152.003,
+        "ree_time": "2018-11-13T22:21:00Z"
+      },
+      {
+        "sample_id": "15234",
+        "event": "6940",
+        "ree_csv_line": 307,
+        "ph_csv_line": 142,
+        "ree_latitude": -5.0,
+        "ree_longitude": -152.003,
+        "ree_time": "2018-11-13T22:21:00Z"
+      },
+      {
+        "sample_id": "15236",
+        "event": "6940",
+        "ree_csv_line": 306,
+        "ph_csv_line": 141,
+        "ree_latitude": -5.0,
+        "ree_longitude": -152.003,
+        "ree_time": "2018-11-13T22:21:00Z"
+      },
+      {
+        "sample_id": "15238",
+        "event": "6940",
+        "ree_csv_line": 305,
+        "ph_csv_line": 140,
+        "ree_latitude": -5.0,
+        "ree_longitude": -152.003,
+        "ree_time": "2018-11-13T22:21:00Z"
+      },
+      {
+        "sample_id": "15240",
+        "event": "6940",
+        "ree_csv_line": 304,
+        "ph_csv_line": 139,
+        "ree_latitude": -5.0,
+        "ree_longitude": -152.003,
+        "ree_time": "2018-11-13T22:21:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg2",
+    "station": "37",
+    "n_unique_primary_bottles": 9,
+    "all_six_layers": false,
+    "latitude_range": [
+      -15.0,
+      -15.0
+    ],
+    "longitude_range": [
+      -152.0,
+      -152.0
+    ],
+    "recorded_ree_coordinates": [
+      [
+        -15.0,
+        -152.0
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        -15.0,
+        -152.0
+      ]
+    ],
+    "representative_latitude_for_map": -15.0,
+    "representative_longitude_for_map": -152.0,
+    "bottles": [
+      {
+        "sample_id": "15523",
+        "event": "6983",
+        "ree_csv_line": 400,
+        "ph_csv_line": 171,
+        "ree_latitude": -15.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-18T21:20:00Z"
+      },
+      {
+        "sample_id": "15525",
+        "event": "6983",
+        "ree_csv_line": 399,
+        "ph_csv_line": 170,
+        "ree_latitude": -15.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-18T21:20:00Z"
+      },
+      {
+        "sample_id": "15527",
+        "event": "6983",
+        "ree_csv_line": 398,
+        "ph_csv_line": 169,
+        "ree_latitude": -15.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-18T21:20:00Z"
+      },
+      {
+        "sample_id": "15529",
+        "event": "6983",
+        "ree_csv_line": 397,
+        "ph_csv_line": 168,
+        "ree_latitude": -15.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-18T21:20:00Z"
+      },
+      {
+        "sample_id": "15531",
+        "event": "6983",
+        "ree_csv_line": 396,
+        "ph_csv_line": 167,
+        "ree_latitude": -15.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-18T21:20:00Z"
+      },
+      {
+        "sample_id": "15631",
+        "event": "6994",
+        "ree_csv_line": 405,
+        "ph_csv_line": 176,
+        "ree_latitude": -15.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-19T17:11:00Z"
+      },
+      {
+        "sample_id": "15635",
+        "event": "6994",
+        "ree_csv_line": 404,
+        "ph_csv_line": 174,
+        "ree_latitude": -15.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-19T17:11:00Z"
+      },
+      {
+        "sample_id": "15637",
+        "event": "6994",
+        "ree_csv_line": 403,
+        "ph_csv_line": 173,
+        "ree_latitude": -15.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-19T17:11:00Z"
+      },
+      {
+        "sample_id": "15639",
+        "event": "6994",
+        "ree_csv_line": 402,
+        "ph_csv_line": 172,
+        "ree_latitude": -15.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-19T17:11:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  },
+  {
+    "leg": "leg2",
+    "station": "39",
+    "n_unique_primary_bottles": 7,
+    "all_six_layers": false,
+    "latitude_range": [
+      -20.0,
+      -20.0
+    ],
+    "longitude_range": [
+      -152.0,
+      -152.0
+    ],
+    "recorded_ree_coordinates": [
+      [
+        -20.0,
+        -152.0
+      ]
+    ],
+    "recorded_ph_coordinates": [
+      [
+        -20.0,
+        -152.0
+      ]
+    ],
+    "representative_latitude_for_map": -20.0,
+    "representative_longitude_for_map": -152.0,
+    "bottles": [
+      {
+        "sample_id": "15720",
+        "event": "7011",
+        "ree_csv_line": 451,
+        "ph_csv_line": 191,
+        "ree_latitude": -20.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-21T16:08:00Z"
+      },
+      {
+        "sample_id": "15722",
+        "event": "7011",
+        "ree_csv_line": 449,
+        "ph_csv_line": 190,
+        "ree_latitude": -20.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-21T16:08:00Z"
+      },
+      {
+        "sample_id": "15724",
+        "event": "7011",
+        "ree_csv_line": 448,
+        "ph_csv_line": 189,
+        "ree_latitude": -20.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-21T16:08:00Z"
+      },
+      {
+        "sample_id": "15726",
+        "event": "7011",
+        "ree_csv_line": 447,
+        "ph_csv_line": 188,
+        "ree_latitude": -20.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-21T16:08:00Z"
+      },
+      {
+        "sample_id": "15728",
+        "event": "7011",
+        "ree_csv_line": 446,
+        "ph_csv_line": 187,
+        "ree_latitude": -20.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-21T16:08:00Z"
+      },
+      {
+        "sample_id": "15730",
+        "event": "7011",
+        "ree_csv_line": 445,
+        "ph_csv_line": 186,
+        "ree_latitude": -20.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-21T16:08:00Z"
+      },
+      {
+        "sample_id": "15732",
+        "event": "7011",
+        "ree_csv_line": 444,
+        "ph_csv_line": 185,
+        "ree_latitude": -20.0,
+        "ree_longitude": -152.0,
+        "ree_time": "2018-11-21T16:08:00Z"
+      }
+    ],
+    "coordinate_basis": "REE file start coordinates; all distinct recorded coordinates preserved; pH rounded coordinates also retained"
+  }
+]

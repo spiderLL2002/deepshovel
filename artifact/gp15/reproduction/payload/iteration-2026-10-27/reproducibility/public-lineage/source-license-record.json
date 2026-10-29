@@ -1,0 +1,12 @@
+{
+  "schema": "gp15-public-source-license-record/v1",
+  "source_file": "ree/round8/raw/Lin2024.txt",
+  "source_sha256": "7e866e981754d04dccbca6cbff1b332edccf6549da83214f38fff911a5b63a78",
+  "public_source_doi": "10.2475/001c.118215",
+  "attribution": "Ping-Chun Lin and David C. Catling (2024), American Journal of Science 324.",
+  "license": "Creative Commons Attribution 4.0 International",
+  "license_statement_locator": "Original text extraction, PDF page 17, following received/accepted dates",
+  "license_statement": "This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International License \n(CCBY-4.0). View this license’s legal deed at http://creativecommons.org/licenses/by/4.0 and legal code at http://creativecom-\nmons.org/licenses/by/4.0/legalcode for more information.",
+  "original_PDF_sha256": "c9c70cef730755baddfaab1a7a21f0c2581c55e5695b7881cd441faf12bd6c2a",
+  "transformation": "The extracted text is included unchanged; this small license record reports the statement printed in the original article. No new blanket license is assigned to mixed-source materials."
+}

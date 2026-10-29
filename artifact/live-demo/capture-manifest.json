@@ -1,0 +1,16 @@
+{
+  "capture_date": "2026-10-29",
+  "method": "AI-operated browser UI; genuine screenshots",
+  "files": {
+    "01-results.jpg": "955ee9d20f645ae4d41c0b070798a0ed96471773e5c62e5fbbbadd28d79e90f9",
+    "01-results.txt": "7a07c20f2e008c6dc1824c17b58d373ba109b048a89f6c2bb38199cce67e963b",
+    "02-expanded-evidence.jpg": "02af4346c139d19394417da8eee0ae7a99b1a7594925ff5b4f2bfef5e8582078",
+    "02-expanded-evidence.txt": "06373bcbee7e013b66cef45e7a5c7230789a7e18ee96814ed089f2ca4807fd4b",
+    "03-claim-detail.jpg": "b287ce466005efa4c810dc364fe81320d33b72d924b358d250f204b4c76b9e1b",
+    "04-assumptions.jpg": "9042a07746af5e6cd58fb1473653d0cb373b7658cd86ab0d3136c9afda280b13",
+    "04-assumptions.txt": "12b82373bbb3e67d385a5775037cba78d771f3969039d2fc97c4697757460638",
+    "05-repeat-results.txt": "0c7e8f1631727d426c152e9a1dc61b5e1038833d131cc08492c0406f65c06450",
+    "06-source-page.jpg": "c19753579122cdcba202d697111b3b36390bf4875aaaaf8d545cd1e4c691a36f",
+    "06-source-page.txt": "e2849f92bad9c9142c623b610f5f7b93773e218de733a52ce6e1d73ba0cb70b4"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "root_frozen_plan_sha256": "2460d570a3bca6c8935df8c64210c179f14d813e9afe07d3214997ad2b97da05",
+  "script_sha256": "bf891baf04cb672963d0b18e7015a95bc874ece11854a1087461b9f64d41b597",
+  "figure_manifest_sha256": "7242cdc4053f03ec113f62928720c613621bd8348fa45121b37c710d43b53e2c",
+  "caption_input_sha256": "3be16e3f66efd169caad853804d3b3ede3992cd9dc0ca683382ea255bd3207db",
+  "all_20_declared_image_coordinate_output_hashes_verified": true,
+  "five_coordinate_tables": [
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig01_source_values.csv",
+      "sha256": "c07342e3310f94a91e371b38d5fd5987ec9207db5d232414a1b0540b69dcc536",
+      "prior_sha256": "c07342e3310f94a91e371b38d5fd5987ec9207db5d232414a1b0540b69dcc536",
+      "byte_identical": true
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig02_source_values.csv",
+      "sha256": "9b7897063b601493e3aa39a113fb9b19ea8d8919add5a2165491be5da609d6ba",
+      "prior_sha256": "9b7897063b601493e3aa39a113fb9b19ea8d8919add5a2165491be5da609d6ba",
+      "byte_identical": true
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig03_source_values.csv",
+      "sha256": "ed9898444bbb3196a57c56e79876af75daf1e2f779c88fd677f2486890c42289",
+      "prior_sha256": "ed9898444bbb3196a57c56e79876af75daf1e2f779c88fd677f2486890c42289",
+      "byte_identical": true
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS01_source_values.csv",
+      "sha256": "0526e9bf5fda34ae521e94b70f4f1ef7d4bc06b53b0047d1e128440bca6b5e94",
+      "prior_sha256": "0526e9bf5fda34ae521e94b70f4f1ef7d4bc06b53b0047d1e128440bca6b5e94",
+      "byte_identical": true
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS02_source_values.csv",
+      "sha256": "7a537623074af88509b390ef850c4ea2e548af913ba1386dd201283f60d34e4e",
+      "prior_sha256": "7a537623074af88509b390ef850c4ea2e548af913ba1386dd201283f60d34e4e",
+      "byte_identical": true
+    }
+  ],
+  "five_publication_pdfs": [
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig01_sampling_support.pdf",
+      "sha256": "734b69a23315ac20c1675564007d852dabf132480f36517d4fd5b02a5c857aa3",
+      "pages": 1,
+      "all_fonts_embedded": true,
+      "font_rows": [
+        "EVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     15  0",
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     22  0"
+      ],
+      "raster_image_xobjects_recursive": 0,
+      "creation_and_modification_dates_absent": true
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig02_sampled_layer_means.pdf",
+      "sha256": "581f03b1fea767be441a9837bfedf37d8e7db7838caf79f78c33c20c64af7f15",
+      "pages": 1,
+      "all_fonts_embedded": true,
+      "font_rows": [
+        "EVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     21  0",
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     28  0"
+      ],
+      "raster_image_xobjects_recursive": 0,
+      "creation_and_modification_dates_absent": true
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig03_error_decomposition.pdf",
+      "sha256": "ccf7efcf95789f53de721f0925a4a65ef6810b939204b9df48b7c816ba4f14fb",
+      "pages": 1,
+      "all_fonts_embedded": true,
+      "font_rows": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     15  0"
+      ],
+      "raster_image_xobjects_recursive": 0,
+      "creation_and_modification_dates_absent": true
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS01_fixed_sensitivity.pdf",
+      "sha256": "3d3415ad481f4d39a909526d28c0078ac34b0783a5e06302234212c28ef10a50",
+      "pages": 1,
+      "all_fonts_embedded": true,
+      "font_rows": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     15  0"
+      ],
+      "raster_image_xobjects_recursive": 0,
+      "creation_and_modification_dates_absent": true
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS02_calibration_domain.pdf",
+      "sha256": "3ac29da3181d3c5f229fbe1cefaf817bff1cd4701166c2c978a7f875d850c6fd",
+      "pages": 1,
+      "all_fonts_embedded": true,
+      "font_rows": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     16  0"
+      ],
+      "raster_image_xobjects_recursive": 0,
+      "creation_and_modification_dates_absent": true
+    }
+  ],
+  "png_visual_inspection": {
+    "images": 5,
+    "status": "PASS",
+    "method": "All five full PNG files viewed using image inspection. No visible cropping/overlap; station-support cells and sampled means are legible. Calibration legend now states six global calibration means."
+  },
+  "main_figures": 3,
+  "supplementary_figures": 2,
+  "new_scientific_analysis": false,
+  "full_reproduction_run": false,
+  "final_publication_zip_created": false
+}

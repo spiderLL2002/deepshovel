@@ -1,0 +1,13 @@
+leg,bin_index,low_m,high_m,alpha_source_token,observed_ph_source_token,original_alpha_directional_label,original_observed_ph_directional_label,alpha_within_original_range,observed_ph_within_original_range,two_axis_label,sample_ids,annotation_csv_record,annotation_physical_line,primary_layer_csv_record
+leg1,0,200,300,2.177231518693752e-08,7.77046,below,above,False,False,alpha_outside__observed_ph_outside,"[""13087"", ""13089"", ""13196"", ""13647"", ""13797""]",1,2,1
+leg1,1,300,400,2.6113083285783755e-08,7.657633333333333,within,within,True,True,alpha_within__observed_ph_within,"[""12333"", ""13194"", ""13645"", ""13647"", ""13795"", ""13912""]",2,3,2
+leg1,2,400,500,3.282676422419191e-08,7.53035,above,below,False,False,alpha_outside__observed_ph_outside,"[""12331"", ""13085"", ""13192"", ""13336"", ""13645"", ""13793""]",3,4,3
+leg1,3,500,600,3.307087255471373e-08,7.414266666666666,above,below,False,False,alpha_outside__observed_ph_outside,"[""13643"", ""13791"", ""13910""]",4,5,4
+leg1,4,600,700,3.8592323061164077e-08,7.36542,above,below,False,False,alpha_outside__observed_ph_outside,"[""12329"", ""13083"", ""13639"", ""13641"", ""13791""]",5,6,5
+leg1,5,700,800,3.784343241435728e-08,7.362233333333333,above,below,False,False,alpha_outside__observed_ph_outside,"[""13639"", ""13789"", ""13908""]",6,7,6
+leg2,0,200,300,1.6138108019004193e-08,7.69645625,below,within,False,True,alpha_outside__observed_ph_within,"[""13974"", ""13976"", ""14144"", ""14146"", ""14522"", ""14524"", ""14984"", ""14986"", ""15138"", ""15140"", ""15527"", ""15529"", ""15531"", ""15728"", ""15730"", ""15732""]",25,26,25
+leg2,1,300,400,1.9797213861964398e-08,7.63975,below,within,False,True,alpha_outside__observed_ph_within,"[""13970"", ""13972"", ""14142"", ""14518"", ""14520"", ""14980"", ""14982"", ""15134"", ""15136"", ""15525"", ""15527"", ""15724"", ""15726"", ""15728""]",26,27,26
+leg2,2,400,500,2.3404692999520197e-08,7.514182352941177,below,below,False,False,alpha_outside__observed_ph_outside,"[""13968"", ""14140"", ""14514"", ""14516"", ""14978"", ""15090"", ""15092"", ""15094"", ""15132"", ""15236"", ""15238"", ""15240"", ""15523"", ""15639"", ""15720"", ""15722"", ""15724""]",27,28,27
+leg2,3,500,600,2.6743991849400733e-08,7.520928571428572,within,below,True,False,alpha_within__observed_ph_outside,"[""13966"", ""15088"", ""15090"", ""15236"", ""15635"", ""15637"", ""15720""]",28,29,28
+leg2,4,600,700,2.9819063621319764e-08,7.43614,within,below,True,False,alpha_within__observed_ph_outside,"[""13930"", ""14084"", ""15086"", ""15088"", ""15234""]",29,30,29
+leg2,5,700,800,3.036375459242636e-08,7.49905,within,below,True,False,alpha_within__observed_ph_outside,"[""15084"", ""15086"", ""15232"", ""15631""]",30,31,30

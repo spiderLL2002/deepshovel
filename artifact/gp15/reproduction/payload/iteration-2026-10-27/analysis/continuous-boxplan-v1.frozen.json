@@ -1,0 +1,136 @@
+{
+  "schema": "gp15-continuous-box-plan/v1",
+  "status": "ROOT_FROZEN_AFTER_TWO_INDEPENDENT_DESIGN_REVIEWS",
+  "frozen": true,
+  "frozen_by": "root",
+  "frozen_at_utc": "2026-10-27T06:13:36.522567+00:00",
+  "task_root_relative": "../..",
+  "analysis_script": "iteration-2026-10-27/analysis/continuous_box_v1.py",
+  "analysis_script_sha256": "7a0debe8c20b5040cd4462dcb22bf0703adcc354e4613b4215406f293bc084b8",
+  "required_python_minor": "3.12",
+  "inputs": [
+    {
+      "role": "protocol",
+      "path": "ree/round8/protocol-frozen-v1.json",
+      "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79"
+    },
+    {
+      "role": "samples",
+      "path": "results/ree_ph_fixed_transfer_v1/sample_predictions.csv",
+      "sha256": "75e79395b1db84626911efccefc922005dddc0c896fe86621dcdd9fb5fab963e"
+    },
+    {
+      "role": "layers",
+      "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321"
+    },
+    {
+      "role": "stress",
+      "path": "results/ree_ph_fixed_transfer_v1/ree_repeatability_stress.json",
+      "sha256": "f81ae097bab3aec62bd423e4fb3f5396ab58d2a52e7e303dc10fd27ba07572d1"
+    },
+    {
+      "role": "paas",
+      "path": "ree/round8/raw/Lin2024-paas.csv",
+      "sha256": "b04fcb55324673832cef85a8e75c7580eb52448a11120421fd1bb711237ce0cb"
+    },
+    {
+      "role": "mass",
+      "path": "ree/round8/raw/Lin2024-molar_mass_mgmol.csv",
+      "sha256": "58f67c7cdd4f2357afb37c20587f2e6210a221d06e33451e1eb58305ca1632c0"
+    }
+  ],
+  "output_relative": "iteration-2026-10-27/analysis/continuous-box-v1",
+  "comparison_tolerance_ph": "1e-10",
+  "decimal_display_precision": 50,
+  "sqrt_enclosure_decimal_places": 60,
+  "expected_matching_records": 6108,
+  "success_outputs": [
+    "layer_coefficients.csv",
+    "pair_residual_lower_bounds.csv",
+    "pair_envelope.csv",
+    "ranking_certificates.json",
+    "vertex_matching.csv",
+    "continuous_box_supplement.md"
+  ],
+  "failure_outputs": [
+    "vertex_matching.csv",
+    "failure.json"
+  ],
+  "manifest_outputs": [
+    "source_manifest.json",
+    "output_manifest.json"
+  ],
+  "scientific_scope": {
+    "exposure": "All GP15 responses, original finite-corner outputs and existing directions already exposed. This is an exploratory mathematical coverage refinement, not validation.",
+    "immutable_choices": [
+      "Original24/55 unique primary bottles and all six inclusive pH-reported-depth layers",
+      "Primary record weights, exact original source-decimal REE/pH values, author PAAS/molar masses",
+      "Original fixed beta/intercept, atomic numbers and reference means from frozen protocol",
+      "Same four shared coherent RSD coordinates and full [-1,1]^4 box",
+      "Exactly original nine discrete observed/training pH-offset pairs",
+      "No new fit, correction, new distribution, sub-box, exclusion, real-error bound or joint-coefficient propagation"
+    ],
+    "object_definition": "The original decimal tokens in the six bound inputs define exact rational numbers. Published model arithmetic is interpreted over these reals. Legacy binary-float outputs are compared within fixed tolerance; the analysis does not formally verify every IEEE operation or bound real measurement errors."
+  },
+  "arithmetic": {
+    "source_parse": "CSV numeric lexemes are Decimal-validated then converted to Fraction. JSON source numeric lexemes are loaded with parse_float=Decimal and converted to Fraction; binary floats are rejected as arithmetic inputs. Z comes from the frozen protocol and is checked against62/64/66/68.",
+    "exact_quantities": [
+      "Normalization denominators and all four mean normalized compositions per original primary layer",
+      "Fixed alpha, predicted/observed/reference means and signed errors",
+      "C_kj=((Z_j-65)/(20*beta))*r_j*mean(R_kj)",
+      "All component lower limits, corner errors, MSEs, MSE differences, positivity/ranking decisions"
+    ],
+    "square_roots": "Decimal precision50 is used only for displayed square roots/RMSE differences. Matching irrationals to old float-valued decimal results instead uses exact rational sqrt enclosures from integer isqrt, with grid10^-60 and mathematically verified lower^2<=MSE<=upper^2. The full candidate enclosure must lie within old_value +/-1e-10. Exact MSE signs determine ranking; displayed rounded values never determine certificates.",
+    "matching_tolerance": "Fixed absolute1e-10 pH for each observed/model/reference primary mean/error, each unshifted corner mean, every shifted layer error, all stored bias/MAE/RMSE and deltaRMSE. No tolerance tuning.",
+    "display": "CSV sqrt/RMSE display50 significant digits; concise SI table differences six decimals. These are labeled approximations rather than directed-rounded RMSE endpoint bounds. Exact rational MSE bounds/differences are retained."
+  },
+  "algorithm": [
+    "Read and verify the exact six role/path/SHA bindings and root frozen plan/code SHA before source parsing; require Python3.12 and no pre-existing output directory.",
+    "Confirm original protocol frozen identities, same four elements/Z/coefficients/edges, primary inclusive pH depth and record weights, four RSD scales and exact9offset pair lists.",
+    "Reconstruct12 primary mean compositions/predictions/errors from original per-bottle concentration/pH decimal tokens and constants, using exact original layer membership lists. Check no duplicate memberships, exact station counts, source sample identities and unique24/55 support. Check expected C column signs(+,+,-,-).",
+    "Compare60 primary values;576 unshifted corner-layer mean values;5472 shifted corner layer-errors/aggregate quantities across original16corners x9pairs x2legs. All6108 matching records must be produced. Original baseline does not receive REE perturbation.",
+    "If any fixed-tolerance comparison fails, release only full matching diagnostics, failure.json and source/output manifests; return nonzero. Do not calculate/release envelope coefficients, bounds, ranking or SI outputs from that run.",
+    "Only after all consistency matches pass, list12 layers of C and all18x6 component lower limits. The convex norm maximum is the exact maximum over16vertices for each fixed offset pair, because reference norm is constant in u.",
+    "If all six exact component lower limits are strictly positive, certify the minimum at(-1,-1,+1,+1) and check its MSE equals the finite-corner minimum; opposite corner must attain maximum. Otherwise leave minimum/lower MSE/lower difference fields empty/null and mark unproved_by_selected_criterion. No alternate search or proof is attempted.",
+    "Use exact MSE upper difference<0 to certify model_better_throughout_box. Use a proved exact MSE lower difference>0 to certify reference_better_throughout_box. Otherwise report strict_uniform_ordering_not_certified. Preserve all18pair rows without selecting favorable cases.",
+    "Write exact-fraction CSV/JSON values plus50-digit display values and concise SI explanation to a new directory only. Source manifest records inputs/code/plan and author self-check status; output manifest hashes every other output, explicitly omitting its own recursive hash."
+  ],
+  "stop_rules": {
+    "identity_or_structure_failure": "Any role/path/SHA/model/support/count/sign/coverage failure raises and stops with no scientific output directory. Root preserves the error receipt.",
+    "legacy_numeric_match_failure": "Any of6108 matches failing the fixed tolerance makes the entire envelope unavailable. Complete diagnostics and failure/source/output manifests may be written to the new output directory; envelope results are not released. Exit2. No tolerances or parameters are changed.",
+    "positive_error_condition_failure": "This is a pair-specific sufficient-condition failure, not a failed run. That pair lower/MSE-min fields remain blank/null and marked unproved; convex-maximum output remains supported. This is not evidence that uniform ordering failed.",
+    "zero_or_noncertified_ranking_margin": "No strict uniform ranking is certified where the exact required difference is zero or the needed minimum proof is unavailable. No near-zero tolerance is used to manufacture a sign.",
+    "source_changed_before_write": "All source/script/plan SHAs are rechecked immediately before first output write. A mismatch stops; existing/partial outputs are never overwritten.",
+    "no_chasing": "No revised box, subset, threshold, sign criterion, optimizer, coefficient, eligibility or scenario deletion within this plan."
+  },
+  "output_definitions": {
+    "layer_coefficients.csv": "12 primary rows; exact normalized mean R, alpha, three means, base error, four C coefficients and source row/sample membership locators. C is pH error change per unit u_j.",
+    "pair_residual_lower_bounds.csv": "108 rows(18pairs x6layers), exact component lower limits, exact positivity booleans and complete-pair criterion.",
+    "pair_envelope.csv": "18rows with exact minimum(if proved)/maximum model MSE, reference MSE, MSE differences, exact positive margin, extrema vertex IDs, displayed RMSE differences and strict-ranking certificate. Unproved lower fields empty.",
+    "ranking_certificates.json": "All18pair exact-fraction certificate objects, all component lower limits, explicit unproved/null minima, chosen corner evidence and statement that independent numerical validation is pending.",
+    "vertex_matching.csv": "All6108 scalar/interval matching comparisons with original nested-source locators, fixed exact tolerance, candidate exact enclosure, original decimal number, worst absolute-error bound and pass/fail.",
+    "continuous_box_supplement.md": "Concise mathematical proof,18-pair six-decimal display table, exact/discrete domain and uncertainty limits; author checks explicitly not independent validation.",
+    "failure.json": "Only on numeric matching failure: unavailable status, failing comparison IDs and explicit no envelope release."
+  },
+  "review_and_author_boundary": {
+    "program_author": "Methods reviewer B; this authoring turn is not an independent numerical validation.",
+    "author_actions": "Wrote new code and this draft; inspected text/contract and computed file hashes. Did not execute/import the exporter, perform check-only, calculate a new C/bound/corner, or create the planned output directory.",
+    "root_next_action": "Independently inspect code/plan, freeze a reviewed new plan with exact code/input SHAs, then execute. Root will arrange separate A/C source/code/results numerical review before manuscript adoption.",
+    "execution_authorization_here": false,
+    "independent_numerical_validation_completed": false,
+    "reviewer_self_checks_are_independent": false
+  },
+  "invocation_template": "<approved Python3.12> -B iteration-2026-10-27/analysis/continuous_box_v1.py --plan iteration-2026-10-27/analysis/<root-frozen-plan>.json --out iteration-2026-10-27/analysis/continuous-box-v1",
+  "root_code_review": "Read entire script and draft. ExactFraction signs/MSE decisions; integer-isqrt enclosingirrationalmatching; fixed1e-10legacyagreement; all6108checks/18pairs; separateglobalconsistencyfailurefrompair-specificsufficientconditionfailure. NoIEEEformalverificationorrealmeasurementbound. No fit/eligibility/weights/scales/offsetchanged. Independentresultreview stillrequired.",
+  "prior_design_reviews": [
+    {
+      "path": "iteration-2026-10-27/reviews/cycle02/referee-A.json",
+      "sha256": "13fbd68e0615bbcda3a6af3876bf2a26f2099cb8762dcbd2fd7567e9a00b1a4c"
+    },
+    {
+      "path": "iteration-2026-10-27/reviews/cycle02/referee-B.json",
+      "sha256": "2f2085066c13a9e218fc22949cdea8443e2898da30e1550798dc6b62c64b71c7"
+    }
+  ]
+}

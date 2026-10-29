@@ -1,0 +1,100 @@
+{
+  "schema": "deepshovel-www-gp15-core-claim-source-map/v1",
+  "source_map_sha256": "c8d6e1a3469453bff0207e969e0f280a42291b0525ccc3aaf5245c3ad6a6f99e",
+  "source_map_path": "iteration-2026-10-27/manuscript/claim-source-map.final.json",
+  "scientific_version": "p20",
+  "manuscript": {
+    "path": "iteration-2026-10-27/manuscript/p20/manuscript.en.md",
+    "sha256": "050c0c49307395291055d7c7062e93b875b15604bfed6631a17ef1beff466810",
+    "export_path": "scientific-manuscript.en.md"
+  },
+  "supplement": {
+    "path": "iteration-2026-10-27/manuscript/p20/supplementary.en.md",
+    "sha256": "83da1486c019f32ad3ac5df728777ab87dca02606fa127588cdbe8b21da24455",
+    "export_path": "scientific-supplementary.en.md"
+  },
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Released implementation unchanged",
+      "manuscript_location": "Methods2.2",
+      "evidence_role": "fixed-method definition",
+      "bound_sources": [
+        {
+          "path": "ree/round8/protocol-frozen-v1.json",
+          "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79",
+          "export_path": "reproduction/payload/ree/round8/protocol-frozen-v1.json"
+        },
+        {
+          "path": "ree/round8/raw/Lin2024-REE_pH_estimates.py",
+          "sha256": "c695ff3ffea39f905ef02797567497465f0f989bdbbc6aa2bb4807c5608e84f4",
+          "export_path": "reproduction/payload/ree/round8/raw/Lin2024-REE_pH_estimates.py"
+        }
+      ],
+      "locator_and_limit": "PAAS/masses, four selected atomicnumbers, fixedbeta/intercept; noGP15fit"
+    },
+    {
+      "claim_id": "C02",
+      "claim": "Matched primary support24/55, memberships28/63",
+      "manuscript_location": "Methods2.1–2.3;Results3.1",
+      "evidence_role": "empirical finite sample",
+      "bound_sources": [
+        {
+          "path": "results/ree_ph_fixed_transfer_v1/pairing_audit.csv",
+          "sha256": "5d6e2e4ec14c2f50ca85ef988a220bc674acfa5a8f1b72de48a2972899862c75",
+          "export_path": "reproduction/payload/results/ree_ph_fixed_transfer_v1/pairing_audit.csv"
+        },
+        {
+          "path": "results/ree_ph_fixed_transfer_v1/sample_predictions.csv",
+          "sha256": "75e79395b1db84626911efccefc922005dddc0c896fe86621dcdd9fb5fab963e",
+          "export_path": "reproduction/payload/results/ree_ph_fixed_transfer_v1/sample_predictions.csv"
+        },
+        {
+          "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/eligibility_flow.csv",
+          "sha256": "b4901024678f9b5c41b3f1023fb8a561f95f8fec9ca5dec2448e6a68eb13eb38",
+          "export_path": "reproduction/payload/iteration-2026-10-27/analysis/selection-weight-domain-v1/eligibility_flow.csv"
+        }
+      ],
+      "locator_and_limit": "parentIDs/station/events/QC, uniqueIDvs memberships; n=notindependentstudies"
+    },
+    {
+      "claim_id": "C03",
+      "claim": "Four primary RMSEs and opposite error ordering",
+      "manuscript_location": "Abstract;Results3.1;Conclusions",
+      "evidence_role": "empirical fixed-comparator score",
+      "bound_sources": [
+        {
+          "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+          "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321",
+          "export_path": "reproduction/payload/results/ree_ph_fixed_transfer_v1/layer_summary.csv"
+        },
+        {
+          "path": "results/ree_ph_fixed_transfer_v1/aggregate_summary.json",
+          "sha256": "13d6831201d631d6ce39ef99ba5ef35be057a20f58795214956b02157a9b1b18",
+          "export_path": "reproduction/payload/results/ree_ph_fixed_transfer_v1/aggregate_summary.json"
+        }
+      ],
+      "locator_and_limit": "variant=primary; six equal layer mean errors, not bottle RMSE"
+    },
+    {
+      "claim_id": "C12",
+      "claim": "Leg2 anynonnegative depthweights ofsameunperturbedmeans retainsreferenceadvantage",
+      "manuscript_location": "S11;Discussion4.1",
+      "evidence_role": "mathematical implication ofpoint errors",
+      "bound_sources": [
+        {
+          "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/layer_squared_error_difference.csv",
+          "sha256": "f8e5d75d397107e51a2854a05dc29713d5f82d77b6906e1b4a20ed70928c0928",
+          "export_path": "reproduction/payload/iteration-2026-10-27/analysis/selection-weight-domain-v1/layer_squared_error_difference.csv"
+        },
+        {
+          "path": "iteration-2026-10-27/reviews/selection-weight-domain-independent-B.json",
+          "sha256": "978c0f844dc371e09f8cacbc9c00465f69a8ab202ac9bb9c875b968274da1df0",
+          "export_path": "reproduction/payload/iteration-2026-10-27/reviews/selection-weight-domain-independent-B.json"
+        }
+      ],
+      "locator_and_limit": "12exactd;Leg1mixedsigns;notjointwithREEbox orwithinlayer/spatialweightchanges"
+    }
+  ],
+  "scope": "Selected unchanged research claims C01/C02/C03/C12, with resolving export paths added. This index is assembled for this demo artifact; it does not assert historical automatic graph ingestion or semantic entailment. Hashes bind file identity only."
+}

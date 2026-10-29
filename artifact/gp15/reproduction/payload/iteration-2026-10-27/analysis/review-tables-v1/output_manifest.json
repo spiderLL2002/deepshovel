@@ -1,0 +1,63 @@
+{
+  "output_relative": "iteration-2026-10-27/analysis/review-tables-v1",
+  "outputs": [
+    {
+      "bytes": 3386,
+      "path": "abundance_shape_record_layers.csv",
+      "sha256": "f5b73f989c778ffe4216d752d2fbfdefcfe32172f768f119cf81484d0c4777e9"
+    },
+    {
+      "bytes": 1653,
+      "path": "abundance_shape_record_layers.md",
+      "sha256": "68ed79623bacec138091d83f3050a2260744ace3f0741ba6957695b4c9fcc5ca"
+    },
+    {
+      "bytes": 2220,
+      "path": "common_station_events.csv",
+      "sha256": "17d23e8a7499795d8f26cac17386444e9afce74834965e1b642440e1d6d51c9e"
+    },
+    {
+      "bytes": 1060,
+      "path": "common_station_events.md",
+      "sha256": "44371d169bdb72f89b50de8fd354944c14a6b66b135671d4ba02301e9acfdbd1"
+    },
+    {
+      "bytes": 228,
+      "path": "normalization_constants.csv",
+      "sha256": "78ce642a138de45196990f6d18befbf0eb34e20ddde3eba1336c8b5b7b6dc5aa"
+    },
+    {
+      "bytes": 832,
+      "path": "normalization_constants.md",
+      "sha256": "a19f4b54ffcbafb38ae0cdbc7e80d4ed07655840e21c394eb880a531a5bcf127"
+    },
+    {
+      "bytes": 9738,
+      "path": "ph_sd_support.json",
+      "sha256": "0d505cf343bec93f28f36d6cebbf7571b2d912afe305a955b3fa976783e78e23"
+    },
+    {
+      "bytes": 44545,
+      "path": "primary_depth_conflict_distribution.json",
+      "sha256": "c533ea13a62080cbaad48303f626414fa367dd32a3f5e1a96d380a4ac0b50bfe"
+    },
+    {
+      "bytes": 2551,
+      "path": "primary_layer_scores.csv",
+      "sha256": "57d81c54b2cfa487622a5cd964bdb88567845654484d7c0b61cb3f95ec9661f2"
+    },
+    {
+      "bytes": 1698,
+      "path": "primary_layer_scores.md",
+      "sha256": "f587de905471e7ed481ab3e0e98df8592fb332e777d0181be986d044bd22d598"
+    },
+    {
+      "bytes": 6659,
+      "path": "source_manifest.json",
+      "sha256": "e935e2dafc593d0439cab5ec9dd20c42dcf7be1d3bced6544e4dcb1385f050c3"
+    }
+  ],
+  "scope": "Existing already-exposed data: deterministic presentation and reviewer QC only; post-exposure descriptive work, not new validation, inference, calibration, fitting, or changed eligibility/weighting.",
+  "self_hash_omitted": "output_manifest.json cannot contain its own SHA; all other outputs including source_manifest.json are hashed.",
+  "source_manifest": "source_manifest.json"
+}

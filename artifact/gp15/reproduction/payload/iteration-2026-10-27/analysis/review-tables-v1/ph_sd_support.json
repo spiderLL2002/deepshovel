@@ -1,0 +1,289 @@
+{
+  "legs": {
+    "leg1": {
+      "any_sd_field_union": {
+        "n_primary_intersection_unique_ids": 3,
+        "n_source_rows_with_any_finite_sd": 12,
+        "n_unique_sample_ids": 12,
+        "primary_intersection_sample_ids": [
+          "12329",
+          "12331",
+          "12333"
+        ]
+      },
+      "n_all_source_records": 157,
+      "n_unique_primary_bottles": 24,
+      "sd_fields": {
+        "bottle": {
+          "field": "SD1_PH_TOT_BOTTLE_gr5eba",
+          "finite_records": [
+            {
+              "csv_record": 27,
+              "event": "6519",
+              "in_original_primary": false,
+              "physical_csv_lines": [
+                28,
+                28
+              ],
+              "reported_sd_token": "0.0022",
+              "sample_id": "12347",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            },
+            {
+              "csv_record": 28,
+              "event": "6519",
+              "in_original_primary": false,
+              "physical_csv_lines": [
+                29,
+                29
+              ],
+              "reported_sd_token": "0.0116",
+              "sample_id": "12345",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            },
+            {
+              "csv_record": 29,
+              "event": "6519",
+              "in_original_primary": false,
+              "physical_csv_lines": [
+                30,
+                30
+              ],
+              "reported_sd_token": "0.0022",
+              "sample_id": "12343",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            },
+            {
+              "csv_record": 30,
+              "event": "6519",
+              "in_original_primary": false,
+              "physical_csv_lines": [
+                31,
+                31
+              ],
+              "reported_sd_token": "0.0028",
+              "sample_id": "12341",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            },
+            {
+              "csv_record": 31,
+              "event": "6519",
+              "in_original_primary": false,
+              "physical_csv_lines": [
+                32,
+                32
+              ],
+              "reported_sd_token": "0.0140",
+              "sample_id": "12339",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            },
+            {
+              "csv_record": 32,
+              "event": "6519",
+              "in_original_primary": false,
+              "physical_csv_lines": [
+                33,
+                33
+              ],
+              "reported_sd_token": "0.0014",
+              "sample_id": "12337",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            },
+            {
+              "csv_record": 33,
+              "event": "6519",
+              "in_original_primary": false,
+              "physical_csv_lines": [
+                34,
+                34
+              ],
+              "reported_sd_token": "0.0002",
+              "sample_id": "12335",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            },
+            {
+              "csv_record": 34,
+              "event": "6519",
+              "in_original_primary": true,
+              "physical_csv_lines": [
+                35,
+                35
+              ],
+              "reported_sd_token": "0.0006",
+              "sample_id": "12333",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            },
+            {
+              "csv_record": 35,
+              "event": "6519",
+              "in_original_primary": true,
+              "physical_csv_lines": [
+                36,
+                36
+              ],
+              "reported_sd_token": "0.0118",
+              "sample_id": "12331",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            },
+            {
+              "csv_record": 36,
+              "event": "6519",
+              "in_original_primary": true,
+              "physical_csv_lines": [
+                37,
+                37
+              ],
+              "reported_sd_token": "0.0101",
+              "sample_id": "12329",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            },
+            {
+              "csv_record": 37,
+              "event": "6519",
+              "in_original_primary": false,
+              "physical_csv_lines": [
+                38,
+                38
+              ],
+              "reported_sd_token": "0.0070",
+              "sample_id": "12327",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            },
+            {
+              "csv_record": 38,
+              "event": "6519",
+              "in_original_primary": false,
+              "physical_csv_lines": [
+                39,
+                39
+              ],
+              "reported_sd_token": "0.0023",
+              "sample_id": "12325",
+              "source_path": "ree/round8/raw/GP15-leg1-pH.csv",
+              "station": "5"
+            }
+          ],
+          "n_finite_sd_records_all_rows": 12,
+          "n_finite_sd_unique_sample_ids_all_rows": 12,
+          "n_negative_sd_records_all_rows": 0,
+          "n_primary_intersection_unique_ids": 3,
+          "n_zero_sd_records_all_rows": 0,
+          "primary_intersection_sample_ids": [
+            "12329",
+            "12331",
+            "12333"
+          ],
+          "selection": "All original table rows with finite numeric SD; no flag, depth or pH eligibility restriction for this source count."
+        },
+        "fish": {
+          "field": "SD1_PH_TOT_FISH_8srxc6",
+          "finite_records": [],
+          "n_finite_sd_records_all_rows": 0,
+          "n_finite_sd_unique_sample_ids_all_rows": 0,
+          "n_negative_sd_records_all_rows": 0,
+          "n_primary_intersection_unique_ids": 0,
+          "n_zero_sd_records_all_rows": 0,
+          "primary_intersection_sample_ids": [],
+          "selection": "All original table rows with finite numeric SD; no flag, depth or pH eligibility restriction for this source count."
+        }
+      },
+      "source_path": "ree/round8/raw/GP15-leg1-pH.csv"
+    },
+    "leg2": {
+      "any_sd_field_union": {
+        "n_primary_intersection_unique_ids": 0,
+        "n_source_rows_with_any_finite_sd": 0,
+        "n_unique_sample_ids": 0,
+        "primary_intersection_sample_ids": []
+      },
+      "n_all_source_records": 190,
+      "n_unique_primary_bottles": 55,
+      "sd_fields": {
+        "bottle": {
+          "field": "SD1_PH_TOT_BOTTLE_wp5r6m",
+          "finite_records": [],
+          "n_finite_sd_records_all_rows": 0,
+          "n_finite_sd_unique_sample_ids_all_rows": 0,
+          "n_negative_sd_records_all_rows": 0,
+          "n_primary_intersection_unique_ids": 0,
+          "n_zero_sd_records_all_rows": 0,
+          "primary_intersection_sample_ids": [],
+          "selection": "All original table rows with finite numeric SD; no flag, depth or pH eligibility restriction for this source count."
+        },
+        "fish": {
+          "field": "SD1_PH_TOT_FISH_ejuhua",
+          "finite_records": [],
+          "n_finite_sd_records_all_rows": 0,
+          "n_finite_sd_unique_sample_ids_all_rows": 0,
+          "n_negative_sd_records_all_rows": 0,
+          "n_primary_intersection_unique_ids": 0,
+          "n_zero_sd_records_all_rows": 0,
+          "primary_intersection_sample_ids": [],
+          "selection": "All original table rows with finite numeric SD; no flag, depth or pH eligibility restriction for this source count."
+        }
+      },
+      "source_path": "ree/round8/raw/GP15-leg2-pH.csv"
+    }
+  },
+  "meaning": "Counts of finite source SD tokens describe availability of reported repeat-measurement support only. A finite SD is not a replicate count, accuracy certificate, independent sample, or complete measurement-error distribution. No missing SD is imputed; zero SD remains zero.",
+  "overall": {
+    "any_sd_field_union": {
+      "n_primary_intersection_bottles": 3,
+      "n_source_rows_with_any_finite_sd": 12,
+      "primary_intersection_ids": [
+        {
+          "leg": "leg1",
+          "sample_id": "12329"
+        },
+        {
+          "leg": "leg1",
+          "sample_id": "12331"
+        },
+        {
+          "leg": "leg1",
+          "sample_id": "12333"
+        }
+      ]
+    },
+    "by_sd_treatment": {
+      "bottle": {
+        "n_finite_sd_source_records": 12,
+        "n_primary_intersection_bottles": 3,
+        "primary_intersection_ids": [
+          {
+            "leg": "leg1",
+            "sample_id": "12329"
+          },
+          {
+            "leg": "leg1",
+            "sample_id": "12331"
+          },
+          {
+            "leg": "leg1",
+            "sample_id": "12333"
+          }
+        ]
+      },
+      "fish": {
+        "n_finite_sd_source_records": 0,
+        "n_primary_intersection_bottles": 0,
+        "primary_intersection_ids": []
+      }
+    },
+    "n_all_source_records": 347,
+    "n_unique_primary_bottles": 79
+  },
+  "primary_definition": "Union of original primary layer sample IDs within each leg; unique bottle identity, not layer memberships. Raw pH source line must match original sample_predictions ph_line.",
+  "scope": "Existing already-exposed data: deterministic presentation and reviewer QC only; post-exposure descriptive work, not new validation, inference, calibration, fitting, or changed eligibility/weighting."
+}

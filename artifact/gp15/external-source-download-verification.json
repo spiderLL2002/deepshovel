@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "inputs": [
+    {
+      "role": "author_training_ree",
+      "sha256": "464b8764c855680aa4a622e9b511664943bd1e565653c4092a1fc992293b83e5",
+      "action": "downloaded_and_verified"
+    },
+    {
+      "role": "training_catalog",
+      "sha256": "32357c3089a6a83b474bd0c4564a408088dadecb46386ef87b34d0cb0ee23ad8",
+      "action": "downloaded_and_verified"
+    }
+  ],
+  "scope": "Fresh download into an empty disposable source directory; both provider files matched frozen SHA-256 values. No frozen source was changed."
+}

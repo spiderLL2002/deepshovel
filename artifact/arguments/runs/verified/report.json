@@ -1,0 +1,1092 @@
+{
+  "scope": "Existing production claim-detail expander, offline on seven claims from one recorded Asmari graph; no new extraction/model/live-service execution.",
+  "runtime": {
+    "node": "v26.3.0",
+    "platform": "darwin",
+    "architecture": "arm64"
+  },
+  "source_commit": "c880c22bf0facd6b0b79c2e934bad5063aa70a86",
+  "input_snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+  "input_sha256": "20f30f0b870acfc2949415af24f40330e80b5e7dc2774bb8aa149561cf42ab4b",
+  "module_files_verified": 5,
+  "claim_results": [
+    {
+      "source_claim_id": "claim.current.stability",
+      "claim_id": "claim:sha256:59ff8db056e1697e771e7b5884ed7ba53890ed95d95ed58517e068fb035f3755",
+      "entities": 25,
+      "edges": 22,
+      "truncated": false,
+      "coverage": {
+        "premise_for": {
+          "required": 11,
+          "retained": 11,
+          "missing_edge_ids": []
+        },
+        "assumption_for": {
+          "required": 0,
+          "retained": 0,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.method.concordance",
+      "claim_id": "claim:sha256:6d6449f97fa8cb2d1e996cd10ac1f20f5af9af4fa88b113bb215ecde045b3951",
+      "entities": 21,
+      "edges": 18,
+      "truncated": false,
+      "coverage": {
+        "premise_for": {
+          "required": 6,
+          "retained": 6,
+          "missing_edge_ids": []
+        },
+        "assumption_for": {
+          "required": 6,
+          "retained": 6,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.slip.application",
+      "claim_id": "claim:sha256:7410820e363cd0e2c258bb2d1a3acc503878b272bec5ceca690860ee2f06477a",
+      "entities": 26,
+      "edges": 23,
+      "truncated": false,
+      "coverage": {
+        "premise_for": {
+          "required": 9,
+          "retained": 9,
+          "missing_edge_ids": []
+        },
+        "assumption_for": {
+          "required": 6,
+          "retained": 6,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f2.pressure",
+      "claim_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+      "entities": 41,
+      "edges": 37,
+      "truncated": false,
+      "coverage": {
+        "premise_for": {
+          "required": 18,
+          "retained": 18,
+          "missing_edge_ids": []
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 3,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f3.reactivation",
+      "claim_id": "claim:sha256:939083b72847a601b30d3a605c5b8c3778f1b3fb8deee724d8e2c557132014f9",
+      "entities": 53,
+      "edges": 48,
+      "truncated": false,
+      "coverage": {
+        "premise_for": {
+          "required": 21,
+          "retained": 21,
+          "missing_edge_ids": []
+        },
+        "assumption_for": {
+          "required": 4,
+          "retained": 4,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f3.geometry",
+      "claim_id": "claim:sha256:d65fbbc564c1f8dd39b81cb938ddb5bc17ffbb822b45c57132ca5d9bdd517612",
+      "entities": 19,
+      "edges": 15,
+      "truncated": false,
+      "coverage": {
+        "premise_for": {
+          "required": 4,
+          "retained": 4,
+          "missing_edge_ids": []
+        },
+        "assumption_for": {
+          "required": 1,
+          "retained": 1,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.injection.location",
+      "claim_id": "claim:sha256:e4666180b331d55287579b920bfb2a88a49aacd71aca63f7340b1de5aff0bbbb",
+      "entities": 44,
+      "edges": 40,
+      "truncated": false,
+      "coverage": {
+        "premise_for": {
+          "required": 20,
+          "retained": 20,
+          "missing_edge_ids": []
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 3,
+          "missing_edge_ids": []
+        }
+      }
+    }
+  ],
+  "bounded_depth_results": [
+    {
+      "source_claim_id": "claim.current.stability",
+      "max_depth": 1,
+      "entities": 6,
+      "edges": 1,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 11,
+      "coverage": {
+        "premise_for": {
+          "required": 11,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008",
+            "edge.premise.009",
+            "edge.premise.010",
+            "edge.premise.011"
+          ]
+        },
+        "assumption_for": {
+          "required": 0,
+          "retained": 0,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.current.stability",
+      "max_depth": 2,
+      "entities": 10,
+      "edges": 4,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 8,
+      "coverage": {
+        "premise_for": {
+          "required": 11,
+          "retained": 3,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008"
+          ]
+        },
+        "assumption_for": {
+          "required": 0,
+          "retained": 0,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.current.stability",
+      "max_depth": 3,
+      "entities": 20,
+      "edges": 9,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 3,
+      "coverage": {
+        "premise_for": {
+          "required": 11,
+          "retained": 8,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003"
+          ]
+        },
+        "assumption_for": {
+          "required": 0,
+          "retained": 0,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.method.concordance",
+      "max_depth": 1,
+      "entities": 7,
+      "edges": 1,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 12,
+      "coverage": {
+        "premise_for": {
+          "required": 6,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.premise.014",
+            "edge.premise.015",
+            "edge.premise.016",
+            "edge.premise.017",
+            "edge.premise.027",
+            "edge.premise.028"
+          ]
+        },
+        "assumption_for": {
+          "required": 6,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003",
+            "edge.assumption.004",
+            "edge.assumption.005",
+            "edge.assumption.006"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.method.concordance",
+      "max_depth": 2,
+      "entities": 10,
+      "edges": 3,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 10,
+      "coverage": {
+        "premise_for": {
+          "required": 6,
+          "retained": 2,
+          "missing_edge_ids": [
+            "edge.premise.014",
+            "edge.premise.015",
+            "edge.premise.016",
+            "edge.premise.017"
+          ]
+        },
+        "assumption_for": {
+          "required": 6,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003",
+            "edge.assumption.004",
+            "edge.assumption.005",
+            "edge.assumption.006"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.method.concordance",
+      "max_depth": 3,
+      "entities": 18,
+      "edges": 13,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 0,
+      "coverage": {
+        "premise_for": {
+          "required": 6,
+          "retained": 6,
+          "missing_edge_ids": []
+        },
+        "assumption_for": {
+          "required": 6,
+          "retained": 6,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.slip.application",
+      "max_depth": 1,
+      "entities": 5,
+      "edges": 1,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 15,
+      "coverage": {
+        "premise_for": {
+          "required": 9,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.premise.014",
+            "edge.premise.015",
+            "edge.premise.016",
+            "edge.premise.017",
+            "edge.premise.027",
+            "edge.premise.028",
+            "edge.premise.029",
+            "edge.premise.030",
+            "edge.premise.031"
+          ]
+        },
+        "assumption_for": {
+          "required": 6,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003",
+            "edge.assumption.004",
+            "edge.assumption.005",
+            "edge.assumption.006"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.slip.application",
+      "max_depth": 2,
+      "entities": 9,
+      "edges": 4,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 12,
+      "coverage": {
+        "premise_for": {
+          "required": 9,
+          "retained": 3,
+          "missing_edge_ids": [
+            "edge.premise.014",
+            "edge.premise.015",
+            "edge.premise.016",
+            "edge.premise.017",
+            "edge.premise.027",
+            "edge.premise.028"
+          ]
+        },
+        "assumption_for": {
+          "required": 6,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003",
+            "edge.assumption.004",
+            "edge.assumption.005",
+            "edge.assumption.006"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.slip.application",
+      "max_depth": 3,
+      "entities": 16,
+      "edges": 8,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 10,
+      "coverage": {
+        "premise_for": {
+          "required": 9,
+          "retained": 5,
+          "missing_edge_ids": [
+            "edge.premise.014",
+            "edge.premise.015",
+            "edge.premise.016",
+            "edge.premise.017"
+          ]
+        },
+        "assumption_for": {
+          "required": 6,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003",
+            "edge.assumption.004",
+            "edge.assumption.005",
+            "edge.assumption.006"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f2.pressure",
+      "max_depth": 1,
+      "entities": 4,
+      "edges": 1,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 21,
+      "coverage": {
+        "premise_for": {
+          "required": 18,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008",
+            "edge.premise.009",
+            "edge.premise.010",
+            "edge.premise.011",
+            "edge.premise.012",
+            "edge.premise.013",
+            "edge.premise.014",
+            "edge.premise.015",
+            "edge.premise.021",
+            "edge.premise.022",
+            "edge.premise.023"
+          ]
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f2.pressure",
+      "max_depth": 2,
+      "entities": 8,
+      "edges": 4,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 18,
+      "coverage": {
+        "premise_for": {
+          "required": 18,
+          "retained": 3,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008",
+            "edge.premise.009",
+            "edge.premise.010",
+            "edge.premise.011",
+            "edge.premise.012",
+            "edge.premise.013",
+            "edge.premise.014",
+            "edge.premise.015"
+          ]
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f2.pressure",
+      "max_depth": 3,
+      "entities": 24,
+      "edges": 14,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 8,
+      "coverage": {
+        "premise_for": {
+          "required": 18,
+          "retained": 10,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008"
+          ]
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 3,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f3.reactivation",
+      "max_depth": 1,
+      "entities": 5,
+      "edges": 1,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 25,
+      "coverage": {
+        "premise_for": {
+          "required": 21,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008",
+            "edge.premise.009",
+            "edge.premise.010",
+            "edge.premise.011",
+            "edge.premise.012",
+            "edge.premise.013",
+            "edge.premise.016",
+            "edge.premise.017",
+            "edge.premise.018",
+            "edge.premise.019",
+            "edge.premise.020",
+            "edge.premise.024",
+            "edge.premise.025",
+            "edge.premise.026"
+          ]
+        },
+        "assumption_for": {
+          "required": 4,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.004",
+            "edge.assumption.005",
+            "edge.assumption.006",
+            "edge.assumption.007"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f3.reactivation",
+      "max_depth": 2,
+      "entities": 9,
+      "edges": 4,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 22,
+      "coverage": {
+        "premise_for": {
+          "required": 21,
+          "retained": 3,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008",
+            "edge.premise.009",
+            "edge.premise.010",
+            "edge.premise.011",
+            "edge.premise.012",
+            "edge.premise.013",
+            "edge.premise.016",
+            "edge.premise.017",
+            "edge.premise.018",
+            "edge.premise.019",
+            "edge.premise.020"
+          ]
+        },
+        "assumption_for": {
+          "required": 4,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.004",
+            "edge.assumption.005",
+            "edge.assumption.006",
+            "edge.assumption.007"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f3.reactivation",
+      "max_depth": 3,
+      "entities": 31,
+      "edges": 15,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 11,
+      "coverage": {
+        "premise_for": {
+          "required": 21,
+          "retained": 10,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008",
+            "edge.premise.009",
+            "edge.premise.010",
+            "edge.premise.011"
+          ]
+        },
+        "assumption_for": {
+          "required": 4,
+          "retained": 4,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f3.geometry",
+      "max_depth": 1,
+      "entities": 9,
+      "edges": 1,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 5,
+      "coverage": {
+        "premise_for": {
+          "required": 4,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.premise.003",
+            "edge.premise.018",
+            "edge.premise.019",
+            "edge.premise.020"
+          ]
+        },
+        "assumption_for": {
+          "required": 1,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.007"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f3.geometry",
+      "max_depth": 2,
+      "entities": 14,
+      "edges": 5,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 1,
+      "coverage": {
+        "premise_for": {
+          "required": 4,
+          "retained": 3,
+          "missing_edge_ids": [
+            "edge.premise.003"
+          ]
+        },
+        "assumption_for": {
+          "required": 1,
+          "retained": 1,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.f3.geometry",
+      "max_depth": 3,
+      "entities": 19,
+      "edges": 12,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 0,
+      "coverage": {
+        "premise_for": {
+          "required": 4,
+          "retained": 4,
+          "missing_edge_ids": []
+        },
+        "assumption_for": {
+          "required": 1,
+          "retained": 1,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.injection.location",
+      "max_depth": 1,
+      "entities": 4,
+      "edges": 1,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 23,
+      "coverage": {
+        "premise_for": {
+          "required": 20,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008",
+            "edge.premise.009",
+            "edge.premise.010",
+            "edge.premise.011",
+            "edge.premise.012",
+            "edge.premise.013",
+            "edge.premise.014",
+            "edge.premise.015",
+            "edge.premise.021",
+            "edge.premise.022",
+            "edge.premise.023",
+            "edge.premise.032",
+            "edge.premise.033"
+          ]
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.injection.location",
+      "max_depth": 2,
+      "entities": 7,
+      "edges": 3,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 21,
+      "coverage": {
+        "premise_for": {
+          "required": 20,
+          "retained": 2,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008",
+            "edge.premise.009",
+            "edge.premise.010",
+            "edge.premise.011",
+            "edge.premise.012",
+            "edge.premise.013",
+            "edge.premise.014",
+            "edge.premise.015",
+            "edge.premise.021",
+            "edge.premise.022",
+            "edge.premise.023"
+          ]
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003"
+          ]
+        }
+      }
+    },
+    {
+      "source_claim_id": "claim.injection.location",
+      "max_depth": 3,
+      "entities": 12,
+      "edges": 7,
+      "truncated": true,
+      "missing_recorded_dependency_edges": 18,
+      "coverage": {
+        "premise_for": {
+          "required": 20,
+          "retained": 5,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008",
+            "edge.premise.009",
+            "edge.premise.010",
+            "edge.premise.011",
+            "edge.premise.012",
+            "edge.premise.013",
+            "edge.premise.014",
+            "edge.premise.015"
+          ]
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003"
+          ]
+        }
+      }
+    }
+  ],
+  "f2": {
+    "direct_inputs": [
+      {
+        "reasoning_id": "reason.f2.evidence",
+        "premise_ids": [
+          "obs.f2.assessed",
+          "obs.f2.methods"
+        ],
+        "assumption_ids": [
+          "assumption.cohesion",
+          "assumption.friction",
+          "assumption.spatial"
+        ]
+      },
+      {
+        "reasoning_id": "reason.f2.safety",
+        "premise_ids": [
+          "reason.current.synthesis",
+          "reason.f2.evidence",
+          "reason.pressure.transition"
+        ],
+        "assumption_ids": []
+      }
+    ],
+    "full_claim_detail": {
+      "entities": 41,
+      "edges": 37,
+      "truncated": false,
+      "coverage": {
+        "premise_for": {
+          "required": 18,
+          "retained": 18,
+          "missing_edge_ids": []
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 3,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    "original_search_shortest_preview": {
+      "entities": 7,
+      "edges": 6,
+      "coverage": {
+        "premise_for": {
+          "required": 18,
+          "retained": 1,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008",
+            "edge.premise.009",
+            "edge.premise.010",
+            "edge.premise.011",
+            "edge.premise.012",
+            "edge.premise.013",
+            "edge.premise.014",
+            "edge.premise.015",
+            "edge.premise.022",
+            "edge.premise.023"
+          ]
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 1,
+          "missing_edge_ids": [
+            "edge.assumption.002",
+            "edge.assumption.003"
+          ]
+        }
+      }
+    },
+    "historical_auxiliary_export": {
+      "entities": 33,
+      "edges": 33,
+      "coverage": {
+        "premise_for": {
+          "required": 18,
+          "retained": 17,
+          "missing_edge_ids": [
+            "edge.premise.013"
+          ]
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003"
+          ]
+        }
+      }
+    }
+  },
+  "negative_controls": [
+    {
+      "name": "remove_referenced_observation",
+      "kind": "controlled_input_mutation",
+      "rejected": true,
+      "error": {
+        "name": "EvidenceGraphValidationError",
+        "code": "REFERENCE",
+        "message": "$.edges[16].target_id: target entity does not exist"
+      }
+    },
+    {
+      "name": "remove_referenced_assumption",
+      "kind": "controlled_input_mutation",
+      "rejected": true,
+      "error": {
+        "name": "EvidenceGraphValidationError",
+        "code": "REFERENCE",
+        "message": "$.edges[1].source_id: source entity does not exist"
+      }
+    },
+    {
+      "name": "remove_observation_premise_edge",
+      "kind": "controlled_input_mutation",
+      "rejected": true,
+      "error": {
+        "name": "EvidenceGraphValidationError",
+        "code": "OBSERVATION_PATH_OWNERSHIP",
+        "message": "$.observations[0]: must feed exactly one reasoning path"
+      }
+    },
+    {
+      "name": "omit_internal_reasoning_edge_from_input",
+      "kind": "controlled_input_mutation",
+      "original_snapshot_manifest_removed": true,
+      "represents_new_unpublished_graph": true,
+      "structurally_accepted": true,
+      "truncated": false,
+      "externally_detected_missing_edge": "edge.premise.013",
+      "interpretation": "No depth truncation occurred. The input graph itself lacks an edge; only comparison with the frozen source graph exposes that omission."
+    }
+  ],
+  "saved_scope_presentation": {
+    "source": "Existing saved serial same-host runs, 2026-10-27; source summary.json and REPORT.md",
+    "source_summary_sha256": "9732b770d077d1fad6269b387080bf4a23cadd3315f5df9cce26dafa01b9bdfb",
+    "source_report_sha256": "3c331721a1f79aa10c5e05dd5f140669aad25be368114a347dc5440499639a96",
+    "records": [
+      {
+        "case": 1,
+        "question_description": "Time-series isotope offset after 24 h",
+        "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+        "claim_id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+        "query_relation": {
+          "relation": "related",
+          "confidence": 0.88,
+          "direction": "result_to_query",
+          "scopeRelation": "overlap"
+        },
+        "scope_constraints": null,
+        "recorded_time_scope": {
+          "end": null,
+          "label": "Experiments lasting 24–168 h for the time series; variable-adsorption experiments ran at least 48 h.",
+          "start": null,
+          "unit": null
+        },
+        "http_status": 200,
+        "result_status": 200,
+        "application_status": "matches"
+      },
+      {
+        "case": 2,
+        "question_description": "Variable-loading isotope estimate in experiments lasting 48–144 h",
+        "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+        "claim_id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+        "query_relation": {
+          "relation": "supports",
+          "confidence": 0.88,
+          "direction": "result_to_query",
+          "scopeRelation": "overlap"
+        },
+        "scope_constraints": null,
+        "recorded_time_scope": {
+          "end": null,
+          "label": "Experiments lasting 24–168 h for the time series; variable-adsorption experiments ran at least 48 h.",
+          "start": null,
+          "unit": null
+        },
+        "http_status": 200,
+        "result_status": 200,
+        "application_status": "matches"
+      },
+      {
+        "case": 3,
+        "question_description": "Whether stable isotopic offset implies adsorption has stopped",
+        "snapshot_id": "snapshot:sha256:90055d080bb2ab0267137ca49fab246bb65f1fc34f1900b7be377ec9db300c99",
+        "claim_id": "claim:sha256:7b42ede80ffdd60acbe7910e22b552d44a84622e8e373a09febbeed914422e1c",
+        "query_relation": {
+          "relation": "related",
+          "confidence": 0.91,
+          "direction": "result_to_query",
+          "scopeRelation": "overlap"
+        },
+        "scope_constraints": null,
+        "recorded_time_scope": {
+          "end": null,
+          "label": "Experiments lasting 24–168 h for the time series; variable-adsorption experiments ran at least 48 h.",
+          "start": null,
+          "unit": null
+        },
+        "http_status": 200,
+        "result_status": 200,
+        "application_status": "matches"
+      }
+    ],
+    "interpretation": "One candidate is related for a time-series question and supporting for the loading-series question; the uptake question yields related evidence only. This is query-relative relation presentation, not hard experimental-series exclusion or three successful scientific answers.",
+    "question_description_note": "Descriptions paraphrase the saved report; they are not presented as byte-identical request texts.",
+    "quotes_included": false
+  },
+  "summary": {
+    "claims": 7,
+    "distinct_papers": 1,
+    "all_full_claim_closures_match_reference": true,
+    "bounded_depth_runs": 21,
+    "bounded_runs_missing_recorded_dependencies": 19,
+    "all_bounded_depth_omissions_flagged": true,
+    "structural_mutation_controls_rejected": 3,
+    "source_omission_counterexample_retained": true
+  },
+  "limitations": [
+    "Recorded-input preservation is not extraction accuracy or the completeness of all scientifically necessary premises.",
+    "Truncated denotes configured traversal/display limits, not an automatic detector of premises absent from the source graph.",
+    "The shortest search preview, full claim-detail expander, and old auxiliary export are different implemented paths.",
+    "Incoming dependencies are retained; the check does not establish that every incoming relation is scientifically conjunctive or that alternative arguments are logically sound.",
+    "Depth controls are explicit test parameter changes. No token-budget or missing-premise save gate is claimed.",
+    "Original source-anchor rectangles remain unchanged; the known F2 wrong-column rectangle is not repaired or validated by this test."
+  ]
+}

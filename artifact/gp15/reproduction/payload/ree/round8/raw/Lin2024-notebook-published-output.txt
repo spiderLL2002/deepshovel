@@ -1,0 +1,13 @@
+Average pH of depth 200-300 m: 7.73087871249336
+Average pH of depth 300-400 m: 7.6898707001764945
+Average pH of depth 400-500 m: 7.658636222030023
+Average pH of depth 500-600 m: 7.6315530378663246
+Average pH of depth 600-700 m: 7.606188333846088
+Average pH of depth 700-800 m: 7.584325607003087
+<Figure size 640x480 with 1 Axes><Figure size 1000x500 with 1 Axes>average REE_slope of  200 - 300 m:  2.564942791181893e-08
+average REE_slope of  300 - 400 m:  2.7585760048416105e-08
+average REE_slope of  400 - 500 m:  2.833921575620972e-08
+average REE_slope of  500 - 600 m:  2.913195075995486e-08
+average REE_slope of  600 - 700 m:  3.024820387647606e-08
+average REE_slope of  700 - 800 m:  3.2035971215737773e-08
+<Figure size 640x480 with 1 Axes><Figure size 1500x1800 with 1 Axes><Figure size 1000x500 with 1 Axes><Figure size 1500x1500 with 1 Axes>

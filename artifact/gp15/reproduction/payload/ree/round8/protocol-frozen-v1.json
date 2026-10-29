@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "candidate_id": "REE-R8-01",
+  "frozen": true,
+  "frozen_by": "root",
+  "input_sha256": "9fd91d413e03e069afe0fc65d4b622449308a38c81d3d458285e42a1514e2455",
+  "analysis_script_sha256": "af466ab78796d559e83d5610ab72168f42de960b6b8e3085c01092398207baeb",
+  "scientific_target": "Regional transfer of the fixed Lin–Catling modern-seawater calibration at the original six100m mean layers, compared on identical matched bottles with the original fixed depth-only pH means; no new calibration or causal attribution.",
+  "model": {
+    "beta": -3.9879452461785675e-08,
+    "intercept": 3.339192211653703e-07,
+    "elements": [
+      "Sm",
+      "Gd",
+      "Dy",
+      "Er"
+    ],
+    "atomic_numbers": [
+      62,
+      64,
+      66,
+      68
+    ],
+    "training_depth_mean_ph": [
+      7.73087871249336,
+      7.6898707001764945,
+      7.658636222030023,
+      7.6315530378663246,
+      7.606188333846088,
+      7.584325607003087
+    ],
+    "depth_edges_m": [
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800
+    ],
+    "normalization": "pmol/kg *1e-15 -> mol/g; PAAS ug/g *1e-6 /(molar_mass_mgmol *1e-3) -> mol/g; normalized four-element concentrations OLS against fixed atomic numbers, with intercept; pH=(alpha-model_intercept)/beta"
+  },
+  "primary": {
+    "depth_source": "ph_reported",
+    "bin_rule": "inclusive",
+    "weighting": "record",
+    "exploratory_leg": "leg1",
+    "prospective_check_leg": "leg2"
+  },
+  "sensitivities": [
+    {
+      "name": "half_open",
+      "depth_source": "ph_reported",
+      "bin_rule": "half_open",
+      "weighting": "record"
+    },
+    {
+      "name": "ree_reported_depth",
+      "depth_source": "ree_reported",
+      "bin_rule": "inclusive",
+      "weighting": "record"
+    },
+    {
+      "name": "station_equal",
+      "depth_source": "ph_reported",
+      "bin_rule": "inclusive",
+      "weighting": "station"
+    }
+  ],
+  "eligibility": {
+    "exact_sample_id": true,
+    "match_station_and_event": true,
+    "bottle_only": true,
+    "allowed_flag_values": [
+      "2"
+    ],
+    "require_finite_positive_ree": true,
+    "require_finite_ph": true,
+    "exclude_leg2_ids_or_stations_seen_in_leg1": true,
+    "depth_union_for_response_processing_m": [
+      200,
+      800
+    ],
+    "no_response_range_exclusion": true,
+    "no_prediction_clipping": true,
+    "no_depth_interpolation": true,
+    "duplicate_id_action": "stop"
+  },
+  "support": {
+    "min_stations_per_layer_for_domain_statement": 3,
+    "min_stations_for_cluster_interval": 6,
+    "min_valid_bootstrap_fraction": 0.9,
+    "report_all_six_layers": true,
+    "no_posthoc_layer_selection": true
+  },
+  "bootstrap": {
+    "replicates": 1000,
+    "seed": 271828,
+    "unit": "whole_station_within_leg",
+    "interval_percentiles": [
+      2.5,
+      97.5
+    ],
+    "scope": "Conditional whole-station resampling only. Along-transect spatial dependence and non-probability sampling mean percentile intervals have no established nominal confidence coverage; analytical covariance and calibration parameter uncertainty are excluded."
+  },
+  "systematic_scenarios": {
+    "observed_ph_offsets": [
+      0,
+      -0.0043,
+      -0.0125
+    ],
+    "training_reference_offsets": [
+      -0.02,
+      0,
+      0.02
+    ],
+    "meaning": "Observed offsets are conditional corrections motivated by two positive GP15 CRM offsets, not known sample corrections. Training-reference offsets shift both model and depth baseline identically. All crossed scenarios use identical primary support; no scenario is a confidence bound or truth."
+  },
+  "estimands": [
+    "Six matched-layer observed/predicted/depth-baseline pH means and errors",
+    "Unweighted-across-nonempty-fixed-layers bias, MAE and RMSE, always with coverage denominator",
+    "DeltaRMSE = fixed-model RMSE minus depth-baseline RMSE on identical layer support",
+    "Bottle-level residual distribution only secondary; no bottle-level p-value"
+  ],
+  "stopping_and_interpretation": [
+    "Stop before responses if input/source SHA or fixed model identity fails, or duplicate/ambiguous source identity cannot be resolved.",
+    "Preserve six layers even when empty or poorly supported; an entire200–800m domain statement requires all six layers to meet the prespecified station rule.",
+    "Give conditional station-resampling percentile intervals only with at least6 station labels and at least90% bootstrap draws covering all originally nonempty layers. Otherwise report point estimates/support only.",
+    "No scalar threshold makes the candidate paper-eligible. Evaluate magnitude against declared source-method scales and original training span without treating either as a universal acceptance bound.",
+    "If only an acknowledged generic caveat or a result driven by one station remains, close or narrow the claim rather than tune elements, coefficients, exclusions or bins.",
+    "Leg1 is exploration-exposed; Leg2 is a prospective response check only if root's exposure ledger verifies the freeze preceded response access. Shared cruise/lab precludes claiming independent-laboratory replication.",
+    "A regional transfer result cannot alone refute the original global-mean relation, the pH-complexation mechanism, or all paleo-carbonate applications."
+  ],
+  "output_files": [
+    "pairing_audit.csv",
+    "sample_predictions.csv",
+    "layer_summary.csv",
+    "aggregate_summary.json",
+    "systematic_scenarios.csv",
+    "cluster_bootstrap.json",
+    "ree_ph_transfer.png",
+    "ree_ph_transfer.svg",
+    "leave_one_station_out.json",
+    "ree_repeatability_stress.json",
+    "run_manifest.json"
+  ],
+  "input_contract": "Source-bound input JSON: sources is a list with role,path,sha256 and optional columns; required roles leg1_ree,leg1_ph,leg2_ree,leg2_ph,paas,molar_mass,atomic_numbers,author_model_code,author_proxy_code,author_notebook,leg2_ree_intercal. All paths relative to input JSON or absolute. Root fills actual sources and freeze bindings.",
+  "runtime_purpose": "exploratory",
+  "validation_source_ids": [],
+  "leave_one_station_out": {
+    "legs": [
+      "leg1",
+      "leg2"
+    ],
+    "variant": "primary",
+    "report_all_six_layers": true,
+    "missing_original_nonempty_layer": "Report missing support and suppress aggregate comparison; do not change denominator."
+  },
+  "ree_repeatability_stress": {
+    "source_role": "leg2_ree_intercal",
+    "source_locator": "GP15 Leg2 REE intercalibration PDF8 Table2 andPDF9 Table3; maximum among listed reference-water RSDs for each of the four elements",
+    "relative_rsd": {
+      "Sm": 0.041,
+      "Gd": 0.05,
+      "Dy": 0.04,
+      "Er": 0.039
+    },
+    "vectors": "All16 combinations of +/-1 reported RSD; each element factor is common to all bottles within a case",
+    "cross_with_all_ph_scenarios": true,
+    "support": "primary, unchanged",
+    "interpretation": "Reference-repeatability-motivated conditional box only. Not measured sample-specific errors, a95%confidence interval, a full error covariance, or a conservative true bound. Common element shifts represent coherent systematic directions that do not diminish with sample count. All16vectors and all9pHscenarios are retained; no best-scenario selection. These are16 sampled corners only; there is no proof of extrema or uniform robustness over the continuous error box, especially for nonlinear model-minus-baseline RMSE."
+  },
+  "frozen_at_utc": "2026-10-25T15:57:54.693118+00:00",
+  "preexecution_review": {
+    "path": "reviews/round8-ree-transfer-preexecution-review.md",
+    "sha256": "e9b7d0d50d4e7014aea5e910498b5180589792ea47f11ed0bfa84fcf75325433",
+    "locator": "complete static scientific/source review"
+  },
+  "blind_source_acquisition": {
+    "path": "reviews/round8-leg2-blind-acquisition.json",
+    "sha256": "65a0a0d88314e564bb0a4e8211654b679009f1074e1ef51a81b6d009e3964460",
+    "locator": "actual receipt and identity/flag/depth-only QA before freeze"
+  }
+}

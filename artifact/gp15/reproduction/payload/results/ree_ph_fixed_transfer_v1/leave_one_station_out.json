@@ -1,0 +1,2838 @@
+{
+  "leg1": {
+    "required_bin_indexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "point_aggregate": {
+      "n_nonempty_layers": 6,
+      "nonempty_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_supported_layers": 6,
+      "full_domain_support": true,
+      "observed_offset": 0.0,
+      "training_offset": 0.0,
+      "model_bias": 0.061513468697735295,
+      "model_mae": 0.061513468697735295,
+      "model_rmse": 0.07021355937856123,
+      "baseline_bias": 0.13351488001367398,
+      "baseline_mae": 0.1467086425158873,
+      "baseline_rmse": 0.17008381101696976,
+      "delta_rmse_model_minus_baseline": -0.09987025163840853
+    },
+    "rule": "Keep all six layers. A deletion missing an originally nonempty layer has no aggregate comparison; never change the layer denominator.",
+    "cases": [
+      {
+        "deleted_station": "10",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 3,
+            "n_stations": 3,
+            "stations": [
+              "12",
+              "16",
+              "18"
+            ],
+            "sample_ids": [
+              "13196",
+              "13647",
+              "13797"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.826866666666667,
+            "predicted_ph": 7.8985350923510405,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.07166842568437382,
+            "baseline_error": -0.09598795417330663
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 6,
+            "n_stations": 5,
+            "stations": [
+              "12",
+              "16",
+              "18",
+              "18.3",
+              "5"
+            ],
+            "sample_ids": [
+              "12333",
+              "13194",
+              "13645",
+              "13647",
+              "13795",
+              "13912"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.657633333333333,
+            "predicted_ph": 7.718414343189404,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.060781009856071044,
+            "baseline_error": 0.032237366843161475
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "12",
+              "16",
+              "18",
+              "5"
+            ],
+            "sample_ids": [
+              "12331",
+              "13192",
+              "13336",
+              "13645",
+              "13793"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.5327,
+            "predicted_ph": 7.564345216562887,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.03164521656288688,
+            "baseline_error": 0.12593622203002308
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 3,
+            "n_stations": 3,
+            "stations": [
+              "16",
+              "18",
+              "18.3"
+            ],
+            "sample_ids": [
+              "13643",
+              "13791",
+              "13910"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.414266666666666,
+            "predicted_ph": 7.543943811639423,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.1296771449727565,
+            "baseline_error": 0.2172863711996582
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "16",
+              "18",
+              "5"
+            ],
+            "sample_ids": [
+              "12329",
+              "13639",
+              "13641",
+              "13791"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.355025,
+            "predicted_ph": 7.385824163549239,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.03079916354923906,
+            "baseline_error": 0.2511633338460877
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 3,
+            "n_stations": 3,
+            "stations": [
+              "16",
+              "18",
+              "18.3"
+            ],
+            "sample_ids": [
+              "13639",
+              "13789",
+              "13908"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.362233333333333,
+            "predicted_ph": 7.4242691530112275,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.06203581967789429,
+            "baseline_error": 0.22209227366975348
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 6,
+          "full_domain_support": true,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.06443446338387027,
+          "model_mae": 0.06443446338387027,
+          "model_rmse": 0.07239395400312415,
+          "baseline_bias": 0.12545460223589622,
+          "baseline_mae": 0.15745058696033176,
+          "baseline_rmse": 0.17594233552888397,
+          "delta_rmse_model_minus_baseline": -0.10354838152575982
+        }
+      },
+      {
+        "deleted_station": "12",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "10",
+              "16",
+              "18"
+            ],
+            "sample_ids": [
+              "13087",
+              "13089",
+              "13647",
+              "13797"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.7689,
+            "predicted_ph": 7.830383724755007,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.061483724755007074,
+            "baseline_error": -0.038021287506640356
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "16",
+              "18",
+              "18.3",
+              "5"
+            ],
+            "sample_ids": [
+              "12333",
+              "13645",
+              "13647",
+              "13795",
+              "13912"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.6458200000000005,
+            "predicted_ph": 7.724367744660277,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.07854774466027692,
+            "baseline_error": 0.04405070017649404
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 4,
+            "n_stations": 4,
+            "stations": [
+              "10",
+              "16",
+              "18",
+              "5"
+            ],
+            "sample_ids": [
+              "12331",
+              "13085",
+              "13645",
+              "13793"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.49965,
+            "predicted_ph": 7.522410038372731,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.022760038372730662,
+            "baseline_error": 0.15898622203002333
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 3,
+            "n_stations": 3,
+            "stations": [
+              "16",
+              "18",
+              "18.3"
+            ],
+            "sample_ids": [
+              "13643",
+              "13791",
+              "13910"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.414266666666666,
+            "predicted_ph": 7.543943811639423,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.1296771449727565,
+            "baseline_error": 0.2172863711996582
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "10",
+              "16",
+              "18",
+              "5"
+            ],
+            "sample_ids": [
+              "12329",
+              "13083",
+              "13639",
+              "13641",
+              "13791"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.36542,
+            "predicted_ph": 7.405490293208064,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.0400702932080641,
+            "baseline_error": 0.24076833384608776
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 3,
+            "n_stations": 3,
+            "stations": [
+              "16",
+              "18",
+              "18.3"
+            ],
+            "sample_ids": [
+              "13639",
+              "13789",
+              "13908"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.362233333333333,
+            "predicted_ph": 7.4242691530112275,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.06203581967789429,
+            "baseline_error": 0.22209227366975348
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 6,
+          "full_domain_support": true,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.06576246094112159,
+          "model_mae": 0.06576246094112159,
+          "model_rmse": 0.07386727872437548,
+          "baseline_bias": 0.14086043556922942,
+          "baseline_mae": 0.15353419807144286,
+          "baseline_rmse": 0.17472379965773568,
+          "delta_rmse_model_minus_baseline": -0.1008565209333602
+        }
+      },
+      {
+        "deleted_station": "16",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "10",
+              "12",
+              "18"
+            ],
+            "sample_ids": [
+              "13087",
+              "13089",
+              "13196",
+              "13797"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.760725,
+            "predicted_ph": 7.826532602174099,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.06580760217409942,
+            "baseline_error": -0.029846287506639868
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 4,
+            "n_stations": 4,
+            "stations": [
+              "12",
+              "18",
+              "18.3",
+              "5"
+            ],
+            "sample_ids": [
+              "12333",
+              "13194",
+              "13795",
+              "13912"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.6106,
+            "predicted_ph": 7.685215083807449,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.07461508380744952,
+            "baseline_error": 0.07927070017649473
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "10",
+              "12",
+              "18",
+              "5"
+            ],
+            "sample_ids": [
+              "12331",
+              "13085",
+              "13192",
+              "13336",
+              "13793"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.4976199999999995,
+            "predicted_ph": 7.512188311382658,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.014568311382658905,
+            "baseline_error": 0.16101622203002375
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 2,
+            "n_stations": 2,
+            "stations": [
+              "18",
+              "18.3"
+            ],
+            "sample_ids": [
+              "13791",
+              "13910"
+            ],
+            "domain_support": false,
+            "observed_ph": 7.37305,
+            "predicted_ph": 7.521054436776218,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.1480044367762181,
+            "baseline_error": 0.25850303786632445
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 3,
+            "n_stations": 3,
+            "stations": [
+              "10",
+              "18",
+              "5"
+            ],
+            "sample_ids": [
+              "12329",
+              "13083",
+              "13791"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.357033333333334,
+            "predicted_ph": 7.385352817925127,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.02831948459179312,
+            "baseline_error": 0.2491550005127543
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 2,
+            "n_stations": 2,
+            "stations": [
+              "18",
+              "18.3"
+            ],
+            "sample_ids": [
+              "13789",
+              "13908"
+            ],
+            "domain_support": false,
+            "observed_ph": 7.3723,
+            "predicted_ph": 7.430454283173628,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.0581542831736277,
+            "baseline_error": 0.2120256070030866
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 4,
+          "full_domain_support": false,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.06491153365097446,
+          "model_mae": 0.06491153365097446,
+          "model_rmse": 0.07767401334688047,
+          "baseline_bias": 0.15502071334700732,
+          "baseline_mae": 0.16496947584922061,
+          "baseline_rmse": 0.18572280484316717,
+          "delta_rmse_model_minus_baseline": -0.1080487914962867
+        }
+      },
+      {
+        "deleted_station": "18",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "10",
+              "12",
+              "16"
+            ],
+            "sample_ids": [
+              "13087",
+              "13089",
+              "13196",
+              "13647"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.73945,
+            "predicted_ph": 7.7714132687330055,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.03196326873300581,
+            "baseline_error": -0.008571287506639713
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "12",
+              "16",
+              "18.3",
+              "5"
+            ],
+            "sample_ids": [
+              "12333",
+              "13194",
+              "13645",
+              "13647",
+              "13912"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.6378200000000005,
+            "predicted_ph": 7.6859266611100105,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.04810666111001005,
+            "baseline_error": 0.05205070017649405
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "10",
+              "12",
+              "16",
+              "5"
+            ],
+            "sample_ids": [
+              "12331",
+              "13085",
+              "13192",
+              "13336",
+              "13645"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.53916,
+            "predicted_ph": 7.5429829311612115,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.0038229311612116845,
+            "baseline_error": 0.1194762220300234
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 2,
+            "n_stations": 2,
+            "stations": [
+              "16",
+              "18.3"
+            ],
+            "sample_ids": [
+              "13643",
+              "13910"
+            ],
+            "domain_support": false,
+            "observed_ph": 7.4357,
+            "predicted_ph": 7.578270737371207,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.14257073737120685,
+            "baseline_error": 0.1958530378663248
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "10",
+              "16",
+              "5"
+            ],
+            "sample_ids": [
+              "12329",
+              "13083",
+              "13639",
+              "13641"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.363925,
+            "predicted_ph": 7.388040376466117,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.024115376466117056,
+            "baseline_error": 0.242263333846088
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 2,
+            "n_stations": 2,
+            "stations": [
+              "16",
+              "18.3"
+            ],
+            "sample_ids": [
+              "13639",
+              "13908"
+            ],
+            "domain_support": false,
+            "observed_ph": 7.35745,
+            "predicted_ph": 7.430019863442721,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.07256986344272054,
+            "baseline_error": 0.22687560700308662
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 4,
+          "full_domain_support": false,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.05385813971404533,
+          "model_mae": 0.05385813971404533,
+          "model_rmse": 0.07014849465085043,
+          "baseline_bias": 0.13799126890256286,
+          "baseline_mae": 0.14084836473810944,
+          "baseline_rmse": 0.16612233765594778,
+          "delta_rmse_model_minus_baseline": -0.09597384300509734
+        }
+      },
+      {
+        "deleted_station": "18.3",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "10",
+              "12",
+              "16",
+              "18"
+            ],
+            "sample_ids": [
+              "13087",
+              "13089",
+              "13196",
+              "13647",
+              "13797"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.77046,
+            "predicted_ph": 7.827261577313438,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.056801577313438045,
+            "baseline_error": -0.03958128750663992
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "12",
+              "16",
+              "18",
+              "5"
+            ],
+            "sample_ids": [
+              "12333",
+              "13194",
+              "13645",
+              "13647",
+              "13795"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.64726,
+            "predicted_ph": 7.7052676630639185,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.05800766306391836,
+            "baseline_error": 0.042610700176494376
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 6,
+            "n_stations": 5,
+            "stations": [
+              "10",
+              "12",
+              "16",
+              "18",
+              "5"
+            ],
+            "sample_ids": [
+              "12331",
+              "13085",
+              "13192",
+              "13336",
+              "13645",
+              "13793"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.53035,
+            "predicted_ph": 7.550064967158188,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.01971496715818777,
+            "baseline_error": 0.12828622203002293
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 2,
+            "n_stations": 2,
+            "stations": [
+              "16",
+              "18"
+            ],
+            "sample_ids": [
+              "13643",
+              "13791"
+            ],
+            "domain_support": false,
+            "observed_ph": 7.43405,
+            "predicted_ph": 7.532506260770845,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.09845626077084457,
+            "baseline_error": 0.1975030378663245
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "10",
+              "16",
+              "18",
+              "5"
+            ],
+            "sample_ids": [
+              "12329",
+              "13083",
+              "13639",
+              "13641",
+              "13791"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.36542,
+            "predicted_ph": 7.405490293208064,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.0400702932080641,
+            "baseline_error": 0.24076833384608776
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 2,
+            "n_stations": 2,
+            "stations": [
+              "16",
+              "18"
+            ],
+            "sample_ids": [
+              "13639",
+              "13789"
+            ],
+            "domain_support": false,
+            "observed_ph": 7.35695,
+            "predicted_ph": 7.412333312417335,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.05538331241733463,
+            "baseline_error": 0.22737560700308634
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 4,
+          "full_domain_support": false,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.05473901232196458,
+          "model_mae": 0.05473901232196458,
+          "model_rmse": 0.05964696564865762,
+          "baseline_bias": 0.132827102235896,
+          "baseline_mae": 0.1460208647381093,
+          "baseline_rmse": 0.16758888788859713,
+          "delta_rmse_model_minus_baseline": -0.10794192223993951
+        }
+      },
+      {
+        "deleted_station": "5",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "10",
+              "12",
+              "16",
+              "18"
+            ],
+            "sample_ids": [
+              "13087",
+              "13089",
+              "13196",
+              "13647",
+              "13797"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.77046,
+            "predicted_ph": 7.827261577313438,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.056801577313438045,
+            "baseline_error": -0.03958128750663992
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "12",
+              "16",
+              "18",
+              "18.3"
+            ],
+            "sample_ids": [
+              "13194",
+              "13645",
+              "13647",
+              "13795",
+              "13912"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.73726,
+            "predicted_ph": 7.784654711428973,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.047394711428973224,
+            "baseline_error": -0.04738929982350548
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "10",
+              "12",
+              "16",
+              "18"
+            ],
+            "sample_ids": [
+              "13085",
+              "13192",
+              "13336",
+              "13645",
+              "13793"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.57648,
+            "predicted_ph": 7.602867352554361,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.026387352554360533,
+            "baseline_error": 0.08215622203002315
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 3,
+            "n_stations": 3,
+            "stations": [
+              "16",
+              "18",
+              "18.3"
+            ],
+            "sample_ids": [
+              "13643",
+              "13791",
+              "13910"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.414266666666666,
+            "predicted_ph": 7.543943811639423,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.1296771449727565,
+            "baseline_error": 0.2172863711996582
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "10",
+              "16",
+              "18"
+            ],
+            "sample_ids": [
+              "13083",
+              "13639",
+              "13641",
+              "13791"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.3836,
+            "predicted_ph": 7.457709446071041,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.07410944607104053,
+            "baseline_error": 0.22258833384608767
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 3,
+            "n_stations": 3,
+            "stations": [
+              "16",
+              "18",
+              "18.3"
+            ],
+            "sample_ids": [
+              "13639",
+              "13789",
+              "13908"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.362233333333333,
+            "predicted_ph": 7.4242691530112275,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.06203581967789429,
+            "baseline_error": 0.22209227366975348
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 6,
+          "full_domain_support": true,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.06606767533641052,
+          "model_mae": 0.06606767533641052,
+          "model_rmse": 0.07340048260503042,
+          "baseline_bias": 0.10952543556922952,
+          "baseline_mae": 0.13851563134594466,
+          "baseline_rmse": 0.16157866008747648,
+          "delta_rmse_model_minus_baseline": -0.08817817748244607
+        }
+      }
+    ]
+  },
+  "leg2": {
+    "required_bin_indexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "point_aggregate": {
+      "n_nonempty_layers": 6,
+      "nonempty_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_supported_layers": 6,
+      "full_domain_support": true,
+      "observed_offset": 0.0,
+      "training_offset": 0.0,
+      "model_bias": 0.21084292730740448,
+      "model_mae": 0.21084292730740448,
+      "model_rmse": 0.21827126240141048,
+      "baseline_bias": 0.09915757317427139,
+      "baseline_mae": 0.09915757317427139,
+      "baseline_rmse": 0.11029509536786561,
+      "delta_rmse_model_minus_baseline": 0.10797616703354487
+    },
+    "rule": "Keep all six layers. A deletion missing an originally nonempty layer has no aggregate comparison; never change the layer denominator.",
+    "cases": [
+      {
+        "deleted_station": "18.6",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 16,
+            "n_stations": 7,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13974",
+              "13976",
+              "14144",
+              "14146",
+              "14522",
+              "14524",
+              "14984",
+              "14986",
+              "15138",
+              "15140",
+              "15527",
+              "15529",
+              "15531",
+              "15728",
+              "15730",
+              "15732"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.69645625,
+            "predicted_ph": 7.968542533297782,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.2720862832977824,
+            "baseline_error": 0.03442246249336023
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 14,
+            "n_stations": 7,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13970",
+              "13972",
+              "14142",
+              "14518",
+              "14520",
+              "14980",
+              "14982",
+              "15134",
+              "15136",
+              "15525",
+              "15527",
+              "15724",
+              "15726",
+              "15728"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.63975,
+            "predicted_ph": 7.876788368757371,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.2370383687573705,
+            "baseline_error": 0.05012070017649428
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 17,
+            "n_stations": 7,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13968",
+              "14140",
+              "14514",
+              "14516",
+              "14978",
+              "15090",
+              "15092",
+              "15094",
+              "15132",
+              "15236",
+              "15238",
+              "15240",
+              "15523",
+              "15639",
+              "15720",
+              "15722",
+              "15724"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.514182352941177,
+            "predicted_ph": 7.78632877327991,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.27214642033873293,
+            "baseline_error": 0.1444538690888466
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 7,
+            "n_stations": 5,
+            "stations": [
+              "19",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13966",
+              "15088",
+              "15090",
+              "15236",
+              "15635",
+              "15637",
+              "15720"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.520928571428572,
+            "predicted_ph": 7.702593951366786,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.18166537993821397,
+            "baseline_error": 0.11062446643775292
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "19",
+              "31",
+              "33"
+            ],
+            "sample_ids": [
+              "14084",
+              "15086",
+              "15088",
+              "15234"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.44895,
+            "predicted_ph": 7.6434162671172245,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.1944662671172246,
+            "baseline_error": 0.1572383338460881
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "31",
+              "33",
+              "37"
+            ],
+            "sample_ids": [
+              "15084",
+              "15086",
+              "15232",
+              "15631"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.49905,
+            "predicted_ph": 7.611826337481056,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.11277633748105576,
+            "baseline_error": 0.08527560700308623
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 6,
+          "full_domain_support": true,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.2116965094883967,
+          "model_mae": 0.2116965094883967,
+          "model_rmse": 0.21902045168407863,
+          "baseline_bias": 0.09702257317427139,
+          "baseline_mae": 0.09702257317427139,
+          "baseline_rmse": 0.10708058193101014,
+          "delta_rmse_model_minus_baseline": 0.1119398697530685
+        }
+      },
+      {
+        "deleted_station": "19",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 14,
+            "n_stations": 6,
+            "stations": [
+              "21",
+              "25",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "14144",
+              "14146",
+              "14522",
+              "14524",
+              "14984",
+              "14986",
+              "15138",
+              "15140",
+              "15527",
+              "15529",
+              "15531",
+              "15728",
+              "15730",
+              "15732"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.690064285714286,
+            "predicted_ph": 7.968297387070317,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.2782331013560313,
+            "baseline_error": 0.04081442677907443
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 12,
+            "n_stations": 6,
+            "stations": [
+              "21",
+              "25",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "14142",
+              "14518",
+              "14520",
+              "14980",
+              "14982",
+              "15134",
+              "15136",
+              "15525",
+              "15527",
+              "15724",
+              "15726",
+              "15728"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.648533333333333,
+            "predicted_ph": 7.906194752290324,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.25766141895699146,
+            "baseline_error": 0.04133736684316158
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 16,
+            "n_stations": 6,
+            "stations": [
+              "21",
+              "25",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "14140",
+              "14514",
+              "14516",
+              "14978",
+              "15090",
+              "15092",
+              "15094",
+              "15132",
+              "15236",
+              "15238",
+              "15240",
+              "15523",
+              "15639",
+              "15720",
+              "15722",
+              "15724"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.51920625,
+            "predicted_ph": 7.795274202980667,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.2760679529806671,
+            "baseline_error": 0.13942997203002339
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 6,
+            "n_stations": 4,
+            "stations": [
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "15088",
+              "15090",
+              "15236",
+              "15635",
+              "15637",
+              "15720"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.539316666666666,
+            "predicted_ph": 7.727346909870491,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.18803024320382455,
+            "baseline_error": 0.09223637119965833
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "18.6",
+              "31",
+              "33"
+            ],
+            "sample_ids": [
+              "13930",
+              "15086",
+              "15088",
+              "15234"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.4497,
+            "predicted_ph": 7.63588502825632,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.18618502825632,
+            "baseline_error": 0.15648833384608807
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "31",
+              "33",
+              "37"
+            ],
+            "sample_ids": [
+              "15084",
+              "15086",
+              "15232",
+              "15631"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.49905,
+            "predicted_ph": 7.611826337481056,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.11277633748105576,
+            "baseline_error": 0.08527560700308623
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 6,
+          "full_domain_support": true,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.21649234703914835,
+          "model_mae": 0.21649234703914835,
+          "model_rmse": 0.2246312977502611,
+          "baseline_bias": 0.09259701295018201,
+          "baseline_mae": 0.09259701295018201,
+          "baseline_rmse": 0.10253730084126648,
+          "delta_rmse_model_minus_baseline": 0.12209399690899463
+        }
+      },
+      {
+        "deleted_station": "21",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 14,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "25",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13974",
+              "13976",
+              "14522",
+              "14524",
+              "14984",
+              "14986",
+              "15138",
+              "15140",
+              "15527",
+              "15529",
+              "15531",
+              "15728",
+              "15730",
+              "15732"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.735507142857143,
+            "predicted_ph": 7.992551431155222,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.25704428829807924,
+            "baseline_error": -0.0046284303637831314
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 13,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "25",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13970",
+              "13972",
+              "14518",
+              "14520",
+              "14980",
+              "14982",
+              "15134",
+              "15136",
+              "15525",
+              "15527",
+              "15724",
+              "15726",
+              "15728"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.656,
+            "predicted_ph": 7.88797136270404,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.23197136270404073,
+            "baseline_error": 0.03387070017649485
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 16,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "25",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13968",
+              "14514",
+              "14516",
+              "14978",
+              "15090",
+              "15092",
+              "15094",
+              "15132",
+              "15236",
+              "15238",
+              "15240",
+              "15523",
+              "15639",
+              "15720",
+              "15722",
+              "15724"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.519925,
+            "predicted_ph": 7.7923171443836585,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.2723921443836588,
+            "baseline_error": 0.1387112220300235
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 7,
+            "n_stations": 5,
+            "stations": [
+              "19",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13966",
+              "15088",
+              "15090",
+              "15236",
+              "15635",
+              "15637",
+              "15720"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.520928571428572,
+            "predicted_ph": 7.702593951366786,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.18166537993821397,
+            "baseline_error": 0.11062446643775292
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "18.6",
+              "19",
+              "31",
+              "33"
+            ],
+            "sample_ids": [
+              "13930",
+              "14084",
+              "15086",
+              "15088",
+              "15234"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.43614,
+            "predicted_ph": 7.625484774031271,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.18934477403127126,
+            "baseline_error": 0.17004833384608808
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "31",
+              "33",
+              "37"
+            ],
+            "sample_ids": [
+              "15084",
+              "15086",
+              "15232",
+              "15631"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.49905,
+            "predicted_ph": 7.611826337481056,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.11277633748105576,
+            "baseline_error": 0.08527560700308623
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 6,
+          "full_domain_support": true,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.20753238113938663,
+          "model_mae": 0.20753238113938663,
+          "model_rmse": 0.21434093387251593,
+          "baseline_bias": 0.08898364985494374,
+          "baseline_mae": 0.09052645997620479,
+          "baseline_rmse": 0.10711021378573399,
+          "delta_rmse_model_minus_baseline": 0.10723072008678194
+        }
+      },
+      {
+        "deleted_station": "25",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 14,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13974",
+              "13976",
+              "14144",
+              "14146",
+              "14984",
+              "14986",
+              "15138",
+              "15140",
+              "15527",
+              "15529",
+              "15531",
+              "15728",
+              "15730",
+              "15732"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.717614285714286,
+            "predicted_ph": 7.991907871752633,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.27429358603834686,
+            "baseline_error": 0.013264426779073801
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 12,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13970",
+              "13972",
+              "14142",
+              "14980",
+              "14982",
+              "15134",
+              "15136",
+              "15525",
+              "15527",
+              "15724",
+              "15726",
+              "15728"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.6565916666666665,
+            "predicted_ph": 7.897306661239871,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.24071499457320478,
+            "baseline_error": 0.03327903350982808
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 15,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13968",
+              "14140",
+              "14978",
+              "15090",
+              "15092",
+              "15094",
+              "15132",
+              "15236",
+              "15238",
+              "15240",
+              "15523",
+              "15639",
+              "15720",
+              "15722",
+              "15724"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.5197666666666665,
+            "predicted_ph": 7.792496299193072,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.2727296325264055,
+            "baseline_error": 0.13886955536335677
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 7,
+            "n_stations": 5,
+            "stations": [
+              "19",
+              "31",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13966",
+              "15088",
+              "15090",
+              "15236",
+              "15635",
+              "15637",
+              "15720"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.520928571428572,
+            "predicted_ph": 7.702593951366786,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.18166537993821397,
+            "baseline_error": 0.11062446643775292
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "18.6",
+              "19",
+              "31",
+              "33"
+            ],
+            "sample_ids": [
+              "13930",
+              "14084",
+              "15086",
+              "15088",
+              "15234"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.43614,
+            "predicted_ph": 7.625484774031271,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.18934477403127126,
+            "baseline_error": 0.17004833384608808
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "31",
+              "33",
+              "37"
+            ],
+            "sample_ids": [
+              "15084",
+              "15086",
+              "15232",
+              "15631"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.49905,
+            "predicted_ph": 7.611826337481056,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.11277633748105576,
+            "baseline_error": 0.08527560700308623
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 6,
+          "full_domain_support": true,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.21192078409808301,
+          "model_mae": 0.21192078409808301,
+          "model_rmse": 0.21952007821185437,
+          "baseline_bias": 0.09189357048986431,
+          "baseline_mae": 0.09189357048986431,
+          "baseline_rmse": 0.10723364682175324,
+          "delta_rmse_model_minus_baseline": 0.11228643139010114
+        }
+      },
+      {
+        "deleted_station": "31",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 14,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13974",
+              "13976",
+              "14144",
+              "14146",
+              "14522",
+              "14524",
+              "15138",
+              "15140",
+              "15527",
+              "15529",
+              "15531",
+              "15728",
+              "15730",
+              "15732"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.7241357142857145,
+            "predicted_ph": 7.981061567010096,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.2569258527243816,
+            "baseline_error": 0.006742998207645456
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 12,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13970",
+              "13972",
+              "14142",
+              "14518",
+              "14520",
+              "15134",
+              "15136",
+              "15525",
+              "15527",
+              "15724",
+              "15726",
+              "15728"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.668008333333334,
+            "predicted_ph": 7.882724932361326,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.21471659902799267,
+            "baseline_error": 0.021862366843160785
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 13,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13968",
+              "14140",
+              "14514",
+              "14516",
+              "15132",
+              "15236",
+              "15238",
+              "15240",
+              "15523",
+              "15639",
+              "15720",
+              "15722",
+              "15724"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.541369230769231,
+            "predicted_ph": 7.793052766642689,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.2516835358734584,
+            "baseline_error": 0.11726699126079243
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "19",
+              "33",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13966",
+              "15236",
+              "15635",
+              "15637",
+              "15720"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.54658,
+            "predicted_ph": 7.706744894162661,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.16016489416266122,
+            "baseline_error": 0.08497303786632493
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 3,
+            "n_stations": 3,
+            "stations": [
+              "18.6",
+              "19",
+              "33"
+            ],
+            "sample_ids": [
+              "13930",
+              "14084",
+              "15234"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.414366666666667,
+            "predicted_ph": 7.610579349122598,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.19621268245593093,
+            "baseline_error": 0.19182166717942106
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 2,
+            "n_stations": 2,
+            "stations": [
+              "33",
+              "37"
+            ],
+            "sample_ids": [
+              "15232",
+              "15631"
+            ],
+            "domain_support": false,
+            "observed_ph": 7.52785,
+            "predicted_ph": 7.619679767582764,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.09182976758276418,
+            "baseline_error": 0.056475607003086736
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 5,
+          "full_domain_support": false,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.1952555553045315,
+          "model_mae": 0.1952555553045315,
+          "model_rmse": 0.20332389194708433,
+          "baseline_bias": 0.07985711139340523,
+          "baseline_mae": 0.07985711139340523,
+          "baseline_rmse": 0.10122618378188487,
+          "delta_rmse_model_minus_baseline": 0.10209770816519946
+        }
+      },
+      {
+        "deleted_station": "33",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 14,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13974",
+              "13976",
+              "14144",
+              "14146",
+              "14522",
+              "14524",
+              "14984",
+              "14986",
+              "15527",
+              "15529",
+              "15531",
+              "15728",
+              "15730",
+              "15732"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.7162500000000005,
+            "predicted_ph": 7.9752193104832445,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.258969310483244,
+            "baseline_error": 0.014628712493359508
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 12,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13970",
+              "13972",
+              "14142",
+              "14518",
+              "14520",
+              "14980",
+              "14982",
+              "15525",
+              "15527",
+              "15724",
+              "15726",
+              "15728"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.649141666666667,
+            "predicted_ph": 7.8815035859328155,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.23236191926614858,
+            "baseline_error": 0.040729033509827595
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 13,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13968",
+              "14140",
+              "14514",
+              "14516",
+              "14978",
+              "15090",
+              "15092",
+              "15094",
+              "15523",
+              "15639",
+              "15720",
+              "15722",
+              "15724"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.535138461538462,
+            "predicted_ph": 7.787130933874601,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.25199247233613953,
+            "baseline_error": 0.12349776049156169
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 6,
+            "n_stations": 4,
+            "stations": [
+              "19",
+              "31",
+              "37",
+              "39"
+            ],
+            "sample_ids": [
+              "13966",
+              "15088",
+              "15090",
+              "15635",
+              "15637",
+              "15720"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.5267,
+            "predicted_ph": 7.69794574848824,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.17124574848824015,
+            "baseline_error": 0.1048530378663246
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "18.6",
+              "19",
+              "31"
+            ],
+            "sample_ids": [
+              "13930",
+              "14084",
+              "15086",
+              "15088"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.4261,
+            "predicted_ph": 7.608332095401773,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.18223209540177265,
+            "baseline_error": 0.18008833384608813
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 3,
+            "n_stations": 2,
+            "stations": [
+              "31",
+              "37"
+            ],
+            "sample_ids": [
+              "15084",
+              "15086",
+              "15631"
+            ],
+            "domain_support": false,
+            "observed_ph": 7.5066,
+            "predicted_ph": 7.602169280965795,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.09556928096579487,
+            "baseline_error": 0.07772560700308695
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 5,
+          "full_domain_support": false,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.19872847115688996,
+          "model_mae": 0.19872847115688996,
+          "model_rmse": 0.2066496640232096,
+          "baseline_bias": 0.09025374753504141,
+          "baseline_mae": 0.09025374753504141,
+          "baseline_rmse": 0.10535004173986239,
+          "delta_rmse_model_minus_baseline": 0.10129962228334723
+        }
+      },
+      {
+        "deleted_station": "37",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 13,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "33",
+              "39"
+            ],
+            "sample_ids": [
+              "13974",
+              "13976",
+              "14144",
+              "14146",
+              "14522",
+              "14524",
+              "14984",
+              "14986",
+              "15138",
+              "15140",
+              "15728",
+              "15730",
+              "15732"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.645376923076923,
+            "predicted_ph": 7.932552157701199,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.28717523462427597,
+            "baseline_error": 0.08550178941643694
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 12,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "33",
+              "39"
+            ],
+            "sample_ids": [
+              "13970",
+              "13972",
+              "14142",
+              "14518",
+              "14520",
+              "14980",
+              "14982",
+              "15134",
+              "15136",
+              "15724",
+              "15726",
+              "15728"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.613375,
+            "predicted_ph": 7.847540443643319,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.23416544364331937,
+            "baseline_error": 0.07649570017649499
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 15,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "33",
+              "39"
+            ],
+            "sample_ids": [
+              "13968",
+              "14140",
+              "14514",
+              "14516",
+              "14978",
+              "15090",
+              "15092",
+              "15094",
+              "15132",
+              "15236",
+              "15238",
+              "15240",
+              "15720",
+              "15722",
+              "15724"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.501813333333334,
+            "predicted_ph": 7.775068795918831,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.2732554625854977,
+            "baseline_error": 0.1568228886966896
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "19",
+              "31",
+              "33",
+              "39"
+            ],
+            "sample_ids": [
+              "13966",
+              "15088",
+              "15090",
+              "15236",
+              "15720"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.5008799999999995,
+            "predicted_ph": 7.688736766698414,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.1878567666984141,
+            "baseline_error": 0.130673037866325
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "18.6",
+              "19",
+              "31",
+              "33"
+            ],
+            "sample_ids": [
+              "13930",
+              "14084",
+              "15086",
+              "15088",
+              "15234"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.43614,
+            "predicted_ph": 7.625484774031271,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.18934477403127126,
+            "baseline_error": 0.17004833384608808
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 3,
+            "n_stations": 2,
+            "stations": [
+              "31",
+              "33"
+            ],
+            "sample_ids": [
+              "15084",
+              "15086",
+              "15232"
+            ],
+            "domain_support": false,
+            "observed_ph": 7.4723,
+            "predicted_ph": 7.616247773928512,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.1439477739285122,
+            "baseline_error": 0.11202560700308695
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 5,
+          "full_domain_support": false,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.21929090925188177,
+          "model_mae": 0.21929090925188177,
+          "model_rmse": 0.2250311786091372,
+          "baseline_bias": 0.12192789283418692,
+          "baseline_mae": 0.12192789283418692,
+          "baseline_rmse": 0.1266867408555015,
+          "delta_rmse_model_minus_baseline": 0.09834443775363572
+        }
+      },
+      {
+        "deleted_station": "39",
+        "same_layer_support_as_point": true,
+        "missing_bin_indexes": [],
+        "layers": [
+          {
+            "bin_index": 0,
+            "low_m": 200,
+            "high_m": 300,
+            "n_records": 13,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "33",
+              "37"
+            ],
+            "sample_ids": [
+              "13974",
+              "13976",
+              "14144",
+              "14146",
+              "14522",
+              "14524",
+              "14984",
+              "14986",
+              "15138",
+              "15140",
+              "15527",
+              "15529",
+              "15531"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.638453846153847,
+            "predicted_ph": 7.9331060924515615,
+            "baseline_ph": 7.73087871249336,
+            "prediction_error": 0.2946522462977148,
+            "baseline_error": 0.0924248663395133
+          },
+          {
+            "bin_index": 1,
+            "low_m": 300,
+            "high_m": 400,
+            "n_records": 11,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "33",
+              "37"
+            ],
+            "sample_ids": [
+              "13970",
+              "13972",
+              "14142",
+              "14518",
+              "14520",
+              "14980",
+              "14982",
+              "15134",
+              "15136",
+              "15525",
+              "15527"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.580290909090909,
+            "predicted_ph": 7.82939552316861,
+            "baseline_ph": 7.6898707001764945,
+            "prediction_error": 0.24910461407770068,
+            "baseline_error": 0.10957979108558558
+          },
+          {
+            "bin_index": 2,
+            "low_m": 400,
+            "high_m": 500,
+            "n_records": 14,
+            "n_stations": 6,
+            "stations": [
+              "19",
+              "21",
+              "25",
+              "31",
+              "33",
+              "37"
+            ],
+            "sample_ids": [
+              "13968",
+              "14140",
+              "14514",
+              "14516",
+              "14978",
+              "15090",
+              "15092",
+              "15094",
+              "15132",
+              "15236",
+              "15238",
+              "15240",
+              "15523",
+              "15639"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.464442857142857,
+            "predicted_ph": 7.767729198808443,
+            "baseline_ph": 7.658636222030023,
+            "prediction_error": 0.30328634166558555,
+            "baseline_error": 0.1941933648871661
+          },
+          {
+            "bin_index": 3,
+            "low_m": 500,
+            "high_m": 600,
+            "n_records": 6,
+            "n_stations": 4,
+            "stations": [
+              "19",
+              "31",
+              "33",
+              "37"
+            ],
+            "sample_ids": [
+              "13966",
+              "15088",
+              "15090",
+              "15236",
+              "15635",
+              "15637"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.4921,
+            "predicted_ph": 7.690577730635374,
+            "baseline_ph": 7.6315530378663246,
+            "prediction_error": 0.198477730635374,
+            "baseline_error": 0.1394530378663248
+          },
+          {
+            "bin_index": 4,
+            "low_m": 600,
+            "high_m": 700,
+            "n_records": 5,
+            "n_stations": 4,
+            "stations": [
+              "18.6",
+              "19",
+              "31",
+              "33"
+            ],
+            "sample_ids": [
+              "13930",
+              "14084",
+              "15086",
+              "15088",
+              "15234"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.43614,
+            "predicted_ph": 7.625484774031271,
+            "baseline_ph": 7.606188333846088,
+            "prediction_error": 0.18934477403127126,
+            "baseline_error": 0.17004833384608808
+          },
+          {
+            "bin_index": 5,
+            "low_m": 700,
+            "high_m": 800,
+            "n_records": 4,
+            "n_stations": 3,
+            "stations": [
+              "31",
+              "33",
+              "37"
+            ],
+            "sample_ids": [
+              "15084",
+              "15086",
+              "15232",
+              "15631"
+            ],
+            "domain_support": true,
+            "observed_ph": 7.49905,
+            "predicted_ph": 7.611826337481056,
+            "baseline_ph": 7.584325607003087,
+            "prediction_error": 0.11277633748105576,
+            "baseline_error": 0.08527560700308623
+          }
+        ],
+        "aggregate_on_same_layer_support": {
+          "n_nonempty_layers": 6,
+          "nonempty_bin_indexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "n_supported_layers": 6,
+          "full_domain_support": true,
+          "observed_offset": 0.0,
+          "training_offset": 0.0,
+          "model_bias": 0.22460700736478367,
+          "model_mae": 0.22460700736478367,
+          "model_rmse": 0.23410076724591128,
+          "baseline_bias": 0.13182916683796067,
+          "baseline_mae": 0.13182916683796067,
+          "baseline_rmse": 0.13777800033759596,
+          "delta_rmse_model_minus_baseline": 0.09632276690831532
+        }
+      }
+    ]
+  }
+}

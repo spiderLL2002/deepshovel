@@ -1,0 +1,7 @@
+bin_index,low_m,high_m,original_training_alpha,common_concentration_multiplier,delta_alpha,delta_predicted_ph,relative_shape_unchanged,scope
+0,200,300,2.564942791181893e-08,1.1,2.5649427911818933e-09,-0.06431740239261659,True,Exact algebraic illustration; no GP15 causal attribution
+1,300,400,2.7585760048416105e-08,1.1,2.7585760048416107e-09,-0.06917286558748531,True,Exact algebraic illustration; no GP15 causal attribution
+2,400,500,2.833921575620972e-08,1.1,2.833921575620972e-09,-0.07106219871841435,True,Exact algebraic illustration; no GP15 causal attribution
+3,500,600,2.913195075995486e-08,1.1,2.913195075995486e-09,-0.07305002692268765,True,Exact algebraic illustration; no GP15 causal attribution
+4,600,700,3.024820387647606e-08,1.1,3.024820387647606e-09,-0.07584909523384575,True,Exact algebraic illustration; no GP15 causal attribution
+5,700,800,3.2035971215737773e-08,1.1,3.2035971215737777e-09,-0.0803320237318607,True,Exact algebraic illustration; no GP15 causal attribution

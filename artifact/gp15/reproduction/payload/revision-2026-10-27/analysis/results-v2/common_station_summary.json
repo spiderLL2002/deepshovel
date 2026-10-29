@@ -1,0 +1,70 @@
+[
+  {
+    "leg": "leg1",
+    "stations": [
+      "16",
+      "18"
+    ],
+    "n_stations": 2,
+    "n_unique_bottles": 10,
+    "layer_memberships": 14,
+    "model": {
+      "n_layers": 6,
+      "mean_error": 0.07900724257576937,
+      "mse": 0.006421141965277445,
+      "rmse": 0.08013202833622424,
+      "squared_mean_error": 0.006242144379426464,
+      "centered_mse": 0.00017899758585098051,
+      "centered_rmse": 0.013378997938970636,
+      "squared_mean_error_fraction_of_mse": 0.9721237146260094,
+      "identity_residual": 2.439454888092385e-19
+    },
+    "baseline": {
+      "n_layers": 6,
+      "mean_error": 0.08990876890256268,
+      "mse": 0.027963473902588354,
+      "rmse": 0.16722282709782285,
+      "squared_mean_error": 0.008083586725574422,
+      "centered_mse": 0.01987988717701393,
+      "centered_rmse": 0.14099605376397573,
+      "squared_mean_error_fraction_of_mse": 0.2890766273794827,
+      "identity_residual": 0.0
+    },
+    "delta_rmse_model_minus_baseline": -0.08709079876159861,
+    "scope": "Post-review common-station station-equal diagnostic; not a replacement primary analysis, regional validation, or independent study; no intervals"
+  },
+  {
+    "leg": "leg2",
+    "stations": [
+      "31",
+      "33"
+    ],
+    "n_stations": 2,
+    "n_unique_bottles": 21,
+    "layer_memberships": 25,
+    "model": {
+      "n_layers": 6,
+      "mean_error": 0.2690863805593655,
+      "mse": 0.0787110246963892,
+      "rmse": 0.28055485149323156,
+      "squared_mean_error": 0.07240748020253968,
+      "centered_mse": 0.006303544493849527,
+      "centered_rmse": 0.0793948644047556,
+      "squared_mean_error_fraction_of_mse": 0.9199153547020371,
+      "identity_residual": -1.734723475976807e-18
+    },
+    "baseline": {
+      "n_layers": 6,
+      "mean_error": 0.16516293556922954,
+      "mse": 0.028699056299702604,
+      "rmse": 0.16940795819471588,
+      "squared_mean_error": 0.027278795285845467,
+      "centered_mse": 0.0014202610138571389,
+      "centered_rmse": 0.03768635049798719,
+      "squared_mean_error_fraction_of_mse": 0.9505119262798947,
+      "identity_residual": -2.168404344971009e-18
+    },
+    "delta_rmse_model_minus_baseline": 0.11114689329851568,
+    "scope": "Post-review common-station station-equal diagnostic; not a replacement primary analysis, regional validation, or independent study; no intervals"
+  }
+]

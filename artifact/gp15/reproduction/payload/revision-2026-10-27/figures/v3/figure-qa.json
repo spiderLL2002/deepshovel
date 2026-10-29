@@ -1,0 +1,57 @@
+{
+  "at_utc": "2026-10-27T04:46:58.604406+00:00",
+  "status": "PASS",
+  "main_figures": 3,
+  "supplementary_figures": 2,
+  "all_5_pngs_visually_inspected": true,
+  "all_5_vector_pdf_pages_rendered_and_visually_inspected": true,
+  "raster_image_xobjects_in_5_pdfs": 0,
+  "all_pdf_fonts_embedded": true,
+  "map_and_support_numeric_comparisons": 252,
+  "numeric_mismatches": 0,
+  "five_coordinate_exports": [
+    {
+      "path": "fig01_source_values.csv",
+      "sha256": "c07342e3310f94a91e371b38d5fd5987ec9207db5d232414a1b0540b69dcc536",
+      "byte_identical_to_v2": true
+    },
+    {
+      "path": "fig02_source_values.csv",
+      "sha256": "9b7897063b601493e3aa39a113fb9b19ea8d8919add5a2165491be5da609d6ba",
+      "byte_identical_to_v2": true
+    },
+    {
+      "path": "fig03_source_values.csv",
+      "sha256": "ed9898444bbb3196a57c56e79876af75daf1e2f779c88fd677f2486890c42289",
+      "byte_identical_to_v2": true
+    },
+    {
+      "path": "figS01_source_values.csv",
+      "sha256": "0526e9bf5fda34ae521e94b70f4f1ef7d4bc06b53b0047d1e128440bca6b5e94",
+      "byte_identical_to_v2": true
+    },
+    {
+      "path": "figS02_source_values.csv",
+      "sha256": "7a537623074af88509b390ef850c4ea2e548af913ba1386dd201283f60d34e4e",
+      "byte_identical_to_v2": true
+    }
+  ],
+  "all_v2_files_preserved": "v2figuremanifestSHAunchanged; scriptwroteonlyv3",
+  "caption_disclosure_count": 5,
+  "baseline_SI_source": "revision-2026-10-27/baseline/manuscript/supplementary-tables.en.md",
+  "scientific_changes": false,
+  "presentation_changes": [
+    "RemovedFigure1supertitle; retainedA/B/Cpanelheaders",
+    "Tightenedlongitudeaxisfrom159–148.8Wto156.9–150.6Waroundrecordedpoints",
+    "Added5vectorPDFswithTrueType42embeddedfontsanddeterministicmetadata; heatmaps usevectorcellpaths ratherthanrasterimages",
+    "AddedCodexplottingcodedisclosuretoeachof5captions",
+    "RedrewFigureS1fromunchanged8rowcoordinate/rangetableforconsistentPDFoutput",
+    "Preservedallv2filesandoriginalscientificdata"
+  ],
+  "repairs": [
+    "InitialimshowheatmapsgeneratedrasterPDFXObjects; replacedwithpcolormeshvectorpaths, re-rendered, thenstrictPDFimagecountandfontembeddingchecksallpassed"
+  ],
+  "figure_manifest_sha256": "79c8e8025d3d055a46605be75519685911a209452292d83dc739f17e22db04c1",
+  "script_sha256": "0b437bdd652f987cbfc619af70429183bde92496fce168f9646af7d3304a9402",
+  "pdf_font_check_sha256": "efdf952d988f8952d2627e314de9c3fc286f867a5ae3c51e847dfb2875406019"
+}

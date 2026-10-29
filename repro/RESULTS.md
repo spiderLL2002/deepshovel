@@ -1,5 +1,22 @@
 # Reproduction results and paper coverage
 
+## Version 1.1 scientific reasoning and research cases
+
+| Executed evidence | Reference outcome | What is checked |
+| --- | --- | --- |
+| `artifact/arguments/verify.mjs` | 7/7 full expansions; F2 retains 18/18 premise edges and 3/3 assumption edges | Original production code versus an independent fixed-point traversal on one saved paper |
+| Bounded expansion controls | 21/21 marked truncated; all 19 runs losing premise/assumption edges flagged | Depth limits 1, 2 and 3 on the same seven claims |
+| Missing-input controls | 3 malformed inputs rejected; a scientifically missing unrecorded internal dependency can remain structurally valid | Explicit limits of structural validation |
+| `artifact/gp15/verify_demo.py` | Four RMSEs and six C12 contrasts reconstructed; nine claim-file hashes checked | Numerical results from fixed public source data and implementation |
+| GP15 original full workflow | 10 stages, 76 generated reference files byte-identical in the reference environment | The complete saved scientific workflow, including figures and sensitivities |
+| GP15 portable full workflow | Ten stages with explicit runtime-only metadata allowances | Cross-platform scientific-field equality; see its newly generated report and CI outcome |
+| `artifact/research-trace/verify_trace.py` | 26 public checks including eight GP15 file bindings | Saved chronology, identifier linkage and source-to-protocol-to-result bytes |
+| Live service walkthrough | F2 search → claim → assumptions → loaded original page 11/14 | Genuine UI operation, with English instructions and full screenshots |
+
+Each package documents exact commands, actual receipts and limits. The Hongo decision trace strengthens an existing candidate rejection; it does not claim a controlled causal performance effect. The 26 public checks do not reproduce the separate author-side 55-check run against non-distributed historical originals. No system-wide accuracy score is derived from these counts.
+
+## Preserved version 1.0 checks
+
 | Command or step | Expected result | Boundary |
 | --- | --- | --- |
 | `scripts/verify-release.py` | Every listed file matches SHA-256 and size | Identifies bytes; does not authenticate a publisher |

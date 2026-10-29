@@ -1,0 +1,28 @@
+{
+  "scope": "Hashes of complete historical author records; these are distinct from hashes of the public projections. Original copyrighted PDFs are not redistributed here.",
+  "files": {
+    "deepshovel/round7/hydrothermal-search-request.json": "52630e519963392ebbefe76fe433287a8bd067da30627cd21b1802b986315ab8",
+    "deepshovel/round7/hydrothermal-rerank.json": "d2282296ed8b6edd888092e2600a832bf66f95e529ec4188b03ce0dc7f61c92c",
+    "deepshovel/round7/hongo-source-binding.json": "70160c402b11c50d6937e814c4789d631934c73f0c78327a8a622996582d8375",
+    "ree/round7/candidates.json": "7f5166da119017b85ce2e67e971712b548d8efc5f589f662f4596d7eba6ecf13",
+    "state.json": "f9183c09d7a54667f5ca7816a965a7d2768dac0a9be92fd9e8be0889f12006dc",
+    "deepshovel/round7/search-http/responses/f54edf1166b864429295a8fcc13ef93360a0766e411a731da63ce65c531fbc85/receipt.json": "8d3c6684d346e41c82fb000cb5df205d76fbc06b32ada37b59b946251ffde421",
+    "deepshovel/round7/search-http/responses/dbf961d00151b3afdb90bfc76206ac1ef69734e716e56eb86a68b59193777a80/receipt.json": "6032f7df0cea7c32b43dd064fb7c79415cd4c6c26fc8c1a8bf7d76c7eccc5e12",
+    "deepshovel/round7/chain-http/responses/5f32b13f93052ea9e6454c14479edcc625ec5a2431f57d75aa330bd90338e850/receipt.json": "5b964f3376d7e915e5d48a38a2708e352908494ccc529a21b0e206ba2d03bd49",
+    "deepshovel/round7/chain-http/responses/79d95c516414b0b69b2a1c60e5f9ce124f206b1d56f4ef4e56f46b0413d8d3af/receipt.json": "d11c5d13dfd5071a0ae8ef1fd2db238681634629e5f314bffef15f2a7f69f16a",
+    "deepshovel/round7/chain-http/responses/b7b124771d4dc782838657d08f2f77ce688470330ab866096bf6bf7d4265a386/receipt.json": "d8413d3b9b0e19fa9902e82612175878d736b0a1cb029251f96445115802f5cc",
+    "deepshovel/round7/chain-http/responses/60728cb89db801124b970f27ca10a474c0b9c6a93e06cefec799d40e239a9412/receipt.json": "b09a66fce21ee01429f7e81cc7fbc34266100c9691d52e28470953fbda9424c8",
+    "deepshovel/round8/lin2024-source-binding.json": "54fbc60c971757d499d865aedc16f7827a65fbd9f85e1ae7487a27b8e11e8c1a",
+    "ree/round8/transfer-source-input.json": "9fd91d413e03e069afe0fc65d4b622449308a38c81d3d458285e42a1514e2455",
+    "ree/round8/protocol-frozen-v1.json": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79",
+    "iteration-2026-10-27/manuscript/claim-source-map.final.json": "c8d6e1a3469453bff0207e969e0f280a42291b0525ccc3aaf5245c3ad6a6f99e",
+    "ree/round8/raw/Lin2024-REE_pH_estimates.py": "c695ff3ffea39f905ef02797567497465f0f989bdbbc6aa2bb4807c5608e84f4",
+    "results/ree_ph_fixed_transfer_v1/layer_summary.csv": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321",
+    "results/ree_ph_fixed_transfer_v1/aggregate_summary.json": "13d6831201d631d6ce39ef99ba5ef35be057a20f58795214956b02157a9b1b18",
+    "iteration-2026-10-27/analysis/selection-weight-domain-v1/layer_squared_error_difference.csv": "f8e5d75d397107e51a2854a05dc29713d5f82d77b6906e1b4a20ed70928c0928",
+    "iteration-2026-10-27/reviews/selection-weight-domain-independent-B.json": "978c0f844dc371e09f8cacbc9c00465f69a8ab202ac9bb9c875b968274da1df0",
+    "deepshovel/round8/http/responses/6aa8835ad8e197cf7fca04fa77120ae50c5b75b8e876b9fe4a5140f02ababc10/receipt.json": "aa31c40a2f9341de4c904153228f1b89d7d2c044af87161a9ec6a694e95f0dd6",
+    "ree/round7/REPORT.md": "4e7d2af299552a7c6c2fc6787c293115884f2d61e6fc8eb12370e14aedc4b818",
+    "ree/round7/HONGO-NEAREST-CHECK.md": "21d2d2503964413e0b78ac552180597391ba3621f7b60c34f249dcecc25c562a"
+  }
+}

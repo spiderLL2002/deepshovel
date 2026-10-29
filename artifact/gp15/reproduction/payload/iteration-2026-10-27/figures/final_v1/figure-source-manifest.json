@@ -1,0 +1,274 @@
+{
+  "schema": "gp15-final-figures/v1",
+  "scientific_calculation_scope": "Render existing frozen values only; no new sample selection, fit, uncertainty analysis or SI generation",
+  "source_sha256": [
+    {
+      "role": "diagnostic_manifest",
+      "path": "revision-2026-10-27/analysis/results-v2/run_manifest.json",
+      "sha256": "cc25e869610307913c3be8f72bfae0f49b117dd9059c4057f5a12548251f48c9"
+    },
+    {
+      "role": "support",
+      "path": "revision-2026-10-27/analysis/results-v2/station_layer_support.csv",
+      "sha256": "4b37620f76f64aa76db6619c5da3148290fda56d73fe302fc7e394f40f5ec93c"
+    },
+    {
+      "role": "support_long",
+      "path": "revision-2026-10-27/analysis/results-v2/station_layer_support_long.csv",
+      "sha256": "11647105cc74b9ef771e16239002ff26b04eaaeb5631a9417c6f2e1766ac101d"
+    },
+    {
+      "role": "geometry",
+      "path": "revision-2026-10-27/analysis/results-v2/station_geometry.json",
+      "sha256": "26dde87d20eb3a8c8ca9508036c1c4d85db56ab953503302a5010c3747e479b2"
+    },
+    {
+      "role": "mse",
+      "path": "revision-2026-10-27/analysis/results-v2/mse_decomposition.csv",
+      "sha256": "ed9898444bbb3196a57c56e79876af75daf1e2f779c88fd677f2486890c42289"
+    },
+    {
+      "role": "primary_coordinates",
+      "path": "manuscript/figures/fig01_source_values.csv",
+      "sha256": "9b7897063b601493e3aa39a113fb9b19ea8d8919add5a2165491be5da609d6ba"
+    },
+    {
+      "role": "sensitivity_coordinates",
+      "path": "manuscript/figures/fig02_source_values.csv",
+      "sha256": "0526e9bf5fda34ae521e94b70f4f1ef7d4bc06b53b0047d1e128440bca6b5e94"
+    },
+    {
+      "role": "domain_coordinates",
+      "path": "manuscript/figures/fig03_source_values.csv",
+      "sha256": "7a537623074af88509b390ef850c4ea2e548af913ba1386dd201283f60d34e4e"
+    },
+    {
+      "role": "original_figure_manifest",
+      "path": "manuscript/figures/figure-source-manifest.json",
+      "sha256": "48339679eecd438a19547ad480430c641eb4965436b2d1ac8f6ca09cd3954d23"
+    },
+    {
+      "role": "protocol",
+      "path": "ree/round8/protocol-frozen-v1.json",
+      "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79"
+    },
+    {
+      "role": "captions",
+      "path": "iteration-2026-10-27/figures/final_v1/CAPTIONS.md",
+      "sha256": "3be16e3f66efd169caad853804d3b3ede3992cd9dc0ca683382ea255bd3207db"
+    },
+    {
+      "role": "caption_bindings",
+      "path": "iteration-2026-10-27/figures/final_v1/caption-source-bindings.json",
+      "sha256": "c871aa84aec499962c0f185eba390d840844c284469da825654f18e900e60cd3"
+    },
+    {
+      "role": "prior_coordinate_identity",
+      "path": "revision-2026-10-27/figures/v3/fig01_source_values.csv",
+      "sha256": "c07342e3310f94a91e371b38d5fd5987ec9207db5d232414a1b0540b69dcc536"
+    },
+    {
+      "role": "prior_coordinate_identity",
+      "path": "revision-2026-10-27/figures/v3/fig02_source_values.csv",
+      "sha256": "9b7897063b601493e3aa39a113fb9b19ea8d8919add5a2165491be5da609d6ba"
+    },
+    {
+      "role": "prior_coordinate_identity",
+      "path": "revision-2026-10-27/figures/v3/fig03_source_values.csv",
+      "sha256": "ed9898444bbb3196a57c56e79876af75daf1e2f779c88fd677f2486890c42289"
+    },
+    {
+      "role": "prior_coordinate_identity",
+      "path": "revision-2026-10-27/figures/v3/figS01_source_values.csv",
+      "sha256": "0526e9bf5fda34ae521e94b70f4f1ef7d4bc06b53b0047d1e128440bca6b5e94"
+    },
+    {
+      "role": "prior_coordinate_identity",
+      "path": "revision-2026-10-27/figures/v3/figS02_source_values.csv",
+      "sha256": "7a537623074af88509b390ef850c4ea2e548af913ba1386dd201283f60d34e4e"
+    }
+  ],
+  "plan": {
+    "path": "iteration-2026-10-27/figures/final_v1/figure-plan-v1.frozen.json",
+    "sha256": "2460d570a3bca6c8935df8c64210c179f14d813e9afe07d3214997ad2b97da05"
+  },
+  "script": {
+    "path": "iteration-2026-10-27/figures/final_v1/make_final_figures_v1.py",
+    "sha256": "bf891baf04cb672963d0b18e7015a95bc874ece11854a1087461b9f64d41b597"
+  },
+  "caption_input": {
+    "path": "iteration-2026-10-27/figures/final_v1/CAPTIONS.md",
+    "sha256": "3be16e3f66efd169caad853804d3b3ede3992cd9dc0ca683382ea255bd3207db",
+    "unchanged": true
+  },
+  "caption_source_bindings": {
+    "path": "iteration-2026-10-27/figures/final_v1/caption-source-bindings.json",
+    "sha256": "c871aa84aec499962c0f185eba390d840844c284469da825654f18e900e60cd3"
+  },
+  "field_mappings": [
+    {
+      "figure": "Figure 1",
+      "coordinates": "station_geometry representative longitude/latitude; all 14 stations",
+      "counts": "station_layer_support n_200_300 through n_700_800, including zero",
+      "row_locators": "station_layer_support_long sample_ids/REE and pH CSV lines"
+    },
+    {
+      "figure": "Figure 2",
+      "x": [
+        "observed_ph",
+        "predicted_ph",
+        "baseline_ph"
+      ],
+      "y": "midpoint(low_m,high_m)",
+      "selection": "all 12 unchanged primary sampled means"
+    },
+    {
+      "figure": "Figure 3",
+      "bottom": "squared_mean_error",
+      "stack": "centered_mse",
+      "annotation": [
+        "rmse",
+        "mean_error",
+        "squared_mean_error_fraction_of_mse"
+      ],
+      "interpretation": "Descriptive identity, not correction or pure vertical-shape error"
+    },
+    {
+      "figure": "Figure S1",
+      "source": "all 8 original aggregation points and primary station-deletion ranges",
+      "selection_changed": false
+    },
+    {
+      "figure": "Figure S2",
+      "source": "all 18 original calibration/GP15 coordinate rows",
+      "calibration_definition": "six global calibration means, not the full raw-source envelope",
+      "selection_changed": false
+    }
+  ],
+  "environment": {
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "matplotlib": "3.10.7",
+    "numpy": "2.5.4"
+  },
+  "outputs": [
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig01_sampling_support.png",
+      "sha256": "ec009d1a38d07c7ca13f4d435cfb8dd4d87cdda001f794ec790de1ef18131d42",
+      "bytes": 382612
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig01_sampling_support.svg",
+      "sha256": "5b7a84816487cee68d7baa493599383ca301217152cc0de72c23e54e96d38551",
+      "bytes": 72303
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig01_sampling_support.pdf",
+      "sha256": "734b69a23315ac20c1675564007d852dabf132480f36517d4fd5b02a5c857aa3",
+      "bytes": 27937
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig02_sampled_layer_means.png",
+      "sha256": "327a21f7fea5d9032754d8b25f9ffd7fe26b979e0a16f8fa16f878069fdf9191",
+      "bytes": 285664
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig02_sampled_layer_means.svg",
+      "sha256": "5cee85c575e764ff020f1d9d8ec2bdc443f174af61216fbbb69c47ee1983b1a5",
+      "bytes": 25138
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig02_sampled_layer_means.pdf",
+      "sha256": "581f03b1fea767be441a9837bfedf37d8e7db7838caf79f78c33c20c64af7f15",
+      "bytes": 24010
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig03_error_decomposition.png",
+      "sha256": "d545416b2d40f5b73c0789b7ffa449ad69d43a94226736f62e0f37ada6d1aec2",
+      "bytes": 201988
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig03_error_decomposition.svg",
+      "sha256": "9e86fd6aeb81c61415ea42b3b59951206c7f29cc4834fd0dd01bff236cbcaf87",
+      "bytes": 11930
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig03_error_decomposition.pdf",
+      "sha256": "ccf7efcf95789f53de721f0925a4a65ef6810b939204b9df48b7c816ba4f14fb",
+      "bytes": 15598
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS01_fixed_sensitivity.png",
+      "sha256": "b9907da6461f217f7bb84b7a415e5c82f32312cce2f0494c1ea4336374c6de65",
+      "bytes": 169011
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS01_fixed_sensitivity.svg",
+      "sha256": "77aedd78630f385f6a1a1d0fc560413005c1987167b841043bbf76bb0a03a293",
+      "bytes": 14441
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS01_fixed_sensitivity.pdf",
+      "sha256": "3d3415ad481f4d39a909526d28c0078ac34b0783a5e06302234212c28ef10a50",
+      "bytes": 15029
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS02_calibration_domain.png",
+      "sha256": "6e7796dc931e456963d4d1c1e58bf3873eab72641f6f9ee337d4e968b3b308b5",
+      "bytes": 327738
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS02_calibration_domain.svg",
+      "sha256": "6fb9436490483f202c02368f4b1cc1e615855592300c533e2747f89cb9def151",
+      "bytes": 22001
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS02_calibration_domain.pdf",
+      "sha256": "3ac29da3181d3c5f229fbe1cefaf817bff1cd4701166c2c978a7f875d850c6fd",
+      "bytes": 19964
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig01_source_values.csv",
+      "sha256": "c07342e3310f94a91e371b38d5fd5987ec9207db5d232414a1b0540b69dcc536",
+      "bytes": 8301
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig02_source_values.csv",
+      "sha256": "9b7897063b601493e3aa39a113fb9b19ea8d8919add5a2165491be5da609d6ba",
+      "bytes": 2466
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/fig03_source_values.csv",
+      "sha256": "ed9898444bbb3196a57c56e79876af75daf1e2f779c88fd677f2486890c42289",
+      "bytes": 1217
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS01_source_values.csv",
+      "sha256": "0526e9bf5fda34ae521e94b70f4f1ef7d4bc06b53b0047d1e128440bca6b5e94",
+      "bytes": 825
+    },
+    {
+      "path": "iteration-2026-10-27/figures/final_v1/figS02_source_values.csv",
+      "sha256": "7a537623074af88509b390ef850c4ea2e548af913ba1386dd201283f60d34e4e",
+      "bytes": 1455
+    }
+  ],
+  "presentation_changes_from_v3": [
+    "Final captions are exact bound input paragraphs from p17, reported unchanged in p18; no caption or SI regeneration.",
+    "Figure S2 labels explicitly identify six global calibration means and their feature range.",
+    "Figure 3 mean-offset annotation is formatted from the same frozen MSE row instead of duplicated numeric text.",
+    "Fixed SVG salt identifies this final presentation version; PDF creation/modification dates remain absent and fonts use Type42.",
+    "All five coordinate CSVs must remain byte-identical to v3."
+  ],
+  "main_figures": 3,
+  "supplementary_figures": 2,
+  "figure_coordinate_csvs": 5,
+  "generated_artifact_count_including_this_manifest": 21,
+  "immutable_caption_file_is_an_input_not_a_deleted_generated_output": true,
+  "not_written": [
+    "main manuscript",
+    "scientific SI",
+    "central state",
+    "any original frozen source/program/protocol/result"
+  ],
+  "uncertainty": "No new confidence interval or error bar; centering and station deletions retain their stated descriptive scope."
+}

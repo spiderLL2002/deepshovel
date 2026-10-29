@@ -1,0 +1,88 @@
+{
+  "plan_path": "iteration-2026-10-27/analysis/selection-weight-domain-plan-v1.frozen.json",
+  "plan_sha256": "ef2af25c9c0e0ad91a51caa37fd5373a3e66473509230a269269e3ce72dd5a4f",
+  "script_path": "iteration-2026-10-27/analysis/export_selection_weight_domain_v1.py",
+  "script_sha256": "cf2c284faf2d8ea207003f704abc24946e31191b6c8ab9bb3453df548544af00",
+  "inputs": [
+    {
+      "role": "pairing_audit",
+      "path": "results/ree_ph_fixed_transfer_v1/pairing_audit.csv",
+      "sha256": "5d6e2e4ec14c2f50ca85ef988a220bc674acfa5a8f1b72de48a2972899862c75"
+    },
+    {
+      "role": "leg1_ree",
+      "path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9"
+    },
+    {
+      "role": "leg1_ph",
+      "path": "ree/round8/raw/GP15-leg1-pH.csv",
+      "sha256": "eddd66f7043437b56dd7d527d8fbb48331535f810a659e02254416c45e436d3b"
+    },
+    {
+      "role": "leg2_ree",
+      "path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809"
+    },
+    {
+      "role": "leg2_ph",
+      "path": "ree/round8/raw/GP15-leg2-pH.csv",
+      "sha256": "936a04097ccd61b8ff8d62f60fcbbfc01b4cf0a46346815c7f9474ab4595365d"
+    },
+    {
+      "role": "layers",
+      "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321"
+    },
+    {
+      "role": "domain_rows",
+      "path": "ree/round8/training-domain-annotation.csv",
+      "sha256": "1ae0728458112b3f086a1a0148bafc9f5fcd088aab73ccaf0bed5cb285ac4be8"
+    },
+    {
+      "role": "domain_metadata",
+      "path": "ree/round8/training-domain-annotation.json",
+      "sha256": "42e53e25d592dc45456d7b1bdae2081fb38c124bbacd8350f98f5fb17e7d0779"
+    }
+  ],
+  "definitions": {
+    "scope": "Already-exposed original inputs: deterministic SI display and reviewer QC. No new validation, fitting, sample exclusion, score replacement, measurement uncertainty model, geographical weighting or causal inference.",
+    "flow_status_order": [
+      "not_shared_sample_id",
+      "station_or_event_mismatch",
+      "leg2_station_or_sample_seen_in_leg1",
+      "missing_finite_depth",
+      "outside_predeclared_depth_union",
+      "bottle_flag_not_allowed",
+      "missing_or_invalid_response",
+      "eligible_in_at_least_one_depth_definition"
+    ],
+    "flow_semantics": "One terminal status is assigned to each sample-ID union record by the original if/elif order. Terminal counts partition records, but possible failure causes are not mutually exclusive. Later causes were not evaluated after an earlier assignment. This exporter copies statuses, not their causes.",
+    "weight_semantics": "For the six fixed primary layer means only, let d_k=e_model,k^2-e_reference,k^2. For arbitrary w_k>=0 with sum(w_k)=1, the weighted MSE difference is sum(w_k*d_k); weighted RMSE has the same ordering because square root is increasing. The exporter does not choose or optimize weights or generate a new weighted score. This is about stored point errors, not the RSD scenarios, an uncertainty box, area-weighted geography, new intra-layer weights or bottle-level errors.",
+    "domain_semantics": "Labels describe the rectangle formed by extrema of the original six training alpha means and original six observed-pH means, with endpoints included. These are six global calibration-layer means, not the full feature range of the 1,755 source-compilation records or of all source bottles. They do not estimate a joint calibrated validity region, create new subset scores or establish prospective suitability; observed target pH is required to assign the second axis. Rows are layer means, not independent bottles.",
+    "original_training_alpha_values": [
+      "2.564942791181893E-8",
+      "2.7585760048416105E-8",
+      "2.833921575620972E-8",
+      "2.913195075995486E-8",
+      "3.024820387647606E-8",
+      "3.2035971215737773E-8"
+    ],
+    "original_training_ph_values": [
+      "7.73087871249336",
+      "7.6898707001764945",
+      "7.658636222030023",
+      "7.6315530378663246",
+      "7.606188333846088",
+      "7.584325607003087"
+    ],
+    "source_rows_total_domain": 48,
+    "exported_domain_selection": "Exactly variant=primary, six rows per leg",
+    "no_fitting": true,
+    "no_new_validation": true,
+    "no_new_weighted_score": true
+  },
+  "interpreter": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "post_exposure": true,
+  "cycle_count_delta": 0
+}

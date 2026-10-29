@@ -1,0 +1,64 @@
+{
+  "source_repository_commit": "c880c22bf0facd6b0b79c2e934bad5063aa70a86",
+  "source_repository_dirty": false,
+  "license": "AGPL-3.0-only for vendored source; Asmari source-derived record from CC BY 4.0 paper",
+  "files": [
+    {
+      "source_path": "lib/evidence-graph/paths.ts",
+      "vendored_path": "vendor/lib/evidence-graph/paths.ts",
+      "sha256": "41dede039de099f2fdc9d5dc22dd563f85ff186f81e0bdf769332bcc67dabfd7",
+      "byte_identical": true
+    },
+    {
+      "source_path": "lib/evidence-graph/validation.ts",
+      "vendored_path": "vendor/lib/evidence-graph/validation.ts",
+      "sha256": "01030976d46e3951682190dcc3f3e5d4e15d365203db60becbead8cefe34ae93",
+      "byte_identical": true
+    },
+    {
+      "source_path": "lib/evidence-graph/canonical.ts",
+      "vendored_path": "vendor/lib/evidence-graph/canonical.ts",
+      "sha256": "3ddc7b8f36c3951bf4ec221c97df6624b3ce547c0e43b9970453028cddc9400e",
+      "byte_identical": true
+    },
+    {
+      "source_path": "lib/evidence-graph/types.ts",
+      "vendored_path": "vendor/lib/evidence-graph/types.ts",
+      "sha256": "ce456900f5f0070eb3a22627d0a16e1f2db9d8ffac9c6802258a78883ceb44ee",
+      "byte_identical": true
+    },
+    {
+      "source_path": "lib/shared-contract.generated.ts",
+      "vendored_path": "vendor/lib/shared-contract.generated.ts",
+      "sha256": "29b1b8ba5a35ef406bd7a2c719c9a3b27f7e5cf3b8d457da069a756842b98177",
+      "byte_identical": true
+    },
+    {
+      "fixture_path": "fixtures/asmari-graph.json",
+      "sha256": "20f30f0b870acfc2949415af24f40330e80b5e7dc2774bb8aa149561cf42ab4b"
+    },
+    {
+      "fixture_path": "fixtures/historical-reuse-export.json",
+      "sha256": "bd9398c8dffef0a4a7f0aabdbbf39762d812504afbf3ee13ce9ac37073ba90cb"
+    },
+    {
+      "fixture_path": "fixtures/scope-presentation.json",
+      "sha256": "c05d1216b898783a59b9e23e7afa3364bc18c7491985b5fc60e80cbf3c58e0b1"
+    }
+  ],
+  "api_callsite": {
+    "file": "app/api/evidence-graphs/[snapshotId]/route.ts",
+    "lines": "105-106",
+    "behavior": "createEvidencePathExpander(graph); graph.claims.map(claim=>expandPath(claim.id))"
+  },
+  "ui_truncation_callsite": {
+    "file": "app/components/evidence-synthesis.tsx",
+    "line": 452,
+    "behavior": "path.truncated displays partial-evidence warning"
+  },
+  "retrieval_preview_callsite": {
+    "file": "app/components/evidence-search.tsx",
+    "lines": "174-176",
+    "behavior": "truncated preview directs users to complete paper detail"
+  }
+}

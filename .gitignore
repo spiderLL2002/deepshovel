@@ -121,3 +121,7 @@ next-env.d.ts
 !artifact/nd-case/source/article.pdf
 !artifact/recipient-check/target-row.csv
 !artifact/recipient-check/value-citation-projection.csv
+
+# Local research reproduction environment
+/.research-venv/
+/artifact/gp15/.venv/

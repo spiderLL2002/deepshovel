@@ -1,0 +1,247 @@
+{
+  "schema": "deepshovel-www-gp15-demo-check/v1",
+  "status": "PASS",
+  "at_utc": "2026-10-29T02:57:54.147876+00:00",
+  "python": "3.12.13",
+  "package_manifest_sha256": "ed12a33fac3201740445537246e4e8105a08359059f1cae811b69db8abaf4c86",
+  "export_plan_sha256": "7dbd6cf906d820c0b728d535753be4efd3d826ec7c21ab707de79698c61735df",
+  "claim_source_bindings_checked": 9,
+  "exports_verified_before_and_after": 202,
+  "source_exports_modified": false,
+  "stages": [
+    {
+      "stage": "independent_original",
+      "exit_code": 0,
+      "comparisons": [],
+      "independent_receipt_checks": [
+        {
+          "pointer": [
+            "mismatches"
+          ],
+          "actual": [],
+          "passed": true
+        },
+        {
+          "pointer": [
+            "comparison_counts"
+          ],
+          "actual": {
+            "identity_or_status": 5034,
+            "numeric": 15276,
+            "audit_status_rows": 962
+          },
+          "passed": true
+        }
+      ],
+      "fresh_receipt_sha256": "c65a48b3011ec7fec1774697a7b707b624af37f635b4c9044d3462143230ec0b"
+    },
+    {
+      "stage": "independent_selection_B",
+      "exit_code": 0,
+      "comparisons": [],
+      "independent_receipt_checks": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "actual": "PASS",
+          "passed": true
+        },
+        {
+          "pointer": [
+            "n_differences"
+          ],
+          "actual": 0,
+          "passed": true
+        },
+        {
+          "pointer": [
+            "differences"
+          ],
+          "actual": [],
+          "passed": true
+        },
+        {
+          "pointer": [
+            "comparison_counts"
+          ],
+          "actual": {
+            "plan_binding": 3,
+            "input_sha": 8,
+            "script_identity_only": 1,
+            "output_sha": 9,
+            "output_bytes": 9,
+            "output_coverage": 1,
+            "audit_universe": 2,
+            "provenance_universe": 2,
+            "terminal_status_vs_original": 962,
+            "terminal_status_vs_C": 962,
+            "C_provenance": 9620,
+            "original_raw_line": 458,
+            "primary_layer_membership": 12,
+            "primary_layer_count": 12,
+            "ordered_entering": 16,
+            "ordered_unassigned": 16,
+            "flow_count": 38,
+            "flow_ID_set": 36,
+            "contrast_source_and_sign": 36,
+            "contrast_exact_decimal": 36,
+            "contrast_exact_fraction": 12,
+            "contrast_source_record": 12,
+            "contrast_membership": 12,
+            "domain_training_source": 4,
+            "domain_source_coverage": 4,
+            "domain_output_label_or_token": 84,
+            "domain_original_label": 24,
+            "domain_original_primary_fields": 72,
+            "domain_primary_membership": 12,
+            "domain_source_record": 36,
+            "domain_output_coverage": 3,
+            "domain_count_cell": 12
+          },
+          "passed": true
+        },
+        {
+          "pointer": [
+            "n_terminal_statuses_reconstructed"
+          ],
+          "actual": 962,
+          "passed": true
+        },
+        {
+          "pointer": [
+            "signs_by_leg"
+          ],
+          "actual": {
+            "leg1": [
+              "positive",
+              "positive",
+              "negative",
+              "negative",
+              "negative",
+              "negative"
+            ],
+            "leg2": [
+              "positive",
+              "positive",
+              "positive",
+              "positive",
+              "positive",
+              "positive"
+            ]
+          },
+          "passed": true
+        }
+      ],
+      "fresh_receipt_sha256": "978c0f844dc371e09f8cacbc9c00465f69a8ab202ac9bb9c875b968274da1df0"
+    }
+  ],
+  "primary_rmse": {
+    "leg1": {
+      "model_rmse": 0.07021355937856119,
+      "baseline_rmse": 0.17008381101696987,
+      "delta_rmse_model_minus_baseline": -0.09987025163840868,
+      "n_nonempty_layers": 6,
+      "full_domain_support": true
+    },
+    "leg2": {
+      "model_rmse": 0.21827126240140987,
+      "baseline_rmse": 0.11029509536786561,
+      "delta_rmse_model_minus_baseline": 0.10797616703354426,
+      "n_nonempty_layers": 6,
+      "full_domain_support": true
+    }
+  },
+  "matched_support": {
+    "leg1": {
+      "primary_unique_bottles": 24,
+      "primary_layer_memberships": 28,
+      "layer_records": [
+        5,
+        6,
+        6,
+        3,
+        5,
+        3
+      ],
+      "layer_stations": [
+        4,
+        5,
+        5,
+        3,
+        4,
+        3
+      ]
+    },
+    "leg2": {
+      "primary_unique_bottles": 55,
+      "primary_layer_memberships": 63,
+      "layer_records": [
+        16,
+        14,
+        17,
+        7,
+        5,
+        4
+      ],
+      "layer_stations": [
+        7,
+        7,
+        7,
+        5,
+        4,
+        3
+      ]
+    }
+  },
+  "leg2_squared_error_contrasts": [
+    {
+      "leg": "leg2",
+      "bin_index": 0,
+      "difference_exact": "728460396346943100239359212041071/10000000000000000000000000000000000",
+      "sign": "positive",
+      "difference_decimal": 0.07284603963469431
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 1,
+      "difference_exact": "134187759192432813514889608493829/2500000000000000000000000000000000",
+      "sign": "positive",
+      "difference_decimal": 0.053675103676973125
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 2,
+      "difference_exact": "531967538084486773430766795348249/10000000000000000000000000000000000",
+      "sign": "positive",
+      "difference_decimal": 0.053196753808448675
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 3,
+      "difference_exact": "41529075386916225090051309069269/2000000000000000000000000000000000",
+      "sign": "positive",
+      "difference_decimal": 0.020764537693458113
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 4,
+      "difference_exact": "17337519022806376123905131459753/2500000000000000000000000000000000",
+      "sign": "positive",
+      "difference_decimal": 0.00693500760912255
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 5,
+      "difference_exact": "54465731458961729693241394135647/10000000000000000000000000000000000",
+      "sign": "positive",
+      "difference_decimal": 0.005446573145896173
+    }
+  ],
+  "C12": {
+    "all_six_differences_strictly_positive": true,
+    "minimum_difference": 0.005446573145896173,
+    "argument": "For each leg, fixed six-layer errors imply MSE_model(w)-MSE_reference(w)=sum_k w_k*d_k. If every d_k>0 and w_k>=0,sum(w)=1, the difference is at least min(d)>0; monotonic square root gives the same strict RMSE ordering. Leg2 has six positive d. Leg1 has two positive/four negative; admissible one-hot weights can attain either sign, so no invariant ordering. No new weights or weighted score is selected/calculated. This concerns stored primary point errors only, not RSD scenarios, intra-layer weighting or geographical representativeness."
+  },
+  "scope": "Fresh execution of the two preserved checkers against public raw sources and fixed reference outputs. Numerical reproducibility of this research case; not a benchmark of retrieval, semantic extraction or entailment. Run reproduction/run_reproduction.py for the complete ten-stage regeneration including figures."
+}

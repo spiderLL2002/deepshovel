@@ -1,0 +1,112 @@
+{
+  "claims": 7,
+  "distinct_papers": 1,
+  "all_full_claim_closures_match_reference": true,
+  "bounded_depth_runs": 21,
+  "bounded_runs_missing_recorded_dependencies": 19,
+  "all_bounded_depth_omissions_flagged": true,
+  "structural_mutation_controls_rejected": 3,
+  "source_omission_counterexample_retained": true,
+  "f2": {
+    "direct_inputs": [
+      {
+        "reasoning_id": "reason.f2.evidence",
+        "premise_ids": [
+          "obs.f2.assessed",
+          "obs.f2.methods"
+        ],
+        "assumption_ids": [
+          "assumption.cohesion",
+          "assumption.friction",
+          "assumption.spatial"
+        ]
+      },
+      {
+        "reasoning_id": "reason.f2.safety",
+        "premise_ids": [
+          "reason.current.synthesis",
+          "reason.f2.evidence",
+          "reason.pressure.transition"
+        ],
+        "assumption_ids": []
+      }
+    ],
+    "full_claim_detail": {
+      "entities": 41,
+      "edges": 37,
+      "truncated": false,
+      "coverage": {
+        "premise_for": {
+          "required": 18,
+          "retained": 18,
+          "missing_edge_ids": []
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 3,
+          "missing_edge_ids": []
+        }
+      }
+    },
+    "original_search_shortest_preview": {
+      "entities": 7,
+      "edges": 6,
+      "coverage": {
+        "premise_for": {
+          "required": 18,
+          "retained": 1,
+          "missing_edge_ids": [
+            "edge.premise.001",
+            "edge.premise.002",
+            "edge.premise.003",
+            "edge.premise.004",
+            "edge.premise.005",
+            "edge.premise.006",
+            "edge.premise.007",
+            "edge.premise.008",
+            "edge.premise.009",
+            "edge.premise.010",
+            "edge.premise.011",
+            "edge.premise.012",
+            "edge.premise.013",
+            "edge.premise.014",
+            "edge.premise.015",
+            "edge.premise.022",
+            "edge.premise.023"
+          ]
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 1,
+          "missing_edge_ids": [
+            "edge.assumption.002",
+            "edge.assumption.003"
+          ]
+        }
+      }
+    },
+    "historical_auxiliary_export": {
+      "entities": 33,
+      "edges": 33,
+      "coverage": {
+        "premise_for": {
+          "required": 18,
+          "retained": 17,
+          "missing_edge_ids": [
+            "edge.premise.013"
+          ]
+        },
+        "assumption_for": {
+          "required": 3,
+          "retained": 0,
+          "missing_edge_ids": [
+            "edge.assumption.001",
+            "edge.assumption.002",
+            "edge.assumption.003"
+          ]
+        }
+      }
+    }
+  },
+  "output_directory": "runs/public-integration"
+}

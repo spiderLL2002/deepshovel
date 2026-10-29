@@ -1,10 +1,46 @@
 # DeepShovel 2.0
 
-Scientific claim retrieval and source-linked observation reuse. This public release contains the complete Web/Compiler application source, a small executable paper artifact, two licensed source PDFs, and 30 additional text-free graph examples. The 9,000-paper production collection, account credentials, and Atlas reference datasets are not distributed.
+DeepShovel organizes scientific literature into **source-grounded reasoning networks**. Claims connect to reasoning steps, observations and assumptions, with scientific scope and locators for the original text, figures and data. Retrieval exposes these argument structures for source inspection, conditional comparison, claim verification and agent-assisted research.
 
-[Public workbench](https://deepshovel.iiot-shxt.xyz/) · [Versioned releases](https://github.com/spiderLL2002/deepshovel/releases) · [Reproduction CI](https://github.com/spiderLL2002/deepshovel/actions/workflows/reproduce.yml) · [Issues](https://github.com/spiderLL2002/deepshovel/issues)
+Release **`www2027-artifact-v1.1.0`** includes the Web/Compiler application, executable argument checks, a complete GP15 research reproduction and historical records showing how a retrieved argument contributed to a research decision. The production literature collection, accounts and Atlas reference datasets are not distributed.
 
-## Start with the paper artifact
+[Demo paper](paper/main.pdf) · [Public workbench](https://deepshovel.iiot-shxt.xyz/) · [English demonstration walkthrough](artifact/live-demo/README.md) · [Versioned releases](https://github.com/spiderLL2002/deepshovel/releases) · [Reproduction CI](https://github.com/spiderLL2002/deepshovel/actions/workflows/reproduce.yml) · [Issues](https://github.com/spiderLL2002/deepshovel/issues)
+
+## Start with the reasoning and research evidence
+
+| Entry | Inspect or execute | Evidence provided |
+| --- | --- | --- |
+| [Argument expansion](artifact/arguments/README.md) | Existing production expander on a saved scientific graph | All 18 recorded premise edges and 3 assumption edges retained for F2; seven claims checked against a reference traversal; explicit depth-truncation controls |
+| [GP15 research reproduction](artifact/gp15/README.md) | Public inputs, frozen protocol, raw-source checks and ten analysis stages | Four RMSEs, six exact error contrasts and the bounded C12 inference; source and result bindings |
+| [Research decision trace](artifact/research-trace/README.md) | Actual query, returned claim, source chain and subsequent candidate record | Hongo2007 prior-work overlap strengthened a candidate rejection; a separately labeled retrospective GP15 identity index |
+| [Live demonstration](artifact/live-demo/README.md) | English steps and captured application views | Navigate retrieval, reasoning details and original sources in the workbench |
+
+From a clone, use **Node.js 22.13+** and **Python 3.12.13**:
+
+```sh
+git clone https://github.com/spiderLL2002/deepshovel.git
+cd deepshovel
+node --experimental-strip-types --no-warnings artifact/arguments/verify.mjs --out runs/arguments
+python3.12 -B artifact/gp15/fetch_external_sources.py
+python3.12 -B artifact/gp15/verify_demo.py
+python3.12 -B artifact/research-trace/verify_trace.py
+```
+
+These checks need no account, model API, database or npm install. The fetch command restores two supporting inputs from their original providers and verifies their frozen SHA-256 values; subsequent quick checks run offline. The argument package executes existing production traversal on recorded inputs. It checks completeness relative to those inputs, while its missing-edge control shows why structural validation alone cannot discover an unrecorded scientific premise.
+
+For the complete GP15 computation, install the locked research dependencies in an isolated environment:
+
+```sh
+python3.12 -m venv .research-venv
+.research-venv/bin/python -m pip install -r artifact/gp15/reproduction/requirements-research.lock
+.research-venv/bin/python -B artifact/gp15/run_portable.py --out runs/gp15-full
+```
+
+The preserved reference-environment execution completed all ten stages and matched **76 generated files byte-for-byte**. The cross-platform command above executes the same frozen stages, explicitly reporting differences only in four named Python-runtime fields and three verified dependent manifest entries. Scientific fields, CSVs and PNG/SVG/PDF images still require exact bytes. The original strict entry point, `artifact/gp15/reproduction/run_reproduction.py`, remains available with the same `--out` argument. See [GP15 execution details](artifact/gp15/README.md) and [environment and CI scope](repro/ENVIRONMENT.md) for actual outcomes; no reference is rewritten to obtain a PASS. `--out` must name a new directory. On Windows, virtual-environment executables are under `Scripts/`.
+
+Numerical reproducibility, preservation of recorded argument inputs and historical research decisions are separate forms of evidence. The packages expose their scope and failure controls; a stored model judgment is not scientific ground truth.
+
+## Earlier observation-reuse artifact
 
 Download the release archive, or clone this repository. Python 3.12 is the reference interpreter. The browser editor and core verification use Python's standard library: no API key, model weights, Node, Cloudflare account, or production database is needed.
 
@@ -26,7 +62,7 @@ python3 artifact/export_prov.py --record my-reuse.json --out my-reuse.jsonld
 
 Your output filename must be new. Source identity, recorded graph linkage and the operator's scientific reading are separate checks.
 
-## Reproduce the paper's recorded checks
+## Preserved earlier recorded checks
 
 The core command verifies distributed file hashes, both F2 exports and their PDF, the 33-node/33-edge branch, the frozen 20-slot cohort (16/20 shortest traces with both node kinds; 20/20 full-graph routes), 30 further structural examples, the frozen 114-query AI diagnostic, negative controls, and HTTP availability of the editor assets. Results and captured logs go to the output directory, not the input files.
 
@@ -40,7 +76,7 @@ python3.12 -m venv .repro-venv
 
 The extended tier also needs Node.js 22+ and npm; its isolated `npm ci` fetches the pinned JSON-LD consumer. On Windows, use `.repro-venv\Scripts\python.exe`. [Expected outputs and claim coverage](repro/RESULTS.md) · [Version and environment information](repro/ENVIRONMENT.md).
 
-GitHub Actions runs the same commands from a fresh checkout. Download `core-*` and `extended-*` run artifacts for complete logs and machine-readable reports. CI is an automated execution by a separate machine, not a claim of an independent human review or an ACM badge.
+GitHub Actions retains the earlier core, extended and Web-build jobs and adds a reasoning/research evidence job. Download their run artifacts for actual logs and reports. A configured workflow or committed local receipt is not a successful run of that workflow; inspect the Actions result for the revision being used. CI does not establish independent human review or an ACM badge.
 
 ## What the small dataset contains
 
@@ -74,6 +110,6 @@ A fresh installation has an empty library and no Atlas dataset. New parsing/extr
 
 ## License and citation
 
-Original project code and author-created artifact code/data are released under **AGPL-3.0-only**. Copyright and attribution remain with their holders; network users of modified versions must be offered the corresponding source as required by AGPL. The two scientific PDFs remain under **CC BY 4.0** with their authors' attribution. PDF.js and other third-party components retain their own licenses. See [LICENSE](LICENSE), [NOTICE](NOTICE) and [third-party notices](THIRD_PARTY_NOTICES.md).
+Original project code and author-created artifact materials are **AGPL-3.0-only**. Upstream scientific datasets, papers, author software and vendored components retain their own licenses and attribution. The GP15 package preserves CC BY 4.0 measurement/paper attribution and the original model code's MIT notice; two mixed-source supporting inputs are downloaded rather than committed. The Hongo trace distributes no original PDF, figure or source-text quotation. See [LICENSE](LICENSE), [NOTICE](NOTICE) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
-Use [CITATION.cff](CITATION.cff) to cite this software. The release tag and SHA-256 manifests identify the supplied version. A long-term archival DOI is not claimed; [archiving instructions](repro/ARCHIVING.md) describe the remaining step.
+Use [CITATION.cff](CITATION.cff) to cite version 1.1.0. Source manifests and release checksums identify supplied bytes. A long-term archival DOI is not claimed; [archiving instructions](repro/ARCHIVING.md) describe that separate step.

@@ -1,0 +1,197 @@
+{
+  "schema": "gp15-existing-result-display-plan/v1",
+  "status": "ROOT_FROZEN",
+  "frozen": true,
+  "frozen_by": "root",
+  "frozen_at_utc": "2026-10-27T05:35:28.687872+00:00",
+  "task_root_relative": "../..",
+  "analysis_script": "iteration-2026-10-27/analysis/export_review_tables_v1.py",
+  "analysis_script_sha256": "30b777005f1020bf53f6fdc9f4b146fdc10b56e4152288da7fddfee0548f581e",
+  "required_python_minor": "3.12",
+  "source_exposure": "All GP15 values already exposed. These deterministic SI displays and review QC summaries are post-exposure descriptive work; no new validation, causal estimate, fitting, corrected prediction, eligibility rule, weight, or primary score is introduced.",
+  "inputs": [
+    {
+      "role": "primary_layers",
+      "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321"
+    },
+    {
+      "role": "original_samples",
+      "path": "results/ree_ph_fixed_transfer_v1/sample_predictions.csv",
+      "sha256": "75e79395b1db84626911efccefc922005dddc0c896fe86621dcdd9fb5fab963e"
+    },
+    {
+      "role": "common_layers",
+      "path": "revision-2026-10-27/analysis/results-v2/common_station_layers.csv",
+      "sha256": "97c0bc57f33e54887a0366680919e7fd37a0772b229b701a07009be03cfea6fb"
+    },
+    {
+      "role": "shape_layers",
+      "path": "revision-2026-10-27/analysis/results-v2/abundance_shape_layers.csv",
+      "sha256": "5388ed78e6f1595f27956e1741af866e0b7b42662187b8eaf6cad711151d3365"
+    },
+    {
+      "role": "paas",
+      "path": "ree/round8/raw/Lin2024-paas.csv",
+      "sha256": "b04fcb55324673832cef85a8e75c7580eb52448a11120421fd1bb711237ce0cb"
+    },
+    {
+      "role": "molar_mass",
+      "path": "ree/round8/raw/Lin2024-molar_mass_mgmol.csv",
+      "sha256": "58f67c7cdd4f2357afb37c20587f2e6210a221d06e33451e1eb58305ca1632c0"
+    },
+    {
+      "role": "leg1_ph",
+      "path": "ree/round8/raw/GP15-leg1-pH.csv",
+      "sha256": "eddd66f7043437b56dd7d527d8fbb48331535f810a659e02254416c45e436d3b"
+    },
+    {
+      "role": "leg2_ph",
+      "path": "ree/round8/raw/GP15-leg2-pH.csv",
+      "sha256": "936a04097ccd61b8ff8d62f60fcbbfc01b4cf0a46346815c7f9474ab4595365d"
+    },
+    {
+      "role": "depth_conflicts",
+      "path": "revision-2026-10-27/analysis/results-v2/depth_conflicts.csv",
+      "sha256": "196826da941b713e84a1366665030acaed2f644d2148f86de607d4a2589eeb63"
+    }
+  ],
+  "output_relative": "iteration-2026-10-27/analysis/review-tables-v1",
+  "outputs": [
+    "primary_layer_scores.csv",
+    "primary_layer_scores.md",
+    "common_station_events.csv",
+    "common_station_events.md",
+    "abundance_shape_record_layers.csv",
+    "abundance_shape_record_layers.md",
+    "normalization_constants.csv",
+    "normalization_constants.md",
+    "ph_sd_support.json",
+    "primary_depth_conflict_distribution.json"
+  ],
+  "manifest_outputs": [
+    "source_manifest.json",
+    "output_manifest.json"
+  ],
+  "artifact_definitions": [
+    {
+      "outputs": [
+        "primary_layer_scores.csv",
+        "primary_layer_scores.md"
+      ],
+      "inputs": [
+        "primary_layers",
+        "original_samples"
+      ],
+      "selection": "Exactly the original twelve variant=primary rows; copy stored numeric tokens. Per-leg Markdown uses seven columns: layer, bottle/station n, observed/model/reference pH, both signed errors.",
+      "checks": [
+        "All six bins per leg, original primary 24/55 unique sample IDs",
+        "Stored prediction-minus-observation errors, source counts and IDs; no replacement scoring"
+      ]
+    },
+    {
+      "outputs": [
+        "common_station_events.csv",
+        "common_station_events.md"
+      ],
+      "inputs": [
+        "common_layers",
+        "original_samples"
+      ],
+      "selection": "Existing common-layer memberships only; stations 16/18 on Leg1,31/33 on Leg2. Join by leg+sample ID to existing event identities, export station-by-layer event sets and original raw row locators.",
+      "checks": [
+        "Exactly twelve existing common-layer rows",
+        "Every common sample belongs to original primary support",
+        "Event IDs are metadata; changing events do not create new scores or independent replicates"
+      ]
+    },
+    {
+      "outputs": [
+        "abundance_shape_record_layers.csv",
+        "abundance_shape_record_layers.md"
+      ],
+      "inputs": [
+        "shape_layers",
+        "primary_layers"
+      ],
+      "selection": "Copy twelve existing weighting=record rows; mean_A, s_of_mean_composition and mean_alpha, preserving original numeric tokens in CSV.",
+      "checks": [
+        "Exact membership sets and counts agree with original primary layers",
+        "A*s_of_mean_composition equals stored alpha within 1e-20",
+        "Markdown rescales A/alpha by 1e8 solely for display",
+        "Explicit different geographical support by leg/layer and post-exposure algebraic-description limitations"
+      ]
+    },
+    {
+      "outputs": [
+        "normalization_constants.csv",
+        "normalization_constants.md"
+      ],
+      "inputs": [
+        "paas",
+        "molar_mass"
+      ],
+      "selection": "Copy Sm/Gd/Dy/Er PAAS ug/g and original mass mg/mol; convert mass to g/mol by exact Decimal multiplication by .001.",
+      "checks": [
+        "One source row each",
+        "No substitution of modern atomic-weight values; no model response computation"
+      ]
+    },
+    {
+      "outputs": [
+        "ph_sd_support.json"
+      ],
+      "inputs": [
+        "leg1_ph",
+        "leg2_ph",
+        "primary_layers",
+        "original_samples"
+      ],
+      "selection": "Within each complete original pH table, count finite SD1 bottle and fish values separately, as well as rows with any finite SD. Include zero/negative counts and all finite record tokens/IDs/physical CSV line ranges. Intersect source sample IDs with the unique original primary support (24/55) and give exact IDs by leg and overall.",
+      "checks": [
+        "Each primary raw pH source line matches original sample_predictions ph_line",
+        "All-source finite counts do not apply flags, depths, eligible pH, or prediction exclusions",
+        "No SD imputation or conversion to replicate counts; no claim that finite SD proves accuracy or specifies complete uncertainty"
+      ]
+    },
+    {
+      "outputs": [
+        "primary_depth_conflict_distribution.json"
+      ],
+      "inputs": [
+        "depth_conflicts",
+        "primary_layers",
+        "original_samples"
+      ],
+      "selection": "From the existing nonzero conflict table retain eligible_primary=True only; preserve raw source IDs/lines and source hash fields. Give requested cumulative 0<abs<=2,0<abs<=10,abs>10 m counts and explicitly separate mutually exclusive 0<abs<=2,2<abs<=10,abs>10 m counts.",
+      "checks": [
+        "Known source 53 nonzero conflicts within 79 unique primary bottles",
+        "Every conflict identity/raw row locator agrees with the original table",
+        "No zero-difference invention, physical-depth adjudication, exclusion, or reassignment"
+      ]
+    }
+  ],
+  "execution_contract": {
+    "root_action_before_execution": "Independently inspect this script and input/operation scope. Root may freeze a new copy/in-place approved plan by setting frozen=true,frozen_by=root,frozen_at_utc and status=ROOT_FROZEN; preserve actual approved code/input SHA values. The exporter has not been run by its author.",
+    "invocation_template": "<approved Python 3.12 executable> -B iteration-2026-10-27/analysis/export_review_tables_v1.py --plan iteration-2026-10-27/analysis/<root-frozen-plan>.json --out iteration-2026-10-27/analysis/review-tables-v1",
+    "refusal_rules": [
+      "Wrong runtime, unfrozen/non-root plan, changed code, input role/path/SHA mismatch",
+      "Unexpected source rows, IDs, memberships, counts or algebraic consistency failure",
+      "Existing output directory, output outside new iteration analysis child, or output path differing from approved plan",
+      "Any changed source/script/plan bytes immediately before first output write"
+    ],
+    "write_rule": "Construct artifacts in memory, then create a new output directory exclusively; write sources only read-only. A partial failed output is retained and never overwritten.",
+    "manifests": "source_manifest records plan/script/input identities and field/selection definitions. output_manifest hashes every other output including source_manifest; its own SHA is explicitly omitted to avoid recursive hashing.",
+    "network": false,
+    "new_fit": false,
+    "new_validation": false,
+    "frozen_original_mutation": false
+  },
+  "author_checks_performed_before_root_review": [
+    "Read relevant source CSV headers and first stored diagnostic records; confirmed intended field names.",
+    "Wrote new script and this draft plan only.",
+    "Computed SHA-256 for exact source/script bytes.",
+    "Did not execute/import the exporter, run check-only, calculate its requested new summaries, or create its output directory."
+  ],
+  "root_review": "Read the complete exporter and draft definitions. Approved only exact9boundinput files, existing12primary/12common/12shape rows, unitdisplay, sourceSDavailability and nonzero-depth distribution. No fit, selection, new response evaluation, network or original writes. All outputs remain post-exposure descriptive/QC; reviewed quantities already exposed in cycle01."
+}

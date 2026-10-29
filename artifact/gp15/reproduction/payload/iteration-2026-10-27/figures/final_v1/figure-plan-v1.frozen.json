@@ -1,0 +1,128 @@
+{
+  "schema": "gp15-final-figures-plan/v1",
+  "status": "ROOT_FROZEN_FOR_RENDER",
+  "frozen": true,
+  "frozen_by": "root",
+  "frozen_at_utc": "2026-10-27T07:28:10.810651+00:00",
+  "task_root_relative": "../../..",
+  "script": "iteration-2026-10-27/figures/final_v1/make_final_figures_v1.py",
+  "script_sha256": "bf891baf04cb672963d0b18e7015a95bc874ece11854a1087461b9f64d41b597",
+  "inputs": [
+    {
+      "role": "diagnostic_manifest",
+      "path": "revision-2026-10-27/analysis/results-v2/run_manifest.json",
+      "sha256": "cc25e869610307913c3be8f72bfae0f49b117dd9059c4057f5a12548251f48c9"
+    },
+    {
+      "role": "support",
+      "path": "revision-2026-10-27/analysis/results-v2/station_layer_support.csv",
+      "sha256": "4b37620f76f64aa76db6619c5da3148290fda56d73fe302fc7e394f40f5ec93c"
+    },
+    {
+      "role": "support_long",
+      "path": "revision-2026-10-27/analysis/results-v2/station_layer_support_long.csv",
+      "sha256": "11647105cc74b9ef771e16239002ff26b04eaaeb5631a9417c6f2e1766ac101d"
+    },
+    {
+      "role": "geometry",
+      "path": "revision-2026-10-27/analysis/results-v2/station_geometry.json",
+      "sha256": "26dde87d20eb3a8c8ca9508036c1c4d85db56ab953503302a5010c3747e479b2"
+    },
+    {
+      "role": "mse",
+      "path": "revision-2026-10-27/analysis/results-v2/mse_decomposition.csv",
+      "sha256": "ed9898444bbb3196a57c56e79876af75daf1e2f779c88fd677f2486890c42289"
+    },
+    {
+      "role": "primary_coordinates",
+      "path": "manuscript/figures/fig01_source_values.csv",
+      "sha256": "9b7897063b601493e3aa39a113fb9b19ea8d8919add5a2165491be5da609d6ba"
+    },
+    {
+      "role": "sensitivity_coordinates",
+      "path": "manuscript/figures/fig02_source_values.csv",
+      "sha256": "0526e9bf5fda34ae521e94b70f4f1ef7d4bc06b53b0047d1e128440bca6b5e94"
+    },
+    {
+      "role": "domain_coordinates",
+      "path": "manuscript/figures/fig03_source_values.csv",
+      "sha256": "7a537623074af88509b390ef850c4ea2e548af913ba1386dd201283f60d34e4e"
+    },
+    {
+      "role": "original_figure_manifest",
+      "path": "manuscript/figures/figure-source-manifest.json",
+      "sha256": "48339679eecd438a19547ad480430c641eb4965436b2d1ac8f6ca09cd3954d23"
+    },
+    {
+      "role": "protocol",
+      "path": "ree/round8/protocol-frozen-v1.json",
+      "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79"
+    },
+    {
+      "role": "captions",
+      "path": "iteration-2026-10-27/figures/final_v1/CAPTIONS.md",
+      "sha256": "3be16e3f66efd169caad853804d3b3ede3992cd9dc0ca683382ea255bd3207db"
+    },
+    {
+      "role": "caption_bindings",
+      "path": "iteration-2026-10-27/figures/final_v1/caption-source-bindings.json",
+      "sha256": "c871aa84aec499962c0f185eba390d840844c284469da825654f18e900e60cd3"
+    }
+  ],
+  "coordinate_identity_reference": [
+    {
+      "path": "revision-2026-10-27/figures/v3/fig01_source_values.csv",
+      "sha256": "c07342e3310f94a91e371b38d5fd5987ec9207db5d232414a1b0540b69dcc536"
+    },
+    {
+      "path": "revision-2026-10-27/figures/v3/fig02_source_values.csv",
+      "sha256": "9b7897063b601493e3aa39a113fb9b19ea8d8919add5a2165491be5da609d6ba"
+    },
+    {
+      "path": "revision-2026-10-27/figures/v3/fig03_source_values.csv",
+      "sha256": "ed9898444bbb3196a57c56e79876af75daf1e2f779c88fd677f2486890c42289"
+    },
+    {
+      "path": "revision-2026-10-27/figures/v3/figS01_source_values.csv",
+      "sha256": "0526e9bf5fda34ae521e94b70f4f1ef7d4bc06b53b0047d1e128440bca6b5e94"
+    },
+    {
+      "path": "revision-2026-10-27/figures/v3/figS02_source_values.csv",
+      "sha256": "7a537623074af88509b390ef850c4ea2e548af913ba1386dd201283f60d34e4e"
+    }
+  ],
+  "generated_outputs": [
+    "fig01_sampling_support.png",
+    "fig01_sampling_support.svg",
+    "fig01_sampling_support.pdf",
+    "fig02_sampled_layer_means.png",
+    "fig02_sampled_layer_means.svg",
+    "fig02_sampled_layer_means.pdf",
+    "fig03_error_decomposition.png",
+    "fig03_error_decomposition.svg",
+    "fig03_error_decomposition.pdf",
+    "figS01_fixed_sensitivity.png",
+    "figS01_fixed_sensitivity.svg",
+    "figS01_fixed_sensitivity.pdf",
+    "figS02_calibration_domain.png",
+    "figS02_calibration_domain.svg",
+    "figS02_calibration_domain.pdf",
+    "fig01_source_values.csv",
+    "fig02_source_values.csv",
+    "fig03_source_values.csv",
+    "figS01_source_values.csv",
+    "figS02_source_values.csv",
+    "figure-source-manifest.json"
+  ],
+  "output_parent": "iteration-2026-10-27/figures/final_v1",
+  "caption_file_not_generated_or_overwritten": true,
+  "scientific_calculation_scope": "Only rendering already exposed frozen values; no new scientific results, model fitting, samples, scoring, sensitivity choices or manuscript/SI writes.",
+  "metadata": {
+    "pdf_fonttype": 42,
+    "svg_text": "editable",
+    "svg_hashsalt": "gp15-final-iteration-20261027-v1",
+    "pdf_creation_and_modification_dates": null,
+    "png_dpi": 450
+  },
+  "execution_status": "APPROVED_RENDERING_EXISTING_FROZEN_VALUES_ONLY"
+}

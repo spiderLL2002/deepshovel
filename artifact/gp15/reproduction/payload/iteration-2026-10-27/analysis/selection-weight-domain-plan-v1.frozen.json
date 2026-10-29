@@ -1,0 +1,161 @@
+{
+  "schema": "gp15-existing-selection-weight-domain-display/v1",
+  "status": "ROOT_FROZEN",
+  "frozen": true,
+  "frozen_by": "root",
+  "frozen_at_utc": "2026-10-27T06:17:19.706937+00:00",
+  "created_utc": "2026-10-27T06:11:53.540158+00:00",
+  "analysis_script": "iteration-2026-10-27/analysis/export_selection_weight_domain_v1.py",
+  "analysis_script_sha256": "cf2c284faf2d8ea207003f704abc24946e31191b6c8ab9bb3453df548544af00",
+  "required_python_minor": "3.12",
+  "source_exposure": "All responses already exposed. New SI display/QC only; no new response validation, fitting, altered selection/weights, mechanism, or corrected prediction.",
+  "inputs": [
+    {
+      "role": "pairing_audit",
+      "path": "results/ree_ph_fixed_transfer_v1/pairing_audit.csv",
+      "sha256": "5d6e2e4ec14c2f50ca85ef988a220bc674acfa5a8f1b72de48a2972899862c75"
+    },
+    {
+      "role": "leg1_ree",
+      "path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9"
+    },
+    {
+      "role": "leg1_ph",
+      "path": "ree/round8/raw/GP15-leg1-pH.csv",
+      "sha256": "eddd66f7043437b56dd7d527d8fbb48331535f810a659e02254416c45e436d3b"
+    },
+    {
+      "role": "leg2_ree",
+      "path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809"
+    },
+    {
+      "role": "leg2_ph",
+      "path": "ree/round8/raw/GP15-leg2-pH.csv",
+      "sha256": "936a04097ccd61b8ff8d62f60fcbbfc01b4cf0a46346815c7f9474ab4595365d"
+    },
+    {
+      "role": "layers",
+      "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321"
+    },
+    {
+      "role": "domain_rows",
+      "path": "ree/round8/training-domain-annotation.csv",
+      "sha256": "1ae0728458112b3f086a1a0148bafc9f5fcd088aab73ccaf0bed5cb285ac4be8"
+    },
+    {
+      "role": "domain_metadata",
+      "path": "ree/round8/training-domain-annotation.json",
+      "sha256": "42e53e25d592dc45456d7b1bdae2081fb38c124bbacd8350f98f5fb17e7d0779"
+    }
+  ],
+  "output_relative": "iteration-2026-10-27/analysis/selection-weight-domain-v1",
+  "outputs": [
+    "eligibility_flow.csv",
+    "eligibility_flow.md",
+    "audit_status_provenance.csv",
+    "layer_squared_error_difference.csv",
+    "layer_squared_error_difference.md",
+    "joint_domain_labels.csv",
+    "joint_domain_counts.csv",
+    "joint_domain.md",
+    "input_manifest.json",
+    "output_manifest.json"
+  ],
+  "artifact_definitions": [
+    {
+      "outputs": [
+        "eligibility_flow.csv",
+        "eligibility_flow.md",
+        "audit_status_provenance.csv"
+      ],
+      "inputs": [
+        "pairing_audit",
+        "leg1_ree",
+        "leg1_ph",
+        "leg2_ree",
+        "leg2_ph",
+        "layers"
+      ],
+      "selection": "Copy original audit terminal assignments by leg and unique sample ID. Show source data-record/unique-ID counts, shared/nonshared IDs, every original ordered status including zero categories, accepted depth-union unique bottles, original primary unique bottles and memberships. No eligibility conditions are rerun.",
+      "semantics": "Terminal audit categories are mutually exclusive as reported because original if/elif assigns the first matching status. Underlying possible failure causes are not mutually exclusive and later causes are not evaluated after an early assignment. Counts are a sequential classification of file records/IDs, not cause-specific independent rates or independent study counts.",
+      "checks": [
+        "Raw IDs unique; original audit ID universe exactly equals raw ID union",
+        "All shared raw line locators agree with audit",
+        "Original primary IDs remain subset of original accepted union; 24/55 unique IDs",
+        "Each primary row retains original membership count; boundary memberships not independent bottles"
+      ]
+    },
+    {
+      "outputs": [
+        "layer_squared_error_difference.csv",
+        "layer_squared_error_difference.md"
+      ],
+      "inputs": [
+        "layers"
+      ],
+      "selection": "Exactly twelve variant=primary rows. Compute e_model squared minus e_reference squared with Fraction from original serialized decimal signed-error tokens; retain original tokens, exact terminating decimals and rational numerator/denominator.",
+      "semantics": "For fixed original layer-mean errors only, arbitrary nonnegative normalized depth weights yield a weighted-MSE difference equal to the weighted sum of the twelve per-leg d terms. All strictly positive terms establish strictly worse model MSE/RMSE for every such weight vector; mixed signs preclude invariant ordering and permit either ordering via concentrating weight. No weight is chosen/optimized and no new weighted score is calculated.",
+      "boundaries": [
+        "Stored point-estimate token arithmetic, not increased physical measurement precision",
+        "No extension to RSD scenarios, continuous error boxes, geographical areas, modified intra-layer weights or bottle-level RMSE"
+      ]
+    },
+    {
+      "outputs": [
+        "joint_domain_labels.csv",
+        "joint_domain_counts.csv",
+        "joint_domain.md"
+      ],
+      "inputs": [
+        "domain_rows",
+        "domain_metadata",
+        "layers"
+      ],
+      "selection": "The source annotation CSV has48rows across four variants. Copy only its original twelve variant=primary rows; match original layer numeric tokens/IDs. Copy original alpha and observed-pH directional labels, check them against extrema of the original six means in the original annotation JSON. Export the within/outside 2x2 counts separately by leg and for all twelve layer rows.",
+      "semantics": "The axes use six global calibration-layer means, not the full feature range of1755source-compilation records or all source bottles. Endpoints remain inclusive. The rectangle is descriptive, not a joint validity region. Observed target pH is required, so it is not an advance suitability rule.",
+      "prohibitions": [
+        "Do not use predicted pH for the observed-pH axis",
+        "No threshold change, row deletion, new within-domain score, new subset validation or causal interpretation",
+        "The known joint-within row may only link back to its already stored layer result in later writing; this script does not compute a subset score"
+      ]
+    }
+  ],
+  "status_semantics_reference": {
+    "path": "ree/round8/analyze_ree_ph_transfer.py",
+    "sha256": "af466ab78796d559e83d5610ab72168f42de960b6b8e3085c01092398207baeb",
+    "locator": "prepare_pairs(), lines170-211: if/elif order",
+    "runtime_read": false,
+    "purpose": "Source code read by author to confirm audit meanings; runtime scientific reads are restricted to eight exact inputs above."
+  },
+  "execution_contract": {
+    "root_action_before_execution": "Read complete new exporter and this draft. Freeze an approved plan copy with status=ROOT_FROZEN,frozen=true,frozen_by=root,frozen_at_utc and approved exact script/input SHA values. Author has not run or imported exporter.",
+    "invocation_template": "<Python3.12> -B iteration-2026-10-27/analysis/export_selection_weight_domain_v1.py --plan iteration-2026-10-27/analysis/<root-frozen-plan>.json --out iteration-2026-10-27/analysis/selection-weight-domain-v1",
+    "refusal_rules": [
+      "Wrong runtime or unfrozen/non-root plan",
+      "Unexpected role/path/SHA, source fields/IDs/labels, changed primary membership",
+      "Existing output directory or any output different from exact new approved directory",
+      "Changed plan, script or source bytes before first output write"
+    ],
+    "write_rule": "Construct all artifacts in memory, then exclusively create new output directory. Never overwrite old outputs. Retain partial failed output rather than retry/overwrite silently.",
+    "manifest_rule": "input_manifest includes approved plan/script/input SHA and definitions. output_manifest hashes all other output files and explicitly omits its own recursive SHA.",
+    "network": false,
+    "fit": false,
+    "new_validation": false,
+    "original_mutation": false
+  },
+  "counting_rule": {
+    "paper_iteration_delta": 0,
+    "review_cycle_delta": 0,
+    "meaning": "Export alone counts as neither a paper iteration nor a review cycle. Only later substantive manuscript incorporation and rereview can qualify within the root counting rules."
+  },
+  "author_preparation": [
+    "Read actual source CSV headers and annotation rows; observed four terminal status values in actual audit, while preserving all eight possible ordered original statuses with zero rows.",
+    "Read original prepare_pairs if/elif logic; confirmed sequential terminal-category semantics.",
+    "Read original metadata arrays containing six alpha and six pH means; no source refetch or new thresholds.",
+    "Wrote new exporter and this draft only. Did not execute/import exporter, run its summaries, or create its output directory."
+  ],
+  "root_review": "Read complete script/draft. Approved8boundinputs, orderedstatuspartitionnotcause-specificrates, all12storedprimarypoint-error contrasts with exactFraction signs only, and originalsix-calibration-mean rectangle labels without newsubsetscores/selection. No model fitting or validation. Outputpathis task-relative and originalfiles read-only."
+}

@@ -1,0 +1,1863 @@
+{
+  "schema": "gp15-public-bounded-novelty-context/v1",
+  "created_utc": "2026-10-27T05:57:15.014230+00:00",
+  "scope": "Finite source/context extension; same work, no new review cycle, no manuscript/state writes",
+  "query_date": "2026-10-27",
+  "queries": [
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "url": "https://api.crossref.org/works?query=rare+earth+element+pH+proxy+concentration+slope+abundance+validation&rows=20",
+      "retrieved_utc": "2026-10-27T05:42:52.966225+00:00",
+      "status": 200,
+      "response_sha256": "1c4f14f3b23391f16b14c1e425708f1aa313b1e2f2736ae4098fdc6d586c0f93",
+      "coverage": "First20rankedrecords only. Metadata/title screen, not allfulltexts or exhaustive novelty proof.",
+      "reported_total_results": 2342913,
+      "actual_returned_records": 20,
+      "screen_level": "Every returned title/DOI inspected; not a full-text corpus screen",
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json",
+      "raw_response_distributed_in_public_packet": false
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "url": "https://api.crossref.org/works?query=Lin+Catling+rare+earth+pH+GP15+transfer+calibration&rows=20",
+      "retrieved_utc": "2026-10-27T05:42:55.450298+00:00",
+      "status": 200,
+      "response_sha256": "ed27dcb4e95172703278bc24a17aba05cff28eb239d43c1263c625dec864b1a8",
+      "coverage": "First20rankedrecords only. Metadata/title screen, not allfulltexts or exhaustive novelty proof.",
+      "reported_total_results": 3730622,
+      "actual_returned_records": 20,
+      "screen_level": "Every returned title/DOI inspected; not a full-text corpus screen",
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json",
+      "raw_response_distributed_in_public_packet": false
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "url": "https://api.openaire.eu/search/publications?keywords=rare+earth+element+pH+proxy+concentration+slope+abundance+validation&format=json&size=20&page=1",
+      "retrieved_utc": "2026-10-27T05:42:58.061388+00:00",
+      "status": 200,
+      "response_sha256": "25d269f53e8c8c034d63975ae1e0be5ead369a6953480c142f283de3185f7d36",
+      "coverage": "First20rankedrecords only. Metadata/title screen, not allfulltexts or exhaustive novelty proof.",
+      "reported_total_results": 0,
+      "actual_returned_records": 0,
+      "screen_level": "Every returned title/DOI inspected; not a full-text corpus screen",
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/openaire-1.json",
+      "raw_response_distributed_in_public_packet": false
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "url": "https://api.openaire.eu/search/publications?keywords=Lin+Catling+rare+earth+pH+GP15+transfer+calibration&format=json&size=20&page=1",
+      "retrieved_utc": "2026-10-27T05:42:59.853336+00:00",
+      "status": 200,
+      "response_sha256": "7da81538e704c15e2a7ba525b881071561240e4581d3fa88790686948f46cd51",
+      "coverage": "First20rankedrecords only. Metadata/title screen, not allfulltexts or exhaustive novelty proof.",
+      "reported_total_results": 0,
+      "actual_returned_records": 0,
+      "screen_level": "Every returned title/DOI inspected; not a full-text corpus screen",
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/openaire-2.json",
+      "raw_response_distributed_in_public_packet": false
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "url": "https://api.openaire.eu/search/publications?keywords=rare+earth+pH&format=json&size=20&page=1",
+      "started_utc": "2026-10-27T05:48:09.707835+00:00",
+      "limit": 20,
+      "page": 1,
+      "no_automatic_retry": true,
+      "status": 200,
+      "response_sha256": "1d817a5b1e8a8c334432ba59da226e70113f22c861beb3b8043b3d2d12f595f5",
+      "ended_utc": "2026-10-27T05:48:13.715742+00:00",
+      "reported_total_results": 4390,
+      "actual_returned_records": 20,
+      "screen_level": "Every returned title/DOI inspected; not a full-text corpus screen",
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json",
+      "raw_response_distributed_in_public_packet": false
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "url": "https://api.openaire.eu/search/publications?keywords=GP15&format=json&size=20&page=1",
+      "started_utc": "2026-10-27T05:48:13.716720+00:00",
+      "limit": 20,
+      "page": 1,
+      "no_automatic_retry": true,
+      "status": 200,
+      "response_sha256": "48644a67860eb5d927a6c58d28434aa58cb807856b5f7935e95ed09cee599f6a",
+      "ended_utc": "2026-10-27T05:48:16.305352+00:00",
+      "reported_total_results": 198,
+      "actual_returned_records": 20,
+      "screen_level": "Every returned title/DOI inspected; not a full-text corpus screen",
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json",
+      "raw_response_distributed_in_public_packet": false
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "url": "https://api.openaire.eu/search/publications?keywords=rare+earth+seawater+pH&format=json&size=20&page=1",
+      "started_utc": "2026-10-27T05:55:42.684833+00:00",
+      "limit": 20,
+      "page": 1,
+      "no_automatic_retry": true,
+      "status": 200,
+      "response_sha256": "f2dac3d3860778baffde3ec5bb9706a83a3f31ecb9ac00ce5a697eec0aa85aac",
+      "ended_utc": "2026-10-27T05:55:46.344667+00:00",
+      "reported_total_results": 173,
+      "actual_returned_records": 20,
+      "screen_level": "Every returned title/DOI inspected; not a full-text corpus screen",
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json",
+      "raw_response_distributed_in_public_packet": false
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH Catling",
+      "url": "https://api.openaire.eu/search/publications?keywords=rare+earth+pH+Catling&format=json&size=20&page=1",
+      "started_utc": "2026-10-27T05:55:46.345548+00:00",
+      "limit": 20,
+      "page": 1,
+      "no_automatic_retry": true,
+      "status": 200,
+      "response_sha256": "07d8bd3168fd7c2fbe2456ddbe035b4e37da1ec352dae1d76fa892dafa6633f2",
+      "ended_utc": "2026-10-27T05:55:48.858425+00:00",
+      "reported_total_results": 2,
+      "actual_returned_records": 2,
+      "screen_level": "Every returned title/DOI inspected; not a full-text corpus screen",
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-2.json",
+      "raw_response_distributed_in_public_packet": false
+    }
+  ],
+  "web_source_queries": [
+    {
+      "query": "\"10.1029/2024GB008125\"",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    },
+    {
+      "query": "\"Chen\" \"Gaoyuzhuang\" \"2026\" rare earth pH",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    },
+    {
+      "query": "\"10.1144/jgs2025-183\" pH",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    },
+    {
+      "query": "\"Lin\" \"Catling\" \"slope\" \"concentration\" REE pH -site:researchgate.net",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    },
+    {
+      "query": "\"GP15\" \"pH\" \"rare earth\"",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    },
+    {
+      "query": "\"Comparing dissolved rare earth element distributions\" \"GP15\" \"2022\"",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    },
+    {
+      "query": "\"Y/Ho ratios in marine sediments unveil Neoproterozoic ocean acidification\"",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    },
+    {
+      "query": "\"Lin Catling\" \"pH\" \"concentration scale\"",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    },
+    {
+      "query": "\"Sm\" \"Gd\" \"Dy\" \"Er\" \"pH\" \"validation\"",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    },
+    {
+      "query": "\"REE\" \"GP15\" \"pH\" calibration",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    },
+    {
+      "query": "site:agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GB008125 \"2.4 Ocean\"",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    },
+    {
+      "query": "site:agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GB008125 \"normalization\"",
+      "date_utc": "2026-10-27",
+      "coverage": "Bounded metadata and primary-source reads; no stable exhaustive hit-count claim"
+    }
+  ],
+  "index_counts": {
+    "retrieved_record_hits": 102,
+    "crossref_hits": 40,
+    "crossref_unique_DOIs": 38,
+    "original_long_openaire_hits": [
+      0,
+      0
+    ],
+    "short_noisy_openaire_hits": [
+      20,
+      20
+    ],
+    "focused_openaire_hits": [
+      20,
+      2
+    ],
+    "focused_openaire_reported_totals": [
+      173,
+      2
+    ],
+    "unique_DOI_strings": 93,
+    "shared_DOI_groups": 91,
+    "dedup_definition": "Shared normalized DOI connected components; records can contain multiple versions. No-DOI rows remain distinct. Not a count of independent studies."
+  },
+  "screen_records": [
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 1,
+      "title": "Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early Earth: A Proof of Concept Study",
+      "dois": [
+        "10.7185/gold2023.18983"
+      ],
+      "screen": "earlier Lin conference record; same-project lead",
+      "reason": "Closely matching title/authors; not counted as independent evidence. Body not re-downloaded.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 0,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 2,
+      "title": "Artificial Neural Network Modeling of Rare Earth Element Solvent Extraction Based on Ph and Extractant Concentration",
+      "dois": [
+        "10.2139/ssrn.5363733"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 8,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 3,
+      "title": "The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early Earth",
+      "dois": [
+        "10.2475/001c.118215"
+      ],
+      "screen": "core implementation; existing primary article/code checked",
+      "reason": "The implementation under evaluation, not independent prior validation.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 2,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 4,
+      "title": "Artificial Neural Network Modeling of Rare Earth Element Solvent Extraction Based on pH and Extractant Concentration",
+      "dois": [
+        "10.2139/ssrn.5736208"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 8,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 5,
+      "title": "Fundamental processes affecting aquatic rare earth element chemistry; new experimental and empirical observations towards a proxy for anthropogenic change",
+      "dois": [
+        "10.14264/158756"
+      ],
+      "screen": "aquatic-REE thesis context lead; body not screened",
+      "reason": "Broad chemistry title does not establish the exact Lin implementation critique; unresolved full-text scope.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 4,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 6,
+      "title": "Zircon Alteration as a Proxy for Rare Earth Element Mineralization Processes in Carbonatite-Nordmarkite Complexes of the Mianning-Dechang Rare Earth Element Belt, China",
+      "dois": [
+        "10.5382/econgeo.4660"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 5,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 7,
+      "title": "Mussel shells of\n                  <i>Mytilus edulis</i>\n                  as bioarchives of the   rare earth elements and yttrium distribution in seawater and the   potential impact of pH and temperature on the partitioning   behaviour",
+      "dois": [
+        "10.5194/bgd-12-14911-2015"
+      ],
+      "screen": "different-medium pH/temperature partitioning context",
+      "reason": "Title-level screen only. Shell partitioning precedes the 2024 implementation; no inference about all common-scale literature.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 6,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 8,
+      "title": "Figure 2: The spatial distribution of rare earth elements in soils (HREE, heavy rare earth element; LREE, light rare earth element).",
+      "dois": [
+        "10.7717/peerj.15470/fig-2"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 7,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 9,
+      "title": "Artificial neural network modeling of rare earth element solvent extraction based on pH and extractant concentration",
+      "dois": [
+        "10.1016/j.gsme.2026.03.001"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 8,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 10,
+      "title": "The rare-earth element abundance in the sedimentary gem deposits of Sri Lanka",
+      "dois": [
+        "10.1016/0024-4937(84)90029-x"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 9,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 11,
+      "title": "Supplementary material to \"Mussel shells of\n                  <i>Mytilus edulis</i>\n                  as bioarchives of the   rare earth elements and yttrium distribution in seawater and the   potential impact of pH and temperature on the partitioning   behaviour\"",
+      "dois": [
+        "10.5194/bgd-12-14911-2015-supplement"
+      ],
+      "screen": "different-medium pH/temperature partitioning context",
+      "reason": "Title-level screen only. Shell partitioning precedes the 2024 implementation; no inference about all common-scale literature.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 10,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 12,
+      "title": "Rare Earth Element Proxy For Distinguishing Marine Versus Freshwater Ediacaran Fossils",
+      "dois": [
+        "10.54991/jop.2024.1874"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 11,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 13,
+      "title": "Examination of rare earth element concentration patterns in freshwater fish tissues",
+      "dois": [
+        "10.1016/j.chemosphere.2014.06.010"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 12,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 14,
+      "title": "Trace rare earth element (TREE), heavy rare earth element (HREE), and whole rock element data from core splits, Ross Adams deposit, Bokan Mountain, Dixon Entrance Quadrangle, Alaska",
+      "dois": [
+        "10.14509/24526"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 13,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 15,
+      "title": "Table 2: Aluminium concentration in shoots of potential slope plants grown in differing soil pH.",
+      "dois": [
+        "10.7717/peerj.9595/table-2"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 14,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 16,
+      "title": "Table 3: Aluminium concentration in shoots of potential slope plants grown in differing soil pH.",
+      "dois": [
+        "10.7717/peerj.9595/table-3"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 15,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 17,
+      "title": "Feasibility of Rare Earth Element Determination in Low Concentration in Crude Oil: Direct Sampling Electrothermal Vaporization-Inductively Coupled Plasma Mass Spectrometry",
+      "dois": [
+        "10.1021/acs.analchem.8b01460.s001"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 16,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 18,
+      "title": "Rare earth element tetrad effect",
+      "dois": [
+        "10.1007/springerreference_30183"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 17,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 19,
+      "title": "Hyperspectral Inversion of Rare Earth Element Concentration Based on Spa-Plsr Model",
+      "dois": [
+        "10.2139/ssrn.4862753"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 18,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "rare earth element pH proxy concentration slope abundance validation",
+      "rank": 20,
+      "title": "Rare Earth Element Abundances in Upper Mantle Rocks",
+      "dois": [
+        "10.1016/b978-0-444-42148-7.50010-1"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 19,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 1,
+      "title": "Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early Earth: A Proof of Concept Study",
+      "dois": [
+        "10.7185/gold2023.18983"
+      ],
+      "screen": "earlier Lin conference record; same-project lead",
+      "reason": "Closely matching title/authors; not counted as independent evidence. Body not re-downloaded.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 0,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 2,
+      "title": "The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early Earth",
+      "dois": [
+        "10.2475/001c.118215"
+      ],
+      "screen": "core implementation; existing primary article/code checked",
+      "reason": "The implementation under evaluation, not independent prior validation.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 2,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 3,
+      "title": "Comparing dissolved rare earth element distributions in the US GEOTRACES GA03 (North Atlantic zonal) and GP15 (Pacific meridional) transects.",
+      "dois": [
+        "10.46427/gold2022.12639"
+      ],
+      "screen": "GP15/GA03 distribution lead; primary-body gap",
+      "reason": "Primary conference endpoint inaccessible. Title alone cannot exclude a pH discussion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 22,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 4,
+      "title": "Ternary Rare Earth Alloy Pt3xIrxSc Nanoparticles Modulate Negatively Charged Pt via Charge Transfer To Facilitate pH-Universal Hydrogen Evolution",
+      "dois": [
+        "10.1021/acsnano.3c08921.s001"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 23,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 5,
+      "title": "",
+      "dois": [
+        "10.1136/bmj.331.7508.sgp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 24,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 6,
+      "title": "Energy Transfer in Down Conversion Rare Earth Phosphors",
+      "dois": [
+        "10.21741/9781644903056-10"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 25,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 7,
+      "title": "pH-meter calibration",
+      "dois": [
+        "10.4016/19452.01"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 26,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 8,
+      "title": "Improving VCSEL's &amp; Rare-Earth-Doped Led's.",
+      "dois": [
+        "10.21236/ada357987"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 27,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 9,
+      "title": "ENERGY TRANSFER FROM TRANSITION METAL TO RARE EARTH IONS IN OXIDE LATTICES",
+      "dois": [
+        "10.1016/b978-0-12-767662-3.50006-1"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 28,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 10,
+      "title": "Easy axis fluctuation effects on coercivity and energy barrier in fine particles",
+      "dois": [
+        "10.1109/intmag.1999.837908"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 29,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 11,
+      "title": "pH-metric and thermodynamic studies of rare earth metal chelates",
+      "dois": [
+        "10.1016/s1002-0721(08)60269-0"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 30,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 12,
+      "title": "Integrated Recovery of Iron Resources and Rare Earth Elements from Bayan Obo Rare Earth Tailings with CO₂ Mineralization via Dynamic pH Regulation",
+      "dois": [
+        "10.2139/ssrn.7004158"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 31,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 13,
+      "title": "Rare earth metal-organic framework hybrid materials for luminescence responsive chemical sensing of temperature and pH value",
+      "dois": [
+        "10.1016/b978-0-323-91236-5.00010-4"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 32,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 14,
+      "title": "CHELATION OF THE RARE EARTH ELEMENTS AS A FUNCTION OF pH USING THENOYLTRIFLUOROACETONE",
+      "dois": [
+        "10.2172/4381444"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 33,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 15,
+      "title": "pH-Tunable, Ligand-Free Selective Separation of Rare Earth Elements Using Silica Nanoparticles",
+      "dois": [
+        "10.1021/acsami.5c20869.s001"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 34,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 16,
+      "title": "Luminescence and energy transfer of rare-earth-metal ions in Mg2Y8(SiO4)6O2",
+      "dois": [
+        "10.1039/jm9950501151"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 35,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 17,
+      "title": "Electrochemical membranes for rare earth mine water treatment: Sequential removal of rare earth ions and ammonia nitrogen",
+      "dois": [
+        "10.1016/j.jhazmat.2025.137668"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 36,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 18,
+      "title": "Experimental Studies of Energy Transfer in Rare Earth Ions in Crystals",
+      "dois": [
+        "10.1016/b978-0-444-87051-3.50010-9"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 37,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 19,
+      "title": "",
+      "dois": [
+        "10.1117/12.2676533.0b77d060-72bc-ed11-a998-005056914f1c"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 38,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "Crossref",
+      "query": "Lin Catling rare earth pH GP15 transfer calibration",
+      "rank": 20,
+      "title": "Yttrium and the Rare Earth Elements (REE)",
+      "dois": [
+        "10.1007/978-3-642-73093-1_50"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 39,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 1,
+      "title": "Synthesis of Rare Earth Metal Oxides  Based on Monasite Sand with pH Variations | synthesis of rare earth metal oxides based on monasite sand with ph variations",
+      "dois": [
+        "10.33019/jstk.v2i2.1953"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 40,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 2,
+      "title": "Artificial Neural Network Modeling of Rare Earth Element Solvent Extraction Based on Ph and Extractant Concentration | Artificial Neural Network Modeling of Rare Earth Element Solvent Extraction Based on pH and Extractant Concentration | Artificial neural network modeling of rare earth element solvent extraction based on pH and extractant concentration",
+      "dois": [
+        "10.2139/ssrn.5363733",
+        "10.2139/ssrn.5736208",
+        "10.1016/j.gsme.2026.03.001"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 8,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 3,
+      "title": "Sorption of rare-earth elements onto a ligand-associated media for pH-dependent extraction and recovery of critical materials | sorption of rare earth elements onto a ligand associated media for ph dependent extraction and recovery of critical materials",
+      "dois": [
+        "10.1016/j.seppur.2020.118061"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 42,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 4,
+      "title": "Adsorption Behaviors of Lanthanum (III) and Yttrium (III) Ions on Gibbsite",
+      "dois": [
+        "10.3390/min13121530"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 43,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 5,
+      "title": "Yttrium and the Rare Earth Elements (REE) | yttrium and the rare earth elements ree",
+      "dois": [
+        "10.1007/978-3-642-73093-1_50"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 39,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 6,
+      "title": "Ultrasonic vibration potential and point of zero charge of some rare earth oxides in water | ultrasonic vibration potential and point of zero charge of some rare earth oxides in water",
+      "dois": [
+        "10.1016/j.jallcom.2004.12.065"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 45,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 7,
+      "title": "Influence of aluminum ions distribution on the removal of aluminum from rare earth solutions using saponified naphthenic acid | influence of aluminum ions distribution on the removal of aluminum from rare earth solutions using saponified naphthenic acid",
+      "dois": [
+        "10.1016/j.seppur.2017.05.057"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 46,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 8,
+      "title": "Process of Salicylic Acid-Type Composite for Rare Earth Ions | process of salicylic acid type composite for rare earth ions",
+      "dois": [
+        "10.4028/www.scientific.net/msf.814.333"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 47,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 9,
+      "title": "Migration behavior, separation and recycling of rare earth during thermal decomposition of Zhijin phosphorus ore | migration behavior separation and recycling of rare earth during thermal decomposition of zhijin phosphorus ore",
+      "dois": [
+        "10.1016/j.jre.2018.06.001"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 48,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 10,
+      "title": "HYDROGEN PEROXIDE-BASED OXIDATION AND pH-CONTROLLED PRECIPITATION FOR THE RECOVERY OF NON-CERIUM RARE EARTH ELEMENTS FROM PERMANENT MAGNET WASTE | Hydrogen peroxide-based oxidation and pH-controlled precipitation for the recovery of non-cerium rare earth elements from permanent magnet waste",
+      "dois": [
+        "10.48158/mecce-16.t5-o-06",
+        "10.1016/j.cscee.2025.101307"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 49,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 11,
+      "title": "The Flocculation Condition of Rare Earth Polymerization Coagulants | the flocculation condition of rare earth polymerization coagulants",
+      "dois": [
+        "10.1109/cdciem.2011.520"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 50,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 12,
+      "title": "Response surface method for optimization of leaching of a low-grade ionic rare earth ore | response surface method for optimization of leaching of a low grade ionic rare earth ore",
+      "dois": [
+        "10.1016/j.powtec.2018.02.044"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 51,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 13,
+      "title": "Study on the recycle of rare-earth in rare-earth leaching wastewater | study on the recycle of rare earth in rare earth leaching wastewater",
+      "dois": [
+        "10.1109/mace.2011.5987526",
+        "10.1109/rsete.2011.5964129"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 52,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 14,
+      "title": "Leaching Behavior of Rare Earth Elements and Aluminum from Weathered Crust Elution-Deposited Rare Earth Ore with Ammonium Formate Inhibitor",
+      "dois": [
+        "10.3390/min13101245"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 53,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 15,
+      "title": "Application of solvent impregnated resin to the treatment of heavier rare earth residue | application of solvent impregnated resin to the treatment of heavier rare earth residue",
+      "dois": [
+        "10.1016/s0167-4528(00)80041-1"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 54,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 16,
+      "title": "A study of rare earth ion-adsorption clays: The speciation of rare earth elements on kaolinite at basic pH | a study of rare earth ion adsorption clays the speciation of rare earth elements on kaolinite at basic ph",
+      "dois": [
+        "10.1016/j.clay.2020.105920"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 55,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 17,
+      "title": "Directional self-assembly of rare-earth hydroxocation nanosheets and paradodecatungstate anions | Directional self-assembly of rare-earth hydroxocation nanosheets and paradodecatungstate anions. | directional self assembly of rare earth hydroxocation nanosheets and paradodecatungstate anions",
+      "dois": [
+        "10.1039/c2dt32421k"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 56,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 18,
+      "title": "New hematite method: efficient and enhanced separation of rare earth and iron by alkaline regulation of pH in rare earth chloride solutions",
+      "dois": [
+        "10.1016/j.seppur.2024.127209"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 57,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 19,
+      "title": "Extraction behaviors of rare-earths in the mixed sulfur-phosphorus acid leaching solutions of scheelite | extraction behaviors of rare earths in the mixed sulfur phosphorus acid leaching solutions of scheelite",
+      "dois": [
+        "10.1016/j.hydromet.2017.12.011"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 58,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH",
+      "rank": 20,
+      "title": "Liquid-liquid extraction and separation of total rare earth (RE) metals from polymetallic manganese nodule leaching solution | liquid liquid extraction and separation of total rare earth re metals from polymetallic manganese nodule leaching solution",
+      "dois": [
+        "10.1016/s1002-0721(14)60404-x"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 59,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 1,
+      "title": "Antibody Responses to the Immunodominant Cryptosporidium gp15 Antigen and gp15 Polymorphisms in a Case–Control Study of Cryptosporidiosis in Children in Bangladesh | Antibody responses to the immunodominant Cryptosporidium gp15 antigen and gp15 polymorphisms in a case-control study of cryptosporidiosis in children in Bangladesh. | antibody responses to the immunodominant cryptosporidium gp15 antigen and gp15 polymorphisms in a case control study of cryptosporidiosis in children in bangladesh",
+      "dois": [
+        "10.4269/ajtmh.2011.11-0043"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 60,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 2,
+      "title": "Seropositive Human Subjects Produce Interferon Gamma after Stimulation with Recombinant Cryptosporidium hominis gp15 | Seropositive human subjects produce interferon gamma after stimulation with recombinant Cryptosporidium hominis gp15. | seropositive human subjects produce interferon gamma after stimulation with recombinant cryptosporidium hominis gp15",
+      "dois": [
+        "10.4269/ajtmh.2007.77.583"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 61,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 3,
+      "title": "The Plant Growth-promoting Fungus Penicillium spp. GP15-1 Enhances Growth and Confers Protection against Damping-off and Anthracnose in the Cucumber | Plant growth-promoting fungus Penicillium spp. GP15-1 enhances growth and confers protection against damping-off and anthracnose in the cucumber. | The Plant Growth-promoting Fungus <i>Penicillium</i> spp. GP15-1 Enhances Growth and Confers Protection against Damping-off and Anthracnose in the Cucumber | the plant growth promoting fungus penicillium spp gp15 1 enhances growth and confers protection against damping off and anthracnose in the cucumber",
+      "dois": [
+        "10.5650/jos.ess13143"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 62,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 4,
+      "title": "Japanese ni: a cognitive analysis of a lexically complex particle",
+      "dois": [
+        "10.7939/r3-1hec-gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 63,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 5,
+      "title": "Etomidate for the management of severe hypercortisolaemia in different clinical scenarios - a case series | etomidate for the management of severe hypercortisolaemia in different clinical scenarios a case series",
+      "dois": [
+        "10.1530/endoabs.56.gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 64,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 6,
+      "title": "The First Megamerged Seismic Data Processing Project in Malaysia | the first megamerged seismic data processing project in malaysia",
+      "dois": [
+        "10.3997/2214-4609-pdb.258.gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 65,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 7,
+      "title": "The T7 ejection nanomachine components gp15–gp16 form a spiral ring complex that binds DNA and a lipid membrane | The T7 ejection nanomachine components gp15-gp16 form a spiral ring complex that binds DNA and a lipid membrane. | the t7 ejection nanomachine components gp15 gp16 form a spiral ring complex that binds dna and a lipid membrane",
+      "dois": [
+        "10.1016/j.virol.2015.09.022"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 66,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 8,
+      "title": "The Bacteriophage HK97 gp15 Moron Element Encodes a Novel Superinfection Exclusion Protein | The bacteriophage HK97 gp15 moron element encodes a novel superinfection exclusion protein. | the bacteriophage hk97 gp15 moron element encodes a novel superinfection exclusion protein",
+      "dois": [
+        "10.1128/jb.00843-12"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 67,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 9,
+      "title": "Challenges in the management of severe constipation due to metastatic paraganglioma | challenges in the management of severe constipation due to metastatic paraganglioma",
+      "dois": [
+        "10.1530/endoabs.67.gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 68,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 10,
+      "title": "Total intensity aeromagnetic map of parts of Guadalupe and De Baca Counties, New Mexico relative to arbitrary datum (R. 21 E. - R. 26 E. and T. 3 N. - T. 6 N.) | total intensity aeromagnetic map of parts of guadalupe and de baca counties new mexico relative to arbitrary datum r 21 e r 26 e and t 3 n t 6 n",
+      "dois": [
+        "10.3133/gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 69,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 11,
+      "title": "Detection and characterization of circulating immune complexes in HIV-related diseases.",
+      "dois": [],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 70,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 12,
+      "title": "Integrated genomic and phenomic analysis reveals key molecular pathways of aldosterone producing adenoma | integrated genomic and phenomic analysis reveals key molecular pathways of aldosterone producing adenoma",
+      "dois": [
+        "10.1530/endoabs.49.gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 71,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 13,
+      "title": " verso",
+      "dois": [
+        "10.7916/26rd-gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 72,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 14,
+      "title": " transcript",
+      "dois": [
+        "10.7916/d8-vwkh-gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 73,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 15,
+      "title": " page 26",
+      "dois": [
+        "10.7916/qe1g-gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 74,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 16,
+      "title": " GRID3_COD_Lomami_health_facilities_v1_0.gpkg",
+      "dois": [
+        "10.7916/wtme-gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 75,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 17,
+      "title": " page 66",
+      "dois": [
+        "10.7916/gp15-c412"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 76,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 18,
+      "title": "Letter: 1942 November 20",
+      "dois": [
+        "10.7916/d8-q09z-gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 77,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 19,
+      "title": "Reduced temperature and the chemical chaperone 4-phenylbutyrate enhance stability of CYP21A2 mutations | reduced temperature and the chemical chaperone 4 phenylbutyrate enhance stability of cyp21a2 mutations",
+      "dois": [
+        "10.1530/endoabs.41.gp15"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 78,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "GP15",
+      "rank": 20,
+      "title": "Role of ethylene signalling in growth and systemic resistance induction by the plant growth‐promoting fungus <i>Penicillium viridicatum</i> in Arabidopsis | role of ethylene signalling in growth and systemic resistance induction by the plant growth promoting fungus penicillium viridicatum in arabidopsis",
+      "dois": [
+        "10.1111/jph.12577"
+      ],
+      "screen": "not advanced beyond metadata",
+      "reason": "Title concerns extraction/materials/organisms/generic chapter or GP15 homonym. This is a title-level decision, not a full-text exclusion.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 79,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 1,
+      "title": "The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early Earth",
+      "dois": [
+        "10.2475/001c.118215"
+      ],
+      "screen": "core implementation; existing primary article/code checked",
+      "reason": "The implementation under evaluation, not independent prior validation.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 2,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 2,
+      "title": "Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early Earth: A Proof of Concept Study",
+      "dois": [
+        "10.7185/gold2023.18983"
+      ],
+      "screen": "earlier Lin conference record; same-project lead",
+      "reason": "Closely matching title/authors; not counted as independent evidence. Body not re-downloaded.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 0,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 3,
+      "title": "Matrix separation and preconcentration of rare earth elements from seawater by poly hydroxamic acid cartridge followed by determination using ICP-MS | matrix separation and preconcentration of rare earth elements from seawater by poly hydroxamic acid cartridge followed by determination using icp ms",
+      "dois": [
+        "10.1016/j.desal.2011.07.039"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 82,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 4,
+      "title": "Rare earth precipitation and coprecipitation behavior: The limiting role of PO43− on dissolved rare earth concentrations in seawater | rare earth precipitation and coprecipitation behavior the limiting role of po43 on dissolved rare earth concentrations in seawater | Rare Earth Precipitation and Coprecipitation Behavior: The Limiting Role of PO 4 3− on Dissolved Rare Earth Concentrations in Seawater | Rare Earth Precipitation and Coprecipitation Behavior: The Limiting Role of PO 4 3âˆ’ on Dissolved Rare Earth Concentrations in Seawater",
+      "dois": [
+        "10.1016/0016-7037(93)90364-3"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 83,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 5,
+      "title": "Mussel shells of Mytilus edulis as bioarchives of the distribution of rare earth elements and yttrium in seawater and the potential impact of pH and temperature on their partitioning behavior",
+      "dois": [],
+      "screen": "different-medium pH/temperature partitioning context",
+      "reason": "Title-level screen only. Shell partitioning precedes the 2024 implementation; no inference about all common-scale literature.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 84,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 6,
+      "title": "Multielement Determination of Rare Earth Elements in Coastal Seawater by Inductively Coupled Plasma Mass Spectrometry after Preconcentration Using Chelating Resin | multielement determination of rare earth elements in coastal seawater by inductively coupled plasma mass spectrometry after preconcentration using chelating resin",
+      "dois": [
+        "10.1246/bcsj.68.3065"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 85,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 7,
+      "title": "Rare earth element scavenging in seawater | rare earth element scavenging in seawater | Rare Earth Element Scavenging in Seawater",
+      "dois": [
+        "10.1016/0016-7037(90)90002-3"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 86,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 8,
+      "title": "Examination of comparative rare earth element complexation behavior using linear free-energy relationships | examination of comparative rare earth element complexation behavior using linear free energy relationships | Examination of Comparative Rare Earth Element Complexation Behavior Using Linear Free-energy Relationships",
+      "dois": [
+        "10.1016/0016-7037(92)90050-s"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 87,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 9,
+      "title": "Determination of rare earth elements in seawater by on-line column preconcentration inductively coupled plasma mass spectrometry | Determination of rare earth elements in seawater by on-line column preconcentration inductively coupled plasma mass spectrometry. | Determination of Rare Earth Elements in Seawater by On-line Column Preconcentration Inductively Coupled Plasma Mass Spectrometry | determination of rare earth elements in seawater by on line column preconcentration inductively coupled plasma mass spectrometry",
+      "dois": [
+        "10.1016/s0039-9140(02)00418-6"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 88,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 10,
+      "title": "Supplementary material to \"Mussel shells of                   <i>Mytilus edulis</i>                   as bioarchives of the   rare earth elements and yttrium distribution in seawater and the   potential impact of pH and temperature on the partitioning   behaviour\"",
+      "dois": [
+        "10.5194/bgd-12-14911-2015-supplement"
+      ],
+      "screen": "different-medium pH/temperature partitioning context",
+      "reason": "Title-level screen only. Shell partitioning precedes the 2024 implementation; no inference about all common-scale literature.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 10,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 11,
+      "title": "Solid phase extraction of rare earth elements in seawater and estuarine water with 4-(2-thiazolylazo) resorcinol immobilized Chromosorb 106 for determination by inductively coupled plasma mass spectrometry | Solid phase extraction of rare earth elements in seawater and estuarine water with 4-(2-thiazolylazo) resorcinol immobilized Chromosorb 106 for determination by inductively coupled plasma mass spectrometry. | solid phase extraction of rare earth elements in seawater and estuarine water with 4 2 thiazolylazo resorcinol immobilized chromosorb 106 for determination by inductively coupled plasma mass spectrometry",
+      "dois": [
+        "10.1016/j.microc.2013.03.012"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 90,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 12,
+      "title": "Mussel shells of                     <i>Mytilus edulis</i>                     as bioarchives of the distribution of rare earth elements  and yttrium in seawater and the potential impact of pH and temperature on  their partitioning behavior | Mussel shells of Mytilus edulis as bioarchives of the distribution of rare earth elements and yttrium in seawater and the potential impact of pH and temperature on their partitioning behavior | Mussel shells of <i>Mytilus edulis</i> as bioarchives of the distribution of rare earth elements and yttrium in seawater and the potential impact of pH and temperature on their partitioning behavior | mussel shells of mytilus edulis as bioarchives of the distribution of rare earth elements and yttrium in seawater and the potential impact of ph and temperature on their partitioning behavior",
+      "dois": [
+        "10.5194/bg-13-751-2016"
+      ],
+      "screen": "different-medium pH/temperature partitioning context",
+      "reason": "Title-level screen only. Shell partitioning precedes the 2024 implementation; no inference about all common-scale literature.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 91,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 13,
+      "title": "Rare‐Earth Doping Transitional Metal Phosphide for Efficient Hydrogen Evolution in Natural Seawater",
+      "dois": [
+        "10.1002/sstr.202200268"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 92,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 14,
+      "title": "Rare earth elements mobility processes in an AMD-affected estuary: Huelva Estuary (SW Spain) | Rare earth elements mobility processes in an AMD-affected estuary: Huelva Estuary (SW Spain). | rare earth elements mobility processes in an amd affected estuary huelva estuary sw spain",
+      "dois": [
+        "10.1016/j.marpolbul.2017.06.030"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 93,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 15,
+      "title": "Analytical Artifacts Associated with the Chelating Resin Extraction of Dissolved Rare Earth Elements in Natural Water Samples | analytical artifacts associated with the chelating resin extraction of dissolved rare earth elements in natural water samples",
+      "dois": [
+        "10.1007/s10498-010-9100-5"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 94,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 16,
+      "title": "A method to investigate the interaction of rare earth elements in aqueous solution with metal oxides | a method to investigate the interaction of rare earth elements in aqueous solution with metal oxides",
+      "dois": [
+        "10.1007/bf02104687"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 95,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 17,
+      "title": "Corrosion Protection of Rare Earth for Kilowatt-Level Alkaline Seawater Electrolyzer | Corrosion Protection of Rare Earth for Kilowatt-Level Alkaline Seawater Electrolyzer.",
+      "dois": [
+        "10.1021/jacs.5c02876"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 96,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 18,
+      "title": "Preconcentration of Rare Earth Elements in Seawater with Poly(acrylaminophosphonic dithiocarbamate) Chelating Fiber Prior to Determination by Inductively Coupled Plasma Mass Spectrometry | preconcentration of rare earth elements in seawater with poly acrylaminophosphonic dithiocarbamate chelating fiber prior to determination by inductively coupled plasma mass spectrometry",
+      "dois": [
+        "10.1021/ac980321h"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 97,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 19,
+      "title": "Analysis of rare earth elements in seawater by inductively coupled plasma mass spectrometry after pre-concentration using TSK™-HD-MW-CNTs (highly dispersive multi-walled carbon nanotubes) | Analysis of rare earth elements in seawater by inductively coupled plasma mass spectrometry after pre-concentration using TSK™-HD-MW-CNTs (highly dispersive multi-walled carbon nanotubes). | analysis of rare earth elements in seawater by inductively coupled plasma mass spectrometry after pre concentration using tsk hd mw cnts highly dispersive multi walled carbon nanotubes",
+      "dois": [
+        "10.1016/j.talanta.2012.05.066"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 98,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth seawater pH",
+      "rank": 20,
+      "title": "Determination of rare earth elements in seawater by inductively coupled plasma mass spectrometry with off-line column preconcentration using 2,6-diacetylpyridine functionalized Amberlite XAD-4 | Determination of rare earth elements in seawater by inductively coupled plasma mass spectrometry with off-line column preconcentration using 2,6-diacetylpyridine functionalized Amberlite XAD-4. | determination of rare earth elements in seawater by inductively coupled plasma mass spectrometry with off line column preconcentration using 2 6 diacetylpyridine functionalized amberlite xad 4 | Determination of rare earth elements in seawater by inductively coupled plasma mass spectrometry with off-line column preconcentration using 2,6-diacetylpyridine functionalized Amber lite XAD-4",
+      "dois": [
+        "10.1016/j.aca.2011.01.049"
+      ],
+      "screen": "marine chemistry or analytical-method context; metadata only",
+      "reason": "Returned title concerns speciation, scavenging, preconcentration, adsorption or another application; no direct fixed-mapping comparison evident in metadata. Body not read here.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 99,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH Catling",
+      "rank": 1,
+      "title": "Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early Earth: A Proof of Concept Study",
+      "dois": [
+        "10.7185/gold2023.18983"
+      ],
+      "screen": "earlier Lin conference record; same-project lead",
+      "reason": "Closely matching title/authors; not counted as independent evidence. Body not re-downloaded.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 0,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-2.json"
+    },
+    {
+      "service": "OpenAIRE",
+      "query": "rare earth pH Catling",
+      "rank": 2,
+      "title": "The Rare Earth Element Distribution in Marine Carbonates as a Potential Proxy for Seawater pH on Early Earth",
+      "dois": [
+        "10.2475/001c.118215"
+      ],
+      "screen": "core implementation; existing primary article/code checked",
+      "reason": "The implementation under evaluation, not independent prior validation.",
+      "screen_level": "title/DOI metadata",
+      "shared_DOI_group": 2,
+      "original_response_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-2.json"
+    }
+  ],
+  "nearest_neighbors": [
+    {
+      "study": "Lin and Catling 2024",
+      "doi": "10.2475/001c.118215",
+      "primary_source": "ree/round8/raw/Lin2024.pdf and fixed author code",
+      "locator": "Article section2.1 p3; section3.2 p5; section4.2 pp8-9; fixed code normalization/regression",
+      "question": "Seawater-pH inference using dissolved REE and marine-carbonate records",
+      "data": "Separate global modern REE/pH depth means; carbonate applications",
+      "method": "Unlogged PAAS-normalized Sm/Gd/Dy/Er OLS slope with affine pH mapping",
+      "conclusion": "Proposed proxy, narrow modern calibration and large geological uncertainty",
+      "overlap": "Direct ancestor. Common-scale homogeneity is elementary algebra of its supplied feature, not a new mechanism or proxy. The inspected source/code did not show this paired GP15 fixed-reference test.",
+      "screening_level": "Relevant primary article and fixed code"
+    },
+    {
+      "study": "Liu et al. 2026",
+      "doi": "10.1016/j.scib.2026.01.028",
+      "primary_source": "https://www.sciencedirect.com/science/article/abs/pii/S2095927326000356",
+      "locator": "Publisher selected main-text Methods/Table2 and Figures1-2; abstract",
+      "question": "Sediment-water Y/Ho fractionation as a seawater-pH proxy",
+      "data": "Laboratory adsorption systems and sedimentary records",
+      "method": "Y/Ho partition fractionation in ferruginous/argillaceous material",
+      "conclusion": "Authors report a paleo-pH reconstruction method",
+      "overlap": "Different feature, medium and calibration. Inspected passages do not evaluate the fixed four-element map or GP15 pairing.",
+      "screening_level": "Selected primary-paper publisher methods/results excerpts, not a complete critique"
+    },
+    {
+      "study": "Chen et al. 2026",
+      "doi": "10.1144/jgs2025-183",
+      "primary_source": "https://discovery.ucl.ac.uk/id/eprint/10220685/1/Chen%20et%20al%20%282026%29%20Gaoyuzhuang%20Fm_REE_JGS.pdf",
+      "locator": "p1 abstract; p3 Methods; p4 right-column pH paragraph; p10 Conclusions; visual pp4/10",
+      "question": "REE preservation and Ce-based redox interpretation",
+      "data": "Carbonate samples from four Gaoyuzhuang sections",
+      "method": "Sequential leaching, normalized patterns and alteration screens",
+      "conclusion": "Authors emphasize early-diagenetic effects and pattern screening",
+      "overlap": "The pH passage cites Lin qualitatively. It does not implement the fixed pH map, test GP15 pairing, or derive the common-concentration check.",
+      "screening_level": "Selected relevant primary main-text paragraphs only"
+    },
+    {
+      "study": "Hatje et al. 2024",
+      "doi": "10.1029/2024GB008125",
+      "primary_source": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GB008125",
+      "locator": "Publisher main text sections1.2,2.4 Ocean,4 Conclusions and Data Availability Statement",
+      "question": "Global REE biogeochemical-cycle overview",
+      "data": "Review; article states no data used or created",
+      "method": "Synthesis of sources, distributions and processes",
+      "conclusion": "Broad knowledge and remaining questions",
+      "overlap": "Optional background only. This review does not supply a paired calibration test or a GP15 residual mechanism. Do not force a citation or use it as new primary empirical evidence.",
+      "screening_level": "Primary publisher version of a review, main-text sections read"
+    },
+    {
+      "study": "Shiller 2022 conference record",
+      "doi": "10.46427/gold2022.12639",
+      "primary_source": "https://goldschmidtabstracts.info/abstracts/abstractView?doi=10.46427/gold2022.12639",
+      "locator": "Crossref title/author/year; primary endpoint inaccessible",
+      "question": "Title compares GA03 and GP15 dissolved-REE distributions",
+      "data": "Exact data scope not verified from body",
+      "method": "Unknown from title",
+      "conclusion": "Unknown from title",
+      "overlap": "A genuine context lead with an unclosed full-abstract gap, not proof that no pH analysis exists.",
+      "screening_level": "Metadata only"
+    }
+  ],
+  "conclusion": {
+    "same_question_prior_found": "No corroborated same-question study identified in the returned metadata and actually inspected primary passages.",
+    "strength": "Bounded negative retrieval only; not exhaustive novelty or first-ever proof.",
+    "positioning": "Finite paired implementation benchmark plus an algebraic qualification of the concentration-sensitive feature. Credit original proxy and known environmental controls.",
+    "hatje": "Optional overview citation only; no mandatory addition and no new causal inference.",
+    "mandatory_new_manuscript_change": false
+  },
+  "coverage_gaps": [
+    "Only first20 per general query; no exhaustive pagination, citation graph or full-text corpus.",
+    "Original OpenAIRE long AND queries returned0. Initial short queries were noisy; focused seawater/Catling queries improved recall and recovered Lin but do not establish exhaustive coverage.",
+    "GP15/GA03 conference abstract and broad aquatic-REE thesis were not full-text screened; these remain real gaps.",
+    "Scientific overlap judgments use selected primary Lin/Liu/Chen passages. Non-primary web results remained leads. Hatje is explicitly a review.",
+    "Searching and chemical/algebraic displays create no new validation data."
+  ],
+  "access_notes": [
+    "Chen UCL PDF downloaded once successfully, application/pdf,3890893 bytes, SHA49f797a646cc812bcb47a5dfc4ce0086f2c6f7a026280d7830042cc27d2979f9.",
+    "Direct Hatje HTTP download failed403; publisher main text was read through web tool. No rate-limit automatic retries.",
+    "No repeat download of existing Lin/model/raw data; element atlas completely excluded.",
+    "Focused OpenAIRE queries completed; stop after the two specifically authorized calls."
+  ],
+  "inputs_and_evidence_files": [
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-1.json",
+      "original_sha256": "1c4f14f3b23391f16b14c1e425708f1aa313b1e2f2736ae4098fdc6d586c0f93",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/openaire-2.json",
+      "original_sha256": "7da81538e704c15e2a7ba525b881071561240e4581d3fa88790686948f46cd51",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/openaire-1.json",
+      "original_sha256": "25d269f53e8c8c034d63975ae1e0be5ead369a6953480c142f283de3185f7d36",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/search-log.json",
+      "original_sha256": "5afcf20b8519ee88e74b5ccd51479906bea3be8b5fb428274c8c19ccf215911f",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/scale-transfer-index-refresh/crossref-2.json",
+      "original_sha256": "ed27dcb4e95172703278bc24a17aba05cff28eb239d43c1263c625dec864b1a8",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-1.json",
+      "original_sha256": "1d817a5b1e8a8c334432ba59da226e70113f22c861beb3b8043b3d2d12f595f5",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/openaire-short-2.json",
+      "original_sha256": "48644a67860eb5d927a6c58d28434aa58cb807856b5f7935e95ed09cee599f6a",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-short/search-log.json",
+      "original_sha256": "5777e62e68fa539ae21d5d5cdf56fe32364da17f1729d9ebfa5f2efe0c63a2cf",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-2.json",
+      "original_sha256": "07d8bd3168fd7c2fbe2456ddbe035b4e37da1ec352dae1d76fa892dafa6633f2",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/openaire-focused-1.json",
+      "original_sha256": "f2dac3d3860778baffde3ec5bb9706a83a3f31ecb9ac00ce5a697eec0aa85aac",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/scale-transfer-openaire-focused/search-log.json",
+      "original_sha256": "b6ffb0ace2fd2fb97aa53d5c52acbcf91bbe91c806e61a886a7644f234a4c32c",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/context-primary-extension/web-source-responses.json",
+      "original_sha256": "0a4fd35f2cb7f1410bb19dfd33c88e4594b98a6440448a43af625ca3b97ff462",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/context-primary-extension/Chen2026-redox-UCL.pdf.receipt.json",
+      "original_sha256": "0113e8081fcd6a34656b0b0be034049e7c4ba3ee9edbfd047713cd219cd79078",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/context-primary-extension/Chen2026-redox-UCL.pdf",
+      "original_sha256": "49f797a646cc812bcb47a5dfc4ce0086f2c6f7a026280d7830042cc27d2979f9",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/context-primary-extension/build_context_report.py",
+      "original_sha256": "e9c10dd298aa0a4363870665b5ef517e115fb512014f2e804d676f67d6346be6",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/context-primary-extension/web-hatje-main-response.json",
+      "original_sha256": "b79d48f724bcb340d992642c47ec72bb2532e6d667d70062679cb0b8621261f9",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/context-primary-extension/Chen2026-selected-pages.txt",
+      "original_sha256": "ffebd8b83b131feb3921cb1cb74d6bcc78673a22950239aa84f3ddfa835e82ef",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "original_path_local_only": "iteration-2026-10-27/sources/context-primary-extension/Hatje2024-publisher.html.receipt.json",
+      "original_sha256": "5dc47adacdaf607ad98efb2ac96712320aeee81b3ca36d3e95950d1318f408c4",
+      "public_packet_status": "not distributed",
+      "reason": "Online retrieval evidence or external source/body whose redistribution is unnecessary for offline numerical reproduction; consult primary DOI/URL and declared locators in nearest_neighbors. Raw metadata/publisher response payloads remain local."
+    },
+    {
+      "path": "ree/round8/raw/Lin2024.pdf",
+      "sha256": "c9c70cef730755baddfaab1a7a21f0c2581c55e5695b7881cd441faf12bd6c2a",
+      "public_packet_status": "included unchanged; source attribution/license preserved"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-REE_pH_proxy.py",
+      "sha256": "cc68185191ad1801dbcfe4152d4943785b450c3f7b00b929ad319bd1bd436566",
+      "public_packet_status": "included unchanged; source attribution/license preserved"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-REE_pH_estimates.py",
+      "sha256": "c695ff3ffea39f905ef02797567497465f0f989bdbbc6aa2bb4807c5608e84f4",
+      "public_packet_status": "included unchanged; source attribution/license preserved"
+    }
+  ],
+  "cycle_count_delta": 0,
+  "manuscript_or_state_changed": false,
+  "public_copy_of": {
+    "path": "iteration-2026-10-27/sources/novelty-context-extended.json",
+    "sha256": "5c258cd85b614c550bc5504db299bd6e60352eea6c080b87f1b3cd6eedeaa1e5",
+    "transformation": "Preserve author-written questions, title/DOI screen, nearest-neighbor comparisons, search date/coverage gaps and raw-response SHA identifiers. Exclude raw publisher/repository bodies and online response payloads from this public packet."
+  },
+  "offline_reproduction_boundary": "The packet supports numerical reproduction and inspection of recorded search metadata/author comparisons. It does not replay external indexes or redistribute all primary full texts actually read. Withheld-source hashes identify local records, not included files, open-license claims or proof of source truth."
+}

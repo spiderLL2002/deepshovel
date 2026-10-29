@@ -1,0 +1,337 @@
+{
+  "review_id": "cycle02-continuous-box-scientific-A",
+  "review_cycle": 2,
+  "not_a_new_review_cycle": true,
+  "created_utc": "2026-10-27T06:19:36.072601+00:00",
+  "status": "INDEPENDENT_SOURCE_CODE_RESULT_CHECK_PASSED_FOR_DECLARED_MATHEMATICAL_OBJECT",
+  "reviewer_is_program_author": false,
+  "reviewer_imported_or_executed_author_program": false,
+  "author_or_root_self_check_used_as_independent_evidence": false,
+  "frozen_plan_sha256": "480000ab8f6cfea2f588d13dafea611f47111d58f78b39c0733d8b903a205a3f",
+  "program_sha256": "7a0debe8c20b5040cd4462dcb22bf0703adcc354e4613b4215406f293bc084b8",
+  "actual_reads": [
+    {
+      "path": "iteration-2026-10-27/analysis/continuous-boxplan-v1.frozen.json",
+      "sha256": "480000ab8f6cfea2f588d13dafea611f47111d58f78b39c0733d8b903a205a3f",
+      "actual_read_scope": "Full frozen plan; all input and script hashes independently checked."
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/continuous_box_v1.py",
+      "sha256": "7a0debe8c20b5040cd4462dcb22bf0703adcc354e4613b4215406f293bc084b8",
+      "actual_read_scope": "Full program read. Initial combined output omitted a middle section; lines 170–307 were separately reread to complete settings, membership reconstruction and matching logic. Program not imported or executed."
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/continuous-box-v1/layer_coefficients.csv",
+      "sha256": "74f44cdfbfbc52b8ed414a44318ada239755752c0dbc035674b8f80ef0d24103",
+      "actual_read_scope": "All 12 rows parsed; exact normalized means, alpha, predictions, observed/reference means, C and sample membership independently reconstructed from bound source values."
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/continuous-box-v1/pair_residual_lower_bounds.csv",
+      "sha256": "1d25359cef5c4cba9ffe0c63b3dde05352bd5143492b207dcca88ec78d0c4926",
+      "actual_read_scope": "All 108 rows parsed and exact lower limits/positivity flags independently checked."
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/continuous-box-v1/pair_envelope.csv",
+      "sha256": "7b9c81a76f704d6606523d42d03370eb0ace7c0429900cde86030cfaae50a0a3",
+      "actual_read_scope": "All 18 rows parsed, all exact extrema/MSE margins/rankings checked and all displayed RMSE/difference quantities checked against independent rational root intervals to 1e-48."
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/continuous-box-v1/ranking_certificates.json",
+      "sha256": "f4d1ce944c39d13f3c62e85633144413af199fb16ee9f3f863169b2c970f6583",
+      "actual_read_scope": "All 18 certificate objects parsed. All exact mathematical quantities, positive-condition state, extrema vertex identities, null/unproved minima and ranking decisions independently reconstructed."
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/continuous-box-v1/vertex_matching.csv",
+      "sha256": "635108f8c799310a6ecdc10e7c48f5650108cb10a83e42148776012de11c38d1",
+      "actual_read_scope": "All 6108 records parsed. Every original-source locator/value, candidate scalar/root interval, exact error upper bound, tolerance and pass flag independently checked."
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/continuous-box-v1/continuous_box_supplement.md",
+      "sha256": "a62ae89c9826c831dfaa0fb1836cb4ed7500862296dfd2663dd6dbcef1145561",
+      "actual_read_scope": "Full generated SI proof, all 18 displayed rows and caveats read."
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/continuous-box-v1/source_manifest.json",
+      "sha256": "4c30c079c58daf984eaeaa2a54fc6be22c7b37cc3a245c4c19382c6180665043",
+      "actual_read_scope": "Full manifest read; exact code/plan/source bindings and pending-independent-review scope checked."
+    },
+    {
+      "path": "iteration-2026-10-27/analysis/continuous-box-v1/output_manifest.json",
+      "sha256": "0d1e1f202a9dd3c7a4589e68408461ea9d50889d39219f0bb8df560dd14fc26e",
+      "actual_read_scope": "Full manifest read; every recorded output hash and byte count independently checked."
+    },
+    {
+      "path": "ree/round8/protocol-frozen-v1.json",
+      "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79",
+      "matches_frozen_plan": true,
+      "actual_read_scope": "Full JSON parsed for model, offsets and normalization/scoring definitions."
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/sample_predictions.csv",
+      "sha256": "75e79395b1db84626911efccefc922005dddc0c896fe86621dcdd9fb5fab963e",
+      "matches_frozen_plan": true,
+      "actual_read_scope": "Full CSV parsed for exact per-bottle source-value reconstruction; all 12 primary layer memberships reconstructed."
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321",
+      "matches_frozen_plan": true,
+      "actual_read_scope": "Full CSV parsed for primary original memberships, original comparison targets and source-record lookup."
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/ree_repeatability_stress.json",
+      "sha256": "f81ae097bab3aec62bd423e4fb3f5396ab58d2a52e7e303dc10fd27ba07572d1",
+      "matches_frozen_plan": true,
+      "actual_read_scope": "Full JSON parsed for all original corner/offset source-value locators; every matching record resolved to its preserved original value."
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-paas.csv",
+      "sha256": "b04fcb55324673832cef85a8e75c7580eb52448a11120421fd1bb711237ce0cb",
+      "matches_frozen_plan": true,
+      "actual_read_scope": "Full single-row CSV parsed as exact decimal fractions."
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-molar_mass_mgmol.csv",
+      "sha256": "58f67c7cdd4f2357afb37c20587f2e6210a221d06e33451e1eb58305ca1632c0",
+      "matches_frozen_plan": true,
+      "actual_read_scope": "Full single-row CSV parsed as exact decimal fractions."
+    }
+  ],
+  "independent_audit": {
+    "implementation": "Separate in-memory Python standard-library Fraction audit, not an import or execution of continuous_box_v1.py or original analysis. The audit parsed source inputs, reconstructed exact layer means/C, enumerated the existing 16 corners solely to verify all output certificates, resolved every legacy source locator, and checked all stored root/scalar matching intervals. No source or output file was altered.",
+    "verified_original_primary_unique_bottles": {
+      "leg1": 24,
+      "leg2": 55
+    },
+    "exact_layer_reconstructions": 12,
+    "exact_certificate_reconstructions": 18,
+    "component_lower_bounds_checked": 108,
+    "matching_records_checked": 6108,
+    "matching_stage_counts": {
+      "primary_identity": 60,
+      "corner_layer": 576,
+      "corner_shifted_error": 3456,
+      "corner_aggregate": 2016
+    },
+    "failed_checks": 0,
+    "maximum_exact_legacy_matching_error_upper": "846295869593249087939304777529/434637663795483331677947919000000000000000000",
+    "maximum_matching_error_upper_display": 1.947129621034107e-15,
+    "fixed_matching_tolerance_ph": "1e-10",
+    "all_18_display_checks": "All pair-envelope RMSE and difference displays agree within 1e-48 with independently calculated exact rational square-root enclosures.",
+    "hash_checks": "Frozen plan/code and all six input bindings match; all seven output entries listed in output_manifest have matching SHA and byte count."
+  },
+  "mathematical_findings": {
+    "exact_object": "Source decimal tokens and released coefficients interpreted as exact rational numbers, not exact physical measurements or formal verification of arbitrary IEEE operations.",
+    "fraction_arithmetic": "No binary-float arithmetic input is used for normalization, affine coefficients, mean errors, MSEs, component positivity or ranking. Source integer/decimal lexemes are converted to fractions; displayed root approximations do not determine signs.",
+    "sqrt_intervals": "isqrt(floor(n*S^2/d))/S with S=10^60 yields a valid lower root grid point. The upper is the same value for a perfect square, otherwise the next grid point. The code checks low^2<=MSE<=high^2. Delta-root matching uses [model_low-reference_high,model_high-reference_low], which contains the exact root difference.",
+    "upper_logic": "For a fixed discrete pH-offset pair, reference norm is independent of shared u. Convexity therefore makes the maximum model RMSE, and maximum model-minus-reference RMSE, attained at at least one of 16 vertices.",
+    "lower_logic": "C signs are positive Sm/Gd and negative Dy/Er in every layer. With strictly positive simultaneous component minima, corner(-1,-1,+1,+1) minimizes every positive error component and hence its norm. No lower bound is inferred where this criterion fails.",
+    "leg1": "All nine upper MSE differences are strictly negative, proving model-better ordering throughout the declared box for each original pH pair. The positive-orthant criterion fails for all nine; lower extrema remain null/unproved, as required.",
+    "leg2": "The positive-error criterion holds for all nine pairs, with smallest across-pair component lower margin approximately 0.04611728565452408 pH. All nine lower MSE differences are strictly positive, proving reference-better ordering throughout the declared box at those pairs.",
+    "strict_signs": "Exact MSE differences determine ranking; rounded six-decimal RMSE table values are not directed-rounded endpoint certificates."
+  },
+  "all18_certificate_decisions": [
+    {
+      "leg": "leg1",
+      "offset_pair": "o=0;t=-0.02",
+      "minimum_status": "unproved_by_selected_criterion",
+      "all_component_lower_limits_positive": false,
+      "minimum_component_margin_exact": "-531123150149139916028306124433/8692753275909666633558958380000",
+      "delta_mse_lower_exact": null,
+      "delta_mse_upper_exact": "-159039489190031595470729085517780952027347321265340426042302718514846336713632353189/12593993252639706806980535685146312877392650591762037400000000000000000000000000000000",
+      "strict_ranking": "model_better_throughout_box"
+    },
+    {
+      "leg": "leg1",
+      "offset_pair": "o=0;t=0",
+      "minimum_status": "unproved_by_selected_criterion",
+      "all_component_lower_limits_positive": false,
+      "minimum_component_margin_exact": "-357268084630946583357126956833/8692753275909666633558958380000",
+      "delta_mse_lower_exact": null,
+      "delta_mse_upper_exact": "-165578844617043693623073426747684722105761097787225334392656886416869936713632353189/12593993252639706806980535685146312877392650591762037400000000000000000000000000000000",
+      "strict_ranking": "model_better_throughout_box"
+    },
+    {
+      "leg": "leg1",
+      "offset_pair": "o=0;t=0.02",
+      "minimum_status": "unproved_by_selected_criterion",
+      "all_component_lower_limits_positive": false,
+      "minimum_component_margin_exact": "-183413019112753250685947789233/8692753275909666633558958380000",
+      "delta_mse_lower_exact": null,
+      "delta_mse_upper_exact": "-172118200044055791775417767977588492184174874309110242743011054318893536713632353189/12593993252639706806980535685146312877392650591762037400000000000000000000000000000000",
+      "strict_ranking": "model_better_throughout_box"
+    },
+    {
+      "leg": "leg1",
+      "offset_pair": "o=-0.0043;t=-0.02",
+      "minimum_status": "unproved_by_selected_criterion",
+      "all_component_lower_limits_positive": false,
+      "minimum_component_margin_exact": "-493744311062728349504002603399/8692753275909666633558958380000",
+      "delta_mse_lower_exact": null,
+      "delta_mse_upper_exact": "-160445450606839196573483118882210262594206283217545681337628864613781410713632353189/12593993252639706806980535685146312877392650591762037400000000000000000000000000000000",
+      "strict_ranking": "model_better_throughout_box"
+    },
+    {
+      "leg": "leg1",
+      "offset_pair": "o=-0.0043;t=0",
+      "minimum_status": "unproved_by_selected_criterion",
+      "all_component_lower_limits_positive": false,
+      "minimum_component_margin_exact": "-319889245544535016832823435799/8692753275909666633558958380000",
+      "delta_mse_lower_exact": null,
+      "delta_mse_upper_exact": "-166984806033851294725827460112114032672620059739430589687983032515805010713632353189/12593993252639706806980535685146312877392650591762037400000000000000000000000000000000",
+      "strict_ranking": "model_better_throughout_box"
+    },
+    {
+      "leg": "leg1",
+      "offset_pair": "o=-0.0043;t=0.02",
+      "minimum_status": "unproved_by_selected_criterion",
+      "all_component_lower_limits_positive": false,
+      "minimum_component_margin_exact": "-146034180026341684161644268199/8692753275909666633558958380000",
+      "delta_mse_lower_exact": null,
+      "delta_mse_upper_exact": "-173524161460863392878171801342017802751033836261315498038337200417828610713632353189/12593993252639706806980535685146312877392650591762037400000000000000000000000000000000",
+      "strict_ranking": "model_better_throughout_box"
+    },
+    {
+      "leg": "leg1",
+      "offset_pair": "o=-0.0125;t=-0.02",
+      "minimum_status": "unproved_by_selected_criterion",
+      "all_component_lower_limits_positive": false,
+      "minimum_component_margin_exact": "-422463734200269083108819144683/8692753275909666633558958380000",
+      "delta_mse_lower_exact": null,
+      "delta_mse_upper_exact": "-163126586331914156815944298786470808326355931591518493761274073453611086713632353189/12593993252639706806980535685146312877392650591762037400000000000000000000000000000000",
+      "strict_ranking": "model_better_throughout_box"
+    },
+    {
+      "leg": "leg1",
+      "offset_pair": "o=-0.0125;t=0",
+      "minimum_status": "unproved_by_selected_criterion",
+      "all_component_lower_limits_positive": false,
+      "minimum_component_margin_exact": "-248608668682075750437639977083/8692753275909666633558958380000",
+      "delta_mse_lower_exact": null,
+      "delta_mse_upper_exact": "-169665941758926254968288640016374578404769708113403402111628241355634686713632353189/12593993252639706806980535685146312877392650591762037400000000000000000000000000000000",
+      "strict_ranking": "model_better_throughout_box"
+    },
+    {
+      "leg": "leg1",
+      "offset_pair": "o=-0.0125;t=0.02",
+      "minimum_status": "unproved_by_selected_criterion",
+      "all_component_lower_limits_positive": false,
+      "minimum_component_margin_exact": "-74753603163882417766460809483/8692753275909666633558958380000",
+      "delta_mse_lower_exact": null,
+      "delta_mse_upper_exact": "-176205297185938353120632981246278348483183484635288310461982409257658286713632353189/12593993252639706806980535685146312877392650591762037400000000000000000000000000000000",
+      "strict_ranking": "model_better_throughout_box"
+    },
+    {
+      "leg": "leg2",
+      "offset_pair": "o=0;t=-0.02",
+      "minimum_status": "certified_positive_orthant",
+      "all_component_lower_limits_positive": true,
+      "minimum_component_margin_exact": "133628728649808685192696424287/2897584425303222211186319460000",
+      "delta_mse_lower_exact": "3231407154583249712988598936457076469536633507351550690709642416848878154063252246490571/178343538450630888093651365837356936656757325029942211621400000000000000000000000000000000",
+      "delta_mse_upper_exact": "935456233649039415597347425134098418062541212062744788704404712983208683784805805165619/19815948716736765343739040648595215184084147225549134624600000000000000000000000000000000",
+      "strict_ranking": "reference_better_throughout_box"
+    },
+    {
+      "leg": "leg2",
+      "offset_pair": "o=0;t=0",
+      "minimum_status": "certified_positive_orthant",
+      "all_component_lower_limits_positive": true,
+      "minimum_component_margin_exact": "191580417155873129416422813487/2897584425303222211186319460000",
+      "delta_mse_lower_exact": "3743661054210489998523909369427321073942568032389248183560277045188321954463252246490571/178343538450630888093651365837356936656757325029942211621400000000000000000000000000000000",
+      "delta_mse_upper_exact": "1055591233683476084312814299472320777421707038823958127910030782798702439384805805165619/19815948716736765343739040648595215184084147225549134624600000000000000000000000000000000",
+      "strict_ranking": "reference_better_throughout_box"
+    },
+    {
+      "leg": "leg2",
+      "offset_pair": "o=0;t=0.02",
+      "minimum_status": "certified_positive_orthant",
+      "all_component_lower_limits_positive": true,
+      "minimum_component_margin_exact": "249532105661937573640149202687/2897584425303222211186319460000",
+      "delta_mse_lower_exact": "4255914953837730284059219802397565678348502557426945676410911673527765754863252246490571/178343538450630888093651365837356936656757325029942211621400000000000000000000000000000000",
+      "delta_mse_upper_exact": "1175726233717912753028281173810543136780872865585171467115656852614196194984805805165619/19815948716736765343739040648595215184084147225549134624600000000000000000000000000000000",
+      "strict_ranking": "reference_better_throughout_box"
+    },
+    {
+      "leg": "leg2",
+      "offset_pair": "o=-0.0043;t=-0.02",
+      "minimum_status": "certified_positive_orthant",
+      "all_component_lower_limits_positive": true,
+      "minimum_component_margin_exact": "29217668335722508140159519593/579516885060644442237263892000",
+      "delta_mse_lower_exact": "3341541743003106374378690679545679059483909430234655651672528861941858571149252246490571/178343538450630888093651365837356936656757325029942211621400000000000000000000000000000000",
+      "delta_mse_upper_exact": "961285258656443299371172803116816225324761864816405656633614317993539841238805805165619/19815948716736765343739040648595215184084147225549134624600000000000000000000000000000000",
+      "strict_ranking": "reference_better_throughout_box"
+    },
+    {
+      "leg": "leg2",
+      "offset_pair": "o=-0.0043;t=0",
+      "minimum_status": "certified_positive_orthant",
+      "all_component_lower_limits_positive": true,
+      "minimum_component_margin_exact": "40808006036935396984904797433/579516885060644442237263892000",
+      "delta_mse_lower_exact": "3853795642630346659914001112515923663889843955272353144523163490281302371549252246490571/178343538450630888093651365837356936656757325029942211621400000000000000000000000000000000",
+      "delta_mse_upper_exact": "1081420258690879968086639677455038584683927691577618995839240387809033596838805805165619/19815948716736765343739040648595215184084147225549134624600000000000000000000000000000000",
+      "strict_ranking": "reference_better_throughout_box"
+    },
+    {
+      "leg": "leg2",
+      "offset_pair": "o=-0.0043;t=0.02",
+      "minimum_status": "certified_positive_orthant",
+      "all_component_lower_limits_positive": true,
+      "minimum_component_margin_exact": "52398343738148285829650075273/579516885060644442237263892000",
+      "delta_mse_lower_exact": "4366049542257586945449311545486168268295778480310050637373798118620746171949252246490571/178343538450630888093651365837356936656757325029942211621400000000000000000000000000000000",
+      "delta_mse_upper_exact": "1201555258725316636802106551793260944043093518338832335044866457624527352438805805165619/19815948716736765343739040648595215184084147225549134624600000000000000000000000000000000",
+      "strict_ranking": "reference_better_throughout_box"
+    },
+    {
+      "leg": "leg2",
+      "offset_pair": "o=-0.0125;t=-0.02",
+      "minimum_status": "certified_positive_orthant",
+      "all_component_lower_limits_positive": true,
+      "minimum_component_margin_exact": "169848533966098962832525417537/2897584425303222211186319460000",
+      "delta_mse_lower_exact": "3551565841850274891448167957063479347290342585500111623741289059561030529313252246490571/178343538450630888093651365837356936656757325029942211621400000000000000000000000000000000",
+      "delta_mse_upper_exact": "1010540608670562333544514221595487392662019853788503125707921006617892281034805805165619/19815948716736765343739040648595215184084147225549134624600000000000000000000000000000000",
+      "strict_ranking": "reference_better_throughout_box"
+    },
+    {
+      "leg": "leg2",
+      "offset_pair": "o=-0.0125;t=0",
+      "minimum_status": "certified_positive_orthant",
+      "all_component_lower_limits_positive": true,
+      "minimum_component_margin_exact": "227800222472163407056251806737/2897584425303222211186319460000",
+      "delta_mse_lower_exact": "4063819741477515176983478390033723951696277110537809116591923687900474329713252246490571/178343538450630888093651365837356936656757325029942211621400000000000000000000000000000000",
+      "delta_mse_upper_exact": "1130675608704999002259981095933709752021185680549716464913547076433386036634805805165619/19815948716736765343739040648595215184084147225549134624600000000000000000000000000000000",
+      "strict_ranking": "reference_better_throughout_box"
+    },
+    {
+      "leg": "leg2",
+      "offset_pair": "o=-0.0125;t=0.02",
+      "minimum_status": "certified_positive_orthant",
+      "all_component_lower_limits_positive": true,
+      "minimum_component_margin_exact": "285751910978227851279978195937/2897584425303222211186319460000",
+      "delta_mse_lower_exact": "4576073641104755462518788823003968556102211635575506609442558316239918130113252246490571/178343538450630888093651365837356936656757325029942211621400000000000000000000000000000000",
+      "delta_mse_upper_exact": "1250810608739435670975447970271932111380351507310929804119173146248879792234805805165619/19815948716736765343739040648595215184084147225549134624600000000000000000000000000000000",
+      "strict_ranking": "reference_better_throughout_box"
+    }
+  ],
+  "issues": [],
+  "adoption_decision": {
+    "may_use_in_concise_SI": true,
+    "required_to_make_existing_manuscript_valid": false,
+    "scope": "Adopt the short affine/convex proof and compact all-pair table as a post-exposure mathematical coverage refinement. The scientific conclusion concerns only this declared coherent four-element box at the original nine discrete pH pairs.",
+    "manuscript_presentation": "Keep the finite original scenario test separate from this new exploratory envelope. Preserve Leg1 unproved minima, exact-decimal object definition and real-error/covariance caveats. Generated internal author/pending-review workflow sentences can be omitted from the submission SI while retaining independent-check provenance in the reproducibility record.",
+    "not_established": [
+      "Continuous pH-offset coverage",
+      "A realistic or complete measurement-error bound/distribution",
+      "Independent per-bottle elemental perturbations",
+      "Calibration-coefficient uncertainty propagation",
+      "Independent regional validation",
+      "Causal geochemical attribution",
+      "New marine-geochemical observations or mechanism",
+      "Journal acceptance"
+    ]
+  },
+  "mutations": "Only reviews/cycle02/continuous-box-scientific-A.json and .md written. No manuscript/state/frozen input/result or output artifact altered.",
+  "excluded_resources": [
+    "element atlas",
+    "元素图谱"
+  ]
+}

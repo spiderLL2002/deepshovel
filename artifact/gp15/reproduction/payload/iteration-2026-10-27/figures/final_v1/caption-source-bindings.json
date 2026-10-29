@@ -1,0 +1,47 @@
+{
+  "schema": "gp15-caption-source-bindings/v1",
+  "source_version": "p17; p18 captions reported unchanged by root",
+  "source_use": "Identical paragraph extraction only; no wording or scientific number changed.",
+  "captions": [
+    {
+      "source_path": "iteration-2026-10-27/manuscript/p17/manuscript.en.md",
+      "source_sha256": "2cc922828564d4346264c0563a19eac7fd8ccfdfb308bf4394de5b60c808e9db",
+      "physical_line": 177,
+      "caption_sha256": "288f93c478a039e1bde54316e9db9199aa3fb6449eb355049d76411b6cdabd78",
+      "public_source_status": "The exact caption paragraph is included in CAPTIONS.md. The full historical manuscript is a local provenance record, not a numerical reproduction input."
+    },
+    {
+      "source_path": "iteration-2026-10-27/manuscript/p17/manuscript.en.md",
+      "source_sha256": "2cc922828564d4346264c0563a19eac7fd8ccfdfb308bf4394de5b60c808e9db",
+      "physical_line": 179,
+      "caption_sha256": "ed688c07bba1ab2de38ea85b3542923c32a6689bfc9bb5db62f8577653d6d41c",
+      "public_source_status": "The exact caption paragraph is included in CAPTIONS.md. The full historical manuscript is a local provenance record, not a numerical reproduction input."
+    },
+    {
+      "source_path": "iteration-2026-10-27/manuscript/p17/manuscript.en.md",
+      "source_sha256": "2cc922828564d4346264c0563a19eac7fd8ccfdfb308bf4394de5b60c808e9db",
+      "physical_line": 181,
+      "caption_sha256": "1eda82466ad0f6bcf28d548195deaf8c0f8d5c4e1f0d77abc7a738bfa4fe7137",
+      "public_source_status": "The exact caption paragraph is included in CAPTIONS.md. The full historical manuscript is a local provenance record, not a numerical reproduction input."
+    },
+    {
+      "source_path": "iteration-2026-10-27/manuscript/p17/supplementary.en.md",
+      "source_sha256": "c6c11b534e7efb2588089732c7718c23cf6dcecaa89cf91819ec8e49965e0f3e",
+      "physical_line": 386,
+      "caption_sha256": "378f06629203a3d5359c08d342594894574efd126d9b1dab395ac0e6deb05056",
+      "public_source_status": "The exact caption paragraph is included in CAPTIONS.md. The full historical manuscript is a local provenance record, not a numerical reproduction input."
+    },
+    {
+      "source_path": "iteration-2026-10-27/manuscript/p17/supplementary.en.md",
+      "source_sha256": "c6c11b534e7efb2588089732c7718c23cf6dcecaa89cf91819ec8e49965e0f3e",
+      "physical_line": 388,
+      "caption_sha256": "680b0f81f1dfe2e0d3ed37954012799ce1c6438c59276eb95509862a634fbd61",
+      "public_source_status": "The exact caption paragraph is included in CAPTIONS.md. The full historical manuscript is a local provenance record, not a numerical reproduction input."
+    }
+  ],
+  "caption_file": {
+    "path": "iteration-2026-10-27/figures/final_v1/CAPTIONS.md",
+    "sha256": "3be16e3f66efd169caad853804d3b3ede3992cd9dc0ca683382ea255bd3207db"
+  },
+  "historical_full_text_not_required_for_execution": true
+}

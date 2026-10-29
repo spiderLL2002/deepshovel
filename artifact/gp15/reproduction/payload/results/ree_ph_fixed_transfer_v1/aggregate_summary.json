@@ -1,0 +1,324 @@
+{
+  "candidate_id": "REE-R8-01",
+  "purpose": "exploratory",
+  "validation_source_ids": [],
+  "source_columns": {
+    "leg1_ree": {
+      "sample_id": "Sample_ID",
+      "station": "Station_ID",
+      "event": "Event_ID",
+      "depth": "Sample_Depth",
+      "Sm": "Sm_D_CONC_BOTTLE_7phjk1",
+      "Sm_flag": "Flag_Sm_D_CONC_BOTTLE_7phjk1",
+      "Gd": "Gd_D_CONC_BOTTLE_6kigdm",
+      "Gd_flag": "Flag_Gd_D_CONC_BOTTLE_6kigdm",
+      "Dy": "Dy_D_CONC_BOTTLE_xk52pj",
+      "Dy_flag": "Flag_Dy_D_CONC_BOTTLE_xk52pj",
+      "Er": "Er_D_CONC_BOTTLE_a0vaod",
+      "Er_flag": "Flag_Er_D_CONC_BOTTLE_a0vaod"
+    },
+    "leg1_ph": {
+      "sample_id": "Sample_ID",
+      "station": "Station_ID",
+      "event": "Event_ID",
+      "depth": "Sample_Depth",
+      "ph": "PH_TOT_BOTTLE_gr5eba",
+      "ph_flag": "Flag_PH_TOT_BOTTLE_gr5eba"
+    },
+    "leg2_ree": {
+      "sample_id": "Sample_ID",
+      "station": "Station_ID",
+      "event": "Event_ID",
+      "depth": "Sample_Depth",
+      "Sm": "Sm_D_CONC_BOTTLE_4ekw3t",
+      "Sm_flag": "Flag_Sm_D_CONC_BOTTLE_4ekw3t",
+      "Gd": "Gd_D_CONC_BOTTLE_fgu3vr",
+      "Gd_flag": "Flag_Gd_D_CONC_BOTTLE_fgu3vr",
+      "Dy": "Dy_D_CONC_BOTTLE_qhjczn",
+      "Dy_flag": "Flag_Dy_D_CONC_BOTTLE_qhjczn",
+      "Er": "Er_D_CONC_BOTTLE_dxdypm",
+      "Er_flag": "Flag_Er_D_CONC_BOTTLE_dxdypm"
+    },
+    "leg2_ph": {
+      "sample_id": "Sample_ID",
+      "station": "Station_ID",
+      "event": "Event_ID",
+      "depth": "Sample_Depth",
+      "ph": "PH_TOT_BOTTLE_wp5r6m",
+      "ph_flag": "Flag_PH_TOT_BOTTLE_wp5r6m"
+    }
+  },
+  "source_sha256": {
+    "leg1_ree": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9",
+    "leg1_ph": "eddd66f7043437b56dd7d527d8fbb48331535f810a659e02254416c45e436d3b",
+    "leg2_ree": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809",
+    "leg2_ph": "936a04097ccd61b8ff8d62f60fcbbfc01b4cf0a46346815c7f9474ab4595365d",
+    "leg1_ree_intercal": "1f7aad4f60ef171c784f755a56bd516a3087a44f6978dc179d7994cd51a4f29d",
+    "leg1_ph_intercal": "438dfb7a25e8eea537787bbdb4cca4dbec2598e4293b2e2d1a2f323525cf7397",
+    "leg2_ree_intercal": "e154dc98945132b2de382c5730385f55010010835f4186016fc93dd9df606393",
+    "leg2_ph_intercal": "0f7f13bdd945b5ac6cc7b3a411f685f0c3d17e7c91120a09481bcccd0a15ceaf",
+    "paas": "b04fcb55324673832cef85a8e75c7580eb52448a11120421fd1bb711237ce0cb",
+    "molar_mass": "58f67c7cdd4f2357afb37c20587f2e6210a221d06e33451e1eb58305ca1632c0",
+    "atomic_numbers": "0b4291f7e06109da3d4a570766342beb3834066c15e486915b2304b9c0607e1b",
+    "author_model_code": "c695ff3ffea39f905ef02797567497465f0f989bdbbc6aa2bb4807c5608e84f4",
+    "author_proxy_code": "cc68185191ad1801dbcfe4152d4943785b450c3f7b00b929ad319bd1bd436566",
+    "author_notebook": "0c6b1aa80b7ac9a527ea8f835b19adb4a675a7d53402d13f903daaaa8c79fea9",
+    "author_training_ree": "464b8764c855680aa4a622e9b511664943bd1e565653c4092a1fc992293b83e5",
+    "author_paper": "c9c70cef730755baddfaab1a7a21f0c2581c55e5695b7881cd441faf12bd6c2a",
+    "training_catalog": "32357c3089a6a83b474bd0c4564a408088dadecb46386ef87b34d0cb0ee23ad8"
+  },
+  "published_fixed_model": {
+    "beta": -3.9879452461785675e-08,
+    "intercept": 3.339192211653703e-07,
+    "elements": [
+      "Sm",
+      "Gd",
+      "Dy",
+      "Er"
+    ],
+    "atomic_numbers": [
+      62,
+      64,
+      66,
+      68
+    ],
+    "training_depth_mean_ph": [
+      7.73087871249336,
+      7.6898707001764945,
+      7.658636222030023,
+      7.6315530378663246,
+      7.606188333846088,
+      7.584325607003087
+    ],
+    "depth_edges_m": [
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800
+    ],
+    "normalization": "pmol/kg *1e-15 -> mol/g; PAAS ug/g *1e-6 /(molar_mass_mgmol *1e-3) -> mol/g; normalized four-element concentrations OLS against fixed atomic numbers, with intercept; pH=(alpha-model_intercept)/beta"
+  },
+  "paas_mol_per_g": {
+    "Sm": 4.578345304602287e-08,
+    "Gd": 3.842925278219396e-08,
+    "Dy": 3.276923076923077e-08,
+    "Er": 1.8384660915107708e-08
+  },
+  "pairing_counts": {
+    "leg1:not_shared_sample_id": 363,
+    "leg1:outside_predeclared_depth_union": 57,
+    "leg1:eligible_in_at_least_one_depth_definition": 26,
+    "leg2:outside_predeclared_depth_union": 83,
+    "leg2:eligible_in_at_least_one_depth_definition": 58,
+    "leg2:not_shared_sample_id": 370,
+    "leg2:bottle_flag_not_allowed": 5
+  },
+  "summaries": [
+    {
+      "n_nonempty_layers": 6,
+      "nonempty_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_supported_layers": 6,
+      "full_domain_support": true,
+      "observed_offset": 0.0,
+      "training_offset": 0.0,
+      "model_bias": 0.061513468697735295,
+      "model_mae": 0.061513468697735295,
+      "model_rmse": 0.07021355937856123,
+      "baseline_bias": 0.13351488001367398,
+      "baseline_mae": 0.1467086425158873,
+      "baseline_rmse": 0.17008381101696976,
+      "delta_rmse_model_minus_baseline": -0.09987025163840853,
+      "leg": "leg1",
+      "variant": "primary"
+    },
+    {
+      "n_nonempty_layers": 6,
+      "nonempty_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_supported_layers": 5,
+      "full_domain_support": false,
+      "observed_offset": 0.0,
+      "training_offset": 0.0,
+      "model_bias": 0.06443580538999664,
+      "model_mae": 0.06443580538999664,
+      "model_rmse": 0.07531703898050274,
+      "baseline_bias": 0.13180571334700733,
+      "baseline_mae": 0.14175447584922063,
+      "baseline_rmse": 0.16420955222151712,
+      "delta_rmse_model_minus_baseline": -0.08889251324101438,
+      "leg": "leg1",
+      "variant": "half_open"
+    },
+    {
+      "n_nonempty_layers": 6,
+      "nonempty_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_supported_layers": 6,
+      "full_domain_support": true,
+      "observed_offset": 0.0,
+      "training_offset": 0.0,
+      "model_bias": 0.043586913527452996,
+      "model_mae": 0.05017016031733575,
+      "model_rmse": 0.05355735242023823,
+      "baseline_bias": 0.15891694350573746,
+      "baseline_mae": 0.15891694350573746,
+      "baseline_rmse": 0.1817003702555121,
+      "delta_rmse_model_minus_baseline": -0.12814301783527388,
+      "leg": "leg1",
+      "variant": "ree_reported_depth"
+    },
+    {
+      "n_nonempty_layers": 6,
+      "nonempty_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_supported_layers": 6,
+      "full_domain_support": true,
+      "observed_offset": 0.0,
+      "training_offset": 0.0,
+      "model_bias": 0.06283349752679657,
+      "model_mae": 0.06283349752679657,
+      "model_rmse": 0.07148796496461346,
+      "baseline_bias": 0.1356958522358962,
+      "baseline_mae": 0.15594044807144294,
+      "baseline_rmse": 0.17420566833010692,
+      "delta_rmse_model_minus_baseline": -0.10271770336549346,
+      "leg": "leg1",
+      "variant": "station_equal"
+    },
+    {
+      "n_nonempty_layers": 6,
+      "nonempty_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_supported_layers": 6,
+      "full_domain_support": true,
+      "observed_offset": 0.0,
+      "training_offset": 0.0,
+      "model_bias": 0.21084292730740448,
+      "model_mae": 0.21084292730740448,
+      "model_rmse": 0.21827126240141048,
+      "baseline_bias": 0.09915757317427139,
+      "baseline_mae": 0.09915757317427139,
+      "baseline_rmse": 0.11029509536786561,
+      "delta_rmse_model_minus_baseline": 0.10797616703354487,
+      "leg": "leg2",
+      "variant": "primary"
+    },
+    {
+      "n_nonempty_layers": 6,
+      "nonempty_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_supported_layers": 6,
+      "full_domain_support": true,
+      "observed_offset": 0.0,
+      "training_offset": 0.0,
+      "model_bias": 0.21583357744764906,
+      "model_mae": 0.21583357744764906,
+      "model_rmse": 0.2242251826836335,
+      "baseline_bias": 0.10644623837753213,
+      "baseline_mae": 0.10644623837753213,
+      "baseline_rmse": 0.11494328141096904,
+      "delta_rmse_model_minus_baseline": 0.10928190127266446,
+      "leg": "leg2",
+      "variant": "half_open"
+    },
+    {
+      "n_nonempty_layers": 6,
+      "nonempty_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_supported_layers": 6,
+      "full_domain_support": true,
+      "observed_offset": 0.0,
+      "training_offset": 0.0,
+      "model_bias": 0.2105504656911473,
+      "model_mae": 0.2105504656911473,
+      "model_rmse": 0.22017300487341437,
+      "baseline_bias": 0.11589035850458718,
+      "baseline_mae": 0.11589035850458718,
+      "baseline_rmse": 0.1203025423380124,
+      "delta_rmse_model_minus_baseline": 0.09987046253540198,
+      "leg": "leg2",
+      "variant": "ree_reported_depth"
+    },
+    {
+      "n_nonempty_layers": 6,
+      "nonempty_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "n_supported_layers": 6,
+      "full_domain_support": true,
+      "observed_offset": 0.0,
+      "training_offset": 0.0,
+      "model_bias": 0.20987937439121454,
+      "model_mae": 0.20987937439121454,
+      "model_rmse": 0.2182601023037413,
+      "baseline_bias": 0.1102777768390708,
+      "baseline_mae": 0.1102777768390708,
+      "baseline_rmse": 0.11767510124913033,
+      "delta_rmse_model_minus_baseline": 0.10058500105461096,
+      "leg": "leg2",
+      "variant": "station_equal"
+    }
+  ],
+  "paper_eligibility": "not_automatically_assessed",
+  "limitations": [
+    "Stop before responses if input/source SHA or fixed model identity fails, or duplicate/ambiguous source identity cannot be resolved.",
+    "Preserve six layers even when empty or poorly supported; an entire200\u2013800m domain statement requires all six layers to meet the prespecified station rule.",
+    "Give conditional station-resampling percentile intervals only with at least6 station labels and at least90% bootstrap draws covering all originally nonempty layers. Otherwise report point estimates/support only.",
+    "No scalar threshold makes the candidate paper-eligible. Evaluate magnitude against declared source-method scales and original training span without treating either as a universal acceptance bound.",
+    "If only an acknowledged generic caveat or a result driven by one station remains, close or narrow the claim rather than tune elements, coefficients, exclusions or bins.",
+    "Leg1 is exploration-exposed; Leg2 is a prospective response check only if root's exposure ledger verifies the freeze preceded response access. Shared cruise/lab precludes claiming independent-laboratory replication.",
+    "A regional transfer result cannot alone refute the original global-mean relation, the pH-complexation mechanism, or all paleo-carbonate applications."
+  ],
+  "systematic_scenario_meaning": "Observed offsets are conditional corrections motivated by two positive GP15 CRM offsets, not known sample corrections. Training-reference offsets shift both model and depth baseline identically. All crossed scenarios use identical primary support; no scenario is a confidence bound or truth."
+}

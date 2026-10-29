@@ -1,0 +1,44 @@
+{
+  "record_type": "exact selected historical decision fields",
+  "candidate_record_created_at": "2026-10-25T14:48:58.380177+00:00",
+  "candidate_record_updated_at": "2026-10-25T15:07:23.824691+00:00",
+  "candidate": {
+    "id": "REE-R7-02",
+    "question": "Within individual deep-sea hydrothermal vent orifices, do bottle-level REY concentrations follow independently constrained seawater mixing, or do element-selective reaction losses occur during fluid collection/cooling?",
+    "competing_explanations": [
+      "Apparent concentration differences among replicate vent-fluid collections reflect conservative seawater entrainment alone.",
+      "Rapid mineral precipitation or scavenging during mixing preferentially removes some REY.",
+      "Temporal endmember variation or differences in sampling support mimic a reaction loss."
+    ],
+    "discriminating_observations": "Paired bottle IDs with raw REY, Mg/Cl, temperature, filtration/acidification history, bottom-water REY and conservative fluid tracers. Within-orifice departures must recur across independent vents and exceed independently documented analytical variability; cross-site differences alone do not distinguish pH, host rock and source-temperature effects.",
+    "potential_increment": "An original within-orifice, independently constrained reaction budget would test whether a chemical fractionation arises before bulk plume scavenging; it differs from the R6 Kairei size-cut water-column deficit. It requires the paired major-element source and true observation support, not just zero-Mg recalculation.",
+    "status": "recommend_reject_current_form_direct_overlap_and_unidentified_increment",
+    "reasons": [
+      "New DeepShovel-bound Hongo2007 original PDF establishes direct substantive overlap in the core REE-Mg/early-mixing question. Repeating it with new regional labels or another conditional correction is insufficient; a different independently controlled observation is needed.",
+      "Actual bottle-level Mg/Cl is available, correcting the initial access gap. An identity-only pairing table preserves exact source cells and candidate status, without silently asserting same aliquot.",
+      "Even granting the colour crosswalk, two REE bottles per each of three orifices provide a narrow within-orifice concentration contrast. The inspected sources do not provide independent collection/cooling, filtration/preservation, temporal-endmember or reaction-extent controls that would separate reaction loss from changing source/sampling support. Two D743 bottles carry a qualitative poorer-sample flag, not a numerical correction.",
+      "Absence of matched bottom-water REE and reported analytical covariance limits a fully empirical residual budget, but these absences alone do not make all conditional mixing estimates impossible. The decisive issue is the lack of an established new, independently discriminating process claim; zero-Mg recalculation or broad host-rock/Cl interpretation is insufficient and overlaps published work.",
+      "No response effect, endmember, mixing slope or significance was calculated. Original GDR measurements remain usable source observations; rejection applies only to the proposed new mechanistic paper in its current form."
+    ],
+    "writing_eligible": false,
+    "effect_calculation_executed": false
+  },
+  "round_close": {
+    "at": "2026-10-25T15:46:16.075738+00:00",
+    "round": 7,
+    "action": "close_round_after_one_frozen_analysis_and_independent_raw_recomputation",
+    "dispositions": {
+      "REE-R7-01": "not_selected_data_or_novelty_gate_incomplete",
+      "REE-R7-02": "rejected_current_form",
+      "REE-R7-03": "rejected_current_form",
+      "OAE-R7-01": "rejected_current_form_after_frozen_analysis",
+      "OAE-R7-02": "rejected_current_form",
+      "OAE-R7-03": "rejected_current_form"
+    },
+    "review": "reviews/round7-decision.md",
+    "claims": "round7-claim-ledger.json",
+    "eligible": 0,
+    "next_round": 8
+  },
+  "causal_limit": "The contemporary notes say the DeepShovel-bound source strengthens an existing rejection. They do not establish a counterfactual acceptance without DeepShovel."
+}

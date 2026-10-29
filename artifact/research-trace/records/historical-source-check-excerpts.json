@@ -1,0 +1,22 @@
+[
+  {
+    "source_record": "ree/round7/REPORT.md",
+    "start_line": 23,
+    "text": "A later DeepShovel source-chain result resolved a more direct nearest neighbour: Hongo2007. Its original methods and Fig12 were checked in `HONGO-NEAREST-CHECK.md`; source-binding and prior AI assessment remain separate from our original-PDF interpretation. This strengthens the R7-02 contribution rejection without claiming that the source paper uniquely proves a mechanism.\n"
+  },
+  {
+    "source_record": "ree/round7/HONGO-NEAREST-CHECK.md",
+    "start_line": 7,
+    "text": "**Direct overlap is confirmed.** Pages11–13 compare REE against Mg and a simple seawater–fluid dilution model; Fig10 shows element–Mg relations, Fig11 separates chimney samples, and Fig12 plots early-mixing fractionation. The authors use nine fluid samples from three chimneys and interpret LREE/Eu behaviour in terms of precipitation versus particle uptake. This substantially covers the proposed general question. A new region or another Mg correction would not supply a distinct mechanism test."
+  },
+  {
+    "source_record": "ree/round7/HONGO-NEAREST-CHECK.md",
+    "start_line": 9,
+    "text": "Methods constrain transferability: page4 states vent-fluid aliquots were acidified without filtration, so measured REE includes dissolved and acid-soluble particles. Water-column samples were0.2µm-filtered (page3). Mg used ICP-AES; REE used extraction/ICP-MS. The original acknowledges missing supporting temperature/redox/anion information (page13). Its process interpretation should therefore be reported as an interpretation, not a unique causal identification or automatically transferable quantitative calibration."
+  },
+  {
+    "source_record": "ree/round7/HONGO-NEAREST-CHECK.md",
+    "start_line": 13,
+    "text": "The graph's pre-existing AI assessment flags possible Ce wording conflict. The original discussion's negligible Ce deficiency and conclusion's non-selective Ce removal concern potentially different quantities (an anomaly versus total removal). This check does not adopt that model-generated conflict as a new scientific finding. Likewise historical graph verdicts do not certify or refute the paper."
+  }
+]

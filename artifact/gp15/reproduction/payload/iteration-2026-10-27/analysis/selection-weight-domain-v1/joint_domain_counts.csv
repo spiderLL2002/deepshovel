@@ -1,0 +1,13 @@
+leg,alpha_within_original_range,observed_ph_within_original_range,n_layer_means
+leg1,True,True,1
+leg1,True,False,0
+leg1,False,True,0
+leg1,False,False,5
+leg2,True,True,0
+leg2,True,False,3
+leg2,False,True,2
+leg2,False,False,1
+all_primary_rows,True,True,1
+all_primary_rows,True,False,3
+all_primary_rows,False,True,2
+all_primary_rows,False,False,6

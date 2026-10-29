@@ -58,3 +58,52 @@ jobs:
       - run: npm run contract:check
       - run: npm run build
       - run: npm run test:node
+  reasoning-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.13.0'
+      - name: Record runtime versions
+        run: |
+          mkdir -p runs/reasoning-evidence
+          python --version | tee runs/reasoning-evidence/python-version.txt
+          node --version | tee runs/reasoning-evidence/node-version.txt
+      - name: Verify recorded argument inputs with production code
+        run: |
+          node --experimental-strip-types --no-warnings artifact/arguments/verify.mjs --out runs/reasoning-evidence/arguments | tee runs/reasoning-evidence/arguments-stdout.json
+      - name: Restore and verify the two external GP15 inputs
+        run: |
+          python -B artifact/gp15/fetch_external_sources.py | tee runs/reasoning-evidence/gp15-source-fetch.json
+      - name: Execute the GP15 raw-source and exact-contrast checks
+        run: |
+          python -B artifact/gp15/verify_demo.py | tee runs/reasoning-evidence/gp15-quick.json
+      - name: Verify historical research traces and cross-package bindings
+        run: |
+          python -B artifact/research-trace/verify_trace.py | tee runs/reasoning-evidence/research-trace.json
+      - name: Install locked research dependencies
+        run: |
+          python -m pip install -r artifact/gp15/reproduction/requirements-research.lock 2>&1 | tee runs/reasoning-evidence/dependency-install.log
+          python -m pip freeze > runs/reasoning-evidence/python-packages.txt
+      - name: Recompute all ten GP15 stages with reported portability checks
+        run: |
+          python -B artifact/gp15/run_portable.py --out runs/reasoning-evidence/gp15-full 2>&1 | tee runs/reasoning-evidence/gp15-full.log
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reasoning-evidence-linux
+          path: |
+            runs/reasoning-evidence/*.json
+            runs/reasoning-evidence/*.log
+            runs/reasoning-evidence/*.txt
+            runs/reasoning-evidence/arguments/
+            runs/reasoning-evidence/gp15-full/*.log
+            runs/reasoning-evidence/gp15-full/*verification*.json

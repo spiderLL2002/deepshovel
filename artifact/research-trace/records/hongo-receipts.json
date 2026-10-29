@@ -1,0 +1,69 @@
+[
+  {
+    "source_record": "deepshovel/round7/search-http/responses/f54edf1166b864429295a8fcc13ef93360a0766e411a731da63ce65c531fbc85/receipt.json",
+    "method": "POST",
+    "url": "https://deepshovel.iiot-shxt.xyz/api/evidence-search",
+    "requested_at": "2026-10-25T14:51:44.958852+00:00",
+    "complete": true,
+    "http_status": 200,
+    "effective_status": 200,
+    "response_sha256": "784cf4b0070583f726e9ed7e2939c306f97b61a6081c321c7e18c47be0ee146c",
+    "response_bytes": 94883
+  },
+  {
+    "source_record": "deepshovel/round7/search-http/responses/dbf961d00151b3afdb90bfc76206ac1ef69734e716e56eb86a68b59193777a80/receipt.json",
+    "method": "POST",
+    "url": "https://deepshovel.iiot-shxt.xyz/api/evidence-search",
+    "requested_at": "2026-10-25T14:52:05.635273+00:00",
+    "complete": true,
+    "http_status": 200,
+    "effective_status": 200,
+    "response_sha256": "2fd465addb2505087c15bf225b1fe40465e12162e1f782162ee49666d58fbeb6",
+    "response_bytes": 52874
+  },
+  {
+    "source_record": "deepshovel/round7/chain-http/responses/5f32b13f93052ea9e6454c14479edcc625ec5a2431f57d75aa330bd90338e850/receipt.json",
+    "method": "GET",
+    "url": "https://deepshovel.iiot-shxt.xyz/api/library?query=013_2007_Yayoi+Hongo_Rare+Earth+Elements+in+the+hydrothermal+system+at+Okinawa+Trough+back-arc+basin.pdf&status=all&limit=100",
+    "requested_at": "2026-10-25T14:59:42.406782+00:00",
+    "complete": true,
+    "http_status": 200,
+    "effective_status": 200,
+    "response_sha256": "73e4cc5c86d7a94d476d5f78681d09d0a11a5436c5cb9e2c60bca16e999f54ad",
+    "response_bytes": 2027
+  },
+  {
+    "source_record": "deepshovel/round7/chain-http/responses/79d95c516414b0b69b2a1c60e5f9ce124f206b1d56f4ef4e56f46b0413d8d3af/receipt.json",
+    "method": "GET",
+    "url": "https://deepshovel.iiot-shxt.xyz/api/evidence-graphs/snapshot:sha256:17b8178b87989fc0e7bc521755326b5edcaf772a83b0f27fed67008816cf3278",
+    "requested_at": "2026-10-25T14:59:43.727558+00:00",
+    "complete": true,
+    "http_status": 200,
+    "effective_status": 200,
+    "response_sha256": "22208b2843627a5b058dabb6bc39df79740d589e3c47ee87f5f259c646459895",
+    "response_bytes": 165605
+  },
+  {
+    "source_record": "deepshovel/round7/chain-http/responses/b7b124771d4dc782838657d08f2f77ce688470330ab866096bf6bf7d4265a386/receipt.json",
+    "method": "GET",
+    "url": "https://deepshovel.iiot-shxt.xyz/api/evidence-graphs/snapshot:sha256:17b8178b87989fc0e7bc521755326b5edcaf772a83b0f27fed67008816cf3278/visuals?kind=all&page=1&limit=50",
+    "requested_at": "2026-10-25T14:59:43.727693+00:00",
+    "complete": true,
+    "http_status": 200,
+    "effective_status": 200,
+    "response_sha256": "78fdefb64579513447aa1d54ff440b47bfb5402e7a470c1c9645c3d615090e74",
+    "response_bytes": 5551
+  },
+  {
+    "source_record": "deepshovel/round7/chain-http/responses/60728cb89db801124b970f27ca10a474c0b9c6a93e06cefec799d40e239a9412/receipt.json",
+    "method": "GET",
+    "url": "https://deepshovel.iiot-shxt.xyz/api/artifacts/5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+    "requested_at": "2026-10-25T14:59:47.099216+00:00",
+    "complete": true,
+    "http_status": 200,
+    "effective_status": 200,
+    "response_sha256": "5aecf1722cf777a13fc8d9bf2617f2d40ae76515e9894ac7de2fdd3fc9e8eced",
+    "response_bytes": 1298871,
+    "artifact_sha_verified": true
+  }
+]

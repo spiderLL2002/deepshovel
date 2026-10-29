@@ -21,7 +21,7 @@
     ".gitignore": {
       "sha256": "38f16e0bf0a8e4070539095fa950d1a8fafdb0e1872cac8a97376015f7e5833c",
       "bytes": 1742,
-      "published_sha256": "004b501c24ad235484a02ecef44fdcf1132f87e47b3cd4e10ae9b20724fcaf7e",
+      "published_sha256": "b80e4e00be6c822fb5173c249bf55dccf07d0411b7445e0a3a0dd6cd2d6b1985",
       "publication_modified": true
     },
     ".npmrc": {

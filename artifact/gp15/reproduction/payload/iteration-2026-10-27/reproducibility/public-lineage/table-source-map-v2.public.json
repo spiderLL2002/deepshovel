@@ -1,0 +1,331 @@
+{
+  "schema": "gp15-public-scientific-table-lineage/v1",
+  "task_relative_paths": true,
+  "tables_covered": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "methods_covered": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "scope": "Scientific derived-table provenance index. Existing manifests retain their input row/field locators; this index adds no measurements, inference or validation. SHA means byte identity, not source authenticity or scientific truth.",
+  "groups": [
+    {
+      "tables": [
+        "S1",
+        "S2"
+      ],
+      "methods": [
+        "S5"
+      ],
+      "bindings": [
+        {
+          "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+          "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "results/ree_ph_fixed_transfer_v1/pairing_audit.csv",
+          "sha256": "5d6e2e4ec14c2f50ca85ef988a220bc674acfa5a8f1b72de48a2972899862c75",
+          "public_packet_status": "included unchanged"
+        }
+      ]
+    },
+    {
+      "tables": [
+        "S3"
+      ],
+      "methods": [],
+      "bindings": [
+        {
+          "path": "ree/round8/training-domain-annotation.json",
+          "sha256": "42e53e25d592dc45456d7b1bdae2081fb38c124bbacd8350f98f5fb17e7d0779",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/joint_domain_labels.csv",
+          "sha256": "27d97ba1fa7b4a1d265dda19209f0cab495781e6168332247d9ae4626811e24d",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/joint_domain_counts.csv",
+          "sha256": "d3b01373156b6d7d1b57ed78c0824344ad2aedc21da5ae1366d2f35d9436d21c",
+          "public_packet_status": "included unchanged"
+        }
+      ]
+    },
+    {
+      "tables": [
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8"
+      ],
+      "methods": [],
+      "bindings": [
+        {
+          "path": "revision-2026-10-27/analysis/results-v2/run_manifest.json",
+          "sha256": "cc25e869610307913c3be8f72bfae0f49b117dd9059c4057f5a12548251f48c9",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "revision-2026-10-27/figures/v3/figure-source-manifest.json",
+          "sha256": "79c8e8025d3d055a46605be75519685911a209452292d83dc739f17e22db04c1",
+          "public_packet_status": "included unchanged"
+        }
+      ]
+    },
+    {
+      "tables": [
+        "S9",
+        "S10",
+        "S11",
+        "S12"
+      ],
+      "methods": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8"
+      ],
+      "bindings": [
+        {
+          "path": "iteration-2026-10-27/analysis/review-tables-v1/source_manifest.json",
+          "sha256": "e935e2dafc593d0439cab5ec9dd20c42dcf7be1d3bced6544e4dcb1385f050c3",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "iteration-2026-10-27/analysis/review-tables-v1/output_manifest.json",
+          "sha256": "d1f6a7eb8b20ee1ee8dd7cdcef5105b327bbcf26bcdcb112e8108838b32470b8",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "ree/round8/protocol-frozen-v1.json",
+          "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "ree/round8/raw/Lin2024-notebook-published-output.txt",
+          "sha256": "4a820bc045cb25987c24e3f626f4ca429374a041f1ec1e70ad00d9b44982bd27",
+          "public_packet_status": "included unchanged"
+        }
+      ]
+    },
+    {
+      "tables": [
+        "S13"
+      ],
+      "methods": [],
+      "bindings": [
+        {
+          "path": "iteration-2026-10-27/reproducibility/public-lineage/novelty-context-extended.public.json",
+          "sha256": "073e6e995a3c1c8d81fd7a6fce0b5308b27157f5213ede0a1ea65a973f0d62d2",
+          "original_local_binding": {
+            "path": "iteration-2026-10-27/sources/novelty-context-extended.json",
+            "sha256": "5c258cd85b614c550bc5504db299bd6e60352eea6c080b87f1b3cd6eedeaa1e5"
+          },
+          "public_transformation": "Author-written bounded search metadata and scientific comparison retained; raw online/publisher bodies and unresolved-license full texts remain local and are identified by SHA/DOI/URL."
+        }
+      ]
+    },
+    {
+      "tables": [
+        "S14"
+      ],
+      "methods": [
+        "S9"
+      ],
+      "bindings": [
+        {
+          "path": "iteration-2026-10-27/analysis/continuous-box-v1/source_manifest.json",
+          "sha256": "4c30c079c58daf984eaeaa2a54fc6be22c7b37cc3a245c4c19382c6180665043",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "iteration-2026-10-27/analysis/continuous-box-v1/output_manifest.json",
+          "sha256": "0d1e1f202a9dd3c7a4589e68408461ea9d50889d39219f0bb8df560dd14fc26e",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "iteration-2026-10-27/reviews/cycle02/continuous-box-scientific-A.json",
+          "sha256": "1697da2b33fc9e11ca7ea2da10b617f031838330221f6955caa182bcf3540ceb",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "iteration-2026-10-27/reviews/cycle02/continuous-box-independent-C.json",
+          "sha256": "9691b782fc7029936a78344149c3bad48ae88866418ed48b9e1b6deaec8bdbbb",
+          "public_packet_status": "included unchanged"
+        }
+      ]
+    },
+    {
+      "tables": [
+        "S15"
+      ],
+      "methods": [
+        "S10",
+        "S11"
+      ],
+      "bindings": [
+        {
+          "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/input_manifest.json",
+          "sha256": "d4286d513d7be9bd649f3199d8b86082efc67d0423cab9c360850ca399b19ab4",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/output_manifest.json",
+          "sha256": "b02fa307ded5eca7fa32c8eee6fd1f1cd3e3c16c71afb3871196c26d74c8a2f6",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "iteration-2026-10-27/reviews/selection-weight-domain-independent-B.json",
+          "sha256": "978c0f844dc371e09f8cacbc9c00465f69a8ab202ac9bb9c875b968274da1df0",
+          "public_packet_status": "included unchanged"
+        }
+      ]
+    },
+    {
+      "tables": [
+        "S16"
+      ],
+      "methods": [],
+      "bindings": [
+        {
+          "path": "ree/round8/raw/Lin2024.txt",
+          "sha256": "7e866e981754d04dccbca6cbff1b332edccf6549da83214f38fff911a5b63a78",
+          "public_packet_status": "included unchanged"
+        }
+      ]
+    },
+    {
+      "tables": [
+        "S17"
+      ],
+      "methods": [],
+      "bindings": [
+        {
+          "path": "ree/round8/EXPOSURE.md",
+          "sha256": "44ac141cf2b28497d433f867dbdddca9f28c19fe98ec73c77e169b455484c0c5",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "ree/round8/ph-proxy-source-identity.json",
+          "sha256": "cc7c6e19e44ad8a44a97c5a3d57d00fb8ce22be4be8bbb769005c50f188c4f65",
+          "public_packet_status": "included unchanged"
+        }
+      ]
+    },
+    {
+      "tables": [
+        "S8",
+        "S9",
+        "S17"
+      ],
+      "methods": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S8"
+      ],
+      "purpose": "Original-method source spine, not only display-table references",
+      "bindings": [
+        {
+          "path": "ree/round8/transfer-source-input.json",
+          "sha256": "9fd91d413e03e069afe0fc65d4b622449308a38c81d3d458285e42a1514e2455",
+          "locator": "17 original source bindings, original source pages, tables and column locators",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "ree/round8/analyze_ree_ph_transfer.py",
+          "sha256": "af466ab78796d559e83d5610ab72168f42de960b6b8e3085c01092398207baeb",
+          "locator": "station_bootstrap lines282–315; scoring, normalization and measurement-scenario operators",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "results/ree_ph_fixed_transfer_v1/cluster_bootstrap.json",
+          "sha256": "f9712ac21681045802d9580a98f12236b0e4dfa30734cad0d1ebc9dabd639780",
+          "locator": "both original seeds, accepted/rejected draws and percentiles",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "ree/round8/raw/Lin2024-REE_pH_proxy.py",
+          "sha256": "cc68185191ad1801dbcfe4152d4943785b450c3f7b00b929ad319bd1bd436566",
+          "locator": "lines27–47 original product variable;234–244 alpha-on-pH/covariance",
+          "public_packet_status": "included unchanged"
+        },
+        {
+          "path": "ree/round8/raw/Lin2024-REE_pH_estimates.py",
+          "sha256": "c695ff3ffea39f905ef02797567497465f0f989bdbbc6aa2bb4807c5608e84f4",
+          "locator": "released inverse mapping,PAAS,masses andfixedcoefficients",
+          "public_packet_status": "included unchanged"
+        }
+      ]
+    }
+  ],
+  "supersedes": {
+    "path": "iteration-2026-10-27/manuscript/table-source-map-v1.json",
+    "sha256": "6d7c000f64d30f09fee4aa92e780a7442f486035bf57e12f32338d47322b55ea"
+  },
+  "original_local_map": {
+    "path": "iteration-2026-10-27/manuscript/table-source-map-v2.json",
+    "sha256": "ca23934c8819b1f0f005f919da542db737aa91dde9648710296a6fb7f72bc7d0",
+    "original_bytes_preserved_separately": true
+  },
+  "original_local_predecessor_map": {
+    "path": "iteration-2026-10-27/manuscript/table-source-map-v1.json",
+    "sha256": "6d7c000f64d30f09fee4aa92e780a7442f486035bf57e12f32338d47322b55ea"
+  },
+  "local_workflow_history_not_redistributed": [
+    {
+      "path": "iteration-2026-10-27/manuscript/p15/revision.json",
+      "sha256": "8ee8722a9de44622a90ccdf5b909eca30488b060b613609014a97d6f0a5e2b20",
+      "tables": [
+        "S16"
+      ],
+      "public_packet_status": "local workflow history only; not distributed",
+      "reason": "Revision bookkeeping references historical manuscript/referee snapshots; scientific values and methods are bound directly by the retained public source/data/code records."
+    },
+    {
+      "path": "iteration-2026-10-27/manuscript/p16/revision.json",
+      "sha256": "2ec2f05fbe0c35de472112861140a08fd2fc6660ae5c0b7e012a50a7652b5a60",
+      "tables": [
+        "S17"
+      ],
+      "public_packet_status": "local workflow history only; not distributed",
+      "reason": "Revision bookkeeping references historical manuscript/referee snapshots; scientific values and methods are bound directly by the retained public source/data/code records."
+    }
+  ],
+  "public_inclusion_note": "Every path in groups[].bindings is included at that exact task-relative path in the proposed public payload. Local-only identifiers elsewhere are explicit provenance metadata and are not claimed to be distributed files. This public adaptation changes no scientific number, table definition, model, method, source SHA or original map.",
+  "offline_boundary": "Raw publisher HTML, full online tool-response bodies, external PDFs without an established redistribution basis and private service/authentication records are omitted. Primary URLs/DOIs, source locators, author comparisons and original local SHA identifiers remain. Original Lin2024 PDF/text are CC BY 4.0; author source code retains MIT attribution."
+}

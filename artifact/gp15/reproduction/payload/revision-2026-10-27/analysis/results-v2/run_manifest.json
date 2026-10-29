@@ -1,0 +1,130 @@
+{
+  "protocol_sha256": "3afc72d81ac22a6006c7f6180ba0eb144790ad4a40ca205d6d787f6e444bd28a",
+  "analysis_script_sha256": "3d5e39e062b5c843f17213405498f73bc65761231be0c788f9ab4ddc2a5469ab",
+  "inputs": [
+    {
+      "role": "leg1_ree",
+      "path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9"
+    },
+    {
+      "role": "leg1_ph",
+      "path": "ree/round8/raw/GP15-leg1-pH.csv",
+      "sha256": "eddd66f7043437b56dd7d527d8fbb48331535f810a659e02254416c45e436d3b"
+    },
+    {
+      "role": "leg2_ree",
+      "path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809"
+    },
+    {
+      "role": "leg2_ph",
+      "path": "ree/round8/raw/GP15-leg2-pH.csv",
+      "sha256": "936a04097ccd61b8ff8d62f60fcbbfc01b4cf0a46346815c7f9474ab4595365d"
+    },
+    {
+      "role": "paas",
+      "path": "ree/round8/raw/Lin2024-paas.csv",
+      "sha256": "b04fcb55324673832cef85a8e75c7580eb52448a11120421fd1bb711237ce0cb"
+    },
+    {
+      "role": "molar_mass",
+      "path": "ree/round8/raw/Lin2024-molar_mass_mgmol.csv",
+      "sha256": "58f67c7cdd4f2357afb37c20587f2e6210a221d06e33451e1eb58305ca1632c0"
+    },
+    {
+      "role": "original_layers",
+      "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321"
+    },
+    {
+      "role": "original_samples",
+      "path": "results/ree_ph_fixed_transfer_v1/sample_predictions.csv",
+      "sha256": "75e79395b1db84626911efccefc922005dddc0c896fe86621dcdd9fb5fab963e"
+    },
+    {
+      "role": "training_saved_output",
+      "path": "ree/round8/raw/Lin2024-notebook-published-output.txt",
+      "sha256": "4a820bc045cb25987c24e3f626f4ca429374a041f1ec1e70ad00d9b44982bd27"
+    },
+    {
+      "role": "original_protocol",
+      "path": "ree/round8/protocol-frozen-v1.json",
+      "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79"
+    },
+    {
+      "role": "author_model_code",
+      "path": "ree/round8/raw/Lin2024-REE_pH_estimates.py",
+      "sha256": "c695ff3ffea39f905ef02797567497465f0f989bdbbc6aa2bb4807c5608e84f4"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "abundance_shape_bottles.csv",
+      "sha256": "aead8be543c813b8b48af3f217f7b11eb5556c44496f5320e89d62cc73328882",
+      "bytes": 17651
+    },
+    {
+      "path": "abundance_shape_layers.csv",
+      "sha256": "5388ed78e6f1595f27956e1741af866e0b7b42662187b8eaf6cad711151d3365",
+      "bytes": 9433
+    },
+    {
+      "path": "common_station_layers.csv",
+      "sha256": "97c0bc57f33e54887a0366680919e7fd37a0772b229b701a07009be03cfea6fb",
+      "bytes": 2578
+    },
+    {
+      "path": "common_station_summary.json",
+      "sha256": "55a32bad62af91ca5224f7d58ed385d93fc709fb7aa90f6d33ac61fd6bd68d40",
+      "bytes": 2360
+    },
+    {
+      "path": "depth_conflicts.csv",
+      "sha256": "196826da941b713e84a1366665030acaed2f644d2148f86de607d4a2589eeb63",
+      "bytes": 78309
+    },
+    {
+      "path": "mse_decomposition.csv",
+      "sha256": "ed9898444bbb3196a57c56e79876af75daf1e2f779c88fd677f2486890c42289",
+      "bytes": 1217
+    },
+    {
+      "path": "pair_identity_audit.csv",
+      "sha256": "106ffef41cb51c99d2b86dca281dd539fe351f0a9407901d8d07307c7f653b30",
+      "bytes": 40130
+    },
+    {
+      "path": "reconstructed_primary_layers.csv",
+      "sha256": "2cfa9b25a4249e4bdd235df09bf833eac5bc9b485ae24d9992da29126e1f38d2",
+      "bytes": 2997
+    },
+    {
+      "path": "station_geometry.json",
+      "sha256": "26dde87d20eb3a8c8ca9508036c1c4d85db56ab953503302a5010c3747e479b2",
+      "bytes": 27865
+    },
+    {
+      "path": "station_layer_support.csv",
+      "sha256": "4b37620f76f64aa76db6619c5da3148290fda56d73fe302fc7e394f40f5ec93c",
+      "bytes": 938
+    },
+    {
+      "path": "station_layer_support_long.csv",
+      "sha256": "11647105cc74b9ef771e16239002ff26b04eaaeb5631a9417c6f2e1766ac101d",
+      "bytes": 4363
+    },
+    {
+      "path": "summary.json",
+      "sha256": "e20e43c7ea6bc7367998511132e2e5837febad1530359d175a63ffc211c8960a",
+      "bytes": 8082
+    },
+    {
+      "path": "training_common_multiplier.csv",
+      "sha256": "8c274b810e835cd5c3827cd48122e6f70094f11dd2bb060f220f208de801fab8",
+      "bytes": 998
+    }
+  ],
+  "deterministic": true,
+  "scientific_scope": "Post-review diagnostic only; original frozen results unchanged"
+}

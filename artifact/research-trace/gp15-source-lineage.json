@@ -1,0 +1,274 @@
+{
+  "record_type": "retrospective publication index assembled from existing identity fields; not an automatic graph writeback log",
+  "original_source_doi": "https://doi.org/10.2475/001c.118215",
+  "deepshovel_source": {
+    "artifact_id": "artifact:f3f34902-fe23-4a8a-984b-71b25924d9b7",
+    "artifact_version_id": "artifact-version:sha256:c9c70cef730755baddfaab1a7a21f0c2581c55e5695b7881cd441faf12bd6c2a",
+    "original_sha256": "c9c70cef730755baddfaab1a7a21f0c2581c55e5695b7881cd441faf12bd6c2a",
+    "snapshot_id": "snapshot:sha256:9aa82148582c0a946565aa7196180b2b6f8952227fec717141760e49854db293",
+    "graph_sha256": "9aa82148582c0a946565aa7196180b2b6f8952227fec717141760e49854db293",
+    "selected_claim": {
+      "id": "claim:sha256:5fda7f389730f069661123239724e7aacb355a04bfce7cc8b1435010b760223a",
+      "source_id": "claim.proxy",
+      "proposition": "For screened marine limestones, the shale-normalized REE slope based on Sm, Gd, Dy, and Er decreases as seawater pH increases, supporting its use as a potential seawater-pH proxy with a reported 2σ uncertainty of about 1–1.5 pH units.",
+      "qualifiers": [
+        "The modern calibration covers a narrow subsurface seawater pH range; extending it beyond that range remains uncertain."
+      ],
+      "scope": {
+        "condition": [
+          "Contemporary subsurface seawater calibration"
+        ],
+        "entities": [
+          "REE slope",
+          "marine limestones",
+          "seawater pH"
+        ],
+        "formation": [],
+        "location": [],
+        "measurement": [
+          "Seawater pH inferred from carbonate REE patterns"
+        ],
+        "method": [
+          "Shale-normalized REE slope using Sm, Gd, Dy, and Er; modern-seawater calibration and limestone partition coefficients"
+        ],
+        "sample_type": [
+          "Screened marine limestone samples"
+        ],
+        "time": {
+          "end": null,
+          "label": "Modern seawater calibration; Phanerozoic limestone samples",
+          "start": null,
+          "unit": null
+        },
+        "uncertainty": "Reported 2σ uncertainty about 1–1.5 pH units"
+      }
+    },
+    "selected_anchors": [
+      {
+        "id": "anchor.figure.3",
+        "artifact_version_id": "artifact-version:sha256:c9c70cef730755baddfaab1a7a21f0c2581c55e5695b7881cd441faf12bd6c2a",
+        "selector": {
+          "page": 8,
+          "figure": "Figure 3",
+          "section": null
+        }
+      }
+    ],
+    "artifact_receipt": {
+      "source_record": "deepshovel/round8/http/responses/6aa8835ad8e197cf7fca04fa77120ae50c5b75b8e876b9fe4a5140f02ababc10/receipt.json",
+      "method": "GET",
+      "url": "https://deepshovel.iiot-shxt.xyz/api/artifacts/c9c70cef730755baddfaab1a7a21f0c2581c55e5695b7881cd441faf12bd6c2a",
+      "requested_at": "2026-10-25T15:45:55.359613+00:00",
+      "complete": true,
+      "http_status": 200,
+      "effective_status": 200,
+      "response_sha256": "c9c70cef730755baddfaab1a7a21f0c2581c55e5695b7881cd441faf12bd6c2a",
+      "response_bytes": 1769781,
+      "artifact_sha_verified": true
+    }
+  },
+  "research_input": {
+    "source_input_record": "ree/round8/transfer-source-input.json",
+    "source_input_sha256": "9fd91d413e03e069afe0fc65d4b622449308a38c81d3d458285e42a1514e2455",
+    "author_paper": {
+      "role": "author_paper",
+      "path": "raw/Lin2024.pdf",
+      "sha256": "c9c70cef730755baddfaab1a7a21f0c2581c55e5695b7881cd441faf12bd6c2a",
+      "source_id": "ree-r8-author-paper",
+      "url": "https://ajsonline.org/api/v1/articles/118215-the-rare-earth-element-distribution-in-marine-carbonates-as-a-potential-proxy-for-seawater-ph-on-early-earth.pdf",
+      "locator": "Sections2.1,3.2,4.2;Fig3 original domain and caveats"
+    }
+  },
+  "frozen_protocol": {
+    "schema_version": 1,
+    "candidate_id": "REE-R8-01",
+    "frozen": true,
+    "frozen_at_utc": "2026-10-25T15:57:54.693118+00:00",
+    "input_sha256": "9fd91d413e03e069afe0fc65d4b622449308a38c81d3d458285e42a1514e2455",
+    "scientific_target": "Regional transfer of the fixed Lin–Catling modern-seawater calibration at the original six100m mean layers, compared on identical matched bottles with the original fixed depth-only pH means; no new calibration or causal attribution.",
+    "model": {
+      "beta": -3.9879452461785675e-08,
+      "intercept": 3.339192211653703e-07,
+      "elements": [
+        "Sm",
+        "Gd",
+        "Dy",
+        "Er"
+      ],
+      "atomic_numbers": [
+        62,
+        64,
+        66,
+        68
+      ],
+      "training_depth_mean_ph": [
+        7.73087871249336,
+        7.6898707001764945,
+        7.658636222030023,
+        7.6315530378663246,
+        7.606188333846088,
+        7.584325607003087
+      ],
+      "depth_edges_m": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "normalization": "pmol/kg *1e-15 -> mol/g; PAAS ug/g *1e-6 /(molar_mass_mgmol *1e-3) -> mol/g; normalized four-element concentrations OLS against fixed atomic numbers, with intercept; pH=(alpha-model_intercept)/beta"
+    },
+    "primary": {
+      "depth_source": "ph_reported",
+      "bin_rule": "inclusive",
+      "weighting": "record",
+      "exploratory_leg": "leg1",
+      "prospective_check_leg": "leg2"
+    },
+    "support": {
+      "min_stations_per_layer_for_domain_statement": 3,
+      "min_stations_for_cluster_interval": 6,
+      "min_valid_bootstrap_fraction": 0.9,
+      "report_all_six_layers": true,
+      "no_posthoc_layer_selection": true
+    },
+    "bootstrap": {
+      "replicates": 1000,
+      "seed": 271828,
+      "unit": "whole_station_within_leg",
+      "interval_percentiles": [
+        2.5,
+        97.5
+      ],
+      "scope": "Conditional whole-station resampling only. Along-transect spatial dependence and non-probability sampling mean percentile intervals have no established nominal confidence coverage; analytical covariance and calibration parameter uncertainty are excluded."
+    },
+    "leave_one_station_out": {
+      "legs": [
+        "leg1",
+        "leg2"
+      ],
+      "variant": "primary",
+      "report_all_six_layers": true,
+      "missing_original_nonempty_layer": "Report missing support and suppress aggregate comparison; do not change denominator."
+    }
+  },
+  "state_events": [
+    {
+      "at": "2026-10-25T15:54:10.325794+00:00",
+      "round": 8,
+      "action": "register_exactly_six_candidates_and_select_first_deep_candidate",
+      "registered": [
+        "REE-R8-01",
+        "REE-R8-02",
+        "REE-R8-03",
+        "OAE-R8-01",
+        "OAE-R8-02",
+        "OAE-R8-03"
+      ],
+      "selected": [
+        "REE-R8-01"
+      ],
+      "maximum_deep_candidates": 2,
+      "second_slot": "unallocated",
+      "reason": "New actual same-bottle GP15 data permit a fixed source-defined mean-layer prediction comparison against the original depth baseline; contribution remains to be tested.",
+      "review": "reviews/round8-ree-calibration-independent-source-review.md",
+      "prospective_check": "Leg2 raw responses unexamined before freeze; same cruise/labs, no independent-study validation claim",
+      "source_input": {
+        "path": "ree/round8/transfer-source-input.json",
+        "sha256": "9fd91d413e03e069afe0fc65d4b622449308a38c81d3d458285e42a1514e2455",
+        "locator": "17 original/method/calibration sources and exactSHA"
+      },
+      "not_authorized_yet": "No response execution until finalized independent review and root freeze"
+    },
+    {
+      "at": "2026-10-25T15:57:54.864927+00:00",
+      "round": 8,
+      "action": "freeze_first_deep_analysis",
+      "plan": {
+        "path": "plans/ree-ph-fixed-transfer-v1.json",
+        "sha256": "6f5defd55abc658c961b7a8396fbe490aa2f38dcda84e8ded1bd9287e4c22820",
+        "locator": "complete frozen analysis plan"
+      },
+      "review": {
+        "path": "reviews/round8-ree-transfer-preexecution-review.md",
+        "sha256": "e9b7d0d50d4e7014aea5e910498b5180589792ea47f11ed0bfa84fcf75325433",
+        "locator": "complete narrow preexecution review"
+      },
+      "protocol": {
+        "path": "ree/round8/protocol-frozen-v1.json",
+        "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79",
+        "locator": "all fixed scientific decisions"
+      },
+      "first_response_access": "not_yet_executed",
+      "deep_candidate_count": 1,
+      "second_slot": "unallocated",
+      "manuscript_gate": "pending_actual_result_and_independent_review"
+    }
+  ],
+  "final_claim_source_map": {
+    "schema": "gp15-core-claim-source-map/v1",
+    "scientific_version": "p20",
+    "claims": [
+      {
+        "claim_id": "C01",
+        "claim": "Released implementation unchanged",
+        "manuscript_location": "Methods2.2",
+        "evidence_role": "fixed-method definition",
+        "bound_sources": [
+          {
+            "path": "ree/round8/protocol-frozen-v1.json",
+            "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79"
+          },
+          {
+            "path": "ree/round8/raw/Lin2024-REE_pH_estimates.py",
+            "sha256": "c695ff3ffea39f905ef02797567497465f0f989bdbbc6aa2bb4807c5608e84f4"
+          }
+        ],
+        "locator_and_limit": "PAAS/masses, four selected atomicnumbers, fixedbeta/intercept; noGP15fit"
+      },
+      {
+        "claim_id": "C03",
+        "claim": "Four primary RMSEs and opposite error ordering",
+        "manuscript_location": "Abstract;Results3.1;Conclusions",
+        "evidence_role": "empirical fixed-comparator score",
+        "bound_sources": [
+          {
+            "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+            "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321"
+          },
+          {
+            "path": "results/ree_ph_fixed_transfer_v1/aggregate_summary.json",
+            "sha256": "13d6831201d631d6ce39ef99ba5ef35be057a20f58795214956b02157a9b1b18"
+          }
+        ],
+        "locator_and_limit": "variant=primary; six equal layer mean errors, not bottle RMSE"
+      },
+      {
+        "claim_id": "C12",
+        "claim": "Leg2 anynonnegative depthweights ofsameunperturbedmeans retainsreferenceadvantage",
+        "manuscript_location": "S11;Discussion4.1",
+        "evidence_role": "mathematical implication ofpoint errors",
+        "bound_sources": [
+          {
+            "path": "iteration-2026-10-27/analysis/selection-weight-domain-v1/layer_squared_error_difference.csv",
+            "sha256": "f8e5d75d397107e51a2854a05dc29713d5f82d77b6906e1b4a20ed70928c0928"
+          },
+          {
+            "path": "iteration-2026-10-27/reviews/selection-weight-domain-independent-B.json",
+            "sha256": "978c0f844dc371e09f8cacbc9c00465f69a8ab202ac9bb9c875b968274da1df0"
+          }
+        ],
+        "locator_and_limit": "12exactd;Leg1mixedsigns;notjointwithREEbox orwithinlayer/spatialweightchanges"
+      }
+    ]
+  },
+  "mapping_semantics": {
+    "source_to_research": "Exact original PDF identity shared by DeepShovel artifact/version and the frozen research input. Figure/claim locators guide source inspection; the published fixed implementation defines the model.",
+    "inherited": "Published model definition, calibration depth/aggregation, source interpretation and caveats.",
+    "new_analysis_inputs": "GP15 parent-bottle matching, eligibility/support rules, station grouping, fixed comparator evaluation and local result tables.",
+    "new_claims": "C03 empirical RMSE result; C12 conditional nonnegative-depth-weight deduction. Neither is a claim that existed in the original source graph.",
+    "not_demonstrated": "Automatic insertion of C03/C12 into the production source graph, automatic edge-level mapping, subsequent network retrieval of those inserted nodes, or a causal accuracy gain from DeepShovel."
+  }
+}

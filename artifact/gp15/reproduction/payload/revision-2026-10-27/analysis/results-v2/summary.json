@@ -1,0 +1,246 @@
+{
+  "analysis_status": "post_review_exploratory_diagnostics",
+  "estimand": "Means on actual eligible samples and fixed layer support; not area-weighted or complete regional profiles",
+  "n_eligible_union_by_leg": {
+    "leg1": 26,
+    "leg2": 58
+  },
+  "n_primary_bottles_by_leg": {
+    "leg1": 24,
+    "leg2": 55
+  },
+  "eligible_pair_time_match_counts": {
+    "leg1": {
+      "true": 26,
+      "false": 0,
+      "unknown": 0
+    },
+    "leg2": {
+      "true": 58,
+      "false": 0,
+      "unknown": 0
+    }
+  },
+  "primary_pair_time_match_counts": {
+    "leg1": {
+      "true": 24,
+      "false": 0,
+      "unknown": 0
+    },
+    "leg2": {
+      "true": 55,
+      "false": 0,
+      "unknown": 0
+    }
+  },
+  "eligible_pair_nonmatching_or_unknown_times": [],
+  "maximum_primary_reconstruction_absolute_difference": 8.881784197001252e-16,
+  "mse_decomposition": [
+    {
+      "leg": "leg1",
+      "predictor": "REE_model",
+      "n_layers": 6,
+      "mean_error": 0.061513468697735586,
+      "mse": 0.004929943920606772,
+      "rmse": 0.07021355937856143,
+      "squared_mean_error": 0.003783906831227296,
+      "centered_mse": 0.0011460370893794764,
+      "centered_rmse": 0.03385316956179253,
+      "squared_mean_error_fraction_of_mse": 0.7675354714301855,
+      "identity_residual": 0.0,
+      "scope": "post-review descriptive error decomposition; centering is not validation or a correction"
+    },
+    {
+      "leg": "leg1",
+      "predictor": "fixed_depth_baseline",
+      "n_layers": 6,
+      "mean_error": 0.1335148800136743,
+      "mse": 0.02892850277005639,
+      "rmse": 0.17008381101697007,
+      "squared_mean_error": 0.01782622318506584,
+      "centered_mse": 0.011102279584990545,
+      "centered_rmse": 0.10536735540474831,
+      "squared_mean_error_fraction_of_mse": 0.6162165849633113,
+      "identity_residual": 3.469446951953614e-18,
+      "scope": "post-review descriptive error decomposition; centering is not validation or a correction"
+    },
+    {
+      "leg": "leg2",
+      "predictor": "REE_model",
+      "n_layers": 6,
+      "mean_error": 0.2108429273074043,
+      "mse": 0.047642343990305314,
+      "rmse": 0.21827126240141032,
+      "squared_mean_error": 0.04445473999555538,
+      "centered_mse": 0.0031876039947499302,
+      "centered_rmse": 0.056458869938654725,
+      "squared_mean_error_fraction_of_mse": 0.93309304858303,
+      "identity_residual": 2.168404344971009e-18,
+      "scope": "post-review descriptive error decomposition; centering is not validation or a correction"
+    },
+    {
+      "leg": "leg2",
+      "predictor": "fixed_depth_baseline",
+      "n_layers": 6,
+      "mean_error": 0.0991575731742717,
+      "mse": 0.012165008062206618,
+      "rmse": 0.11029509536786583,
+      "squared_mean_error": 0.009832224317811045,
+      "centered_mse": 0.0023327837443955727,
+      "centered_rmse": 0.048298900032977696,
+      "squared_mean_error_fraction_of_mse": 0.8082382081074899,
+      "identity_residual": 0.0,
+      "scope": "post-review descriptive error decomposition; centering is not validation or a correction"
+    }
+  ],
+  "common_station_diagnostic": [
+    {
+      "leg": "leg1",
+      "stations": [
+        "16",
+        "18"
+      ],
+      "n_stations": 2,
+      "n_unique_bottles": 10,
+      "layer_memberships": 14,
+      "model": {
+        "n_layers": 6,
+        "mean_error": 0.07900724257576937,
+        "mse": 0.006421141965277445,
+        "rmse": 0.08013202833622424,
+        "squared_mean_error": 0.006242144379426464,
+        "centered_mse": 0.00017899758585098051,
+        "centered_rmse": 0.013378997938970636,
+        "squared_mean_error_fraction_of_mse": 0.9721237146260094,
+        "identity_residual": 2.439454888092385e-19
+      },
+      "baseline": {
+        "n_layers": 6,
+        "mean_error": 0.08990876890256268,
+        "mse": 0.027963473902588354,
+        "rmse": 0.16722282709782285,
+        "squared_mean_error": 0.008083586725574422,
+        "centered_mse": 0.01987988717701393,
+        "centered_rmse": 0.14099605376397573,
+        "squared_mean_error_fraction_of_mse": 0.2890766273794827,
+        "identity_residual": 0.0
+      },
+      "delta_rmse_model_minus_baseline": -0.08709079876159861,
+      "scope": "Post-review common-station station-equal diagnostic; not a replacement primary analysis, regional validation, or independent study; no intervals"
+    },
+    {
+      "leg": "leg2",
+      "stations": [
+        "31",
+        "33"
+      ],
+      "n_stations": 2,
+      "n_unique_bottles": 21,
+      "layer_memberships": 25,
+      "model": {
+        "n_layers": 6,
+        "mean_error": 0.2690863805593655,
+        "mse": 0.0787110246963892,
+        "rmse": 0.28055485149323156,
+        "squared_mean_error": 0.07240748020253968,
+        "centered_mse": 0.006303544493849527,
+        "centered_rmse": 0.0793948644047556,
+        "squared_mean_error_fraction_of_mse": 0.9199153547020371,
+        "identity_residual": -1.734723475976807e-18
+      },
+      "baseline": {
+        "n_layers": 6,
+        "mean_error": 0.16516293556922954,
+        "mse": 0.028699056299702604,
+        "rmse": 0.16940795819471588,
+        "squared_mean_error": 0.027278795285845467,
+        "centered_mse": 0.0014202610138571389,
+        "centered_rmse": 0.03768635049798719,
+        "squared_mean_error_fraction_of_mse": 0.9505119262798947,
+        "identity_residual": -2.168404344971009e-18
+      },
+      "delta_rmse_model_minus_baseline": 0.11114689329851568,
+      "scope": "Post-review common-station station-equal diagnostic; not a replacement primary analysis, regional validation, or independent study; no intervals"
+    }
+  ],
+  "depth_conflicts": {
+    "all_shared_identity_matched": {
+      "n_nonzero_depth_conflicts": 173,
+      "max_abs_difference_m": 99.0,
+      "max_difference_sample_ids": [
+        "14984"
+      ]
+    },
+    "eligible_union": {
+      "n_nonzero_depth_conflicts": 58,
+      "max_abs_difference_m": 99.0,
+      "max_difference_sample_ids": [
+        "14984"
+      ]
+    },
+    "eligible_primary": {
+      "n_nonzero_depth_conflicts": 53,
+      "max_abs_difference_m": 99.0,
+      "max_difference_sample_ids": [
+        "14984"
+      ]
+    }
+  },
+  "sample14984": [
+    {
+      "leg": "leg2",
+      "sample_id": "14984",
+      "station": "31",
+      "event": "6912",
+      "ree_csv_line": 265,
+      "ph_csv_line": 116,
+      "ree_reported_depth_m": 360.0,
+      "ph_reported_depth_m": 261.0,
+      "depth_difference_ree_minus_ph_m": 99.0,
+      "ree_bins": [
+        1
+      ],
+      "ph_bins": [
+        0
+      ],
+      "bin_membership_differs": true,
+      "identity_matches": true,
+      "ree_time": "2018-11-11T02:07:00Z",
+      "ph_time": "2018-11-11T02:07Z",
+      "time_matches_after_iso_normalization": true,
+      "ree_latitude": -2.5,
+      "ree_longitude": -152.0,
+      "ph_latitude": -2.5,
+      "ph_longitude": -152.0,
+      "flags": {
+        "Sm": "2",
+        "Gd": "2",
+        "Dy": "2",
+        "Er": "2",
+        "pH": "2"
+      },
+      "status": "eligible_in_at_least_one_depth_definition",
+      "eligible_union": true,
+      "eligible_primary": true,
+      "ree_source": "ree/round8/raw/GP15-leg2-REE.csv",
+      "ree_sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809",
+      "ph_source": "ree/round8/raw/GP15-leg2-pH.csv",
+      "ph_sha256": "936a04097ccd61b8ff8d62f60fcbbfc01b4cf0a46346815c7f9474ab4595365d"
+    }
+  ],
+  "ten_percent_concentration_illustration": {
+    "delta_ph_range": [
+      -0.0803320237318607,
+      -0.06431740239261659
+    ],
+    "applies_to": "original six saved training alpha values"
+  },
+  "maximum_abs_alpha_equals_A_s_residual": 1.3234889800848443e-23,
+  "limitations": [
+    "All target responses previously exposed; all new diagnostics post-review exploratory",
+    "Two-leg shared-cruise/laboratory dependence retained",
+    "Centering error is descriptive; not a target-trained bias correction or validation",
+    "Common-station diagnostic neither recovers absent stations nor establishes regional representativeness",
+    "No causal abundance-versus-shape partition from alpha=A*s"
+  ]
+}

@@ -1,0 +1,163 @@
+Browser tab: 2, Title: "DeepShovel · Evidence Bench", URL: "https://deepshovel.iiot-shxt.xyz/".
+1 AXWebArea DeepShovel · Evidence Bench, URL: deepshovel.iiot-shxt.xyz/
+	2 container main-content
+		3 link Description: 跳到主要内容, Value: deepshovel.iiot-shxt.xyz/#view-content
+		4 container
+			5 button Description: DeepShovel 观点校验首页, Help: DeepShovel 首页
+				6 text DeepShovel
+				7 text 论文证据分析平台
+			8 container 主要功能
+				9 button 观点校验：输入观点并核对论文证据
+					10 text 观点校验
+				11 button 论文校验：核对整篇论文的推理与数据
+					12 text 论文校验
+				13 button 文献库：上传与版本管理
+					14 text 文献库
+				15 button 证据图谱：浏览主题与 Claim 关系
+					16 text 证据图谱
+				17 button 数据图表库：查看论文的元数据、正文与图表
+					18 text 数据图表库
+				19 button 元素图谱：浏览全球地球化学元素分布
+					20 text 元素图谱
+			21 container 质量控制
+				22 button 人工复核：复核证据并记录结论
+					23 text 人工复核
+				24 button 当前任务，没有进行中的任务
+					25 text 当前任务
+		26 container 输入观点
+			27 heading 输入观点, Value: 1, ID: evidence-search-title
+				28 text 输入观点
+			29 container
+				30 text entry area (settable) Description: 待核对观点, Value: For fault F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa under the assessed stress state, assuming zero cohesion and a friction coefficient of 0.6.
+				31 button (collapsed) 对话历史（可选）, Secondary Actions: Expand
+					32 text 对话历史（可选）
+				33 text 检索意图
+				34 pop up button (collapsed, settable) 检索意图, Value: 全部相关观点, Secondary Actions: Expand
+					35 menu
+						36 (selected) 全部相关观点
+						37 优先支持证据
+						38 优先相反证据
+				39 button 检索证据
+			40 button (collapsed) 检索理解, Secondary Actions: Expand
+				41 text 检索理解
+			42 container 初步结果
+				43 container
+					44 heading 初步结果, Value: 3, ID: preview-results-title
+						45 text 初步结果
+					46 text 30  条
+				47 container
+					48 container 初排第 1 名
+						49 text 1
+					50 text 10.1007_s12182-019-0331-9.pdf For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.
+					51 button (collapsed) 范围与关键词, Secondary Actions: Expand
+						52 text 范围与关键词
+					53 button 查看论文证据
+				54 container
+					55 container 初排第 2 名
+						56 text 2
+					57 text 10.1007_s12182-019-0331-9.pdf For the four Asmari-reservoir faults, the 3D Mohr-diagram, slip-tendency, and modified slip-tendency analyses give concordant fault-stability assessments.
+					58 button (collapsed) 范围与关键词, Secondary Actions: Expand
+						59 text 范围与关键词
+					60 button 查看论文证据
+				61 container
+					62 container 初排第 3 名
+						63 text 3
+					64 text 10.1007_s12182-019-0331-9.pdf For EOR and geosequestration injection planning in this part of the Gachsaran field, the NW side of F2 is the preferred location for a new injection well because it is associated with the lower modeled reactivation risk.
+					65 button (collapsed) 范围与关键词, Secondary Actions: Expand
+						66 text 范围与关键词
+					67 button 查看论文证据
+				68 button (collapsed) 查看其余 27 条 Claim, Secondary Actions: Expand
+			69 container 关系分析
+				70 container
+					71 heading 关系分析, Value: 3, ID: ai-results-title
+						72 text 关系分析
+					73 text 9  组
+				74 container 等价观点
+					75 container
+						76 heading 等价观点, Value: 3, ID: relation-equivalent
+							77 text 等价观点
+						78 text 1  组
+					79 container
+						80 text 与检索观点等价 1  篇独立论文
+						81 text For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa.
+						82 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							83 text 范围与关键词
+						84 container 10.1007_s12182-019-0331-9.pdf
+							85 text 代表证据 ·  10.1007_s12182-019-0331-9.pdf
+						86 text 这条观点只在有限条件下成立 可信度  76 %
+						87 button (collapsed) 展开原文与证据链, Secondary Actions: Expand
+							88 text 展开原文与证据链
+						89 button 查看代表论文
+				90 container 限定与细化
+					91 container
+						92 heading 限定与细化, Value: 3, ID: relation-qualify
+							93 text 限定与细化
+						94 text 1  组
+					95 container
+						96 text 为检索观点补充成立条件 1  篇独立论文
+						97 text Under the present-day stress state and pore pressure modeled for the Gachsaran oilfield, all four analyzed Asmari-reservoir faults (F1–F4) are stable and not critically stressed.
+						98 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							99 text 范围与关键词
+						100 container 10.1007_s12182-019-0331-9.pdf
+							101 text 代表证据 ·  10.1007_s12182-019-0331-9.pdf
+						102 text 本篇证据支持这条观点 可信度  93 %
+						103 button (collapsed) 展开原文与证据链, Secondary Actions: Expand
+							104 text 展开原文与证据链
+						105 button 查看代表论文
+				106 container 补充证据
+					107 container
+						108 heading 补充证据, Value: 3, ID: relation-supplement
+							109 text 补充证据
+						110 text 1  组
+					111 container
+						112 text 提供补充材料 1  篇独立论文
+						113 text For the four Asmari-reservoir faults, the 3D Mohr-diagram, slip-tendency, and modified slip-tendency analyses give concordant fault-stability assessments.
+						114 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							115 text 范围与关键词
+						116 container 10.1007_s12182-019-0331-9.pdf
+							117 text 代表证据 ·  10.1007_s12182-019-0331-9.pdf
+						118 text 这条观点只在有限条件下成立 可信度  62 %
+						119 button (collapsed) 展开原文与证据链, Secondary Actions: Expand
+							120 text 展开原文与证据链
+						121 button 查看代表论文
+				122 container 主题相关
+					123 container
+						124 heading 主题相关, Value: 3, ID: relation-related
+							125 text 主题相关
+						126 text 6  组
+					127 container
+						128 text 1  篇独立论文
+						129 text For the approximately 20° low-angle segment of the Gediz Graben master bounding fault at approximately 6 km depth, the projected stress model suggests that brittle shear reactivation likely requires elevated pore pressure together with fault-zone weakening; overpressure alone may be insufficient.
+						130 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							131 text 范围与关键词
+						132 container 10.1016_j.jog.2012.03.006.pdf
+							133 text 代表证据 ·  10.1016_j.jog.2012.03.006.pdf
+						134 text 这条观点只在有限条件下成立 可信度  83 %
+						135 button (collapsed) 展开原文与证据链, Secondary Actions: Expand
+							136 text 展开原文与证据链
+						137 button 查看代表论文
+					138 container
+						139 text 1  篇独立论文
+						140 text After pore-pressure diffusion in the modeled strike-slip fault system, a water-level increase produces a negative effective horizontal normal stress change across the modeled poroelastic range except at β=1, thereby tending to destabilize the fault.
+						141 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							142 text 范围与关键词
+						143 container 10.1016_j.tecto.2018.06.004.pdf
+							144 text 代表证据 ·  10.1016_j.tecto.2018.06.004.pdf
+						145 text 这条观点只在有限条件下成立 可信度  80 %
+						146 button (collapsed) 展开原文与证据链, Secondary Actions: Expand
+							147 text 展开原文与证据链
+						148 button 查看代表论文
+					149 container
+						150 text 1  篇独立论文
+						151 text Among F1–F4 in the Asmari reservoir, F3 is the most prone to reactivation under the assessed gas-injection conditions.
+						152 button (collapsed) 范围与关键词, Secondary Actions: Expand
+							153 text 范围与关键词
+						154 container 10.1007_s12182-019-0331-9.pdf
+							155 text 代表证据 ·  10.1007_s12182-019-0331-9.pdf
+						156 text 本篇证据支持这条观点 可信度  86 %
+						157 button (collapsed) 展开原文与证据链, Secondary Actions: Expand
+							158 text 展开原文与证据链
+						159 button 查看代表论文
+					160 button (collapsed) 查看其余 3 条 Claim, Secondary Actions: Expand
+
+The focused UI element is 1 AXWebArea DeepShovel · Evidence Bench, URL: deepshovel.iiot-shxt.xyz/

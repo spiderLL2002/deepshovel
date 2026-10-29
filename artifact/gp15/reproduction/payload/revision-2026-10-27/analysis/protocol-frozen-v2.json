@@ -1,0 +1,145 @@
+{
+  "schema": "gp15-reviewer-diagnostics/v1",
+  "frozen": true,
+  "frozen_by": "root",
+  "analysis_script_sha256": "3d5e39e062b5c843f17213405498f73bc65761231be0c788f9ab4ddc2a5469ab",
+  "task_root_relative": "../..",
+  "analysis_status": "post_review_exploratory",
+  "source_exposure": "All GP15 responses and reviewer approximate diagnostic outputs already known. This freeze records deterministic review-response scope, not prospective validation.",
+  "inputs": [
+    {
+      "role": "leg1_ree",
+      "path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9"
+    },
+    {
+      "role": "leg1_ph",
+      "path": "ree/round8/raw/GP15-leg1-pH.csv",
+      "sha256": "eddd66f7043437b56dd7d527d8fbb48331535f810a659e02254416c45e436d3b"
+    },
+    {
+      "role": "leg2_ree",
+      "path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809"
+    },
+    {
+      "role": "leg2_ph",
+      "path": "ree/round8/raw/GP15-leg2-pH.csv",
+      "sha256": "936a04097ccd61b8ff8d62f60fcbbfc01b4cf0a46346815c7f9474ab4595365d"
+    },
+    {
+      "role": "paas",
+      "path": "ree/round8/raw/Lin2024-paas.csv",
+      "sha256": "b04fcb55324673832cef85a8e75c7580eb52448a11120421fd1bb711237ce0cb"
+    },
+    {
+      "role": "molar_mass",
+      "path": "ree/round8/raw/Lin2024-molar_mass_mgmol.csv",
+      "sha256": "58f67c7cdd4f2357afb37c20587f2e6210a221d06e33451e1eb58305ca1632c0"
+    },
+    {
+      "role": "original_layers",
+      "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321"
+    },
+    {
+      "role": "original_samples",
+      "path": "results/ree_ph_fixed_transfer_v1/sample_predictions.csv",
+      "sha256": "75e79395b1db84626911efccefc922005dddc0c896fe86621dcdd9fb5fab963e"
+    },
+    {
+      "role": "training_saved_output",
+      "path": "ree/round8/raw/Lin2024-notebook-published-output.txt",
+      "sha256": "4a820bc045cb25987c24e3f626f4ca429374a041f1ec1e70ad00d9b44982bd27"
+    },
+    {
+      "role": "original_protocol",
+      "path": "ree/round8/protocol-frozen-v1.json",
+      "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79"
+    },
+    {
+      "role": "author_model_code",
+      "path": "ree/round8/raw/Lin2024-REE_pH_estimates.py",
+      "sha256": "c695ff3ffea39f905ef02797567497465f0f989bdbbc6aa2bb4807c5608e84f4"
+    }
+  ],
+  "model": {
+    "beta": -3.9879452461785675e-08,
+    "intercept": 3.339192211653703e-07,
+    "baseline_ph": [
+      7.73087871249336,
+      7.6898707001764945,
+      7.658636222030023,
+      7.6315530378663246,
+      7.606188333846088,
+      7.584325607003087
+    ],
+    "depth_edges_m": [
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800
+    ]
+  },
+  "eligibility": "Reproduce original exact normalized sampleID, station/event, accepted2flags, finitepositive4REE andfinitepH; same200–800m depthunion; primarypHreporteddepth withbothinclusivebounds. No target-driven exclusion, clipping, correction, interpolation or refit.",
+  "planned_diagnostics": [
+    {
+      "id": "D1",
+      "definition": "Station × sixinclusiveprimarylayer eligible bottlecountmatrix, sampleIDs and physicalCSVlines; original REE coordinates plus roundedpH coordinates; maprepresentative medianonlywithalldistinctpositionsretained. All actual eligible samples, notarea-weightedregionalprofile."
+    },
+    {
+      "id": "D2",
+      "definition": "Intersectionofstationlabelswithatleastoneeligiblebottleineachofallsixprimarybins; allcommonstations retained, stationequalperlayer then equalweightedsixlayererrors. Post-review2stationdiagnostic expectedfromuserreview, no interval/pvalue/independentvalidation."
+    },
+    {
+      "id": "D3",
+      "definition": "MSE=bias²+centeredMSE on six equally weighted raw-derived primarymeans for eachleg andmodel/baseline. CenteredRMSE diagnostic only, notvalidatedtargetbiascorrection."
+    },
+    {
+      "id": "D4",
+      "definition": "Allsharedpairedfinite nonzero depthdiscrepancies plus separateidentity-matchedall, eligibleunion andeligibleprimarymaxima; exactrawdepth,time,flags,coordinates andCSVlines; report14984truthdepthunresolved. ISO-normalizedtimestampmatchingtrue/false/unknowncountsforall eligiblepairs includingequal-depthrecords; retainmismatching/unknowncaseswithoutnewexclusion. Separateprimarysubsettimecountsalsoreported."
+    },
+    {
+      "id": "D5",
+      "definition": "Each eligibleunionbottle alpha=A*s withA=mean4PAASnormalizedmolarconcentrations ands=OLSslopeofthefourvalues/A. Primaryrecordweighted andstationequal layermeancomposition product checked; also meanalpha=meanA*means+weightedcov(A,s). Algebraicdescriptionnotcausaldecomposition."
+    },
+    {
+      "id": "D6",
+      "definition": "Exact10%commonconcentrationmultiplier illustration forall6originalsavedtrainingalphas:deltaPH=0.1alpha/beta. NoactualGP15 mechanismclaim."
+    }
+  ],
+  "checks": [
+    "Input andscriptSHA mismatchstop",
+    "Independentrawderivedprimary means must matchoriginalfrozenmeans within1e-12pH",
+    "All6layerspreserved; emptylayermakescommonstationaggregateunavailable",
+    "alphaandweightedcovarianceidentities within1e-20",
+    "MSEdecompositionidentity within1e-14",
+    "No output overwrite; freshdestinationrequired"
+  ],
+  "outputs": [
+    "pair_identity_audit.csv",
+    "depth_conflicts.csv",
+    "station_layer_support.csv",
+    "station_layer_support_long.csv",
+    "station_geometry.json",
+    "reconstructed_primary_layers.csv",
+    "mse_decomposition.csv",
+    "common_station_layers.csv",
+    "common_station_summary.json",
+    "abundance_shape_bottles.csv",
+    "abundance_shape_layers.csv",
+    "training_common_multiplier.csv",
+    "summary.json",
+    "run_manifest.json"
+  ],
+  "analysis_script": "revision-2026-10-27/analysis/reviewer_diagnostics_v2.py",
+  "no_new_model_or_baseline": true,
+  "original_frozen_files_modified": false,
+  "frozen_at_utc": "2026-10-27T04:23:15.303195+00:00",
+  "independent_preexecution_review": "revision-2026-10-27/reviews/preexecution-design-review.md",
+  "timestamp_note": "Timestamp match summaries added after static provenance review; no eligibility change",
+  "repair_note": "Renamed local event identifier re that shadowed regex module. No numerical/eligibility/protocol changes. Frozenv1 failure retained; no output was written."
+}

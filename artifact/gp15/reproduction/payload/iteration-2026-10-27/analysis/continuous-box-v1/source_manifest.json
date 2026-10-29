@@ -1,0 +1,69 @@
+{
+  "all_GP15_already_exposed": true,
+  "arithmetic": {
+    "display": "CSV sqrt/RMSE display50 significant digits; concise SI table differences six decimals. These are labeled approximations rather than directed-rounded RMSE endpoint bounds. Exact rational MSE bounds/differences are retained.",
+    "exact_quantities": [
+      "Normalization denominators and all four mean normalized compositions per original primary layer",
+      "Fixed alpha, predicted/observed/reference means and signed errors",
+      "C_kj=((Z_j-65)/(20*beta))*r_j*mean(R_kj)",
+      "All component lower limits, corner errors, MSEs, MSE differences, positivity/ranking decisions"
+    ],
+    "matching_tolerance": "Fixed absolute1e-10 pH for each observed/model/reference primary mean/error, each unshifted corner mean, every shifted layer error, all stored bias/MAE/RMSE and deltaRMSE. No tolerance tuning.",
+    "source_parse": "CSV numeric lexemes are Decimal-validated then converted to Fraction. JSON source numeric lexemes are loaded with parse_float=Decimal and converted to Fraction; binary floats are rejected as arithmetic inputs. Z comes from the frozen protocol and is checked against62/64/66/68.",
+    "square_roots": "Decimal precision50 is used only for displayed square roots/RMSE differences. Matching irrationals to old float-valued decimal results instead uses exact rational sqrt enclosures from integer isqrt, with grid10^-60 and mathematically verified lower^2<=MSE<=upper^2. The full candidate enclosure must lie within old_value +/-1e-10. Exact MSE signs determine ranking; displayed rounded values never determine certificates."
+  },
+  "independent_numerical_validation_completed": false,
+  "inputs": [
+    {
+      "path": "ree/round8/protocol-frozen-v1.json",
+      "role": "protocol",
+      "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79"
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/sample_predictions.csv",
+      "role": "samples",
+      "sha256": "75e79395b1db84626911efccefc922005dddc0c896fe86621dcdd9fb5fab963e"
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "role": "layers",
+      "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321"
+    },
+    {
+      "path": "results/ree_ph_fixed_transfer_v1/ree_repeatability_stress.json",
+      "role": "stress",
+      "sha256": "f81ae097bab3aec62bd423e4fb3f5396ab58d2a52e7e303dc10fd27ba07572d1"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-paas.csv",
+      "role": "paas",
+      "sha256": "b04fcb55324673832cef85a8e75c7580eb52448a11120421fd1bb711237ce0cb"
+    },
+    {
+      "path": "ree/round8/raw/Lin2024-molar_mass_mgmol.csv",
+      "role": "mass",
+      "sha256": "58f67c7cdd4f2357afb37c20587f2e6210a221d06e33451e1eb58305ca1632c0"
+    }
+  ],
+  "n_failed_matches": 0,
+  "n_matching_records": 6108,
+  "no_network": true,
+  "original_sources_results_weights_and_coefficients_unchanged": true,
+  "plan_path": "iteration-2026-10-27/analysis/continuous-boxplan-v1.frozen.json",
+  "plan_sha256": "480000ab8f6cfea2f588d13dafea611f47111d58f78b39c0733d8b903a205a3f",
+  "program_author_role": "reviewer_B",
+  "python_version": "3.12.13",
+  "scope": "Post-exposure mathematical envelope for the declared exact-decimal fixed model, original shared four-element REE box and nine discrete pH-offset pairs only. No fitting, new independent validation, real measurement-error hard bound or joint-covariance propagation.",
+  "script_path": "iteration-2026-10-27/analysis/continuous_box_v1.py",
+  "script_sha256": "7a0debe8c20b5040cd4462dcb22bf0703adcc354e4613b4215406f293bc084b8",
+  "self_check_is_independent_validation": false,
+  "status": "ENVELOPE_CALCULATED_PENDING_INDEPENDENT_REVIEW",
+  "stop_rules": {
+    "identity_or_structure_failure": "Any role/path/SHA/model/support/count/sign/coverage failure raises and stops with no scientific output directory. Root preserves the error receipt.",
+    "legacy_numeric_match_failure": "Any of6108 matches failing the fixed tolerance makes the entire envelope unavailable. Complete diagnostics and failure/source/output manifests may be written to the new output directory; envelope results are not released. Exit2. No tolerances or parameters are changed.",
+    "no_chasing": "No revised box, subset, threshold, sign criterion, optimizer, coefficient, eligibility or scenario deletion within this plan.",
+    "positive_error_condition_failure": "This is a pair-specific sufficient-condition failure, not a failed run. That pair lower/MSE-min fields remain blank/null and marked unproved; convex-maximum output remains supported. This is not evidence that uniform ordering failed.",
+    "source_changed_before_write": "All source/script/plan SHAs are rechecked immediately before first output write. A mismatch stops; existing/partial outputs are never overwritten.",
+    "zero_or_noncertified_ranking_margin": "No strict uniform ranking is certified where the exact required difference is zero or the needed minimum proof is unavailable. No near-zero tolerance is used to manufacture a sign."
+  }
+}

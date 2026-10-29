@@ -1,0 +1,358 @@
+{
+  "at_utc": "2026-10-27T04:27:58.793786+00:00",
+  "reviewer": "revision_design_review independent implementation",
+  "method": "Original four CSVs and author normalizers;40-digit Decimal OLS, explicit station/layer grouping. No scientific analysis implementation imported.",
+  "source_inputs": [
+    {
+      "role": "leg1_ree",
+      "path": "ree/round8/raw/GP15-leg1-REE.csv",
+      "sha256": "203564c8d99341b1c3646f93e7aa5366526a5cfba041e28cf2710d2b322645d9"
+    },
+    {
+      "role": "leg1_ph",
+      "path": "ree/round8/raw/GP15-leg1-pH.csv",
+      "sha256": "eddd66f7043437b56dd7d527d8fbb48331535f810a659e02254416c45e436d3b"
+    },
+    {
+      "role": "leg2_ree",
+      "path": "ree/round8/raw/GP15-leg2-REE.csv",
+      "sha256": "92e22f5ab6b50196f6a3b9d9436f25c66609439bdd517210e02ea6f285587809"
+    },
+    {
+      "role": "leg2_ph",
+      "path": "ree/round8/raw/GP15-leg2-pH.csv",
+      "sha256": "936a04097ccd61b8ff8d62f60fcbbfc01b4cf0a46346815c7f9474ab4595365d"
+    },
+    {
+      "role": "paas",
+      "path": "ree/round8/raw/Lin2024-paas.csv",
+      "sha256": "b04fcb55324673832cef85a8e75c7580eb52448a11120421fd1bb711237ce0cb"
+    },
+    {
+      "role": "molar_mass",
+      "path": "ree/round8/raw/Lin2024-molar_mass_mgmol.csv",
+      "sha256": "58f67c7cdd4f2357afb37c20587f2e6210a221d06e33451e1eb58305ca1632c0"
+    },
+    {
+      "role": "original_layers",
+      "path": "results/ree_ph_fixed_transfer_v1/layer_summary.csv",
+      "sha256": "52a3a879451f88c9dc3746763de6f383d6323019b7bef99f91d7c803a7b01321"
+    },
+    {
+      "role": "original_samples",
+      "path": "results/ree_ph_fixed_transfer_v1/sample_predictions.csv",
+      "sha256": "75e79395b1db84626911efccefc922005dddc0c896fe86621dcdd9fb5fab963e"
+    },
+    {
+      "role": "training_saved_output",
+      "path": "ree/round8/raw/Lin2024-notebook-published-output.txt",
+      "sha256": "4a820bc045cb25987c24e3f626f4ca429374a041f1ec1e70ad00d9b44982bd27"
+    },
+    {
+      "role": "original_protocol",
+      "path": "ree/round8/protocol-frozen-v1.json",
+      "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79"
+    },
+    {
+      "role": "author_model_code",
+      "path": "ree/round8/raw/Lin2024-REE_pH_estimates.py",
+      "sha256": "c695ff3ffea39f905ef02797567497465f0f989bdbbc6aa2bb4807c5608e84f4"
+    }
+  ],
+  "independent_code_sha256": "b1c69f0f4cec40494b23c5ea30aad29024009823e2952095ad585640def84531",
+  "numeric_comparisons": 6357,
+  "identity_and_status_comparisons": 10785,
+  "mismatch_count": 0,
+  "mismatches": [],
+  "maximum_absolute_numeric_difference": 5.440092820663267e-15,
+  "tolerances": "pH/counts/coordinates1e-12absolute+1e-12relative; nonzero smaller-than1e-5quantities1e-20absolute+1e-12relative; zeroidentityresiduals1e-14absolute",
+  "scientific_values": {
+    "leg1_REE_model": {
+      "n_layers": 6.0,
+      "mean_error": 0.061513468697734774,
+      "mse": 0.004929943920606677,
+      "rmse": 0.07021355937856076,
+      "squared_mean_error": 0.003783906831227196,
+      "centered_mse": 0.0011460370893794807,
+      "centered_rmse": 0.033853169561792594,
+      "squared_mean_error_fraction_of_mse": 0.7675354714301801,
+      "identity_residual": 0.0
+    },
+    "leg1_fixed_depth_baseline": {
+      "n_layers": 6.0,
+      "mean_error": 0.13351488001367395,
+      "mse": 0.0289285027700563,
+      "rmse": 0.1700838110169698,
+      "squared_mean_error": 0.017826223185065753,
+      "centered_mse": 0.011102279584990542,
+      "centered_rmse": 0.1053673554047483,
+      "squared_mean_error_fraction_of_mse": 0.6162165849633103,
+      "identity_residual": 0.0
+    },
+    "leg1_common_station_delta_rmse": -0.08709079876159916,
+    "leg1_common_stations": [
+      "16",
+      "18"
+    ],
+    "leg2_REE_model": {
+      "n_layers": 6.0,
+      "mean_error": 0.21084292730740395,
+      "mse": 0.04764234399030515,
+      "rmse": 0.21827126240140993,
+      "squared_mean_error": 0.04445473999555523,
+      "centered_mse": 0.003187603994749919,
+      "centered_rmse": 0.05645886993865463,
+      "squared_mean_error_fraction_of_mse": 0.93309304858303,
+      "identity_residual": 0.0
+    },
+    "leg2_fixed_depth_baseline": {
+      "n_layers": 6.0,
+      "mean_error": 0.09915757317427153,
+      "mse": 0.012165008062206594,
+      "rmse": 0.11029509536786572,
+      "squared_mean_error": 0.009832224317811014,
+      "centered_mse": 0.0023327837443955796,
+      "centered_rmse": 0.048298900032977765,
+      "squared_mean_error_fraction_of_mse": 0.808238208107489,
+      "identity_residual": 0.0
+    },
+    "leg2_common_station_delta_rmse": 0.11114689329851538,
+    "leg2_common_stations": [
+      "31",
+      "33"
+    ]
+  },
+  "sampled_layer_geography": [
+    {
+      "leg": "leg1",
+      "bin_index": 0,
+      "low_m": 200,
+      "high_m": 300,
+      "stations": [
+        "10",
+        "12",
+        "16",
+        "18"
+      ],
+      "n_unique_bottles": 5,
+      "ree_latitude_min": 22.0,
+      "ree_latitude_max": 42.0,
+      "ree_longitude_min": -152.0,
+      "ree_longitude_max": -152.0
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 1,
+      "low_m": 300,
+      "high_m": 400,
+      "stations": [
+        "5",
+        "12",
+        "16",
+        "18",
+        "18.3"
+      ],
+      "n_unique_bottles": 6,
+      "ree_latitude_min": 19.681,
+      "ree_latitude_max": 53.677,
+      "ree_longitude_min": -154.513,
+      "ree_longitude_max": -152.0
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 2,
+      "low_m": 400,
+      "high_m": 500,
+      "stations": [
+        "5",
+        "10",
+        "12",
+        "16",
+        "18"
+      ],
+      "n_unique_bottles": 6,
+      "ree_latitude_min": 22.0,
+      "ree_latitude_max": 53.677,
+      "ree_longitude_min": -153.797,
+      "ree_longitude_max": -152.0
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 3,
+      "low_m": 500,
+      "high_m": 600,
+      "stations": [
+        "16",
+        "18",
+        "18.3"
+      ],
+      "n_unique_bottles": 3,
+      "ree_latitude_min": 19.681,
+      "ree_latitude_max": 27.0,
+      "ree_longitude_min": -154.513,
+      "ree_longitude_max": -152.0
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 4,
+      "low_m": 600,
+      "high_m": 700,
+      "stations": [
+        "5",
+        "10",
+        "16",
+        "18"
+      ],
+      "n_unique_bottles": 5,
+      "ree_latitude_min": 22.0,
+      "ree_latitude_max": 53.677,
+      "ree_longitude_min": -153.797,
+      "ree_longitude_max": -152.0
+    },
+    {
+      "leg": "leg1",
+      "bin_index": 5,
+      "low_m": 700,
+      "high_m": 800,
+      "stations": [
+        "16",
+        "18",
+        "18.3"
+      ],
+      "n_unique_bottles": 3,
+      "ree_latitude_min": 19.681,
+      "ree_latitude_max": 27.0,
+      "ree_longitude_min": -154.513,
+      "ree_longitude_max": -152.0
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 0,
+      "low_m": 200,
+      "high_m": 300,
+      "stations": [
+        "19",
+        "21",
+        "25",
+        "31",
+        "33",
+        "37",
+        "39"
+      ],
+      "n_unique_bottles": 16,
+      "ree_latitude_min": -20.0,
+      "ree_latitude_max": 17.5,
+      "ree_longitude_min": -152.001,
+      "ree_longitude_max": -151.996
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 1,
+      "low_m": 300,
+      "high_m": 400,
+      "stations": [
+        "19",
+        "21",
+        "25",
+        "31",
+        "33",
+        "37",
+        "39"
+      ],
+      "n_unique_bottles": 14,
+      "ree_latitude_min": -20.0,
+      "ree_latitude_max": 17.5,
+      "ree_longitude_min": -152.001,
+      "ree_longitude_max": -151.996
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 2,
+      "low_m": 400,
+      "high_m": 500,
+      "stations": [
+        "19",
+        "21",
+        "25",
+        "31",
+        "33",
+        "37",
+        "39"
+      ],
+      "n_unique_bottles": 17,
+      "ree_latitude_min": -20.0,
+      "ree_latitude_max": 17.5,
+      "ree_longitude_min": -152.003,
+      "ree_longitude_max": -151.996
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 3,
+      "low_m": 500,
+      "high_m": 600,
+      "stations": [
+        "19",
+        "31",
+        "33",
+        "37",
+        "39"
+      ],
+      "n_unique_bottles": 7,
+      "ree_latitude_min": -20.0,
+      "ree_latitude_max": 17.5,
+      "ree_longitude_min": -152.003,
+      "ree_longitude_max": -152.0
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 4,
+      "low_m": 600,
+      "high_m": 700,
+      "stations": [
+        "18.6",
+        "19",
+        "31",
+        "33"
+      ],
+      "n_unique_bottles": 5,
+      "ree_latitude_min": -5.0,
+      "ree_latitude_max": 18.906,
+      "ree_longitude_min": -155.258,
+      "ree_longitude_max": -152.0
+    },
+    {
+      "leg": "leg2",
+      "bin_index": 5,
+      "low_m": 700,
+      "high_m": 800,
+      "stations": [
+        "31",
+        "33",
+        "37"
+      ],
+      "n_unique_bottles": 4,
+      "ree_latitude_min": -15.0,
+      "ree_latitude_max": -2.499,
+      "ree_longitude_min": -152.003,
+      "ree_longitude_max": -152.0
+    }
+  ],
+  "scientific_scope": "Post-review descriptive diagnostics verified, not independent environmental validation or expert certification.",
+  "checked_output_files": [
+    "abundance_shape_bottles.csv",
+    "abundance_shape_layers.csv",
+    "common_station_layers.csv",
+    "common_station_summary.json",
+    "depth_conflicts.csv",
+    "mse_decomposition.csv",
+    "pair_identity_audit.csv",
+    "reconstructed_primary_layers.csv",
+    "run_manifest.json",
+    "station_geometry.json",
+    "station_layer_support.csv",
+    "station_layer_support_long.csv",
+    "summary.json",
+    "training_common_multiplier.csv"
+  ],
+  "status": "PASS"
+}

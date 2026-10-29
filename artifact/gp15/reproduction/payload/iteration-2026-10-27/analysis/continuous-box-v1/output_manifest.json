@@ -1,0 +1,43 @@
+{
+  "output_relative": "iteration-2026-10-27/analysis/continuous-box-v1",
+  "outputs": [
+    {
+      "bytes": 3835,
+      "path": "continuous_box_supplement.md",
+      "sha256": "a62ae89c9826c831dfaa0fb1836cb4ed7500862296dfd2663dd6dbcef1145561"
+    },
+    {
+      "bytes": 10649,
+      "path": "layer_coefficients.csv",
+      "sha256": "74f44cdfbfbc52b8ed414a44318ada239755752c0dbc035674b8f80ef0d24103"
+    },
+    {
+      "bytes": 17392,
+      "path": "pair_envelope.csv",
+      "sha256": "7b9c81a76f704d6606523d42d03370eb0ace7c0429900cde86030cfaae50a0a3"
+    },
+    {
+      "bytes": 17265,
+      "path": "pair_residual_lower_bounds.csv",
+      "sha256": "1d25359cef5c4cba9ffe0c63b3dde05352bd5143492b207dcca88ec78d0c4926"
+    },
+    {
+      "bytes": 52687,
+      "path": "ranking_certificates.json",
+      "sha256": "f4d1ce944c39d13f3c62e85633144413af199fb16ee9f3f863169b2c970f6583"
+    },
+    {
+      "bytes": 5097,
+      "path": "source_manifest.json",
+      "sha256": "4c30c079c58daf984eaeaa2a54fc6be22c7b37cc3a245c4c19382c6180665043"
+    },
+    {
+      "bytes": 2463816,
+      "path": "vertex_matching.csv",
+      "sha256": "635108f8c799310a6ecdc10e7c48f5650108cb10a83e42148776012de11c38d1"
+    }
+  ],
+  "scope": "Post-exposure mathematical envelope for the declared exact-decimal fixed model, original shared four-element REE box and nine discrete pH-offset pairs only. No fitting, new independent validation, real measurement-error hard bound or joint-covariance propagation.",
+  "self_hash_omitted": "output_manifest.json cannot contain its own hash; every other output is hashed.",
+  "status": "ENVELOPE_CALCULATED_PENDING_INDEPENDENT_REVIEW"
+}
