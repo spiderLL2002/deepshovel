@@ -16,4 +16,4 @@ The14declared output files and their manifest hashes were inspected. Direct comp
 
 The new numerical evidence supports the requested revisions. It neither repairs absent geographic sampling nor identifies the source of the common positive prediction offset. The wordprofile should remain qualified: the centered diagnostic describes mismatch across sampled layer means whose station composition changes withdepth. Finite model-versus-fixed-reference comparisons remain valid on their matched support.
 
-This review establishes numerical reproducibility of these additional diagnostics. Manuscript submission readiness remains pending stable-version scientific review, point-by-point response closure and document QA. AI review is not expert or journal certification.
+This review establishes numerical reproducibility of these additional diagnostics. Manuscript submission readiness remains pending stable-version scientific review, point-by-point response closure and document QA.

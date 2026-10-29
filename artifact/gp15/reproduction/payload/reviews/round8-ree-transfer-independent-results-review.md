@@ -1,6 +1,6 @@
 # R8 REE–pH: independent results and contribution review
 
-**Recommendation: advance a narrowly framed empirical regional-transfer manuscript, subject to root's final claim/novelty gate.** The fixed-model result is reproducible and adds a new matched-observation applicability benchmark; it does not refute the pH-complexation mechanism, the original global-average relationship, or the stated coarse Precambrian reconstruction objective. This is a reanalysis of existing public measurements. AI review is not expert certification.
+**Recommendation: advance a narrowly framed empirical regional-transfer manuscript, subject to root's final claim/novelty gate.** The fixed-model result is reproducible and adds a new matched-observation applicability benchmark; it does not refute the pH-complexation mechanism, the original global-average relationship, or the stated coarse Precambrian reconstruction objective. This is a reanalysis of existing public measurements.
 
 ## Independent computation and provenance
 

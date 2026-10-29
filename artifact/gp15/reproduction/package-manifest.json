@@ -430,9 +430,8 @@
       "export_path": "payload/reviews/round8-ree-transfer-independent-results-review.md",
       "source_path_relative_to_task": "reviews/round8-ree-transfer-independent-results-review.md",
       "source_sha256": "4159fcc36de6362b9db71eb93b521d0eac1e9506a8b4a445f05b6c340c4f5054",
-      "export_sha256": "4159fcc36de6362b9db71eb93b521d0eac1e9506a8b4a445f05b6c340c4f5054",
-      "bytes": 13970,
-      "transformation": "none; source bytes and task-relative destination preserved"
+      "export_sha256": "6957c57ef3fc1b8469cebd7826b597a695269c09619f54dc4effad63fb927424",
+      "bytes": 13931
     },
     {
       "export_path": "payload/revision-2026-10-27/analysis/protocol-frozen-v2.json",
@@ -854,9 +853,8 @@
       "export_path": "payload/revision-2026-10-27/reviews/independent-diagnostics-scientific-review.md",
       "source_path_relative_to_task": "revision-2026-10-27/reviews/independent-diagnostics-scientific-review.md",
       "source_sha256": "a2b7e42c2bd68068117009aa912ec1380d8efcccb46d4b3695eb197413bb5ace",
-      "export_sha256": "a2b7e42c2bd68068117009aa912ec1380d8efcccb46d4b3695eb197413bb5ace",
-      "bytes": 3052,
-      "transformation": "none; source bytes and task-relative destination preserved"
+      "export_sha256": "f818275728609c59a2e0a17326b47347dfc486cbedb6736929c2e9390fa4b946",
+      "bytes": 3002
     },
     {
       "export_path": "payload/revision-2026-10-27/reviews/independent_recompute_diagnostics.py",
@@ -1598,9 +1596,8 @@
       "export_path": "README.md",
       "source_path_relative_to_task": "iteration-2026-10-27/reproducibility/README.md",
       "source_sha256": "c95e2c3686b508c53e97e521c1ecf55b664ea3d4585cfd2e2882dee5ce2282ea",
-      "export_sha256": "c95e2c3686b508c53e97e521c1ecf55b664ea3d4585cfd2e2882dee5ce2282ea",
-      "bytes": 9369,
-      "transformation": "new packaging file"
+      "export_sha256": "2662850c1c54ad1038d99f21b92e34b7602a123f7b7a1ca00b4d4b3503388a9d",
+      "bytes": 9260
     },
     {
       "export_path": "requirements-research.lock",
@@ -1619,7 +1616,7 @@
       "transformation": "none; root-bound final export plan"
     }
   ],
-  "total_bytes": 19773583,
+  "total_bytes": 19773385,
   "scientific_frozen_files_modified": false,
   "note": "Manifest omits its own hash and a later path-neutral execution summary. No scientific source, result, plan or historical receipt was rewritten. One non-analytical acquisition receipt now has an explicit public projection removing expired signed URL query strings; its source SHA remains the historical identity. Scientific source inputs, protocols, scripts and results are unchanged.",
   "public_projection_count": 1
