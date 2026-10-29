@@ -1,4 +1,6 @@
-# Compact reproducibility bundle
+# Retrieval evaluation: public verification subset
+
+This compact public subset is provided for inspection and reference. It contains 114 questions and 3,515 relevance judgments; the full evaluation contains 487 questions and 15,017 judgments. Reported outputs from this directory are computed on the released subset.
 
 Run `python3 evaluate.py` with Python 3 (standard library only). It reads local JSON and prints metrics, then asserts agreement within 1e-12 with expected_metrics.json. No network, model, production server or external package is used.
 
@@ -10,6 +12,6 @@ Grades summarize direct compatible evidence (3), compatible partial answer (2), 
 
 nDCG@10 uses gains 2^grade−1 and the ideal ranking of the explicit judged pool. P@10 counts grades >=2 and divides by 10. Scope mismatch@10 counts scope_error=true and divides by 10. Hit@3 tests whether any of the first three grades is at least2. The script checks all16 table values. Every included ranking has twelve items. All ordinary graded ideal gains are positive. Results do not imply exhaustive corpus recall, expert agreement, or a causal advantage of scoped identifiers. Baseline retrieval uses raw queries; live preview includes query planning and excludes final model reranking/relation classification.
 
-This package has not been published. It is a minimal export from the frozen diagnostic evidence, not the complete experimental environment.
+The public package contains the frozen inputs needed to recompute these subset metrics. The complete source-paper collection is not bundled.
 
 Six fixed-ID annotation-samples now provide complete rubrics and172 candidates with source context for method inspection; they are separate from this arithmetic-only core.
