@@ -1,0 +1,537 @@
+{
+  "cases_sha256": "d8268bc3ac672315036da4f704b66927d6f3c41947b32b8bb6241b3f29942d7f",
+  "conditions": {
+    "source_passages": {
+      "total": 30,
+      "success": 30,
+      "failed": 0,
+      "accepted_relation": 29,
+      "accepted_relation_and_direction": 29
+    }
+  },
+  "pairs": [
+    {
+      "id": "q16-1",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "equivalent",
+            "direction": "result_to_query",
+            "scope": "equivalent",
+            "score": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "q16-2",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "q16-3",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "related",
+            "direction": "result_to_query",
+            "scope": "candidate_within_query",
+            "score": 0.98
+          }
+        ]
+      }
+    },
+    {
+      "id": "q16-4",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "candidate_within_query",
+            "score": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "q16-5",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "related",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.98
+          }
+        ]
+      }
+    },
+    {
+      "id": "q16-6",
+      "accepted_relations": [
+        "related",
+        "qualifies"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "related",
+            "direction": "result_to_query",
+            "scope": "disjoint",
+            "score": 0.96
+          }
+        ]
+      }
+    },
+    {
+      "id": "q30-1",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "equivalent",
+            "direction": "result_to_query",
+            "scope": "equivalent",
+            "score": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "q30-2",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "query_within_candidate",
+            "score": 0.98
+          }
+        ]
+      }
+    },
+    {
+      "id": "q30-3",
+      "accepted_relations": [
+        "related",
+        "qualifies"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "related",
+            "direction": "result_to_query",
+            "scope": "disjoint",
+            "score": 0.93
+          }
+        ]
+      }
+    },
+    {
+      "id": "q30-4",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.91
+          }
+        ]
+      }
+    },
+    {
+      "id": "q30-5",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "related",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.98
+          }
+        ]
+      }
+    },
+    {
+      "id": "q30-6",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "qualifies",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.97
+          }
+        ]
+      }
+    },
+    {
+      "id": "q70-1",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "equivalent",
+            "direction": "result_to_query",
+            "scope": "equivalent",
+            "score": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "q70-2",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "q70-3",
+      "accepted_relations": [
+        "related",
+        "qualifies"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "related",
+            "direction": "result_to_query",
+            "scope": "disjoint",
+            "score": 0.98
+          }
+        ]
+      }
+    },
+    {
+      "id": "q70-4",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "q70-5",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.96
+          }
+        ]
+      }
+    },
+    {
+      "id": "q70-6",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "related",
+            "direction": "result_to_query",
+            "scope": "candidate_within_query",
+            "score": 0.96
+          }
+        ]
+      }
+    },
+    {
+      "id": "q90-1",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "equivalent",
+            "direction": "result_to_query",
+            "scope": "equivalent",
+            "score": 0.98
+          }
+        ]
+      }
+    },
+    {
+      "id": "q90-2",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "disjoint",
+            "score": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "q90-3",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "related",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.98
+          }
+        ]
+      }
+    },
+    {
+      "id": "q90-4",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "equivalent",
+            "score": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "q90-5",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.98
+          }
+        ]
+      }
+    },
+    {
+      "id": "q90-6",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "related",
+            "direction": "result_to_query",
+            "scope": "candidate_within_query",
+            "score": 0.98
+          }
+        ]
+      }
+    },
+    {
+      "id": "q110-1",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "equivalent",
+            "direction": "result_to_query",
+            "scope": "equivalent",
+            "score": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "q110-2",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "equivalent",
+            "score": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "q110-3",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "q110-4",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "overlap",
+            "score": 0.98
+          }
+        ]
+      }
+    },
+    {
+      "id": "q110-5",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "contradicts",
+            "direction": "result_to_query",
+            "scope": "disjoint",
+            "score": 0.99
+          }
+        ]
+      }
+    },
+    {
+      "id": "q110-6",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "decisions": [
+          {
+            "id": 1,
+            "relation": "qualifies",
+            "direction": "result_to_query",
+            "scope": "candidate_within_query",
+            "score": 0.96
+          }
+        ]
+      }
+    }
+  ]
+}

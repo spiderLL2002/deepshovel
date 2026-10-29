@@ -51,10 +51,14 @@ def main():
         run('research-computation', [python, ROOT / 'artifact/gp15/run_portable.py', '--out', output / 'gp15'])
         if args.live:
             run('fresh-model-comparisons', [python, ROOT / 'artifact/semantic-evaluation/run_fixed_candidate_ablation.py', '--out', output / 'fresh-model-comparisons'])
+            run('fresh-source-passages', [python, ROOT / 'artifact/semantic-evaluation/run_source_passages_baseline.py', '--out', output / 'fresh-source-passages'])
             run('fresh-public-queries', [python, ROOT / 'artifact/semantic-evaluation/run_semantic_live.py', '--cases', ROOT / 'artifact/semantic-evaluation/semantic-cases.frozen.json', '--out', output / 'fresh-public-queries'])
             calls = list((output / 'fresh-model-comparisons').glob('q*.json'))
             if len(calls) != 60 or any(json.loads(p.read_text())['status'] != 'ok' for p in calls):
                 raise RuntimeError('Fresh comparison calls did not all complete; inspect their records')
+            passages = list((output / 'fresh-source-passages').glob('q*.json'))
+            if len(passages) != 30 or any(json.loads(p.read_text())['status'] != 'ok' for p in passages):
+                raise RuntimeError('Fresh source-passage calls did not all complete; inspect their records')
             live = json.loads((output / 'fresh-public-queries/results.json').read_text())
             if len(live) != 30 or any(r['status'] != 'complete' for r in live):
                 raise RuntimeError('Public queries did not all complete; inspect their records')

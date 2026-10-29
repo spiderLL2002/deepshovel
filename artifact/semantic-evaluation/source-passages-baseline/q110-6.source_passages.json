@@ -1,0 +1,90 @@
+{
+  "id": "q110-6",
+  "condition": "source_passages",
+  "started_at": "2026-10-29T12:59:20.700230+00:00",
+  "query": "The Fiskegrav analysis establishes that every end-Permian marine and terrestrial ecosystem worldwide collapsed within 1.6–8 kyr.",
+  "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+  "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+  "user_content": "{\"candidates\":[{\"argument\":{\"source_passages\":[{\"source_anchor_id\":\"a.duration.new\",\"text\":\"however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.\"},{\"source_anchor_id\":\"a.duration.old\",\"text\":\"(2001) showed that collapse of marine and terrestrial ecosystems was synchronous and took between 10 and 60 kyr.\"}]},\"claim\":\"At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.\",\"id\":1,\"scope\":{\"condition\":[\"Shallow-marine shelf setting\"],\"entities\":[\"AOM\",\"Fiskegrav section\",\"Micrhystridium breve\",\"acritarchs\",\"freshwater run-off\",\"marine and terrestrial ecosystems\"],\"formation\":[\"Schuchert Dal and Wordie Creek formations\"],\"location\":[\"Fiskegrav, central Jameson Land, East Greenland\"],\"measurement\":[\"Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context\"],\"method\":[\"High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses\"],\"sample_type\":[\"Stratigraphic palynological samples\"],\"time\":{\"label\":\"Late Permian extinction and Permian–Triassic boundary\"},\"uncertainty\":\"Salinity is proxy-inferred; duration estimates depend on sedimentation rates.\"}}],\"query\":\"The Fiskegrav analysis establishes that every end-Permian marine and terrestrial ecosystem worldwide collapsed within 1.6–8 kyr.\"}",
+  "user_content_sha256": "9fc9d3c7dc29a3b7d1206a0b747ee06cebb047395c84e065b868d65bc0c5d3a3",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:59:20.722231+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "9fc9d3c7dc29a3b7d1206a0b747ee06cebb047395c84e065b868d65bc0c5d3a3",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291259214475034498268d9d6zMUOCgZT"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 143
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_0f26245d48780d8e016ae3432a08e88191aa982272c883e768",
+        "output_bytes": 123,
+        "output_sha256": "2c48b22bbdd0f185f4c211684a9faf15abd0fa570650b076c01b5d9f6663389e",
+        "usage": {
+          "prompt_tokens": 958,
+          "completion_tokens": 189,
+          "total_tokens": 1147
+        },
+        "elapsed_seconds": 5.274,
+        "finished_at": "2026-10-29T12:59:25.996357+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"qualifies\",\"direction\":\"result_to_query\",\"scope\":\"candidate_within_query\",\"score\":0.96}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.96
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "2c48b22bbdd0f185f4c211684a9faf15abd0fa570650b076c01b5d9f6663389e",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 123,
+      "content_sha256": "2c48b22bbdd0f185f4c211684a9faf15abd0fa570650b076c01b5d9f6663389e",
+      "usage": {
+        "prompt_tokens": 958,
+        "completion_tokens": 189,
+        "total_tokens": 1147,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 5.2764361670015205,
+  "finished_at": "2026-10-29T12:59:25.998199+00:00"
+}

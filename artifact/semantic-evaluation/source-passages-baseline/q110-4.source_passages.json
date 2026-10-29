@@ -1,0 +1,90 @@
+{
+  "id": "q110-4",
+  "condition": "source_passages",
+  "started_at": "2026-10-29T12:59:15.305775+00:00",
+  "query": "In the Fiskegrav study, the reported 1.6–8 kyr collapse duration was obtained by direct elapsed-time measurement rather than estimated from revised sedimentation rates.",
+  "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+  "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+  "user_content": "{\"candidates\":[{\"argument\":{\"source_passages\":[{\"source_anchor_id\":\"a.duration.new\",\"text\":\"however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.\"},{\"source_anchor_id\":\"a.duration.old\",\"text\":\"(2001) showed that collapse of marine and terrestrial ecosystems was synchronous and took between 10 and 60 kyr.\"}]},\"claim\":\"At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.\",\"id\":1,\"scope\":{\"condition\":[\"Shallow-marine shelf setting\"],\"entities\":[\"AOM\",\"Fiskegrav section\",\"Micrhystridium breve\",\"acritarchs\",\"freshwater run-off\",\"marine and terrestrial ecosystems\"],\"formation\":[\"Schuchert Dal and Wordie Creek formations\"],\"location\":[\"Fiskegrav, central Jameson Land, East Greenland\"],\"measurement\":[\"Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context\"],\"method\":[\"High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses\"],\"sample_type\":[\"Stratigraphic palynological samples\"],\"time\":{\"label\":\"Late Permian extinction and Permian–Triassic boundary\"},\"uncertainty\":\"Salinity is proxy-inferred; duration estimates depend on sedimentation rates.\"}}],\"query\":\"In the Fiskegrav study, the reported 1.6–8 kyr collapse duration was obtained by direct elapsed-time measurement rather than estimated from revised sedimentation rates.\"}",
+  "user_content_sha256": "f745e1f71e9a2b40cc57ffc47896467ae303441f247c162e3a260d3e9f855185",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:59:15.327842+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "f745e1f71e9a2b40cc57ffc47896467ae303441f247c162e3a260d3e9f855185",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291259155335347998268d9d6cMwwxyMV"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 119
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_06cb8a519eb01f26016ae343241bd8819194b615e9260ee31c",
+        "output_bytes": 110,
+        "output_sha256": "bafc83842e156e8a7ce286ee4b263eccd2e87f1b4b404770ebe89528ed066405",
+        "usage": {
+          "prompt_tokens": 965,
+          "completion_tokens": 164,
+          "total_tokens": 1129
+        },
+        "elapsed_seconds": 5.798,
+        "finished_at": "2026-10-29T12:59:21.125387+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"contradicts\",\"direction\":\"result_to_query\",\"scope\":\"overlap\",\"score\":0.98}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.98
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "bafc83842e156e8a7ce286ee4b263eccd2e87f1b4b404770ebe89528ed066405",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 110,
+      "content_sha256": "bafc83842e156e8a7ce286ee4b263eccd2e87f1b4b404770ebe89528ed066405",
+      "usage": {
+        "prompt_tokens": 965,
+        "completion_tokens": 164,
+        "total_tokens": 1129,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 5.799542958000529,
+  "finished_at": "2026-10-29T12:59:21.126954+00:00"
+}

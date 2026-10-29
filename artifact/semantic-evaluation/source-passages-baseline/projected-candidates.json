@@ -1,0 +1,284 @@
+{
+  "q16": {
+    "claim": "Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.",
+    "scope": {
+      "location": [
+        "Afar Depression, Ethiopia"
+      ],
+      "time": {
+        "label": "2010–2011 ALIE array plus early-2000 to mid-2012 data"
+      },
+      "formation": [
+        "Red Sea rift, Tendaho graben, Dobi graben, overlap zone"
+      ],
+      "sample_type": [
+        "broadband seismic stations"
+      ],
+      "method": [
+        "receiver function H-κ stacking"
+      ],
+      "condition": [
+        "along ~200 km profile; station-specific Vp"
+      ],
+      "measurement": [
+        "crustal thickness H"
+      ],
+      "uncertainty": "bootstrap standard errors",
+      "entities": [
+        "Red Sea rift",
+        "Tendaho graben",
+        "crustal thickness",
+        "overlap zone"
+      ]
+    },
+    "argument": {
+      "source_passages": [
+        {
+          "source_anchor_id": "anchor.text.h_abs",
+          "text": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts."
+        },
+        {
+          "source_anchor_id": "anchor.text.h_asym",
+          "text": "The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E."
+        }
+      ]
+    }
+  },
+  "q30": {
+    "claim": "Hydrodynamic conditions around the Emperor Seamount Chain are stronger than in the open subarctic abyssal plain, especially at water depths of 1,000–2,500 m, as indicated by sortable-silt grain size.",
+    "scope": {
+      "location": [
+        "Emperor Seamount Chain, North Pacific"
+      ],
+      "time": {
+        "label": "Holocene interval"
+      },
+      "formation": [],
+      "sample_type": [
+        "50 Holocene surface sediments"
+      ],
+      "method": [
+        "grain-size correlations, sortable-silt proxy, and end-member comparison"
+      ],
+      "condition": [
+        "water depths 1,313–5,709 m"
+      ],
+      "measurement": [
+        "grain size and mean grain size of sortable silt"
+      ],
+      "entities": [
+        "bottom currents",
+        "sortable silt",
+        "surface sediments"
+      ]
+    },
+    "argument": {
+      "source_passages": [
+        {
+          "source_anchor_id": "anchor.text.hydro.abyssal",
+          "text": "Furthermore, using the same simulation method of EM analysis, we compared our data with the results of the SO202 Expedition from the open subarctic Pacific Ocean (Serno et al., 2014), and found that mean grain size was about 5.33 µm."
+        },
+        {
+          "source_anchor_id": "anchor.text.hydro.depth",
+          "text": "Negative correlation between water depth and grain size (R = −0.74, Figure 5A) in the study area suggests that the deeper the water depth is, the finer the grain size of sediments is."
+        },
+        {
+          "source_anchor_id": "anchor.text.hydro.em",
+          "text": "According to the grain size analysis of simulated EM, there are three EM with mean grain size of 9.12 µm (EM1), 64.95 µm (EM2), and 157.67 µm (EM3), representing fine silt, fine sand and medium sand, respectively."
+        },
+        {
+          "source_anchor_id": "anchor.text.hydro.proxy",
+          "text": "Mean grain size of sortable silt shows strong positive correlation with the contents of sortable silt in the study area, suggesting that it can be used to indicate the relative change of bottom current strength (Mccave et al., 2020)."
+        },
+        {
+          "source_anchor_id": "anchor.text.hydro.sortable",
+          "text": "As shown in Figure 9, there is a negative correlation between grain size of sortable silt and water depth (R = −0.73), and grain size of sortable silt increases significantly, indicating strong hydrodynamic conditions."
+        },
+        {
+          "source_anchor_id": "anchor.text.hydro.summary",
+          "text": "The mean grain size of sortable silt shows that the hydrodynamic condition in sea mountain area is significantly stronger than that of the abyssal plain, especially at the water depth of 1,000–2,500 m in study area."
+        },
+        {
+          "source_anchor_id": "anchor:compiler:visual:9f9ef2b238f1e72d2cc0388c9d909b7fe208dc9ba259273e4283e2079b1bbed7",
+          "text": "FIGURE 9 | The correlation plot between grain size of sortable silt and water depth."
+        }
+      ]
+    }
+  },
+  "q70": {
+    "claim": "During spring sampling, organic-matter-associated NCA was a substantial part of groundwater TA at the Martinique Beach STE (about 32% overall); negative NCA indicates proton-donating DOM associated with low pH, supporting remineralized organic matter as a source of acidity.",
+    "scope": {
+      "location": [
+        "Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada"
+      ],
+      "time": {
+        "label": "Spring 2015"
+      },
+      "formation": [],
+      "sample_type": [
+        "Groundwater"
+      ],
+      "method": [
+        "NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair"
+      ],
+      "condition": [
+        "Spring groundwater sampling"
+      ],
+      "measurement": [
+        "NCA fraction of TA and groundwater pH"
+      ],
+      "uncertainty": "The approximate NCA contribution to TA was calculated from absolute values.",
+      "entities": [
+        "Martinique Beach STE",
+        "NCA",
+        "TA",
+        "dissolved organic matter",
+        "pH"
+      ]
+    },
+    "argument": {
+      "source_passages": [
+        {
+          "source_anchor_id": "a.nca32",
+          "text": "Based on the absolute values, we calculated that NCA contributed to approximately $3 2 \\%$ of TA."
+        },
+        {
+          "source_anchor_id": "a.ncaneg",
+          "text": "The occurrence of negative NCA (i.e., acidity: ${ \\mathrm { A c } } >$ TA) implies that some of the DOM behaves as a proton donor, in agreement with the low $\\mathrm { p H }$ of the corresponding water sample."
+        },
+        {
+          "source_anchor_id": "a.ncarange",
+          "text": "NCA values ranged from -1.07 to $+ 1 . 1 1$ mmol $k g ^ { - 1 } \\left( \\pm 3 . 4 \\% \\right)$ with a mean value of -0.26 mmol $k g ^ { - 1 }$ ."
+        },
+        {
+          "source_anchor_id": "a.phlow",
+          "text": "The lowest values $( 5 . 9 0 < \\mathrm { p H } < 6 . 2 3 )$ ), which were lower than the pH measured in the inland fresh groundwater (e.g., $\\mathrm { p H } { \\sim } 6 . 3 4 .$ , Table 1), were measured in the middle of the intertidal zone, $1 . 2 \\textrm { m }$ below the surface."
+        },
+        {
+          "source_anchor_id": "a.phrange",
+          "text": "The pHs ranged from 5.90 to 7.03 (Figure 3A)."
+        },
+        {
+          "source_anchor_id": "a.soilacid",
+          "text": "The net production of acidity mainly results from the remineralization of organic matter released by the old buried forest soil."
+        },
+        {
+          "source_anchor_id": "anchor:compiler:visual:983769ee063b6193e0f0fa1b7be8642be8ba2e222d5094824d888178d394b038",
+          "text": "TABLE 1 Geochemical characteristics of inland groundwater and seawater used as end members in the salinity-based mixing models. "
+        }
+      ]
+    }
+  },
+  "q90": {
+    "claim": "Extrapolating isotope-pairing denitrification rates over the western Indian continental shelf estimates annual fixed-nitrogen removal via denitrification at 3.70–11.1 Tg year−1; Table 2 reports the upper endpoint as 11.11.",
+    "scope": {
+      "location": [
+        "western Indian continental shelf, eastern Arabian Sea"
+      ],
+      "time": {
+        "label": "annualized from three-year sampling using an assumed 90-day reducing season"
+      },
+      "formation": [],
+      "sample_type": [
+        "estimated reducing-water volume over the shelf"
+      ],
+      "method": [
+        "extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume"
+      ],
+      "condition": [
+        "seasonal anoxia"
+      ],
+      "measurement": [
+        "annualized fixed-nitrogen removal"
+      ],
+      "uncertainty": "shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty",
+      "entities": [
+        "annual fixed-nitrogen removal via denitrification",
+        "western Indian continental shelf (WICS)"
+      ]
+    },
+    "argument": {
+      "source_passages": [
+        {
+          "source_anchor_id": "a.annual.prose",
+          "text": "Applying our 3 years average N-loss rates to this volume and assuming the reducing condition to last for 90 days, the overall N-loss would range from $3 . 7 0 \\pm 0 . 0 9 1$ to $1 1 . 1 \\pm 2 . 7 2 \\mathrm { ~ T g ~ y e a r } ^ { - 1 }$ via denitrification, and from $0 . 0 9 \\pm 0 . 0 1$ to $0 . 2 7 \\pm 0 . 0 3$ Tg year−1 via anammox (Table 2)."
+        },
+        {
+          "source_anchor_id": "a.area.functional",
+          "text": "However, $\\mathrm { O } _ { 2 }$ levels over this entire area are not low enough to support reductive N-loss, and as a lower limit about one third of the entire shelf, $6 0 , 0 0 0 ~ \\mathrm { k m } ^ { 2 }$ was assumed to functionally anoxic."
+        },
+        {
+          "source_anchor_id": "a.area.hypoxic",
+          "text": "(2000) estimated the area of the hypoxic zone over the WCSI to be $1 8 0 , 0 0 0 ~ \\mathrm { k m } ^ { 2 }$ ."
+        },
+        {
+          "source_anchor_id": "a.denit.mean",
+          "text": "The mean values of our 3- year N-loss rates through denitrification and anammox were $2 . 4 5 \\pm 0 . 6$ and $0 . 0 6 \\pm \\mathrm { { \\bar { 0 } } . 0 0 4 ~ \\mu m o l ~ N _ { 2 } ~ L ^ { - 1 } ~ d ^ { - 1 } }$ , respectively."
+        },
+        {
+          "source_anchor_id": "a.prior.compare",
+          "text": "Our estimate is also almost three times higher than the previous estimate derived from changes in nitrate concentrations over time (Naik, 2003)."
+        },
+        {
+          "source_anchor_id": "a.scale.volume",
+          "text": "The total volume of reducing water was estimated to range between 1.2 and $3 . 6 \\times 1 0 ^ { 1 2 } \\mathrm { ~ m } ^ { \\bar { 3 } }$ taking the thickness of the reducing layer to be $2 0 ~ \\mathrm { m }$ ."
+        },
+        {
+          "source_anchor_id": "a.table2",
+          "text": "TABLE 2 | Total nitrogen loss (mean and standard deviation values) from eastern Arabian Sea from present study and comparison with earlier data extrapolated to the OMZ area and thickness adopted from Naqvi et al. (2000). "
+        },
+        {
+          "source_anchor_id": "a.table2.caption",
+          "text": "TABLE 2 | Total nitrogen loss (mean and standard deviation values) from eastern Arabian Sea from present study and comparison with earlier data extrapolated to the OMZ area and thickness adopted from Naqvi et al."
+        }
+      ]
+    }
+  },
+  "q110": {
+    "claim": "At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.",
+    "scope": {
+      "location": [
+        "Fiskegrav, central Jameson Land, East Greenland"
+      ],
+      "time": {
+        "label": "Late Permian extinction and Permian–Triassic boundary"
+      },
+      "formation": [
+        "Schuchert Dal and Wordie Creek formations"
+      ],
+      "sample_type": [
+        "Stratigraphic palynological samples"
+      ],
+      "method": [
+        "High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses"
+      ],
+      "condition": [
+        "Shallow-marine shelf setting"
+      ],
+      "measurement": [
+        "Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context"
+      ],
+      "uncertainty": "Salinity is proxy-inferred; duration estimates depend on sedimentation rates.",
+      "entities": [
+        "AOM",
+        "Fiskegrav section",
+        "Micrhystridium breve",
+        "acritarchs",
+        "freshwater run-off",
+        "marine and terrestrial ecosystems"
+      ]
+    },
+    "argument": {
+      "source_passages": [
+        {
+          "source_anchor_id": "a.duration.new",
+          "text": "however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse."
+        },
+        {
+          "source_anchor_id": "a.duration.old",
+          "text": "(2001) showed that collapse of marine and terrestrial ecosystems was synchronous and took between 10 and 60 kyr."
+        }
+      ]
+    }
+  }
+}

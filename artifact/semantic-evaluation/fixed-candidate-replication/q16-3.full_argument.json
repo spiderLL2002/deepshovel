@@ -1,0 +1,90 @@
+{
+  "id": "q16-3",
+  "condition": "full_argument",
+  "started_at": "2026-10-29T12:47:15.535945+00:00",
+  "query": "Throughout all of Africa, crustal thickness averages 22 ± 4 km.",
+  "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+  "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+  "user_content": "{\"candidates\":[{\"argument\":{\"claim_id\":\"claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650\",\"edges\":[{\"relation\":\"grounds\",\"source_id\":\"anchor.text.h_abs\",\"target_id\":\"obs.h_abs\"},{\"relation\":\"grounds\",\"source_id\":\"anchor.text.h_asym\",\"target_id\":\"obs.h_asym\"},{\"relation\":\"premise_for\",\"source_id\":\"obs.h_abs\",\"target_id\":\"reason.crustal_thickness_pattern\"},{\"relation\":\"premise_for\",\"source_id\":\"obs.h_asym\",\"target_id\":\"reason.crustal_thickness_pattern\"},{\"relation\":\"infers\",\"source_id\":\"reason.crustal_thickness_pattern\",\"target_id\":\"claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650\"}],\"nodes\":[{\"anchor_ids\":[],\"id\":\"anchor.text.h_abs\",\"kind\":\"source_anchor\",\"scope\":null,\"statement\":\"Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\\\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.\"},{\"anchor_ids\":[],\"id\":\"anchor.text.h_asym\",\"kind\":\"source_anchor\",\"scope\":null,\"statement\":\"The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E.\"},{\"anchor_ids\":[\"anchor.text.h_abs\",\"anchor.text.h_asym\"],\"id\":\"claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650\",\"kind\":\"atomic_claim\",\"scope\":{\"condition\":[\"along ~200 km profile; station-specific Vp\"],\"entities\":[\"Red Sea rift\",\"Tendaho graben\",\"crustal thickness\",\"overlap zone\"],\"formation\":[\"Red Sea rift, Tendaho graben, Dobi graben, overlap zone\"],\"location\":[\"Afar Depression, Ethiopia\"],\"measurement\":[\"crustal thickness H\"],\"method\":[\"receiver function H-κ stacking\"],\"sample_type\":[\"broadband seismic stations\"],\"time\":{\"end\":null,\"label\":\"2010–2011 ALIE array plus early-2000 to mid-2012 data\",\"start\":null,\"unit\":null},\"uncertainty\":\"bootstrap standard errors\"},\"statement\":\"Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.\"},{\"anchor_ids\":[\"anchor.text.h_abs\"],\"id\":\"obs.h_abs\",\"kind\":\"observation\",\"scope\":{\"condition\":[\"along ~200 km profile; station-specific Vp\"],\"entities\":[\"Red Sea rift\",\"Tendaho graben\",\"crustal thickness\",\"overlap zone\"],\"formation\":[\"Red Sea rift, Tendaho graben, Dobi graben, overlap zone\"],\"location\":[\"Afar Depression, Ethiopia\"],\"measurement\":[\"crustal thickness H\"],\"method\":[\"receiver function H-κ stacking\"],\"sample_type\":[\"broadband seismic stations\"],\"time\":{\"end\":null,\"label\":\"2010–2011 ALIE array plus early-2000 to mid-2012 data\",\"start\":null,\"unit\":null},\"uncertainty\":\"bootstrap standard errors\"},\"statement\":\"Stacking of about 2300 receiver functions from the ALIE array and nearby stations yields an average crustal thickness of 22 ± 4 km, ranging from ~17 km near the Red Sea rift axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.\"},{\"anchor_ids\":[\"anchor.text.h_asym\"],\"id\":\"obs.h_asym\",\"kind\":\"observation\",\"scope\":{\"condition\":[\"along ~200 km profile; station-specific Vp\"],\"entities\":[\"Red Sea rift\",\"Tendaho graben\",\"crustal thickness\",\"overlap zone\"],\"formation\":[\"Red Sea rift, Tendaho graben, Dobi graben, overlap zone\"],\"location\":[\"Afar Depression, Ethiopia\"],\"measurement\":[\"crustal thickness H\"],\"method\":[\"receiver function H-κ stacking\"],\"sample_type\":[\"broadband seismic stations\"],\"time\":{\"end\":null,\"label\":\"2010–2011 ALIE array plus early-2000 to mid-2012 data\",\"start\":null,\"unit\":null},\"uncertainty\":\"bootstrap standard errors\"},\"statement\":\"The crustal thickness observations have an asymmetric pattern, with gradual thickening toward the southwest from the immediate southwestern rift flank and relatively sharp thickening toward the northeast within Region E.\"},{\"anchor_ids\":[\"anchor.text.h_abs\",\"anchor.text.h_asym\"],\"id\":\"reason.crustal_thickness_pattern\",\"kind\":\"reasoning\",\"scope\":{\"condition\":[\"along ~200 km profile; station-specific Vp\"],\"entities\":[\"Red Sea rift\",\"Tendaho graben\",\"crustal thickness\",\"overlap zone\"],\"formation\":[\"Red Sea rift, Tendaho graben, Dobi graben, overlap zone\"],\"location\":[\"Afar Depression, Ethiopia\"],\"measurement\":[\"crustal thickness H\"],\"method\":[\"receiver function H-κ stacking\"],\"sample_type\":[\"broadband seismic stations\"],\"time\":{\"end\":null,\"label\":\"2010–2011 ALIE array plus early-2000 to mid-2012 data\",\"start\":null,\"unit\":null},\"uncertainty\":\"bootstrap standard errors\"},\"statement\":\"The stacked receiver functions from the dense array and the station-specific H-κ results show an asymmetric crustal thickness pattern, thinnest beneath the Tendaho graben axis and thickest in the northeastern overlap zone, with an average of ~22 km.\"}],\"snapshot_id\":\"snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c\",\"truncated\":false},\"claim\":\"Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.\",\"id\":1,\"scope\":{\"condition\":[\"along ~200 km profile; station-specific Vp\"],\"entities\":[\"Red Sea rift\",\"Tendaho graben\",\"crustal thickness\",\"overlap zone\"],\"formation\":[\"Red Sea rift, Tendaho graben, Dobi graben, overlap zone\"],\"location\":[\"Afar Depression, Ethiopia\"],\"measurement\":[\"crustal thickness H\"],\"method\":[\"receiver function H-κ stacking\"],\"sample_type\":[\"broadband seismic stations\"],\"time\":{\"label\":\"2010–2011 ALIE array plus early-2000 to mid-2012 data\"},\"uncertainty\":\"bootstrap standard errors\"}}],\"query\":\"Throughout all of Africa, crustal thickness averages 22 ± 4 km.\"}",
+  "user_content_sha256": "08b60ed543f11d9128d724eeb2dc62334013f46014c678d0fd47f451d81ab3fa",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:47:15.557295+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "08b60ed543f11d9128d724eeb2dc62334013f46014c678d0fd47f451d81ab3fa",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291247157636846008268d9d6sm2IOaQK"
+        },
+        "usage_details": {
+          "cached_input_tokens": 2048,
+          "reasoning_output_tokens": 116
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_0a09657f80db583f016ae340545d2c8191886c565018463b86",
+        "output_bytes": 121,
+        "output_sha256": "de0b332857f30fb71ef302700ebbd287a519fcde67cc82c137aa579f585d4ecb",
+        "usage": {
+          "prompt_tokens": 2203,
+          "completion_tokens": 161,
+          "total_tokens": 2364
+        },
+        "elapsed_seconds": 3.304,
+        "finished_at": "2026-10-29T12:47:18.860759+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"related\",\"direction\":\"result_to_query\",\"scope\":\"candidate_within_query\",\"score\":0.98}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.98
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "de0b332857f30fb71ef302700ebbd287a519fcde67cc82c137aa579f585d4ecb",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 121,
+      "content_sha256": "de0b332857f30fb71ef302700ebbd287a519fcde67cc82c137aa579f585d4ecb",
+      "usage": {
+        "prompt_tokens": 2203,
+        "completion_tokens": 161,
+        "total_tokens": 2364,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 3.3057785839991993,
+  "finished_at": "2026-10-29T12:47:18.862652+00:00"
+}

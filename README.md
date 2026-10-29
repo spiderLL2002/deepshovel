@@ -22,9 +22,11 @@ For fresh model comparisons and public-site searches, provide `GPT_API_KEY` in y
 python3.12 scripts/reproduce_paper.py --out runs/paper-live --live
 ```
 
-This performs the same computation and then issues 60 paired model calls and 30 two-stage public searches. Each call records its input, output and timing. Use a new output directory for each run. On Windows, use the Python 3.12 executable available on your PATH.
+This performs the same computation and then issues 60 paired model calls, 30 source-passage controls and 30 two-stage public searches. Each call records its input, output and timing. Use a new output directory for each run. On Windows, use the Python 3.12 executable available on your PATH.
 
 ## Evidence and demonstrations
+
+The deployment snapshot on 29 October 2026 contains **9,506 active papers, 41,092 claims and 71,291 reasoning steps**. [Recorded counts](artifact/semantic-evaluation/deployed-corpus-counts.json) include observations, assumptions, source anchors and dependency edges.
 
 | Material | Contents |
 | --- | --- |

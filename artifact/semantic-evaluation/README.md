@@ -2,14 +2,17 @@
 
 Thirty fixed comparisons from five papers test matching conclusions, contradictions, changed conditions, method attribution, and unsupported transfers. Cases and acceptable relations were frozen before model execution; `source-check.json` supplies the source passages and checking metadata.
 
-| Model input | Matched reference relation | Mean model time |
-|---|---:|---:|
-| Claim and scope | 28/30 | 3.98 s |
-| Same claim and scope, with its recorded argument | 29/30 | 3.53 s |
+| Model input | Reference relation matches |
+|---|---:|
+| Claim and scope, two runs | 28/30; 28/30 |
+| Full recorded argument, two runs | 29/30; 30/30 |
+| Original source passages, one run | 29/30 |
 
-The current public-site run retrieved the designated claim in 29/30 queries and returned an accepted relation in 27/30 queries; one query-planning call failed. Both complete public runs are retained as compressed JSON files. Expiring request handoff tokens are omitted.
+The passage control uses only the source-anchor quotations already present in each expanded argument, without its reasoning statements or dependency links. It uses the same query, claim, scope, prompt and model configuration; token counts are not matched. The two repeated conditions use the same 30 cases.
 
-Both conditions use the production GPT-6-Luna interactive prompt and configuration. Each case has the same candidate and query; only the argument field changes. The latest 60 calls completed successfully. The initial prompt run is also preserved in `fixed-candidate-ablation/`; the current prompt run is `fixed-candidate-ablation-v2/`. All inputs, original responses, configuration, timings, and hashes are included.
+A fresh public clone ran `scripts/reproduce_paper.py --live` successfully: all ten research stages, 60 new model calls and 30 public queries completed. Every designated claim appeared in the search preview; 29/30 received an accepted relation in the final output. Median full-query time was 36.1 seconds. [Execution report](../../repro/paper-live-execution.json) and [summary](replication-summary.json) record the run.
+
+All earlier runs remain available: `fixed-candidate-ablation/` uses the first prompt; `fixed-candidate-ablation-v2/` and `fixed-candidate-replication/` use the current relation prompt. Complete public query outputs are stored as compressed JSON, with expiring handoff tokens omitted. `source-passages-baseline/` contains its frozen inputs and original outputs.
 
 From the repository root, recompute the preserved scores:
 

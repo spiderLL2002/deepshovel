@@ -1,0 +1,753 @@
+{
+  "comparison": "New single-run source-passages control vs already-existing full_argument v2; no full argument model rerun",
+  "not_token_matched": true,
+  "meaning": "Raw source excerpts from existing projector source_anchor nodes, empty statements omitted and identical text deduplicated preserving first anchor ID and order. No observation/reasoning/assumption nodes or extra sources.",
+  "frozen_input_sha256": "4dc938381a07edd316dea8b772570bc7732dcbe12cc1a263d34279308f6bcd26",
+  "prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "validation": "All 30 actual model inputs equal precall frozen input; all raw winner hashes and transport input/prompt hashes verified",
+  "model_counts": {
+    "gpt-6-luna": 30
+  },
+  "source_passages_score": {
+    "source_passages": {
+      "total": 30,
+      "success": 30,
+      "failed": 0,
+      "accepted_relation": 29,
+      "accepted_relation_and_direction": 29
+    }
+  },
+  "existing_full_argument_v2_score": {
+    "total": 30,
+    "success": 30,
+    "failed": 0,
+    "accepted_relation": 29,
+    "accepted_relation_and_direction": 29
+  },
+  "mean_seconds": 4.028461301400117,
+  "median_seconds": 4.008205833500142,
+  "all_errors": [
+    {
+      "id": "q90-3",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.91
+      }
+    }
+  ],
+  "all_relation_or_direction_changes_vs_full_v2": [
+    {
+      "id": "q90-3",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.91
+      }
+    },
+    {
+      "id": "q90-5",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.91
+      }
+    },
+    {
+      "id": "q90-6",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.89
+      }
+    },
+    {
+      "id": "q110-6",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.96
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.99
+      }
+    }
+  ],
+  "all_case_comparisons": [
+    {
+      "id": "q16-1",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 1
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 1
+      }
+    },
+    {
+      "id": "q16-2",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q16-3",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.98
+      }
+    },
+    {
+      "id": "q16-4",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.99
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q16-5",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q16-6",
+      "accepted_relations": [
+        "related",
+        "qualifies"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.96
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.98
+      }
+    },
+    {
+      "id": "q30-1",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.99
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 1
+      }
+    },
+    {
+      "id": "q30-2",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "query_within_candidate",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.98
+      }
+    },
+    {
+      "id": "q30-3",
+      "accepted_relations": [
+        "related",
+        "qualifies"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.93
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.95
+      }
+    },
+    {
+      "id": "q30-4",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.91
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q30-5",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.98
+      }
+    },
+    {
+      "id": "q30-6",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.97
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q70-1",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.99
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q70-2",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q70-3",
+      "accepted_relations": [
+        "related",
+        "qualifies"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q70-4",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q70-5",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.96
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q70-6",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.96
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.94
+      }
+    },
+    {
+      "id": "q90-1",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.98
+      }
+    },
+    {
+      "id": "q90-2",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.99
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q90-3",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.91
+      }
+    },
+    {
+      "id": "q90-4",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.99
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q90-5",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.91
+      }
+    },
+    {
+      "id": "q90-6",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.89
+      }
+    },
+    {
+      "id": "q110-1",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 1
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 1
+      }
+    },
+    {
+      "id": "q110-2",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.99
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q110-3",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q110-4",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.98
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q110-5",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.99
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q110-6",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "source_passages": {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.96
+      },
+      "existing_full_argument_v2": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.99
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "measured_at": "2026-10-29T12:48:40.380518+00:00",
+  "selection": "Active snapshots for the deployed DEEPSHOVEL-PROJECT evidence-retrieval/2.0 index",
+  "active_snapshots": 9506,
+  "counts": {
+    "artifactVersions": 9506,
+    "anchors": 268965,
+    "visualEvidence": 934,
+    "observations": 154250,
+    "assumptions": 7995,
+    "reasoning": 71291,
+    "claims": 41092,
+    "edges": 532885,
+    "assessments": 0
+  },
+  "query": "select s.counts_json from evidence_graph_snapshots s join evidence_active_snapshots a on a.snapshot_id=s.id where a.project_id=? and a.index_version=?",
+  "extractors": {
+    "deepseek-v4-flash": 146,
+    "gpt-5.6-luna": 1412,
+    "gpt-6-luna": 7948
+  }
+}

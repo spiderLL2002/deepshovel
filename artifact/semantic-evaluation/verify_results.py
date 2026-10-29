@@ -45,3 +45,24 @@ for case in cases:
     assert pair['full_argument'] == pair['claim_scope']
 print(json.dumps({key: {'accepted_relation': sum(relation_scores[key]), 'accepted_relation_and_direction': sum(scores[key]), 'total': len(scores[key]),
                        'mean_seconds': mean(latencies[key])} for key in scores}, indent=2))
+
+passages_run = ROOT / 'source-passages-baseline'
+passages_manifest = json.loads((passages_run / 'manifest.json').read_text())
+assert passages_manifest['cases_sha256'] == manifest['cases_sha256']
+passages_correct = 0
+for case in cases:
+    record = json.loads((passages_run / f"{case['id']}.source_passages.json").read_text())
+    assert sha(record['user_content']) == record['user_content_sha256']
+    assert record['system_prompt_sha256'] == passages_manifest['prompt_sha256']
+    content = json.loads(record['user_content'])
+    assert content['query'] == case['query']
+    full = json.loads((ROOT / 'fixed-candidate-ablation-v2' / f"{case['id']}.full_argument.json").read_text())
+    nodes = json.loads(full['user_content'])['candidates'][0]['argument']['nodes']
+    anchors = {n['id']: n['statement'] for n in nodes if n['kind'] == 'source_anchor'}
+    for passage in content['candidates'][0]['argument']['source_passages']:
+        assert anchors[passage['source_anchor_id']] == passage['text']
+    if record['status'] == 'ok':
+        winner = next(x for x in record['raw_attempt_outputs'] if sha(x['text']) == record['output_content_sha256'])
+        assert json.loads(winner['text']) == record['output']
+        passages_correct += record['output']['decisions'][0]['relation'] in case['accepted_relations']
+print(json.dumps({'source_passages': {'accepted_relation': passages_correct, 'total': len(cases)}}))

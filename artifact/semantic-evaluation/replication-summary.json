@@ -1,0 +1,26 @@
+{
+  "public_commit": "395c401",
+  "fresh_clone_command": "python3.12 scripts/reproduce_paper.py --out runs/paper-live --live",
+  "completed": true,
+  "public_query_count": 30,
+  "public_target_in_preview": 30,
+  "public_accepted_target_relation": 29,
+  "public_query_median_seconds": 36.13424781199956,
+  "fixed_candidate_runs": {
+    "first": {
+      "claim_scope": 28,
+      "full_argument": 29
+    },
+    "fresh_clone": {
+      "claim_scope": 28,
+      "full_argument": 30
+    }
+  },
+  "source_passages": {
+    "accepted": 29,
+    "total": 30,
+    "token_matched": false
+  },
+  "research_stages": 10,
+  "research_files_byte_identical": 76
+}
