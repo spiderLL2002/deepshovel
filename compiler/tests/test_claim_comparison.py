@@ -304,7 +304,7 @@ def test_question_cannot_be_promoted_to_an_asserted_answer() -> None:
         _validate_normalization(request, batch)
 
 
-def test_analyzer_freezes_hash_and_verifier_sees_only_selected_evidence() -> None:
+def test_analyzer_freezes_selection_but_retains_dependency_context() -> None:
     gpt = ScriptedComparisonModel()
     request = ClaimComparisonRequest.model_validate(
         comparison_payload(), strict=True
@@ -326,9 +326,12 @@ def test_analyzer_freezes_hash_and_verifier_sees_only_selected_evidence() -> Non
     verifier_pair = gpt.payloads[1]["request"]["pairs"][0]
     assert [
         item["id"] for item in verifier_pair["candidate"]["evidence_entities"]
-    ] == ["candidate.observation.1"]
+    ] == ["candidate.observation.1", "candidate.assessment.1"]
+    assert verifier_pair["candidate"]["selected_evidence_ids"] == [
+        "candidate.observation.1"
+    ]
     assert verifier_pair["query"]["evidence_entities"] == []
-    assert "assessment_summary" not in json.dumps(verifier_pair)
+    assert verifier_pair["candidate"]["evidence_completeness"]["status"] == "unknown"
     verifier_schema = gpt.payloads[1]["schema"]
     assert verifier_schema["properties"]["extraction_sha256"] == {
         "const": expected_hash
@@ -589,10 +592,13 @@ def test_verifier_never_shares_queries_with_different_selected_evidence() -> Non
         entity["id"]
         for pair in compact_verifier["pairs"]
         for entity in pair["query"]["evidence_entities"]
-    ] == ["query.anchor.1", "query.anchor.2"]
+    ] == ["query.anchor.1", "query.anchor.2"] * 2
+    assert [
+        pair["query"]["selected_evidence_ids"] for pair in compact_verifier["pairs"]
+    ] == [["query.anchor.1"], ["query.anchor.2"]]
     assert all(
         [entity["id"] for entity in pair["candidate"]["evidence_entities"]]
-        == ["candidate.observation.1"]
+        == ["candidate.observation.1", "candidate.assessment.1"]
         for pair in compact_verifier["pairs"]
     )
 

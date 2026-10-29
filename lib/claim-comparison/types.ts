@@ -1,12 +1,12 @@
 import type { CompilerModel } from "../compiler/model.ts";
-import type { ClaimModality, ClaimPolarity, ClaimType, Scope } from "../evidence-graph/index.ts";
+import type { AssumptionType, ClaimModality, ClaimPolarity, ClaimType, EvidenceEdgeRelation, Scope } from "../evidence-graph/index.ts";
 
 export const CLAIM_COMPARISON_SCHEMA_VERSION = "claim-comparison/1.0" as const;
 export const CLAIM_NORMALIZER_VERSION = "claim-normalizer/1.0.0" as const;
-export const CLAIM_COMPARISON_PROCESSOR_VERSION = "claim-comparison-processor/1.0.0" as const;
+export const CLAIM_COMPARISON_PROCESSOR_VERSION = "claim-comparison-processor/1.1.0" as const;
 export const CLAIM_NORMALIZER_PROMPT_VERSION = "claim-normalizer/1.0.0" as const;
-export const CLAIM_COMPARISON_EXTRACTION_PROMPT_VERSION = "claim-comparison-extractor/1.0.0" as const;
-export const CLAIM_COMPARISON_VERIFICATION_PROMPT_VERSION = "claim-comparison-verifier/1.0.0" as const;
+export const CLAIM_COMPARISON_EXTRACTION_PROMPT_VERSION = "claim-comparison-extractor/1.1.0" as const;
+export const CLAIM_COMPARISON_VERIFICATION_PROMPT_VERSION = "claim-comparison-verifier/1.1.0" as const;
 
 export type ClaimComparisonRelation =
   | "equivalent"
@@ -46,6 +46,7 @@ export type ClaimComparisonEvidenceKind =
   | "structured_visual_evidence"
   | "observation"
   | "reasoning"
+  | "assumption"
   | "assessment_summary";
 
 export type ClaimComparisonEvidenceEntity = {
@@ -54,6 +55,35 @@ export type ClaimComparisonEvidenceEntity = {
   text: string;
   anchor_ids: string[];
   root_claim_ids: string[];
+  assumption_type?: AssumptionType;
+  assumption_explicit?: boolean;
+  scope?: Scope;
+  content_truncated?: boolean;
+};
+
+export type ClaimComparisonEvidenceEdge = {
+  id: string;
+  source_id: string;
+  target_id: string;
+  relation: EvidenceEdgeRelation;
+};
+
+/** Completeness of recorded dependency input, not scientific extraction fidelity. */
+export type ClaimComparisonEvidenceCompleteness = {
+  status: "complete" | "truncated" | "unknown" | "not_applicable";
+  path_truncated: boolean;
+  entity_limit: number;
+  depth_limit: number;
+  available_entity_count: number;
+  omitted_entity_count: number;
+  omitted_edge_count: number;
+  content_truncated: boolean;
+};
+
+export type ClaimComparisonEvidence = {
+  evidence_entities: ClaimComparisonEvidenceEntity[];
+  evidence_edges: ClaimComparisonEvidenceEdge[];
+  evidence_completeness: ClaimComparisonEvidenceCompleteness;
 };
 
 export type ClaimComparisonSide = {
@@ -67,6 +97,9 @@ export type ClaimComparisonSide = {
   source_paper_id: string | null;
   source_paper_family_id: string | null;
   evidence_entities: ClaimComparisonEvidenceEntity[];
+  // Older clients have unknown completeness; new graph projections supply both.
+  evidence_edges?: ClaimComparisonEvidenceEdge[];
+  evidence_completeness?: ClaimComparisonEvidenceCompleteness;
 };
 
 export type ClaimComparisonPair = {

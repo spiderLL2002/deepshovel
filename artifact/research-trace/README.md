@@ -1,6 +1,6 @@
 # From a retrieved scientific argument to a research decision
 
-This package exposes two bounded, historical examples from the executed Codex research workflow. It contains saved record fields and an explicit lineage index, not a new experiment or a simulated service run. The index was assembled for publication on **29 October 2026** from records created during the **25–27 October 2026** investigation.
+This package exposes bounded historical examples, a candidate census and protocol/execution checks from the executed Codex research workflow. It contains saved record fields and explicit lineage indexes, not a new experiment or a simulated service run. The indexes were assembled for publication on **29 October 2026** from records created during the **25–27 October 2026** investigation.
 
 ## 1. A retrieved prior argument strengthened a candidate rejection
 
@@ -36,6 +36,18 @@ This is a **retrospective publication index of existing identity fields**, not a
 
 The actual source is [Lin and Catling (2024)](https://doi.org/10.2475/001c.118215). Full model definitions, pH-basis notes and numerical reproduction are in the sibling GP15 package; this trace alone does not establish prediction accuracy or a causal research-performance gain.
 
+## 3. Eight rounds, 48 screened candidates and one research manuscript
+
+[eight-round-screening.json](records/eight-round-screening.json) contains every candidate ID, original question and final root disposition from the author's saved research state, with the complete state-file SHA-256. It derives eight rounds of six questions each, split equally between REE and OAE. The final dispositions are **35 rejected current forms, six rejected after frozen analysis, six not selected because data/novelty gates remained incomplete, and one eligible to draft**. Earlier screening labels are not substituted for those final fields.
+
+The one advanced candidate is `REE-R8-01`. Its round-close and manuscript-delivery events are retained, and the later p20 manuscript hash resolves to the public GP15 scientific manuscript. This is a count of screened questions and a delivered research manuscript, not 48 executed analyses or accepted scientific discoveries. The index is a minimal public projection of local author records; it is not an independent experiment measuring DeepShovel's benefit.
+
+## 4. Reviewed uncertainty rules, frozen protocol and actual execution
+
+[rsi-protocol-execution.json](records/rsi-protocol-execution.json) exposes the recorded preexecution AI check of revised rules: at least six station labels, at least 90% complete-support bootstrap draws, and no aggregate comparison when a station deletion loses an originally populated layer. The review's recorded time is **15:55:43 UTC on 25 October 2026**. The protocol binds its exact hash at **15:57:54**, and the recorded execution begins at **15:58:00**, using the same protocol and reviewed code hashes. The original message first proposing the thresholds is not present in this projection, so it does not assign first authorship or infer an undocumented earlier policy.
+
+The historical outputs report **975/1,000** and **978/1,000** complete-support bootstrap draws with six and eight station labels. All **14** station deletions retained the originally populated layers. The suppression rule is present in the frozen protocol and executable code, but that failure branch was not triggered by these observations. These conditional intervals do not acquire nominal confidence coverage merely by meeting the reporting rules. The public verifier checks the actual fields, chronology, code locators and hashes against the GP15 files; its full reproduction workflow separately regenerates the numerical outputs.
+
 ## Reproduce the record checks
 
 Python 3 standard library only; no account, service, API key or live network is required:
@@ -52,7 +64,9 @@ For the authors, the stronger original-record check is:
 python3 -B verify_trace.py --source-root /path/to/original/research/task
 ```
 
-It verifies the full hashes of 23 original records and rebuilds every public JSON projection to test exact selected-field equality. `build_trace.py` documents the extraction. The recorded local result is [verification.json](verification.json). Checks cover identity, extraction fidelity, chronology and result bindings; they do not turn model-generated claims, hashes or saved decisions into scientific truth. Complete source-record hashes and their original relative paths are in [source-record-hashes.json](source-record-hashes.json).
+It verifies the full hashes of 32 original records and rebuilds every public JSON projection to test exact selected-field equality. `build_trace.py` documents the extraction. The original bounded-trace result remains in [verification.json](verification.json); the expanded census/RSI checks are saved separately under [runs/2026-10-29-census-rsi](runs/2026-10-29-census-rsi/). Checks cover identity, extraction fidelity, chronology, counts and result bindings; they do not turn model-generated claims, hashes or saved decisions into scientific truth. Complete source-record hashes and their original relative paths are in [source-record-hashes.json](source-record-hashes.json).
+
+The expanded public run passed **81 checks**, including 14 public GP15 file bindings. The author-side run passed **121 checks**, additionally verifying 32 complete original records and rebuilding all eight JSON projections. Both results preserve the reported eight rounds/48 questions/one advancement and 14 station deletions with zero observed lost-layer cases.
 
 The public projection removes source quotations, opaque query handoffs, account metadata and local machine paths. The excerpted historical checks are the research workflow’s own notes, rather than publisher prose. Source IDs, hashes and page/figure locators are retained; the model-generated claim is labeled as such. The repository license applies to the authors’ scripts and accompanying documentation; it does not relicense the cited publications. Hongo et al.’s publisher page identifies copyright © 2007 The Geochemical Society of Japan and free access, without asserting a redistribution license, so its PDF, figures and source-text quotations are excluded. Publisher PDFs remain at their original sources or, where redistribution is licensed, in the separately documented GP15 package. No production request was made while assembling this package.
 

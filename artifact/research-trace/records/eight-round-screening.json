@@ -1,0 +1,648 @@
+{
+  "record_type": "minimal publication projection of the author research state; not a service log or a prospective benchmark",
+  "source_record": "state.json",
+  "source_sha256": "f9183c09d7a54667f5ca7816a965a7d2768dac0a9be92fd9e8be0889f12006dc",
+  "selection": "All candidate IDs matching (REE|OAE)-R[1-8]-0[1-3]; no candidate omitted",
+  "candidate_count": 48,
+  "round_counts": {
+    "1": 6,
+    "2": 6,
+    "3": 6,
+    "4": 6,
+    "5": 6,
+    "6": 6,
+    "7": 6,
+    "8": 6
+  },
+  "disposition_counts": {
+    "eligible_to_draft": 1,
+    "not_selected_data_or_novelty_gate_incomplete": 6,
+    "rejected_current_form": 35,
+    "rejected_current_form_after_frozen_analysis": 6
+  },
+  "candidates": [
+    {
+      "id": "OAE-R1-01",
+      "round_from_id": 1,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Can the apparent difference in timing of carbonate loss and ecological recovery between U1513 and U1516 be distinguished from age-model, hiatus and splice uncertainty?",
+      "recorded_round_fields": {
+        "round": 1,
+        "decision_round": 1
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R1-02",
+      "round_from_id": 1,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Do peak radiolarian concentrations indicate greater production, or can carbonate loss and dilution explain them?",
+      "recorded_round_fields": {
+        "round": 1,
+        "decision_round": 1
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R1-03",
+      "round_from_id": 1,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Can laboratory/method effects account for the suppression of the bulk-carbonate carbon-isotope excursion at U1513, separate from preservation and true local carbon cycling?",
+      "recorded_round_fields": {
+        "round": 1,
+        "decision_round": 1
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R1-01",
+      "round_from_id": 1,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Interface versus burial control of phosphate-hosted REY enrichment",
+      "recorded_round_fields": {
+        "round": 1,
+        "decision_round": 1
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R1-02",
+      "round_from_id": 1,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Could extraction selectivity and mass closure change carrier interpretation?",
+      "recorded_round_fields": {
+        "round": 1,
+        "decision_round": 1
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R1-03",
+      "round_from_id": 1,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Can hydrothermal Fe-Mn-P supply be distinguished from organic matter and carbonate dilution controls?",
+      "recorded_round_fields": {
+        "round": 1,
+        "decision_round": 1
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R2-01",
+      "round_from_id": 2,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Sensitivity of S57 recovery Mo intensity interpretation to explicitly conditional carbonate mass-basis scenarios",
+      "recorded_round_fields": {
+        "decision_round": 2
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R2-02",
+      "round_from_id": 2,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Can host-adjusted Hg distinguish external OAE2 input from local preservation?",
+      "recorded_round_fields": {
+        "decision_round": 2
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R2-03",
+      "round_from_id": 2,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Does reduced P recycling require redox change after carbonate and burial adjustment?",
+      "recorded_round_fields": {
+        "decision_round": 2
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R2-01",
+      "round_from_id": 2,
+      "domain_from_id": "REE",
+      "question_source_field": "scientific_question",
+      "question": "Under what sample-support and endmember-separation conditions do paired bottom-water, porewater and authigenic εNd constrain recycled versus new sedimentary Nd?",
+      "recorded_round_fields": {
+        "decision_round": 2
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R2-02",
+      "round_from_id": 2,
+      "domain_from_id": "REE",
+      "question_source_field": "scientific_question",
+      "question": "Can constant carrier-phase proportions alone identify the timing of REY uptake?",
+      "recorded_round_fields": {
+        "decision_round": 2
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R2-03",
+      "round_from_id": 2,
+      "domain_from_id": "REE",
+      "question_source_field": "scientific_question",
+      "question": "Can filtration and pooled sample support alter an Nd proxy reliability classification independently of geochemical differences?",
+      "recorded_round_fields": {
+        "decision_round": 2
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R3-01",
+      "round_from_id": 3,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Do the published phase-III Cismon Rb/Sr and Mn/Ti cutoffs retain their conditional discrimination across complete post-event cycles, or is state history required?",
+      "recorded_round_fields": {
+        "round": 3,
+        "decision_round": 3
+      },
+      "root_disposition": "not_selected_data_or_novelty_gate_incomplete",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R3-02",
+      "round_from_id": 3,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Can fixed-denudation oxidative weathering enhancement compatible with the published Re-isotope interpretation also satisfy the early-CIE shale Re and carbonate-U constraints under explicitly bounded burial and duration scenarios?",
+      "recorded_round_fields": {
+        "round": 3,
+        "decision_round": 3
+      },
+      "root_disposition": "rejected_current_form_after_frozen_analysis",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R3-03",
+      "round_from_id": 3,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Can measured bulk-metal inventory alone explain metal-specific porphyrin partitioning and recovery, or are formation/preservation changes also required?",
+      "recorded_round_fields": {
+        "round": 3,
+        "decision_round": 3
+      },
+      "root_disposition": "not_selected_data_or_novelty_gate_incomplete",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R3-01",
+      "round_from_id": 3,
+      "domain_from_id": "REE",
+      "question_source_field": "scientific_question",
+      "question": "What retained initial Nd inventory is necessary for the measured fossil-tooth tip isotope offset to carry a biological living-water signal, when concentration and isotope laser supports differ?",
+      "recorded_round_fields": {
+        "round": 3,
+        "decision_round": 3
+      },
+      "root_disposition": "rejected_current_form_after_frozen_analysis",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R3-02",
+      "round_from_id": 3,
+      "domain_from_id": "REE",
+      "question_source_field": "scientific_question",
+      "question": "Can observed tooth-size distributions and sediment sorting constrain the fraction of net REY enrichment that can be generated by local winnowing versus persistent allochthonous particle supply?",
+      "recorded_round_fields": {
+        "round": 3,
+        "decision_round": 3
+      },
+      "root_disposition": "not_selected_data_or_novelty_gate_incomplete",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R3-03",
+      "round_from_id": 3,
+      "domain_from_id": "REE",
+      "question_source_field": "scientific_question",
+      "question": "Do early-Eocene tooth-rich layers show increased fish skeletal production or a changed skeletal size/mass spectrum and sediment dilution, when counts are compared with phosphate inventory without relying on disputed Os ages?",
+      "recorded_round_fields": {
+        "round": 3,
+        "decision_round": 3
+      },
+      "root_disposition": "not_selected_data_or_novelty_gate_incomplete",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R4-01",
+      "round_from_id": 4,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "At Barranco de la Cañada, does the published return of mean log shell size correspond to restoration of the pre-event individual size distribution, or can taxonomic replacement and changed relative abundance restore the mean while distribution shape remains outside ordinary pre-event bed-to-bed variation?",
+      "recorded_round_fields": {
+        "round": 4
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R4-02",
+      "round_from_id": 4,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Within consistent Cleveland Basin bulk-sampling series, what fraction of the return of benthic modes is carried by pre-event resident taxa versus taxa first observed after the event, and does apparent restoration of modes mask persistent replacement of the contributing taxa?",
+      "recorded_round_fields": {
+        "round": 4
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R4-03",
+      "round_from_id": 4,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Can compound-specific carbon and source-composition measurements bound how much of the early bulk-carbon excursion records source mixing versus change in the background carbon reservoir, before the later productivity/anoxia response?",
+      "recorded_round_fields": {
+        "round": 4
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R4-01",
+      "round_from_id": 4,
+      "domain_from_id": "REE",
+      "question_source_field": "scientific_question",
+      "question": "Does the nitrate/Fe-clay redox transition focus or disperse the dissolved REY flux in abyssal sediments, and how much element-selective diffusive convergence occurs across the transition?",
+      "recorded_round_fields": {
+        "round": 4
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R4-02",
+      "round_from_id": 4,
+      "domain_from_id": "REE",
+      "question_source_field": "scientific_question",
+      "question": "What is the molar Nd-to-orthophosphate ratio of benthic diffusive exchange at oxic abyssal sediment interfaces, and can independent source/sink constraints distinguish nutrient regeneration from mineral desorption?",
+      "recorded_round_fields": {
+        "round": 4
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R4-03",
+      "round_from_id": 4,
+      "domain_from_id": "REE",
+      "question_source_field": "scientific_question",
+      "question": "How does size-selective separation alter the elemental composition of the retained and returned REY inventory, and can contrasting fine-phosphate versus coarse-bioapatite assemblages explain reversal of element-selective recovery?",
+      "recorded_round_fields": {
+        "round": 4
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R5-01",
+      "round_from_id": 5,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Among externally calibratable bivalve species observed in Iberia during Tenuicostatum, does older other-region thermal affinity distinguish Exaratum detection from non-detection, and in which supported population is that association transferable?",
+      "recorded_round_fields": {
+        "round": 5
+      },
+      "root_disposition": "rejected_current_form_after_frozen_analysis",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R5-02",
+      "round_from_id": 5,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Do same-sample B/C/O isotopes, carbonate leachate element measurements and detrital/mineral observations identify an acidification signal rather than composition or alteration effects at two Iberian-margin sections?",
+      "recorded_round_fields": {
+        "round": 5
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R5-03",
+      "round_from_id": 5,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Can independent same-sample source and preservation observations quantify whether spatial OCAR differences reflect hydrological accommodation or changing autochthonous versus land-derived carbon inputs?",
+      "recorded_round_fields": {
+        "round": 5
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R5-01",
+      "round_from_id": 5,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Do contrasting operational P-bearing phases carry different molar REY loads per mole P, and does the phase-load contrast persist between two Indian Ocean cores after separating phosphate quantity from phosphate chemistry?",
+      "recorded_round_fields": {
+        "round": 5
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R5-02",
+      "round_from_id": 5,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Does the measurable dissolved Ce component exchange across the oxic abyssal sediment-water interface with the same relative efficiency as its trivalent REE neighbors, or is there a selective interfacial retention term?",
+      "recorded_round_fields": {
+        "round": 5
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R5-03",
+      "round_from_id": 5,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Does morphological position within an individual fossil fish tooth impose a repeatable element-selective uptake contrast, distinct from core/depth differences, that changes the composition expected from selective preservation of tooth parts?",
+      "recorded_round_fields": {
+        "round": 5
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R6-01",
+      "round_from_id": 6,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Within the non-focal UC11 biostratigraphic interval broadly containing Micula acmes2/3, do named background genera show a reproducible cross-site redistribution beyond pure focal-genus expansion and ordinary local temporal variation?",
+      "recorded_round_fields": {
+        "round": 6
+      },
+      "root_disposition": "rejected_current_form_after_frozen_analysis",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R6-02",
+      "round_from_id": 6,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Do species-resolved paired Ca isotope and shell dimension observations require a within-lineage calcification response before the Aptian–Albian turnover, or can the planktic signal be explained by replacement/mixing plus the shared seawater background?",
+      "recorded_round_fields": {
+        "round": 6
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R6-03",
+      "round_from_id": 6,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Beyond the already published mean cooling and seawater isotope trajectory, did among-shell hydroclimatic variability change across fixed OAE2/PCE phases, and can independent shell replicates distinguish real heterogeneity from analytical and pooling uncertainty?",
+      "recorded_round_fields": {
+        "round": 6
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R6-01",
+      "round_from_id": 6,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Can a single, fixed-composition non-lithogenic particle assemblage account simultaneously for mesopelagic REY and remineralization-associated Ba profiles at GEOVIDE, after lithogenic mixing and measurement uncertainty, and what directly measured inventory contrast remains if it cannot?",
+      "recorded_round_fields": {
+        "round": 6
+      },
+      "root_disposition": "not_selected_data_or_novelty_gate_incomplete",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R6-02",
+      "round_from_id": 6,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "In the Kairei plume, can the dissolved REY deficit be accounted for by redistribution into the measured 0.2–0.8 micrometre pool, or is a nonzero minimum transfer out of the entire <0.8 micrometre pool required?",
+      "recorded_round_fields": {
+        "round": 6
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R6-03",
+      "round_from_id": 6,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "During low-temperature alteration of Cretaceous seafloor basalt, how does net elemental REY gain/loss per original rock mass covary with alkalinity-generating major-element transfer, after accounting for alteration-related mass change?",
+      "recorded_round_fields": {
+        "round": 6
+      },
+      "root_disposition": "rejected_current_form_after_frozen_analysis",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R7-01",
+      "round_from_id": 7,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Under an explicit local retained-inventory-to-burial-endmember mapping, can the published organic-S isotope value of -7 per mil and organic/pyrite S flux ratios of 3 or 6 represent the actual paired sulfur pools in the four Raven2019 records, and which parameter governs any material mismatch?",
+      "recorded_round_fields": {
+        "round": 7
+      },
+      "root_disposition": "rejected_current_form_after_frozen_analysis",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R7-02",
+      "round_from_id": 7,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Do the Gongzha and Iona-1 records contain independent source-resolving measurements sufficient to constrain hydrothermal versus benthic iron supply, beyond their published detrital and local-process corrections?",
+      "recorded_round_fields": {
+        "round": 7
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R7-03",
+      "round_from_id": 7,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Does the new Oued Kharroub individual-level Watznaueria record distinguish proportional coccolith shrinkage from a change in internal/external geometry or population structure, beyond the already published mean-size decrease?",
+      "recorded_round_fields": {
+        "round": 7
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R7-01",
+      "round_from_id": 7,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Can a surface-area-normalized goethite sorption response predict the pH-dependent REY retention of independent deep-Pacific sediment batches, or is a second reactive surface required?",
+      "recorded_round_fields": {
+        "round": 7
+      },
+      "root_disposition": "not_selected_data_or_novelty_gate_incomplete",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R7-02",
+      "round_from_id": 7,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Within individual deep-sea hydrothermal vent orifices, do bottle-level REY concentrations follow independently constrained seawater mixing, or do element-selective reaction losses occur during fluid collection/cooling?",
+      "recorded_round_fields": {
+        "round": 7
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R7-03",
+      "round_from_id": 7,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Can silicate dissolution progress predict net dissolved REY delivery consistently across silicic and basaltic river-particle incubations, or does secondary uptake reverse the supply relationship?",
+      "recorded_round_fields": {
+        "round": 7
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R8-01",
+      "round_from_id": 8,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Do successive independently delimited OAE1b repopulation intervals repeatedly recover the broader benthic assemblage, or only the already known opportunistic colonizers?",
+      "recorded_round_fields": {
+        "round": 8
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R8-02",
+      "round_from_id": 8,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Do paired small and conventional size fractions distinguish a hidden small-bodied surviving community from true decline of benthic and heterohelicid populations?",
+      "recorded_round_fields": {
+        "round": 8
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "OAE-R8-03",
+      "round_from_id": 8,
+      "domain_from_id": "OAE",
+      "question_source_field": "question",
+      "question": "Within independent ash/allostratigraphic windows, do spatial differences in organic-carbon concentration correspond to differences in preserved carbon inventory, or mainly to sediment dilution and incomplete stratigraphic representation?",
+      "recorded_round_fields": {
+        "round": 8
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R8-01",
+      "round_from_id": 8,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Does the fixed Lin–Catling seawater REE–pH calibration transfer to independently collected, matched-bottle GP15 observations at its original 200–800 m, 100 m layer scale, and does it add predictive information beyond the original depth-layer pH means?",
+      "recorded_round_fields": {
+        "round": 8
+      },
+      "root_disposition": "eligible_to_draft",
+      "manuscript_eligible": true
+    },
+    {
+      "id": "REE-R8-02",
+      "round_from_id": 8,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Can the excess dissolved REE retention in a replicated phytoplankton bloom be separated quantitatively from an abiotic wall/oxide sink, yielding a demonstrably new mass-balance constraint on biogenic recycling?",
+      "recorded_round_fields": {
+        "round": 8
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    },
+    {
+      "id": "REE-R8-03",
+      "round_from_id": 8,
+      "domain_from_id": "REE",
+      "question_source_field": "question",
+      "question": "Does a stable lanthanide demand per methane oxidized transfer from four independent deep-seep incubations to a field methanotrophic plume, or do storage/regeneration and nonbiological uptake create a different apparent demand?",
+      "recorded_round_fields": {
+        "round": 8
+      },
+      "root_disposition": "rejected_current_form",
+      "manuscript_eligible": false
+    }
+  ],
+  "recorded_gate_counts": {
+    "completed_rounds": 8,
+    "candidate_count": 48,
+    "eligible_count": 1,
+    "candidate": "REE-R8-01"
+  },
+  "round8_close": {
+    "at": "2026-10-25T16:20:52.925624+00:00",
+    "round": 8,
+    "action": "close_round_after_one_frozen_analysis_and_independent_recomputation",
+    "dispositions": {
+      "REE-R8-01": "eligible_to_draft",
+      "REE-R8-02": "rejected_current_form",
+      "REE-R8-03": "rejected_current_form",
+      "OAE-R8-01": "rejected_current_form",
+      "OAE-R8-02": "rejected_current_form",
+      "OAE-R8-03": "rejected_current_form"
+    },
+    "eligible": 1,
+    "next_phase": "manuscript_and_reproducibility"
+  },
+  "initial_delivery_event": {
+    "at": "2026-10-25T16:34:56.194474+00:00",
+    "round": 8,
+    "action": "deliver_complete_scoped_manuscript_and_verified_reproducibility",
+    "scientific_expert_certification": false,
+    "submitted": false
+  },
+  "later_scientific_manuscript": {
+    "path": "iteration-2026-10-27/manuscript/p20/manuscript.en.md",
+    "sha256": "050c0c49307395291055d7c7062e93b875b15604bfed6631a17ef1beff466810",
+    "public_path": "../gp15/scientific-manuscript.en.md",
+    "scientific_version": "p20"
+  },
+  "interpretation": "48 screened candidate questions in eight rounds, one advanced to drafting and a delivered research manuscript. Six not-selected candidates remain distinct from rejection. This does not establish 48 completed analyses, 48 independent discoveries, journal acceptance, or the counterfactual benefit of DeepShovel."
+}

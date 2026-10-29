@@ -1,0 +1,1258 @@
+{
+  "schema_version": "claim-comparison/1.0",
+  "project_id": "project.f2.transport-check",
+  "pairs": [
+    {
+      "id": "pair.recorded-f2",
+      "query": {
+        "claim_id": "query.f2",
+        "canonical_claim": "For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55\u201357 MPa.",
+        "claim_type": "predictive",
+        "polarity": "affirmed",
+        "modality": "asserted",
+        "scope": {
+          "condition": [
+            "gas-injection pressure increase"
+          ],
+          "entities": [
+            "Asmari reservoir",
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "Gachsaran oilfield"
+          ],
+          "formation": [
+            "Asmari reservoir"
+          ],
+          "location": [
+            "Gachsaran oilfield, SW Iran"
+          ],
+          "measurement": [
+            "reactivation tendency and maximum sustainable pore pressure"
+          ],
+          "method": [
+            "3D Mohr diagrams, slip tendency, and modified slip tendency"
+          ],
+          "sample_type": [
+            "four faults F1, F2, F3, and F4"
+          ],
+          "time": null,
+          "uncertainty": null
+        },
+        "source_snapshot_id": null,
+        "source_paper_id": null,
+        "source_paper_family_id": null,
+        "evidence_entities": [],
+        "evidence_edges": [],
+        "evidence_completeness": {
+          "status": "not_applicable",
+          "path_truncated": false,
+          "entity_limit": 256,
+          "depth_limit": 32,
+          "available_entity_count": 0,
+          "omitted_entity_count": 0,
+          "omitted_edge_count": 0,
+          "content_truncated": false
+        }
+      },
+      "candidate": {
+        "claim_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+        "canonical_claim": "For F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55\u201357 MPa.",
+        "claim_type": "predictive",
+        "polarity": "affirmed",
+        "modality": "asserted",
+        "scope": {
+          "condition": [
+            "gas-injection pressure increase"
+          ],
+          "entities": [
+            "Asmari reservoir",
+            "F1",
+            "F2",
+            "F3",
+            "F4",
+            "Gachsaran oilfield"
+          ],
+          "formation": [
+            "Asmari reservoir"
+          ],
+          "location": [
+            "Gachsaran oilfield, SW Iran"
+          ],
+          "measurement": [
+            "reactivation tendency and maximum sustainable pore pressure"
+          ],
+          "method": [
+            "3D Mohr diagrams, slip tendency, and modified slip tendency"
+          ],
+          "sample_type": [
+            "four faults F1, F2, F3, and F4"
+          ],
+          "time": null,
+          "uncertainty": null
+        },
+        "source_snapshot_id": "snapshot:sha256:dff697e0ad1dc4de301a6adf770bc65c764e6ec418b3c34e83bb539f07794c48",
+        "source_paper_id": "paper:f87d7cdcf0d08a7557993c1966b56183882c0b87c68809d0519ea8060382de99",
+        "source_paper_family_id": "artifact:ab149f69-0ecc-490f-876e-341aa9896b2e",
+        "evidence_entities": [
+          {
+            "id": "anchor.text.cohesion",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: Since the cohesion of the weakness (pre-existing fault) can be neglected, they were considered cohesionless (i.e., C = 0).",
+            "anchor_ids": [
+              "anchor.text.cohesion"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.f2.stability",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: On the other hand, F2 is the most stable fault, because it has the lowest $T _ { \\mathrm { s } }$ and $T _ { \\mathrm { s m } }$ and can undergo an average maximum pore pressure of 55\u201357 MPa.",
+            "anchor_ids": [
+              "anchor.text.f2.stability"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.friction",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: It is recommended that in the absence of such data, the coefcient of static friction can be set to 0.6 (Rutqvist et al.",
+            "anchor_ids": [
+              "anchor.text.friction"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.methods.all",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: Results of all three methods of 3D Mohr diagrams, slip tendency and modifed slip tendency, confrmed that F2 is the most stable fault in the feld, and it can sustain a maximum pore pressure of 55\u201357 MPa.",
+            "anchor_ids": [
+              "anchor.text.methods.all"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.moduli.agreement",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: Results demonstrated that both equations are in accordance with each other.",
+            "anchor_ids": [
+              "anchor.text.moduli.agreement"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.moduli.method",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: For this purpose, by using the equation derived in the NISOC laboratory, static elastic moduli were calculated to estimate the current stress regime of the feld, and then the accuracy of the results was examined by the Seyed Sajadi and Aghighi (2015) equation.",
+            "anchor_ids": [
+              "anchor.text.moduli.method"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.mohr.result",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: 10 shows, none of the faults is critically stressed in the current stress feld.",
+            "anchor_ids": [
+              "anchor.text.mohr.result"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.orientation",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: A total number of 32 fractures were observed in the studied well, with a prevailing azimuth of $5 2 ^ { \\circ }$ (the existence of drillinginduced tensile fractures is $9 0 ^ { \\circ }$ from the breakouts).",
+            "anchor_ids": [
+              "anchor.text.orientation"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.polygon.current",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: 13 shows, all the faults are inactive at the present stress state, and the estimated horizontal stresses fall within the normal faulting triangle (triangle with solid lines).",
+            "anchor_ids": [
+              "anchor.text.polygon.current"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.polygon.transition.1",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: By increasing pore pressure to its critical value, horizontal stresses will be positioned on the left edge of the smaller",
+            "anchor_ids": [
+              "anchor.text.polygon.transition.1"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.polygon.transition.2",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: triangle (triangle with dashed lines) showing the risk of reactivation.",
+            "anchor_ids": [
+              "anchor.text.polygon.transition.2"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.principal",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: 8, in this feld the maximum principal stress $( \\sigma _ { 1 } )$ is $\\sigma _ { \\mathrm { V } } ,$ and the intermediate and minimum principal stresses $( \\sigma _ { 2 }$ and $\\sigma _ { 3 } )$ are $\\sigma _ { \\mathrm { H m a x } }$ and $\\sigma _ { \\mathrm { h m i n } } ,$ respectively.",
+            "anchor_ids": [
+              "anchor.text.principal"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.regime",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: ${ \\mathrm { S o } } ,$ according to Anderson\u2019s faulting theory (Anderson 1951), this feld is in a normal faulting regime (i.e., $\\sigma _ { 1 } { > } \\sigma _ { 2 } { > } \\sigma _ { 3 } )$ .",
+            "anchor_ids": [
+              "anchor.text.regime"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor.text.spatial",
+            "kind": "source_anchor",
+            "text": "Source anchor type=text. Exact text: It is noteworthy that for all the methods used here (i.e., Mohr diagrams, slip tendency and modifed slip tendency) the principal stresses were considered within a specifed range (e.g., 10 m) of the middle part of the fault planes.",
+            "anchor_ids": [
+              "anchor.text.spatial"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107",
+            "kind": "source_anchor",
+            "text": "Source anchor type=figure. Exact text: Fig. 13 Stress polygons plotted for the four faults. Three triangles NF, SS, and RF represent the normal, strike-slip and reverse faulting regimes, respectively. The blue solid lines represent the current stress feld and pore pressure. Black dashed lines represent the stress feld in critical pore pressure obtained by 3D Mohr diagrams. Circle and diamond shaped points represent the NISOC and Seyed Sajadi and Aghighi (2015) equations for obtaining elastic moduli used for estimating the horizontal stresses magnitudes",
+            "anchor_ids": [
+              "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f",
+            "kind": "source_anchor",
+            "text": "Source anchor type=figure. Exact text: Fig. 8 Stress-depth plots showing the stress state in the Gachsaran oilfeld (with the line of best ft) (left), and a well faulted by F2 (right). The gray points represent the formation fuid pressures (RFT), and triangles indicate FIT pressure (the stresses are calculated using the elastic moduli estimated by the NISOC equation)",
+            "anchor_ids": [
+              "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9",
+            "kind": "source_anchor",
+            "text": "Source anchor type=figure. Exact text: Fig. 10 3D Mohr diagrams of four faults F1, F2, F3, and F4 (using the NISOC equation). As can be seen, none of the faults is critically stressed, and all of them are stable in the current stress feld and pore pressure",
+            "anchor_ids": [
+              "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "content_truncated": false
+          },
+          {
+            "id": "assumption.cohesion",
+            "kind": "assumption",
+            "text": "Assumption type=methodological; explicit=true. The four pre-existing faults are treated as cohesionless (C = 0).",
+            "anchor_ids": [
+              "anchor.text.cohesion"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "assumption_type": "methodological",
+            "assumption_explicit": true,
+            "scope": {
+              "condition": [],
+              "entities": [],
+              "formation": [],
+              "location": [],
+              "measurement": [],
+              "method": [],
+              "sample_type": [],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "assumption.friction",
+            "kind": "assumption",
+            "text": "Assumption type=methodological; explicit=true. The static friction coefficient is set to \u03bc = 0.6 for the fault calculations.",
+            "anchor_ids": [
+              "anchor.text.friction"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "assumption_type": "methodological",
+            "assumption_explicit": true,
+            "scope": {
+              "condition": [],
+              "entities": [],
+              "formation": [],
+              "location": [],
+              "measurement": [],
+              "method": [],
+              "sample_type": [],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "assumption.spatial",
+            "kind": "assumption",
+            "text": "Assumption type=scope; explicit=true. The principal stresses are evaluated within a specified range, such as 10 m, of the middle of the fault planes.",
+            "anchor_ids": [
+              "anchor.text.spatial"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "assumption_type": "scope",
+            "assumption_explicit": true,
+            "scope": {
+              "condition": [],
+              "entities": [],
+              "formation": [],
+              "location": [],
+              "measurement": [],
+              "method": [],
+              "sample_type": [],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "obs.f2.assessed",
+            "kind": "observation",
+            "text": "Observation type=comparison. F2 has the lowest Ts and Tsm values and can undergo an average maximum pore pressure of 55\u201357 MPa.",
+            "anchor_ids": [
+              "anchor.text.f2.stability"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [
+                "gas-injection pressure increase"
+              ],
+              "entities": [
+                "Asmari reservoir",
+                "F1",
+                "F2",
+                "F3",
+                "F4",
+                "Gachsaran oilfield"
+              ],
+              "formation": [
+                "Asmari reservoir"
+              ],
+              "location": [
+                "Gachsaran oilfield, SW Iran"
+              ],
+              "measurement": [
+                "reactivation tendency and maximum sustainable pore pressure"
+              ],
+              "method": [
+                "3D Mohr diagrams, slip tendency, and modified slip tendency"
+              ],
+              "sample_type": [
+                "four faults F1, F2, F3, and F4"
+              ],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "obs.f2.methods",
+            "kind": "observation",
+            "text": "Observation type=source_assertion. The conclusion reports that the three analytical methods confirmed F2 as the most stable fault.",
+            "anchor_ids": [
+              "anchor.text.methods.all"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [
+                "current and critical pore-pressure states"
+              ],
+              "entities": [
+                "Asmari reservoir",
+                "F1",
+                "F2",
+                "F3",
+                "F4",
+                "Gachsaran oilfield"
+              ],
+              "formation": [
+                "Asmari reservoir"
+              ],
+              "location": [
+                "Gachsaran oilfield, SW Iran"
+              ],
+              "measurement": [
+                "fault-stability assessment"
+              ],
+              "method": [
+                "3D Mohr diagrams, slip tendency, and modified slip tendency"
+              ],
+              "sample_type": [
+                "four faults F1, F2, F3, and F4"
+              ],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "obs.moduli",
+            "kind": "observation",
+            "text": "Observation type=source_assertion. The NISOC and Seyed Sajadi and Aghighi (2015) equations were used as alternative static-modulus estimates, and the reported results were in accordance.",
+            "anchor_ids": [
+              "anchor.text.moduli.agreement",
+              "anchor.text.moduli.method"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [],
+              "entities": [
+                "Asmari reservoir",
+                "Gachsaran oilfield"
+              ],
+              "formation": [
+                "Asmari reservoir"
+              ],
+              "location": [
+                "Gachsaran oilfield, SW Iran"
+              ],
+              "measurement": [
+                "static elastic moduli"
+              ],
+              "method": [
+                "NISOC and Seyed Sajadi and Aghighi static-modulus equations"
+              ],
+              "sample_type": [
+                "one studied well"
+              ],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "obs.mohr.current",
+            "kind": "observation",
+            "text": "Observation type=source_assertion. The 3D Mohr diagrams show that none of the faults is critically stressed in the current stress field.",
+            "anchor_ids": [
+              "anchor.text.mohr.result",
+              "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [
+                "current stress state and pore pressure"
+              ],
+              "entities": [
+                "Asmari reservoir",
+                "F1",
+                "F2",
+                "F3",
+                "F4",
+                "Gachsaran oilfield"
+              ],
+              "formation": [
+                "Asmari reservoir"
+              ],
+              "location": [
+                "Gachsaran oilfield, SW Iran"
+              ],
+              "measurement": [
+                "fault stability"
+              ],
+              "method": [
+                "3D Mohr diagrams and stress polygons"
+              ],
+              "sample_type": [
+                "four faults F1, F2, F3, and F4"
+              ],
+              "time": {
+                "end": null,
+                "label": "present-day",
+                "start": null,
+                "unit": null
+              },
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "obs.orientation",
+            "kind": "observation",
+            "text": "Observation type=measurement. A total of 32 drilling-induced fractures in the studied well had a prevailing azimuth of 52\u00b0.",
+            "anchor_ids": [
+              "anchor.text.orientation"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [
+                "in situ stress estimation"
+              ],
+              "entities": [
+                "Asmari reservoir",
+                "Gachsaran oilfield",
+                "one studied well"
+              ],
+              "formation": [
+                "Asmari reservoir"
+              ],
+              "location": [
+                "Gachsaran oilfield, SW Iran"
+              ],
+              "measurement": [
+                "stress orientations and magnitudes"
+              ],
+              "method": [
+                "well logs and poroelastic equations"
+              ],
+              "sample_type": [
+                "one studied well"
+              ],
+              "time": {
+                "end": null,
+                "label": "present-day",
+                "start": null,
+                "unit": null
+              },
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "obs.polygon.current",
+            "kind": "observation",
+            "text": "Observation type=source_assertion. The stress-polygon results show all faults inactive at the present stress state, with the estimated horizontal stresses inside the normal-faulting triangle.",
+            "anchor_ids": [
+              "anchor.text.polygon.current",
+              "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [
+                "current stress state and pore pressure"
+              ],
+              "entities": [
+                "Asmari reservoir",
+                "F1",
+                "F2",
+                "F3",
+                "F4",
+                "Gachsaran oilfield"
+              ],
+              "formation": [
+                "Asmari reservoir"
+              ],
+              "location": [
+                "Gachsaran oilfield, SW Iran"
+              ],
+              "measurement": [
+                "fault stability"
+              ],
+              "method": [
+                "3D Mohr diagrams and stress polygons"
+              ],
+              "sample_type": [
+                "four faults F1, F2, F3, and F4"
+              ],
+              "time": {
+                "end": null,
+                "label": "present-day",
+                "start": null,
+                "unit": null
+              },
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "obs.polygon.transition",
+            "kind": "observation",
+            "text": "Observation type=pattern. Increasing pore pressure to its critical value positions the horizontal stresses on the left edge of the smaller triangle, indicating reactivation risk.",
+            "anchor_ids": [
+              "anchor.text.polygon.transition.1",
+              "anchor.text.polygon.transition.2",
+              "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [
+                "gas-injection pressure increase"
+              ],
+              "entities": [
+                "Asmari reservoir",
+                "F1",
+                "F2",
+                "F3",
+                "F4",
+                "Gachsaran oilfield"
+              ],
+              "formation": [
+                "Asmari reservoir"
+              ],
+              "location": [
+                "Gachsaran oilfield, SW Iran"
+              ],
+              "measurement": [
+                "reactivation tendency and maximum sustainable pore pressure"
+              ],
+              "method": [
+                "3D Mohr diagrams, slip tendency, and modified slip tendency"
+              ],
+              "sample_type": [
+                "four faults F1, F2, F3, and F4"
+              ],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "obs.regime",
+            "kind": "observation",
+            "text": "Observation type=source_assertion. The field has \u03c31 = \u03c3V, \u03c32 = \u03c3Hmax, and \u03c33 = \u03c3hmin, with a normal-faulting ordering \u03c31 > \u03c32 > \u03c33.",
+            "anchor_ids": [
+              "anchor.text.principal",
+              "anchor.text.regime",
+              "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [
+                "current stress state and pore pressure"
+              ],
+              "entities": [
+                "Asmari reservoir",
+                "F1",
+                "F2",
+                "F3",
+                "F4",
+                "Gachsaran oilfield"
+              ],
+              "formation": [
+                "Asmari reservoir"
+              ],
+              "location": [
+                "Gachsaran oilfield, SW Iran"
+              ],
+              "measurement": [
+                "fault stability"
+              ],
+              "method": [
+                "3D Mohr diagrams and stress polygons"
+              ],
+              "sample_type": [
+                "four faults F1, F2, F3, and F4"
+              ],
+              "time": {
+                "end": null,
+                "label": "present-day",
+                "start": null,
+                "unit": null
+              },
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "reason.current.model",
+            "kind": "reasoning",
+            "text": "Reasoning type=synthesis. Together, the modulus check, stress orientation, and stress ordering define the modeled present-day stress state used in the fault analysis.",
+            "anchor_ids": [
+              "anchor.text.moduli.agreement",
+              "anchor.text.orientation",
+              "anchor.text.regime",
+              "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [],
+              "entities": [],
+              "formation": [],
+              "location": [],
+              "measurement": [],
+              "method": [],
+              "sample_type": [],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "reason.current.synthesis",
+            "kind": "reasoning",
+            "text": "Reasoning type=synthesis. The calibrated stress inputs and the two stability representations converge on a noncritical present-day state for all four faults.",
+            "anchor_ids": [
+              "anchor.text.mohr.result",
+              "anchor.text.polygon.current",
+              "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107",
+              "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [
+                "current stress state and pore pressure"
+              ],
+              "entities": [
+                "Asmari reservoir",
+                "F1",
+                "F2",
+                "F3",
+                "F4",
+                "Gachsaran oilfield"
+              ],
+              "formation": [
+                "Asmari reservoir"
+              ],
+              "location": [
+                "Gachsaran oilfield, SW Iran"
+              ],
+              "measurement": [
+                "fault stability"
+              ],
+              "method": [
+                "3D Mohr diagrams and stress polygons"
+              ],
+              "sample_type": [
+                "four faults F1, F2, F3, and F4"
+              ],
+              "time": {
+                "end": null,
+                "label": "present-day",
+                "start": null,
+                "unit": null
+              },
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "reason.f2.evidence",
+            "kind": "reasoning",
+            "text": "Reasoning type=synthesis. F2's low slip tendencies, high reported pressure tolerance, and confirmation by all three analyses identify it as the resistant fault endpoint.",
+            "anchor_ids": [
+              "anchor.text.f2.stability",
+              "anchor.text.methods.all"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [],
+              "entities": [],
+              "formation": [],
+              "location": [],
+              "measurement": [],
+              "method": [],
+              "sample_type": [],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "reason.f2.safety",
+            "kind": "reasoning",
+            "text": "Reasoning type=synthesis. The convergent stability results and the transition to critical pressure support F2's resistant status and its 55\u201357 MPa maximum-pressure estimate.",
+            "anchor_ids": [
+              "anchor.text.f2.stability",
+              "anchor.text.methods.all"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [
+                "gas-injection pressure increase"
+              ],
+              "entities": [
+                "Asmari reservoir",
+                "F1",
+                "F2",
+                "F3",
+                "F4",
+                "Gachsaran oilfield"
+              ],
+              "formation": [
+                "Asmari reservoir"
+              ],
+              "location": [
+                "Gachsaran oilfield, SW Iran"
+              ],
+              "measurement": [
+                "reactivation tendency and maximum sustainable pore pressure"
+              ],
+              "method": [
+                "3D Mohr diagrams, slip tendency, and modified slip tendency"
+              ],
+              "sample_type": [
+                "four faults F1, F2, F3, and F4"
+              ],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "reason.moduli.validation",
+            "kind": "reasoning",
+            "text": "Reasoning type=synthesis. The agreement between the two modulus estimates supports using consistent elastic-property inputs for the field stress calculation.",
+            "anchor_ids": [
+              "anchor.text.moduli.agreement",
+              "anchor.text.moduli.method"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [],
+              "entities": [],
+              "formation": [],
+              "location": [],
+              "measurement": [],
+              "method": [],
+              "sample_type": [],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "reason.mohr.interpretation",
+            "kind": "reasoning",
+            "text": "Reasoning type=deductive. The Mohr-diagram positions place every analyzed fault below the modeled failure condition at present pressure.",
+            "anchor_ids": [
+              "anchor.text.mohr.result",
+              "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [],
+              "entities": [],
+              "formation": [],
+              "location": [],
+              "measurement": [],
+              "method": [],
+              "sample_type": [],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "reason.orientation.input",
+            "kind": "reasoning",
+            "text": "Reasoning type=inductive. The fracture azimuth supplies the image-log basis for the modeled \u03c3Hmax orientation.",
+            "anchor_ids": [
+              "anchor.text.orientation"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [],
+              "entities": [],
+              "formation": [],
+              "location": [],
+              "measurement": [],
+              "method": [],
+              "sample_type": [],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "reason.polygon.interpretation",
+            "kind": "reasoning",
+            "text": "Reasoning type=deductive. The polygon locations independently place the analyzed faults in the inactive normal-faulting region at present pressure.",
+            "anchor_ids": [
+              "anchor.text.polygon.current",
+              "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [],
+              "entities": [],
+              "formation": [],
+              "location": [],
+              "measurement": [],
+              "method": [],
+              "sample_type": [],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "reason.pressure.transition",
+            "kind": "reasoning",
+            "text": "Reasoning type=causal_inference. The stress polygons link the present inactive state to a failure-edge state only when pore pressure reaches each modeled critical value, making those thresholds relevant to injection safety.",
+            "anchor_ids": [
+              "anchor.text.polygon.transition.1",
+              "anchor.text.polygon.transition.2",
+              "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [],
+              "entities": [],
+              "formation": [],
+              "location": [],
+              "measurement": [],
+              "method": [],
+              "sample_type": [],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          },
+          {
+            "id": "reason.regime.classification",
+            "kind": "reasoning",
+            "text": "Reasoning type=deductive. The mapped principal-stress ordering establishes a normal-faulting regime for evaluating the four fault planes.",
+            "anchor_ids": [
+              "anchor.text.principal",
+              "anchor.text.regime",
+              "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f"
+            ],
+            "root_claim_ids": [
+              "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43"
+            ],
+            "scope": {
+              "condition": [],
+              "entities": [],
+              "formation": [],
+              "location": [],
+              "measurement": [],
+              "method": [],
+              "sample_type": [],
+              "time": null,
+              "uncertainty": null
+            },
+            "content_truncated": false
+          }
+        ],
+        "evidence_edges": [
+          {
+            "id": "edge.assumption.001",
+            "source_id": "assumption.cohesion",
+            "target_id": "reason.f2.evidence",
+            "relation": "assumption_for"
+          },
+          {
+            "id": "edge.assumption.002",
+            "source_id": "assumption.friction",
+            "target_id": "reason.f2.evidence",
+            "relation": "assumption_for"
+          },
+          {
+            "id": "edge.assumption.003",
+            "source_id": "assumption.spatial",
+            "target_id": "reason.f2.evidence",
+            "relation": "assumption_for"
+          },
+          {
+            "id": "edge.grounds.001",
+            "source_id": "anchor.text.moduli.method",
+            "target_id": "obs.moduli",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge.grounds.002",
+            "source_id": "anchor.text.moduli.agreement",
+            "target_id": "obs.moduli",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge.grounds.003",
+            "source_id": "anchor.text.orientation",
+            "target_id": "obs.orientation",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge.grounds.004",
+            "source_id": "anchor.text.principal",
+            "target_id": "obs.regime",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge.grounds.005",
+            "source_id": "anchor.text.regime",
+            "target_id": "obs.regime",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge.grounds.006",
+            "source_id": "anchor.text.mohr.result",
+            "target_id": "obs.mohr.current",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge.grounds.007",
+            "source_id": "anchor.text.polygon.current",
+            "target_id": "obs.polygon.current",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge.grounds.008",
+            "source_id": "anchor.text.polygon.transition.1",
+            "target_id": "obs.polygon.transition",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge.grounds.009",
+            "source_id": "anchor.text.polygon.transition.2",
+            "target_id": "obs.polygon.transition",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge.grounds.010",
+            "source_id": "anchor.text.f2.stability",
+            "target_id": "obs.f2.assessed",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge.grounds.011",
+            "source_id": "anchor.text.methods.all",
+            "target_id": "obs.f2.methods",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge.premise.001",
+            "source_id": "obs.moduli",
+            "target_id": "reason.moduli.validation",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.002",
+            "source_id": "obs.orientation",
+            "target_id": "reason.orientation.input",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.003",
+            "source_id": "obs.regime",
+            "target_id": "reason.regime.classification",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.004",
+            "source_id": "reason.moduli.validation",
+            "target_id": "reason.current.model",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.005",
+            "source_id": "reason.orientation.input",
+            "target_id": "reason.current.model",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.006",
+            "source_id": "reason.regime.classification",
+            "target_id": "reason.current.model",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.007",
+            "source_id": "obs.mohr.current",
+            "target_id": "reason.mohr.interpretation",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.008",
+            "source_id": "obs.polygon.current",
+            "target_id": "reason.polygon.interpretation",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.009",
+            "source_id": "reason.current.model",
+            "target_id": "reason.current.synthesis",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.010",
+            "source_id": "reason.mohr.interpretation",
+            "target_id": "reason.current.synthesis",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.011",
+            "source_id": "reason.polygon.interpretation",
+            "target_id": "reason.current.synthesis",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.012",
+            "source_id": "obs.polygon.transition",
+            "target_id": "reason.pressure.transition",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.013",
+            "source_id": "reason.current.synthesis",
+            "target_id": "reason.pressure.transition",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.014",
+            "source_id": "obs.f2.assessed",
+            "target_id": "reason.f2.evidence",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.015",
+            "source_id": "obs.f2.methods",
+            "target_id": "reason.f2.evidence",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.021",
+            "source_id": "reason.f2.evidence",
+            "target_id": "reason.f2.safety",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.022",
+            "source_id": "reason.current.synthesis",
+            "target_id": "reason.f2.safety",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.premise.023",
+            "source_id": "reason.pressure.transition",
+            "target_id": "reason.f2.safety",
+            "relation": "premise_for"
+          },
+          {
+            "id": "edge.support.003",
+            "source_id": "reason.f2.safety",
+            "target_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+            "relation": "infers"
+          },
+          {
+            "id": "edge:compiler:7dccaaec6eeacf0104d1bb8c0a77b079d91b0fdf87cf60b282f301354a626f66",
+            "source_id": "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107",
+            "target_id": "obs.polygon.current",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge:compiler:bd38352884405b60236422e6533e6f40131083b4b8ac1e3898807100aa791ff1",
+            "source_id": "anchor:compiler:visual:434d9e21768f87742f0e32aeb006090f908dc5f275ff20a21b911d790ac91107",
+            "target_id": "obs.polygon.transition",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge:compiler:bf2d4663f4d95fce1b9b9feb7236168374ed55b8dadaf554e92e41768c7fd85d",
+            "source_id": "anchor:compiler:visual:c47c959e50c9463b58f9878c9aef11cafc47e5cc6de79210a483c8dbc22feab9",
+            "target_id": "obs.mohr.current",
+            "relation": "grounds"
+          },
+          {
+            "id": "edge:compiler:da00e5012d501570367819af5e399db7cbaf2f828aeab6486472b80f654069d9",
+            "source_id": "anchor:compiler:visual:7dfed8be0a7c19e1da6a6847819f6e01fc8f48a04ca7cc19c69c0d5a248c6c6f",
+            "target_id": "obs.regime",
+            "relation": "grounds"
+          }
+        ],
+        "evidence_completeness": {
+          "status": "complete",
+          "path_truncated": false,
+          "entity_limit": 256,
+          "depth_limit": 32,
+          "available_entity_count": 38,
+          "omitted_entity_count": 0,
+          "omitted_edge_count": 0,
+          "content_truncated": false
+        }
+      }
+    }
+  ]
+}

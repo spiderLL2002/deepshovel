@@ -23,8 +23,8 @@ export const sha256Hex=async(value)=>globalThis.__evidenceSynthesisDigest(value)
 `;
 const comparisonStub = `
 export const CLAIM_COMPARISON_SCHEMA_VERSION="claim-comparison/1.0";
-export function buildClaimComparisonEvidenceEntities(graph,claimId,assessment){globalThis.__evidenceSynthesisRouteTest.calls.entityLoads.push({claimId,assessment});return structuredClone(graph.entities?.[claimId]??[]);}
-export function buildClaimComparisonSide(document,evidenceEntities){return {claim_id:document.claimId,canonical_claim:document.canonicalClaim,claim_type:document.claimType,polarity:document.polarity,modality:document.modality,scope:document.scope,source_snapshot_id:document.snapshotId,source_paper_id:document.paperId,source_paper_family_id:document.paperFamilyId,evidence_entities:evidenceEntities};}
+export function buildClaimComparisonEvidence(graph,claimId,assessment){globalThis.__evidenceSynthesisRouteTest.calls.entityLoads.push({claimId,assessment});const entities=structuredClone(graph.entities?.[claimId]??[]);return {evidence_entities:entities,evidence_edges:[],evidence_completeness:{status:"complete",path_truncated:false,entity_limit:256,depth_limit:32,available_entity_count:entities.length,omitted_entity_count:0,omitted_edge_count:0,content_truncated:false,...graph.completeness}};}
+export function buildClaimComparisonSide(document,evidenceEntities){return {claim_id:document.claimId,canonical_claim:document.canonicalClaim,claim_type:document.claimType,polarity:document.polarity,modality:document.modality,scope:document.scope,source_snapshot_id:document.snapshotId,source_paper_id:document.paperId,source_paper_family_id:document.paperFamilyId,...evidenceEntities};}
 `;
 const retrievalStub = `
 export class EvidenceRetrievalStoreError extends Error{constructor(status,code,message){super(message);this.status=status;this.code=code;}}
@@ -483,6 +483,25 @@ test("comparison uses only independently verified assessments and exact immutabl
   assert.equal(body.coverage.complete, false);
   assert.equal(state.calls.analyses.length, 1);
   assert.ok(state.calls.analyses[0].signal instanceof AbortSignal);
+});
+
+test("truncated comparison input is forwarded and remains visible after abstention", async () => {
+  const item = manifest(2);
+  const scenario = resetScenario({ manifests: [item] });
+  const candidate = documentFor(item);
+  scenario.graphs.get(item.snapshotId).completeness = { status: "truncated", path_truncated: true };
+  scenario.searchResponse.preview = [previewFor(candidate)];
+  scenario.envelopeFactory = (payload) => ({ verification: { assessments: payload.pairs.map((pair) => verification(pair, {
+    verdict: "abstained", relation: "insufficient_to_determine", direction: "none",
+    stance: "unclear", scopeAlignment: "unknown", directness: "insufficient",
+  })) } });
+  const response = await POST(request({ action: "compare", source: normalizedSource() }));
+  const body = await response.json();
+  assert.equal(response.status, 200);
+  assert.equal(state.calls.analyses[0].request.pairs[0].candidate.evidence_completeness.status, "truncated");
+  assert.equal(body.comparisonInputs[0].candidate.status, "truncated");
+  assert.ok(body.warnings.some((warning) => warning.includes("被截断")));
+  assert.equal(body.coverage.acceptedRelations, 0);
 });
 
 test("narrower support is qualified and disjoint, unknown, or abstained conclusions are never published", async () => {

@@ -65,12 +65,12 @@ async function validEnvelope() {
   const digest = await hashCanonical([comparison]);
   return {
     schema_version: "claim-comparison/1.0",
-    processor_version: "claim-comparison-processor/1.0.0",
+    processor_version: "claim-comparison-processor/1.1.0",
     project_id: "project:test",
     extraction: {
       run_id: "comparison-extraction:one",
       model: "gpt-5.6-luna",
-      prompt_version: "claim-comparison-extractor/1.0.0",
+      prompt_version: "claim-comparison-extractor/1.1.0",
       attempts: 1,
       comparisons_sha256: digest,
       comparisons: [comparison],
@@ -78,7 +78,7 @@ async function validEnvelope() {
     verification: {
       run_id: "comparison-verification:one",
       model: "gpt-5.6-luna",
-      prompt_version: "claim-comparison-verifier/1.0.0",
+      prompt_version: "claim-comparison-verifier/1.1.0",
       attempts: 1,
       extraction_sha256: digest,
       assessments: [{
@@ -162,6 +162,16 @@ test("comparison decisions are hash-bound, exact-once, and evidence-bound", asyn
 
   envelope.extraction.comparisons[0].rationale = "Tampered after freezing.";
   await assert.rejects(parseClaimComparisonEnvelope(envelope, pairRequest()), /hash/u);
+});
+
+test("a strong model result cannot pass the Web boundary with truncated input", async () => {
+  const request = pairRequest();
+  request.pairs[0].candidate.evidence_completeness = {
+    status: "truncated", path_truncated: true, entity_limit: 256, depth_limit: 2,
+    available_entity_count: 1, omitted_entity_count: 0, omitted_edge_count: 0,
+    content_truncated: false,
+  };
+  await assert.rejects(parseClaimComparisonEnvelope(await validEnvelope(), request), /truncated recorded argument/u);
 });
 
 test("disjoint Scope cannot be published as contradiction", async () => {

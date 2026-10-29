@@ -1,0 +1,977 @@
+{
+  "record_type": "exact selected fields from historical AI research review, frozen protocol and recorded execution; not a new review of the WWW paper",
+  "source_state_sha256": "f9183c09d7a54667f5ca7816a965a7d2768dac0a9be92fd9e8be0889f12006dc",
+  "review": {
+    "source_record": "reviews/round8-ree-transfer-preexecution-review.md",
+    "sha256": "e9b7d0d50d4e7014aea5e910498b5180589792ea47f11ed0bfa84fcf75325433",
+    "recorded_at_utc": "2026-10-25T15:55:43.335093+00:00",
+    "rule_excerpt": {
+      "start_line": 17,
+      "text": "5. **Station sensitivity:** bootstrap repeats whole station blocks. The revised protocol requires at least six original station labels and 90% complete-support draws, and explicitly denies established nominal confidence coverage under spatial dependence and non-probability sampling. LOSO retains all six layers; a deletion emptying an originally nonempty layer has no aggregate comparison, preserving the denominator. Neither diagnostic supplies analytical covariance or independent laboratory replication."
+    },
+    "receipt": {
+      "review_type": "static_preexecution",
+      "decision": "no_blocker_for_root_freeze_after_registration_and_binding",
+      "response_execution": false,
+      "leg2_sample_chemistry_read": false,
+      "report": "reviews/round8-ree-transfer-preexecution-review.md",
+      "report_sha256": "e9b7d0d50d4e7014aea5e910498b5180589792ea47f11ed0bfa84fcf75325433",
+      "reviewed_sha256": {
+        "ree/round8/analyze_ree_ph_transfer.py": "af466ab78796d559e83d5610ab72168f42de960b6b8e3085c01092398207baeb",
+        "ree/round8/protocol-draft.json": "79148c782de80279638a2d02644f526abc3a44a08428b492095cbb62235841c3"
+      }
+    }
+  },
+  "reviewed_draft": {
+    "source_record": "ree/round8/protocol-draft.json",
+    "sha256": "79148c782de80279638a2d02644f526abc3a44a08428b492095cbb62235841c3",
+    "frozen": false,
+    "support": {
+      "min_stations_per_layer_for_domain_statement": 3,
+      "min_stations_for_cluster_interval": 6,
+      "min_valid_bootstrap_fraction": 0.9,
+      "report_all_six_layers": true,
+      "no_posthoc_layer_selection": true
+    },
+    "bootstrap": {
+      "replicates": 1000,
+      "seed": 271828,
+      "unit": "whole_station_within_leg",
+      "interval_percentiles": [
+        2.5,
+        97.5
+      ],
+      "scope": "Conditional whole-station resampling only. Along-transect spatial dependence and non-probability sampling mean percentile intervals have no established nominal confidence coverage; analytical covariance and calibration parameter uncertainty are excluded."
+    },
+    "leave_one_station_out": {
+      "legs": [
+        "leg1",
+        "leg2"
+      ],
+      "variant": "primary",
+      "report_all_six_layers": true,
+      "missing_original_nonempty_layer": "Report missing support and suppress aggregate comparison; do not change denominator."
+    }
+  },
+  "frozen_protocol": {
+    "source_record": "ree/round8/protocol-frozen-v1.json",
+    "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79",
+    "candidate_id": "REE-R8-01",
+    "frozen": true,
+    "frozen_at_utc": "2026-10-25T15:57:54.693118+00:00",
+    "input_sha256": "9fd91d413e03e069afe0fc65d4b622449308a38c81d3d458285e42a1514e2455",
+    "analysis_script_sha256": "af466ab78796d559e83d5610ab72168f42de960b6b8e3085c01092398207baeb",
+    "support": {
+      "min_stations_per_layer_for_domain_statement": 3,
+      "min_stations_for_cluster_interval": 6,
+      "min_valid_bootstrap_fraction": 0.9,
+      "report_all_six_layers": true,
+      "no_posthoc_layer_selection": true
+    },
+    "bootstrap": {
+      "replicates": 1000,
+      "seed": 271828,
+      "unit": "whole_station_within_leg",
+      "interval_percentiles": [
+        2.5,
+        97.5
+      ],
+      "scope": "Conditional whole-station resampling only. Along-transect spatial dependence and non-probability sampling mean percentile intervals have no established nominal confidence coverage; analytical covariance and calibration parameter uncertainty are excluded."
+    },
+    "leave_one_station_out": {
+      "legs": [
+        "leg1",
+        "leg2"
+      ],
+      "variant": "primary",
+      "report_all_six_layers": true,
+      "missing_original_nonempty_layer": "Report missing support and suppress aggregate comparison; do not change denominator."
+    },
+    "preexecution_review": {
+      "path": "reviews/round8-ree-transfer-preexecution-review.md",
+      "sha256": "e9b7d0d50d4e7014aea5e910498b5180589792ea47f11ed0bfa84fcf75325433",
+      "locator": "complete static scientific/source review"
+    }
+  },
+  "freeze_event": {
+    "at": "2026-10-25T15:57:54.864927+00:00",
+    "round": 8,
+    "action": "freeze_first_deep_analysis",
+    "plan": {
+      "path": "plans/ree-ph-fixed-transfer-v1.json",
+      "sha256": "6f5defd55abc658c961b7a8396fbe490aa2f38dcda84e8ded1bd9287e4c22820",
+      "locator": "complete frozen analysis plan"
+    },
+    "review": {
+      "path": "reviews/round8-ree-transfer-preexecution-review.md",
+      "sha256": "e9b7d0d50d4e7014aea5e910498b5180589792ea47f11ed0bfa84fcf75325433",
+      "locator": "complete narrow preexecution review"
+    },
+    "protocol": {
+      "path": "ree/round8/protocol-frozen-v1.json",
+      "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79",
+      "locator": "all fixed scientific decisions"
+    },
+    "first_response_access": "not_yet_executed"
+  },
+  "execution": {
+    "run_id": "2419a5d84dfc958a4135287d0acb2a9badc949c4b4620749459c8dc2368908da",
+    "plan_id": "ree-ph-fixed-transfer-v1",
+    "status": "SUCCEEDED",
+    "started_at": "2026-10-25T15:58:00.074814+00:00",
+    "finished_at": "2026-10-25T15:58:01.347802+00:00",
+    "exit_code": 0,
+    "missing_outputs": [],
+    "stale_outputs": [],
+    "identity": {
+      "plan": "6f5defd55abc658c961b7a8396fbe490aa2f38dcda84e8ded1bd9287e4c22820",
+      "code": [
+        {
+          "path": "ree/round8/analyze_ree_ph_transfer.py",
+          "sha256": "af466ab78796d559e83d5610ab72168f42de960b6b8e3085c01092398207baeb",
+          "locator": "full executable source"
+        },
+        {
+          "path": "ree/round8/transfer-source-input.json",
+          "sha256": "9fd91d413e03e069afe0fc65d4b622449308a38c81d3d458285e42a1514e2455",
+          "locator": "full executable source"
+        },
+        {
+          "path": "ree/round8/protocol-frozen-v1.json",
+          "sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79",
+          "locator": "full executable source"
+        }
+      ]
+    },
+    "selected_output_bindings": [
+      {
+        "path": "results/ree_ph_fixed_transfer_v1/cluster_bootstrap.json",
+        "sha256": "f9712ac21681045802d9580a98f12236b0e4dfa30734cad0d1ebc9dabd639780",
+        "locator": "complete deterministic output of ree-ph-fixed-transfer-v1"
+      },
+      {
+        "path": "results/ree_ph_fixed_transfer_v1/leave_one_station_out.json",
+        "sha256": "2ca019a6363c308bfee33509315375cb760ff959c04ba1e43ecb6ffc6caeaeff",
+        "locator": "complete deterministic output of ree-ph-fixed-transfer-v1"
+      },
+      {
+        "path": "results/ree_ph_fixed_transfer_v1/run_manifest.json",
+        "sha256": "534b91d04911655884faa205694cb15fe828980cea98e9c74451a47fb74d9901",
+        "locator": "complete deterministic output of ree-ph-fixed-transfer-v1"
+      }
+    ]
+  },
+  "run_manifest": {
+    "input_sha256": "9fd91d413e03e069afe0fc65d4b622449308a38c81d3d458285e42a1514e2455",
+    "protocol_sha256": "08483ad527d609ab123e0a8949af23e47f9bf921b5e1dc48b5721706c99acc79",
+    "analysis_script_sha256": "af466ab78796d559e83d5610ab72168f42de960b6b8e3085c01092398207baeb",
+    "n_eligible_pairs_in_depth_union": 84,
+    "leg_counts": {
+      "leg1": 26,
+      "leg2": 58
+    },
+    "n_layer_rows": 48,
+    "prediction_clipping": false,
+    "new_model_fit": false
+  },
+  "bootstrap_outputs": {
+    "leg1": {
+      "n_stations": 6,
+      "stations": [
+        "10",
+        "12",
+        "16",
+        "18",
+        "18.3",
+        "5"
+      ],
+      "required_bins": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "conditional_station_resampling_interval_available",
+      "valid_replicates": 975,
+      "attempted_replicates": 1000,
+      "valid_fraction": 0.975,
+      "interval_scope": "Conditional whole-station resampling only. Along-transect spatial dependence and non-probability sampling mean percentile intervals have no established nominal confidence coverage; analytical covariance and calibration parameter uncertainty are excluded."
+    },
+    "leg2": {
+      "n_stations": 8,
+      "stations": [
+        "18.6",
+        "19",
+        "21",
+        "25",
+        "31",
+        "33",
+        "37",
+        "39"
+      ],
+      "required_bins": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "conditional_station_resampling_interval_available",
+      "valid_replicates": 978,
+      "attempted_replicates": 1000,
+      "valid_fraction": 0.978,
+      "interval_scope": "Conditional whole-station resampling only. Along-transect spatial dependence and non-probability sampling mean percentile intervals have no established nominal confidence coverage; analytical covariance and calibration parameter uncertainty are excluded."
+    }
+  },
+  "leave_one_station_out_outputs": {
+    "leg1": {
+      "required_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rule": "Keep all six layers. A deletion missing an originally nonempty layer has no aggregate comparison; never change the layer denominator.",
+      "cases": [
+        {
+          "deleted_station": "10",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 3,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 1,
+              "n_records": 6,
+              "n_stations": 5
+            },
+            {
+              "bin_index": 2,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 3,
+              "n_records": 3,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 4,
+              "n_records": 4,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 5,
+              "n_records": 3,
+              "n_stations": 3
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 6,
+            "full_domain_support": true
+          }
+        },
+        {
+          "deleted_station": "12",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 4,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 1,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 2,
+              "n_records": 4,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 3,
+              "n_records": 3,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 4,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 5,
+              "n_records": 3,
+              "n_stations": 3
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 6,
+            "full_domain_support": true
+          }
+        },
+        {
+          "deleted_station": "16",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 4,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 1,
+              "n_records": 4,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 2,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 3,
+              "n_records": 2,
+              "n_stations": 2
+            },
+            {
+              "bin_index": 4,
+              "n_records": 3,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 5,
+              "n_records": 2,
+              "n_stations": 2
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 4,
+            "full_domain_support": false
+          }
+        },
+        {
+          "deleted_station": "18",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 4,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 1,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 2,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 3,
+              "n_records": 2,
+              "n_stations": 2
+            },
+            {
+              "bin_index": 4,
+              "n_records": 4,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 5,
+              "n_records": 2,
+              "n_stations": 2
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 4,
+            "full_domain_support": false
+          }
+        },
+        {
+          "deleted_station": "18.3",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 1,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 2,
+              "n_records": 6,
+              "n_stations": 5
+            },
+            {
+              "bin_index": 3,
+              "n_records": 2,
+              "n_stations": 2
+            },
+            {
+              "bin_index": 4,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 5,
+              "n_records": 2,
+              "n_stations": 2
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 4,
+            "full_domain_support": false
+          }
+        },
+        {
+          "deleted_station": "5",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 1,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 2,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 3,
+              "n_records": 3,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 4,
+              "n_records": 4,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 5,
+              "n_records": 3,
+              "n_stations": 3
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 6,
+            "full_domain_support": true
+          }
+        }
+      ]
+    },
+    "leg2": {
+      "required_bin_indexes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rule": "Keep all six layers. A deletion missing an originally nonempty layer has no aggregate comparison; never change the layer denominator.",
+      "cases": [
+        {
+          "deleted_station": "18.6",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 16,
+              "n_stations": 7
+            },
+            {
+              "bin_index": 1,
+              "n_records": 14,
+              "n_stations": 7
+            },
+            {
+              "bin_index": 2,
+              "n_records": 17,
+              "n_stations": 7
+            },
+            {
+              "bin_index": 3,
+              "n_records": 7,
+              "n_stations": 5
+            },
+            {
+              "bin_index": 4,
+              "n_records": 4,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 5,
+              "n_records": 4,
+              "n_stations": 3
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 6,
+            "full_domain_support": true
+          }
+        },
+        {
+          "deleted_station": "19",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 14,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 1,
+              "n_records": 12,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 2,
+              "n_records": 16,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 3,
+              "n_records": 6,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 4,
+              "n_records": 4,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 5,
+              "n_records": 4,
+              "n_stations": 3
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 6,
+            "full_domain_support": true
+          }
+        },
+        {
+          "deleted_station": "21",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 14,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 1,
+              "n_records": 13,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 2,
+              "n_records": 16,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 3,
+              "n_records": 7,
+              "n_stations": 5
+            },
+            {
+              "bin_index": 4,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 5,
+              "n_records": 4,
+              "n_stations": 3
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 6,
+            "full_domain_support": true
+          }
+        },
+        {
+          "deleted_station": "25",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 14,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 1,
+              "n_records": 12,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 2,
+              "n_records": 15,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 3,
+              "n_records": 7,
+              "n_stations": 5
+            },
+            {
+              "bin_index": 4,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 5,
+              "n_records": 4,
+              "n_stations": 3
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 6,
+            "full_domain_support": true
+          }
+        },
+        {
+          "deleted_station": "31",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 14,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 1,
+              "n_records": 12,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 2,
+              "n_records": 13,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 3,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 4,
+              "n_records": 3,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 5,
+              "n_records": 2,
+              "n_stations": 2
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 5,
+            "full_domain_support": false
+          }
+        },
+        {
+          "deleted_station": "33",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 14,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 1,
+              "n_records": 12,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 2,
+              "n_records": 13,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 3,
+              "n_records": 6,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 4,
+              "n_records": 4,
+              "n_stations": 3
+            },
+            {
+              "bin_index": 5,
+              "n_records": 3,
+              "n_stations": 2
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 5,
+            "full_domain_support": false
+          }
+        },
+        {
+          "deleted_station": "37",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 13,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 1,
+              "n_records": 12,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 2,
+              "n_records": 15,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 3,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 4,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 5,
+              "n_records": 3,
+              "n_stations": 2
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 5,
+            "full_domain_support": false
+          }
+        },
+        {
+          "deleted_station": "39",
+          "same_layer_support_as_point": true,
+          "missing_bin_indexes": [],
+          "layers": [
+            {
+              "bin_index": 0,
+              "n_records": 13,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 1,
+              "n_records": 11,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 2,
+              "n_records": 14,
+              "n_stations": 6
+            },
+            {
+              "bin_index": 3,
+              "n_records": 6,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 4,
+              "n_records": 5,
+              "n_stations": 4
+            },
+            {
+              "bin_index": 5,
+              "n_records": 4,
+              "n_stations": 3
+            }
+          ],
+          "aggregate_on_same_layer_support": {
+            "n_nonempty_layers": 6,
+            "nonempty_bin_indexes": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "n_supported_layers": 6,
+            "full_domain_support": true
+          }
+        }
+      ]
+    }
+  },
+  "public_gp15_payload_bindings": {
+    "plans/ree-ph-fixed-transfer-v1.json": "6f5defd55abc658c961b7a8396fbe490aa2f38dcda84e8ded1bd9287e4c22820",
+    "ree/round8/analyze_ree_ph_transfer.py": "af466ab78796d559e83d5610ab72168f42de960b6b8e3085c01092398207baeb",
+    "results/ree_ph_fixed_transfer_v1/cluster_bootstrap.json": "f9712ac21681045802d9580a98f12236b0e4dfa30734cad0d1ebc9dabd639780",
+    "results/ree_ph_fixed_transfer_v1/leave_one_station_out.json": "2ca019a6363c308bfee33509315375cb760ff959c04ba1e43ecb6ffc6caeaeff",
+    "results/ree_ph_fixed_transfer_v1/run_manifest.json": "534b91d04911655884faa205694cb15fe828980cea98e9c74451a47fb74d9901"
+  },
+  "code_locators": {
+    "source_record": "ree/round8/analyze_ree_ph_transfer.py",
+    "sha256": "af466ab78796d559e83d5610ab72168f42de960b6b8e3085c01092398207baeb",
+    "minimum_station_guard_line": 294,
+    "complete_draw_fraction_guard_line": 309,
+    "lost_layer_aggregate_guard_line": 335
+  },
+  "causal_and_execution_limits": [
+    "The saved preexecution review explicitly checks a revised rule. The original message first proposing these thresholds is not included in these records, so this trace does not assign first authorship or establish a before/after policy change.",
+    "The review is hash-bound by the frozen protocol, and the recorded execution binds that protocol and code. Recorded chronology is not a controlled estimate of research-performance improvement.",
+    "Both observed bootstrap runs met the thresholds. All 14 observed leave-one-station-out cases retained their original nonempty layers; the missing-layer suppression branch was implemented but not triggered in this run.",
+    "These are conditional station-resampling rules, not proof of nominal confidence coverage or independent laboratory replication."
+  ]
+}

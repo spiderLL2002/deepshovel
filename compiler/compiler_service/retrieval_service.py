@@ -2563,7 +2563,7 @@ class RetrievalService:
         relation_candidates: list[_Candidate],
         model_decisions: dict[str, RelationDecision],
     ) -> None:
-        """Attach model decisions (bounded by safety rules outside interactive)."""
+        """Attach model decisions with scope guards in both search modes."""
         context_interpretation = (
             task.frozen_reference.interpretation
             if task.frozen_reference is not None
@@ -2576,8 +2576,27 @@ class RetrievalService:
                     candidate.document.claim_id,
                 )
             )
-            if decision is None or interactive_search_enabled():
+            if decision is None:
                 candidate.decision = decision
+            elif (
+                interactive_search_enabled()
+                and task.is_context_protocol
+                and context_interpretation is not None
+                and context_interpretation.kind == "non_propositional"
+            ):
+                # Interactive multi-question tasks retain model relevance and
+                # direction, but have no single proposition Scope to establish
+                # direct contradiction or equivalence for the whole task.
+                direct = decision.relation in {"contradicts", "equivalent"}
+                candidate.decision = decision.model_copy(
+                    update={
+                        "scope_relation": "unknown",
+                        "relation": "related" if direct else decision.relation,
+                        "relation_direction": (
+                            "result_to_query" if direct else decision.relation_direction
+                        ),
+                    }
+                )
             elif task.is_context_protocol:
                 candidate.decision = _safe_context_relation_decision(
                     context_interpretation, candidate.document, decision
@@ -4537,10 +4556,7 @@ def _safe_relation_decision(
         relation = "related"
     if relation == "contradicts" and scope_relation in {"disjoint", "unknown"}:
         relation = "related"
-    if relation == "equivalent" and (
-        scope_relation == "disjoint"
-        or (scope_relation == "unknown" and plan.scope_constraints is not None)
-    ):
+    if relation == "equivalent" and scope_relation in {"disjoint", "unknown"}:
         relation = "related"
     direction = (
         proposed.relation_direction

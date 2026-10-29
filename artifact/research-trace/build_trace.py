@@ -6,7 +6,8 @@ copied; source hashes identify the complete original files. Full publisher
 PDFs, long quotations, opaque handoffs, and account metadata are not exported.
 """
 from pathlib import Path
-import argparse, hashlib, json
+from collections import Counter
+import argparse, hashlib, json, re
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--source-root', type=Path, required=True)
@@ -100,5 +101,94 @@ for rel, wanted in [('ree/round7/REPORT.md',['A later DeepShovel']),('ree/round7
             line=txt[:txt.index(para)].count('\n')+1
             snippets.append({'source_record':rel,'start_line':line,'text':para})
 put('records/historical-source-check-excerpts.json',snippets)
+
+# Counts are derived from final root dispositions, not stale screening labels.
+screened=[]
+for cid, candidate in state['candidates'].items():
+    match=re.fullmatch(r'(REE|OAE)-R([1-8])-0[1-3]',cid)
+    if not match: raise ValueError('Unexpected screening candidate ID: '+cid)
+    question_field='question' if 'question' in candidate else 'scientific_question'
+    screened.append({'id':cid,'round_from_id':int(match.group(2)),
+        'domain_from_id':match.group(1),'question_source_field':question_field,
+        'question':candidate[question_field],
+        'recorded_round_fields':pick(candidate,['round','decision_round']),
+        'root_disposition':candidate['root_disposition'],
+        'manuscript_eligible':candidate['manuscript_eligible']})
+screened.sort(key=lambda x:(x['round_from_id'],x['id']))
+round_counts=Counter(x['round_from_id'] for x in screened)
+disposition_counts=Counter(x['root_disposition'] for x in screened)
+manuscript=claims['manuscript']
+data=(root/manuscript['path']).read_bytes()
+if hashlib.sha256(data).hexdigest()!=manuscript['sha256']:
+    raise ValueError('Scientific manuscript binding differs')
+sources[manuscript['path']]=manuscript['sha256']
+close8=next(x for x in state['decisions'] if x.get('round')==8 and x.get('action','').startswith('close_round'))
+delivery8=next(x for x in state['decisions'] if x.get('round')==8 and x.get('action','').startswith('deliver_complete'))
+put('records/eight-round-screening.json',{
+    'record_type':'minimal publication projection of the author research state; not a service log or a prospective benchmark',
+    'source_record':'state.json','source_sha256':sources['state.json'],
+    'selection':'All candidate IDs matching (REE|OAE)-R[1-8]-0[1-3]; no candidate omitted',
+    'candidate_count':len(screened),'round_counts':dict(sorted(round_counts.items())),
+    'disposition_counts':dict(sorted(disposition_counts.items())),
+    'candidates':screened,
+    'recorded_gate_counts':pick(state['manuscript_gate'],['completed_rounds','candidate_count','eligible_count','candidate']),
+    'round8_close':pick(close8,['at','round','action','dispositions','eligible','next_phase']),
+    'initial_delivery_event':pick(delivery8,['at','round','action','scientific_expert_certification','submitted']),
+    'later_scientific_manuscript':dict(manuscript,public_path='../gp15/scientific-manuscript.en.md',scientific_version=claims['scientific_version']),
+    'interpretation':'48 screened candidate questions in eight rounds, one advanced to drafting and a delivered research manuscript. Six not-selected candidates remain distinct from rejection. This does not establish 48 completed analyses, 48 independent discoveries, journal acceptance, or the counterfactual benefit of DeepShovel.'})
+
+review_path='reviews/round8-ree-transfer-preexecution-review.md'
+review_data=(root/review_path).read_bytes();sources[review_path]=hashlib.sha256(review_data).hexdigest()
+review_text=review_data.decode()
+review_time=re.search(r'Recorded UTC: (\S+)',review_text).group(1)
+review_rule=next(line for line in review_text.splitlines() if line.startswith('5. **Station sensitivity:**'))
+review_receipt=load('reviews/round8-ree-transfer-preexecution-receipt.json')
+draft=load('ree/round8/protocol-draft.json')
+plan=load('plans/ree-ph-fixed-transfer-v1.json')
+script_path='ree/round8/analyze_ree_ph_transfer.py'
+script_bytes=(root/script_path).read_bytes();sources[script_path]=hashlib.sha256(script_bytes).hexdigest()
+run_id,run=next((key,value) for key,value in state['runs'].items() if value['plan_id']=='ree-ph-fixed-transfer-v1')
+result_root='results/ree_ph_fixed_transfer_v1/'
+boot=load(result_root+'cluster_bootstrap.json')
+loso=load(result_root+'leave_one_station_out.json')
+run_manifest=load(result_root+'run_manifest.json')
+output_paths=[result_root+n for n in ['cluster_bootstrap.json','leave_one_station_out.json','run_manifest.json']]
+selected_outputs=[x for x in run['outputs'] if x['path'] in output_paths]
+for x in selected_outputs:
+    if sources[x['path']]!=x['sha256']: raise ValueError('Historical output differs: '+x['path'])
+loso_projection={}
+for leg,result in loso.items():
+    cases=[]
+    for case in result['cases']:
+        projected=pick(case,['deleted_station','same_layer_support_as_point','missing_bin_indexes'])
+        projected['layers']=[pick(layer,['bin_index','n_records','n_stations']) for layer in case['layers']]
+        aggregate=case['aggregate_on_same_layer_support']
+        projected['aggregate_on_same_layer_support']=None if aggregate is None else pick(aggregate,['n_nonempty_layers','nonempty_bin_indexes','n_supported_layers','full_domain_support'])
+        cases.append(projected)
+    loso_projection[leg]=dict(pick(result,['required_bin_indexes','rule']),cases=cases)
+public_bindings={path:sources[path] for path in ['plans/ree-ph-fixed-transfer-v1.json',script_path,*output_paths]}
+put('records/rsi-protocol-execution.json',{
+    'record_type':'exact selected fields from historical AI research review, frozen protocol and recorded execution; not a new review of the WWW paper',
+    'source_state_sha256':sources['state.json'],
+    'review':{'source_record':review_path,'sha256':sources[review_path],'recorded_at_utc':review_time,
+        'rule_excerpt':{'start_line':review_text[:review_text.index(review_rule)].count('\n')+1,'text':review_rule},
+        'receipt':dict(pick(review_receipt,['review_type','decision','response_execution','leg2_sample_chemistry_read','report','report_sha256']),reviewed_sha256={k:review_receipt['reviewed_sha256'][k] for k in [script_path,'ree/round8/protocol-draft.json']})},
+    'reviewed_draft':{'source_record':'ree/round8/protocol-draft.json','sha256':sources['ree/round8/protocol-draft.json'],**pick(draft,['frozen','support','bootstrap','leave_one_station_out'])},
+    'frozen_protocol':{'source_record':'ree/round8/protocol-frozen-v1.json','sha256':sources['ree/round8/protocol-frozen-v1.json'],**pick(protocol,['candidate_id','frozen','frozen_at_utc','input_sha256','analysis_script_sha256','support','bootstrap','leave_one_station_out','preexecution_review'])},
+    'freeze_event':pick(freeze8,['at','round','action','plan','review','protocol','first_response_access']),
+    'execution':{'run_id':run_id,**pick(run,['plan_id','status','started_at','finished_at','exit_code','missing_outputs','stale_outputs']),
+        'identity':pick(run['identity'],['plan','code']),'selected_output_bindings':selected_outputs},
+    'run_manifest':pick(run_manifest,['input_sha256','protocol_sha256','analysis_script_sha256','n_eligible_pairs_in_depth_union','leg_counts','n_layer_rows','prediction_clipping','new_model_fit']),
+    'bootstrap_outputs':{leg:pick(value,['n_stations','stations','required_bins','status','valid_replicates','attempted_replicates','valid_fraction','interval_scope']) for leg,value in boot.items()},
+    'leave_one_station_out_outputs':loso_projection,
+    'public_gp15_payload_bindings':public_bindings,
+    'code_locators':{'source_record':script_path,'sha256':sources[script_path],
+        'minimum_station_guard_line':294,'complete_draw_fraction_guard_line':309,'lost_layer_aggregate_guard_line':335},
+    'causal_and_execution_limits':[
+        'The saved preexecution review explicitly checks a revised rule. The original message first proposing these thresholds is not included in these records, so this trace does not assign first authorship or establish a before/after policy change.',
+        'The review is hash-bound by the frozen protocol, and the recorded execution binds that protocol and code. Recorded chronology is not a controlled estimate of research-performance improvement.',
+        'Both observed bootstrap runs met the thresholds. All 14 observed leave-one-station-out cases retained their original nonempty layers; the missing-layer suppression branch was implemented but not triggered in this run.',
+        'These are conditional station-resampling rules, not proof of nominal confidence coverage or independent laboratory replication.'
+    ]})
 put('source-record-hashes.json',{'scope':'Hashes of complete historical author records; these are distinct from hashes of the public projections. Original copyrighted PDFs are not redistributed here.','files':sources})
 print(f'Wrote bounded trace to {out}; {len(sources)} original records bound.')

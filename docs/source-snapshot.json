@@ -21,7 +21,7 @@
     ".gitignore": {
       "sha256": "38f16e0bf0a8e4070539095fa950d1a8fafdb0e1872cac8a97376015f7e5833c",
       "bytes": 1742,
-      "published_sha256": "b80e4e00be6c822fb5173c249bf55dccf07d0411b7445e0a3a0dd6cd2d6b1985",
+      "published_sha256": "68fc96f971fb9de2f6434ac8cbe2e32b718ac1d0bdd6d28af6b1c01c5c6fb0e9",
       "publication_modified": true
     },
     ".npmrc": {
@@ -243,8 +243,8 @@
     "app/api/evidence-synthesis/route.ts": {
       "sha256": "f045df5f51afadde5de05a940f68fe34f06c02c2d8fbf9ead257aac48404aba6",
       "bytes": 28191,
-      "published_sha256": "f045df5f51afadde5de05a940f68fe34f06c02c2d8fbf9ead257aac48404aba6",
-      "publication_modified": false
+      "published_sha256": "2953d426438fd3287acdf8f73b8a7718aca452202040118e176f3b9750a32bbf",
+      "publication_modified": true
     },
     "app/api/health/route.ts": {
       "sha256": "478606b2df7de19aa022653832bc7f4dbdce3a9d343b25cd6ff1a43ebec0d0a1",
@@ -681,8 +681,8 @@
     "compiler/compiler_service/claim_comparison.py": {
       "sha256": "76c018226d8943cd9e930b18ba141fa6b9a03e6a9c557fe663b8380df7b81f86",
       "bytes": 57852,
-      "published_sha256": "76c018226d8943cd9e930b18ba141fa6b9a03e6a9c557fe663b8380df7b81f86",
-      "publication_modified": false
+      "published_sha256": "82dc593e0a241232efaa86aaa0ac0df023dc96ebef1a4954e012e2f6059d0368",
+      "publication_modified": true
     },
     "compiler/compiler_service/claim_tolerance.py": {
       "sha256": "cd05fbb0c13338d7fa6352cb8cf73645f51f7a2d27fe2006adf9b462407bd58c",
@@ -885,8 +885,8 @@
     "compiler/compiler_service/retrieval_service.py": {
       "sha256": "2f55a39a2122326fb9e1e62a4e4b118092d0e7ec3a0ac4136ab138360e707472",
       "bytes": 188611,
-      "published_sha256": "2f55a39a2122326fb9e1e62a4e4b118092d0e7ec3a0ac4136ab138360e707472",
-      "publication_modified": false
+      "published_sha256": "d9d74bd4fe3495a679314dafc6f94bec37f6977036ee2515fa160d12fad5dd10",
+      "publication_modified": true
     },
     "compiler/compiler_service/retrieval_store.py": {
       "sha256": "e2e6377f9b7a4e9ee628b362a794c67f03cc642560e0593ddb1108481c44c3e8",
@@ -1047,8 +1047,8 @@
     "compiler/tests/test_claim_comparison.py": {
       "sha256": "9062afe6e3ddb870ae7b25186cb5a71ab2a69e07c589e3b59f4e92d8bf19da65",
       "bytes": 31829,
-      "published_sha256": "9062afe6e3ddb870ae7b25186cb5a71ab2a69e07c589e3b59f4e92d8bf19da65",
-      "publication_modified": false
+      "published_sha256": "aca09c84047f4944e8da3214893c57004a99fecb44eaef4e874d0283b7b3735e",
+      "publication_modified": true
     },
     "compiler/tests/test_compiler.py": {
       "sha256": "7e5b89eb841bd914150cea46a469e75d7dc3b11b2e82470c14426db6475d9d6a",
@@ -1305,8 +1305,8 @@
     "compiler/tests/test_retrieval_relation_reference_service.py": {
       "sha256": "4102f0056b1f5d59f5c819cb5fca14b5868f001c49042151a3ae0d312a731084",
       "bytes": 17708,
-      "published_sha256": "4102f0056b1f5d59f5c819cb5fca14b5868f001c49042151a3ae0d312a731084",
-      "publication_modified": false
+      "published_sha256": "7c216c56af9708f66351792b44e3dd0cd5b20a1fdd3b309413cb5784ddd0fb4e",
+      "publication_modified": true
     },
     "compiler/tests/test_retrieval_reserve_capacity.py": {
       "sha256": "f0b434d78d831c1d9ecf3389e715b1b4c41d89a245c46c2d500d27007d020380",
@@ -1317,8 +1317,8 @@
     "compiler/tests/test_retrieval_service.py": {
       "sha256": "6e8d1e86fb9f4d5cc29415dc5c57c775f2147e0fb8d7d7043a2cf32c724bd9dd",
       "bytes": 148257,
-      "published_sha256": "6e8d1e86fb9f4d5cc29415dc5c57c775f2147e0fb8d7d7043a2cf32c724bd9dd",
-      "publication_modified": false
+      "published_sha256": "6d1b288c9d1f258b8f1f7660eba801a9c3582dfd6b3760aa72471ab8fb13b5f9",
+      "publication_modified": true
     },
     "compiler/tests/test_retrieval_task_contract.py": {
       "sha256": "cdfe5068d801fa92fafe60cfa1a98e5131008c3b8dd4d490431d23c7d7a4a1bf",
@@ -1755,20 +1755,20 @@
     "lib/claim-comparison/projection.ts": {
       "sha256": "74c64ff4c290cf772225fa79884814e9af079af34f4f6694765a349deba65e3d",
       "bytes": 6315,
-      "published_sha256": "74c64ff4c290cf772225fa79884814e9af079af34f4f6694765a349deba65e3d",
-      "publication_modified": false
+      "published_sha256": "3a789a3b0a03a6137eb469376c8684dee6f8da69c0cbdbaee8950d429b4f9699",
+      "publication_modified": true
     },
     "lib/claim-comparison/types.ts": {
       "sha256": "28b6885c7365a109176865ab79320b9404850a06e4f858b4f0e8648306d17074",
       "bytes": 4774,
-      "published_sha256": "28b6885c7365a109176865ab79320b9404850a06e4f858b4f0e8648306d17074",
-      "publication_modified": false
+      "published_sha256": "5f2ca5e7a50cbe7aad2c2e31e3b34502abc0ebe0a5fe40b8a9938c10d32b02e5",
+      "publication_modified": true
     },
     "lib/claim-comparison/validation.ts": {
       "sha256": "30294df1bdfb0313f53deb6210cb0b0419922b674941f1065aebeaddc8f2a20b",
       "bytes": 24673,
-      "published_sha256": "30294df1bdfb0313f53deb6210cb0b0419922b674941f1065aebeaddc8f2a20b",
-      "publication_modified": false
+      "published_sha256": "79919bb838a385fb475e2d0ca9ca04410105750a6d8b1a7ce2863ef58643a942",
+      "publication_modified": true
     },
     "lib/compiler/model.ts": {
       "sha256": "b2014d2f108576641b70a2231d124ec901a151c3c14ecf59d177e0df96e40cbd",
@@ -2313,8 +2313,8 @@
     "tests/backend-evidence-synthesis-route.test.mjs": {
       "sha256": "cf510382ecbb8936f3b185139647c51228aefef9ea3aa154284ddf44457efdff",
       "bytes": 36914,
-      "published_sha256": "cf510382ecbb8936f3b185139647c51228aefef9ea3aa154284ddf44457efdff",
-      "publication_modified": false
+      "published_sha256": "9e118aa5ed04de925fbf4c1df8447dc530f7d056c78ef804e8b64a3d85a08b8c",
+      "publication_modified": true
     },
     "tests/backend-library-route.test.mjs": {
       "sha256": "06ad7c80f5c368a02fb965594b1818275fec44658ba62af1036e1ef2992b199a",
@@ -2385,8 +2385,8 @@
     "tests/claim-comparison.test.mjs": {
       "sha256": "4412b025e507c985da4fdd1689d548f8d744135b83db054fff4e300f4d2255c9",
       "bytes": 8146,
-      "published_sha256": "4412b025e507c985da4fdd1689d548f8d744135b83db054fff4e300f4d2255c9",
-      "publication_modified": false
+      "published_sha256": "7a26706fe7512d91d7c365398d333d2038a0c019f4a3048500e7dcca8cb1821f",
+      "publication_modified": true
     },
     "tests/compile-polling.test.mjs": {
       "sha256": "ed4a504a8500f85b2195c15cc37d7d300f600e67497d0d4d42e2fc9095709030",

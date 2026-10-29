@@ -9,7 +9,7 @@ import shutil
 import tempfile
 import unittest
 
-from run_portable import ANALYSIS, PACKAGE, PortableComparison, encoded, sha
+from run_portable import ANALYSIS, FIGURES, PRIMARY, PACKAGE, PortableComparison, encoded, sha
 
 
 class ComparisonBoundaryTests(unittest.TestCase):
@@ -110,6 +110,79 @@ class ComparisonBoundaryTests(unittest.TestCase):
         result = self.compare(name)
         self.assertFalse(result["passed"])
         self.assertEqual(result["png_diagnostic"]["different_pixels"], 1)
+
+    def png_fixture(self, final=False, changed_pixels=0, channel_difference=1, metadata_change=False):
+        """Synthetic 200x200 fixture: four changed pixels are exactly 0.0001."""
+        from PIL import Image, PngImagePlugin
+        name = FIGURES + "fig01_sampling_support.png" if final else PRIMARY + "ree_ph_transfer.png"
+        original = Image.new("RGBA", (200, 200), (100, 100, 100, 255))
+        changed = original.copy()
+        for index in range(changed_pixels):
+            changed.putpixel((index, 0), (100 + channel_difference, 100, 100, 255))
+        for root, picture, level in ((self.reference, original, 0), (self.working, changed, 9)):
+            path = root / name
+            path.parent.mkdir(parents=True, exist_ok=True)
+            metadata = PngImagePlugin.PngInfo()
+            metadata.add_text("Fixture", "altered" if root == self.working and metadata_change else "synthetic test")
+            picture.save(path, compress_level=level, pnginfo=metadata)
+            if final:
+                path.with_suffix(".svg").write_text("<svg><!-- synthetic byte-identity fixture --></svg>\n")
+                path.with_suffix(".pdf").write_bytes(b"synthetic vector-byte fixture\n")
+        return name
+
+    def test_primary_png_compression_only_change_passes_exact_pixels(self):
+        name = self.png_fixture()
+        result = self.compare(name)
+        self.assertFalse(result["byte_identical"])
+        self.assertTrue(result["passed"])
+        self.assertEqual(result["comparison"], "PNG_DECODED_RGBA_IDENTICAL")
+        self.assertEqual(result["png_diagnostic"]["different_pixels"], 0)
+
+    def test_primary_png_single_pixel_change_is_rejected(self):
+        name = self.png_fixture(changed_pixels=1)
+        self.assertFalse(self.compare(name)["passed"])
+
+    def test_final_png_exact_threshold_passes_with_identical_vectors(self):
+        name = self.png_fixture(final=True, changed_pixels=4, channel_difference=2)
+        result = self.compare(name)
+        self.assertTrue(result["passed"])
+        self.assertEqual(result["png_diagnostic"]["different_pixel_ratio"], 0.0001)
+        self.assertEqual(result["png_diagnostic"]["maximum_channel_difference"], 2)
+
+    def test_final_png_above_pixel_ratio_or_channel_limit_is_rejected(self):
+        for count, level in ((5, 1), (1, 3)):
+            with self.subTest(changed_pixels=count, channel_difference=level):
+                name = self.png_fixture(final=True, changed_pixels=count, channel_difference=level)
+                self.assertFalse(self.compare(name)["passed"])
+
+    def test_final_png_requires_both_unchanged_vectors(self):
+        for extension in (".svg", ".pdf"):
+            with self.subTest(extension=extension):
+                name = self.png_fixture(final=True, changed_pixels=1)
+                (self.working / name).with_suffix(extension).write_bytes(b"changed vector\n")
+                self.assertFalse(self.compare(name)["passed"])
+
+    def test_png_metadata_change_is_rejected(self):
+        name = self.png_fixture(final=True, metadata_change=True)
+        self.assertFalse(self.compare(name)["passed"])
+
+    def test_png_manifest_only_accepts_verified_binding_and_unchanged_science(self):
+        name = self.png_fixture()
+        manifest_name = PRIMARY + "run_manifest.json"
+        reference = json.loads((PACKAGE / "payload" / manifest_name).read_text())
+        reference["output_files"][5]["sha256"] = sha(self.reference / name)
+        actual = json.loads(encoded(reference))
+        actual["output_files"][5]["sha256"] = sha(self.working / name)
+        (self.reference / manifest_name).write_bytes(encoded(reference))
+        (self.working / manifest_name).write_bytes(encoded(actual))
+        self.assertTrue(self.compare(manifest_name)["passed"])
+        actual["output_files"][5]["sha256"] = "0" * 64
+        (self.working / manifest_name).write_bytes(encoded(actual))
+        self.assertFalse(self.compare(manifest_name)["passed"])
+        actual["output_files"][5]["sha256"] = sha(self.working / name)
+        actual["n_eligible_pairs_in_depth_union"] += 1
+        (self.working / manifest_name).write_bytes(encoded(actual))
+        self.assertFalse(self.compare(manifest_name)["passed"])
 
 
 if __name__ == "__main__":

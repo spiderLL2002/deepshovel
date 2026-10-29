@@ -1,0 +1,83 @@
+{
+  "kind": "Public-release fix verification; not an original production run",
+  "model": "Deterministic recording stub; no model or network calls",
+  "real_papers": 1,
+  "real_claims": 1,
+  "cases": [
+    {
+      "case": "recorded-f2",
+      "provenance": "Unchanged actual recorded graph",
+      "entities": 38,
+      "assumptions": 3,
+      "edges": 37,
+      "completeness": {
+        "status": "complete",
+        "path_truncated": false,
+        "entity_limit": 256,
+        "depth_limit": 32,
+        "available_entity_count": 38,
+        "omitted_entity_count": 0,
+        "omitted_edge_count": 0,
+        "content_truncated": false
+      },
+      "extraction_preserves_projection": true,
+      "verification_preserves_unselected_dependency_context": true,
+      "strong_result_rejected": false
+    },
+    {
+      "case": "depth-2",
+      "provenance": "Controlled traversal depth on the same recorded graph",
+      "entities": 6,
+      "assumptions": 0,
+      "edges": 4,
+      "completeness": {
+        "status": "truncated",
+        "path_truncated": true,
+        "entity_limit": 256,
+        "depth_limit": 2,
+        "available_entity_count": 6,
+        "omitted_entity_count": 0,
+        "omitted_edge_count": 0,
+        "content_truncated": false
+      },
+      "extraction_preserves_projection": true,
+      "verification_preserves_unselected_dependency_context": true,
+      "strong_result_rejected": true
+    },
+    {
+      "case": "entity-budget",
+      "provenance": "Synthetic draft: 260 duplicated observation inputs added solely to exercise the 256 entity limit",
+      "entities": 256,
+      "assumptions": 3,
+      "edges": 236,
+      "completeness": {
+        "status": "truncated",
+        "path_truncated": false,
+        "entity_limit": 256,
+        "depth_limit": 32,
+        "available_entity_count": 298,
+        "omitted_entity_count": 42,
+        "omitted_edge_count": 321,
+        "content_truncated": false
+      },
+      "extraction_preserves_projection": true,
+      "verification_preserves_unselected_dependency_context": true,
+      "strong_result_rejected": true
+    }
+  ],
+  "negative_controls_rejected": [
+    "missing-assumption-endpoint",
+    "assumption-recast-as-reasoning",
+    "assumption-alone-is-not-raw-evidence",
+    "budget-omissions-mislabeled-complete"
+  ],
+  "source_sha256": {
+    "lib/claim-comparison/projection.ts": "3a789a3b0a03a6137eb469376c8684dee6f8da69c0cbdbaee8950d429b4f9699",
+    "lib/claim-comparison/types.ts": "5f2ca5e7a50cbe7aad2c2e31e3b34502abc0ebe0a5fe40b8a9938c10d32b02e5",
+    "lib/claim-comparison/validation.ts": "79919bb838a385fb475e2d0ca9ca04410105750a6d8b1a7ce2863ef58643a942",
+    "app/api/evidence-synthesis/route.ts": "2953d426438fd3287acdf8f73b8a7718aca452202040118e176f3b9750a32bbf",
+    "compiler/compiler_service/claim_comparison.py": "82dc593e0a241232efaa86aaa0ac0df023dc96ebef1a4954e012e2f6059d0368"
+  },
+  "argument_change_alters_frozen_comparison_id": true,
+  "limits": "Preserves recorded input only; does not discover unextracted premises or validate scientific truth."
+}

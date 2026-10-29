@@ -125,3 +125,4 @@ next-env.d.ts
 # Local research reproduction environment
 /.research-venv/
 /artifact/gp15/.venv/
+/.scope-venv/

@@ -1,0 +1,57 @@
+{
+  "schema": "deepshovel-interactive-scope-regression/v1",
+  "checked_at_utc": "2026-10-29T03:54:48.219120+00:00",
+  "status": "PASS",
+  "release_scope": "v1.1 public-source repair on 2026-10-29; not a claim about unchanged October 25 production behavior",
+  "fixture_kind": "Synthetic model proposals and fake local services; no live model or scientific accuracy measurement",
+  "fixed_defects": [
+    "Interactive retrieval skipped scope safety normalization",
+    "A missing query Scope allowed an equivalent relation despite scope_relation=unknown"
+  ],
+  "tests": {
+    "command": "PYTHONPATH=compiler compiler/.venv/bin/python -B -m pytest compiler/tests/test_retrieval_relation_reference_service.py compiler/tests/test_retrieval_service.py::test_relation_blockers_and_geologic_time_units_are_conservative compiler/tests/test_interactive_relation_ranking.py -o addopts= -q --tb=short",
+    "passed": 92,
+    "failed": 0,
+    "new_control_flow_cases": 60,
+    "interactive_nonpropositional_cases": 5,
+    "same_planning_call_count_and_real_preview_final_path": true,
+    "pre_fix_targeted_regression": {
+      "failed": 36,
+      "passed": 30
+    }
+  },
+  "dependencies": "repro/requirements.lock plus pytest==8.4.2 and its normal dependencies; no Qdrant, torch, transformers or live service required for this targeted command",
+  "existing_scope_contract_replay": {
+    "command": "python -B artifact/replays/scope_contract/run.py --repo . --out NEW_DIRECTORY",
+    "fixture_documents": 5,
+    "query_cases": 9,
+    "channel_full_pool_parity_checks": 18,
+    "parity_passed": true,
+    "metadata_vs_metadata_plus_identity_equal_cases": 9,
+    "cluster_count": 2,
+    "distinct_families_across_all_clusters": 1,
+    "families_per_cluster": [
+      1,
+      1
+    ],
+    "identity_checks": {
+      "same_statement_different_scope_different_id": true,
+      "same_scope_repeat_stable_id": true,
+      "proposition_key_ignores_separate_scope": true,
+      "scope_text_inside_statement_changes_proposition_key": true,
+      "snapshot_behavior": "This fixture retains snapshot-1. scoped_claim_id does not itself mint or validate a new snapshot. Graph import/snapshot lifecycle not tested."
+    },
+    "limitations": "No source-path validation. Numeric endpoints deliberately absent in production Scope.canonical. Fixed artificial vectors and assigned relations. Not a quality benchmark."
+  },
+  "source_sha256": {
+    "compiler/compiler_service/retrieval_service.py": "d9d74bd4fe3495a679314dafc6f94bec37f6977036ee2515fa160d12fad5dd10",
+    "compiler/tests/test_retrieval_relation_reference_service.py": "7c216c56af9708f66351792b44e3dd0cd5b20a1fdd3b309413cb5784ddd0fb4e",
+    "compiler/tests/test_retrieval_service.py": "6d1b288c9d1f258b8f1f7660eba801a9c3582dfd6b3760aa72471ab8fb13b5f9",
+    "compiler/tests/test_interactive_relation_ranking.py": "4ea7e3390ccfca7e355348ef20fcd4c1c9e58b4d524673640932b5d33c05be0b"
+  },
+  "boundaries": [
+    "Free-text mismatches remain unknown; only interpretable non-overlapping numeric intervals establish disjointness in the existing scope checker.",
+    "Supports/refines/qualifies behavior is retained; unknown or disjoint scope prevents direct contradiction/equivalence.",
+    "Historical exports are not rewritten, and the shared production service is not deployed by this repair."
+  ]
+}

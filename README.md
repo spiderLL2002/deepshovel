@@ -36,9 +36,15 @@ python3.12 -m venv .research-venv
 .research-venv/bin/python -B artifact/gp15/run_portable.py --out runs/gp15-full
 ```
 
-The preserved reference-environment execution completed all ten stages and matched **76 generated files byte-for-byte**. The cross-platform command above executes the same frozen stages, explicitly reporting differences only in four named Python-runtime fields and three verified dependent manifest entries. Scientific fields, CSVs and PNG/SVG/PDF images still require exact bytes. The original strict entry point, `artifact/gp15/reproduction/run_reproduction.py`, remains available with the same `--out` argument. See [GP15 execution details](artifact/gp15/README.md) and [environment and CI scope](repro/ENVIRONMENT.md) for actual outcomes; no reference is rewritten to obtain a PASS. `--out` must name a new directory. On Windows, virtual-environment executables are under `Scripts/`.
+The preserved reference-environment execution completed all ten stages and matched **76 generated files byte-for-byte**. The cross-platform command above executes the same frozen stages. Scientific fields, CSVs and SVG/PDF figures require exact bytes. Four named Python-runtime fields may differ, and six named PNGs undergo explicit pixel checks: four Linux images had identical pixels, while two differed only in tiny raster details with byte-identical vector counterparts. The comparison rules and every allowed metadata, image and dependent-manifest difference are reported. The original strict entry point, `artifact/gp15/reproduction/run_reproduction.py`, remains available with the same `--out` argument. See [GP15 execution details](artifact/gp15/README.md) and [environment and CI scope](repro/ENVIRONMENT.md) for actual outcomes; no reference is rewritten to obtain a PASS. `--out` must name a new directory. On Windows, virtual-environment executables are under `Scripts/`.
 
 Numerical reproducibility, preservation of recorded argument inputs and historical research decisions are separate forms of evidence. The packages expose their scope and failure controls; a stored model judgment is not scientific ground truth.
+
+## Comparison and scope fixes in this release
+
+Version 1.1 preserves explicit assumption roles, typed dependency edges and truncation state through the comparison projection and both model-input stages. It also applies conservative scope guards to interactive retrieval. The [comparison-input checks](artifact/arguments/comparison-input/README.md) and [scope-control tests](artifact/arguments/scope-control-flow/README.md) execute these repaired paths. The original graph expansion and historical scientific records remain separately identified.
+
+These are changes to the released source. The shared live service was not deployed by this artifact-publication task; its dated screenshots show the existing detail inspector. Run both Web and Compiler from the same release tag to use the repaired comparison and scope paths, or execute their key-free checks. Model replies used in structural transport tests are controlled fixtures, not evidence of semantic accuracy.
 
 ## Earlier observation-reuse artifact
 

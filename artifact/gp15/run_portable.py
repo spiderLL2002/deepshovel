@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the unchanged ten-stage GP15 workflow with a narrow runtime whitelist.
+"""Run the unchanged GP15 workflow with explicit runtime and PNG checks.
 
 The original run_reproduction.py remains the strict byte-for-byte entry point.
 This wrapper changes comparison policy only. It never rewrites a reference,
@@ -24,6 +24,31 @@ ROOT = Path(__file__).resolve().parent
 PACKAGE = ROOT / "reproduction"
 ANALYSIS = "iteration-2026-10-27/analysis/"
 FIGURES = "iteration-2026-10-27/figures/final_v1/"
+PRIMARY = "results/ree_ph_fixed_transfer_v1/"
+
+# Fixed names only. The primary diagnostic must have identical decoded pixels.
+# Final figures additionally require byte-identical SVG AND PDF counterparts.
+FINAL_FIGURE_NAMES = (
+    "fig01_sampling_support", "fig02_sampled_layer_means", "fig03_error_decomposition",
+    "figS01_fixed_sensitivity", "figS02_calibration_domain",
+)
+PNG_RULES = {PRIMARY + "ree_ph_transfer.png": {"exact_pixels": True, "vectors": ()}}
+PNG_RULES.update({FIGURES + name + ".png": {
+    "exact_pixels": False, "vectors": (FIGURES + name + ".svg", FIGURES + name + ".pdf")
+} for name in FINAL_FIGURE_NAMES})
+MAX_FINAL_CHANNEL_DIFFERENCE = 2  # integer channel levels out of 255
+MAX_FINAL_CHANGED_PIXEL_DENOMINATOR = 10000  # ratio <= 1/10000, checked as integers
+
+# Exact manifest entries; no generic hash-field exemption is permitted.
+PNG_HASH_BINDINGS = {
+    PRIMARY + "run_manifest.json": [
+        ("output_files", 5, "file", "ree_ph_transfer.png", PRIMARY + "ree_ph_transfer.png", ("sha256",))
+    ],
+    FIGURES + "figure-source-manifest.json": [
+        ("outputs", index * 3, "path", FIGURES + name + ".png", FIGURES + name + ".png", ("sha256", "bytes"))
+        for index, name in enumerate(FINAL_FIGURE_NAMES)
+    ],
+}
 
 # Exact file/pointer pairs, not field-name or directory wildcards.
 RUNTIME_FIELDS = {
@@ -86,13 +111,27 @@ def png_diagnostic(expected, actual):
     import numpy as np
     with Image.open(expected) as left, Image.open(actual) as right:
         a, b = np.asarray(left.convert("RGBA")), np.asarray(right.convert("RGBA"))
+        def metadata(value):
+            if isinstance(value, bytes):
+                return {"byte_count": len(value), "sha256": hashlib.sha256(value).hexdigest()}
+            if isinstance(value, dict):
+                return {key: metadata(item) for key, item in value.items()}
+            if isinstance(value, (list, tuple)):
+                return [metadata(item) for item in value]
+            return value
+
         result = {"expected_dimensions": list(left.size), "actual_dimensions": list(right.size),
                   "expected_mode": left.mode, "actual_mode": right.mode,
+                  "expected_format": left.format, "actual_format": right.format,
+                  "expected_frame_count": getattr(left, "n_frames", 1), "actual_frame_count": getattr(right, "n_frames", 1),
                   "expected_rgba_sha256": hashlib.sha256(a.tobytes()).hexdigest(),
                   "actual_rgba_sha256": hashlib.sha256(b.tobytes()).hexdigest(),
-                  "expected_metadata_keys": sorted(left.info), "actual_metadata_keys": sorted(right.info)}
+                  "expected_metadata": metadata(left.info), "actual_metadata": metadata(right.info),
+                  "metadata_identical": left.info == right.info}
         if a.shape == b.shape:
             result["different_pixels"] = int(np.any(a != b, axis=2).sum())
+            result["total_pixels"] = int(a.shape[0] * a.shape[1])
+            result["different_pixel_ratio"] = result["different_pixels"] / result["total_pixels"]
             result["maximum_channel_difference"] = int(np.abs(a.astype("int16") - b.astype("int16")).max())
         return result
 
@@ -124,7 +163,41 @@ class PortableComparison:
             row.update(passed=True, comparison="BYTE_IDENTICAL")
             return row
         row["first_different_byte"] = next((i for i, pair in enumerate(zip(a, b)) if pair[0] != pair[1]), min(len(a), len(b)))
-        if name in RUNTIME_FIELDS or name in RUNTIME_HASH_BINDINGS:
+        if name in PNG_RULES:
+            try:
+                rule = PNG_RULES[name]
+                diagnostic = png_diagnostic(expected, actual)
+                row["png_diagnostic"] = diagnostic
+                row["png_rule"] = {
+                    "exact_decoded_rgba_required": rule["exact_pixels"],
+                    "maximum_channel_difference": 0 if rule["exact_pixels"] else MAX_FINAL_CHANNEL_DIFFERENCE,
+                    "maximum_changed_pixel_ratio": 0 if rule["exact_pixels"] else 1 / MAX_FINAL_CHANGED_PIXEL_DENOMINATOR,
+                    "required_byte_identical_vectors": list(rule["vectors"]),
+                    "dimensions_mode_format_frame_count_and_metadata_must_match": True,
+                }
+                vectors = [self.compare_one(vector) for vector in rule["vectors"]]
+                row["vector_dependencies"] = [{key: vector.get(key) for key in
+                    ("file", "byte_identical", "reference_sha256", "recomputed_sha256")} for vector in vectors]
+                structure = (diagnostic["expected_dimensions"] == diagnostic["actual_dimensions"]
+                             and diagnostic["expected_mode"] == diagnostic["actual_mode"]
+                             and diagnostic["expected_format"] == diagnostic["actual_format"] == "PNG"
+                             and diagnostic["expected_frame_count"] == diagnostic["actual_frame_count"] == 1
+                             and diagnostic["metadata_identical"])
+                if rule["exact_pixels"]:
+                    pixels = diagnostic.get("different_pixels") == 0
+                else:
+                    pixels = (diagnostic.get("maximum_channel_difference", 256) <= MAX_FINAL_CHANNEL_DIFFERENCE
+                              and diagnostic.get("different_pixels", 1) * MAX_FINAL_CHANGED_PIXEL_DENOMINATOR
+                              <= diagnostic.get("total_pixels", 0))
+                if structure and pixels and all(vector["byte_identical"] for vector in vectors):
+                    row.update(passed=True, comparison=("PNG_DECODED_RGBA_IDENTICAL" if diagnostic["different_pixels"] == 0
+                               else "PNG_BOUNDED_RASTER_DIFFERENCE_WITH_BYTE_IDENTICAL_VECTORS"))
+                else:
+                    row["error"] = "PNG structure, metadata, pixel threshold or required vector-byte comparison failed"
+            except Exception as error:
+                row["error"] = "PNG comparison failed: " + str(error)
+            return row
+        if name in RUNTIME_FIELDS or name in RUNTIME_HASH_BINDINGS or name in PNG_HASH_BINDINGS:
             try:
                 reference_json, actual_json = json.loads(a), json.loads(b)
                 # This exact serializer is verified against each unchanged reference.
@@ -166,12 +239,35 @@ class PortableComparison:
                             allowed.append({"pointer": list(pointer), "expected": old, "actual": new,
                                             "reason": "Verified binding to a runtime-only changed file",
                                             "bound_file": bound_name})
+                if name in PNG_HASH_BINDINGS:
+                    for collection, index, identity_key, identity_value, bound_name, fields in PNG_HASH_BINDINGS[name]:
+                        bound_result = self.compare_one(bound_name)
+                        if not bound_result["passed"]:
+                            raise ValueError("Referenced PNG failed its declared pixel/vector checks")
+                        for document in (reference_json, actual_json):
+                            if document[collection][index][identity_key] != identity_value:
+                                raise ValueError("PNG hash binding changed its declared target")
+                        for key in fields:
+                            pointer = (collection, index, key)
+                            if key == "sha256":
+                                old, new = sha(self.reference / bound_name), sha(self.working / bound_name)
+                            else:
+                                old, new = (self.reference / bound_name).stat().st_size, (self.working / bound_name).stat().st_size
+                            if nested(reference_json, pointer) != old or nested(actual_json, pointer) != new:
+                                raise ValueError("PNG hash/length binding does not match the actual file")
+                            assign(reconstructed, pointer, new)
+                            if old != new:
+                                allowed.append({"pointer": list(pointer), "expected": old, "actual": new,
+                                                "reason": "Verified binding to a PNG that passed its fixed pixel/vector policy",
+                                                "bound_file": bound_name})
                 row["allowed_metadata_differences"] = allowed
                 if encoded(reconstructed) == b and allowed:
-                    row.update(passed=True, comparison="IDENTICAL_EXCEPT_DECLARED_RUNTIME_METADATA")
+                    png_binding_changed = any(change.get("bound_file") in PNG_RULES for change in allowed)
+                    row.update(passed=True, comparison=("IDENTICAL_EXCEPT_DECLARED_METADATA_AND_PNG_BINDINGS" if png_binding_changed
+                                                       else "IDENTICAL_EXCEPT_DECLARED_RUNTIME_METADATA"))
                     return row
                 row["unpermitted_json_differences"] = json_differences(reconstructed, actual_json)
-                row["error"] = "Bytes differ beyond the explicit runtime whitelist"
+                row["error"] = "Bytes differ beyond the explicit runtime/PNG-binding whitelist"
             except (ValueError, KeyError, TypeError, IndexError) as error:
                 row["error"] = str(error)
         else:
@@ -271,22 +367,31 @@ def main():
     differences = [{"file": row["file"], **change} for row in rows for change in row.get("allowed_metadata_differences", [])]
     passed = not execution_errors and not comparison.coverage_errors and all(row["passed"] for row in rows) and all(x["passed"] for x in inspections)
     byte_identical = passed and all(row["byte_identical"] for row in rows)
+    png_changes = [row for row in rows if row["passed"] and row.get("comparison", "").startswith("PNG_")]
+    comparison_status = ("BYTE_IDENTICAL" if byte_identical else
+                         "SCIENTIFIC_DATA_AND_VECTORS_BYTE_IDENTICAL_WITH_DECLARED_RUNTIME_AND_PNG_DIFFERENCES" if png_changes else
+                         "SCIENTIFIC_RESULTS_IDENTICAL_WITH_DECLARED_RUNTIME_DIFFERENCES")
     report = {
-        "schema": "gp15-portable-complete-reproduction/v1", "status": "PASS" if passed else "FAIL",
-        "comparison_status": ("BYTE_IDENTICAL" if byte_identical else "SCIENTIFIC_RESULTS_IDENTICAL_WITH_DECLARED_RUNTIME_DIFFERENCES") if passed else "UNPERMITTED_DIFFERENCES_OR_EXECUTION_FAILURE",
+        "schema": "gp15-portable-complete-reproduction/v2", "status": "PASS" if passed else "FAIL",
+        "comparison_status": comparison_status if passed else "UNPERMITTED_DIFFERENCES_OR_EXECUTION_FAILURE",
         "at_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "runtime": {"python": sys.version, "platform": platform.platform(), "dependencies": dependencies},
         "wrapper_sha256": sha(Path(__file__)), "strict_runner_sha256": sha(PACKAGE / "run_reproduction.py"),
         "package_manifest_sha256": sha(PACKAGE / "package-manifest.json"), "export_plan_sha256": sha(PACKAGE / "export-plan.json"),
         "stage_count": len(results), "file_comparison_count": len(rows),
         "byte_identical_file_count": sum(row["byte_identical"] for row in rows),
-        "runtime_metadata_only_file_count": sum(row["passed"] and not row["byte_identical"] for row in rows),
+        "runtime_metadata_only_file_count": sum(row.get("comparison") == "IDENTICAL_EXCEPT_DECLARED_RUNTIME_METADATA" for row in rows),
+        "verified_png_binding_file_count": sum(row.get("comparison") == "IDENTICAL_EXCEPT_DECLARED_METADATA_AND_PNG_BINDINGS" for row in rows),
+        "png_exact_pixel_file_count": sum(row.get("comparison") == "PNG_DECODED_RGBA_IDENTICAL" for row in rows),
+        "png_bounded_raster_difference_file_count": sum(row.get("comparison") == "PNG_BOUNDED_RASTER_DIFFERENCE_WITH_BYTE_IDENTICAL_VECTORS" for row in rows),
+        "vector_files_byte_identical": all(row["byte_identical"] for row in rows if row["file"].endswith((".svg", ".pdf"))),
         "failed_file_comparison_count": sum(not row["passed"] for row in rows),
         "allowed_metadata_differences": differences, "coverage_errors": comparison.coverage_errors,
+        "allowed_png_differences": png_changes,
         "stages": results, "inspected_results": inspections,
         "exports_verified_before_and_after": len(manifest["files"]), "source_exports_modified": False,
         "generated_outputs_rewritten_by_wrapper": False,
-        "scope": "Fresh execution of all ten frozen research stages. Only four explicit Python-runtime fields and three verified dependent manifest entries may differ. Scientific data and all PNG/SVG/PDF files retain strict byte comparison. This is research-case reproducibility, not system semantic accuracy or anonymous peer review.",
+        "scope": "Fresh execution of all ten frozen research stages. Scientific data and SVG/PDF retain strict byte comparison. Four explicit Python-runtime fields and their verified manifest entries may differ. Six named PNGs have explicit decoded-pixel checks: the primary PNG must be pixel-identical; five final PNGs also require byte-identical SVG/PDF, identical dimensions/mode/metadata, max channel difference 2/255 and changed-pixel ratio <=0.0001. Only their verified manifest hash/length fields may then differ. No file is rewritten. This is research-case reproducibility, not system semantic accuracy or anonymous peer review.",
     }
     target = work / "portable-verification.json"
     target.write_bytes(encoded(report))

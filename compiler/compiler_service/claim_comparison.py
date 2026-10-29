@@ -11,7 +11,12 @@ from typing import Annotated, Any, Literal
 from pydantic import Field, StringConstraints, field_validator, model_validator
 
 from .config import GPT_MODEL, MODEL_MAX_ATTEMPTS
-from .graph_contract import canonical_hash_json, canonical_json
+from .graph_contract import (
+    AssumptionType,
+    EdgeRelation,
+    canonical_hash_json,
+    canonical_json,
+)
 from .job_control import ModelJobControl, ModelJobLimits
 from .model_client import INTERACTIVE_COMPLETION_PROFILE, ModelJsonClient
 from .models import Identifier, Sha256, StrictModel
@@ -20,9 +25,9 @@ from .shared_contract import ClaimModality, ClaimPolarity, ClaimType
 CLAIM_COMPARISON_SCHEMA_VERSION = "claim-comparison/1.0"
 CLAIM_NORMALIZER_PROCESSOR_VERSION = "claim-normalizer/1.0.0"
 CLAIM_NORMALIZATION_PROMPT_VERSION = "claim-normalizer/1.0.0"
-CLAIM_COMPARISON_PROCESSOR_VERSION = "claim-comparison-processor/1.0.0"
-CLAIM_COMPARISON_EXTRACTION_PROMPT_VERSION = "claim-comparison-extractor/1.0.0"
-CLAIM_COMPARISON_VERIFICATION_PROMPT_VERSION = "claim-comparison-verifier/1.0.0"
+CLAIM_COMPARISON_PROCESSOR_VERSION = "claim-comparison-processor/1.1.0"
+CLAIM_COMPARISON_EXTRACTION_PROMPT_VERSION = "claim-comparison-extractor/1.1.0"
+CLAIM_COMPARISON_VERIFICATION_PROMPT_VERSION = "claim-comparison-verifier/1.1.0"
 
 MAX_NORMALIZED_CLAIMS = 64
 MAX_COMPARISON_PAIRS = 256
@@ -34,6 +39,7 @@ ComparisonEntityKind = Literal[
     "structured_visual_evidence",
     "observation",
     "reasoning",
+    "assumption",
     "assessment_summary",
 ]
 ComparisonRelation = Literal[
@@ -271,6 +277,10 @@ class ClaimComparisonEvidenceEntity(StrictModel):
     text: BoundedScientificText
     anchor_ids: Annotated[list[Identifier], Field(max_length=64)]
     root_claim_ids: Annotated[list[Identifier], Field(max_length=256)]
+    assumption_type: AssumptionType | None = None
+    assumption_explicit: bool | None = None
+    scope: ComparisonScope | None = None
+    content_truncated: bool = False
 
     @model_validator(mode="after")
     def unique_references(self) -> ClaimComparisonEvidenceEntity:
@@ -278,7 +288,35 @@ class ClaimComparisonEvidenceEntity(StrictModel):
             raise ValueError("evidence entity anchor IDs must be unique")
         if len(self.root_claim_ids) != len(set(self.root_claim_ids)):
             raise ValueError("evidence entity root Claim IDs must be unique")
+        if self.kind == "assumption" and any(
+            item is None
+            for item in (self.assumption_type, self.assumption_explicit, self.scope)
+        ):
+            raise ValueError(
+                "assumption input requires its type, explicitness and Scope"
+            )
         return self
+
+
+class ClaimComparisonEvidenceEdge(StrictModel):
+    id: Identifier
+    source_id: Identifier
+    target_id: Identifier
+    # Stored Web graphs also retain these two historical typed relations.
+    relation: Literal[EdgeRelation, "infers", "supplements"]
+
+
+class ClaimComparisonEvidenceCompleteness(StrictModel):
+    """Recorded-input retention; never a claim of scientific extraction fidelity."""
+
+    status: Literal["complete", "truncated", "unknown", "not_applicable"] = "unknown"
+    path_truncated: bool = False
+    entity_limit: Annotated[int, Field(ge=1, le=MAX_SIDE_EVIDENCE_ENTITIES)] = 256
+    depth_limit: Annotated[int, Field(ge=1, le=100)] = 32
+    available_entity_count: Annotated[int, Field(ge=0)] = 0
+    omitted_entity_count: Annotated[int, Field(ge=0)] = 0
+    omitted_edge_count: Annotated[int, Field(ge=0)] = 0
+    content_truncated: bool = False
 
 
 class ClaimComparisonSide(StrictModel):
@@ -295,6 +333,10 @@ class ClaimComparisonSide(StrictModel):
         list[ClaimComparisonEvidenceEntity],
         Field(max_length=MAX_SIDE_EVIDENCE_ENTITIES),
     ]
+    evidence_edges: list[ClaimComparisonEvidenceEdge] = Field(default_factory=list)
+    evidence_completeness: ClaimComparisonEvidenceCompleteness = Field(
+        default_factory=ClaimComparisonEvidenceCompleteness
+    )
 
     @model_validator(mode="after")
     def closed_source_and_evidence(self) -> ClaimComparisonSide:
@@ -310,6 +352,44 @@ class ClaimComparisonSide(StrictModel):
         ids = [item.id for item in self.evidence_entities]
         if len(ids) != len(set(ids)):
             raise ValueError("Claim-side evidence entity IDs must be unique")
+        entities = {item.id: item for item in self.evidence_entities}
+        endpoints = set(ids) | {self.claim_id}
+        edge_ids = [edge.id for edge in self.evidence_edges]
+        if len(edge_ids) != len(set(edge_ids)):
+            raise ValueError("Claim-side dependency edge IDs must be unique")
+        for edge in self.evidence_edges:
+            if edge.source_id not in endpoints or edge.target_id not in endpoints:
+                raise ValueError(
+                    "dependency edge endpoints must be supplied on this side"
+                )
+            if edge.relation == "assumption_for" and (
+                edge.source_id not in entities
+                or entities[edge.source_id].kind != "assumption"
+            ):
+                raise ValueError(
+                    "assumption_for must retain an explicit assumption node"
+                )
+        completeness = self.evidence_completeness
+        omitted = (
+            completeness.path_truncated
+            or completeness.omitted_entity_count > 0
+            or completeness.omitted_edge_count > 0
+            or completeness.content_truncated
+            or any(item.content_truncated for item in self.evidence_entities)
+        )
+        if completeness.status in {"complete", "truncated"}:
+            if completeness.available_entity_count != (
+                len(ids) + completeness.omitted_entity_count
+            ):
+                raise ValueError("recorded-input entity counts must match the payload")
+            if len(ids) > completeness.entity_limit:
+                raise ValueError("recorded-input entity limit exceeded")
+            if (completeness.status == "truncated") != bool(omitted):
+                raise ValueError("recorded-input completeness contradicts omissions")
+        elif omitted:
+            raise ValueError("recorded omissions must be marked truncated")
+        if completeness.status == "not_applicable" and (ids or self.evidence_edges):
+            raise ValueError("not_applicable cannot contain a recorded evidence graph")
         return self
 
 
@@ -412,7 +492,7 @@ class ClaimComparisonAssessmentBatch(StrictModel):
 class ClaimComparisonExtractionEnvelope(StrictModel):
     run_id: Identifier
     model: Literal["gpt-6-luna", "gpt-5.6-luna", "deepseek-v4-flash"] = GPT_MODEL
-    prompt_version: Literal["claim-comparison-extractor/1.0.0"] = (
+    prompt_version: Literal["claim-comparison-extractor/1.1.0"] = (
         CLAIM_COMPARISON_EXTRACTION_PROMPT_VERSION
     )
     attempts: Annotated[int, Field(ge=0, le=9)]
@@ -436,7 +516,7 @@ class ClaimComparisonExtractionEnvelope(StrictModel):
 class ClaimComparisonVerificationEnvelope(StrictModel):
     run_id: Identifier
     model: Literal["gpt-6-luna", "gpt-5.6-luna", "deepseek-v4-flash"] = GPT_MODEL
-    prompt_version: Literal["claim-comparison-verifier/1.0.0"] = (
+    prompt_version: Literal["claim-comparison-verifier/1.1.0"] = (
         CLAIM_COMPARISON_VERIFICATION_PROMPT_VERSION
     )
     attempts: Annotated[int, Field(ge=1, le=9)]
@@ -448,7 +528,7 @@ class ClaimComparisonVerificationEnvelope(StrictModel):
 
 class ClaimComparisonEnvelope(StrictModel):
     schema_version: Literal["claim-comparison/1.0"] = CLAIM_COMPARISON_SCHEMA_VERSION
-    processor_version: Literal["claim-comparison-processor/1.0.0"] = (
+    processor_version: Literal["claim-comparison-processor/1.1.0"] = (
         CLAIM_COMPARISON_PROCESSOR_VERSION
     )
     project_id: Identifier
@@ -584,6 +664,10 @@ def _extraction_schema_for_request(
                 ],
             }
         ]
+        if _pair_has_truncated_input(pair):
+            constraints.append(
+                {"properties": {"relation": {"const": "insufficient_to_determine"}}}
+            )
         if raw_candidate_ids:
             constraints.append(
                 _relation_rule(
@@ -827,13 +911,21 @@ _EXTRACTION_PROMPT = """
 You compare supplied scientific Claim pairs conservatively. Return exactly one
 JSON object matching the supplied Schema and exactly one comparison per pair_id,
 in input order. Compare the query and candidate proposition together with their
-full structured Scope and only the supplied evidence entities. Semantic
-similarity, shared terminology, a paper-level assessment summary, or a Reasoning
-statement alone never proves a Claim relation.
+full structured Scope, typed evidence_edges, evidence_completeness, and supplied
+evidence entities. An assumption node is a condition of the inference, never a
+raw observation. Preserve its type, explicitness and Scope; an anchor quoting a
+condition does not replace the assumption_for dependency. Follow premise_for
+and assumption_for together rather than selecting a single supporting route.
+Complete means all recorded inputs survived this projection, not that source
+extraction found every scientifically necessary premise. Unknown completeness
+does not establish a complete argument. If either side is marked truncated,
+return insufficient_to_determine and state the recorded truncation limitation.
+Semantic similarity, shared terminology, a paper-level assessment summary, or a
+Reasoning statement alone never proves a Claim relation.
 
 When request.shared_query_sides is present, a pair with query_ref obtains its
 complete query from the shared_query_sides entry with the identical query_ref.
-Treat that shared query exactly as if its full Scope and evidence_entities were
+Treat that shared query exactly as if its full Scope and dependency context were
 embedded directly in that pair. A pair without query_ref uses its own query.
 Never use another pair's candidate or a differently referenced query as evidence.
 
@@ -856,8 +948,8 @@ Equivalent requires equivalent Scope and compatible polarity. Never convert a
 mere boundary difference into contradiction. Only select query_evidence_ids from
 that pair's query entities and candidate_evidence_ids from its candidate
 entities. supports, equivalent, and contradicts require at least one selected
-candidate source_anchor, structured_visual_evidence, or observation. Reasoning
-and assessment_summary are contextual annotations, not raw evidence. A
+candidate source_anchor, structured_visual_evidence, or observation. Reasoning,
+assumptions and assessment_summary are contextual annotations, not raw evidence. A
 source_anchor explicitly marked as citation context, or an observation marked
 source_assertion, cannot alone establish a strong relation; a review synthesis
 using such material is indirect and must retain that limitation. Keep the
@@ -873,16 +965,24 @@ assessment fields are the final effective scientific judgment; the frozen
 comparison remains audit history only.
 
 When request.shared_query_sides is present, a pair with query_ref obtains its
-complete selected query from the entry with the identical query_ref. Treat that
+complete query context from the entry with the identical query_ref. Treat that
 entry exactly as the pair's own query. A pair without query_ref uses its own
 query. Never borrow evidence from another reference, pair, or candidate.
 
-Use only the supplied frozen Claims, Scope, selected evidence entities, and
-evidence IDs. Never add an evidence ID or replacement candidate. Recheck subject,
+The full originally supplied evidence_entities, typed evidence_edges and
+evidence_completeness remain visible as dependency context, including assumptions
+not selected by the first model. Each side's selected_evidence_ids identifies the
+frozen selection; only those IDs may appear in your assessment. Never add a
+selected evidence ID or replacement candidate. Check the full premise_for and
+assumption_for context when auditing a selected source. Assumptions constrain an
+inference; they are not measurements, and their anchors do not replace their
+typed role. If either side is marked truncated, only insufficient_to_determine
+is permitted and the omission must be explained. Complete refers to recorded
+input retention, not completeness of scientific extraction. Recheck subject,
 outcome, value, unit, comparator, polarity, causal strength, method, condition,
 population/material, time, uncertainty, Scope alignment, and directness. A
 source_anchor, structured_visual_evidence, or observation is raw evidence;
-Reasoning and assessment_summary are not. Citation-context anchors and
+Reasoning, assumptions and assessment_summary are not. Citation-context anchors and
 source_assertion observations cannot alone verify a strong relation; a review
 synthesis based on them is indirect and must say so. Disjoint Scope is never
 contradiction.
@@ -1233,10 +1333,22 @@ def _validate_decision_drafts(
         _validate_decision_for_pair(pairs[decision.pair_id], decision)
 
 
+def _pair_has_truncated_input(pair: ClaimComparisonPair) -> bool:
+    return any(
+        side.evidence_completeness.status == "truncated"
+        for side in (pair.query, pair.candidate)
+    )
+
+
 def _validate_decision_for_pair(
     pair: ClaimComparisonPair,
     decision: ClaimComparisonDecisionCore,
 ) -> None:
+    if (
+        _pair_has_truncated_input(pair)
+        and decision.relation != "insufficient_to_determine"
+    ):
+        raise ValueError("truncated recorded input requires insufficient_to_determine")
     query = {item.id: item for item in pair.query.evidence_entities}
     candidate = {item.id: item for item in pair.candidate.evidence_entities}
     if not set(decision.query_evidence_ids).issubset(query):
@@ -1367,19 +1479,15 @@ def _verification_request_payload(
     pairs: list[dict[str, object]] = []
     for pair in request.pairs:
         decision = by_pair[pair.id]
-        query_ids = set(decision.query_evidence_ids)
-        candidate_ids = set(decision.candidate_evidence_ids)
         pair_payload = pair.model_dump(mode="json")
-        pair_payload["query"]["evidence_entities"] = [
-            item.model_dump(mode="json")
-            for item in pair.query.evidence_entities
-            if item.id in query_ids
-        ]
-        pair_payload["candidate"]["evidence_entities"] = [
-            item.model_dump(mode="json")
-            for item in pair.candidate.evidence_entities
-            if item.id in candidate_ids
-        ]
+        # The verifier may cite only the frozen selection, but must still see
+        # its full recorded premises/assumptions and any projection omissions.
+        pair_payload["query"]["selected_evidence_ids"] = list(
+            decision.query_evidence_ids
+        )
+        pair_payload["candidate"]["selected_evidence_ids"] = list(
+            decision.candidate_evidence_ids
+        )
         pairs.append(pair_payload)
     return {
         "schema_version": request.schema_version,

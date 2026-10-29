@@ -1,5 +1,7 @@
 """Structural consumer tests with fake interpretations, not scientific successes."""
 
+from types import SimpleNamespace
+
 import pytest
 from test_retrieval_clarification import forbidden
 from test_retrieval_context import compiled_model_input_sha256, final_request
@@ -18,13 +20,21 @@ from compiler_service.retrieval_contract import (
     ClaimSearchDocument,
     ContextQueryPlanningOutput,
     ContextRelationInterpretation,
+    QueryPlan,
     RelationDecision,
+    SearchScopeFilter,
     relation_candidate_key,
 )
 from compiler_service.retrieval_providers import (
     ordered_context_candidate_manifest_sha256,
+    retrieval_search_policy,
 )
-from compiler_service.retrieval_service import _safe_context_relation_decision
+from compiler_service.retrieval_service import (
+    RetrievalService,
+    _Candidate,
+    _SearchTask,
+    _safe_context_relation_decision,
+)
 from compiler_service.retrieval_task_contract import (
     InteractiveContextPlanningOutput,
     TaskOperationProposal,
@@ -257,7 +267,7 @@ def final_labels(result):
     }
 
 
-def test_interactive_uses_one_planning_pass_and_direct_model_relations(
+def test_interactive_uses_one_planning_pass_and_scope_checked_model_relations(
     tmp_path, monkeypatch
 ):
     import compiler_service.retrieval_service as service_module
@@ -265,14 +275,130 @@ def test_interactive_uses_one_planning_pass_and_direct_model_relations(
     service, planner, classifier, request = setup_service(tmp_path)
     monkeypatch.setattr(planner, "plan_context", forbidden)
     monkeypatch.setattr(planner, "interpret_compiled_task", forbidden)
-    monkeypatch.setattr(service_module, "_safe_context_relation_decision", forbidden)
-    monkeypatch.setattr(service_module, "_safe_relation_decision", forbidden)
+    checked = []
+    original = service_module._safe_context_relation_decision
+
+    def check_reference(reference, document, proposed):
+        checked.append(document.claim_id)
+        return original(reference, document, proposed)
+
+    monkeypatch.setattr(
+        service_module, "_safe_context_relation_decision", check_reference
+    )
     preview = service.search(request, interactive=True)
     assert planner.calls == 1 and classifier.calls == 0
     result = service.search(final_request(request, preview), interactive=True)
     assert planner.calls == 1 and classifier.calls == 1
     assert result.channels.relation.status == "ok"
     assert final_labels(result) == {"positive": "equivalent", "negative": "contradicts"}
+    assert set(checked) == {"positive", "negative"}
+
+
+@pytest.mark.parametrize("interactive", [False, True])
+@pytest.mark.parametrize("context_protocol", [False, True])
+@pytest.mark.parametrize("relation", ["contradicts", "equivalent", "supports"])
+@pytest.mark.parametrize(
+    ("query_scope", "document_scope", "expected_scope"),
+    [
+        (None, {}, "unknown"),
+        ({"location": ["Zone1"]}, {"location": ["Zone2"]}, "unknown"),
+        (
+            {"time": {"label": None, "start": 1, "end": 2, "unit": "Ma"}},
+            {"time": {"label": None, "start": 4, "end": 5, "unit": "Ma"}},
+            "disjoint",
+        ),
+        ({"location": ["Zone1"]}, {"location": ["Zone1"]}, "equivalent"),
+        (
+            {"location": ["Zone1", "Zone2"]},
+            {"location": ["Zone1", "Zone3"]},
+            "overlap",
+        ),
+    ],
+    ids=["absent", "unknown-label", "disjoint-time", "same-scope", "overlap"],
+)
+def test_actual_relation_application_guards_scopes_in_both_modes(
+    interactive, context_protocol, relation, query_scope, document_scope, expected_scope
+):
+    """Execute the production attachment branch with synthetic model proposals."""
+    document = ClaimSearchDocument.model_validate(
+        _document("scope-control", P, **document_scope), strict=True
+    )
+    plan = QueryPlan(
+        query_type="claim_search",
+        original_query=P,
+        canonical_claim=P,
+        must_terms=[],
+        optional_terms=[],
+        exclude_terms=[],
+        entities=[],
+        claim_types=[],
+        polarity="affirmed",
+        scope_constraints=(
+            None if query_scope is None else SearchScopeFilter(**query_scope)
+        ),
+        planner="gpt",
+    )
+    request = _search_request(P)
+    task = _SearchTask(
+        protocol_request=request,
+        request=request,
+        is_context_protocol=context_protocol,
+        verified_handoff=None,
+        context=None,
+        frozen_reference=(
+            SimpleNamespace(interpretation=interpretation(scope=query_scope))
+            if context_protocol else None
+        ),
+        compiled_task=None,
+        query_document=None,
+        snapshots=[],
+        plan=plan,
+    )
+    candidate = _Candidate(document=document, lexical=1.0, dense=None, rrf=1.0)
+    proposed = decision(document, relation, relation_direction="query_to_result")
+    with retrieval_search_policy(interactive=interactive):
+        RetrievalService._apply_relation_decisions(
+            None, task, [candidate], {proposed.candidate_key: proposed}
+        )
+    expected_relation = (
+        "related"
+        if relation in {"contradicts", "equivalent"}
+        and expected_scope in {"unknown", "disjoint"}
+        else relation
+    )
+    assert candidate.decision.relation == expected_relation
+    assert candidate.decision.scope_relation == expected_scope
+    assert candidate.decision.relation_confidence == proposed.relation_confidence
+    assert candidate.direction == (
+        "query_to_result" if relation == "supports" else "result_to_query"
+    )
+    assert proposed.relation == relation  # The provider record is not rewritten.
+
+
+@pytest.mark.parametrize(
+    "relation", ["supports", "refines", "qualifies", "contradicts", "equivalent"]
+)
+def test_interactive_nonpropositional_relevance_retained_without_direct_claim_relation(
+    relation,
+):
+    document = ClaimSearchDocument.model_validate(_document("questions", P))
+    candidate = _Candidate(document=document, lexical=1.0, dense=None, rrf=1.0)
+    task = SimpleNamespace(
+        frozen_reference=SimpleNamespace(
+            interpretation=interpretation("non_propositional")
+        ),
+        is_context_protocol=True,
+        query_document=None,
+    )
+    proposed = decision(document, relation, relation_direction="query_to_result")
+    with retrieval_search_policy(interactive=True):
+        RetrievalService._apply_relation_decisions(
+            None, task, [candidate], {proposed.candidate_key: proposed}
+        )
+    direct = relation in {"contradicts", "equivalent"}
+    assert candidate.decision.relation == ("related" if direct else relation)
+    assert candidate.decision.scope_relation == "unknown"
+    assert candidate.direction == ("result_to_query" if direct else "query_to_result")
 
 
 def test_true_preview_final_uses_interpretation_not_reverse_plan(tmp_path, monkeypatch):

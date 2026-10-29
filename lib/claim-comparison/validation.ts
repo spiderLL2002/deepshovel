@@ -486,6 +486,10 @@ function validateDecisionEvidence(
   pair: ClaimComparisonAnalyzeRequest["pairs"][number],
   label: string,
 ) {
+  if ([pair.query, pair.candidate].some((side) => side.evidence_completeness?.status === "truncated")
+    && item.relation !== "insufficient_to_determine") {
+    throw new Error(`${label} cannot classify a truncated recorded argument as sufficient`);
+  }
   const query = new Map(pair.query.evidence_entities.map((entity) => [entity.id, entity]));
   const candidate = new Map(pair.candidate.evidence_entities.map((entity) => [entity.id, entity]));
   if (item.queryEvidenceIds.some((entry) => !query.has(entry))

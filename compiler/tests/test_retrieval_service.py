@@ -3464,7 +3464,7 @@ def test_relation_blockers_and_geologic_time_units_are_conservative() -> None:
         update={"relation": "equivalent", "scope_relation": "unknown"}
     )
     assert (
-        _safe_relation_decision(no_scope, document, equivalent).relation == "equivalent"
+        _safe_relation_decision(no_scope, document, equivalent).relation == "related"
     )
     assert _safe_relation_decision(plan, document, equivalent).relation != "equivalent"
 

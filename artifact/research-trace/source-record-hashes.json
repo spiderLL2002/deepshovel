@@ -23,6 +23,15 @@
     "iteration-2026-10-27/reviews/selection-weight-domain-independent-B.json": "978c0f844dc371e09f8cacbc9c00465f69a8ab202ac9bb9c875b968274da1df0",
     "deepshovel/round8/http/responses/6aa8835ad8e197cf7fca04fa77120ae50c5b75b8e876b9fe4a5140f02ababc10/receipt.json": "aa31c40a2f9341de4c904153228f1b89d7d2c044af87161a9ec6a694e95f0dd6",
     "ree/round7/REPORT.md": "4e7d2af299552a7c6c2fc6787c293115884f2d61e6fc8eb12370e14aedc4b818",
-    "ree/round7/HONGO-NEAREST-CHECK.md": "21d2d2503964413e0b78ac552180597391ba3621f7b60c34f249dcecc25c562a"
+    "ree/round7/HONGO-NEAREST-CHECK.md": "21d2d2503964413e0b78ac552180597391ba3621f7b60c34f249dcecc25c562a",
+    "iteration-2026-10-27/manuscript/p20/manuscript.en.md": "050c0c49307395291055d7c7062e93b875b15604bfed6631a17ef1beff466810",
+    "reviews/round8-ree-transfer-preexecution-review.md": "e9b7d0d50d4e7014aea5e910498b5180589792ea47f11ed0bfa84fcf75325433",
+    "reviews/round8-ree-transfer-preexecution-receipt.json": "0733892d3b377b5bd46eea0159b8ab4dfb72ea94e9e9b940419e3bb3f670f63e",
+    "ree/round8/protocol-draft.json": "79148c782de80279638a2d02644f526abc3a44a08428b492095cbb62235841c3",
+    "plans/ree-ph-fixed-transfer-v1.json": "6f5defd55abc658c961b7a8396fbe490aa2f38dcda84e8ded1bd9287e4c22820",
+    "ree/round8/analyze_ree_ph_transfer.py": "af466ab78796d559e83d5610ab72168f42de960b6b8e3085c01092398207baeb",
+    "results/ree_ph_fixed_transfer_v1/cluster_bootstrap.json": "f9712ac21681045802d9580a98f12236b0e4dfa30734cad0d1ebc9dabd639780",
+    "results/ree_ph_fixed_transfer_v1/leave_one_station_out.json": "2ca019a6363c308bfee33509315375cb760ff959c04ba1e43ecb6ffc6caeaeff",
+    "results/ree_ph_fixed_transfer_v1/run_manifest.json": "534b91d04911655884faa205694cb15fe828980cea98e9c74451a47fb74d9901"
   }
 }

@@ -1,5 +1,5 @@
 import {
-  buildClaimComparisonEvidenceEntities,
+  buildClaimComparisonEvidence,
   buildClaimComparisonSide,
   CLAIM_COMPARISON_SCHEMA_VERSION,
   type ClaimComparisonAssessment,
@@ -341,6 +341,12 @@ async function comparisonSourceSide(
         source_paper_id: null,
         source_paper_family_id: null,
         evidence_entities: [],
+        evidence_edges: [],
+        evidence_completeness: {
+          status: "not_applicable", path_truncated: false, entity_limit: 256,
+          depth_limit: 32, available_entity_count: 0, omitted_entity_count: 0,
+          omitted_edge_count: 0, content_truncated: false,
+        },
       },
       sourceFamilyId: null,
     };
@@ -355,7 +361,7 @@ async function comparisonSourceSide(
   return {
     sourceClaim: buildClaimComparisonSide(
       queryDocument,
-      buildClaimComparisonEvidenceEntities(graph, source.claimId, assessments[0] ?? null),
+      buildClaimComparisonEvidence(graph, source.claimId, assessments[0] ?? null),
     ),
     sourceFamilyId: queryDocument.paperFamilyId,
   };
@@ -382,7 +388,7 @@ async function comparisonCandidateSides(DB: D1Database, refs: QueryClaimRef[]) {
     documentMap.set(key, document);
     candidateSides.set(key, buildClaimComparisonSide(
       document,
-      buildClaimComparisonEvidenceEntities(graph, document.claimId, assessmentMap.get(key) ?? null),
+      buildClaimComparisonEvidence(graph, document.claimId, assessmentMap.get(key) ?? null),
     ));
   }
   if (candidateSides.size !== refs.length) {
@@ -610,6 +616,17 @@ async function compare(payload: Record<string, unknown>, signal: AbortSignal) {
     return { id: `pair:sha256:${digest}`, query: sourceClaim, candidate };
   }));
   const compiler = new CompilerClient(configuration);
+  const comparisonInputs = pairs.map((pair) => ({
+    pairId: pair.id,
+    query: pair.query.evidence_completeness ?? { status: "unknown" },
+    candidate: pair.candidate.evidence_completeness ?? { status: "unknown" },
+  }));
+  const truncatedInputs = comparisonInputs.filter((input) => (
+    input.query.status === "truncated" || input.candidate.status === "truncated"
+  )).length;
+  if (truncatedInputs) {
+    warnings.push(`${truncatedInputs} 项比较的已记录推理链因深度、实体或内容上限被截断，仅能标为证据不足。请打开完整论文证据核对。`);
+  }
   const envelope = await compiler.analyzeClaimComparisons({
     schema_version: CLAIM_COMPARISON_SCHEMA_VERSION,
     project_id: PROJECT_ID,
@@ -659,6 +676,7 @@ async function compare(payload: Record<string, unknown>, signal: AbortSignal) {
       durationMs: sync.durationMs,
     },
     groups,
+    comparisonInputs,
     warnings,
   });
 }

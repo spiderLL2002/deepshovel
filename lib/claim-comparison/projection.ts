@@ -10,6 +10,7 @@ import type {
 } from "../evidence-retrieval/index.ts";
 import type {
   ClaimComparisonEvidenceEntity,
+  ClaimComparisonEvidence,
   ClaimComparisonEvidenceKind,
   ClaimComparisonSide,
 } from "./types.ts";
@@ -20,6 +21,10 @@ const MAX_EVIDENCE_ENTITIES = 256;
 function boundedText(value: string) {
   // Cut by code point: half of a surrogate pair is not valid text for the Compiler.
   return Array.from(value.normalize("NFC").replace(/\s+/gu, " ").trim()).slice(0, MAX_ENTITY_TEXT).join("");
+}
+
+function textWasTruncated(value: string) {
+  return Array.from(value.normalize("NFC").replace(/\s+/gu, " ").trim()).length > MAX_ENTITY_TEXT;
 }
 
 // A stored Scope rejects only exact repeats and has no count cap, while the
@@ -63,7 +68,7 @@ function visualEvidenceText(entity: Extract<EvidenceEntity, { kind: "structured_
     ));
     return `${item.label}: ${points.join(", ")}`;
   });
-  return boundedText([...axes, ...features, ...cells, ...series].join("; "));
+  return [...axes, ...features, ...cells, ...series].join("; ");
 }
 
 function entityProjection(
@@ -76,23 +81,27 @@ function entityProjection(
 
   if (entity.kind === "source_anchor") {
     kind = "source_anchor";
-    text = boundedText(entity.quote ? `Source anchor type=${entity.anchor_type}. Exact text: ${entity.quote}` : "");
+    text = entity.quote ? `Source anchor type=${entity.anchor_type}. Exact text: ${entity.quote}` : "";
     anchorIds = [entity.id];
   } else if (entity.kind === "structured_visual_evidence") {
     kind = "structured_visual_evidence";
-    text = boundedText(`Structured ${entity.visual_kind} evidence. ${visualEvidenceText(entity)}`);
+    text = `Structured ${entity.visual_kind} evidence. ${visualEvidenceText(entity)}`;
     anchorIds = [entity.anchor_id];
   } else if (entity.kind === "observation") {
     kind = "observation";
-    text = boundedText(`Observation type=${entity.observation_type}. ${entity.statement}`);
+    text = `Observation type=${entity.observation_type}. ${entity.statement}`;
     anchorIds = entity.anchor_ids;
   } else if (entity.kind === "reasoning") {
     kind = "reasoning";
-    text = boundedText([
+    text = [
       `Reasoning type=${entity.reasoning_type}.`,
       entity.statement,
       ...entity.limitations.map((limitation) => `Limitation: ${limitation}`),
-    ].join(" "));
+    ].join(" ");
+    anchorIds = entity.anchor_ids;
+  } else if (entity.kind === "assumption") {
+    kind = "assumption";
+    text = `Assumption type=${entity.assumption_type}; explicit=${entity.explicit}. ${entity.statement}`;
     anchorIds = entity.anchor_ids;
   } else {
     return null;
@@ -102,9 +111,16 @@ function entityProjection(
   return {
     id: entity.id,
     kind,
-    text,
+    text: boundedText(text),
     anchor_ids: [...new Set(anchorIds)].slice(0, 64),
     root_claim_ids: [rootClaimId],
+    ...(entity.kind === "assumption" ? {
+      assumption_type: entity.assumption_type,
+      assumption_explicit: entity.explicit,
+    } : {}),
+    ...("scope" in entity ? { scope: comparisonScope(entity.scope) } : {}),
+    content_truncated: textWasTruncated(text) || new Set(anchorIds).size > 64
+      || (entity.kind === "structured_visual_evidence" && entity.series.some((series) => series.points.length > 64)),
   };
 }
 
@@ -117,7 +133,8 @@ function assessmentProjection(
     assessment.rationale,
     ...assessment.limitations.map((limitation) => `Limitation: ${limitation}`),
   ];
-  const text = boundedText(details.join(" "));
+  const rawText = details.join(" ");
+  const text = boundedText(rawText);
   if (!text) return null;
   return {
     id: assessment.assessmentId,
@@ -128,33 +145,60 @@ function assessmentProjection(
     // those identities as direct anchors for the comparison model.
     anchor_ids: [],
     root_claim_ids: [rootClaimId],
+    content_truncated: textWasTruncated(rawText),
   };
 }
 
 /**
  * Project only the selected Claim's derivation path into the comparison model.
- * Assumptions and neighbouring Claims are deliberately excluded: neither may be
- * treated as raw evidence for a cross-paper support or contradiction decision.
+ * Preserve assumptions as conditions, never as raw observations. The root Claim
+ * is already represented by the side; artifact/version records are provenance.
+ * The status describes recorded input retained by this projection, not whether
+ * extraction discovered every scientifically necessary premise.
  */
-export function buildClaimComparisonEvidenceEntities(
+export function buildClaimComparisonEvidence(
   graph: EvidenceGraph,
   rootClaimId: string,
   assessment: EvidenceRetrievalAssessment | null = null,
-) {
-  const path = expandEvidencePath(graph, rootClaimId);
+  options: { max_depth?: number } = {},
+): ClaimComparisonEvidence {
+  const path = expandEvidencePath(graph, rootClaimId, options);
+  let availableEntities = path.entities.filter((entity) => (
+    entity.kind !== "artifact" && entity.kind !== "artifact_version" && entity.kind !== "atomic_claim"
+  )).length;
   const entities = path.entities
     .map((entity) => entityProjection(entity, rootClaimId))
     .filter((entity): entity is ClaimComparisonEvidenceEntity => entity !== null);
   const assessmentEntity = assessment === null ? null : assessmentProjection(assessment, rootClaimId);
   if (assessmentEntity && !entities.some((entity) => entity.id === assessmentEntity.id)) {
     entities.push(assessmentEntity);
+    availableEntities += 1;
   }
-  return entities.slice(0, MAX_EVIDENCE_ENTITIES);
+  const retained = entities.slice(0, MAX_EVIDENCE_ENTITIES);
+  const retainedIds = new Set([rootClaimId, ...retained.map((entity) => entity.id)]);
+  const edges = path.edges.filter((edge) => retainedIds.has(edge.source_id) && retainedIds.has(edge.target_id));
+  const omittedEntities = availableEntities - retained.length;
+  const omittedEdges = path.edges.length - edges.length;
+  const contentTruncated = retained.some((entity) => entity.content_truncated);
+  return {
+    evidence_entities: retained,
+    evidence_edges: edges.map(({ id, source_id, target_id, relation }) => ({ id, source_id, target_id, relation })),
+    evidence_completeness: {
+      status: path.truncated || omittedEntities > 0 || omittedEdges > 0 || contentTruncated ? "truncated" : "complete",
+      path_truncated: path.truncated,
+      entity_limit: MAX_EVIDENCE_ENTITIES,
+      depth_limit: options.max_depth ?? 32,
+      available_entity_count: availableEntities,
+      omitted_entity_count: omittedEntities,
+      omitted_edge_count: omittedEdges,
+      content_truncated: contentTruncated,
+    },
+  };
 }
 
 export function buildClaimComparisonSide(
   document: EvidenceRetrievalDocument,
-  evidenceEntities: ClaimComparisonEvidenceEntity[],
+  evidence: ClaimComparisonEvidence,
 ): ClaimComparisonSide {
   return {
     claim_id: document.claimId,
@@ -166,6 +210,6 @@ export function buildClaimComparisonSide(
     source_snapshot_id: document.snapshotId,
     source_paper_id: document.paperId,
     source_paper_family_id: document.paperFamilyId,
-    evidence_entities: evidenceEntities,
+    ...evidence,
   };
 }
