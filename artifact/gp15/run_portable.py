@@ -75,6 +75,15 @@ def encoded(value):
     return (json.dumps(value, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
 
 
+def comparison_json_bytes(name, value):
+    # This one original exporter uses json.dumps(..., indent=2) without a
+    # terminal newline (analyze_ree_ph_transfer.py:519). Do not infer formatting
+    # from changed output or strip whitespace from other files.
+    if name == PRIMARY + "run_manifest.json":
+        return json.dumps(value, indent=2).encode("utf-8")
+    return encoded(value)
+
+
 def nested(value, pointer):
     for part in pointer:
         value = value[part]
@@ -203,7 +212,7 @@ class PortableComparison:
                 # This exact serializer is verified against each unchanged reference.
                 # Rebuilding permitted fields therefore cannot conceal formatting,
                 # numeric-lexeme, field-order, extra-field or scientific differences.
-                if encoded(reference_json) != a:
+                if comparison_json_bytes(name, reference_json) != a:
                     raise ValueError("Reference serialization differs from the declared exact serializer")
                 allowed = []
                 reconstructed = copy.deepcopy(reference_json)
@@ -261,7 +270,7 @@ class PortableComparison:
                                                 "reason": "Verified binding to a PNG that passed its fixed pixel/vector policy",
                                                 "bound_file": bound_name})
                 row["allowed_metadata_differences"] = allowed
-                if encoded(reconstructed) == b and allowed:
+                if comparison_json_bytes(name, reconstructed) == b and allowed:
                     png_binding_changed = any(change.get("bound_file") in PNG_RULES for change in allowed)
                     row.update(passed=True, comparison=("IDENTICAL_EXCEPT_DECLARED_METADATA_AND_PNG_BINDINGS" if png_binding_changed
                                                        else "IDENTICAL_EXCEPT_DECLARED_RUNTIME_METADATA"))

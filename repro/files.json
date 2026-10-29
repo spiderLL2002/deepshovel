@@ -695,8 +695,8 @@
       "bytes": 5822
     },
     "artifact/gp15/README.md": {
-      "sha256": "3c38ab89a84bf8b75a528fcfc3993727cc12a4696979711b1aced71847c3c399",
-      "bytes": 19124
+      "sha256": "932839645d55add4da6f37c7ce988194526ea440f47c548cd712876403b9677b",
+      "bytes": 19674
     },
     "artifact/gp15/claim-source-map.json": {
       "sha256": "62113c2397c66cf42cba851058358330f4180eddae154f1d75ed1b2ab055c508",
@@ -1527,8 +1527,8 @@
       "bytes": 7273
     },
     "artifact/gp15/run_portable.py": {
-      "sha256": "3f11e2a761a37ef5a44642979feef56351664114ed89e8b35a6ecb3a18f6ed17",
-      "bytes": 24492
+      "sha256": "44a09bd54bce8c8d94fc70b2b007ff5680a4024f331a970128bb0a1ee7f46390",
+      "bytes": 24924
     },
     "artifact/gp15/scientific-manuscript.en.md": {
       "sha256": "050c0c49307395291055d7c7062e93b875b15604bfed6631a17ef1beff466810",
@@ -1539,8 +1539,8 @@
       "bytes": 41770
     },
     "artifact/gp15/test_portable.py": {
-      "sha256": "fa48566d71802f78985a8c69ef748f736f26e714e9c4ae025e785f8a5a454b5e",
-      "bytes": 9189
+      "sha256": "babd8c920e406918399250e7d95a64fefee6e55399d0251f202cbf5e90a971ce",
+      "bytes": 11826
     },
     "artifact/gp15/verification-2026-10-29-png-policy/portable-verification.json": {
       "sha256": "486dc6ae0c1b5a8d712873cda9f4ffccef8dac0f7e8b2bf6ffa0a541c0fd3107",
