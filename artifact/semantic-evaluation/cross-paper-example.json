@@ -1,0 +1,80 @@
+{
+  "query_id": "q110-1",
+  "query": {
+    "text": "At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.",
+    "queryClaim": null,
+    "intent": "claim_search",
+    "corpus": "cross_paper",
+    "paperIds": [],
+    "paperFamilyIds": [],
+    "scope": null,
+    "mustTerms": [],
+    "excludeTerms": [],
+    "claimTypes": [],
+    "polarity": null
+  },
+  "record": "public-reproduction-queries-2/q110-1/ai_rerank-response.json.gz",
+  "public_query_run": "complete-command repeat at 2f1621f",
+  "sources": [
+    {
+      "doi": "10.5194/cp-14-441-2018",
+      "author_year": "Elsbeth E. van Soelen et al. (2018)",
+      "pdf_page": 7,
+      "pdf_sha256": "a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+      "claim": "At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.",
+      "query_relation": {
+        "relation": "equivalent",
+        "confidence": 1,
+        "direction": "result_to_query",
+        "scopeRelation": "equivalent"
+      },
+      "path_node_ids": [
+        "artifact:0026b7a6-65ea-4cf8-9899-b333cc65b7e8",
+        "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+        "a.duration.new",
+        "obs.duration.new",
+        "reason.duration",
+        "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38"
+      ],
+      "source_anchor_ids": [
+        "a.duration.new",
+        "a.duration.old"
+      ]
+    },
+    {
+      "doi": "10.1016/j.palaeo.2017.06.014",
+      "author_year": "C. Mettam et al. (2017)",
+      "pdf_page": 2,
+      "pdf_sha256": "38f343c942631ae68dd1554bce7c354051696e33ba988a947468aa792821ccf1",
+      "snapshot_id": "snapshot:sha256:c9a75f99531de19b3519bf30cffe3780cc43761819202c16c572420afe838360",
+      "claim_id": "claim:sha256:79a0ab6bee1b4338551e759f3d94f6b2a0d2f8d5535585ed9b3c9f9a725d519a",
+      "claim": "At Fiskegrav, defining the local LPME by the start of the δ13Corg excursion and the last Permian brachiopod, the extinction horizon predates final marine ecosystem collapse marked by cessation of bioturbation.",
+      "query_relation": {
+        "relation": "supplements",
+        "confidence": 0.88,
+        "direction": "result_to_query",
+        "scopeRelation": "overlap"
+      },
+      "path_node_ids": [
+        "artifact:06811225-2621-4e4a-b2f5-cd7e33086402",
+        "artifact-version:sha256:38f343c942631ae68dd1554bce7c354051696e33ba988a947468aa792821ccf1",
+        "anchor.biota.persistence",
+        "obs.biota.persistence",
+        "reason.lpme.ordering",
+        "claim:sha256:79a0ab6bee1b4338551e759f3d94f6b2a0d2f8d5535585ed9b3c9f9a725d519a"
+      ],
+      "source_anchor_ids": [
+        "anchor.biota.persistence",
+        "anchor.fig2",
+        "anchor.fig2.ref",
+        "anchor.highres.decline",
+        "anchor.last.brachiopod",
+        "anchor.local.lpme"
+      ]
+    }
+  ],
+  "inspection": "Original PDFs and relevant pages checked on 2026-10-29; PDF hashes match returned source identities.",
+  "interpretation": "The query retrieves the duration estimate and a supplementary argument distinguishing the locally defined extinction horizon from final ecosystem collapse. Bioturbation after the last macrofossil is the premise for that distinction. The relation supplies event-definition context; it is not a numerical contradiction."
+}

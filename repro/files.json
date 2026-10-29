@@ -2119,12 +2119,16 @@
       "bytes": 2408
     },
     "artifact/semantic-evaluation/README.md": {
-      "sha256": "7d8f63defa06a2d599493eb66649bc7b159d82f4bf65f0c9e818fb6931c2995b",
-      "bytes": 3052
+      "sha256": "451312d79930dd43f3543ae2b0d7e6a50242fdaf5efde11334dbc110f57224d6",
+      "bytes": 3644
     },
     "artifact/semantic-evaluation/argument-source-audit.json": {
       "sha256": "c5696591197d310d622eea758df246e8d3837c8f8c67ae9360d2243435cbd67e",
       "bytes": 59541
+    },
+    "artifact/semantic-evaluation/cross-paper-example.json": {
+      "sha256": "b40b7d310df1e1039880e87ff6c6d2f67cde08c1eb66ba3bdea6842fb9207763",
+      "bytes": 3792
     },
     "artifact/semantic-evaluation/deployed-corpus-counts.json": {
       "sha256": "addd71eef78cf4e8215ae074654d4db5a4eb6d86458315899d810ee1568f708b",

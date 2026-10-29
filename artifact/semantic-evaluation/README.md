@@ -38,3 +38,7 @@ python3 artifact/semantic-evaluation/run_semantic_live.py \
 ```
 
 The paired experiment holds retrieval fixed. The public-site command retrieves candidates afresh and records target retrieval separately from relation correctness. See [execution details](FIXED-CANDIDATE-ABLATION.md) for the exact model invocation and output format.
+
+## Inspect a cross-paper connection
+
+In the released `q110-1` query, van Soelen et al. (2018) supplies the 1.6–8 kyr Fiskegrav ecosystem-collapse estimate. A separate Mettam et al. (2017) claim is returned as supplementary evidence: continued bioturbation after the last macrofossil distinguishes the locally defined extinction horizon from final ecosystem collapse. Users can inspect each argument and open its original page (PDF pages 7 and 2). The [source and runtime bindings](cross-paper-example.json) identify both papers, claims, dependency paths and the preserved public response.
