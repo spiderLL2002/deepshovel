@@ -4,7 +4,9 @@ DeepShovel turns scientific papers into **source-grounded reasoning networks**. 
 
 [Demo paper](paper/main.pdf) · [Public workbench](https://deepshovel.iiot-shxt.xyz/) · [English walkthrough](artifact/live-demo/README.md) · [Releases](https://github.com/spiderLL2002/deepshovel/releases)
 
-## Reproduce the paper
+## Verify the public evaluation subsets and reproduce the GP15 study
+
+The public evaluation package provides subsets of the full evaluation data for inspection and reference: 114 retrieval questions with 3,515 relevance judgments, and 30 semantic comparison cases from five papers. The full evaluation comprises 487 retrieval questions with 15,017 judgments and 323 semantic cases from 54 test papers. The commands below compute scores for the released subsets and reproduce the GP15 research study. To keep the package compact, the complete paper collection is not bundled; available source links and source-location records support inspection.
 
 Use **Python 3.12** and **Node.js 22.13+**. From a fresh clone:
 
@@ -14,7 +16,7 @@ cd deepshovel
 python3.12 scripts/reproduce_paper.py --out runs/paper
 ```
 
-The command creates one Python environment, installs locked dependencies, verifies the released files, recomputes retrieval and semantic scores, runs the production argument expander, prepares model inputs, restores two original research inputs, and executes all ten GP15 analysis stages. Outputs and logs are collected in the chosen directory, with a single `report.json` recording completion.
+The command creates one Python environment, installs locked dependencies, verifies the released files, recomputes retrieval and semantic scores on the public subsets, runs the production argument expander, prepares model inputs, restores two original research inputs, and executes all ten GP15 analysis stages. Outputs and logs are collected in the chosen directory, with a single `report.json` recording completion.
 
 For fresh model comparisons and public-site searches, provide `GPT_API_KEY` in your environment and add `--live`:
 
@@ -30,9 +32,9 @@ The deployment snapshot on 29 October 2026 contains **9,506 active papers, 41,09
 
 | Material | Contents |
 | --- | --- |
-| [Argument comparison](artifact/semantic-evaluation/README.md) | 30 source-grounded queries, frozen reference relations, both prompt runs, model inputs and original responses, source audit, and executable rerun scripts |
+| [Argument comparison](artifact/semantic-evaluation/README.md) | Public subset: 30 source-grounded queries, frozen reference relations, both prompt runs, model inputs and original responses, source audit, and executable rerun scripts |
 | [Argument inspection](artifact/arguments/README.md) | F2 claim with its recorded premises, all three assumptions, source links and production dependency expansion |
-| [Retrieval evaluation](artifact/evaluation/README.md) | 114 questions, 3,515 pooled judgments, BM25/dense/hybrid rankings and metric computation |
+| [Retrieval evaluation](artifact/evaluation/README.md) | Public subset: 114 questions, 3,515 pooled judgments, BM25/dense/hybrid rankings and metric computation |
 | [GP15 research](artifact/gp15/README.md) | Public observations, fixed protocol, ten analysis stages, four RMSEs and the six error contrasts supporting the derived claim |
 | [Research trace](artifact/research-trace/README.md) | Queries, returned arguments, source inspection and subsequent research decisions |
 | [Public demonstration](artifact/live-demo/README.md) | Attendee walkthrough and captured interface views |
