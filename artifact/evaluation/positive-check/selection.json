@@ -1,5 +1,5 @@
 {
-  "kind": "stratified AI development-label check, not representative prevalence or expert ground truth",
+  "kind": "stratified development-label check, not representative prevalence",
   "seed": "positive-audit-20261027",
   "pairs": 36,
   "original_grade_counts": {

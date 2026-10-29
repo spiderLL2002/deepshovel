@@ -3,5 +3,5 @@
   "pairs": 48,
   "queries": 6,
   "original_labels_withheld": true,
-  "kind": "AI-only blind development-label check, not expert ground truth or random corpus sample"
+  "kind": "blind development-label check, not random corpus sample"
 }

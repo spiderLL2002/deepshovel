@@ -36,7 +36,7 @@ On 2026-10-27, jsonld.js **9.0.0** with Node **v26.3.0** produced **115 default-
 
 The root reran the portable RDFLib/SPARQL check (`root-python/result.json`) and compared all five projected node objects and four edge objects, checked RDF-list order, and verified that all standard PROV facts matched the earlier 57-triple export. One RDF-only `infers`-to-`supports` substitution was detected against the original JSON. The unchanged verifier accepted recovered original bytes; standard-library-only export matched the candidate output. Synthetic absent/ambiguous helper checks omitted `selectedRoute`; these are not claimed as additional schema-valid records. Candidate receipts remain in the editor work area; they are not prerequisites for rerunning this portable check.
 
-This is two independently maintained libraries reading **one fixed record**, with author-side AI QA. It is not another independent recipient trial, human comprehension experiment, external scholarly application adoption, scientific validation, or evidence of general Semantic Web interoperability. No source PDF is reopened.
+This is two independently maintained libraries reading **one fixed record**. It is not another independent recipient trial, human comprehension experiment, external scholarly application adoption, scientific validation, or evidence of general Semantic Web interoperability. No source PDF is reopened.
 
 ## Portable reproduction
 

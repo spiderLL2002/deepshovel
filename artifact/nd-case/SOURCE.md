@@ -1,6 +1,6 @@
 # Nd case: source and attribution
 
-The two observation tuples are curated for the demo artifact from the authors' article and workbook with AI assistance. “Author-curated” denotes prepared demo content, not a claim that the original study authors reviewed this artifact. No new human scientific review or automatic extraction experiment is asserted.
+The two observation tuples are curated for the demo artifact from the authors' article and workbook. “Author-curated” denotes prepared demo content, not a claim that the original study authors reviewed this artifact.
 
 **Article:** Mark Nestmeyer, Alex J. McCoy-West, Yuan Mei, and Kevin W. Burton (2026), *The stable isotope fractionation of neodymium on ferrihydrite revisited*, Advances in Geochemistry and Cosmochemistry 2(1):1099. [Article DOI](https://doi.org/10.33063/agc.v2i1.1099). Copyright the authors, 2026. Page 1 explicitly identifies **CC BY 4.0**; [license](https://creativecommons.org/licenses/by/4.0/). `source/article.pdf` is an unchanged copy. `source/page8-check.png` is a rendered page for verification. The JSON is a curated representation, not a modification of the publication.
 

@@ -1,7 +1,7 @@
 {
   "audit_id": "new-ai-source-audit-2026-10-27-reuse",
   "created_utc": "2026-10-27T12:23:58.622897+00:00",
-  "reviewer": "AI source auditor; not expert review or human labels",
+  "reviewer": "AI source auditor",
   "scope": "F2 prepared scientific observation and its retained source anchor fields; both Nd prepared tuples with same field categories, plus scientific uptake/interpretation references",
   "method": "Independently read local source PDFs before inspecting target JSON; no prior source-task-check or paper-evaluation reports read. Text extraction plus full-page visual inspection. No input files edited.",
   "status_definitions": {

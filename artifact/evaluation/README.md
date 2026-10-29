@@ -2,7 +2,7 @@
 
 Run `python3 evaluate.py` with Python 3 (standard library only). It reads local JSON and prints metrics, then asserts agreement within 1e-12 with expected_metrics.json. No network, model, production server or external package is used.
 
-The frozen table covers 114 common fully judged queries. Three additional successful queries (q75, q112, q118) were excluded because their saved pools omitted newly returned candidates. Labels are existing AI semantic development judgments, not expert ground truth. Twelve queries are legacy broad topics; 102 are newer source-derived questions. No new labels were created for this package.
+The frozen table covers 114 common fully judged queries. Three additional successful queries (q75, q112, q118) were excluded because their saved pools omitted newly returned candidates. Twelve queries are legacy broad topics; 102 are newer source-derived questions. No new labels were created for this package.
 
 queries.json holds IDs, questions and batch; pool_ids.json holds candidate claim IDs; qrels.json holds grade 0–3 and the separately assessed scope_error Boolean; runs.json holds the four saved top-12 rankings. No source excerpts, canonical claims, expected-answer text, private filesystem paths, credentials or application source are included. Query texts are research questions, not a redistribution of full papers. IDs are opaque content identifiers.
 

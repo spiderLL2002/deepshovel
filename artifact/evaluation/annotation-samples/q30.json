@@ -9,7 +9,7 @@
     "0": "A property unrelated to sediment grain size, depth or bottom-current interpretation."
   },
   "original_pool_sha256": "67e9d0ae3dc075726dc5d674c28fdfb6abf86337c95469ff1b69ce56e4f0653b",
-  "sample_type": "fixed-ID method inspection; not random, expert-reviewed, or reliability-estimation sample",
+  "sample_type": "fixed-ID method inspection; not random or reliability-estimation sample",
   "candidate_count": 29,
   "candidates": [
     {

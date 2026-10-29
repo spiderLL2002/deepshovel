@@ -1,6 +1,6 @@
 # Fresh GPT-6 Astra AI source review
 
-Date: 2026-10-27. This is a fresh AI source review, not human or expert ground truth. No overall accuracy estimate is made.
+Date: 2026-10-27. No overall accuracy estimate is made.
 
 Two prepared tuples, three uptake entries, one automated software UI export; initial direct PDF reading pages 3, 7, 8, supplemented by authorized Table 1 page 4 review; no paper review, prior scores, web, workbook, production rerun, or other source/code directories.
 

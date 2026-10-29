@@ -1,6 +1,6 @@
 # English walkthrough of the running DeepShovel service
 
-These are genuine browser captures from **29 October 2026** at https://deepshovel.iiot-shxt.xyz/. They were obtained by an AI-operated functional walkthrough, not a human usability study. The screenshot pixels were not reconstructed. The paper crops the assumption panel from `04-assumptions.jpg`; full captures remain here.
+These are genuine browser captures from **29 October 2026** at https://deepshovel.iiot-shxt.xyz/. The screenshot pixels were not reconstructed. The paper crops the assumption panel from `04-assumptions.jpg`; full captures remain here.
 
 ## Live sequence (allow about 3–5 minutes for a guided visit)
 

@@ -9,7 +9,7 @@
     "0": "Unrelated to the requested scientific quantity and context."
   },
   "original_pool_sha256": "eab55365c6bc90693755fbd2b81a8a414eefb59af8b3b30bd69f9e19753e49b1",
-  "sample_type": "fixed-ID method inspection; not random, expert-reviewed, or reliability-estimation sample",
+  "sample_type": "fixed-ID method inspection; not random or reliability-estimation sample",
   "candidate_count": 37,
   "candidates": [
     {

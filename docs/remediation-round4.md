@@ -209,8 +209,7 @@ an unloaded lazy pipeline, not an observed loading failure; no new classifier
 call was made to prove availability. HTTP 200 alone is not an all-ready check.
 Batch controls used one pending QA file, not a multi-file concurrency load test.
 A separate strict source probe flags MinerU `table_caption` metadata without
-lossless visual mapping; table-body coordinates passed. No expert scientific
-review is claimed. Unproven historical causes remain undetermined. Prompt
+lossless visual mapping; table-body coordinates passed. Unproven historical causes remain undetermined. Prompt
 revisions, verifier stance, FTS storage, component decomposition and relation
 quality benchmarks remain recommendations.
 

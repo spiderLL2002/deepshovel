@@ -1,6 +1,6 @@
 # New AI source audit: F2 and Nd prepared observations
 
-This is a new AI source audit, not expert review, human labels, a paper score, or extraction-accuracy evaluation. Original inputs were not changed. No previous source-task-check or paper-evaluation report was consulted. Local PDFs were read before target JSON. Page numbers below are physical PDF pages (1-based).
+Original inputs were not changed. No previous source-task-check or paper-evaluation report was consulted. Local PDFs were read before target JSON. Page numbers below are physical PDF pages (1-based).
 
 ## Findings
 

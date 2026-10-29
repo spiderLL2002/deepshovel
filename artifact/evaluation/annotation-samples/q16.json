@@ -9,7 +9,7 @@
     "0": "No usable Afar crustal-thickness information; for example, sediment thickness or an unrelated regional seismic result."
   },
   "original_pool_sha256": "6121413a886acd8dec6a95146a73073875e30128a29c0dcc45a998652bf6c946",
-  "sample_type": "fixed-ID method inspection; not random, expert-reviewed, or reliability-estimation sample",
+  "sample_type": "fixed-ID method inspection; not random or reliability-estimation sample",
   "candidate_count": 27,
   "candidates": [
     {

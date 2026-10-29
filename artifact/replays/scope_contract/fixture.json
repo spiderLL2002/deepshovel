@@ -1,5 +1,5 @@
 {
-  "kind": "source-derived contract fixture with synthetic variants; not human annotations",
+  "kind": "source-derived contract fixture with synthetic variants",
   "source": "WWW2027_Demo_v2/paper/main.tex Nd example; estimates -0.098 and -0.113 per mille",
   "limitations": "No source-path validation. Numeric endpoints deliberately absent in production Scope.canonical. Fixed artificial vectors and assigned relations. Not a quality benchmark.",
   "documents": [

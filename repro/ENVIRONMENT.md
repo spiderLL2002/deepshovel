@@ -1,15 +1,15 @@
 # Versions and environment
 
-- Public artifact release: `www2027-artifact-v1.1.1` (software citation version `1.1.1`).
+- Public artifact release: `www2027-artifact-v1.1.2` (software citation version `1.1.2`).
 - Demo manuscript: [`paper/main.pdf`](../paper/main.pdf).
-- Full Web package: 1.1.1; full Compiler package: 0.3.1.
+- Full Web package: 1.1.2; full Compiler package: 0.3.1.
 - Original source snapshot and file correspondence: `docs/source-snapshot.json`.
 - Core replay: Python standard library, reference Python 3.12.13.
 - Extended Python replay: complete pins in `repro/requirements.lock`.
 - JavaScript consumer: jsonld.js 9.0.0 and `artifact/rdfjs/package-lock.json`.
 - RDFLib: 7.6.0.
 - Web dependencies: `package-lock.json`; Node 22.13 or newer.
-- Offline fixtures use no model API or original/private checkout. Model-generated results are stored artifacts, not regenerated predictions.
+- Offline fixtures use no model API or original/private checkout. Results are stored artifacts, not regenerated predictions.
 
 ## Reasoning and research evidence
 
@@ -23,7 +23,7 @@ The preserved **reference-environment execution** used Python 3.12.13 and passed
 
 The separate cross-platform entry point is `artifact/gp15/run_portable.py --out NEW_DIRECTORY`. It executes the unchanged ten stages, permitting and reporting differences only in four specified Python-runtime fields and their verified dependent manifest entries. Scientific fields, CSVs, SVGs and PDFs retain strict byte comparison. Six explicitly named PNGs are checked as decoded pixels: the primary image must be pixel-identical; five final images must have byte-identical SVG/PDF counterparts, identical dimensions/mode/metadata, maximum channel difference 2/255 and changed-pixel ratio at most 0.0001. Only verified references to those PNG hashes and lengths may then differ. Every difference is reported; no scientific tolerance is introduced. The generated `portable-verification.json` identifies each comparison and permitted difference. Nothing is rewritten in the reference or generated files. Keep this report distinct from the strict reference result. Actual execution results are documented in the [GP15 package](../artifact/gp15/README.md). Configuring the Ubuntu job does not establish that the job has already passed; use its actual Actions logs for that revision.
 
-The [argument package](../artifact/arguments/README.md), [GP15 package](../artifact/gp15/README.md), [historical research trace](../artifact/research-trace/README.md) and [English live walkthrough](../artifact/live-demo/README.md) are the main v1.1.1 entry points. Offline checks use recorded inputs and no production credentials. Their counts describe executed checks, rather than independent scientific observations or expert labels.
+The [argument package](../artifact/arguments/README.md), [GP15 package](../artifact/gp15/README.md), [historical research trace](../artifact/research-trace/README.md) and [English live walkthrough](../artifact/live-demo/README.md) are the main v1.1.2 entry points. Offline checks use recorded inputs and no production credentials. Their counts describe executed checks, rather than independent scientific observations.
 
 ## Preserved earlier checks and output handling
 
