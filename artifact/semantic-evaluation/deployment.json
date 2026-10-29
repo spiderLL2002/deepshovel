@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T12:32:26.753917+00:00",
+  "checked_at": "2026-10-29T12:45:24.526462+00:00",
   "health": {
     "status": "ok",
     "service": "deepshovel",
@@ -19,9 +19,9 @@
     },
     {
       "path": "compiler/compiler_service/retrieval_providers.py",
-      "source_sha256": "856040e2be0d54a444992aa70427b817af3760280bfb7cba91668fa07ad5eae9",
+      "source_sha256": "71dd94dc0bdbe5bd851cdbe82573dc2767b19a33168613413228d7ede5a944bc",
       "public_source_matches": true,
-      "installed_sha256": "856040e2be0d54a444992aa70427b817af3760280bfb7cba91668fa07ad5eae9"
+      "installed_sha256": "71dd94dc0bdbe5bd851cdbe82573dc2767b19a33168613413228d7ede5a944bc"
     },
     {
       "path": "lib/evidence-retrieval/types.ts",

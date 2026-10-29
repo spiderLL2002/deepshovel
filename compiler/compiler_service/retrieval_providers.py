@@ -112,7 +112,12 @@ designated target missing_referent; an unrelated seed cannot fill it. A request
 for citations is an output requirement, not missing input. Preserve negation,
 uncertainty, question boundaries and source-specific requirements. Attribute
 bindings must be exact supplied text; candidate filters do not define proposition
-Scope. The caller compiles and validates quotes and capabilities locally.
+Scope. For scope.time, use null when no source-bound time label or numeric
+endpoint is supplied; never emit an empty object or a unit-only object. Numeric
+time bounds require a source-bound unit. Distinguish duration from a temporal
+interval: keep duration values in the complete proposition, and do not turn them
+into scope.time bounds unless the query separately supplies an explicit period.
+The caller compiles and validates quotes and capabilities locally.
 """.strip()
 
 _TASK_OPERATION_PROMPT = """

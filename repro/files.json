@@ -1751,8 +1751,8 @@
       "bytes": 1014
     },
     "artifact/live-demo/README.md": {
-      "sha256": "8f05d6fbc949e28783d406025478405dcbf909d35e974959b1a8d2528e4db624",
-      "bytes": 5114
+      "sha256": "2776c74a1b95c9dce121525be657fb7e3577d1a70d302c298cbb5040958fcc71",
+      "bytes": 5365
     },
     "artifact/live-demo/capture-manifest.json": {
       "sha256": "2c47483e7fd9672fe047c8689c3ee55c5d14060119812b80ae397a6f76283707",
@@ -2127,8 +2127,56 @@
       "bytes": 59541
     },
     "artifact/semantic-evaluation/deployment.json": {
-      "sha256": "71875f50fb567ce3eeb736add7bbfc57fe2f6b1df268a94a9370911e87c4c93b",
+      "sha256": "1710e6f7956758b71c242a2171d113ad16c501ebaeda81134595eb771866dc31",
       "bytes": 1828
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu04/ai_rerank-request.json.gz": {
+      "sha256": "2020d26bdb0be9d779e9eedbdb6442a32b56c2a005ca261ec53e108e0f945389",
+      "bytes": 2346
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu04/ai_rerank-response.json.gz": {
+      "sha256": "d95ca0791b33cb3d058a09fb0181318ddc2025ea337ded3f2830728c748065ea",
+      "bytes": 10543
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu04/ai_rerank-timing.json.gz": {
+      "sha256": "a50bfb49517b1983d9afd930b8d540509ef480a186ee43889750fbac0a971b73",
+      "bytes": 136
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu04/preview-request.json.gz": {
+      "sha256": "b6835f358fe30eb79906a3ea07637cd14d3715d7e2a52db9e7e9cbd51f32f070",
+      "bytes": 240
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu04/preview-response.json.gz": {
+      "sha256": "cb4008bf54268b3d831086e71d0c72d4975c4c1592477a8f45502f5a1f183579",
+      "bytes": 42662
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu04/preview-timing.json.gz": {
+      "sha256": "e122b39c3851b4236f1ece8c782d1c3456746af1ab7d733ad779105716641cef",
+      "bytes": 135
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu06/ai_rerank-request.json.gz": {
+      "sha256": "b05a0a00d0c2d3463abaa77d33dbb77063c5233b0137caa406befa4d962b9787",
+      "bytes": 2385
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu06/ai_rerank-response.json.gz": {
+      "sha256": "0fd309a0537338e7d98cc34abaee08863b08db1657c0ac866b9b82e7500c1f29",
+      "bytes": 8772
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu06/ai_rerank-timing.json.gz": {
+      "sha256": "bdab56a0da6bdd24923355951b9f30ca9a8742011883e33a411b1e3b10650f8d",
+      "bytes": 132
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu06/preview-request.json.gz": {
+      "sha256": "b5289b47a260e4b8c622ca7624508ce872a74fca2073adb46cc756c7d0224e8f",
+      "bytes": 240
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu06/preview-response.json.gz": {
+      "sha256": "8d697fedeb85398fd6ef55defaff71e0341fe3374b75614993868658a10cc581",
+      "bytes": 43421
+    },
+    "artifact/semantic-evaluation/f2-live/f2-mu06/preview-timing.json.gz": {
+      "sha256": "b4aa6177fffde43ee6a7ee785060a30df51c52b0315307776514f961d8254719",
+      "bytes": 134
     },
     "artifact/semantic-evaluation/fixed-candidate-ablation-v2/manifest.json": {
       "sha256": "36e5d0abcfdc8d3030ccdf0cccf880091aec3cd8fbf88fbd391ca8d0a92bb0ef",
@@ -5575,8 +5623,8 @@
       "bytes": 12824
     },
     "compiler/compiler_service/retrieval_providers.py": {
-      "sha256": "856040e2be0d54a444992aa70427b817af3760280bfb7cba91668fa07ad5eae9",
-      "bytes": 87526
+      "sha256": "71dd94dc0bdbe5bd851cdbe82573dc2767b19a33168613413228d7ede5a944bc",
+      "bytes": 87913
     },
     "compiler/compiler_service/retrieval_ranking_features.py": {
       "sha256": "8239ca32a9ed3bfa8cf80923482c2b89b5dbaa7cfaca68a437e28b60480b3868",
@@ -6023,7 +6071,7 @@
       "bytes": 13998
     },
     "docs/source-snapshot.json": {
-      "sha256": "87cd013b369a6cfffdac3be92fb3e646b3379d8205118e6533a5a1178fb54135",
+      "sha256": "a399e2c14bde881e0f590d4273f93cabec578578586a23cf23422f4769d03d6f",
       "bytes": 126961
     },
     "drizzle.config.ts": {

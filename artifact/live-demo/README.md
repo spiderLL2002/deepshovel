@@ -1,6 +1,6 @@
 # English walkthrough of the running DeepShovel service
 
-These are genuine browser captures from **29 October 2026** at https://deepshovel.iiot-shxt.xyz/. The screenshot pixels were not reconstructed. The paper crops the assumption panel from `04-assumptions.jpg`; full captures remain here.
+Browser captures from **29 October 2026** at https://deepshovel.iiot-shxt.xyz/. Full views accompany the crops used in the paper.
 
 ## Live sequence (allow about 3–5 minutes for a guided visit)
 
@@ -16,7 +16,15 @@ Exact query:
 
 > For fault F2 in the Asmari reservoir, the estimated maximum sustainable pore pressure during gas injection is 55–57 MPa under the assessed stress state, assuming zero cohesion and a friction coefficient of 0.6.
 
-The first recorded request returned 30 preview entries and nine relation groups. A repeat returned the same F2 equivalent claim and nine groups, with a changed classification of one neighboring result. `05-repeat-results.txt` preserves that second state. We do not present model classifications as deterministic replay outputs. The visible 76% is the service's model assessment, not a calibrated probability that the claim is true.
+## Change a condition
+
+Return to Claim verification and compare these two queries:
+
+> For fault F2 in the Asmari reservoir, with zero cohesion and friction coefficient 0.6, the maximum sustainable pore pressure during gas injection is 55–57 MPa.
+
+> For fault F2 in the Asmari reservoir, with zero cohesion and friction coefficient 0.4, the maximum sustainable pore pressure during gas injection is 55–57 MPa.
+
+The latest recorded public run returned **equivalent** for 0.6 and **qualifies** for 0.4. Open the result's assumptions to locate the source coefficient of 0.6 and then follow its original-page link. [Requests and responses](../semantic-evaluation/f2-live/) preserve this pair; [evaluation instructions](../semantic-evaluation/README.md) explain how to issue fresh queries.
 
 ## Capture sequence
 
