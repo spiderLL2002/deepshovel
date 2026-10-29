@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "query": {
+        "text": "For fault F2 in the Asmari reservoir, with zero cohesion and friction coefficient 0.4, the maximum sustainable pore pressure during gas injection is 55–57 MPa.",
+        "queryClaim": null,
+        "intent": "claim_search",
+        "corpus": "cross_paper",
+        "paperIds": [],
+        "paperFamilyIds": [],
+        "scope": null,
+        "mustTerms": [],
+        "excludeTerms": [],
+        "claimTypes": [],
+        "polarity": null
+      },
+      "relation": {
+        "relation": "qualifies",
+        "confidence": 0.97,
+        "direction": "result_to_query",
+        "scopeRelation": "overlap"
+      },
+      "response": "mu04.json.gz",
+      "sha256": "1dc49ef74b5de498257bd9ac07464c401ccb243849693f7390f5b0491f101f8b",
+      "elapsed_seconds": 37.249481582
+    },
+    {
+      "query": {
+        "text": "For fault F2 in the Asmari reservoir, with zero cohesion and friction coefficient 0.6, the maximum sustainable pore pressure during gas injection is 55–57 MPa.",
+        "queryClaim": null,
+        "intent": "claim_search",
+        "corpus": "cross_paper",
+        "paperIds": [],
+        "paperFamilyIds": [],
+        "scope": null,
+        "mustTerms": [],
+        "excludeTerms": [],
+        "claimTypes": [],
+        "polarity": null
+      },
+      "relation": {
+        "relation": "supports",
+        "confidence": 0.99,
+        "direction": "result_to_query",
+        "scopeRelation": "equivalent"
+      },
+      "response": "mu06.json.gz",
+      "sha256": "b89a75d482c74ebb8ec3814d52a1e3fce5130452e7a7bae2ac16be6355beb20b",
+      "elapsed_seconds": 36.214004875
+    }
+  ],
+  "omitted_fields": [
+    "queryPlanHandoff",
+    "query_plan_handoff"
+  ]
+}

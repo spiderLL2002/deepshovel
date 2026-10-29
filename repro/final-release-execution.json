@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "live": false,
+  "steps": [
+    {
+      "name": "release-files",
+      "exit_code": 0,
+      "seconds": 0.13772262500060606
+    },
+    {
+      "name": "dependencies",
+      "exit_code": 0,
+      "seconds": 10.053849916999752
+    },
+    {
+      "name": "retrieval-metrics",
+      "exit_code": 0,
+      "seconds": 0.06499095800245414
+    },
+    {
+      "name": "argument-expansion",
+      "exit_code": 0,
+      "seconds": 0.2927868330007186
+    },
+    {
+      "name": "semantic-metrics",
+      "exit_code": 0,
+      "seconds": 0.2321408749994589
+    },
+    {
+      "name": "semantic-inputs",
+      "exit_code": 0,
+      "seconds": 1.0825477090002096
+    },
+    {
+      "name": "research-sources",
+      "exit_code": 0,
+      "seconds": 0.04991020800298429
+    },
+    {
+      "name": "research-claims",
+      "exit_code": 0,
+      "seconds": 0.47658837500057416
+    },
+    {
+      "name": "research-trace",
+      "exit_code": 0,
+      "seconds": 0.043425832998764236
+    },
+    {
+      "name": "research-computation",
+      "exit_code": 0,
+      "seconds": 12.587058125001931
+    }
+  ]
+}
