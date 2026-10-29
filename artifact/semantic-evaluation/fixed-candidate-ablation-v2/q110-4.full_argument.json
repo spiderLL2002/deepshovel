@@ -1,0 +1,90 @@
+{
+  "id": "q110-4",
+  "condition": "full_argument",
+  "started_at": "2026-10-29T12:19:48.996608+00:00",
+  "query": "In the Fiskegrav study, the reported 1.6–8 kyr collapse duration was obtained by direct elapsed-time measurement rather than estimated from revised sedimentation rates.",
+  "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+  "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+  "user_content": "{\"candidates\":[{\"argument\":{\"claim_id\":\"claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38\",\"edges\":[{\"relation\":\"premise_for\",\"source_id\":\"obs.duration.new\",\"target_id\":\"reason.duration\"},{\"relation\":\"premise_for\",\"source_id\":\"obs.duration.old\",\"target_id\":\"reason.duration\"},{\"relation\":\"infers\",\"source_id\":\"reason.duration\",\"target_id\":\"claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38\"},{\"relation\":\"grounds\",\"source_id\":\"a.duration.new\",\"target_id\":\"obs.duration.new\"},{\"relation\":\"grounds\",\"source_id\":\"a.duration.old\",\"target_id\":\"obs.duration.old\"}],\"nodes\":[{\"anchor_ids\":[],\"id\":\"a.duration.new\",\"kind\":\"source_anchor\",\"scope\":null,\"statement\":\"however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.\"},{\"anchor_ids\":[],\"id\":\"a.duration.old\",\"kind\":\"source_anchor\",\"scope\":null,\"statement\":\"(2001) showed that collapse of marine and terrestrial ecosystems was synchronous and took between 10 and 60 kyr.\"},{\"anchor_ids\":[\"a.duration.new\",\"a.duration.old\"],\"id\":\"claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38\",\"kind\":\"atomic_claim\",\"scope\":{\"condition\":[\"Shallow-marine shelf setting\"],\"entities\":[\"AOM\",\"Fiskegrav section\",\"Micrhystridium breve\",\"acritarchs\",\"freshwater run-off\",\"marine and terrestrial ecosystems\"],\"formation\":[\"Schuchert Dal and Wordie Creek formations\"],\"location\":[\"Fiskegrav, central Jameson Land, East Greenland\"],\"measurement\":[\"Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context\"],\"method\":[\"High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses\"],\"sample_type\":[\"Stratigraphic palynological samples\"],\"time\":{\"end\":null,\"label\":\"Late Permian extinction and Permian–Triassic boundary\",\"start\":null,\"unit\":null},\"uncertainty\":\"Salinity is proxy-inferred; duration estimates depend on sedimentation rates.\"},\"statement\":\"At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.\"},{\"anchor_ids\":[\"a.duration.new\"],\"id\":\"obs.duration.new\",\"kind\":\"observation\",\"scope\":{\"condition\":[\"Shallow-marine shelf setting\"],\"entities\":[\"AOM\",\"Fiskegrav section\",\"Micrhystridium breve\",\"acritarchs\",\"freshwater run-off\",\"marine and terrestrial ecosystems\"],\"formation\":[\"Schuchert Dal and Wordie Creek formations\"],\"location\":[\"Fiskegrav, central Jameson Land, East Greenland\"],\"measurement\":[\"Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context\"],\"method\":[\"High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses\"],\"sample_type\":[\"Stratigraphic palynological samples\"],\"time\":{\"end\":null,\"label\":\"Late Permian extinction and Permian–Triassic boundary\",\"start\":null,\"unit\":null},\"uncertainty\":\"Salinity is proxy-inferred; duration estimates depend on sedimentation rates.\"},\"statement\":\"Revised sedimentation-rate estimates for Fiskegrav place the marine and terrestrial ecosystem collapse at 1.6–8 kyr.\"},{\"anchor_ids\":[\"a.duration.old\"],\"id\":\"obs.duration.old\",\"kind\":\"observation\",\"scope\":{\"condition\":[\"Shallow-marine shelf setting\"],\"entities\":[\"AOM\",\"Fiskegrav section\",\"Micrhystridium breve\",\"acritarchs\",\"freshwater run-off\",\"marine and terrestrial ecosystems\"],\"formation\":[\"Schuchert Dal and Wordie Creek formations\"],\"location\":[\"Fiskegrav, central Jameson Land, East Greenland\"],\"measurement\":[\"Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context\"],\"method\":[\"High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses\"],\"sample_type\":[\"Stratigraphic palynological samples\"],\"time\":{\"end\":null,\"label\":\"Late Permian extinction and Permian–Triassic boundary\",\"start\":null,\"unit\":null},\"uncertainty\":\"Salinity is proxy-inferred; duration estimates depend on sedimentation rates.\"},\"statement\":\"Earlier work estimated the synchronous marine and terrestrial ecosystem collapse at 10–60 kyr.\"},{\"anchor_ids\":[\"a.duration.new\",\"a.duration.old\"],\"id\":\"reason.duration\",\"kind\":\"reasoning\",\"scope\":{\"condition\":[\"Shallow-marine shelf setting\"],\"entities\":[\"AOM\",\"Fiskegrav section\",\"Micrhystridium breve\",\"acritarchs\",\"freshwater run-off\",\"marine and terrestrial ecosystems\"],\"formation\":[\"Schuchert Dal and Wordie Creek formations\"],\"location\":[\"Fiskegrav, central Jameson Land, East Greenland\"],\"measurement\":[\"Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context\"],\"method\":[\"High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses\"],\"sample_type\":[\"Stratigraphic palynological samples\"],\"time\":{\"end\":null,\"label\":\"Late Permian extinction and Permian–Triassic boundary\",\"start\":null,\"unit\":null},\"uncertainty\":\"Salinity is proxy-inferred; duration estimates depend on sedimentation rates.\"},\"statement\":\"The revised sedimentation-rate estimate of 1.6–8 kyr is substantially shorter than the earlier 10–60 kyr estimate, supporting a shorter duration for ecosystem collapse at Fiskegrav.\"}],\"snapshot_id\":\"snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d\",\"truncated\":false},\"claim\":\"At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.\",\"id\":1,\"scope\":{\"condition\":[\"Shallow-marine shelf setting\"],\"entities\":[\"AOM\",\"Fiskegrav section\",\"Micrhystridium breve\",\"acritarchs\",\"freshwater run-off\",\"marine and terrestrial ecosystems\"],\"formation\":[\"Schuchert Dal and Wordie Creek formations\"],\"location\":[\"Fiskegrav, central Jameson Land, East Greenland\"],\"measurement\":[\"Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context\"],\"method\":[\"High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses\"],\"sample_type\":[\"Stratigraphic palynological samples\"],\"time\":{\"label\":\"Late Permian extinction and Permian–Triassic boundary\"},\"uncertainty\":\"Salinity is proxy-inferred; duration estimates depend on sedimentation rates.\"}}],\"query\":\"In the Fiskegrav study, the reported 1.6–8 kyr collapse duration was obtained by direct elapsed-time measurement rather than estimated from revised sedimentation rates.\"}",
+  "user_content_sha256": "e4ac81ab00d8d3951a98e0c993b3ffa4f99934cf8ce742c9d09660c7a2d7f844",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:19:49.006033+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "e4ac81ab00d8d3951a98e0c993b3ffa4f99934cf8ce742c9d09660c7a2d7f844",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291219491205098998268d9d6PFMnq71u"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 98
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_0fd18a4a9e971ead016ae339e5cd98819197c1cb6ee6104679",
+        "output_bytes": 110,
+        "output_sha256": "6fcfe5e124170b5c1375b1c04ba235f663f7f140479750257228280d4e36af35",
+        "usage": {
+          "prompt_tokens": 2221,
+          "completion_tokens": 143,
+          "total_tokens": 2364
+        },
+        "elapsed_seconds": 2.972,
+        "finished_at": "2026-10-29T12:19:51.978305+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"contradicts\",\"direction\":\"result_to_query\",\"scope\":\"overlap\",\"score\":0.99}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "6fcfe5e124170b5c1375b1c04ba235f663f7f140479750257228280d4e36af35",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 110,
+      "content_sha256": "6fcfe5e124170b5c1375b1c04ba235f663f7f140479750257228280d4e36af35",
+      "usage": {
+        "prompt_tokens": 2221,
+        "completion_tokens": 143,
+        "total_tokens": 2364,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 2.974199915999634,
+  "finished_at": "2026-10-29T12:19:51.979980+00:00"
+}

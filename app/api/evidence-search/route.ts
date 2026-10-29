@@ -23,6 +23,7 @@ import {
   type RetrievalSearchResponse,
 } from "@/lib/evidence-retrieval";
 import { RetrievalClient } from "@/lib/server/retrieval-client";
+import { loadRetrievalArguments } from "@/lib/server/retrieval-arguments";
 import { quickSearchRefs } from "@/lib/server/quick-search";
 import {
   createRetrievalSession,
@@ -465,6 +466,12 @@ async function runCompilerSearch(DB: D1Database, signal: AbortSignal, resolved: 
   }
   const client = new RetrievalClient({ ...configuration, sharedSecret: configuration.sharedSecret, interactive: true });
   const serviceRequest = toEvidenceRetrievalSearchRequestDto(PROJECT_ID, resolved);
+  if (serviceRequest.stage === "ai_rerank") {
+    const refs = [...serviceRequest.candidate_refs];
+    const selected = serviceRequest.query_claim;
+    if (selected && !refs.some(ref => ref.snapshot_id === selected.snapshot_id && ref.claim_id === selected.claim_id)) refs.push(selected);
+    serviceRequest.argument_contexts = await loadRetrievalArguments(DB, PROJECT_ID, refs, selected?.snapshot_id);
+  }
   try {
     assertNotCancelled(signal);
     // Indexing happens in the background work queue; a search only reports

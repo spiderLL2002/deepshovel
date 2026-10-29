@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-29T12:32:26.753917+00:00",
+  "health": {
+    "status": "ok",
+    "service": "deepshovel",
+    "release": "1.1.1+57b6a970a690-dirty"
+  },
+  "comparison_sources": [
+    {
+      "path": "app/api/evidence-search/route.ts",
+      "source_sha256": "7af4d7ceb1765df1159f1c3ae2770e8258f5aa77a15133a36c29a620e403174a",
+      "public_source_matches": true
+    },
+    {
+      "path": "compiler/compiler_service/retrieval_contract.py",
+      "source_sha256": "940b05865c373b4003475d0b32e68207402574032a38e18db675e517ab6c91f4",
+      "public_source_matches": true,
+      "installed_sha256": "940b05865c373b4003475d0b32e68207402574032a38e18db675e517ab6c91f4"
+    },
+    {
+      "path": "compiler/compiler_service/retrieval_providers.py",
+      "source_sha256": "856040e2be0d54a444992aa70427b817af3760280bfb7cba91668fa07ad5eae9",
+      "public_source_matches": true,
+      "installed_sha256": "856040e2be0d54a444992aa70427b817af3760280bfb7cba91668fa07ad5eae9"
+    },
+    {
+      "path": "lib/evidence-retrieval/types.ts",
+      "source_sha256": "bbb1ec501f50e7f73884db12eedcaedbcd89482b93476510f545da05d17d8e91",
+      "public_source_matches": true
+    },
+    {
+      "path": "lib/evidence-retrieval/arguments.ts",
+      "source_sha256": "3b72c554cfbfbcb65fa042d92b8faf087f1512e3c78c0474ffd7b2b62569f0bc",
+      "public_source_matches": true
+    },
+    {
+      "path": "lib/server/retrieval-arguments.ts",
+      "source_sha256": "8cee125b9c29c89639f063c24dc896b3f6fa78a0b2d98ab8540053bc74bbb0f9",
+      "public_source_matches": true
+    }
+  ],
+  "frontend_build": "Published source files match the private checkout used by the completed public-update deployment; installed Web runtime contains compiled assets.",
+  "public_result_projection_excluded_fields": [
+    "queryPlanHandoff",
+    "query_plan_handoff"
+  ]
+}

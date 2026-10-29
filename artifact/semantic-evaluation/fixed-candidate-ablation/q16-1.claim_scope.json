@@ -1,0 +1,90 @@
+{
+  "id": "q16-1",
+  "condition": "claim_scope",
+  "started_at": "2026-10-29T12:10:20.376033+00:00",
+  "query": "Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.",
+  "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+  "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+  "user_content": "{\"candidates\":[{\"claim\":\"Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.\",\"id\":1,\"scope\":{\"condition\":[\"along ~200 km profile; station-specific Vp\"],\"entities\":[\"Red Sea rift\",\"Tendaho graben\",\"crustal thickness\",\"overlap zone\"],\"formation\":[\"Red Sea rift, Tendaho graben, Dobi graben, overlap zone\"],\"location\":[\"Afar Depression, Ethiopia\"],\"measurement\":[\"crustal thickness H\"],\"method\":[\"receiver function H-κ stacking\"],\"sample_type\":[\"broadband seismic stations\"],\"time\":{\"label\":\"2010–2011 ALIE array plus early-2000 to mid-2012 data\"},\"uncertainty\":\"bootstrap standard errors\"}}],\"query\":\"Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.\"}",
+  "user_content_sha256": "0eccf8f5b00eb051c8307fb0cc3d01e4ebb8340c1eaaa9c90a3a452b901f1f45",
+  "system_prompt_sha256": "59dfc97ecaa71ef87ff30a455d3f788b3aaff26b568b3bdfb09a9201dea0e1fb",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:10:20.425808+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "59dfc97ecaa71ef87ff30a455d3f788b3aaff26b568b3bdfb09a9201dea0e1fb",
+        "input_sha256": "0eccf8f5b00eb051c8307fb0cc3d01e4ebb8340c1eaaa9c90a3a452b901f1f45",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291210214874511298268d9d6O0h02l1Y"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 21
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_0fee5b86fa5e9b57016ae337b3304c819180dcff6118845f82",
+        "output_bytes": 109,
+        "output_sha256": "77d59849bafbc7c32c86a6311a6859b2300b7cec92b27e664b9a05776ac286fd",
+        "usage": {
+          "prompt_tokens": 834,
+          "completion_tokens": 63,
+          "total_tokens": 897
+        },
+        "elapsed_seconds": 8.301,
+        "finished_at": "2026-10-29T12:10:28.726565+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"equivalent\",\"direction\":\"result_to_query\",\"scope\":\"equivalent\",\"score\":1}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 1
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "77d59849bafbc7c32c86a6311a6859b2300b7cec92b27e664b9a05776ac286fd",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 109,
+      "content_sha256": "77d59849bafbc7c32c86a6311a6859b2300b7cec92b27e664b9a05776ac286fd",
+      "usage": {
+        "prompt_tokens": 834,
+        "completion_tokens": 63,
+        "total_tokens": 897,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 8.302210625000953,
+  "finished_at": "2026-10-29T12:10:28.727487+00:00"
+}

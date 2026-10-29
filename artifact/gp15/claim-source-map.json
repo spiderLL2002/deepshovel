@@ -6,7 +6,8 @@
   "manuscript": {
     "path": "iteration-2026-10-27/manuscript/p20/manuscript.en.md",
     "sha256": "050c0c49307395291055d7c7062e93b875b15604bfed6631a17ef1beff466810",
-    "export_path": "scientific-manuscript.en.md"
+    "export_path": "scientific-manuscript.en.md",
+    "public_sha256": "c4e5440c17e4fc2998c64f4587492b0c59200a9cd393b3932d5736236a844290"
   },
   "supplement": {
     "path": "iteration-2026-10-27/manuscript/p20/supplementary.en.md",

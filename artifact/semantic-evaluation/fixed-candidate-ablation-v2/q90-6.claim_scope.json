@@ -1,0 +1,90 @@
+{
+  "id": "q90-6",
+  "condition": "claim_scope",
+  "started_at": "2026-10-29T12:19:37.642437+00:00",
+  "query": "The annual denitrification nitrogen loss of 3.70–11.1 Tg applies to the global ocean.",
+  "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+  "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+  "user_content": "{\"candidates\":[{\"claim\":\"Extrapolating isotope-pairing denitrification rates over the western Indian continental shelf estimates annual fixed-nitrogen removal via denitrification at 3.70–11.1 Tg year−1; Table 2 reports the upper endpoint as 11.11.\",\"id\":1,\"scope\":{\"condition\":[\"seasonal anoxia\"],\"entities\":[\"annual fixed-nitrogen removal via denitrification\",\"western Indian continental shelf (WICS)\"],\"formation\":[],\"location\":[\"western Indian continental shelf, eastern Arabian Sea\"],\"measurement\":[\"annualized fixed-nitrogen removal\"],\"method\":[\"extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume\"],\"sample_type\":[\"estimated reducing-water volume over the shelf\"],\"time\":{\"label\":\"annualized from three-year sampling using an assumed 90-day reducing season\"},\"uncertainty\":\"shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty\"}}],\"query\":\"The annual denitrification nitrogen loss of 3.70–11.1 Tg applies to the global ocean.\"}",
+  "user_content_sha256": "195142d1c82118ef1e561daf6ce018d6591f439b14c0ae7056f0588838f13911",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:19:37.651920+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "195142d1c82118ef1e561daf6ce018d6591f439b14c0ae7056f0588838f13911",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291219377675275498268d9d6ckedZSXA"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 138
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_065ea6be47cd294e016ae339da59b081918d035820b851faa3",
+        "output_bytes": 123,
+        "output_sha256": "124e1d4453c8520f829262fb2a67c29bdd02c99c99abddba343c0133ead75786",
+        "usage": {
+          "prompt_tokens": 816,
+          "completion_tokens": 184,
+          "total_tokens": 1000
+        },
+        "elapsed_seconds": 3.682,
+        "finished_at": "2026-10-29T12:19:41.333985+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"qualifies\",\"direction\":\"result_to_query\",\"scope\":\"candidate_within_query\",\"score\":0.94}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "qualifies",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.94
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "124e1d4453c8520f829262fb2a67c29bdd02c99c99abddba343c0133ead75786",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 123,
+      "content_sha256": "124e1d4453c8520f829262fb2a67c29bdd02c99c99abddba343c0133ead75786",
+      "usage": {
+        "prompt_tokens": 816,
+        "completion_tokens": 184,
+        "total_tokens": 1000,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 3.6830742080001073,
+  "finished_at": "2026-10-29T12:19:41.334718+00:00"
+}

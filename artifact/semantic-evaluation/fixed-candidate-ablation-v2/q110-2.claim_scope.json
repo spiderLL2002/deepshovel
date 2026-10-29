@@ -1,0 +1,90 @@
+{
+  "id": "q110-2",
+  "condition": "claim_scope",
+  "started_at": "2026-10-29T12:19:44.266274+00:00",
+  "query": "The revised sedimentation rates assign 10–60 kyr to the Fiskegrav late Permian ecosystem collapse, longer than the earlier 1.6–8 kyr estimate.",
+  "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+  "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+  "user_content": "{\"candidates\":[{\"claim\":\"At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.\",\"id\":1,\"scope\":{\"condition\":[\"Shallow-marine shelf setting\"],\"entities\":[\"AOM\",\"Fiskegrav section\",\"Micrhystridium breve\",\"acritarchs\",\"freshwater run-off\",\"marine and terrestrial ecosystems\"],\"formation\":[\"Schuchert Dal and Wordie Creek formations\"],\"location\":[\"Fiskegrav, central Jameson Land, East Greenland\"],\"measurement\":[\"Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context\"],\"method\":[\"High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses\"],\"sample_type\":[\"Stratigraphic palynological samples\"],\"time\":{\"label\":\"Late Permian extinction and Permian–Triassic boundary\"},\"uncertainty\":\"Salinity is proxy-inferred; duration estimates depend on sedimentation rates.\"}}],\"query\":\"The revised sedimentation rates assign 10–60 kyr to the Fiskegrav late Permian ecosystem collapse, longer than the earlier 1.6–8 kyr estimate.\"}",
+  "user_content_sha256": "d5e88aa943d86560d44c0e34087d43aeb55359150a3ddf5afd6f4d2372bdc766",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:19:44.280007+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "d5e88aa943d86560d44c0e34087d43aeb55359150a3ddf5afd6f4d2372bdc766",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291219444133238598268d9d6953XvlZE"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 115
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_09c97f48cf35f2bb016ae339e0fe008191a18a469e4fe02d50",
+        "output_bytes": 110,
+        "output_sha256": "6fcfe5e124170b5c1375b1c04ba235f663f7f140479750257228280d4e36af35",
+        "usage": {
+          "prompt_tokens": 861,
+          "completion_tokens": 160,
+          "total_tokens": 1021
+        },
+        "elapsed_seconds": 3.89,
+        "finished_at": "2026-10-29T12:19:48.170366+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"contradicts\",\"direction\":\"result_to_query\",\"scope\":\"overlap\",\"score\":0.99}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.99
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "6fcfe5e124170b5c1375b1c04ba235f663f7f140479750257228280d4e36af35",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 110,
+      "content_sha256": "6fcfe5e124170b5c1375b1c04ba235f663f7f140479750257228280d4e36af35",
+      "usage": {
+        "prompt_tokens": 861,
+        "completion_tokens": 160,
+        "total_tokens": 1021,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 3.8913516249995155,
+  "finished_at": "2026-10-29T12:19:48.171072+00:00"
+}

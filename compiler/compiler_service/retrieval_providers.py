@@ -270,8 +270,20 @@ Relations: equivalent = same proposition; supports = directly supports;
 contradicts = opposing conclusion on the same issue; qualifies = limits its
 conditions or certainty; refines = more specific; supplements = complementary
 information; related = relevant without a stronger relation; unrelated = irrelevant.
+Judge the whole query, including its method attribution, time basis and comparative
+direction. A shared number does not establish support or equivalence when another
+essential clause differs. Use the argument to check those clauses: an explicitly
+opposing statement is a contradiction, while an unestablished transfer is not.
 Judge scope and direction from the supplied text. result_to_query means the
 candidate supports/refines/qualifies the query; query_to_result is the reverse.
+Read each candidate's recorded argument: assumptions and intermediate premises
+restrict its conclusion even when omitted from the short claim. Compare the
+query's parameters and conditions with these inputs. A changed or missing
+required condition does not establish equivalence, support or contradiction;
+retain relevant evidence as related or qualifies when warranted. Do not infer
+new numerical predictions. A truncated argument cannot establish a strong
+relation without the missing inputs. Shared source quotations are provenance,
+not independent corroboration. Apply the same checks to a selected query claim.
 Use result_to_query for other relations. Score is confidence in the relation,
 from 0 to 1. Return only the requested short JSON, without explanations.
 """.strip()
@@ -774,6 +786,10 @@ def compiled_context_relation_input(
     )
     ordered_context_candidate_manifest_sha256(candidates)
     if interactive_search_enabled():
+        arguments = {
+            (item.snapshot_id, item.claim_id): item.model_dump(mode="json")
+            for item in request.argument_contexts
+        }
         task = task_contract_input_projection(
             request, context=context, query_document=query_document
         )
@@ -786,6 +802,8 @@ def compiled_context_relation_input(
                     "scope": candidate.scope.model_dump(
                         mode="json", exclude_none=True, exclude_defaults=True
                     ),
+                    **({"argument": arguments[(candidate.snapshot_id, candidate.claim_id)]}
+                       if (candidate.snapshot_id, candidate.claim_id) in arguments else {}),
                 }
                 for index, candidate in enumerate(candidates, start=1)
             ],
@@ -803,6 +821,9 @@ def compiled_context_relation_input(
                     mode="json", exclude_none=True, exclude_defaults=True
                 ),
             }
+            key = (query_document.snapshot_id, query_document.claim_id)
+            if key in arguments:
+                payload["selected_claim"]["argument"] = arguments[key]
         if len(canonical_json(payload).encode()) > _INTERACTIVE_RELATION_REQUEST_BYTES:
             raise QueryPlanningInputTooLarge("relation input exceeds 1 MiB")
         return payload
@@ -881,6 +902,7 @@ def context_task_projection(
             "clarification_selection",
             "query_plan_handoff",
             "candidate_refs",
+            "argument_contexts",  # Candidate evidence is not the user's planned task.
             "stage",
         },
     )

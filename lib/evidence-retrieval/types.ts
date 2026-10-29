@@ -371,6 +371,7 @@ export interface EvidenceRetrievalManifestCheckRequestDto {
 }
 
 export interface EvidenceRetrievalSearchRequestDto {
+  argument_contexts?: import("./arguments.ts").RetrievalArgumentContext[];
   schema_version: EvidenceRetrievalSearchProtocolVersion;
   project_id: string;
   stage: EvidenceSearchStage;

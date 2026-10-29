@@ -1,0 +1,90 @@
+{
+  "id": "q30-3",
+  "condition": "claim_scope",
+  "started_at": "2026-10-29T12:18:35.147674+00:00",
+  "query": "Around the Emperor Seamount Chain at 6,000–7,000 m, bottom currents are stronger than in the open subarctic abyssal plain.",
+  "claim_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+  "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+  "user_content": "{\"candidates\":[{\"claim\":\"Hydrodynamic conditions around the Emperor Seamount Chain are stronger than in the open subarctic abyssal plain, especially at water depths of 1,000–2,500 m, as indicated by sortable-silt grain size.\",\"id\":1,\"scope\":{\"condition\":[\"water depths 1,313–5,709 m\"],\"entities\":[\"bottom currents\",\"sortable silt\",\"surface sediments\"],\"formation\":[],\"location\":[\"Emperor Seamount Chain, North Pacific\"],\"measurement\":[\"grain size and mean grain size of sortable silt\"],\"method\":[\"grain-size correlations, sortable-silt proxy, and end-member comparison\"],\"sample_type\":[\"50 Holocene surface sediments\"],\"time\":{\"label\":\"Holocene interval\"}}}],\"query\":\"Around the Emperor Seamount Chain at 6,000–7,000 m, bottom currents are stronger than in the open subarctic abyssal plain.\"}",
+  "user_content_sha256": "c251fa78f6a32c5624857ddc9fe823cc202e81fcad4f7021b5ec71bf0ef47a09",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:18:35.168082+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "c251fa78f6a32c5624857ddc9fe823cc202e81fcad4f7021b5ec71bf0ef47a09",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291218353848959178268d9d6prgKChix"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 193
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_0f64cf8944cba3b8016ae3399be488819197db7ff45a6137ea",
+        "output_bytes": 107,
+        "output_sha256": "9a87a15837328ff4488005dd6ff8a5160791db0da6c892c983b2045f58932bca",
+        "usage": {
+          "prompt_tokens": 778,
+          "completion_tokens": 236,
+          "total_tokens": 1014
+        },
+        "elapsed_seconds": 4.377,
+        "finished_at": "2026-10-29T12:18:39.544847+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"related\",\"direction\":\"result_to_query\",\"scope\":\"disjoint\",\"score\":0.93}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.93
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "9a87a15837328ff4488005dd6ff8a5160791db0da6c892c983b2045f58932bca",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 107,
+      "content_sha256": "9a87a15837328ff4488005dd6ff8a5160791db0da6c892c983b2045f58932bca",
+      "usage": {
+        "prompt_tokens": 778,
+        "completion_tokens": 236,
+        "total_tokens": 1014,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 4.378821041000265,
+  "finished_at": "2026-10-29T12:18:39.545935+00:00"
+}

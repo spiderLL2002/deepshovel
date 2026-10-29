@@ -1,0 +1,90 @@
+{
+  "id": "q16-4",
+  "condition": "claim_scope",
+  "started_at": "2026-10-29T12:18:18.228408+00:00",
+  "query": "In this Afar study, the reported average crustal thickness of 22 ± 4 km was obtained from direct drilling rather than receiver-function stacking.",
+  "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+  "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+  "user_content": "{\"candidates\":[{\"claim\":\"Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.\",\"id\":1,\"scope\":{\"condition\":[\"along ~200 km profile; station-specific Vp\"],\"entities\":[\"Red Sea rift\",\"Tendaho graben\",\"crustal thickness\",\"overlap zone\"],\"formation\":[\"Red Sea rift, Tendaho graben, Dobi graben, overlap zone\"],\"location\":[\"Afar Depression, Ethiopia\"],\"measurement\":[\"crustal thickness H\"],\"method\":[\"receiver function H-κ stacking\"],\"sample_type\":[\"broadband seismic stations\"],\"time\":{\"label\":\"2010–2011 ALIE array plus early-2000 to mid-2012 data\"},\"uncertainty\":\"bootstrap standard errors\"}}],\"query\":\"In this Afar study, the reported average crustal thickness of 22 ± 4 km was obtained from direct drilling rather than receiver-function stacking.\"}",
+  "user_content_sha256": "d6a56519d2379a755224e98b3042e1a7bdb6f4c5e413f495aa5495b30577f311",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:18:18.237476+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "d6a56519d2379a755224e98b3042e1a7bdb6f4c5e413f495aa5495b30577f311",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291218185432188248268d9d6HR849Gqk"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 142
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_0e6ca3873a4057f7016ae3398b914c8191a7f3bccd27b2ecd1",
+        "output_bytes": 125,
+        "output_sha256": "bd591c842b6f78dcc0294734af96494eb9132df7712ac7788fdc0f9fc5f724a0",
+        "usage": {
+          "prompt_tokens": 845,
+          "completion_tokens": 189,
+          "total_tokens": 1034
+        },
+        "elapsed_seconds": 5.002,
+        "finished_at": "2026-10-29T12:18:23.238935+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"contradicts\",\"direction\":\"result_to_query\",\"scope\":\"query_within_candidate\",\"score\":0.99}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "query_within_candidate",
+        "score": 0.99
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "bd591c842b6f78dcc0294734af96494eb9132df7712ac7788fdc0f9fc5f724a0",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 125,
+      "content_sha256": "bd591c842b6f78dcc0294734af96494eb9132df7712ac7788fdc0f9fc5f724a0",
+      "usage": {
+        "prompt_tokens": 845,
+        "completion_tokens": 189,
+        "total_tokens": 1034,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 5.002729082998485,
+  "finished_at": "2026-10-29T12:18:23.239916+00:00"
+}

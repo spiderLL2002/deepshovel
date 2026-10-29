@@ -1,0 +1,90 @@
+{
+  "id": "q90-2",
+  "condition": "claim_scope",
+  "started_at": "2026-10-29T12:19:20.166051+00:00",
+  "query": "Under the original 90-day annualization assumptions, western Indian continental shelf denitrification removes 370–1,110 Tg nitrogen per year.",
+  "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+  "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+  "user_content": "{\"candidates\":[{\"claim\":\"Extrapolating isotope-pairing denitrification rates over the western Indian continental shelf estimates annual fixed-nitrogen removal via denitrification at 3.70–11.1 Tg year−1; Table 2 reports the upper endpoint as 11.11.\",\"id\":1,\"scope\":{\"condition\":[\"seasonal anoxia\"],\"entities\":[\"annual fixed-nitrogen removal via denitrification\",\"western Indian continental shelf (WICS)\"],\"formation\":[],\"location\":[\"western Indian continental shelf, eastern Arabian Sea\"],\"measurement\":[\"annualized fixed-nitrogen removal\"],\"method\":[\"extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume\"],\"sample_type\":[\"estimated reducing-water volume over the shelf\"],\"time\":{\"label\":\"annualized from three-year sampling using an assumed 90-day reducing season\"},\"uncertainty\":\"shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty\"}}],\"query\":\"Under the original 90-day annualization assumptions, western Indian continental shelf denitrification removes 370–1,110 Tg nitrogen per year.\"}",
+  "user_content_sha256": "0104d58b87eb0851138569475b16828f4a1cfa1dd54431855a6316924ecf0c2e",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:19:20.175069+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "0104d58b87eb0851138569475b16828f4a1cfa1dd54431855a6316924ecf0c2e",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291219203252881848268d9d6NDmLEwzw"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 145
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_0df108a95b9e4d60016ae339c96a6c8191852489050904b344",
+        "output_bytes": 111,
+        "output_sha256": "91836901c745142f110920080f8497ff03f93d0f6e65dcde8e13b44fcbf436be",
+        "usage": {
+          "prompt_tokens": 822,
+          "completion_tokens": 190,
+          "total_tokens": 1012
+        },
+        "elapsed_seconds": 5.207,
+        "finished_at": "2026-10-29T12:19:25.382442+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"contradicts\",\"direction\":\"result_to_query\",\"scope\":\"disjoint\",\"score\":0.99}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.99
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "91836901c745142f110920080f8497ff03f93d0f6e65dcde8e13b44fcbf436be",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 111,
+      "content_sha256": "91836901c745142f110920080f8497ff03f93d0f6e65dcde8e13b44fcbf436be",
+      "usage": {
+        "prompt_tokens": 822,
+        "completion_tokens": 190,
+        "total_tokens": 1012,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 5.208308792000025,
+  "finished_at": "2026-10-29T12:19:25.383098+00:00"
+}

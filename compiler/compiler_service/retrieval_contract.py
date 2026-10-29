@@ -21,6 +21,7 @@ from pydantic import (
     AfterValidator,
     BeforeValidator,
     Field,
+    JsonValue,
     RootModel,
     SerializerFunctionWrapHandler,
     StringConstraints,
@@ -664,7 +665,43 @@ class NeedsContextRequired(NeedsContextPrompt):
     context_token: ContextToken
 
 
+class RetrievalArgumentNode(StrictModel):
+    id: Identifier
+    kind: TermText
+    statement: Annotated[str, Field(max_length=8000)]
+    scope: dict[str, JsonValue] | None
+    anchor_ids: list[Identifier]
+
+
+class RetrievalArgumentEdge(StrictModel):
+    source_id: Identifier
+    target_id: Identifier
+    relation: TermText
+
+
+class RetrievalArgumentContext(StrictModel):
+    snapshot_id: Identifier
+    claim_id: Identifier
+    nodes: Annotated[list[RetrievalArgumentNode], Field(max_length=256)]
+    edges: Annotated[list[RetrievalArgumentEdge], Field(max_length=512)]
+    truncated: bool
+
+    @model_validator(mode="after")
+    def valid_dependencies(self):
+        ids = {node.id for node in self.nodes}
+        if len(ids) != len(self.nodes):
+            raise ValueError("argument nodes must have unique ids")
+        if any(edge.source_id not in ids or edge.target_id not in ids for edge in self.edges):
+            raise ValueError("argument edge endpoints must be retained")
+        if not self.truncated and self.claim_id not in ids:
+            raise ValueError("complete argument must contain its claim")
+        return self
+
+
 class HybridSearchRequest(StrictModel):
+    argument_contexts: Annotated[list[RetrievalArgumentContext], Field(max_length=1024)] = Field(
+        default_factory=list, exclude_if=lambda value: not value
+    )
     schema_version: SearchSchemaVersion
     project_id: Identifier
     stage: Literal["preview", "ai_rerank"]
@@ -698,6 +735,19 @@ class HybridSearchRequest(StrictModel):
 
     @model_validator(mode="after")
     def explicit_constraints_are_consistent(self) -> HybridSearchRequest:
+        if self.argument_contexts:
+            if self.stage != "ai_rerank":
+                raise ValueError("argument context is only accepted for final comparison")
+            permitted = {(ref.snapshot_id, ref.claim_id) for ref in self.candidate_refs}
+            if self.query_claim is not None:
+                permitted.add((self.query_claim.snapshot_id, self.query_claim.claim_id))
+            keys = [(item.snapshot_id, item.claim_id) for item in self.argument_contexts]
+            if len(set(keys)) != len(keys) or any(
+                key not in permitted
+                and (self.query_claim is None or key[0] != self.query_claim.snapshot_id)
+                for key in keys
+            ):
+                raise ValueError("argument contexts must match distinct requested claims")
         if (
             self.schema_version != RETRIEVAL_CONTEXT_SCHEMA_VERSION
             and self.clarification_selection is not None

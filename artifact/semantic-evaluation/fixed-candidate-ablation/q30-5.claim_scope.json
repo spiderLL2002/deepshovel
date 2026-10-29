@@ -1,0 +1,90 @@
+{
+  "id": "q30-5",
+  "condition": "claim_scope",
+  "started_at": "2026-10-29T12:10:56.813476+00:00",
+  "query": "Sortable-silt evidence establishes an absolute bottom-current velocity of 2 m/s around the Emperor Seamount Chain.",
+  "claim_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+  "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+  "user_content": "{\"candidates\":[{\"claim\":\"Hydrodynamic conditions around the Emperor Seamount Chain are stronger than in the open subarctic abyssal plain, especially at water depths of 1,000–2,500 m, as indicated by sortable-silt grain size.\",\"id\":1,\"scope\":{\"condition\":[\"water depths 1,313–5,709 m\"],\"entities\":[\"bottom currents\",\"sortable silt\",\"surface sediments\"],\"formation\":[],\"location\":[\"Emperor Seamount Chain, North Pacific\"],\"measurement\":[\"grain size and mean grain size of sortable silt\"],\"method\":[\"grain-size correlations, sortable-silt proxy, and end-member comparison\"],\"sample_type\":[\"50 Holocene surface sediments\"],\"time\":{\"label\":\"Holocene interval\"}}}],\"query\":\"Sortable-silt evidence establishes an absolute bottom-current velocity of 2 m/s around the Emperor Seamount Chain.\"}",
+  "user_content_sha256": "13c2130cad718257e4f742ce2fd288d6af271664eada40f5cb2b357e512254e5",
+  "system_prompt_sha256": "59dfc97ecaa71ef87ff30a455d3f788b3aaff26b568b3bdfb09a9201dea0e1fb",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:10:56.826154+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "59dfc97ecaa71ef87ff30a455d3f788b3aaff26b568b3bdfb09a9201dea0e1fb",
+        "input_sha256": "13c2130cad718257e4f742ce2fd288d6af271664eada40f5cb2b357e512254e5",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291210570512401518268d9d6ecdGBuXy"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 102
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_04852246a3656f05016ae337d18cd88191a8eb251429362077",
+        "output_bytes": 106,
+        "output_sha256": "e650b8b1c33e3fa33554a929be0b35572387357ab7ead1dbfdef3e2839d741eb",
+        "usage": {
+          "prompt_tokens": 707,
+          "completion_tokens": 145,
+          "total_tokens": 852
+        },
+        "elapsed_seconds": 3.044,
+        "finished_at": "2026-10-29T12:10:59.870206+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"related\",\"direction\":\"result_to_query\",\"scope\":\"overlap\",\"score\":0.97}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.97
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "e650b8b1c33e3fa33554a929be0b35572387357ab7ead1dbfdef3e2839d741eb",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 106,
+      "content_sha256": "e650b8b1c33e3fa33554a929be0b35572387357ab7ead1dbfdef3e2839d741eb",
+      "usage": {
+        "prompt_tokens": 707,
+        "completion_tokens": 145,
+        "total_tokens": 852,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 3.0449809999990975,
+  "finished_at": "2026-10-29T12:10:59.870872+00:00"
+}

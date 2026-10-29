@@ -1,0 +1,44 @@
+[
+  {
+    "case_source": "q16",
+    "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+    "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+    "expected_answer": "The profile mean is about 22 ± 4 km; crust is approximately 17 km thick near the Red Sea Rift axis and 30 km in the overlap zone. Preserve the geographical assignment of each thickness and describe these as seismic estimates. These are profile-specific results, not a mean for all of Afar. Known active-corpus reference: 10.1002_2013JB010719.pdf; claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650.",
+    "source_name": "10.1002_2013JB010719.pdf"
+  },
+  {
+    "case_source": "q30",
+    "claim_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+    "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+    "expected_answer": "The sortable-silt grain-size versus water-depth correlation is negative (R = −0.73); the seamount setting has stronger inferred hydrodynamics than the abyssal plain, especially at 1,000–2,500 m. Keep this distinct from the bulk grain-size correlation R = −0.74. Anchors give the relation and its interpretation, not a current velocity calibration. Active indexed source: 050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf; claim_id=claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48.",
+    "source_name": "050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf"
+  },
+  {
+    "case_source": "q50",
+    "claim_id": "claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43",
+    "snapshot_id": "snapshot:sha256:fe8d3186c7f4f56524f592c5f8b516af1ec3268661ef13b10a1b92678eb04a94",
+    "expected_answer": "The study estimates a maximum pore pressure of 55–57 MPa for F2. The 3-D Mohr-diagram, slip-tendency and modified-slip-tendency approaches identify F2 as the most stable of the studied faults. This is a conditional model estimate, with pre-existing faults treated as cohesionless, not an operational safety guarantee. Known positive reference: claim:sha256:8820b173b31b5d2e9f3d59c1cebbf15bf72a8b5af94ac82a4578a99f3c57af43; source: 10.1007_s12182-019-0331-9.pdf.",
+    "source_name": "10.1007_s12182-019-0331-9.pdf"
+  },
+  {
+    "case_source": "q70",
+    "claim_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+    "snapshot_id": "snapshot:sha256:f4a0935b0c11b106ef4598f003efc39287ddc7cda8f9d4bae8c0bb609ca7f101",
+    "expected_answer": "Using absolute values, NCA contributed approximately 32% of TA. Negative NCA was interpreted as acidity from DOM acting as a proton donor, consistent with low pH. This does not mean signed mean NCA/TA is +32% or that all samples have positive NCA. The signed NCA range and mean are supplementary. Grounded reference: claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4; BULK_d8b0e710104588346125.pdf.",
+    "source_name": "BULK_d8b0e710104588346125.pdf"
+  },
+  {
+    "case_source": "q90",
+    "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+    "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+    "expected_answer": "The shelf-wide denitrification loss was extrapolated as 3.70–11.1 Tg year−1, assuming a 90-day reducing season and 1.2–3.6 × 10^12 m³ of reducing water. The calculation applied a three-year mean isotope-pairing rate to the assumed volume and duration; it is not a direct annual inventory. The body text reports endpoint uncertainties of ±0.091 and ±2.72 Tg year−1, respectively. Those uncertainties and the optional 20-m layer thickness are not additional grade-3 requirements. No table-cell value or prose/table discrepancy is established by the caption-only table anchor. Grounded reference: claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c; 2020_Massive Nitrogen Loss Over the Western Indian Continental Shelf During Seasonal Anoxia_ Evidence From Isotope Pairing Technique_d2b52fa4.pdf.",
+    "source_name": "2020_Massive Nitrogen Loss Over the Western Indian Continental Shelf During Seasonal Anoxia_ Evidence From Isotope Pairing Technique_d2b52fa4.pdf"
+  },
+  {
+    "case_source": "q110",
+    "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+    "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+    "expected_answer": "The revised estimate is 1.6–8 kyr, compared with the older 10–60 kyr range. Both concern inferred durations dependent on sedimentation-rate chronology, not direct elapsed-time measurements. Reference: W2766182206.pdf; claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38.",
+    "source_name": "W2766182206.pdf"
+  }
+]

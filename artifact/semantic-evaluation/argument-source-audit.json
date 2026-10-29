@@ -1,0 +1,1402 @@
+{
+  "schema": "argument-source-audit/1.0",
+  "created_at": "2026-10-29T12:17:41.031151+00:00",
+  "reviewer": {
+    "kind": "AI source reconstruction check",
+    "model": "gpt-6-astra",
+    "model_evidence": "Parent confirmed explicit collaboration.spawn_agent model=gpt-6-astra for this task; no claim based on model self-identification.",
+    "agent": "/root/argument_source_audit"
+  },
+  "method": {
+    "projector_path": "lib/evidence-retrieval/arguments.ts",
+    "projector_sha256": "3b72c554cfbfbcb65fa042d92b8faf087f1512e3c78c0474ffd7b2b62569f0bc",
+    "selection": "All incoming edges of each selected claim plus all incoming edges of each directly attached reasoning node; unique endpoint nodes. Closure computed by existing createRetrievalArgumentProjector, which validates graph via path expander.",
+    "denominator": "24 selected relation edges; 29 unique selected node occurrences including 5 claims. Missing-condition findings are separately enumerated and not added to either denominator.",
+    "source_access": "curl GET /api/artifacts/{rootArtifactVersionId hash}; original PDF text read by page; rendered Table2 q90 and figures q30/q70 inspected. No nonpublic uploads.",
+    "page_convention": "PDF page index + 1",
+    "boundaries": "Source support means faithful reconstruction of what the paper reports, not scientific truth or external replication. Missing-condition search limited to the chosen conclusions and relevant methods/discussion pages.",
+    "excluded_inputs": "No semantic assessment outputs, manuscript or review reports read. selection.json expected_answer was present and read; not treated as source evidence.",
+    "classification_unit": "Node source-support classifications assess recorded_statement fidelity; scope/uncertainty, citation coverage and missing conditions are assessed separately. Relation classifications assess source-to-target inferential role, not independent empirical truth."
+  },
+  "cases": [
+    {
+      "case_source": "q16",
+      "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+      "source_name": "10.1002_2013JB010719.pdf",
+      "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+      "root_artifact_version_id": "artifact-version:sha256:bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a",
+      "source_url": "https://deepshovel.iiot-shxt.xyz/api/artifacts/bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a",
+      "download_sha256": "bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a",
+      "graph_file_sha256": "fd2844102f95bcb9f87450a0bcaf456ee80403d8c11e3e2f63af1b03ebddac5b",
+      "closure": {
+        "node_count": 6,
+        "edge_count": 5,
+        "truncated": false
+      },
+      "selected_node_count": 4,
+      "selected_edge_count": 3,
+      "node_checks": [
+        {
+          "node_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+          "kind": "atomic_claim",
+          "recorded_statement": "Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.",
+          "source_support": "supported",
+          "assessment": "PDF pp1,8–9 support the stated profile-specific geometry and approximate values. Scope uncertainty is too broad: station bootstrap errors must not be assigned automatically to the ±4 km profile spread.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.h_abs",
+              "pdf_page": 1,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor.text.h_asym",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.h_abs",
+          "kind": "observation",
+          "recorded_statement": "Stacking of about 2300 receiver functions from the ALIE array and nearby stations yields an average crustal thickness of 22 ± 4 km, ranging from ~17 km near the Red Sea rift axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.",
+          "source_support": "supported",
+          "assessment": "PDF p1 abstract reports ~2300 RFs, 22±4 km, ~17 km near RSR and 30 km overlap zone. Table 1 p8 distinguishes Global Average 22.264±3.753 from Global Stack 19.950±0.087.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.h_abs",
+              "pdf_page": 1,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.h_asym",
+          "kind": "observation",
+          "recorded_statement": "The crustal thickness observations have an asymmetric pattern, with gradual thickening toward the southwest from the immediate southwestern rift flank and relatively sharp thickening toward the northeast within Region E.",
+          "source_support": "supported",
+          "assessment": "PDF p9 §3.2.1 explicitly describes gradual southwest and sharper northeast thickening; Fig7c is the cited profile.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.h_asym",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "reason.crustal_thickness_pattern",
+          "kind": "reasoning",
+          "recorded_statement": "The stacked receiver functions from the dense array and the station-specific H-κ results show an asymmetric crustal thickness pattern, thinnest beneath the Tendaho graben axis and thickest in the northeastern overlap zone, with an average of ~22 km.",
+          "source_support": "supported",
+          "assessment": "PDF pp8–9 station-specific H–κ analysis and §3.2.1 support the synthesis; AD09 is the thinnest station (17.6±0.2 km), while Region A has the lowest regional mean.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.h_abs",
+              "pdf_page": 1,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor.text.h_asym",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        }
+      ],
+      "relation_checks": [
+        {
+          "source_id": "reason.crustal_thickness_pattern",
+          "target_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+          "relation": "infers",
+          "classification": "supported",
+          "assessment": "PDF pp8–9 station-specific H–κ analysis and §3.2.1 support the synthesis; AD09 is the thinnest station (17.6±0.2 km), while Region A has the lowest regional mean.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            1,
+            9
+          ]
+        },
+        {
+          "source_id": "obs.h_abs",
+          "target_id": "reason.crustal_thickness_pattern",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p1 abstract reports ~2300 RFs, 22±4 km, ~17 km near RSR and 30 km overlap zone. Table 1 p8 distinguishes Global Average 22.264±3.753 from Global Stack 19.950±0.087.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            1
+          ]
+        },
+        {
+          "source_id": "obs.h_asym",
+          "target_id": "reason.crustal_thickness_pattern",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p9 §3.2.1 explicitly describes gradual southwest and sharper northeast thickening; Fig7c is the cited profile.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            9
+          ]
+        }
+      ],
+      "missing_or_under_recorded_conditions": [
+        {
+          "condition": "Station-specific Vp is constrained through the theoretical Vp–κ relationship and two-stage stacking, not just an unconstrained measured velocity.",
+          "pdf_pages": [
+            4,
+            8
+          ],
+          "why_necessary": "H changes materially with assumed Vp; p8 shows the sensitivity.",
+          "closure_status": "Not in this claim closure; scope names station-specific Vp without the dependency."
+        },
+        {
+          "condition": "RF quality screening and sediment-layer reverberation control using two filtering bands.",
+          "pdf_pages": [
+            6,
+            9
+          ],
+          "why_necessary": "Source explicitly says sediment layers can bias crustal thickness and motivates the filtering.",
+          "closure_status": "Absent from selected derivation and closure."
+        }
+      ],
+      "repairable_issues": [
+        {
+          "type": "uncertainty_scope",
+          "detail": "Disambiguate profile-average spread from single-station bootstrap standard errors; do not label the profile ±4 km with the global scope string bootstrap standard errors.",
+          "pdf_pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "source_support_counts": {
+        "supported": 4
+      },
+      "relation_counts": {
+        "supported": 3
+      },
+      "source_artifact_hash_verified": true
+    },
+    {
+      "case_source": "q30",
+      "claim_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+      "source_name": "050_2021_Jie Chen_Geochemistry of Surface Sediments From the Emperor Seamount Chain, North Pacific.pdf",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "root_artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "source_url": "https://deepshovel.iiot-shxt.xyz/api/artifacts/06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "download_sha256": "06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07",
+      "graph_file_sha256": "954cd3b02d7a6585065a0e4f4241f9789e18bc15cd47c819d013d72cee37a3d1",
+      "closure": {
+        "node_count": 15,
+        "edge_count": 13,
+        "truncated": false
+      },
+      "selected_node_count": 8,
+      "selected_edge_count": 7,
+      "node_checks": [
+        {
+          "node_id": "assumption.hydro.sortable_proxy",
+          "kind": "assumption",
+          "recorded_statement": "Mean grain size of sortable silt can indicate relative changes in bottom-current strength.",
+          "source_support": "supported",
+          "assessment": "PDF p9 explicitly invokes sortable-silt mean size as a relative current proxy, conditional on its strong positive relationship with sortable-silt content.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.hydro.proxy",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+          "kind": "atomic_claim",
+          "recorded_statement": "Hydrodynamic conditions around the Emperor Seamount Chain are stronger than in the open subarctic abyssal plain, especially at water depths of 1,000–2,500 m, as indicated by sortable-silt grain size.",
+          "source_support": "supported",
+          "assessment": "PDF p13 supports the comparative claim with its proxy qualifier; p9 limits discussion to pooled depth relationships because zonal depth coverage is incomplete.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.hydro.abyssal",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor.text.hydro.depth",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor.text.hydro.em",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor.text.hydro.proxy",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor.text.hydro.sortable",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor.text.hydro.summary",
+              "pdf_page": 13,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor:compiler:visual:9f9ef2b238f1e72d2cc0388c9d909b7fe208dc9ba259273e4283e2079b1bbed7",
+              "pdf_page": 10,
+              "figure": "Figure 9",
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.hydro.abyssal",
+          "kind": "observation",
+          "recorded_statement": "The SO202 comparison for the open subarctic Pacific found a mean grain size of about 5.33 µm.",
+          "source_support": "supported",
+          "assessment": "PDF p9 gives ~5.33 µm for the SO202 comparison using the same end-member simulation method; this is not itself a calibrated current speed.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.hydro.abyssal",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.hydro.depth",
+          "kind": "observation",
+          "recorded_statement": "Water depth and grain size are negatively correlated in the study area (R = −0.74; Figure 5A), with deeper water associated with finer sediment.",
+          "source_support": "supported",
+          "assessment": "PDF p9 reports bulk grain-size/depth R=−0.74, distinct from the sortable-silt correlation.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.hydro.depth",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.hydro.em",
+          "kind": "observation",
+          "recorded_statement": "The modeled surface-sediment end members had mean grain sizes of 9.12 µm (EM1), 64.95 µm (EM2), and 157.67 µm (EM3), representing fine silt, fine sand, and medium sand, respectively.",
+          "source_support": "supported",
+          "assessment": "PDF p9 reports 9.12, 64.95 and 157.67 µm and the three sediment classes exactly as recorded.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.hydro.em",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.hydro.sortable",
+          "kind": "observation",
+          "recorded_statement": "Sortable-silt grain size is negatively correlated with water depth (R = −0.73; Figure 9), and increasing sortable-silt grain size indicates strong hydrodynamic conditions.",
+          "source_support": "supported",
+          "assessment": "PDF p9 text and p10 Fig9 show R=−0.73; rendered plot has mean sortable-silt size on x and water depth on y.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.hydro.sortable",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor:compiler:visual:9f9ef2b238f1e72d2cc0388c9d909b7fe208dc9ba259273e4283e2079b1bbed7",
+              "pdf_page": 10,
+              "figure": "Figure 9",
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.hydro.summary",
+          "kind": "observation",
+          "recorded_statement": "The mean grain size of sortable silt is reported to indicate hydrodynamic conditions significantly stronger than those of the abyssal plain, especially at water depths of 1,000–2,500 m.",
+          "source_support": "supported",
+          "assessment": "PDF p13 Conclusion explicitly states stronger hydrodynamics than abyssal plain, especially 1,000–2,500 m.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.hydro.summary",
+              "pdf_page": 13,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "reason.hydro.synthesis",
+          "kind": "reasoning",
+          "recorded_statement": "The depth-related grain-size correlations, sortable-silt proxy, and comparison with SO202 jointly support stronger hydrodynamic conditions around the seamount chain than on the abyssal plain, with the strongest reported conditions at 1,000–2,500 m.",
+          "source_support": "supported_with_overstatement",
+          "assessment": "Source supports stronger/especially at 1,000–2,500 m, but the node changes this to strongest reported conditions. That superlative is stronger than the quoted conclusion and should be softened.",
+          "source_locators": [
+            {
+              "anchor_id": "anchor.text.hydro.abyssal",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor.text.hydro.depth",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor.text.hydro.proxy",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor.text.hydro.sortable",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor.text.hydro.summary",
+              "pdf_page": 13,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor:compiler:visual:9f9ef2b238f1e72d2cc0388c9d909b7fe208dc9ba259273e4283e2079b1bbed7",
+              "pdf_page": 10,
+              "figure": "Figure 9",
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        }
+      ],
+      "relation_checks": [
+        {
+          "source_id": "reason.hydro.synthesis",
+          "target_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+          "relation": "infers",
+          "classification": "supported_with_overstatement",
+          "assessment": "Source supports stronger/especially at 1,000–2,500 m, but the node changes this to strongest reported conditions. That superlative is stronger than the quoted conclusion and should be softened.",
+          "condition_or_relation_error": "Synthesis superlative exceeds source wording; claim itself uses especially and is supported.",
+          "pdf_pages": [
+            9,
+            10,
+            13
+          ]
+        },
+        {
+          "source_id": "assumption.hydro.sortable_proxy",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "assumption_for",
+          "classification": "supported",
+          "assessment": "PDF p9 explicitly invokes sortable-silt mean size as a relative current proxy, conditional on its strong positive relationship with sortable-silt content.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            9
+          ]
+        },
+        {
+          "source_id": "obs.hydro.abyssal",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p9 gives ~5.33 µm for the SO202 comparison using the same end-member simulation method; this is not itself a calibrated current speed.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            9
+          ]
+        },
+        {
+          "source_id": "obs.hydro.depth",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p9 reports bulk grain-size/depth R=−0.74, distinct from the sortable-silt correlation.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            9
+          ]
+        },
+        {
+          "source_id": "obs.hydro.em",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p9 reports 9.12, 64.95 and 157.67 µm and the three sediment classes exactly as recorded.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            9
+          ]
+        },
+        {
+          "source_id": "obs.hydro.sortable",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p9 text and p10 Fig9 show R=−0.73; rendered plot has mean sortable-silt size on x and water depth on y.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            9,
+            10
+          ]
+        },
+        {
+          "source_id": "obs.hydro.summary",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p13 Conclusion explicitly states stronger hydrodynamics than abyssal plain, especially 1,000–2,500 m.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            13
+          ]
+        }
+      ],
+      "missing_or_under_recorded_conditions": [
+        {
+          "condition": "Strong positive covariance between sortable-silt mean size and sortable-silt content validates using size as a relative current proxy in this dataset.",
+          "pdf_pages": [
+            9
+          ],
+          "why_necessary": "Explicit evidential condition preceding the proxy inference; generic assumption alone omits it.",
+          "closure_status": "Absent as a node/condition; present in the source paragraph referenced by proxy anchor."
+        },
+        {
+          "condition": "Interpret pooled depths with incomplete zonal depth coverage and composition/provenance effects; Zone I lacks 1,500–3,000 m samples.",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "why_necessary": "Prevents attributing every zonal grain-size difference solely to current strength.",
+          "closure_status": "Absent from selected reasoning limitations."
+        }
+      ],
+      "repairable_issues": [
+        {
+          "type": "overstatement",
+          "detail": "Replace strongest reported conditions in reason.hydro.synthesis with especially stronger at 1,000–2,500 m.",
+          "pdf_pages": [
+            13
+          ]
+        }
+      ],
+      "source_support_counts": {
+        "supported": 7,
+        "supported_with_overstatement": 1
+      },
+      "relation_counts": {
+        "supported_with_overstatement": 1,
+        "supported": 6
+      },
+      "source_artifact_hash_verified": true
+    },
+    {
+      "case_source": "q70",
+      "claim_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+      "source_name": "BULK_d8b0e710104588346125.pdf",
+      "snapshot_id": "snapshot:sha256:f4a0935b0c11b106ef4598f003efc39287ddc7cda8f9d4bae8c0bb609ca7f101",
+      "root_artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40",
+      "source_url": "https://deepshovel.iiot-shxt.xyz/api/artifacts/e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40",
+      "download_sha256": "e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40",
+      "graph_file_sha256": "1fba9f0c6a5dd1765c79ef9175c46b71fdf533716697451ff97486bcaa9cf4b1",
+      "closure": {
+        "node_count": 16,
+        "edge_count": 15,
+        "truncated": false
+      },
+      "selected_node_count": 8,
+      "selected_edge_count": 7,
+      "node_checks": [
+        {
+          "node_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+          "kind": "atomic_claim",
+          "recorded_statement": "During spring sampling, organic-matter-associated NCA was a substantial part of groundwater TA at the Martinique Beach STE (about 32% overall); negative NCA indicates proton-donating DOM associated with low pH, supporting remineralized organic matter as a source of acidity.",
+          "source_support": "supported",
+          "assessment": "PDF pp9,12 support spring-limited claim and absolute-value qualifier. NCA includes inorganic acid–base terms as well as organic contribution, so it must not be renamed pure organic alkalinity.",
+          "source_locators": [
+            {
+              "anchor_id": "a.fig3",
+              "pdf_page": 7,
+              "figure": "Figure 3",
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.nca32",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.ncaneg",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.ncarange",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.phlow",
+              "pdf_page": 6,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.phrange",
+              "pdf_page": 6,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.soilacid",
+              "pdf_page": 12,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor:compiler:visual:983769ee063b6193e0f0fa1b7be8642be8ba2e222d5094824d888178d394b038",
+              "pdf_page": 6,
+              "figure": null,
+              "table": "Table 1",
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.nca32",
+          "kind": "observation",
+          "recorded_statement": "Based on absolute values, NCA was calculated to contribute approximately 32% of TA.",
+          "source_support": "supported",
+          "assessment": "PDF p9 explicitly bases approximate 32% on absolute values; signed mean NCA is not +32% TA.",
+          "source_locators": [
+            {
+              "anchor_id": "a.nca32",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.ncaneg",
+          "kind": "observation",
+          "recorded_statement": "The authors interpret negative NCA (Ac > TA) as acidity and as evidence that some DOM behaves as a proton donor, in agreement with low pH in the corresponding sample.",
+          "source_support": "supported",
+          "assessment": "PDF p9 explicitly interprets Ac>TA as proton-donating DOM, consistent with sample pH; this remains the authors’ interpretation.",
+          "source_locators": [
+            {
+              "anchor_id": "a.ncaneg",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.ncarange",
+          "kind": "observation",
+          "recorded_statement": "NCA ranged from −1.07 to +1.11 mmol kg⁻¹, with a mean of −0.26 mmol kg⁻¹.",
+          "source_support": "supported",
+          "assessment": "PDF p9 reports −1.07 to +1.11 mmol/kg and mean −0.26; ±3.4% is also reported but not retained in this node.",
+          "source_locators": [
+            {
+              "anchor_id": "a.ncarange",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.phlow",
+          "kind": "observation",
+          "recorded_statement": "The lowest pH values were measured in the middle of the intertidal zone, about 1.2 m below the surface, and were lower than inland fresh groundwater pH.",
+          "source_support": "supported",
+          "assessment": "PDF p6 gives 5.90<pH<6.23 in mid-intertidal samples ~1.2 m below surface versus inland ~6.34. Table1 on p6 supplies inland comparison only; Fig3A p7 supplies spatial evidence.",
+          "source_locators": [
+            {
+              "anchor_id": "a.phlow",
+              "pdf_page": 6,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor:compiler:visual:983769ee063b6193e0f0fa1b7be8642be8ba2e222d5094824d888178d394b038",
+              "pdf_page": 6,
+              "figure": null,
+              "table": "Table 1",
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.phrange",
+          "kind": "observation",
+          "recorded_statement": "Groundwater pH ranged from 5.90 to 7.03 (Figure 3A).",
+          "source_support": "supported",
+          "assessment": "PDF p6 reports 5.90–7.03 and Fig3A p7 shows spatial distribution; its vertical coordinate is mean sea level, not surface depth.",
+          "source_locators": [
+            {
+              "anchor_id": "a.fig3",
+              "pdf_page": 7,
+              "figure": "Figure 3",
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.phrange",
+              "pdf_page": 6,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.soilacid",
+          "kind": "observation",
+          "recorded_statement": "The authors attribute net acidity mainly to remineralization of organic matter released by the old buried forest soil.",
+          "source_support": "supported",
+          "assessment": "PDF p12 attributes spring net acidity mainly to remineralization of buried forest soil and calls for further work on weak organic acids.",
+          "source_locators": [
+            {
+              "anchor_id": "a.soilacid",
+              "pdf_page": 12,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "reason.nca",
+          "kind": "reasoning",
+          "recorded_statement": "The substantial NCA share, proton-donor interpretation of negative NCA, observed low pH, and attributed terrestrial-organic remineralization jointly link organic matter to acidity in the groundwater.",
+          "source_support": "supported",
+          "assessment": "PDF pp8–9,12 support the association and authors’ mechanism interpretation. Source assertions are premises here, not independent direct mechanistic measurements.",
+          "source_locators": [
+            {
+              "anchor_id": "a.nca32",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.ncaneg",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.ncarange",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.phlow",
+              "pdf_page": 6,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.phrange",
+              "pdf_page": 6,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.soilacid",
+              "pdf_page": 12,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "anchor:compiler:visual:983769ee063b6193e0f0fa1b7be8642be8ba2e222d5094824d888178d394b038",
+              "pdf_page": 6,
+              "figure": null,
+              "table": "Table 1",
+              "original_page_verified": true
+            }
+          ]
+        }
+      ],
+      "relation_checks": [
+        {
+          "source_id": "reason.nca",
+          "target_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+          "relation": "infers",
+          "classification": "supported",
+          "assessment": "PDF pp8–9,12 support the association and authors’ mechanism interpretation. Source assertions are premises here, not independent direct mechanistic measurements.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            6,
+            9,
+            12
+          ]
+        },
+        {
+          "source_id": "obs.nca32",
+          "target_id": "reason.nca",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p9 explicitly bases approximate 32% on absolute values; signed mean NCA is not +32% TA.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            9
+          ]
+        },
+        {
+          "source_id": "obs.ncaneg",
+          "target_id": "reason.nca",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p9 explicitly interprets Ac>TA as proton-donating DOM, consistent with sample pH; this remains the authors’ interpretation.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            9
+          ]
+        },
+        {
+          "source_id": "obs.ncarange",
+          "target_id": "reason.nca",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p9 reports −1.07 to +1.11 mmol/kg and mean −0.26; ±3.4% is also reported but not retained in this node.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            9
+          ]
+        },
+        {
+          "source_id": "obs.phlow",
+          "target_id": "reason.nca",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p6 gives 5.90<pH<6.23 in mid-intertidal samples ~1.2 m below surface versus inland ~6.34. Table1 on p6 supplies inland comparison only; Fig3A p7 supplies spatial evidence.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            6
+          ]
+        },
+        {
+          "source_id": "obs.phrange",
+          "target_id": "reason.nca",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p6 reports 5.90–7.03 and Fig3A p7 shows spatial distribution; its vertical coordinate is mean sea level, not surface depth.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "source_id": "obs.soilacid",
+          "target_id": "reason.nca",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p12 attributes spring net acidity mainly to remineralization of buried forest soil and calls for further work on weak organic acids.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            12
+          ]
+        }
+      ],
+      "missing_or_under_recorded_conditions": [
+        {
+          "condition": "NCA is residual alkalinity including inorganic acid–base terms; brackish/seawater calculations account for borate, ammonia and H2S, and DIC/pH carbonate speciation.",
+          "pdf_pages": [
+            5,
+            9
+          ],
+          "why_necessary": "Required to interpret the residual without identifying its entirety with organic alkalinity.",
+          "closure_status": "Scope records TA−Ac and DIC–pH but omits non-organic contributions and correction conditions."
+        },
+        {
+          "condition": "Terrestrial DOM attribution is supported by high DOC and δ13C around −25‰, dropping toward −30‰ landward; acidity conclusion remains spring-specific.",
+          "pdf_pages": [
+            8,
+            12
+          ],
+          "why_necessary": "Provides source evidence connecting residual/proton donors to buried terrestrial organic matter rather than pH alone.",
+          "closure_status": "Spring retained; provenance observations absent from closure."
+        }
+      ],
+      "repairable_issues": [
+        {
+          "type": "anchor_coverage",
+          "detail": "The p6 Table1 compiler anchor supports the inland end member, not intertidal spatial minimum; retain p6 text and add Fig3A p7 when spatial support is intended.",
+          "pdf_pages": [
+            6,
+            7
+          ]
+        }
+      ],
+      "source_support_counts": {
+        "supported": 8
+      },
+      "relation_counts": {
+        "supported": 7
+      },
+      "source_artifact_hash_verified": true
+    },
+    {
+      "case_source": "q90",
+      "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+      "source_name": "2020_Massive Nitrogen Loss Over the Western Indian Continental Shelf During Seasonal Anoxia_ Evidence From Isotope Pairing Technique_d2b52fa4.pdf",
+      "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+      "root_artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720",
+      "source_url": "https://deepshovel.iiot-shxt.xyz/api/artifacts/2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720",
+      "download_sha256": "2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720",
+      "graph_file_sha256": "f325bb14fc8b244e244443592ff6308a6075028988a1302914bd503b287ad805",
+      "closure": {
+        "node_count": 19,
+        "edge_count": 17,
+        "truncated": false
+      },
+      "selected_node_count": 5,
+      "selected_edge_count": 4,
+      "node_checks": [
+        {
+          "node_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+          "kind": "atomic_claim",
+          "recorded_statement": "Extrapolating isotope-pairing denitrification rates over the western Indian continental shelf estimates annual fixed-nitrogen removal via denitrification at 3.70–11.1 Tg year−1; Table 2 reports the upper endpoint as 11.11.",
+          "source_support": "supported",
+          "assessment": "PDF p8 gives 3.70–11.1; actual Table2 p9 gives 11.11 and ±0.91; p11 prose gives ±0.91. Existing table-caption quote alone does not contain the cells, though actual PDF does.",
+          "source_locators": [
+            {
+              "anchor_id": "a.annual.prose",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.area.functional",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.area.hypoxic",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.denit.mean",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.prior.compare",
+              "pdf_page": 11,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.scale.volume",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.table2",
+              "pdf_page": 9,
+              "figure": null,
+              "table": "Table 2",
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.table2.caption",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.prior.compare",
+          "kind": "observation",
+          "recorded_statement": "The authors describe their annual estimate as almost three times higher than the previous estimate derived from changes in nitrate concentrations over time.",
+          "source_support": "supported",
+          "assessment": "PDF p11 explicitly says almost three times the prior nitrate-change estimate; Table2 p9 shows prior 1.3–3.8 versus present 3.70–11.11.",
+          "source_locators": [
+            {
+              "anchor_id": "a.prior.compare",
+              "pdf_page": 11,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "reason.annual.reconcile",
+          "kind": "reasoning",
+          "recorded_statement": "The prose and Table 2 give similar central annual denitrification-removal ranges, but disagree on the lower-end uncertainty and differ slightly in the upper endpoint.",
+          "source_support": "supported",
+          "assessment": "Confirmed from actual PDF: p8 lower uncertainty 0.091; p9 rendered Table2 lower uncertainty 0.91 and upper endpoint 11.11. p11 prose also gives 0.91, so the discrepancy is not uniformly prose versus table.",
+          "source_locators": [
+            {
+              "anchor_id": "a.annual.prose",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.table2",
+              "pdf_page": 9,
+              "figure": null,
+              "table": "Table 2",
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.table2.caption",
+              "pdf_page": 9,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "reason.annual.synthesis",
+          "kind": "reasoning",
+          "recorded_statement": "The annual range is an extrapolation from measured rates and assumed reducing-water volume; the authors' comparison to earlier nitrate-change estimates supports its interpretation as a substantially larger shelf-wide loss, while the uncertainty discrepancy limits precision.",
+          "source_support": "supported",
+          "assessment": "PDF pp8–9,11 support reported extrapolation and comparison, but its apparent precision must retain the p8/p9/p11 distinction and the rate-unit ambiguity identified below.",
+          "source_locators": [
+            {
+              "anchor_id": "a.annual.prose",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.denit.mean",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.prior.compare",
+              "pdf_page": 11,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.scale.volume",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.table2",
+              "pdf_page": 9,
+              "figure": null,
+              "table": "Table 2",
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "reason.scale.inputs",
+          "kind": "reasoning",
+          "recorded_statement": "Applying the three-year mean denitrification rate to the estimated reducing-water volume over an assumed 90-day season converts incubation rates into a shelf-wide annual estimate.",
+          "source_support": "supported",
+          "assessment": "PDF p8 explicitly applies three-year mean 2.45±0.6 µmol N2/L/day to 1.2–3.6×10^12 m³ for 90 days. Reported annual magnitude is source-supported; literal N2-to-N mass conversion does not reproduce it.",
+          "source_locators": [
+            {
+              "anchor_id": "a.annual.prose",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.denit.mean",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.scale.volume",
+              "pdf_page": 8,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.table2",
+              "pdf_page": 9,
+              "figure": null,
+              "table": "Table 2",
+              "original_page_verified": true
+            }
+          ]
+        }
+      ],
+      "relation_checks": [
+        {
+          "source_id": "reason.annual.synthesis",
+          "target_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+          "relation": "infers",
+          "classification": "supported",
+          "assessment": "PDF pp8–9,11 support reported extrapolation and comparison, but its apparent precision must retain the p8/p9/p11 distinction and the rate-unit ambiguity identified below.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            8,
+            9,
+            11
+          ]
+        },
+        {
+          "source_id": "obs.prior.compare",
+          "target_id": "reason.annual.synthesis",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p11 explicitly says almost three times the prior nitrate-change estimate; Table2 p9 shows prior 1.3–3.8 versus present 3.70–11.11.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            11
+          ]
+        },
+        {
+          "source_id": "reason.annual.reconcile",
+          "target_id": "reason.annual.synthesis",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "Confirmed from actual PDF: p8 lower uncertainty 0.091; p9 rendered Table2 lower uncertainty 0.91 and upper endpoint 11.11. p11 prose also gives 0.91, so the discrepancy is not uniformly prose versus table.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "source_id": "reason.scale.inputs",
+          "target_id": "reason.annual.synthesis",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p8 explicitly applies three-year mean 2.45±0.6 µmol N2/L/day to 1.2–3.6×10^12 m³ for 90 days. Reported annual magnitude is source-supported; literal N2-to-N mass conversion does not reproduce it.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "missing_or_under_recorded_conditions": [
+        {
+          "condition": "Clarify whether rate values labeled µmol N2/L/day are molecular N2 or already N-atom equivalents before converting to Tg N.",
+          "pdf_pages": [
+            8,
+            9
+          ],
+          "why_necessary": "Literal molecular N2 requires 28 g nitrogen/mol N2; published mass reproduces a factor 14, creating a factor-two ambiguity.",
+          "closure_status": "Unit basis and conversion absent from closure."
+        }
+      ],
+      "repairable_issues": [
+        {
+          "type": "source_locator_and_context",
+          "detail": "Attach the actual Table2 Present study / Denitrification cells. Specify discrepancy as p8 prose vs p9 table; p11 prose agrees with table lower uncertainty.",
+          "pdf_pages": [
+            8,
+            9,
+            11
+          ]
+        },
+        {
+          "type": "source_internal_unit_ambiguity",
+          "detail": "Do not silently correct the annual claim: reconcile printed N2 rate units with Tg N conversion. The stated input yields 7.4088–22.2264 Tg N/year using 28 g/mol, versus 3.7044–11.1132 using 14 g/mol.",
+          "pdf_pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "source_support_counts": {
+        "supported": 5
+      },
+      "relation_counts": {
+        "supported": 4
+      },
+      "source_artifact_hash_verified": true,
+      "arithmetic_check": {
+        "printed_rate": 2.45,
+        "printed_rate_unit": "µmol N2 L−1 day−1",
+        "water_volume_m3": [
+          1200000000000.0,
+          3600000000000.0
+        ],
+        "days": 90,
+        "formula": "rate * volume_m3 * 1000 L/m3 * days * 1e-6 mol/µmol * molar_mass_g/mol / 1e12 g/Tg",
+        "using_28_g_N_per_mol_N2_Tg": [
+          7.4088,
+          22.2264
+        ],
+        "using_14_g_per_mol_Tg": [
+          3.7044,
+          11.1132
+        ],
+        "interpretation": "Source rate may be N-atom equivalent despite N2 label, or conversion may contain factor-two inconsistency. This audit cannot resolve intent; preserve published estimate with unit-basis flag."
+      }
+    },
+    {
+      "case_source": "q110",
+      "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+      "source_name": "W2766182206.pdf",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "root_artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "source_url": "https://deepshovel.iiot-shxt.xyz/api/artifacts/a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "download_sha256": "a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c",
+      "graph_file_sha256": "5cd001477f1bf3ba907e43aeb17de2881a19f11e419fa39a4905b0cdc14f6d06",
+      "closure": {
+        "node_count": 6,
+        "edge_count": 5,
+        "truncated": false
+      },
+      "selected_node_count": 4,
+      "selected_edge_count": 3,
+      "node_checks": [
+        {
+          "node_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+          "kind": "atomic_claim",
+          "recorded_statement": "At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.",
+          "source_support": "supported",
+          "assessment": "PDF pp6–7 support duration comparison for Fiskegrav, conditional on stratigraphic interval definition and revised sedimentation-rate chronology.",
+          "source_locators": [
+            {
+              "anchor_id": "a.duration.new",
+              "pdf_page": 7,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.duration.old",
+              "pdf_page": 2,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.duration.new",
+          "kind": "observation",
+          "recorded_statement": "Revised sedimentation-rate estimates for Fiskegrav place the marine and terrestrial ecosystem collapse at 1.6–8 kyr.",
+          "source_support": "supported",
+          "assessment": "PDF p7 §5.1 explicitly reports revised 1.6–8 kyr using Mettam et al. sedimentation rates for ~0.8 m collapse interval.",
+          "source_locators": [
+            {
+              "anchor_id": "a.duration.new",
+              "pdf_page": 7,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "obs.duration.old",
+          "kind": "observation",
+          "recorded_statement": "Earlier work estimated the synchronous marine and terrestrial ecosystem collapse at 10–60 kyr.",
+          "source_support": "supported",
+          "assessment": "PDF p2 introduction reports synchronous marine/terrestrial collapse lasting 10–60 kyr from Twitchett et al.; p7 repeats the comparison.",
+          "source_locators": [
+            {
+              "anchor_id": "a.duration.old",
+              "pdf_page": 2,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        },
+        {
+          "node_id": "reason.duration",
+          "kind": "reasoning",
+          "recorded_statement": "The revised sedimentation-rate estimate of 1.6–8 kyr is substantially shorter than the earlier 10–60 kyr estimate, supporting a shorter duration for ecosystem collapse at Fiskegrav.",
+          "source_support": "supported",
+          "assessment": "PDF p7 explicitly compares both ranges; no direct elapsed-time measurement is claimed.",
+          "source_locators": [
+            {
+              "anchor_id": "a.duration.new",
+              "pdf_page": 7,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            },
+            {
+              "anchor_id": "a.duration.old",
+              "pdf_page": 2,
+              "figure": null,
+              "table": null,
+              "original_page_verified": true
+            }
+          ]
+        }
+      ],
+      "relation_checks": [
+        {
+          "source_id": "reason.duration",
+          "target_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+          "relation": "infers",
+          "classification": "supported",
+          "assessment": "PDF p7 explicitly compares both ranges; no direct elapsed-time measurement is claimed.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            2,
+            7
+          ]
+        },
+        {
+          "source_id": "obs.duration.new",
+          "target_id": "reason.duration",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p7 §5.1 explicitly reports revised 1.6–8 kyr using Mettam et al. sedimentation rates for ~0.8 m collapse interval.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            7
+          ]
+        },
+        {
+          "source_id": "obs.duration.old",
+          "target_id": "reason.duration",
+          "relation": "premise_for",
+          "classification": "supported",
+          "assessment": "PDF p2 introduction reports synchronous marine/terrestrial collapse lasting 10–60 kyr from Twitchett et al.; p7 repeats the comparison.",
+          "condition_or_relation_error": null,
+          "pdf_pages": [
+            2
+          ]
+        }
+      ],
+      "missing_or_under_recorded_conditions": [
+        {
+          "condition": "Duration applies to the ~0.8 m interval defined by peak spore:pollen and reduced acritarch abundance; assumes usable sedimentation chronology and no major hiatus.",
+          "pdf_pages": [
+            2,
+            6,
+            7
+          ],
+          "why_necessary": "An interval thickness and rate-to-time mapping are required for the 1.6–8 kyr estimate; no obvious breaks is reported on p2.",
+          "closure_status": "Rate dependence retained, but interval thickness and boundary definition absent from duration closure."
+        }
+      ],
+      "repairable_issues": [],
+      "source_support_counts": {
+        "supported": 4
+      },
+      "relation_counts": {
+        "supported": 3
+      },
+      "source_artifact_hash_verified": true
+    }
+  ],
+  "summary": {
+    "cases": 5,
+    "nodes": 29,
+    "node_classifications": {
+      "supported": 28,
+      "supported_with_overstatement": 1
+    },
+    "relations": 24,
+    "relation_classifications": {
+      "supported": 23,
+      "supported_with_overstatement": 1
+    },
+    "missing_or_under_recorded_conditions": 8,
+    "repairable_issues": 5,
+    "unsupported_nodes": 0,
+    "contradicted_nodes": 0,
+    "unresolved_source_internal_unit_issue": 1
+  }
+}

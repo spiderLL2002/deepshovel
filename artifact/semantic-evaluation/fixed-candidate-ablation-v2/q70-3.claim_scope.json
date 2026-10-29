@@ -1,0 +1,90 @@
+{
+  "id": "q70-3",
+  "condition": "claim_scope",
+  "started_at": "2026-10-29T12:18:57.761481+00:00",
+  "query": "In winter at Martinique Beach, NCA accounts for approximately 32% of groundwater total alkalinity when the contribution is calculated using absolute values.",
+  "claim_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+  "snapshot_id": "snapshot:sha256:f4a0935b0c11b106ef4598f003efc39287ddc7cda8f9d4bae8c0bb609ca7f101",
+  "user_content": "{\"candidates\":[{\"claim\":\"During spring sampling, organic-matter-associated NCA was a substantial part of groundwater TA at the Martinique Beach STE (about 32% overall); negative NCA indicates proton-donating DOM associated with low pH, supporting remineralized organic matter as a source of acidity.\",\"id\":1,\"scope\":{\"condition\":[\"Spring groundwater sampling\"],\"entities\":[\"Martinique Beach STE\",\"NCA\",\"TA\",\"dissolved organic matter\",\"pH\"],\"formation\":[],\"location\":[\"Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada\"],\"measurement\":[\"NCA fraction of TA and groundwater pH\"],\"method\":[\"NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair\"],\"sample_type\":[\"Groundwater\"],\"time\":{\"label\":\"Spring 2015\"},\"uncertainty\":\"The approximate NCA contribution to TA was calculated from absolute values.\"}}],\"query\":\"In winter at Martinique Beach, NCA accounts for approximately 32% of groundwater total alkalinity when the contribution is calculated using absolute values.\"}",
+  "user_content_sha256": "b373d8e0c23a886e75b22de887588748e013a44f3016a66789a4efde8efa37c5",
+  "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:18:57.774427+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+        "input_sha256": "b373d8e0c23a886e75b22de887588748e013a44f3016a66789a4efde8efa37c5",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291218578815936338268d9d6siB9haoI"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 126
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_0250f6b269f2f356016ae339b254908191b27f026ad42b65bc",
+        "output_bytes": 107,
+        "output_sha256": "70b38dc43b6bf113a6fff55fa26ba6f59a9e605ca60beb84e720432043e6b870",
+        "usage": {
+          "prompt_tokens": 815,
+          "completion_tokens": 169,
+          "total_tokens": 984
+        },
+        "elapsed_seconds": 4.262,
+        "finished_at": "2026-10-29T12:19:02.036628+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"related\",\"direction\":\"result_to_query\",\"scope\":\"disjoint\",\"score\":0.98}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.98
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "70b38dc43b6bf113a6fff55fa26ba6f59a9e605ca60beb84e720432043e6b870",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 107,
+      "content_sha256": "70b38dc43b6bf113a6fff55fa26ba6f59a9e605ca60beb84e720432043e6b870",
+      "usage": {
+        "prompt_tokens": 815,
+        "completion_tokens": 169,
+        "total_tokens": 984,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 4.265085458999238,
+  "finished_at": "2026-10-29T12:19:02.039261+00:00"
+}

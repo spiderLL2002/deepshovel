@@ -91,7 +91,9 @@ if payload.exists():
         require('Public GP15 bytes '+path,hashlib.sha256((payload/path).read_bytes()).hexdigest()==expected)
     public_count=len(bound)
     manuscript=census['later_scientific_manuscript']
-    require('Public scientific manuscript equals the recorded p20 output',hashlib.sha256((b/manuscript['public_path']).read_bytes()).hexdigest()==manuscript['sha256'])
+    public_manuscript=json.loads((b.parent/'gp15/claim-source-map.json').read_text())['manuscript']
+    require('Scientific manuscript source identity matches recorded p20',public_manuscript['sha256']==manuscript['sha256'])
+    require('Public scientific manuscript matches its publication binding',hashlib.sha256((b/manuscript['public_path']).read_bytes()).hexdigest()==public_manuscript['public_sha256'])
     public_count+=1
     code_lines=(payload/u['code_locators']['source_record']).read_text().splitlines()
     for name,needle in [('minimum_station_guard_line',"cfg['support']['min_stations_for_cluster_interval']"),('complete_draw_fraction_guard_line',"cfg['support']['min_valid_bootstrap_fraction']"),('lost_layer_aggregate_guard_line','aggregate(layers) if complete else None')]:

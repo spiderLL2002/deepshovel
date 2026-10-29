@@ -1,0 +1,90 @@
+{
+  "id": "q16-6",
+  "condition": "claim_scope",
+  "started_at": "2026-10-29T12:10:42.597808+00:00",
+  "query": "The same 22 ± 4 km crustal thickness estimate applies to the Mid-Atlantic Ridge.",
+  "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+  "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+  "user_content": "{\"candidates\":[{\"claim\":\"Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.\",\"id\":1,\"scope\":{\"condition\":[\"along ~200 km profile; station-specific Vp\"],\"entities\":[\"Red Sea rift\",\"Tendaho graben\",\"crustal thickness\",\"overlap zone\"],\"formation\":[\"Red Sea rift, Tendaho graben, Dobi graben, overlap zone\"],\"location\":[\"Afar Depression, Ethiopia\"],\"measurement\":[\"crustal thickness H\"],\"method\":[\"receiver function H-κ stacking\"],\"sample_type\":[\"broadband seismic stations\"],\"time\":{\"label\":\"2010–2011 ALIE array plus early-2000 to mid-2012 data\"},\"uncertainty\":\"bootstrap standard errors\"}}],\"query\":\"The same 22 ± 4 km crustal thickness estimate applies to the Mid-Atlantic Ridge.\"}",
+  "user_content_sha256": "5d0bdcb32f8938e73a296ded5592329241541000716e706179786864c1b4670c",
+  "system_prompt_sha256": "59dfc97ecaa71ef87ff30a455d3f788b3aaff26b568b3bdfb09a9201dea0e1fb",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:10:42.609956+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "59dfc97ecaa71ef87ff30a455d3f788b3aaff26b568b3bdfb09a9201dea0e1fb",
+        "input_sha256": "5d0bdcb32f8938e73a296ded5592329241541000716e706179786864c1b4670c",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291210427523072648268d9d6yGVWPse1"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 127
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_03b6c4f701c9878f016ae337c32e64819184b48fddf8193323",
+        "output_bytes": 109,
+        "output_sha256": "2a5f70ea0a0758f3c83ba98654ccf8213e303a9c5eabb2f3d89bf63b51263c23",
+        "usage": {
+          "prompt_tokens": 774,
+          "completion_tokens": 171,
+          "total_tokens": 945
+        },
+        "elapsed_seconds": 3.324,
+        "finished_at": "2026-10-29T12:10:45.933949+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"unrelated\",\"direction\":\"result_to_query\",\"scope\":\"disjoint\",\"score\":0.98}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "unrelated",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.98
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "2a5f70ea0a0758f3c83ba98654ccf8213e303a9c5eabb2f3d89bf63b51263c23",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 109,
+      "content_sha256": "2a5f70ea0a0758f3c83ba98654ccf8213e303a9c5eabb2f3d89bf63b51263c23",
+      "usage": {
+        "prompt_tokens": 774,
+        "completion_tokens": 171,
+        "total_tokens": 945,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 3.3249921670012554,
+  "finished_at": "2026-10-29T12:10:45.934654+00:00"
+}

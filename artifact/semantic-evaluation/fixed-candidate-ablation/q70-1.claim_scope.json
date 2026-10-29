@@ -1,0 +1,90 @@
+{
+  "id": "q70-1",
+  "condition": "claim_scope",
+  "started_at": "2026-10-29T12:11:03.632551+00:00",
+  "query": "During spring sampling at the Martinique Beach STE, organic-matter-associated NCA contributed approximately 32% of groundwater TA when calculated using absolute values; negative NCA indicates proton-donating DOM associated with low pH, supporting remineralized organic matter as a source of acidity.",
+  "claim_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+  "snapshot_id": "snapshot:sha256:f4a0935b0c11b106ef4598f003efc39287ddc7cda8f9d4bae8c0bb609ca7f101",
+  "user_content": "{\"candidates\":[{\"claim\":\"During spring sampling, organic-matter-associated NCA was a substantial part of groundwater TA at the Martinique Beach STE (about 32% overall); negative NCA indicates proton-donating DOM associated with low pH, supporting remineralized organic matter as a source of acidity.\",\"id\":1,\"scope\":{\"condition\":[\"Spring groundwater sampling\"],\"entities\":[\"Martinique Beach STE\",\"NCA\",\"TA\",\"dissolved organic matter\",\"pH\"],\"formation\":[],\"location\":[\"Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada\"],\"measurement\":[\"NCA fraction of TA and groundwater pH\"],\"method\":[\"NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair\"],\"sample_type\":[\"Groundwater\"],\"time\":{\"label\":\"Spring 2015\"},\"uncertainty\":\"The approximate NCA contribution to TA was calculated from absolute values.\"}}],\"query\":\"During spring sampling at the Martinique Beach STE, organic-matter-associated NCA contributed approximately 32% of groundwater TA when calculated using absolute values; negative NCA indicates proton-donating DOM associated with low pH, supporting remineralized organic matter as a source of acidity.\"}",
+  "user_content_sha256": "5e79c9460daa2e8d7f5f435f237b89d5cdde0e0acdebe8420d745b9ca1b47775",
+  "system_prompt_sha256": "59dfc97ecaa71ef87ff30a455d3f788b3aaff26b568b3bdfb09a9201dea0e1fb",
+  "raw_attempt_outputs": [
+    {
+      "metadata": {
+        "started_at": "2026-10-29T12:11:03.641172+00:00",
+        "schema": "InteractiveRelationRankingOutput",
+        "requested_model": "gpt-6-luna",
+        "reasoning_effort": "medium",
+        "stream": true,
+        "store": false,
+        "timeout_seconds": null,
+        "system_prompt_sha256": "59dfc97ecaa71ef87ff30a455d3f788b3aaff26b568b3bdfb09a9201dea0e1fb",
+        "input_sha256": "5e79c9460daa2e8d7f5f435f237b89d5cdde0e0acdebe8420d745b9ca1b47775",
+        "request_ids": {
+          "x-oneapi-request-id": "202610291211037888006728268d9d645Nvy1iN"
+        },
+        "usage_details": {
+          "cached_input_tokens": 0,
+          "reasoning_output_tokens": 35
+        },
+        "status": "completed",
+        "reported_model": "gpt-6-luna",
+        "response_id": "resp_048dd3296d2e1db9016ae337d855ec8191ab2fd27f81824447",
+        "output_bytes": 112,
+        "output_sha256": "06b6bdc86c45bba6b92ef6a76b4fec619cb9ae8c60b4b41ed8e51eeacfc47f27",
+        "usage": {
+          "prompt_tokens": 782,
+          "completion_tokens": 79,
+          "total_tokens": 861
+        },
+        "elapsed_seconds": 2.286,
+        "finished_at": "2026-10-29T12:11:05.927442+00:00"
+      },
+      "text": "{\"decisions\":[{\"id\":1,\"relation\":\"equivalent\",\"direction\":\"result_to_query\",\"scope\":\"equivalent\",\"score\":0.99}]}"
+    }
+  ],
+  "status": "ok",
+  "output": {
+    "decisions": [
+      {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "result_to_query",
+        "scope": "equivalent",
+        "score": 0.99
+      }
+    ]
+  },
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "output_content_sha256": "06b6bdc86c45bba6b92ef6a76b4fec619cb9ae8c60b4b41ed8e51eeacfc47f27",
+  "diagnostics": [
+    {
+      "attempt": 1,
+      "classification": "success",
+      "finish_reason": "stop",
+      "content_bytes": 112,
+      "content_sha256": "06b6bdc86c45bba6b92ef6a76b4fec619cb9ae8c60b4b41ed8e51eeacfc47f27",
+      "usage": {
+        "prompt_tokens": 782,
+        "completion_tokens": 79,
+        "total_tokens": 861,
+        "prompt_cache_hit_tokens": null,
+        "prompt_cache_miss_tokens": null
+      },
+      "json_error": null,
+      "schema_errors": [],
+      "contract_issue": null,
+      "contract_loc": [],
+      "contract_issues": [],
+      "request_error_kind": null,
+      "request_http_status": null,
+      "request_exception_type": null,
+      "request_error_stage": null,
+      "request_provider_code": null,
+      "request_error_location": null
+    }
+  ],
+  "elapsed_seconds": 2.287167374999626,
+  "finished_at": "2026-10-29T12:11:05.928114+00:00"
+}

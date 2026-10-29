@@ -1,0 +1,155 @@
+{
+  "prompt_sha256": "8f346fe1b67154c21e6efc2f0e46272809e5f8efc5f253283186e62d050306ec",
+  "verification": "All 30 pairs differ only by argument; all 60 user inputs match v1 exactly; frozen hash unchanged; all raw winner hashes and transport prompt/input hashes verified; timeout None",
+  "models": {
+    "gpt-6-luna": 60
+  },
+  "reasoning_efforts": {
+    "medium": 60
+  },
+  "transport_attempt_traces": 60,
+  "latency": {
+    "claim_scope": {
+      "mean_seconds": 3.976979473633219,
+      "median_seconds": 3.9019701249999343
+    },
+    "full_argument": {
+      "mean_seconds": 3.5331756027000667,
+      "median_seconds": 3.3404234170002383
+    }
+  },
+  "all_errors": [
+    {
+      "id": "q30-1",
+      "condition": "claim_scope",
+      "accepted": [
+        "equivalent"
+      ],
+      "expected_direction": "result_to_query",
+      "decision": {
+        "id": 1,
+        "relation": "equivalent",
+        "direction": "query_to_result",
+        "scope": "equivalent",
+        "score": 0.99
+      }
+    },
+    {
+      "id": "q70-5",
+      "condition": "claim_scope",
+      "accepted": [
+        "contradicts"
+      ],
+      "expected_direction": "result_to_query",
+      "decision": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.91
+      }
+    },
+    {
+      "id": "q90-5",
+      "condition": "claim_scope",
+      "accepted": [
+        "contradicts",
+        "qualifies"
+      ],
+      "expected_direction": "result_to_query",
+      "decision": {
+        "id": 1,
+        "relation": "supplements",
+        "direction": "result_to_query",
+        "scope": "candidate_within_query",
+        "score": 0.95
+      }
+    },
+    {
+      "id": "q90-5",
+      "condition": "full_argument",
+      "accepted": [
+        "contradicts",
+        "qualifies"
+      ],
+      "expected_direction": "result_to_query",
+      "decision": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.91
+      }
+    }
+  ],
+  "relation_regressions_vs_v1": [
+    {
+      "id": "q90-5",
+      "condition": "full_argument",
+      "old": {
+        "id": 1,
+        "relation": "contradicts",
+        "direction": "result_to_query",
+        "scope": "disjoint",
+        "score": 0.99
+      },
+      "new": {
+        "id": 1,
+        "relation": "related",
+        "direction": "result_to_query",
+        "scope": "overlap",
+        "score": 0.91
+      }
+    }
+  ],
+  "all_relation_changes_vs_v1": [
+    {
+      "id": "q16-3",
+      "condition": "full_argument",
+      "old": "qualifies",
+      "new": "related"
+    },
+    {
+      "id": "q16-6",
+      "condition": "claim_scope",
+      "old": "unrelated",
+      "new": "related"
+    },
+    {
+      "id": "q90-3",
+      "condition": "claim_scope",
+      "old": "related",
+      "new": "qualifies"
+    },
+    {
+      "id": "q90-5",
+      "condition": "claim_scope",
+      "old": "supports",
+      "new": "supplements"
+    },
+    {
+      "id": "q90-5",
+      "condition": "full_argument",
+      "old": "contradicts",
+      "new": "related"
+    },
+    {
+      "id": "q110-3",
+      "condition": "claim_scope",
+      "old": "qualifies",
+      "new": "contradicts"
+    },
+    {
+      "id": "q110-6",
+      "condition": "claim_scope",
+      "old": "related",
+      "new": "qualifies"
+    },
+    {
+      "id": "q110-6",
+      "condition": "full_argument",
+      "old": "qualifies",
+      "new": "related"
+    }
+  ]
+}

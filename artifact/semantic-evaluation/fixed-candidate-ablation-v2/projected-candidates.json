@@ -1,0 +1,1986 @@
+{
+  "q16": {
+    "claim": "Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.",
+    "scope": {
+      "location": [
+        "Afar Depression, Ethiopia"
+      ],
+      "time": {
+        "label": "2010–2011 ALIE array plus early-2000 to mid-2012 data"
+      },
+      "formation": [
+        "Red Sea rift, Tendaho graben, Dobi graben, overlap zone"
+      ],
+      "sample_type": [
+        "broadband seismic stations"
+      ],
+      "method": [
+        "receiver function H-κ stacking"
+      ],
+      "condition": [
+        "along ~200 km profile; station-specific Vp"
+      ],
+      "measurement": [
+        "crustal thickness H"
+      ],
+      "uncertainty": "bootstrap standard errors",
+      "entities": [
+        "Red Sea rift",
+        "Tendaho graben",
+        "crustal thickness",
+        "overlap zone"
+      ]
+    },
+    "argument": {
+      "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+      "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+      "nodes": [
+        {
+          "id": "anchor.text.h_abs",
+          "kind": "source_anchor",
+          "statement": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "anchor.text.h_asym",
+          "kind": "source_anchor",
+          "statement": "The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+          "kind": "atomic_claim",
+          "statement": "Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.",
+          "scope": {
+            "condition": [
+              "along ~200 km profile; station-specific Vp"
+            ],
+            "entities": [
+              "Red Sea rift",
+              "Tendaho graben",
+              "crustal thickness",
+              "overlap zone"
+            ],
+            "formation": [
+              "Red Sea rift, Tendaho graben, Dobi graben, overlap zone"
+            ],
+            "location": [
+              "Afar Depression, Ethiopia"
+            ],
+            "measurement": [
+              "crustal thickness H"
+            ],
+            "method": [
+              "receiver function H-κ stacking"
+            ],
+            "sample_type": [
+              "broadband seismic stations"
+            ],
+            "time": {
+              "end": null,
+              "label": "2010–2011 ALIE array plus early-2000 to mid-2012 data",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "bootstrap standard errors"
+          },
+          "anchor_ids": [
+            "anchor.text.h_abs",
+            "anchor.text.h_asym"
+          ]
+        },
+        {
+          "id": "obs.h_abs",
+          "kind": "observation",
+          "statement": "Stacking of about 2300 receiver functions from the ALIE array and nearby stations yields an average crustal thickness of 22 ± 4 km, ranging from ~17 km near the Red Sea rift axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.",
+          "scope": {
+            "condition": [
+              "along ~200 km profile; station-specific Vp"
+            ],
+            "entities": [
+              "Red Sea rift",
+              "Tendaho graben",
+              "crustal thickness",
+              "overlap zone"
+            ],
+            "formation": [
+              "Red Sea rift, Tendaho graben, Dobi graben, overlap zone"
+            ],
+            "location": [
+              "Afar Depression, Ethiopia"
+            ],
+            "measurement": [
+              "crustal thickness H"
+            ],
+            "method": [
+              "receiver function H-κ stacking"
+            ],
+            "sample_type": [
+              "broadband seismic stations"
+            ],
+            "time": {
+              "end": null,
+              "label": "2010–2011 ALIE array plus early-2000 to mid-2012 data",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "bootstrap standard errors"
+          },
+          "anchor_ids": [
+            "anchor.text.h_abs"
+          ]
+        },
+        {
+          "id": "obs.h_asym",
+          "kind": "observation",
+          "statement": "The crustal thickness observations have an asymmetric pattern, with gradual thickening toward the southwest from the immediate southwestern rift flank and relatively sharp thickening toward the northeast within Region E.",
+          "scope": {
+            "condition": [
+              "along ~200 km profile; station-specific Vp"
+            ],
+            "entities": [
+              "Red Sea rift",
+              "Tendaho graben",
+              "crustal thickness",
+              "overlap zone"
+            ],
+            "formation": [
+              "Red Sea rift, Tendaho graben, Dobi graben, overlap zone"
+            ],
+            "location": [
+              "Afar Depression, Ethiopia"
+            ],
+            "measurement": [
+              "crustal thickness H"
+            ],
+            "method": [
+              "receiver function H-κ stacking"
+            ],
+            "sample_type": [
+              "broadband seismic stations"
+            ],
+            "time": {
+              "end": null,
+              "label": "2010–2011 ALIE array plus early-2000 to mid-2012 data",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "bootstrap standard errors"
+          },
+          "anchor_ids": [
+            "anchor.text.h_asym"
+          ]
+        },
+        {
+          "id": "reason.crustal_thickness_pattern",
+          "kind": "reasoning",
+          "statement": "The stacked receiver functions from the dense array and the station-specific H-κ results show an asymmetric crustal thickness pattern, thinnest beneath the Tendaho graben axis and thickest in the northeastern overlap zone, with an average of ~22 km.",
+          "scope": {
+            "condition": [
+              "along ~200 km profile; station-specific Vp"
+            ],
+            "entities": [
+              "Red Sea rift",
+              "Tendaho graben",
+              "crustal thickness",
+              "overlap zone"
+            ],
+            "formation": [
+              "Red Sea rift, Tendaho graben, Dobi graben, overlap zone"
+            ],
+            "location": [
+              "Afar Depression, Ethiopia"
+            ],
+            "measurement": [
+              "crustal thickness H"
+            ],
+            "method": [
+              "receiver function H-κ stacking"
+            ],
+            "sample_type": [
+              "broadband seismic stations"
+            ],
+            "time": {
+              "end": null,
+              "label": "2010–2011 ALIE array plus early-2000 to mid-2012 data",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "bootstrap standard errors"
+          },
+          "anchor_ids": [
+            "anchor.text.h_abs",
+            "anchor.text.h_asym"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "source_id": "anchor.text.h_abs",
+          "target_id": "obs.h_abs",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "anchor.text.h_asym",
+          "target_id": "obs.h_asym",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "obs.h_abs",
+          "target_id": "reason.crustal_thickness_pattern",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.h_asym",
+          "target_id": "reason.crustal_thickness_pattern",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "reason.crustal_thickness_pattern",
+          "target_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+          "relation": "infers"
+        }
+      ],
+      "truncated": false
+    }
+  },
+  "q30": {
+    "claim": "Hydrodynamic conditions around the Emperor Seamount Chain are stronger than in the open subarctic abyssal plain, especially at water depths of 1,000–2,500 m, as indicated by sortable-silt grain size.",
+    "scope": {
+      "location": [
+        "Emperor Seamount Chain, North Pacific"
+      ],
+      "time": {
+        "label": "Holocene interval"
+      },
+      "formation": [],
+      "sample_type": [
+        "50 Holocene surface sediments"
+      ],
+      "method": [
+        "grain-size correlations, sortable-silt proxy, and end-member comparison"
+      ],
+      "condition": [
+        "water depths 1,313–5,709 m"
+      ],
+      "measurement": [
+        "grain size and mean grain size of sortable silt"
+      ],
+      "entities": [
+        "bottom currents",
+        "sortable silt",
+        "surface sediments"
+      ]
+    },
+    "argument": {
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "claim_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+      "nodes": [
+        {
+          "id": "anchor.text.hydro.abyssal",
+          "kind": "source_anchor",
+          "statement": "Furthermore, using the same simulation method of EM analysis, we compared our data with the results of the SO202 Expedition from the open subarctic Pacific Ocean (Serno et al., 2014), and found that mean grain size was about 5.33 µm.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "anchor.text.hydro.depth",
+          "kind": "source_anchor",
+          "statement": "Negative correlation between water depth and grain size (R = −0.74, Figure 5A) in the study area suggests that the deeper the water depth is, the finer the grain size of sediments is.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "anchor.text.hydro.em",
+          "kind": "source_anchor",
+          "statement": "According to the grain size analysis of simulated EM, there are three EM with mean grain size of 9.12 µm (EM1), 64.95 µm (EM2), and 157.67 µm (EM3), representing fine silt, fine sand and medium sand, respectively.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "anchor.text.hydro.proxy",
+          "kind": "source_anchor",
+          "statement": "Mean grain size of sortable silt shows strong positive correlation with the contents of sortable silt in the study area, suggesting that it can be used to indicate the relative change of bottom current strength (Mccave et al., 2020).",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "anchor.text.hydro.sortable",
+          "kind": "source_anchor",
+          "statement": "As shown in Figure 9, there is a negative correlation between grain size of sortable silt and water depth (R = −0.73), and grain size of sortable silt increases significantly, indicating strong hydrodynamic conditions.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "anchor.text.hydro.summary",
+          "kind": "source_anchor",
+          "statement": "The mean grain size of sortable silt shows that the hydrodynamic condition in sea mountain area is significantly stronger than that of the abyssal plain, especially at the water depth of 1,000–2,500 m in study area.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "anchor:compiler:visual:9f9ef2b238f1e72d2cc0388c9d909b7fe208dc9ba259273e4283e2079b1bbed7",
+          "kind": "source_anchor",
+          "statement": "FIGURE 9 | The correlation plot between grain size of sortable silt and water depth.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "assumption.hydro.sortable_proxy",
+          "kind": "assumption",
+          "statement": "Mean grain size of sortable silt can indicate relative changes in bottom-current strength.",
+          "scope": {
+            "condition": [],
+            "entities": [],
+            "formation": [],
+            "location": [],
+            "measurement": [],
+            "method": [],
+            "sample_type": [],
+            "time": null,
+            "uncertainty": null
+          },
+          "anchor_ids": [
+            "anchor.text.hydro.proxy"
+          ]
+        },
+        {
+          "id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+          "kind": "atomic_claim",
+          "statement": "Hydrodynamic conditions around the Emperor Seamount Chain are stronger than in the open subarctic abyssal plain, especially at water depths of 1,000–2,500 m, as indicated by sortable-silt grain size.",
+          "scope": {
+            "condition": [
+              "water depths 1,313–5,709 m"
+            ],
+            "entities": [
+              "bottom currents",
+              "sortable silt",
+              "surface sediments"
+            ],
+            "formation": [],
+            "location": [
+              "Emperor Seamount Chain, North Pacific"
+            ],
+            "measurement": [
+              "grain size and mean grain size of sortable silt"
+            ],
+            "method": [
+              "grain-size correlations, sortable-silt proxy, and end-member comparison"
+            ],
+            "sample_type": [
+              "50 Holocene surface sediments"
+            ],
+            "time": {
+              "end": null,
+              "label": "Holocene interval",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": null
+          },
+          "anchor_ids": [
+            "anchor.text.hydro.abyssal",
+            "anchor.text.hydro.depth",
+            "anchor.text.hydro.em",
+            "anchor.text.hydro.proxy",
+            "anchor.text.hydro.sortable",
+            "anchor.text.hydro.summary",
+            "anchor:compiler:visual:9f9ef2b238f1e72d2cc0388c9d909b7fe208dc9ba259273e4283e2079b1bbed7"
+          ]
+        },
+        {
+          "id": "obs.hydro.abyssal",
+          "kind": "observation",
+          "statement": "The SO202 comparison for the open subarctic Pacific found a mean grain size of about 5.33 µm.",
+          "scope": {
+            "condition": [
+              "water depths 1,313–5,709 m"
+            ],
+            "entities": [
+              "bottom currents",
+              "sortable silt",
+              "surface sediments"
+            ],
+            "formation": [],
+            "location": [
+              "Emperor Seamount Chain, North Pacific"
+            ],
+            "measurement": [
+              "grain size and mean grain size of sortable silt"
+            ],
+            "method": [
+              "grain-size correlations, sortable-silt proxy, and end-member comparison"
+            ],
+            "sample_type": [
+              "50 Holocene surface sediments"
+            ],
+            "time": {
+              "end": null,
+              "label": "Holocene interval",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": null
+          },
+          "anchor_ids": [
+            "anchor.text.hydro.abyssal"
+          ]
+        },
+        {
+          "id": "obs.hydro.depth",
+          "kind": "observation",
+          "statement": "Water depth and grain size are negatively correlated in the study area (R = −0.74; Figure 5A), with deeper water associated with finer sediment.",
+          "scope": {
+            "condition": [
+              "water depths 1,313–5,709 m"
+            ],
+            "entities": [
+              "bottom currents",
+              "sortable silt",
+              "surface sediments"
+            ],
+            "formation": [],
+            "location": [
+              "Emperor Seamount Chain, North Pacific"
+            ],
+            "measurement": [
+              "grain size and mean grain size of sortable silt"
+            ],
+            "method": [
+              "grain-size correlations, sortable-silt proxy, and end-member comparison"
+            ],
+            "sample_type": [
+              "50 Holocene surface sediments"
+            ],
+            "time": {
+              "end": null,
+              "label": "Holocene interval",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": null
+          },
+          "anchor_ids": [
+            "anchor.text.hydro.depth"
+          ]
+        },
+        {
+          "id": "obs.hydro.em",
+          "kind": "observation",
+          "statement": "The modeled surface-sediment end members had mean grain sizes of 9.12 µm (EM1), 64.95 µm (EM2), and 157.67 µm (EM3), representing fine silt, fine sand, and medium sand, respectively.",
+          "scope": {
+            "condition": [
+              "water depths 1,313–5,709 m"
+            ],
+            "entities": [
+              "bottom currents",
+              "sortable silt",
+              "surface sediments"
+            ],
+            "formation": [],
+            "location": [
+              "Emperor Seamount Chain, North Pacific"
+            ],
+            "measurement": [
+              "grain size and mean grain size of sortable silt"
+            ],
+            "method": [
+              "grain-size correlations, sortable-silt proxy, and end-member comparison"
+            ],
+            "sample_type": [
+              "50 Holocene surface sediments"
+            ],
+            "time": {
+              "end": null,
+              "label": "Holocene interval",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": null
+          },
+          "anchor_ids": [
+            "anchor.text.hydro.em"
+          ]
+        },
+        {
+          "id": "obs.hydro.sortable",
+          "kind": "observation",
+          "statement": "Sortable-silt grain size is negatively correlated with water depth (R = −0.73; Figure 9), and increasing sortable-silt grain size indicates strong hydrodynamic conditions.",
+          "scope": {
+            "condition": [
+              "water depths 1,313–5,709 m"
+            ],
+            "entities": [
+              "bottom currents",
+              "sortable silt",
+              "surface sediments"
+            ],
+            "formation": [],
+            "location": [
+              "Emperor Seamount Chain, North Pacific"
+            ],
+            "measurement": [
+              "grain size and mean grain size of sortable silt"
+            ],
+            "method": [
+              "grain-size correlations, sortable-silt proxy, and end-member comparison"
+            ],
+            "sample_type": [
+              "50 Holocene surface sediments"
+            ],
+            "time": {
+              "end": null,
+              "label": "Holocene interval",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": null
+          },
+          "anchor_ids": [
+            "anchor.text.hydro.sortable",
+            "anchor:compiler:visual:9f9ef2b238f1e72d2cc0388c9d909b7fe208dc9ba259273e4283e2079b1bbed7"
+          ]
+        },
+        {
+          "id": "obs.hydro.summary",
+          "kind": "observation",
+          "statement": "The mean grain size of sortable silt is reported to indicate hydrodynamic conditions significantly stronger than those of the abyssal plain, especially at water depths of 1,000–2,500 m.",
+          "scope": {
+            "condition": [
+              "water depths 1,313–5,709 m"
+            ],
+            "entities": [
+              "bottom currents",
+              "sortable silt",
+              "surface sediments"
+            ],
+            "formation": [],
+            "location": [
+              "Emperor Seamount Chain, North Pacific"
+            ],
+            "measurement": [
+              "grain size and mean grain size of sortable silt"
+            ],
+            "method": [
+              "grain-size correlations, sortable-silt proxy, and end-member comparison"
+            ],
+            "sample_type": [
+              "50 Holocene surface sediments"
+            ],
+            "time": {
+              "end": null,
+              "label": "Holocene interval",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": null
+          },
+          "anchor_ids": [
+            "anchor.text.hydro.summary"
+          ]
+        },
+        {
+          "id": "reason.hydro.synthesis",
+          "kind": "reasoning",
+          "statement": "The depth-related grain-size correlations, sortable-silt proxy, and comparison with SO202 jointly support stronger hydrodynamic conditions around the seamount chain than on the abyssal plain, with the strongest reported conditions at 1,000–2,500 m.",
+          "scope": {
+            "condition": [
+              "water depths 1,313–5,709 m"
+            ],
+            "entities": [
+              "bottom currents",
+              "sortable silt",
+              "surface sediments"
+            ],
+            "formation": [],
+            "location": [
+              "Emperor Seamount Chain, North Pacific"
+            ],
+            "measurement": [
+              "grain size and mean grain size of sortable silt"
+            ],
+            "method": [
+              "grain-size correlations, sortable-silt proxy, and end-member comparison"
+            ],
+            "sample_type": [
+              "50 Holocene surface sediments"
+            ],
+            "time": {
+              "end": null,
+              "label": "Holocene interval",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": null
+          },
+          "anchor_ids": [
+            "anchor.text.hydro.abyssal",
+            "anchor.text.hydro.depth",
+            "anchor.text.hydro.proxy",
+            "anchor.text.hydro.sortable",
+            "anchor.text.hydro.summary",
+            "anchor:compiler:visual:9f9ef2b238f1e72d2cc0388c9d909b7fe208dc9ba259273e4283e2079b1bbed7"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "source_id": "assumption.hydro.sortable_proxy",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "assumption_for"
+        },
+        {
+          "source_id": "anchor.text.hydro.abyssal",
+          "target_id": "obs.hydro.abyssal",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "anchor.text.hydro.depth",
+          "target_id": "obs.hydro.depth",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "anchor.text.hydro.em",
+          "target_id": "obs.hydro.em",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "anchor.text.hydro.sortable",
+          "target_id": "obs.hydro.sortable",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "anchor.text.hydro.summary",
+          "target_id": "obs.hydro.summary",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "obs.hydro.abyssal",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.hydro.depth",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.hydro.em",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.hydro.sortable",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.hydro.summary",
+          "target_id": "reason.hydro.synthesis",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "reason.hydro.synthesis",
+          "target_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+          "relation": "infers"
+        },
+        {
+          "source_id": "anchor:compiler:visual:9f9ef2b238f1e72d2cc0388c9d909b7fe208dc9ba259273e4283e2079b1bbed7",
+          "target_id": "obs.hydro.sortable",
+          "relation": "grounds"
+        }
+      ],
+      "truncated": false
+    }
+  },
+  "q70": {
+    "claim": "During spring sampling, organic-matter-associated NCA was a substantial part of groundwater TA at the Martinique Beach STE (about 32% overall); negative NCA indicates proton-donating DOM associated with low pH, supporting remineralized organic matter as a source of acidity.",
+    "scope": {
+      "location": [
+        "Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada"
+      ],
+      "time": {
+        "label": "Spring 2015"
+      },
+      "formation": [],
+      "sample_type": [
+        "Groundwater"
+      ],
+      "method": [
+        "NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair"
+      ],
+      "condition": [
+        "Spring groundwater sampling"
+      ],
+      "measurement": [
+        "NCA fraction of TA and groundwater pH"
+      ],
+      "uncertainty": "The approximate NCA contribution to TA was calculated from absolute values.",
+      "entities": [
+        "Martinique Beach STE",
+        "NCA",
+        "TA",
+        "dissolved organic matter",
+        "pH"
+      ]
+    },
+    "argument": {
+      "snapshot_id": "snapshot:sha256:f4a0935b0c11b106ef4598f003efc39287ddc7cda8f9d4bae8c0bb609ca7f101",
+      "claim_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+      "nodes": [
+        {
+          "id": "a.fig3",
+          "kind": "source_anchor",
+          "statement": "",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.nca32",
+          "kind": "source_anchor",
+          "statement": "Based on the absolute values, we calculated that NCA contributed to approximately $3 2 \\%$ of TA.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.ncaneg",
+          "kind": "source_anchor",
+          "statement": "The occurrence of negative NCA (i.e., acidity: ${ \\mathrm { A c } } >$ TA) implies that some of the DOM behaves as a proton donor, in agreement with the low $\\mathrm { p H }$ of the corresponding water sample.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.ncarange",
+          "kind": "source_anchor",
+          "statement": "NCA values ranged from -1.07 to $+ 1 . 1 1$ mmol $k g ^ { - 1 } \\left( \\pm 3 . 4 \\% \\right)$ with a mean value of -0.26 mmol $k g ^ { - 1 }$ .",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.phlow",
+          "kind": "source_anchor",
+          "statement": "The lowest values $( 5 . 9 0 < \\mathrm { p H } < 6 . 2 3 )$ ), which were lower than the pH measured in the inland fresh groundwater (e.g., $\\mathrm { p H } { \\sim } 6 . 3 4 .$ , Table 1), were measured in the middle of the intertidal zone, $1 . 2 \\textrm { m }$ below the surface.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.phrange",
+          "kind": "source_anchor",
+          "statement": "The pHs ranged from 5.90 to 7.03 (Figure 3A).",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.soilacid",
+          "kind": "source_anchor",
+          "statement": "The net production of acidity mainly results from the remineralization of organic matter released by the old buried forest soil.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "anchor:compiler:visual:983769ee063b6193e0f0fa1b7be8642be8ba2e222d5094824d888178d394b038",
+          "kind": "source_anchor",
+          "statement": "TABLE 1 Geochemical characteristics of inland groundwater and seawater used as end members in the salinity-based mixing models. ",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+          "kind": "atomic_claim",
+          "statement": "During spring sampling, organic-matter-associated NCA was a substantial part of groundwater TA at the Martinique Beach STE (about 32% overall); negative NCA indicates proton-donating DOM associated with low pH, supporting remineralized organic matter as a source of acidity.",
+          "scope": {
+            "condition": [
+              "Spring groundwater sampling"
+            ],
+            "entities": [
+              "Martinique Beach STE",
+              "NCA",
+              "TA",
+              "dissolved organic matter",
+              "pH"
+            ],
+            "formation": [],
+            "location": [
+              "Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada"
+            ],
+            "measurement": [
+              "NCA fraction of TA and groundwater pH"
+            ],
+            "method": [
+              "NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair"
+            ],
+            "sample_type": [
+              "Groundwater"
+            ],
+            "time": {
+              "end": null,
+              "label": "Spring 2015",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "The approximate NCA contribution to TA was calculated from absolute values."
+          },
+          "anchor_ids": [
+            "a.fig3",
+            "a.nca32",
+            "a.ncaneg",
+            "a.ncarange",
+            "a.phlow",
+            "a.phrange",
+            "a.soilacid",
+            "anchor:compiler:visual:983769ee063b6193e0f0fa1b7be8642be8ba2e222d5094824d888178d394b038"
+          ]
+        },
+        {
+          "id": "obs.nca32",
+          "kind": "observation",
+          "statement": "Based on absolute values, NCA was calculated to contribute approximately 32% of TA.",
+          "scope": {
+            "condition": [
+              "Spring groundwater sampling"
+            ],
+            "entities": [
+              "Martinique Beach STE",
+              "NCA",
+              "TA",
+              "dissolved organic matter",
+              "pH"
+            ],
+            "formation": [],
+            "location": [
+              "Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada"
+            ],
+            "measurement": [
+              "NCA fraction of TA and groundwater pH"
+            ],
+            "method": [
+              "NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair"
+            ],
+            "sample_type": [
+              "Groundwater"
+            ],
+            "time": {
+              "end": null,
+              "label": "Spring 2015",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "The approximate NCA contribution to TA was calculated from absolute values."
+          },
+          "anchor_ids": [
+            "a.nca32"
+          ]
+        },
+        {
+          "id": "obs.ncaneg",
+          "kind": "observation",
+          "statement": "The authors interpret negative NCA (Ac > TA) as acidity and as evidence that some DOM behaves as a proton donor, in agreement with low pH in the corresponding sample.",
+          "scope": {
+            "condition": [
+              "Spring groundwater sampling"
+            ],
+            "entities": [
+              "Martinique Beach STE",
+              "NCA",
+              "TA",
+              "dissolved organic matter",
+              "pH"
+            ],
+            "formation": [],
+            "location": [
+              "Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada"
+            ],
+            "measurement": [
+              "NCA fraction of TA and groundwater pH"
+            ],
+            "method": [
+              "NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair"
+            ],
+            "sample_type": [
+              "Groundwater"
+            ],
+            "time": {
+              "end": null,
+              "label": "Spring 2015",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "The approximate NCA contribution to TA was calculated from absolute values."
+          },
+          "anchor_ids": [
+            "a.ncaneg"
+          ]
+        },
+        {
+          "id": "obs.ncarange",
+          "kind": "observation",
+          "statement": "NCA ranged from −1.07 to +1.11 mmol kg⁻¹, with a mean of −0.26 mmol kg⁻¹.",
+          "scope": {
+            "condition": [
+              "Spring groundwater sampling"
+            ],
+            "entities": [
+              "Martinique Beach STE",
+              "NCA",
+              "TA",
+              "dissolved organic matter",
+              "pH"
+            ],
+            "formation": [],
+            "location": [
+              "Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada"
+            ],
+            "measurement": [
+              "NCA fraction of TA and groundwater pH"
+            ],
+            "method": [
+              "NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair"
+            ],
+            "sample_type": [
+              "Groundwater"
+            ],
+            "time": {
+              "end": null,
+              "label": "Spring 2015",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "The approximate NCA contribution to TA was calculated from absolute values."
+          },
+          "anchor_ids": [
+            "a.ncarange"
+          ]
+        },
+        {
+          "id": "obs.phlow",
+          "kind": "observation",
+          "statement": "The lowest pH values were measured in the middle of the intertidal zone, about 1.2 m below the surface, and were lower than inland fresh groundwater pH.",
+          "scope": {
+            "condition": [
+              "Spring groundwater sampling"
+            ],
+            "entities": [
+              "Martinique Beach STE",
+              "NCA",
+              "TA",
+              "dissolved organic matter",
+              "pH"
+            ],
+            "formation": [],
+            "location": [
+              "Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada"
+            ],
+            "measurement": [
+              "NCA fraction of TA and groundwater pH"
+            ],
+            "method": [
+              "NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair"
+            ],
+            "sample_type": [
+              "Groundwater"
+            ],
+            "time": {
+              "end": null,
+              "label": "Spring 2015",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "The approximate NCA contribution to TA was calculated from absolute values."
+          },
+          "anchor_ids": [
+            "a.phlow",
+            "anchor:compiler:visual:983769ee063b6193e0f0fa1b7be8642be8ba2e222d5094824d888178d394b038"
+          ]
+        },
+        {
+          "id": "obs.phrange",
+          "kind": "observation",
+          "statement": "Groundwater pH ranged from 5.90 to 7.03 (Figure 3A).",
+          "scope": {
+            "condition": [
+              "Spring groundwater sampling"
+            ],
+            "entities": [
+              "Martinique Beach STE",
+              "NCA",
+              "TA",
+              "dissolved organic matter",
+              "pH"
+            ],
+            "formation": [],
+            "location": [
+              "Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada"
+            ],
+            "measurement": [
+              "NCA fraction of TA and groundwater pH"
+            ],
+            "method": [
+              "NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair"
+            ],
+            "sample_type": [
+              "Groundwater"
+            ],
+            "time": {
+              "end": null,
+              "label": "Spring 2015",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "The approximate NCA contribution to TA was calculated from absolute values."
+          },
+          "anchor_ids": [
+            "a.fig3",
+            "a.phrange"
+          ]
+        },
+        {
+          "id": "obs.soilacid",
+          "kind": "observation",
+          "statement": "The authors attribute net acidity mainly to remineralization of organic matter released by the old buried forest soil.",
+          "scope": {
+            "condition": [
+              "Spring groundwater sampling"
+            ],
+            "entities": [
+              "Martinique Beach STE",
+              "NCA",
+              "TA",
+              "dissolved organic matter",
+              "pH"
+            ],
+            "formation": [],
+            "location": [
+              "Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada"
+            ],
+            "measurement": [
+              "NCA fraction of TA and groundwater pH"
+            ],
+            "method": [
+              "NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair"
+            ],
+            "sample_type": [
+              "Groundwater"
+            ],
+            "time": {
+              "end": null,
+              "label": "Spring 2015",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "The approximate NCA contribution to TA was calculated from absolute values."
+          },
+          "anchor_ids": [
+            "a.soilacid"
+          ]
+        },
+        {
+          "id": "reason.nca",
+          "kind": "reasoning",
+          "statement": "The substantial NCA share, proton-donor interpretation of negative NCA, observed low pH, and attributed terrestrial-organic remineralization jointly link organic matter to acidity in the groundwater.",
+          "scope": {
+            "condition": [
+              "Spring groundwater sampling"
+            ],
+            "entities": [
+              "Martinique Beach STE",
+              "NCA",
+              "TA",
+              "dissolved organic matter",
+              "pH"
+            ],
+            "formation": [],
+            "location": [
+              "Martinique Beach, Magdalen Islands, Gulf of St. Lawrence, Canada"
+            ],
+            "measurement": [
+              "NCA fraction of TA and groundwater pH"
+            ],
+            "method": [
+              "NCA estimated as TA minus carbonate alkalinity derived from the DIC–pHNBS pair"
+            ],
+            "sample_type": [
+              "Groundwater"
+            ],
+            "time": {
+              "end": null,
+              "label": "Spring 2015",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "The approximate NCA contribution to TA was calculated from absolute values."
+          },
+          "anchor_ids": [
+            "a.nca32",
+            "a.ncaneg",
+            "a.ncarange",
+            "a.phlow",
+            "a.phrange",
+            "a.soilacid",
+            "anchor:compiler:visual:983769ee063b6193e0f0fa1b7be8642be8ba2e222d5094824d888178d394b038"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "source_id": "a.fig3",
+          "target_id": "obs.phrange",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.nca32",
+          "target_id": "obs.nca32",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.ncaneg",
+          "target_id": "obs.ncaneg",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.ncarange",
+          "target_id": "obs.ncarange",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.phlow",
+          "target_id": "obs.phlow",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.phrange",
+          "target_id": "obs.phrange",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.soilacid",
+          "target_id": "obs.soilacid",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "obs.nca32",
+          "target_id": "reason.nca",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.ncaneg",
+          "target_id": "reason.nca",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.ncarange",
+          "target_id": "reason.nca",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.phlow",
+          "target_id": "reason.nca",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.phrange",
+          "target_id": "reason.nca",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.soilacid",
+          "target_id": "reason.nca",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "reason.nca",
+          "target_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+          "relation": "infers"
+        },
+        {
+          "source_id": "anchor:compiler:visual:983769ee063b6193e0f0fa1b7be8642be8ba2e222d5094824d888178d394b038",
+          "target_id": "obs.phlow",
+          "relation": "grounds"
+        }
+      ],
+      "truncated": false
+    }
+  },
+  "q90": {
+    "claim": "Extrapolating isotope-pairing denitrification rates over the western Indian continental shelf estimates annual fixed-nitrogen removal via denitrification at 3.70–11.1 Tg year−1; Table 2 reports the upper endpoint as 11.11.",
+    "scope": {
+      "location": [
+        "western Indian continental shelf, eastern Arabian Sea"
+      ],
+      "time": {
+        "label": "annualized from three-year sampling using an assumed 90-day reducing season"
+      },
+      "formation": [],
+      "sample_type": [
+        "estimated reducing-water volume over the shelf"
+      ],
+      "method": [
+        "extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume"
+      ],
+      "condition": [
+        "seasonal anoxia"
+      ],
+      "measurement": [
+        "annualized fixed-nitrogen removal"
+      ],
+      "uncertainty": "shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty",
+      "entities": [
+        "annual fixed-nitrogen removal via denitrification",
+        "western Indian continental shelf (WICS)"
+      ]
+    },
+    "argument": {
+      "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+      "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+      "nodes": [
+        {
+          "id": "a.annual.prose",
+          "kind": "source_anchor",
+          "statement": "Applying our 3 years average N-loss rates to this volume and assuming the reducing condition to last for 90 days, the overall N-loss would range from $3 . 7 0 \\pm 0 . 0 9 1$ to $1 1 . 1 \\pm 2 . 7 2 \\mathrm { ~ T g ~ y e a r } ^ { - 1 }$ via denitrification, and from $0 . 0 9 \\pm 0 . 0 1$ to $0 . 2 7 \\pm 0 . 0 3$ Tg year−1 via anammox (Table 2).",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.area.functional",
+          "kind": "source_anchor",
+          "statement": "However, $\\mathrm { O } _ { 2 }$ levels over this entire area are not low enough to support reductive N-loss, and as a lower limit about one third of the entire shelf, $6 0 , 0 0 0 ~ \\mathrm { k m } ^ { 2 }$ was assumed to functionally anoxic.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.area.hypoxic",
+          "kind": "source_anchor",
+          "statement": "(2000) estimated the area of the hypoxic zone over the WCSI to be $1 8 0 , 0 0 0 ~ \\mathrm { k m } ^ { 2 }$ .",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.denit.mean",
+          "kind": "source_anchor",
+          "statement": "The mean values of our 3- year N-loss rates through denitrification and anammox were $2 . 4 5 \\pm 0 . 6$ and $0 . 0 6 \\pm \\mathrm { { \\bar { 0 } } . 0 0 4 ~ \\mu m o l ~ N _ { 2 } ~ L ^ { - 1 } ~ d ^ { - 1 } }$ , respectively.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.prior.compare",
+          "kind": "source_anchor",
+          "statement": "Our estimate is also almost three times higher than the previous estimate derived from changes in nitrate concentrations over time (Naik, 2003).",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.scale.volume",
+          "kind": "source_anchor",
+          "statement": "The total volume of reducing water was estimated to range between 1.2 and $3 . 6 \\times 1 0 ^ { 1 2 } \\mathrm { ~ m } ^ { \\bar { 3 } }$ taking the thickness of the reducing layer to be $2 0 ~ \\mathrm { m }$ .",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.table2",
+          "kind": "source_anchor",
+          "statement": "TABLE 2 | Total nitrogen loss (mean and standard deviation values) from eastern Arabian Sea from present study and comparison with earlier data extrapolated to the OMZ area and thickness adopted from Naqvi et al. (2000). ",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.table2.caption",
+          "kind": "source_anchor",
+          "statement": "TABLE 2 | Total nitrogen loss (mean and standard deviation values) from eastern Arabian Sea from present study and comparison with earlier data extrapolated to the OMZ area and thickness adopted from Naqvi et al.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "assumption.upscaling",
+          "kind": "assumption",
+          "statement": "Shelf-wide annualization assumes 60,000 km² as the lower functional-anoxia area within a 180,000 km² hypoxic zone, a 20 m reducing layer, and 90 days of reducing conditions.",
+          "scope": {
+            "condition": [],
+            "entities": [],
+            "formation": [],
+            "location": [],
+            "measurement": [],
+            "method": [],
+            "sample_type": [],
+            "time": null,
+            "uncertainty": null
+          },
+          "anchor_ids": [
+            "a.annual.prose",
+            "a.area.functional",
+            "a.area.hypoxic",
+            "a.scale.volume",
+            "a.table2"
+          ]
+        },
+        {
+          "id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+          "kind": "atomic_claim",
+          "statement": "Extrapolating isotope-pairing denitrification rates over the western Indian continental shelf estimates annual fixed-nitrogen removal via denitrification at 3.70–11.1 Tg year−1; Table 2 reports the upper endpoint as 11.11.",
+          "scope": {
+            "condition": [
+              "seasonal anoxia"
+            ],
+            "entities": [
+              "annual fixed-nitrogen removal via denitrification",
+              "western Indian continental shelf (WICS)"
+            ],
+            "formation": [],
+            "location": [
+              "western Indian continental shelf, eastern Arabian Sea"
+            ],
+            "measurement": [
+              "annualized fixed-nitrogen removal"
+            ],
+            "method": [
+              "extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume"
+            ],
+            "sample_type": [
+              "estimated reducing-water volume over the shelf"
+            ],
+            "time": {
+              "end": null,
+              "label": "annualized from three-year sampling using an assumed 90-day reducing season",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty"
+          },
+          "anchor_ids": [
+            "a.annual.prose",
+            "a.area.functional",
+            "a.area.hypoxic",
+            "a.denit.mean",
+            "a.prior.compare",
+            "a.scale.volume",
+            "a.table2",
+            "a.table2.caption"
+          ]
+        },
+        {
+          "id": "obs.annual.prose",
+          "kind": "observation",
+          "statement": "The prose gives estimated annual nitrogen removal via denitrification as 3.70 ± 0.091 to 11.1 ± 2.72 Tg year−1 (Table 2).",
+          "scope": {
+            "condition": [
+              "seasonal anoxia"
+            ],
+            "entities": [
+              "annual fixed-nitrogen removal via denitrification",
+              "western Indian continental shelf (WICS)"
+            ],
+            "formation": [],
+            "location": [
+              "western Indian continental shelf, eastern Arabian Sea"
+            ],
+            "measurement": [
+              "annualized fixed-nitrogen removal"
+            ],
+            "method": [
+              "extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume"
+            ],
+            "sample_type": [
+              "estimated reducing-water volume over the shelf"
+            ],
+            "time": {
+              "end": null,
+              "label": "annualized from three-year sampling using an assumed 90-day reducing season",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty"
+          },
+          "anchor_ids": [
+            "a.annual.prose",
+            "a.table2"
+          ]
+        },
+        {
+          "id": "obs.annual.table",
+          "kind": "observation",
+          "statement": "Table 2 reports the present-study total fixed-nitrogen removal through denitrification as 3.70 ± 0.91 to 11.11 ± 2.72 Tg N year−1.",
+          "scope": {
+            "condition": [
+              "seasonal anoxia"
+            ],
+            "entities": [
+              "annual fixed-nitrogen removal via denitrification",
+              "western Indian continental shelf (WICS)"
+            ],
+            "formation": [],
+            "location": [
+              "western Indian continental shelf, eastern Arabian Sea"
+            ],
+            "measurement": [
+              "annualized fixed-nitrogen removal"
+            ],
+            "method": [
+              "extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume"
+            ],
+            "sample_type": [
+              "estimated reducing-water volume over the shelf"
+            ],
+            "time": {
+              "end": null,
+              "label": "annualized from three-year sampling using an assumed 90-day reducing season",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty"
+          },
+          "anchor_ids": [
+            "a.table2",
+            "a.table2.caption"
+          ]
+        },
+        {
+          "id": "obs.denit.mean.scale",
+          "kind": "observation",
+          "statement": "The three-year mean denitrification rate used for scaling was reported as 2.45 ± 0.6 μmol N2 L−1 d−1.",
+          "scope": {
+            "condition": [
+              "seasonal anoxia"
+            ],
+            "entities": [
+              "annual fixed-nitrogen removal via denitrification",
+              "western Indian continental shelf (WICS)"
+            ],
+            "formation": [],
+            "location": [
+              "western Indian continental shelf, eastern Arabian Sea"
+            ],
+            "measurement": [
+              "annualized fixed-nitrogen removal"
+            ],
+            "method": [
+              "extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume"
+            ],
+            "sample_type": [
+              "estimated reducing-water volume over the shelf"
+            ],
+            "time": {
+              "end": null,
+              "label": "annualized from three-year sampling using an assumed 90-day reducing season",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty"
+          },
+          "anchor_ids": [
+            "a.denit.mean"
+          ]
+        },
+        {
+          "id": "obs.prior.compare",
+          "kind": "observation",
+          "statement": "The authors describe their annual estimate as almost three times higher than the previous estimate derived from changes in nitrate concentrations over time.",
+          "scope": {
+            "condition": [
+              "seasonal anoxia"
+            ],
+            "entities": [
+              "annual fixed-nitrogen removal via denitrification",
+              "western Indian continental shelf (WICS)"
+            ],
+            "formation": [],
+            "location": [
+              "western Indian continental shelf, eastern Arabian Sea"
+            ],
+            "measurement": [
+              "annualized fixed-nitrogen removal"
+            ],
+            "method": [
+              "extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume"
+            ],
+            "sample_type": [
+              "estimated reducing-water volume over the shelf"
+            ],
+            "time": {
+              "end": null,
+              "label": "annualized from three-year sampling using an assumed 90-day reducing season",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty"
+          },
+          "anchor_ids": [
+            "a.prior.compare"
+          ]
+        },
+        {
+          "id": "obs.reducing.volume",
+          "kind": "observation",
+          "statement": "The estimated reducing-water volume ranges from 1.2 to 3.6 × 10^12 m³, based on a reducing-layer thickness of 20 m.",
+          "scope": {
+            "condition": [
+              "seasonal anoxia"
+            ],
+            "entities": [
+              "annual fixed-nitrogen removal via denitrification",
+              "western Indian continental shelf (WICS)"
+            ],
+            "formation": [],
+            "location": [
+              "western Indian continental shelf, eastern Arabian Sea"
+            ],
+            "measurement": [
+              "annualized fixed-nitrogen removal"
+            ],
+            "method": [
+              "extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume"
+            ],
+            "sample_type": [
+              "estimated reducing-water volume over the shelf"
+            ],
+            "time": {
+              "end": null,
+              "label": "annualized from three-year sampling using an assumed 90-day reducing season",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty"
+          },
+          "anchor_ids": [
+            "a.scale.volume"
+          ]
+        },
+        {
+          "id": "reason.annual.reconcile",
+          "kind": "reasoning",
+          "statement": "The prose and Table 2 give similar central annual denitrification-removal ranges, but disagree on the lower-end uncertainty and differ slightly in the upper endpoint.",
+          "scope": {
+            "condition": [],
+            "entities": [],
+            "formation": [],
+            "location": [],
+            "measurement": [],
+            "method": [],
+            "sample_type": [],
+            "time": null,
+            "uncertainty": null
+          },
+          "anchor_ids": [
+            "a.annual.prose",
+            "a.table2",
+            "a.table2.caption"
+          ]
+        },
+        {
+          "id": "reason.annual.synthesis",
+          "kind": "reasoning",
+          "statement": "The annual range is an extrapolation from measured rates and assumed reducing-water volume; the authors' comparison to earlier nitrate-change estimates supports its interpretation as a substantially larger shelf-wide loss, while the uncertainty discrepancy limits precision.",
+          "scope": {
+            "condition": [
+              "seasonal anoxia"
+            ],
+            "entities": [
+              "annual fixed-nitrogen removal via denitrification",
+              "western Indian continental shelf (WICS)"
+            ],
+            "formation": [],
+            "location": [
+              "western Indian continental shelf, eastern Arabian Sea"
+            ],
+            "measurement": [
+              "annualized fixed-nitrogen removal"
+            ],
+            "method": [
+              "extrapolation of isotope-pairing denitrification rates over estimated reducing-water volume"
+            ],
+            "sample_type": [
+              "estimated reducing-water volume over the shelf"
+            ],
+            "time": {
+              "end": null,
+              "label": "annualized from three-year sampling using an assumed 90-day reducing season",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "shelf-wide extrapolation; prose and Table 2 report different lower-end uncertainty"
+          },
+          "anchor_ids": [
+            "a.annual.prose",
+            "a.denit.mean",
+            "a.prior.compare",
+            "a.scale.volume",
+            "a.table2"
+          ]
+        },
+        {
+          "id": "reason.scale.inputs",
+          "kind": "reasoning",
+          "statement": "Applying the three-year mean denitrification rate to the estimated reducing-water volume over an assumed 90-day season converts incubation rates into a shelf-wide annual estimate.",
+          "scope": {
+            "condition": [],
+            "entities": [],
+            "formation": [],
+            "location": [],
+            "measurement": [],
+            "method": [],
+            "sample_type": [],
+            "time": null,
+            "uncertainty": null
+          },
+          "anchor_ids": [
+            "a.annual.prose",
+            "a.denit.mean",
+            "a.scale.volume",
+            "a.table2"
+          ]
+        },
+        {
+          "id": "visual.table2",
+          "kind": "structured_visual_evidence",
+          "statement": "",
+          "scope": null,
+          "anchor_ids": []
+        }
+      ],
+      "edges": [
+        {
+          "source_id": "assumption.upscaling",
+          "target_id": "reason.scale.inputs",
+          "relation": "assumption_for"
+        },
+        {
+          "source_id": "a.annual.prose",
+          "target_id": "obs.annual.prose",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.table2",
+          "target_id": "obs.annual.table",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.table2.caption",
+          "target_id": "obs.annual.table",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "visual.table2",
+          "target_id": "obs.annual.table",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.prior.compare",
+          "target_id": "obs.prior.compare",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.denit.mean",
+          "target_id": "obs.denit.mean.scale",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.scale.volume",
+          "target_id": "obs.reducing.volume",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "obs.annual.prose",
+          "target_id": "reason.annual.reconcile",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.annual.table",
+          "target_id": "reason.annual.reconcile",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.prior.compare",
+          "target_id": "reason.annual.synthesis",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "reason.annual.reconcile",
+          "target_id": "reason.annual.synthesis",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "reason.scale.inputs",
+          "target_id": "reason.annual.synthesis",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.denit.mean.scale",
+          "target_id": "reason.scale.inputs",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.reducing.volume",
+          "target_id": "reason.scale.inputs",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "reason.annual.synthesis",
+          "target_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+          "relation": "infers"
+        },
+        {
+          "source_id": "a.table2",
+          "target_id": "obs.annual.prose",
+          "relation": "grounds"
+        }
+      ],
+      "truncated": false
+    }
+  },
+  "q110": {
+    "claim": "At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.",
+    "scope": {
+      "location": [
+        "Fiskegrav, central Jameson Land, East Greenland"
+      ],
+      "time": {
+        "label": "Late Permian extinction and Permian–Triassic boundary"
+      },
+      "formation": [
+        "Schuchert Dal and Wordie Creek formations"
+      ],
+      "sample_type": [
+        "Stratigraphic palynological samples"
+      ],
+      "method": [
+        "High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses"
+      ],
+      "condition": [
+        "Shallow-marine shelf setting"
+      ],
+      "measurement": [
+        "Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context"
+      ],
+      "uncertainty": "Salinity is proxy-inferred; duration estimates depend on sedimentation rates.",
+      "entities": [
+        "AOM",
+        "Fiskegrav section",
+        "Micrhystridium breve",
+        "acritarchs",
+        "freshwater run-off",
+        "marine and terrestrial ecosystems"
+      ]
+    },
+    "argument": {
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+      "nodes": [
+        {
+          "id": "a.duration.new",
+          "kind": "source_anchor",
+          "statement": "however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "a.duration.old",
+          "kind": "source_anchor",
+          "statement": "(2001) showed that collapse of marine and terrestrial ecosystems was synchronous and took between 10 and 60 kyr.",
+          "scope": null,
+          "anchor_ids": []
+        },
+        {
+          "id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+          "kind": "atomic_claim",
+          "statement": "At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.",
+          "scope": {
+            "condition": [
+              "Shallow-marine shelf setting"
+            ],
+            "entities": [
+              "AOM",
+              "Fiskegrav section",
+              "Micrhystridium breve",
+              "acritarchs",
+              "freshwater run-off",
+              "marine and terrestrial ecosystems"
+            ],
+            "formation": [
+              "Schuchert Dal and Wordie Creek formations"
+            ],
+            "location": [
+              "Fiskegrav, central Jameson Land, East Greenland"
+            ],
+            "measurement": [
+              "Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context"
+            ],
+            "method": [
+              "High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses"
+            ],
+            "sample_type": [
+              "Stratigraphic palynological samples"
+            ],
+            "time": {
+              "end": null,
+              "label": "Late Permian extinction and Permian–Triassic boundary",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "Salinity is proxy-inferred; duration estimates depend on sedimentation rates."
+          },
+          "anchor_ids": [
+            "a.duration.new",
+            "a.duration.old"
+          ]
+        },
+        {
+          "id": "obs.duration.new",
+          "kind": "observation",
+          "statement": "Revised sedimentation-rate estimates for Fiskegrav place the marine and terrestrial ecosystem collapse at 1.6–8 kyr.",
+          "scope": {
+            "condition": [
+              "Shallow-marine shelf setting"
+            ],
+            "entities": [
+              "AOM",
+              "Fiskegrav section",
+              "Micrhystridium breve",
+              "acritarchs",
+              "freshwater run-off",
+              "marine and terrestrial ecosystems"
+            ],
+            "formation": [
+              "Schuchert Dal and Wordie Creek formations"
+            ],
+            "location": [
+              "Fiskegrav, central Jameson Land, East Greenland"
+            ],
+            "measurement": [
+              "Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context"
+            ],
+            "method": [
+              "High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses"
+            ],
+            "sample_type": [
+              "Stratigraphic palynological samples"
+            ],
+            "time": {
+              "end": null,
+              "label": "Late Permian extinction and Permian–Triassic boundary",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "Salinity is proxy-inferred; duration estimates depend on sedimentation rates."
+          },
+          "anchor_ids": [
+            "a.duration.new"
+          ]
+        },
+        {
+          "id": "obs.duration.old",
+          "kind": "observation",
+          "statement": "Earlier work estimated the synchronous marine and terrestrial ecosystem collapse at 10–60 kyr.",
+          "scope": {
+            "condition": [
+              "Shallow-marine shelf setting"
+            ],
+            "entities": [
+              "AOM",
+              "Fiskegrav section",
+              "Micrhystridium breve",
+              "acritarchs",
+              "freshwater run-off",
+              "marine and terrestrial ecosystems"
+            ],
+            "formation": [
+              "Schuchert Dal and Wordie Creek formations"
+            ],
+            "location": [
+              "Fiskegrav, central Jameson Land, East Greenland"
+            ],
+            "measurement": [
+              "Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context"
+            ],
+            "method": [
+              "High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses"
+            ],
+            "sample_type": [
+              "Stratigraphic palynological samples"
+            ],
+            "time": {
+              "end": null,
+              "label": "Late Permian extinction and Permian–Triassic boundary",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "Salinity is proxy-inferred; duration estimates depend on sedimentation rates."
+          },
+          "anchor_ids": [
+            "a.duration.old"
+          ]
+        },
+        {
+          "id": "reason.duration",
+          "kind": "reasoning",
+          "statement": "The revised sedimentation-rate estimate of 1.6–8 kyr is substantially shorter than the earlier 10–60 kyr estimate, supporting a shorter duration for ecosystem collapse at Fiskegrav.",
+          "scope": {
+            "condition": [
+              "Shallow-marine shelf setting"
+            ],
+            "entities": [
+              "AOM",
+              "Fiskegrav section",
+              "Micrhystridium breve",
+              "acritarchs",
+              "freshwater run-off",
+              "marine and terrestrial ecosystems"
+            ],
+            "formation": [
+              "Schuchert Dal and Wordie Creek formations"
+            ],
+            "location": [
+              "Fiskegrav, central Jameson Land, East Greenland"
+            ],
+            "measurement": [
+              "Spore:pollen ratios, palynofacies, aquatic palynomorph distribution and process length; TOC carbon isotopes and redox context"
+            ],
+            "method": [
+              "High-resolution palynofacies, palynomorph assemblage, and Micrhystridium morphology analyses"
+            ],
+            "sample_type": [
+              "Stratigraphic palynological samples"
+            ],
+            "time": {
+              "end": null,
+              "label": "Late Permian extinction and Permian–Triassic boundary",
+              "start": null,
+              "unit": null
+            },
+            "uncertainty": "Salinity is proxy-inferred; duration estimates depend on sedimentation rates."
+          },
+          "anchor_ids": [
+            "a.duration.new",
+            "a.duration.old"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "source_id": "obs.duration.new",
+          "target_id": "reason.duration",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "obs.duration.old",
+          "target_id": "reason.duration",
+          "relation": "premise_for"
+        },
+        {
+          "source_id": "reason.duration",
+          "target_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+          "relation": "infers"
+        },
+        {
+          "source_id": "a.duration.new",
+          "target_id": "obs.duration.new",
+          "relation": "grounds"
+        },
+        {
+          "source_id": "a.duration.old",
+          "target_id": "obs.duration.old",
+          "relation": "grounds"
+        }
+      ],
+      "truncated": false
+    }
+  }
+}

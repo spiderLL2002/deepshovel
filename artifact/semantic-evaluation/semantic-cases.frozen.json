@@ -1,0 +1,812 @@
+{
+  "frozen_at": "2026-10-29T12:06:31.325868+00:00",
+  "selection": "Five non-F2 papers from the six existing public annotation samples; F2 reserved for development.",
+  "source_check_sha256": "931e5fb3327fda5e6260df9647876044ceff3103923b1933b0f8a8837a25b060",
+  "cases": [
+    {
+      "id": "q16-1",
+      "source": "q16",
+      "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+      "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+      "category": "matched",
+      "query": "Along the ~200 km receiver-function profile across the Red Sea rift in the Afar Depression, crustal thickness averages about 22 ± 4 km and varies from approximately 17 km beneath the Tendaho graben axis to 30 km in the northeastern overlap zone, with an asymmetric pattern of gradual thickening southwest of the rift flank and sharper thickening northeastward in the overlap zone.",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.h_abs",
+          "quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.",
+          "page": 1,
+          "artifact_version_id": "artifact-version:sha256:bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a"
+        },
+        {
+          "id": "anchor.text.h_asym",
+          "quote": "The crustal thickness observations have an asymmetric pattern (Figure 7c) defined by gradual thickening toward the southwest from the immediate southwestern rift flank and by relatively sharp thickening toward the northeast within Region E.",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a"
+        }
+      ],
+      "rationale": "Numerical mean, extrema, receiver-function method and asymmetric pattern match graph anchors. Original PDF pages 1 and 9 additionally confirm Tendaho/RSR and northeastern Region E/overlap-zone mapping."
+    },
+    {
+      "id": "q16-2",
+      "source": "q16",
+      "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+      "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+      "category": "contradiction",
+      "query": "Along the approximately 200 km Afar receiver-function profile, crust is about 30 km thick beneath the Tendaho graben axis and 17 km in the northeastern overlap zone.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.h_abs",
+          "quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.",
+          "page": 1,
+          "artifact_version_id": "artifact-version:sha256:bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a"
+        }
+      ],
+      "rationale": "The same profile endpoints are reversed; 17 km belongs near the RSR axis and 30 km to the overlap zone."
+    },
+    {
+      "id": "q16-3",
+      "source": "q16",
+      "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+      "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+      "category": "condition_change",
+      "query": "Throughout all of Africa, crustal thickness averages 22 ± 4 km.",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.h_abs",
+          "quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.",
+          "page": 1,
+          "artifact_version_id": "artifact-version:sha256:bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a"
+        }
+      ],
+      "rationale": "A profile estimate cannot establish an Africa-wide mean. A broader-area average can coincide numerically without logical contradiction; supplements is not justified merely by shared numbers."
+    },
+    {
+      "id": "q16-4",
+      "source": "q16",
+      "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+      "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+      "category": "measurement_change",
+      "query": "In this Afar study, the reported average crustal thickness of 22 ± 4 km was obtained from direct drilling rather than receiver-function stacking.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.h_abs",
+          "quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.",
+          "page": 1,
+          "artifact_version_id": "artifact-version:sha256:bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a"
+        }
+      ],
+      "rationale": "Original wording allowed separate drilling evidence to coexist. Revised wording explicitly misattributes the reported estimate to an incompatible method."
+    },
+    {
+      "id": "q16-5",
+      "source": "q16",
+      "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+      "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+      "category": "unsupported_cause",
+      "query": "The 22 ± 4 km average Afar crustal thickness proves that groundwater extraction caused crustal thinning.",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.h_abs",
+          "quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.",
+          "page": 1,
+          "artifact_version_id": "artifact-version:sha256:bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a"
+        },
+        {
+          "id": "anchor.text.strain_lower",
+          "quote": "Our measurements of crustal thickness and inferred partial melt fractions, which are clearly not restricted to a rift-axial magmatic segment, suggest that deformation is more widespread in the lower crust concomitant with spatially voluminous melt reservoir emplacement.",
+          "page": 12,
+          "artifact_version_id": "artifact-version:sha256:bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a"
+        }
+      ],
+      "rationale": "The thickness measurement is related, but the cited evidence neither establishes nor directly refutes groundwater extraction as cause. An unsupported causal addition is not an unrelated topic or a contradiction."
+    },
+    {
+      "id": "q16-6",
+      "source": "q16",
+      "snapshot_id": "snapshot:sha256:27d2e8a1979a28aeb2f88a4c57bcd80191b40192a43a3417e052013a5f757e8c",
+      "claim_id": "claim:sha256:5b7236790b14ffae9c91e01ab7f2df47fb0431444635258ac2e5990d56f93650",
+      "category": "scope_transfer",
+      "query": "The same 22 ± 4 km crustal thickness estimate applies to the Mid-Atlantic Ridge.",
+      "accepted_relations": [
+        "related",
+        "qualifies"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.h_abs",
+          "quote": "Stacking of about 2300 receiver functions from the 18 and several nearby stations along the ∼200 km long array reveals an average crustal thickness of $2 2 \\pm 4$ km, ranging from ∼17 km near the RSR axis to 30 km within the overlap zone between the Red Sea and Gulf of Aden rifts.",
+          "page": 1,
+          "artifact_version_id": "artifact-version:sha256:bae383627bfcd3cfc013b1f00414f8f9625f7d43f4ecefa82adfb6e8c643af7a"
+        }
+      ],
+      "rationale": "Afar observations do not establish a Mid-Atlantic Ridge thickness. No thickness for the latter is supplied, so contradiction is not source-grounded."
+    },
+    {
+      "id": "q30-1",
+      "source": "q30",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "claim_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+      "category": "matched",
+      "query": "Hydrodynamic conditions around the Emperor Seamount Chain are stronger than in the open subarctic abyssal plain, especially at water depths of 1,000–2,500 m, as indicated by sortable-silt grain size.",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.hydro.proxy",
+          "quote": "Mean grain size of sortable silt shows strong positive correlation with the contents of sortable silt in the study area, suggesting that it can be used to indicate the relative change of bottom current strength (Mccave et al., 2020).",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07"
+        },
+        {
+          "id": "anchor.text.hydro.summary",
+          "quote": "The mean grain size of sortable silt shows that the hydrodynamic condition in sea mountain area is significantly stronger than that of the abyssal plain, especially at the water depth of 1,000–2,500 m in study area.",
+          "page": 13,
+          "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07"
+        },
+        {
+          "id": "anchor.text.hydro.abyssal",
+          "quote": "Furthermore, using the same simulation method of EM analysis, we compared our data with the results of the SO202 Expedition from the open subarctic Pacific Ocean (Serno et al., 2014), and found that mean grain size was about 5.33 µm.",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07"
+        }
+      ],
+      "rationale": "Same regional comparison, depth emphasis, and grain-size proxy; proxy supports relative hydrodynamic strength."
+    },
+    {
+      "id": "q30-2",
+      "source": "q30",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "claim_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+      "category": "contradiction",
+      "query": "Around the Emperor Seamount Chain at 1,000–2,500 m, sortable-silt evidence indicates weaker bottom-current conditions than in the open subarctic abyssal plain.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.hydro.summary",
+          "quote": "The mean grain size of sortable silt shows that the hydrodynamic condition in sea mountain area is significantly stronger than that of the abyssal plain, especially at the water depth of 1,000–2,500 m in study area.",
+          "page": 13,
+          "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07"
+        }
+      ],
+      "rationale": "Same setting and depth range, opposite comparative direction."
+    },
+    {
+      "id": "q30-3",
+      "source": "q30",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "claim_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+      "category": "condition_change",
+      "query": "Around the Emperor Seamount Chain at 6,000–7,000 m, bottom currents are stronger than in the open subarctic abyssal plain.",
+      "accepted_relations": [
+        "related",
+        "qualifies"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.hydro.summary",
+          "quote": "The mean grain size of sortable silt shows that the hydrodynamic condition in sea mountain area is significantly stronger than that of the abyssal plain, especially at the water depth of 1,000–2,500 m in study area.",
+          "page": 13,
+          "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07"
+        },
+        {
+          "id": "anchor.text.hydro.proxy",
+          "quote": "Mean grain size of sortable silt shows strong positive correlation with the contents of sortable silt in the study area, suggesting that it can be used to indicate the relative change of bottom current strength (Mccave et al., 2020).",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07"
+        }
+      ],
+      "rationale": "Especially 1,000–2,500 m does not mean only that depth. A 6,000–7,000 m assertion lies beyond the recorded sampling scope, not opposite to the observed comparison; supplements cannot imply it is supported."
+    },
+    {
+      "id": "q30-4",
+      "source": "q30",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "claim_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+      "category": "measurement_change",
+      "query": "In this Emperor Seamount Chain study, the reported stronger currents at 1,000–2,500 m were established by direct current-meter measurements rather than inferred from sediment grain-size proxies.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.hydro.proxy",
+          "quote": "Mean grain size of sortable silt shows strong positive correlation with the contents of sortable silt in the study area, suggesting that it can be used to indicate the relative change of bottom current strength (Mccave et al., 2020).",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07"
+        },
+        {
+          "id": "anchor.text.hydro.summary",
+          "quote": "The mean grain size of sortable silt shows that the hydrodynamic condition in sea mountain area is significantly stronger than that of the abyssal plain, especially at the water depth of 1,000–2,500 m in study area.",
+          "page": 13,
+          "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07"
+        }
+      ],
+      "rationale": "Explicitly replacing the source method removes the ambiguity of another independent current-meter study."
+    },
+    {
+      "id": "q30-5",
+      "source": "q30",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "claim_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+      "category": "unsupported_quantity",
+      "query": "Sortable-silt evidence establishes an absolute bottom-current velocity of 2 m/s around the Emperor Seamount Chain.",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.hydro.proxy",
+          "quote": "Mean grain size of sortable silt shows strong positive correlation with the contents of sortable silt in the study area, suggesting that it can be used to indicate the relative change of bottom current strength (Mccave et al., 2020).",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07"
+        }
+      ],
+      "rationale": "The source expressly supports relative change; no 2 m/s calibration is present. It cannot verify or refute that absolute speed. Do not turn lack of calibration into a physical contradiction."
+    },
+    {
+      "id": "q30-6",
+      "source": "q30",
+      "snapshot_id": "snapshot:sha256:c3ecfaf2c3185dbab011c779994783aca75849384bdee6d0d76f98bc9724cb8a",
+      "claim_id": "claim:sha256:4c3a4a0519668d061e6c7949bf1fe7c6d33ceabbedcef89d5232bf014d245c48",
+      "category": "scope_transfer",
+      "query": "The Emperor Seamount Chain grain-size study proves that currents around every seamount are stronger than on every abyssal plain.",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "anchor.text.hydro.summary",
+          "quote": "The mean grain size of sortable silt shows that the hydrodynamic condition in sea mountain area is significantly stronger than that of the abyssal plain, especially at the water depth of 1,000–2,500 m in study area.",
+          "page": 13,
+          "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07"
+        },
+        {
+          "id": "anchor.text.hydro.abyssal",
+          "quote": "Furthermore, using the same simulation method of EM analysis, we compared our data with the results of the SO202 Expedition from the open subarctic Pacific Ocean (Serno et al., 2014), and found that mean grain size was about 5.33 µm.",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:06bfc2aa5402a314c6b6e754d5bb138fb486c9723b579446f41692f2265eda07"
+        }
+      ],
+      "rationale": "Regional comparison directly limits universal transfer. No observation establishes every seamount/every abyssal-plain combination."
+    },
+    {
+      "id": "q70-1",
+      "source": "q70",
+      "snapshot_id": "snapshot:sha256:f4a0935b0c11b106ef4598f003efc39287ddc7cda8f9d4bae8c0bb609ca7f101",
+      "claim_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+      "category": "matched",
+      "query": "During spring sampling at the Martinique Beach STE, organic-matter-associated NCA contributed approximately 32% of groundwater TA when calculated using absolute values; negative NCA indicates proton-donating DOM associated with low pH, supporting remineralized organic matter as a source of acidity.",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.nca32",
+          "quote": "Based on the absolute values, we calculated that NCA contributed to approximately $3 2 \\%$ of TA.",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        },
+        {
+          "id": "a.ncaneg",
+          "quote": "The occurrence of negative NCA (i.e., acidity: ${ \\mathrm { A c } } >$ TA) implies that some of the DOM behaves as a proton donor, in agreement with the low $\\mathrm { p H }$ of the corresponding water sample.",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        },
+        {
+          "id": "a.soilacid",
+          "quote": "The net production of acidity mainly results from the remineralization of organic matter released by the old buried forest soil.",
+          "page": 12,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        },
+        {
+          "id": "a.spring",
+          "quote": "Although an investigation of the net annual effect of SGD on nearshore water chemistry is not possible because of the difficulty to sample in the presence of ice foot and sea ice during the winter season, we observe that the SGD exported from the Martinique Beach STE is a net source of acidity to coastal waters, at least in the spring.",
+          "page": 12,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        }
+      ],
+      "rationale": "Preserves the full claim and explicitly restores its absolute-value qualifier; avoids treating 32% as a positive signed mean."
+    },
+    {
+      "id": "q70-2",
+      "source": "q70",
+      "snapshot_id": "snapshot:sha256:f4a0935b0c11b106ef4598f003efc39287ddc7cda8f9d4bae8c0bb609ca7f101",
+      "claim_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+      "category": "contradiction",
+      "query": "At Martinique Beach during spring sampling, negative NCA indicates proton-accepting DOM and elevated rather than low pH.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.ncaneg",
+          "quote": "The occurrence of negative NCA (i.e., acidity: ${ \\mathrm { A c } } >$ TA) implies that some of the DOM behaves as a proton donor, in agreement with the low $\\mathrm { p H }$ of the corresponding water sample.",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        }
+      ],
+      "rationale": "Explicit reversal of proton donor and low-pH interpretation under the same conditions."
+    },
+    {
+      "id": "q70-3",
+      "source": "q70",
+      "snapshot_id": "snapshot:sha256:f4a0935b0c11b106ef4598f003efc39287ddc7cda8f9d4bae8c0bb609ca7f101",
+      "claim_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+      "category": "condition_change",
+      "query": "In winter at Martinique Beach, NCA accounts for approximately 32% of groundwater total alkalinity when the contribution is calculated using absolute values.",
+      "accepted_relations": [
+        "related",
+        "qualifies"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.spring",
+          "quote": "Although an investigation of the net annual effect of SGD on nearshore water chemistry is not possible because of the difficulty to sample in the presence of ice foot and sea ice during the winter season, we observe that the SGD exported from the Martinique Beach STE is a net source of acidity to coastal waters, at least in the spring.",
+          "page": 12,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        },
+        {
+          "id": "a.nca32",
+          "quote": "Based on the absolute values, we calculated that NCA contributed to approximately $3 2 \\%$ of TA.",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        }
+      ],
+      "rationale": "Spring observation does not establish winter magnitude, and winter sampling limitation is explicit. No winter measurement supports contradiction."
+    },
+    {
+      "id": "q70-4",
+      "source": "q70",
+      "snapshot_id": "snapshot:sha256:f4a0935b0c11b106ef4598f003efc39287ddc7cda8f9d4bae8c0bb609ca7f101",
+      "claim_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+      "category": "measurement_change",
+      "query": "The reported approximately 32% NCA contribution to groundwater TA at Martinique Beach in spring was calculated using signed values rather than absolute values.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.nca32",
+          "quote": "Based on the absolute values, we calculated that NCA contributed to approximately $3 2 \\%$ of TA.",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        },
+        {
+          "id": "a.ncarange",
+          "quote": "NCA values ranged from -1.07 to $+ 1 . 1 1$ mmol $k g ^ { - 1 } \\left( \\pm 3 . 4 \\% \\right)$ with a mean value of -0.26 mmol $k g ^ { - 1 }$ .",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        }
+      ],
+      "rationale": "Mean NCA concentration of −0.26 does not mathematically determine mean NCA/TA. The revised query instead contradicts the explicitly reported absolute-value calculation and does not invent a signed-ratio value."
+    },
+    {
+      "id": "q70-5",
+      "source": "q70",
+      "snapshot_id": "snapshot:sha256:f4a0935b0c11b106ef4598f003efc39287ddc7cda8f9d4bae8c0bb609ca7f101",
+      "claim_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+      "category": "unsupported_quantity",
+      "query": "All Martinique Beach spring groundwater samples have positive NCA.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.ncarange",
+          "quote": "NCA values ranged from -1.07 to $+ 1 . 1 1$ mmol $k g ^ { - 1 } \\left( \\pm 3 . 4 \\% \\right)$ with a mean value of -0.26 mmol $k g ^ { - 1 }$ .",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        },
+        {
+          "id": "a.ncaneg",
+          "quote": "The occurrence of negative NCA (i.e., acidity: ${ \\mathrm { A c } } >$ TA) implies that some of the DOM behaves as a proton donor, in agreement with the low $\\mathrm { p H }$ of the corresponding water sample.",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        }
+      ],
+      "rationale": "The recorded range includes negative NCA and the text explicitly reports its occurrence."
+    },
+    {
+      "id": "q70-6",
+      "source": "q70",
+      "snapshot_id": "snapshot:sha256:f4a0935b0c11b106ef4598f003efc39287ddc7cda8f9d4bae8c0bb609ca7f101",
+      "claim_id": "claim:sha256:b82c23a992fcab70468e43da843d48c13e4fbd218f6f4149370c5f0b0eb8e1d4",
+      "category": "scope_transfer",
+      "query": "Across coastal groundwater systems worldwide, the overall NCA contribution to TA, calculated using absolute values, is approximately 32%.",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.nca32",
+          "quote": "Based on the absolute values, we calculated that NCA contributed to approximately $3 2 \\%$ of TA.",
+          "page": 9,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        },
+        {
+          "id": "a.spring",
+          "quote": "Although an investigation of the net annual effect of SGD on nearshore water chemistry is not possible because of the difficulty to sample in the presence of ice foot and sea ice during the winter season, we observe that the SGD exported from the Martinique Beach STE is a net source of acidity to coastal waters, at least in the spring.",
+          "page": 12,
+          "artifact_version_id": "artifact-version:sha256:e0df2fcbee5b7d07aa1ca28f0a95ad3fd5854989c9a9948c4ee26ac3ca225a40"
+        }
+      ],
+      "rationale": "Original exact-32%-everywhere wording conflated universal transfer with sample heterogeneity and signed values. Revised query transfers the same approximate absolute-value aggregate across systems; the local result cannot establish it."
+    },
+    {
+      "id": "q90-1",
+      "source": "q90",
+      "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+      "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+      "category": "matched",
+      "query": "Extrapolating the three-year mean isotope-pairing denitrification rate over estimated reducing-water volumes of the western Indian continental shelf, assuming 90 reducing days per year, gives annual fixed-nitrogen removal of approximately 3.70–11.1 Tg year−1.",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.annual.prose",
+          "quote": "Applying our 3 years average N-loss rates to this volume and assuming the reducing condition to last for 90 days, the overall N-loss would range from $3 . 7 0 \\pm 0 . 0 9 1$ to $1 1 . 1 \\pm 2 . 7 2 \\mathrm { ~ T g ~ y e a r } ^ { - 1 }$ via denitrification, and from $0 . 0 9 \\pm 0 . 0 1$ to $0 . 2 7 \\pm 0 . 0 3$ Tg year−1 via anammox (Table 2).",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        },
+        {
+          "id": "a.scale.volume",
+          "quote": "The total volume of reducing water was estimated to range between 1.2 and $3 . 6 \\times 1 0 ^ { 1 2 } \\mathrm { ~ m } ^ { \\bar { 3 } }$ taking the thickness of the reducing layer to be $2 0 ~ \\mathrm { m }$ .",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        },
+        {
+          "id": "a.denit.mean",
+          "quote": "The mean values of our 3- year N-loss rates through denitrification and anammox were $2 . 4 5 \\pm 0 . 6$ and $0 . 0 6 \\pm \\mathrm { { \\bar { 0 } } . 0 0 4 ~ \\mu m o l ~ N _ { 2 } ~ L ^ { - 1 } ~ d ^ { - 1 } }$ , respectively.",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        }
+      ],
+      "rationale": "Scientific annual loss estimate matches, preserving 90-day extrapolation. Caption-only a.table2 does not verify 11.11, although the original PDF page 9 text extraction now confirms it. Query omits that ancillary precision so evaluation remains supported by substantive existing textual anchors."
+    },
+    {
+      "id": "q90-2",
+      "source": "q90",
+      "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+      "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+      "category": "contradiction",
+      "query": "Under the original 90-day annualization assumptions, western Indian continental shelf denitrification removes 370–1,110 Tg nitrogen per year.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.annual.prose",
+          "quote": "Applying our 3 years average N-loss rates to this volume and assuming the reducing condition to last for 90 days, the overall N-loss would range from $3 . 7 0 \\pm 0 . 0 9 1$ to $1 1 . 1 \\pm 2 . 7 2 \\mathrm { ~ T g ~ y e a r } ^ { - 1 }$ via denitrification, and from $0 . 0 9 \\pm 0 . 0 1$ to $0 . 2 7 \\pm 0 . 0 3$ Tg year−1 via anammox (Table 2).",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        }
+      ],
+      "rationale": "Same annualization and spatial scope but a 100-fold numerical increase."
+    },
+    {
+      "id": "q90-3",
+      "source": "q90",
+      "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+      "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+      "category": "condition_change",
+      "query": "Using the same rates and reducing-water volumes but only 45 reducing days per year, western Indian shelf denitrification removes 3.70–11.1 Tg per year.",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.annual.prose",
+          "quote": "Applying our 3 years average N-loss rates to this volume and assuming the reducing condition to last for 90 days, the overall N-loss would range from $3 . 7 0 \\pm 0 . 0 9 1$ to $1 1 . 1 \\pm 2 . 7 2 \\mathrm { ~ T g ~ y e a r } ^ { - 1 }$ via denitrification, and from $0 . 0 9 \\pm 0 . 0 1$ to $0 . 2 7 \\pm 0 . 0 3$ Tg year−1 via anammox (Table 2).",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        },
+        {
+          "id": "a.scale.volume",
+          "quote": "The total volume of reducing water was estimated to range between 1.2 and $3 . 6 \\times 1 0 ^ { 1 2 } \\mathrm { ~ m } ^ { \\bar { 3 } }$ taking the thickness of the reducing layer to be $2 0 ~ \\mathrm { m }$ .",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        },
+        {
+          "id": "a.denit.mean",
+          "quote": "The mean values of our 3- year N-loss rates through denitrification and anammox were $2 . 4 5 \\pm 0 . 6$ and $0 . 0 6 \\pm \\mathrm { { \\bar { 0 } } . 0 0 4 ~ \\mu m o l ~ N _ { 2 } ~ L ^ { - 1 } ~ d ^ { - 1 } }$ , respectively.",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        }
+      ],
+      "rationale": "Keeping rate and volume fixed makes annualized loss linear in duration. Halving 90 to 45 days gives approximately 1.85–5.55 Tg/year, not the same endpoint range. Contradiction applies to the stated calculation; qualifies is reasonable if interpreted as a conditional restriction rather than a claim about the same season."
+    },
+    {
+      "id": "q90-4",
+      "source": "q90",
+      "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+      "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+      "category": "measurement_change",
+      "query": "In this western Indian shelf study, the reported annual denitrification nitrogen loss of 3.70–11.1 Tg was directly measured by a year-long shelf-wide census rather than extrapolated from rates, reducing-water volume, and an assumed reducing-season duration.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.annual.prose",
+          "quote": "Applying our 3 years average N-loss rates to this volume and assuming the reducing condition to last for 90 days, the overall N-loss would range from $3 . 7 0 \\pm 0 . 0 9 1$ to $1 1 . 1 \\pm 2 . 7 2 \\mathrm { ~ T g ~ y e a r } ^ { - 1 }$ via denitrification, and from $0 . 0 9 \\pm 0 . 0 1$ to $0 . 2 7 \\pm 0 . 0 3$ Tg year−1 via anammox (Table 2).",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        },
+        {
+          "id": "a.scale.volume",
+          "quote": "The total volume of reducing water was estimated to range between 1.2 and $3 . 6 \\times 1 0 ^ { 1 2 } \\mathrm { ~ m } ^ { \\bar { 3 } }$ taking the thickness of the reducing layer to be $2 0 ~ \\mathrm { m }$ .",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        }
+      ],
+      "rationale": "Original wording also changed denitrification-specific loss into total removal. Revised query isolates the explicit contradiction in provenance."
+    },
+    {
+      "id": "q90-5",
+      "source": "q90",
+      "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+      "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+      "category": "unsupported_cause",
+      "query": "Under this study’s 90-day annualization for the western Indian continental shelf, anammox removes more fixed nitrogen annually than denitrification, whose estimated loss is 3.70–11.1 Tg year−1.",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.annual.prose",
+          "quote": "Applying our 3 years average N-loss rates to this volume and assuming the reducing condition to last for 90 days, the overall N-loss would range from $3 . 7 0 \\pm 0 . 0 9 1$ to $1 1 . 1 \\pm 2 . 7 2 \\mathrm { ~ T g ~ y e a r } ^ { - 1 }$ via denitrification, and from $0 . 0 9 \\pm 0 . 0 1$ to $0 . 2 7 \\pm 0 . 0 3$ Tg year−1 via anammox (Table 2).",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        },
+        {
+          "id": "a.denit.mean",
+          "quote": "The mean values of our 3- year N-loss rates through denitrification and anammox were $2 . 4 5 \\pm 0 . 6$ and $0 . 0 6 \\pm \\mathrm { { \\bar { 0 } } . 0 0 4 ~ \\mu m o l ~ N _ { 2 } ~ L ^ { - 1 } ~ d ^ { - 1 } }$ , respectively.",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        },
+        {
+          "id": "a.rate.contrast",
+          "quote": "These numbers are two orders of magnitude lower than the above-mentioned denitrification rate.",
+          "page": 6,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        }
+      ],
+      "rationale": "Original query combined an invalid inference with a claim about dominance. Same-year estimates explicitly give denitrification 3.70–11.1 versus anammox 0.09–0.27 Tg/year, so a dominance reversal can be tested. The designated claim alone omits anammox; a context-aware judgment is required."
+    },
+    {
+      "id": "q90-6",
+      "source": "q90",
+      "snapshot_id": "snapshot:sha256:81217237c467530beff405be9cb62bbc8574a0b0b56e8a0225a0d26de5f92d40",
+      "claim_id": "claim:sha256:9784198708d1e248749a0e90a0398ff6a9be2d2b34466d3355441fe9b99c6a6c",
+      "category": "scope_transfer",
+      "query": "The annual denitrification nitrogen loss of 3.70–11.1 Tg applies to the global ocean.",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.annual.prose",
+          "quote": "Applying our 3 years average N-loss rates to this volume and assuming the reducing condition to last for 90 days, the overall N-loss would range from $3 . 7 0 \\pm 0 . 0 9 1$ to $1 1 . 1 \\pm 2 . 7 2 \\mathrm { ~ T g ~ y e a r } ^ { - 1 }$ via denitrification, and from $0 . 0 9 \\pm 0 . 0 1$ to $0 . 2 7 \\pm 0 . 0 3$ Tg year−1 via anammox (Table 2).",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        },
+        {
+          "id": "a.area.functional",
+          "quote": "However, $\\mathrm { O } _ { 2 }$ levels over this entire area are not low enough to support reductive N-loss, and as a lower limit about one third of the entire shelf, $6 0 , 0 0 0 ~ \\mathrm { k m } ^ { 2 }$ was assumed to functionally anoxic.",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        },
+        {
+          "id": "a.scale.volume",
+          "quote": "The total volume of reducing water was estimated to range between 1.2 and $3 . 6 \\times 1 0 ^ { 1 2 } \\mathrm { ~ m } ^ { \\bar { 3 } }$ taking the thickness of the reducing layer to be $2 0 ~ \\mathrm { m }$ .",
+          "page": 8,
+          "artifact_version_id": "artifact-version:sha256:2f622992a1f977b5ad614189a8234510f96075c082d39d5839d23972486fb720"
+        }
+      ],
+      "rationale": "Shelf-specific volume and rates do not establish global loss. Global total is not supplied and geographic scope difference alone does not establish contradiction."
+    },
+    {
+      "id": "q110-1",
+      "source": "q110",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+      "category": "matched",
+      "query": "At Fiskegrav, the late Permian marine and terrestrial ecosystem collapse is estimated at 1.6–8 kyr using revised sedimentation rates, substantially shorter than the earlier 10–60 kyr estimate.",
+      "accepted_relations": [
+        "equivalent"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.duration.new",
+          "quote": "however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.",
+          "page": 7,
+          "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c"
+        },
+        {
+          "id": "a.duration.old",
+          "quote": "(2001) showed that collapse of marine and terrestrial ecosystems was synchronous and took between 10 and 60 kyr.",
+          "page": 2,
+          "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c"
+        }
+      ],
+      "rationale": "Revised and earlier duration ranges and sedimentation-rate dependence match."
+    },
+    {
+      "id": "q110-2",
+      "source": "q110",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+      "category": "contradiction",
+      "query": "The revised sedimentation rates assign 10–60 kyr to the Fiskegrav late Permian ecosystem collapse, longer than the earlier 1.6–8 kyr estimate.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.duration.new",
+          "quote": "however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.",
+          "page": 7,
+          "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c"
+        },
+        {
+          "id": "a.duration.old",
+          "quote": "(2001) showed that collapse of marine and terrestrial ecosystems was synchronous and took between 10 and 60 kyr.",
+          "page": 2,
+          "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c"
+        }
+      ],
+      "rationale": "Reverses chronology assignments and the temporal comparison."
+    },
+    {
+      "id": "q110-3",
+      "source": "q110",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+      "category": "condition_change",
+      "query": "Using the earlier sedimentation-rate chronology, Fiskegrav ecosystem collapse is estimated to last 1.6–8 kyr.",
+      "accepted_relations": [
+        "contradicts",
+        "qualifies"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.duration.new",
+          "quote": "however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.",
+          "page": 7,
+          "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c"
+        },
+        {
+          "id": "a.duration.old",
+          "quote": "(2001) showed that collapse of marine and terrestrial ecosystems was synchronous and took between 10 and 60 kyr.",
+          "page": 2,
+          "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c"
+        }
+      ],
+      "rationale": "The earlier estimate is expressly 10–60 kyr; attributing 1.6–8 kyr to it conflicts with the cited historical comparison. Qualifies remains reasonable when represented as a chronology-condition restriction."
+    },
+    {
+      "id": "q110-4",
+      "source": "q110",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+      "category": "measurement_change",
+      "query": "In the Fiskegrav study, the reported 1.6–8 kyr collapse duration was obtained by direct elapsed-time measurement rather than estimated from revised sedimentation rates.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.duration.new",
+          "quote": "however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.",
+          "page": 7,
+          "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c"
+        }
+      ],
+      "rationale": "Original exactly 1.6–8 wording mixed precision and method ambiguities. Revised wording explicitly denies the reported sedimentation-rate inference."
+    },
+    {
+      "id": "q110-5",
+      "source": "q110",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+      "category": "unsupported_quantity",
+      "query": "The revised Fiskegrav chronology establishes collapse lasting more than 100 kyr.",
+      "accepted_relations": [
+        "contradicts"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.duration.new",
+          "quote": "however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.",
+          "page": 7,
+          "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c"
+        }
+      ],
+      "rationale": "Same revised chronology, incompatible duration exceeding 100 kyr."
+    },
+    {
+      "id": "q110-6",
+      "source": "q110",
+      "snapshot_id": "snapshot:sha256:1c754cb856da20f198b73848fa8fb30c821afc8ed15a28e638325f0ac567c76d",
+      "claim_id": "claim:sha256:b5f235486745483d8371f2ed859994aa2b4ae337eca4267eaacf7377acb62a38",
+      "category": "scope_transfer",
+      "query": "The Fiskegrav analysis establishes that every end-Permian marine and terrestrial ecosystem worldwide collapsed within 1.6–8 kyr.",
+      "accepted_relations": [
+        "qualifies",
+        "related"
+      ],
+      "direction": "result_to_query",
+      "source_anchors": [
+        {
+          "id": "a.duration.new",
+          "quote": "however, recently improved estimations of sedimentation rates in the Fiskegrav section (Mettam et al., 2017) now give an estimated duration of between 1.6 and 8 kyr for the marine and terrestrial ecosystem collapse.",
+          "page": 7,
+          "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c"
+        },
+        {
+          "id": "a.duration.old",
+          "quote": "(2001) showed that collapse of marine and terrestrial ecosystems was synchronous and took between 10 and 60 kyr.",
+          "page": 2,
+          "artifact_version_id": "artifact-version:sha256:a88aa15ba6a57f9f197ff1d69d47a803813f291ffb7343db99eed7024156e45c"
+        }
+      ],
+      "rationale": "A local duration cannot establish identical duration for all worldwide ecosystems. The source does not give a worldwide counterexample, so this is an unsupported generalization rather than a numerical contradiction."
+    }
+  ]
+}
