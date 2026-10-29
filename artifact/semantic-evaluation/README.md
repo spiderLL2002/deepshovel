@@ -1,6 +1,8 @@
-# Argument comparison evaluation
+# Argument comparison: public verification subset
 
-Thirty fixed comparisons from five papers test matching conclusions, contradictions, changed conditions, method attribution, and unsupported transfers. Cases and acceptable relations were frozen before model execution; `source-check.json` supplies the source passages and checking metadata.
+This directory provides a 30-case public subset from five papers within the full 323-case, 54-paper test set, for inspection and reference. The result table and execution reports below describe this public subset. The scripts use the cases distributed here. To keep the package compact, source passages and source-location records are provided alongside available source links rather than bundling the complete paper collection.
+
+The thirty fixed comparisons test matching conclusions, contradictions, changed conditions, method attribution, and unsupported transfers. Cases and acceptable relations were frozen before model execution; `source-check.json` supplies the source passages and checking metadata.
 
 | Model input | Reference relation matches |
 |---|---:|
@@ -16,7 +18,7 @@ The expanded one-command run at commit `2f1621f` also completed all stages, incl
 
 All earlier runs remain available: `fixed-candidate-ablation/` uses the first prompt; `fixed-candidate-ablation-v2/`, `fixed-candidate-replication/` and `fixed-candidate-replication-2/` use the current relation prompt. Complete public query outputs are stored as compressed JSON, with expiring handoff tokens omitted. `source-passages-baseline/`, `source-passages-replication-1/` and `source-passages-replication-2/` contain the three passage-control runs.
 
-From the repository root, recompute the preserved scores:
+From the repository root, recompute the preserved scores for the 30-case public subset:
 
 ```sh
 python3 artifact/semantic-evaluation/verify_results.py --all
