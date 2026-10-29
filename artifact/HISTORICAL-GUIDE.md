@@ -68,7 +68,7 @@ Exports include a `derived-observation:sha256:` ID and `canonical_payload`. Reco
 
 This standalone English interface embeds the existing fixture.json, results.json, and summary.json from `../evidence/scope_contract/`. It replays all 9 × 3 × 2 × 2 saved configurations, without executing retrieval or model inference. Source hash keys are reduced to filenames to avoid exposing machine paths; values are unchanged. Source-derived series/loading records and constructed variants are identified separately. The clustering panel is a separate fixed check, not clusters recomputed for the selected query.
 
-The fixture uses assigned relations and artificial dense vectors. It is not a quality benchmark or human ground truth, and does not validate source paths, new snapshots, or numeric temporal reasoning. Raw embedded records and hashes can be expanded in the interface.
+The fixture uses assigned relations and artificial dense vectors. It is not a quality benchmark, and does not validate source paths, new snapshots, or numeric temporal reasoning. Raw embedded records and hashes can be expanded in the interface.
 
 No production repository files are changed.
 

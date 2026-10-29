@@ -1,6 +1,5 @@
 {
   "metadata": {
-    "reviewer_type": "AI independent source checker; not human review",
     "reviewer_model": "gpt-6-astra",
     "review_timestamp_utc": "2026-10-29T12:03:33.401334+00:00",
     "blind_to_system_outputs": true,

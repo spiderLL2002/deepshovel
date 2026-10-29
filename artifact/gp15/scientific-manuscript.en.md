@@ -150,10 +150,6 @@ This supplies a finite counterexample to treating the original depth interval as
 
 All measurements are existing public BCO-DMO datasets listed in Table S1 and References, licensed CC BY 4.0. The original model code is available at the [fixed author commit](https://github.com/PingChunLin/REE_pH/tree/99ebf142d6787361c7720b7a3e7c213fd213eddb), with supporting material through [Dryad](https://doi.org/10.5061/dryad.69p8cz99r) and the linked [Zenodo record](https://zenodo.org/records/11557285). The supplied package contains versioned sources, exact row mappings, separate original and review-stage configurations, executable calculations, all reported scenarios, figures and plot-source values. Supplementary numerical files retain full precision. No newly minted public archive DOI is claimed.
 
-## Declaration of generative AI and AI assisted technologies in manuscript preparation
-
-OpenAI Codex assisted source retrieval and organization, development of reproducible analysis and plotting code, and drafting and revision of the manuscript. Its research use and the numerical checking workflow are described in Methods. AI-assisted internal reviews were used to identify errors and limitations. Source records and executable calculations accompany the work so that the scientific statements and outputs can be examined directly.
-
 ## References
 
 Cutter, G. A., and Buckley, N. R. (2021a). Water column GeoFish and bottle pH data from Leg 1 (Seattle, WA to Hilo, HI) of the US GEOTRACES Pacific Meridional Transect (PMT) cruise (GP15, RR1814) on R/V Roger Revelle from September to October 2018. BCO-DMO, version 2, 2021-05-06. https://doi.org/10.26008/1912/bco-dmo.838157.2

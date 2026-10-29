@@ -423,8 +423,8 @@
       "bytes": 64963
     },
     "artifact/HISTORICAL-GUIDE.md": {
-      "sha256": "71857c1ebe912121ed4c92c122525790a84c4bd215562cb37733609886ec3009",
-      "bytes": 19121
+      "sha256": "6a9045c2b92f69fca311423053712aa96807b3fbd609f0daad02edd42f0e728b",
+      "bytes": 19099
     },
     "artifact/README.md": {
       "sha256": "91f002daef3f22c1f41baed06ca7d9abd8c507147a7153a2251d6ddcbd8c58ba",
@@ -1531,8 +1531,8 @@
       "bytes": 24924
     },
     "artifact/gp15/scientific-manuscript.en.md": {
-      "sha256": "c4e5440c17e4fc2998c64f4587492b0c59200a9cd393b3932d5736236a844290",
-      "bytes": 34702
+      "sha256": "48e46732b727b3aca1dae056f312a6e22bc9100334a8272864c511b02bae6721",
+      "bytes": 34167
     },
     "artifact/gp15/scientific-supplementary.en.md": {
       "sha256": "4f6b6fe1888c929aff8828ca5641574155993385f807050cc898b2a5f85b42c6",
@@ -1679,8 +1679,8 @@
       "bytes": 750
     },
     "artifact/independent-walkthrough/walkthrough-report.md": {
-      "sha256": "e44e24b8f32646c099719943d15bb9b33483efdceb483ee3dbb536fe82254b0b",
-      "bytes": 7271
+      "sha256": "adca9bce42cb5f1af791162ca6b637217f441e9fe6d5a5cbf479f9d8e982b268",
+      "bytes": 7216
     },
     "artifact/live-case/REPORT.md": {
       "sha256": "3c331721a1f79aa10c5e05dd5f140669aad25be368114a347dc5440499639a96",
@@ -6619,8 +6619,8 @@
       "bytes": 447
     },
     "artifact/semantic-evaluation/source-check.json": {
-      "sha256": "931e5fb3327fda5e6260df9647876044ceff3103923b1933b0f8a8837a25b060",
-      "bytes": 61129
+      "sha256": "05d0828d651376e80eae3839c384c82aa90669090145b94807327d65bdeaab13",
+      "bytes": 61057
     },
     "artifact/semantic-evaluation/source-passages-baseline/comparison.json": {
       "sha256": "d76bad894cdb226b61fca25bf3828d98a9ee45aea5bf885f2530b6221304ff81",
