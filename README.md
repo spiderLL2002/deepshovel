@@ -2,7 +2,7 @@
 
 DeepShovel organizes scientific literature into **source-grounded reasoning networks**. Claims connect to reasoning steps, observations and assumptions, with scientific scope and locators for the original text, figures and data. Retrieval exposes these argument structures for source inspection, conditional comparison, claim verification and agent-assisted research.
 
-Release **`www2027-artifact-v1.1.0`** includes the Web/Compiler application, executable argument checks, a complete GP15 research reproduction and historical records showing how a retrieved argument contributed to a research decision. The production literature collection, accounts and Atlas reference datasets are not distributed.
+Release **`www2027-artifact-v1.1.1`** includes the Web/Compiler application, executable argument checks, a complete GP15 research reproduction and historical records showing how a retrieved argument contributed to a research decision. The production literature collection, accounts and Atlas reference datasets are not distributed.
 
 [Demo paper](paper/main.pdf) · [Public workbench](https://deepshovel.iiot-shxt.xyz/) · [English demonstration walkthrough](artifact/live-demo/README.md) · [Versioned releases](https://github.com/spiderLL2002/deepshovel/releases) · [Reproduction CI](https://github.com/spiderLL2002/deepshovel/actions/workflows/reproduce.yml) · [Issues](https://github.com/spiderLL2002/deepshovel/issues)
 
@@ -118,4 +118,4 @@ A fresh installation has an empty library and no Atlas dataset. New parsing/extr
 
 Original project code and author-created artifact materials are **AGPL-3.0-only**. Upstream scientific datasets, papers, author software and vendored components retain their own licenses and attribution. The GP15 package preserves CC BY 4.0 measurement/paper attribution and the original model code's MIT notice; two mixed-source supporting inputs are downloaded rather than committed. The Hongo trace distributes no original PDF, figure or source-text quotation. See [LICENSE](LICENSE), [NOTICE](NOTICE) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
-Use [CITATION.cff](CITATION.cff) to cite version 1.1.0. Source manifests and release checksums identify supplied bytes. A long-term archival DOI is not claimed; [archiving instructions](repro/ARCHIVING.md) describe that separate step.
+Use [CITATION.cff](CITATION.cff) to cite version 1.1.1. Source manifests and release checksums identify supplied bytes. A long-term archival DOI is not claimed; [archiving instructions](repro/ARCHIVING.md) describe that separate step.
