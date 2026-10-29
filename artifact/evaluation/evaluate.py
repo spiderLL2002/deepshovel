@@ -33,6 +33,7 @@ def main():
     for name in result:
         for key, value in result[name].items():
             assert math.isclose(value, expected[name][key], rel_tol=0, abs_tol=1e-12), (name,key,value,expected[name][key])
-    print(json.dumps({"queries":len(qids), "pooled_judgments":sum(map(len,pools.values())), "metrics":result, "matches_expected":True},indent=2))
+    full_answer = {name: {"hits": sum(any(labels[q][cid]["grade"] == 3 for cid in ids[:3]) for q, ids in ranking.items()), "queries": len(qids)} for name, ranking in runs.items()}
+    print(json.dumps({"queries":len(qids), "pooled_judgments":sum(map(len,pools.values())), "metrics":result, "full_answer_top3": full_answer, "matches_expected":True},indent=2))
 if __name__ == "__main__":
     main()
