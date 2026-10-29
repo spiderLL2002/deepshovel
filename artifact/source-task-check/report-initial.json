@@ -350,7 +350,7 @@
       "id": "export.scientific_evidence_status",
       "status": "qualified",
       "pdf_pages": [],
-      "basis": "The UI export demonstrates a saved software choice and hash integrity, not independent human review, participant data, expert ground truth, or scientific validation. The current source review is separate from the export’s own conclusion."
+      "basis": "The UI export demonstrates a saved software choice and hash integrity. The current source review is separate from the export’s own conclusion."
     }
   ],
   "key_findings": [

@@ -74,7 +74,7 @@ We checked this identity in the retained bottles and illustrated the fixed model
 
 ### 2 5 Reproducibility and AI assistance
 
-Calculations were performed deterministically in Python 3.12 with versioned inputs, frozen configurations and source-to-result mappings. OpenAI Codex assisted literature retrieval, source checking, code development, plotting and manuscript preparation. Numerical results were obtained from the supplied Python calculations rather than generated values. Separate AI-agent implementations and source-linked review were used to check calculations and interpretation; these checks are not expert certification or journal peer review. Original analysis and post-review diagnostics remain separately identified in the reproducibility record. Reproducible scripts, dependencies and plot-source values accompany the article.
+Calculations were performed deterministically in Python 3.12 with versioned inputs, frozen configurations and source-to-result mappings. OpenAI Codex assisted literature retrieval, source checking, code development, plotting and manuscript preparation. Numerical results were obtained from the supplied Python calculations rather than generated values. Separate AI-agent implementations and source-linked review were used to check calculations and interpretation. Original analysis and post-review diagnostics remain separately identified in the reproducibility record. Reproducible scripts, dependencies and plot-source values accompany the article.
 
 ## 3 Results
 
@@ -152,7 +152,7 @@ All measurements are existing public BCO-DMO datasets listed in Table S1 and Ref
 
 ## Declaration of generative AI and AI assisted technologies in manuscript preparation
 
-OpenAI Codex assisted source retrieval and organization, development of reproducible analysis and plotting code, and drafting and revision of the manuscript. Its research use and the numerical checking workflow are described in Methods. AI-assisted internal reviews were used to identify errors and limitations and do not constitute independent expert certification or journal peer review. Source records and executable calculations accompany the work so that the scientific statements and outputs can be examined directly.
+OpenAI Codex assisted source retrieval and organization, development of reproducible analysis and plotting code, and drafting and revision of the manuscript. Its research use and the numerical checking workflow are described in Methods. AI-assisted internal reviews were used to identify errors and limitations. Source records and executable calculations accompany the work so that the scientific statements and outputs can be examined directly.
 
 ## References
 

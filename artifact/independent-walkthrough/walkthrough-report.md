@@ -2,7 +2,7 @@
 
 # Single AI operator functional walkthrough
 
-Date: 2026-10-27. One AI operator performed source reading and browser interaction in an isolated localhost origin. This is not an independent human participant, a user study, a benefit experiment, a scientific validation, or a paper review. No paper manuscript, prepared task fields, previous exports, worksheets, source audits or other agent conclusions were read. Only server.py was inspected to establish isolation, plus the supplied retrieval JSON, complete graph through the UI, and original source PDF. Original 127.0.0.1 browser storage was not read or reset.
+Date: 2026-10-27. One AI operator performed source reading and browser interaction in an isolated localhost origin. No paper manuscript, prepared task fields, previous exports, worksheets, source audits or other agent conclusions were read. Only server.py was inspected to establish isolation, plus the supplied retrieval JSON, complete graph through the UI, and original source PDF. Original 127.0.0.1 browser storage was not read or reset.
 
 ## Actual execution
 

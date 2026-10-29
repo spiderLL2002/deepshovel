@@ -471,7 +471,7 @@
       "case": "Nd variable-loading factor",
       "field": "qualified reading",
       "status": "supported",
-      "exported_value": "Loading aggregate kept distinct from time-series plateau; no independent human labels",
+      "exported_value": "Loading aggregate kept distinct from time-series plateau",
       "pdf_pages": [
         4,
         7,

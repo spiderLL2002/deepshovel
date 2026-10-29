@@ -366,7 +366,7 @@ Workbook coordinates and underlying precision cannot be independently certified 
 
 Status: **supported**
 
-Exported: Loading aggregate kept distinct from time-series plateau; no independent human labels
+Exported: Loading aggregate kept distinct from time-series plateau
 
 PDF pages: 4, 7, 8. Source evidence: Separate table groups and distinct aggregate statements on pp.7–8. p.8 says open exchange model cannot be confirmed.
 

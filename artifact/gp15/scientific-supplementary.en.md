@@ -381,7 +381,7 @@ Such observations would constrain alternatives, not automatically identify a uni
 |Original six calibration-pH means|Targets in the released calibration and values of the fixed depth reference|The model and comparator share calibration provenance; neither is newly fitted to GP15|
 |Reference-water and pH intercalibration reports|Motivate declared conditional perturbation scales|Not complete per-bottle error distributions, new validation observations or physical error bounds|
 |Leg 1 / reserved Leg 2 joint responses|Exploration / response check after original freeze|Metadata and support were already inspected; all responses are now exposed and later diagnostics cannot reuse either as independent validation|
-|Derived tables, independent code checks and AI reviews|Calculation verification and interpretation critique|Share underlying observations; computational independence does not create field-study independence or expert certification|
+|Derived tables, independent code checks and AI reviews|Calculation verification and interpretation critique|Share underlying observations; computational independence does not create field-study independence|
 
 ## Supplementary figure captions
 

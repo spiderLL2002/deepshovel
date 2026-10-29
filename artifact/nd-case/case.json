@@ -1,8 +1,7 @@
 {
   "schema_version": "nd-curated-case/1.0",
   "title": "Nd isotope offset and continuing uptake",
-  "curation_kind": "author-curated source-linked observation tuples for the demo artifact, prepared with AI assistance; not a rerun of automatic extraction",
-  "human_scientific_review": "not performed or asserted",
+  "curation_kind": "author-curated source-linked observation tuples for the demo artifact; not a rerun of automatic extraction",
   "article": {
     "title": "The stable isotope fractionation of neodymium on ferrihydrite revisited",
     "authors": [
@@ -240,7 +239,6 @@
   "interpretation": "A stable isotopic offset can coexist with increasing sorbed fraction; these are distinct observables.",
   "limits": [
     "Loading-series production observation mapping is recorded in production-link.json; the time-series tuple is page-curated.",
-    "No independent human labels or extraction accuracy asserted.",
     "Digitized pairs are archived time-only candidate associations requiring review, not independent measurements or verified identities.",
     "Workbook uncertainty column L is per-row propagated error, not proof of the aggregate ±0.030 construction."
   ]
